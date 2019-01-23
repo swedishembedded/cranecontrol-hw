@@ -1,0 +1,3859 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ANT_SR4W035
+#
+DEF ANT_SR4W035 A 0 40 Y Y 1 F N
+F0 "A" 0 300 50 H V C CNN
+F1 "ANT_SR4W035" 0 -450 50 H V C CNN ""
+F2 "MODULE:SR4W035" 0 -250 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/23/Serica-SR4W035-PS-1.0-1100557.pdf" 0 -50 50 H I C CNN ""
+F4 "SR4W035" 0 -350 50 H I C CNN "MPN"
+F5 "8080 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Antennas 2.4GHz FR4 lamainate antenna" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "1.21  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -250 200 250 -200 0 1 0 N
+X NC 1 -300 100 50 R 40 40 1 1 P
+X FEED 2 -300 0 50 R 40 40 1 1 P
+X GND 3 -300 -100 50 R 40 40 1 1 P
+X GND 4 300 -100 50 L 40 40 1 1 P
+X NC 5 300 0 50 L 40 40 1 1 P
+X GND 6 300 100 50 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAPP_100uF_25V_6357
+#
+DEF CAPP_100uF_25V_6357 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "CAPP_100uF_25V_6357" 25 -100 50 H V L CNN ""
+F2 "Capacitor_SMD:CP_Elec_6.3x5.7" 38 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/231/151002385281-1222337.pdf" 25 100 50 H I C CNN ""
+F4 "VZS101M1ETR-0606" 0 0 39 H I C CNN "MPN"
+F5 "25876 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Aluminium Electrolytic Capacitors - SMD 25 Volts 100uF 20% 6.3X5.7" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.335  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:CP_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "100uF 25V" Normal 0 C C
+S -60 -12 60 -27 1 1 0 F
+S -60 27 60 12 1 1 0 N
+P 2 1 1 0 -50 60 -30 60 N
+P 2 1 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_0.47uF_10V_0402
+#
+DEF ~CAP_0.47uF_10V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_0.47uF_10V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN ""
+F4 "CC0402KRX5R6BB474" 450 250 50 H I C CNN "MPN"
+F5 "33886 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 470nF 10V X5R 10%" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "0.47uF 10V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_0.5pF_50V_0402
+#
+DEF ~CAP_0.5pF_50V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_0.5pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_C1030_CBR_SMD-1101233.pdf" 10 70 50 H I C CNN ""
+F4 "CBR04C508C5GAC" 0 0 50 H I C CNN "MPN"
+F5 "16286 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.5pF C0G 0402 0.25pF" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.122  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "0.5pF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_0.8pF_50V_0402
+#
+DEF ~CAP_0.8pF_50V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_0.8pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/GCQ1555C1HR51WB01-01-1154307.pdf" 10 70 50 H I C CNN ""
+F4 "GCQ1555C1HR80WB01D" 0 0 50 H I C CNN "MPN"
+F5 "34617 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 0.80pF 0.05pF AEC-Q200" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.445  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "0.8pF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_1.2pF_50V_0402
+#
+DEF ~CAP_1.2pF_50V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_1.2pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/GCQ1555C1HR51WB01-01-1154307.pdf" 10 70 50 H I C CNN ""
+F4 "GCQ1555C1H1R2WB01D" 0 -350 50 H I C CNN "MPN"
+F5 "6401 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1.2pF 0.05pF AEC-Q200" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.402  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "1.2pF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_100nF_10V_0603
+#
+DEF ~CAP_100nF_10V_0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_100nF_10V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN ""
+F4 "VJ0603Y104JXQPW1BC" 0 -300 50 H I C CNN "MPN"
+F5 "14875 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 0.1uF 10volts X7R 5%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.166  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 900 -100 0 20 0 0 0 "100nF 10V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_100nF_16V_0402
+#
+DEF ~CAP_100nF_16V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_100nF_16V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_C1090_X7R_ESD-1103328.pdf" 10 70 50 H I C CNN ""
+F4 "C0402C104K4RECAUTO" 450 250 50 H I C CNN "MPN"
+F5 "2210 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF X7R 0402 10% AEC-Q200" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.148  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "100nF 16V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_100nF_50V_0402
+#
+DEF ~CAP_100nF_50V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_100nF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN ""
+F4 "GRM155R71H104ME14D" 450 250 50 H I C CNN "MPN"
+F5 "359167 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" 0 0 50 H I C CNN "Description"
+F7 "Not Recommended for New Designs" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "100nF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_100pF_50V_0402
+#
+DEF ~CAP_100pF_50V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_100pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/885012205055-554058.pdf" 10 70 50 H I C CNN ""
+F4 "885012205055" 0 0 50 H I C CNN "MPN"
+F5 "139976 On Order" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 100pF 0402 10% 50V MLCC" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.03  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "100pF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_10nF_50V_0402
+#
+DEF ~CAP_10nF_50V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_10nF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" 10 70 50 H I C CNN ""
+F4 "UMK105B7103KVHF" 0 0 50 H I C CNN "MPN"
+F5 "235904 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.01uF 50V X7R +/-10% 0402 AEC-Q200" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.157  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "10nF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_10pF_50V_0402
+#
+DEF ~CAP_10pF_50V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_10pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/885012005055-553907.pdf" 10 70 50 H I C CNN ""
+F4 "885012005055" 450 250 50 H I C CNN "MPN"
+F5 "383 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 10pF 0402 5% 50V MLCC" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.07  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "10pF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_10uF_16V_0603
+#
+DEF ~CAP_10uF_16V_0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_10uF_16V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_general_en-837201.pdf" 10 70 50 H I C CNN ""
+F4 "C1608X5R1C106M080AB" 0 0 50 H I C CNN "MPN"
+F5 "173508 On Order" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 16V 10uF X5R 20% T: 0.8mm" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.742  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "10uF 16V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_10uF_16V_3216
+#
+DEF ~CAP_10uF_16V_3216 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_10uF_16V_3216" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_1206_3216Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 70 50 H I C CNN ""
+F4 "GCM31CR71C106KA64K" 0 0 50 H I C CNN "MPN"
+F5 "16286 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 16Volts X7R 10%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "1.09  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "10uF 16V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_10uF_35V_0603
+#
+DEF ~CAP_10uF_35V_0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_10uF_35V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN ""
+F4 "GRM188R6YA106MA73D" 0 -350 50 H I C CNN "MPN"
+F5 "1829 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.437  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "10uF 35V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_10uF_6.3V_0402
+#
+DEF ~CAP_10uF_6.3V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_10uF_6.3V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN ""
+F4 "GRM155C80J106ME11J" 0 -350 50 H I C CNN "MPN"
+F5 "338282 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.21  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "10uF 6.3V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_10uF_63V_5750
+#
+DEF ~CAP_10uF_63V_5750 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_10uF_63V_5750" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_2220_5650Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN ""
+F4 "KRM55QR71J106KH01K" 0 -300 50 H I C CNN "MPN"
+F5 "221948 On Order" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 10uF 63volts *Derate Voltage/Temp" 0 0 50 H I C CNN "Description"
+F7 "Not Recommended for New Designs" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.961  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "10uF 63V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_1nF_50V_0402
+#
+DEF ~CAP_1nF_50V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_1nF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" 10 70 50 H I C CNN ""
+F4 "C0402C102J5RAC7411" 0 0 50 H I C CNN "MPN"
+F5 "51530 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 1000pF X7R 0402 5%" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.096  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "1nF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_1uF_6.3V_0402
+#
+DEF ~CAP_1uF_6.3V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_1uF_6.3V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_lowprofile_en-520027.pdf" 10 70 50 H I C CNN ""
+F4 "CGB2A1X7S0J105M033BC" 0 0 50 H I C CNN "MPN"
+F5 "75025 On Order" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGB 0402 6.3V 1uF X7S 20% T: 0.33mm" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.166  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "1uF 6.3V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_2.2uF_16V_0402
+#
+DEF ~CAP_2.2uF_16V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_2.2uF_16V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GRT_Series-1310174.pdf" 10 70 50 H I C CNN ""
+F4 "GRT155C81C225KE13D" 0 -350 50 H I C CNN "MPN"
+F5 "113017 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 16Vdc 2.2uF X6S 10%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.271  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "2.2uF 16V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_22uF_10V_0805
+#
+DEF ~CAP_22uF_10V_0805 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_22uF_10V_0805" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0805_2012Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" 10 70 50 H I C CNN ""
+F4 "LMK212BBJ226MG-T" 450 250 50 H I C CNN "MPN"
+F5 "131798 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.245  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "22uF 10V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_39pF_50V_0603
+#
+DEF ~CAP_39pF_50V_0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_39pF_50V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_C1003_C0G_SMD-1101588.pdf" 10 70 50 H I C CNN ""
+F4 "C0603C390J5GACTU" 0 -300 50 H I C CNN "MPN"
+F5 "3 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 39pF 0603 C0G 5%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "39pF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_47uF_16V_1210
+#
+DEF ~CAP_47uF_16V_1210 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_47uF_16V_1210" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_1210_3225Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" 10 70 50 H I C CNN ""
+F4 "EMK325BJ476MM-T" 0 -300 50 H I C CNN "MPN"
+F5 "56021 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 47uF 16V X5R +/-20% 1210 Gen Purp" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.873  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "47uF 16V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_56nF_50V_0805
+#
+DEF ~CAP_56nF_50V_0805 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_56nF_50V_0805" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0805_2012Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN ""
+F4 "VJ0805Y563MXAPW1BC" 450 250 50 H I C CNN "MPN"
+F5 "13197 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 0.056uF 50volts X7R 20%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.279  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "56nF 50V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_6800pF_10V_0603
+#
+DEF ~CAP_6800pF_10V_0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_6800pF_10V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN ""
+F4 "VJ0603Y682MXQPW1BC" 0 -300 50 H I C CNN "MPN"
+F5 "38883 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6800pF 10volts X7R 20%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "6800pF 10V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_680pF_200V_0603
+#
+DEF ~CAP_680pF_200V_0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_680pF_200V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" 10 70 50 H I C CNN ""
+F4 "06032C681KAT2A" 50 -200 39 H I C CNN "MPN"
+F5 "19480 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 200V 680pF X7R 0603 10%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.14  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 1 0 "680pF 200V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP_8200pF_50V_0603
+#
+DEF ~CAP_8200pF_50V_0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CAP_8200pF_50V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN ""
+F4 "VJ0603Y822KXAPW1BC" 0 -300 50 H I C CNN "MPN"
+F5 "29392 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 8200pF 50volts X7R 10%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.114  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "8200pF 10V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_CAN
+#
+DEF ~CONN_CAN P 0 40 Y Y 1 F N
+F0 "P" -100 150 50 H V C CNN
+F1 "CONN_CAN" 0 -150 50 H I C CNN ""
+F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" 50 -250 50 H I C CNN ""
+F3 "" -100 -50 50 H V C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X03
+ Pin_Header_Angled_1X03
+ Socket_Strip_Straight_1X03
+ Socket_Strip_Angled_1X03
+$ENDFPLIST
+DRAW
+S -150 100 125 -100 0 1 0 N
+X CAN+ 1 -300 50 150 R 50 50 1 1 P
+X CAN- 2 -300 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_DEBUG
+#
+DEF ~CONN_DEBUG P 0 40 Y Y 1 F N
+F0 "P" 100 500 50 H V C CNN
+F1 "CONN_DEBUG" 100 -600 50 H I C CNN ""
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" 0 100 50 H I C CNN ""
+F3 "" 0 100 50 H V C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -50 450 250 -550 0 1 0 N
+X VCC 1 -200 350 150 R 50 50 1 1 P
+X GND 2 -200 250 150 R 50 50 1 1 P
+X TX 3 -200 150 150 R 50 50 1 1 P
+X RX 4 -200 50 150 R 50 50 1 1 P
+X RST 5 -200 -50 150 R 50 50 1 1 P
+X SWDIO 6 -200 -150 150 R 50 50 1 1 P
+X SWCLK 7 -200 -250 150 R 50 50 1 1 P
+X SWO 8 -200 -350 150 R 50 50 1 1 P
+X BOOT 9 -200 -450 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_DEBUG_2R
+#
+DEF ~CONN_DEBUG_2R P 0 40 Y Y 1 F N
+F0 "P" 100 500 50 H V C CNN
+F1 "CONN_DEBUG_2R" 100 -700 50 H I C CNN ""
+F2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN ""
+F3 "" 0 100 50 H V C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -50 450 250 -650 0 1 0 N
+X VCC 1 -200 350 150 R 50 50 1 1 P
+X NC 10 -200 -550 150 R 50 50 1 1 N
+X GND 2 -200 250 150 R 50 50 1 1 P
+X TX 3 -200 150 150 R 50 50 1 1 P
+X RX 4 -200 50 150 R 50 50 1 1 P
+X RST 5 -200 -50 150 R 50 50 1 1 P
+X SWDIO 6 -200 -150 150 R 50 50 1 1 P
+X SWCLK 7 -200 -250 150 R 50 50 1 1 P
+X SWO 8 -200 -350 150 R 50 50 1 1 P
+X BOOT 9 -200 -450 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_ENC_OUT
+#
+DEF ~CONN_ENC_OUT P 0 40 Y Y 1 F N
+F0 "P" 0 300 50 H V C CNN
+F1 "CONN_ENC_OUT" 0 -300 50 H I C CNN ""
+F2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" -100 -100 50 H I C CNN ""
+F3 "" -100 -100 50 H V C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -150 450 150 -450 0 1 0 N
+X A+ 1 -250 350 100 R 50 50 1 1 P
+X A- 2 -250 250 100 R 50 50 1 1 P
+X B+ 3 -250 150 100 R 50 50 1 1 P
+X B- 4 -250 50 100 R 50 50 1 1 P
+X Z+ 5 -250 -50 100 R 50 50 1 1 P
+X Z- 6 -250 -150 100 R 50 50 1 1 P
+X GND 7 -250 -250 100 R 50 50 1 1 P
+X GND 8 -250 -350 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_I2C_2MM
+#
+DEF ~CONN_I2C_2MM P 0 40 Y Y 1 F N
+F0 "P" -100 250 50 H V C CNN
+F1 "CONN_I2C_2MM" 0 -250 50 H I C CNN ""
+F2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" 50 -350 50 H I C CNN ""
+F3 "" -100 50 50 H V C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X03
+ Pin_Header_Angled_1X03
+ Socket_Strip_Straight_1X03
+ Socket_Strip_Angled_1X03
+$ENDFPLIST
+DRAW
+S -150 200 125 -200 0 1 0 N
+X SCL 1 -300 150 150 R 50 50 1 1 P
+X SDA 2 -300 50 150 R 50 50 1 1 P
+X GND 3 -300 -50 150 R 50 50 1 1 P
+X 3V3 4 -300 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_LORA_RF
+#
+DEF CONN_LORA_RF P 0 40 Y Y 1 F N
+F0 "P" 0 700 50 H V C CNN
+F1 "CONN_LORA_RF" 0 600 50 H V C CNN ""
+F2 "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical" 0 700 50 H I C CNN ""
+F3 "" 0 700 50 H I C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+DRAW
+S -150 550 200 -650 0 1 0 N
+P 2 0 1 0 200 -200 -150 -200 N
+X 3V3 1 -350 450 200 R 50 50 1 1 w
+X DIO2 10 -350 -450 200 R 50 50 1 1 B
+X DIO3 11 -350 -550 200 R 50 50 1 1 B
+X GND 2 -350 350 200 R 50 50 1 1 w
+X CS 3 -350 250 200 R 50 50 1 1 O
+X MISO 4 -350 150 200 R 50 50 1 1 I
+X MOSI 5 -350 50 200 R 50 50 1 1 O
+X SCK 6 -350 -50 200 R 50 50 1 1 O
+X BUSY 7 -350 -150 200 R 50 50 1 1 I
+X NRESET 8 -350 -250 200 R 50 50 1 1 O
+X DIO1 9 -350 -350 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# CONN_POWER_24V
+#
+DEF ~CONN_POWER_24V P 0 40 Y Y 1 F N
+F0 "P" -100 150 50 H V C CNN
+F1 "CONN_POWER_24V" 0 -150 50 H I C CNN ""
+F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" -100 -50 50 H I C CNN ""
+F3 "" -100 -50 50 H V C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X03
+ Pin_Header_Angled_1X03
+ Socket_Strip_Straight_1X03
+ Socket_Strip_Angled_1X03
+$ENDFPLIST
+DRAW
+S -150 100 125 -100 0 1 0 N
+X +24V 1 -250 50 100 R 50 50 1 1 P
+X GND 2 -250 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_PPM_IN
+#
+DEF ~CONN_PPM_IN P 0 40 Y Y 1 F N
+F0 "P" -50 200 50 H V C CNN
+F1 "CONN_PPM_IN" -50 -200 50 H I C CNN ""
+F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" -150 -50 50 H V C CNN ""
+F3 "" -150 -50 50 H V C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X03
+ Pin_Header_Angled_1X03
+ Socket_Strip_Straight_1X03
+ Socket_Strip_Angled_1X03
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 0 N
+X PPM_IN 1 -350 50 150 R 50 50 1 1 P
+X GND 2 -350 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_PPM_OUT
+#
+DEF ~CONN_PPM_OUT P 0 40 Y Y 1 F N
+F0 "P" -50 200 50 H V C CNN
+F1 "CONN_PPM_OUT" -50 -200 50 H I C CNN ""
+F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" -150 -50 50 H V C CNN ""
+F3 "" -150 -50 50 H V C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X03
+ Pin_Header_Angled_1X03
+ Socket_Strip_Straight_1X03
+ Socket_Strip_Angled_1X03
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 0 N
+X PPM_OUT 1 -350 50 150 R 50 50 1 1 P
+X GND 2 -350 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_SMA
+#
+DEF CONN_SMA J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "CONN_SMA" 115 0 50 V V C CNN ""
+F2 "Connector_Coaxial:SMA_Jack_Vertical" -90 20 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/276/0731000114_RF_COAX_CONNECTORS-173109.pdf" 0 0 50 H I C CNN ""
+F4 "73100-0114" 0 0 50 H I C CNN "MPN"
+F5 "926 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "RF Connectors / Coaxial Connectors RA JACK PCB" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "4.51  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -50 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -150 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_UART
+#
+DEF ~CONN_UART P 0 40 Y Y 1 F N
+F0 "P" 0 300 50 H V C CNN
+F1 "CONN_UART" 0 -300 50 H I C CNN ""
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" -100 -100 50 H I C CNN ""
+F3 "" -100 -100 50 H V C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -150 250 150 -250 0 1 0 N
+X VCC 1 -300 150 150 R 50 50 1 1 P
+X GND 2 -300 50 150 R 50 50 1 1 P
+X TX 3 -300 -50 150 R 50 50 1 1 P
+X RX 4 -300 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_XT60
+#
+DEF ~CONN_XT60 J 0 40 Y Y 1 F N
+F0 "J" -50 100 50 H V C CNN
+F1 "CONN_XT60" 0 -200 50 H I C CNN ""
+F2 "CUSTOM:XT60" -100 0 50 H I C CNN ""
+F3 "" 0 100 50 H I C CNN ""
+F4 "BATTERY" 150 100 50 H V C CNN "Silkscreen"
+F5 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 50 300 -150 1 1 10 f
+X GND 1 -200 0 150 R 50 50 1 1 w
+X POWER 2 -200 -100 150 R 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# D_1N4148
+#
+DEF ~D_1N4148 D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_1N4148" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SOD-123" 20 -225 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/ds30086-318161.pdf" -50 80 50 H I C CNN ""
+F4 "1N4148WQ-7-F" 50 -150 39 H I C CNN "MPN"
+F5 "552549 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Diodes - General Purpose, Power, Switching SMT Fast Switching Diode" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.175  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 0 -65 20 0 0 0 1N4148 Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_B240A
+#
+DEF ~D_B240A D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_B240A" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SMA" 100 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/b230la-108339.pdf" 0 0 50 V I C CNN ""
+F4 "B240AE-13" 0 -250 50 H I C CNN "MPN"
+F5 "59 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers 2.0 Amp 40 Volt" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.349  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 0 -100 20 0 0 0 "B240A 2A 40V" Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_B520C
+#
+DEF ~D_B520C D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_B520C" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SMC" 100 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/ds13012-73423.pdf" 0 0 50 V I C CNN ""
+F4 "B520C-13-F" 0 -300 50 H I C CNN "MPN"
+F5 "4048 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers 20V 5A" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.795  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 0 -100 20 0 0 0 "B520C 5A 20V" Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_ESDCAN06
+#
+DEF ~D_ESDCAN06 D 0 10 Y N 1 F N
+F0 "D" -60 310 50 H V L CNN
+F1 "D_ESDCAN06" -250 -350 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SOT-323_SC-70" 50 -450 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/esdcan02-2bwy-954689.pdf" 30 -100 50 V I C CNN ""
+F4 "ESDCAN06-2BWY" 10 420 50 H I C CNN "MPN"
+F5 "20191 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ESD Suppressors / TVS Diodes Automotive dual-line Transil, Transient voltage suppressor (TVS) for CAN bus" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.367  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 900 20 0 20 0 0 0 ESDCAN06 Normal 0 C C
+P 2 0 1 0 -80 -100 -60 -100 N
+P 2 0 1 0 -80 100 -60 100 N
+P 2 0 1 0 0 -140 0 -60 N
+P 2 0 1 0 0 60 0 140 N
+P 2 0 1 0 60 -100 80 -100 N
+P 2 0 1 0 80 100 60 100 N
+P 2 0 1 0 80 100 80 -100 N
+P 4 0 1 0 0 -100 -60 -60 -60 -140 0 -100 F
+P 4 0 1 0 0 100 -60 140 -60 60 0 100 F
+P 4 0 1 0 60 -140 0 -100 60 -60 60 -140 F
+P 4 0 1 0 60 60 0 100 60 140 60 60 F
+X ~ 1 -150 100 70 R 50 50 1 1 P
+X K 2 -150 -100 70 R 50 50 1 1 P
+X A 3 150 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_S1MB_1N4007_1000V_1A
+#
+DEF ~D_S1MB_1N4007_1000V_1A D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_S1MB_1N4007_1000V_1A" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SMB" 20 -225 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/ds16003-83672.pdf" 0 0 50 V I C CNN ""
+F4 "S1MB-13-F" 50 -150 39 H I C CNN "MPN"
+F5 "66437 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Rectifiers 1000V 1A" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.349  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 0 -65 20 0 0 0 "S1MB 1A 1000V" Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_SCH_60V_2A
+#
+DEF ~D_SCH_60V_2A D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_SCH_60V_2A" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SOD-123" 100 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stps2l60zfy-1098782.pdf" 0 0 50 V I C CNN ""
+F4 "STPS2L60ZFY" 0 -250 50 H I C CNN "MPN"
+F5 "59185 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers Automotive low drop power Schottky rectifier" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.437  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 0 -80 20 0 0 0 "60V 2A" Normal 0 C C
+P 2 0 1 0 -30 -40 -40 -50 N
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 2 0 1 0 -30 40 -20 50 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_SDM40E20LC
+#
+DEF ~D_SDM40E20LC D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_SDM40E20LC" -280 210 50 H I L CNN ""
+F2 "CUSTOM:D_SOT-23_DBL_ANK" 20 -255 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/ds30298-90424.pdf" -50 80 50 H I C CNN ""
+F4 "SDM40E20LC-7" 0 140 39 H I C CNN "MPN"
+F5 "25846 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers 0.4A COMMON CATHODE 20V" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.594  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 20 -120 20 0 0 0 "20V 0.4A" Normal 0 C C
+T 0 50 -85 20 0 0 0 SDM40E20LC Normal 0 C C
+P 2 0 0 0 -30 -240 -40 -250 N
+P 2 0 0 0 -30 -230 -30 -240 N
+P 2 0 0 0 -30 -160 -30 -230 N
+P 2 0 0 0 -30 -160 -20 -150 N
+P 2 0 0 0 -30 -40 -40 -50 N
+P 2 0 0 0 -30 40 -20 50 N
+P 4 0 0 0 -30 -200 30 -160 30 -240 -30 -200 F
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 3 0 1 0 -30 -200 -60 -200 -60 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X ~ 1 100 -200 100 L 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+X K 3 -100 0 70 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_TVS_5V5_0402
+#
+DEF ~D_TVS_5V5_0402 D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_TVS_5V5_0402" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_0402_1005Metric" 100 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/40/AVX-GiGuard-1101674.pdf" 0 0 50 V I C CNN ""
+F4 "GG0402052R542P" 0 -250 50 H I C CNN "MPN"
+F5 "49850 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ESD Suppressors / TVS Diodes SMP Diode 0402, 5vdc 2.5 pf,<12v clamp@1a" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.271  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 0 -100 20 0 0 0 "TVS 5.5V" Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FUSE_1A_24V_0402
+#
+DEF ~FUSE_1A_24V_0402 F 0 10 N N 1 F N
+F0 "F" 30 20 50 H V L CNN
+F1 "FUSE_1A_24V_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_SFF_Datasheet.pdf-1155130.pdf" 30 20 50 H I C CNN ""
+F4 "0402SFF100F/24-2" 130 120 50 H I C CNN "MPN"
+F5 "13879 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Surface Mount Fuses 1Ar 24V 35Ai .12 DCR Ohms" 0 0 50 H I C CNN "Description"
+F7 "0.952  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 1A Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+P 2 0 0 0 -50 50 -50 -50 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF ~GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H I C CNN ""
+F2 "" 0 0 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+DRAW
+P 2 0 1 0 -60 -75 -75 -95 N
+P 2 0 1 0 -60 -75 60 -75 N
+P 2 0 1 0 -30 -75 -45 -95 N
+P 2 0 1 0 0 -75 -15 -95 N
+P 2 0 1 0 0 0 0 -75 N
+P 2 0 1 0 30 -75 15 -95 N
+P 2 0 1 0 60 -75 45 -95 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GNDREF
+#
+DEF ~GNDREF #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GNDREF" 0 -150 50 H I C CNN ""
+F2 "" 0 0 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X GNDREF 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GPS_M10578-A2
+#
+DEF GPS_M10578-A2 U 0 40 Y Y 1 F N
+F0 "U" 0 750 50 H V C CNN
+F1 "GPS_M10578-A2" 0 650 50 H V C CNN ""
+F2 "MODULE:M10578A2" -100 550 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/23/GPS_Radionova_M10578-A2_PS-1.0-844843.pdf" -100 550 50 H I C CNN ""
+F4 "M10578-A2" 0 -650 50 H I C CNN "MPN"
+F5 "151 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "GPS Modules MediaTek MT3337-EChip" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "13.30  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -400 600 400 -600 0 1 0 N
+X GND 1 -600 200 200 R 50 50 1 1 W
+X TX 10 600 100 200 L 50 50 1 1 O
+X E2 11 600 0 200 L 50 50 1 1 I
+X E3 12 600 -100 200 L 50 50 1 1 I
+X FIX 13 600 -200 200 L 50 50 1 1 O
+X BV 14 600 -300 200 L 50 50 1 1 I
+X VCC 15 600 -400 200 L 50 50 1 1 W
+X GND 16 600 -500 200 L 50 50 1 1 W
+X GND 2 -600 100 200 R 50 50 1 1 W
+X RF_IN 3 -600 0 200 R 50 50 1 1 I
+X GND 4 -600 -100 200 R 50 50 1 1 W
+X GND 5 -600 -200 200 R 50 50 1 1 W
+X PPS 6 600 500 200 L 50 50 1 1 O
+X HW_R 7 600 400 200 L 50 50 1 1 I
+X HW_S 8 600 300 200 L 50 50 1 1 I
+X RX 9 600 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IC_74LVC2G86
+#
+DEF IC_74LVC2G86 U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "IC_74LVC2G86" 0 200 50 H V C CNN ""
+F2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" -100 200 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/74LVC2G86-959249.pdf" 0 0 50 H I C CNN ""
+F4 "SN74LVC2G86DCUR" 0 -400 50 H I C CNN "MPN"
+F5 "3941 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Logic Gates Logic LVC 2 Gate" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.367  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+T 0 0 100 20 0 0 0 XOR Normal 0 C C
+S -200 150 200 -350 0 1 0 N
+X 1A 1 -350 50 150 R 50 50 1 1 I
+X 1B 2 -350 -50 150 R 50 50 1 1 I
+X 2Y 3 350 -50 150 L 50 50 1 1 O
+X GND 4 350 -250 150 L 50 50 1 1 W
+X 2A 5 -350 -150 150 R 50 50 1 1 I
+X 2B 6 -350 -250 150 R 50 50 1 1 I
+X 1Y 7 350 50 150 L 50 50 1 1 O
+X VCC 8 350 -150 150 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# IC_ACT4088
+#
+DEF IC_ACT4088 U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "IC_ACT4088" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23-6" 50 450 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/631/ACT4088_Datasheet-1291541.pdf" 0 250 50 H I C CNN ""
+F4 "ACT4088US-T" 0 -250 50 H I C CNN "MPN"
+F5 "25437 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Switching Voltage Regulators 28V, 1.2A, 1.4MHz Step-Down Converter" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/631/ACT4088_Datasheet-1291541.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.672  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+T 0 0 -150 20 0 0 0 "28V 1.2A" Normal 0 C C
+S -300 200 300 -200 0 1 0 N
+X SW 1 -500 100 200 R 50 50 1 1 O
+X IN 2 -500 0 200 R 50 50 1 1 W
+X EN 3 -500 -100 200 R 50 50 1 1 I
+X FB 4 500 -100 200 L 50 50 1 1 I
+X GND 5 500 0 200 L 50 50 1 1 W
+X BST 6 500 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IC_ADNS3080
+#
+DEF IC_ADNS3080 U 0 40 Y Y 1 F N
+F0 "U" 0 600 50 H V C CNN
+F1 "IC_ADNS3080" 0 -600 50 H V C CNN ""
+F2 "CUSTOM:ADNS-3080" -100 500 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
+F4 "ADNS3080" 0 -700 50 H I C CNN "MPN"
+F5 "Not Available" 0 0 50 H I C CNN "Availability"
+F6 "Optical Navigation Sensors Optical Mouse Sensor" 0 0 50 H I C CNN "Description"
+F7 "Obsolete" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "Not Available" 0 0 50 H I C CNN "Price"
+DRAW
+S -450 550 450 -550 0 1 0 N
+X NCS 1 -550 450 100 R 50 50 1 1 I
+X OSC_IN 10 -550 -450 100 R 50 50 1 1 I
+X NC 11 550 -450 100 L 50 50 1 1 N
+X OPTP 12 550 -350 100 L 50 50 1 1 I
+X REFC 13 550 -250 100 L 50 50 1 1 P
+X REFB 14 550 -150 100 L 50 50 1 1 P
+X VDD3 15 550 -50 100 L 50 50 1 1 W
+X GND 16 550 50 100 L 50 50 1 1 W
+X VDD3 17 550 150 100 L 50 50 1 1 W
+X NC 18 550 250 100 L 50 50 1 1 N
+X GND 19 550 350 100 L 50 50 1 1 W
+X MISO 2 -550 350 100 R 50 50 1 1 O
+X NC 20 550 450 100 L 50 50 1 1 N
+X SCLK 3 -550 250 100 R 50 50 1 1 I
+X MOSI 4 -550 150 100 R 50 50 1 1 I
+X LED_CTRL 5 -550 50 100 R 50 50 1 1 O
+X RESET 6 -550 -50 100 R 50 50 1 1 I
+X NPD 7 -550 -150 100 R 50 50 1 1 I
+X OSC_OUT 8 -550 -250 100 R 50 50 1 1 O
+X GUARD 9 -550 -350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IC_AP7313-33SAG-7
+#
+DEF IC_AP7313-33SAG-7 U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "IC_AP7313-33SAG-7" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23" 0 300 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/AP7313-82404.pdf" 0 300 50 H I C CNN ""
+F4 "AP7313-33SAG-7" 450 -250 50 H I C CNN "MPN"
+F5 "23387 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "LDO Voltage Regulators LDO SOT-23 3.3V/150MA" 0 0 50 H I C CNN "Description"
+F7 "0.349  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+DRAW
+T 0 350 50 20 0 0 0 "3.3V 150mA" Normal 0 C C
+S -250 200 250 -150 0 1 0 N
+X IN 1 -400 100 150 R 50 50 1 1 W
+X OUT 2 400 100 150 L 50 50 1 1 w
+X GND 3 0 -300 150 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# IC_AZ34063U
+#
+DEF IC_AZ34063U U 0 40 Y Y 1 F N
+F0 "U" 0 300 39 H V C CNN
+F1 "IC_AZ34063U" 0 -300 39 H V C CNN ""
+F2 "SOIC:SOIC127P600X175-8N" 0 400 39 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/AZ34063U-271663.pdf" 0 0 39 H I C CNN ""
+F4 "AZ34063UMTR-G1" 0 -350 39 H I C CNN "MPN"
+F5 "10336 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/115/AZ34063U-271663.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.41  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+T 0 0 -200 20 0 0 0 "1.25-36V 1.5A" Normal 0 C C
+S -300 250 300 -250 0 1 0 N
+X SC 1 400 150 100 L 50 50 1 1 P
+X SE 2 400 50 100 L 50 50 1 1 P
+X TC 3 400 -50 100 L 50 50 1 1 P
+X GND 4 400 -150 100 L 50 50 1 1 P
+X CI 5 -400 150 100 R 50 50 1 1 P
+X VCC 6 -400 50 100 R 50 50 1 1 W
+X ISENS 7 -400 -50 100 R 50 50 1 1 P
+X DC 8 -400 -150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IC_ICM-20689
+#
+DEF IC_ICM-20689 U 0 40 Y Y 1 F N
+F0 "U" -450 550 50 H V C CNN
+F1 "IC_ICM-20689" 400 550 50 H V C CNN ""
+F2 "QFN:QFN50P40X40X90-25N" 0 -800 50 H I C CNN ""
+F3 "" 0 -150 50 H I C CNN ""
+F4 "ICM-20689" 0 0 50 H I C CNN "MPN"
+F5 "3456 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "IMUs - Inertial Measurement Units 6-Axis DMP-Enabled Drone/VR/IoT solution, Targeted For All Current MPU-6000/6050 Users" 0 0 50 H I C CNN "Description"
+F7 "New at Mouser" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "https://www.mouser.com/datasheet/2/400/DS-000143-ICM-20689-v1.0-1113003.pdf" 0 0 50 H I C CNN "Datasheet"
+F10 "5.39  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ QFN*4x4mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -500 500 500 -500 0 1 10 f
+X NC 1 100 -700 200 U 50 50 1 1 N
+X REGOUT 10 -700 -300 200 R 50 50 1 1 O
+X FSYNC 11 -700 -200 200 R 50 50 1 1 I
+X INT 12 700 300 200 L 50 50 1 1 O
+X VDD 13 0 700 200 D 50 50 1 1 W
+X NC 14 -400 -700 200 U 50 50 1 1 N
+X NC 15 -300 -700 200 U 50 50 1 1 N
+X NC 16 -200 -700 200 U 50 50 1 1 N
+X NC 17 -100 -700 200 U 50 50 1 1 N
+X GND 18 0 -700 200 U 50 50 1 1 P
+X NC 19 700 -300 200 L 50 50 1 1 N
+X NC 2 200 -700 200 U 50 50 1 1 N
+X NC 20 700 -200 200 L 50 50 1 1 N
+X NC 21 700 -100 200 L 50 50 1 1 N
+X ~CS 22 -700 0 200 R 50 50 1 1 I
+X SCL/SCLK 23 -700 100 200 R 50 50 1 1 I
+X SDA/MOSI 24 -700 300 200 R 50 50 1 1 B
+X NC 3 300 -700 200 U 50 50 1 1 N
+X NC 4 400 -700 200 U 50 50 1 1 N
+X NC 5 700 200 200 L 50 50 1 1 N
+X NC 6 700 100 200 L 50 50 1 1 N
+X NC 7 700 0 200 L 50 50 1 1 N
+X VDDIO 8 100 700 200 D 50 50 1 1 W
+X AD0/MISO 9 -700 200 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# IC_LDLN025
+#
+DEF IC_LDLN025 U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "IC_LDLN025" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 250 50 H I C CNN ""
+F3 "" 0 250 50 H I C CNN ""
+F4 "LDLN025M18R" 0 -250 50 H I C CNN "MPN"
+F5 "529 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "LDO Voltage Regulators 250 mA ultra-low noise LDO" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "https://www.mouser.com/datasheet/2/389/ldln025-974163.pdf" 0 0 50 H I C CNN "Datasheet"
+F10 "0.786  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+T 0 0 -150 20 0 0 0 "1.8V 250mA" Normal 0 C C
+S -300 200 300 -200 0 1 0 N
+X VIN 1 -500 100 200 R 50 50 1 1 W
+X GND 2 500 0 200 L 50 50 1 1 W
+X EN 3 -500 0 200 R 50 50 1 1 I
+X NC 4 500 -100 200 L 50 50 1 1 U
+X VOUT 5 500 100 200 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# IC_MIC5225_2.5V
+#
+DEF IC_MIC5225_2.5V U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "IC_MIC5225_2.5V" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 250 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/268/mic5225-1082288.pdf" 0 250 50 H I C CNN ""
+F4 "MIC5225-2.5YM5-TR" 0 -250 50 H I C CNN "MPN"
+F5 "1538 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "LDO Voltage Regulators High Vin, Low Iq Regulator" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/268/mic5225-1082288.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.358  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+T 0 0 -150 20 0 0 0 "2.5V 150mA" Normal 0 C C
+S -300 200 300 -200 0 1 0 N
+X VIN 1 -400 100 100 R 50 50 1 1 W
+X GND 2 400 -100 100 L 50 50 1 1 W
+X EN 3 -400 -100 100 R 50 50 1 1 I
+X NC 4 400 0 100 L 50 50 1 1 N
+X VOUT 5 400 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# IC_NCP51460SN33T1G
+#
+DEF IC_NCP51460SN33T1G U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "IC_NCP51460SN33T1G" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23" 0 300 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/NCP51460-D-60909.pdf" 0 300 50 H I C CNN ""
+F4 "NCP51460SN33T1G" 450 -250 50 H I C CNN "MPN"
+F5 "8024 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Voltage References PRECISE LN 20 MA LDO REG" 0 0 50 H I C CNN "Description"
+F7 "0.629  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+DRAW
+T 0 350 50 20 0 0 0 "3.3V 20mA" Normal 0 C C
+S -250 200 250 -150 0 1 0 N
+X IN 1 -400 100 150 R 50 50 1 1 W
+X OUT 2 400 100 150 L 50 50 1 1 w
+X GND 3 0 -300 150 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# IC_PCA9306
+#
+DEF IC_PCA9306 U 0 40 Y Y 1 F N
+F0 "U" -300 450 50 H V L CNN
+F1 "IC_PCA9306" 200 450 50 H V L CNN ""
+F2 "Package_SO:Zetex_SM8" -400 350 50 H I C CNN ""
+F3 "" -300 450 50 H I C CNN ""
+F4 "PCA9306DCTR" 0 0 50 H I C CNN "MPN"
+F5 "76304 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Translation - Voltage Levels Dual BiDir I2C-Bus & SMBus Vltg Lvl-Trans" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "0.568  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ SSOP*2.95x2.8mm*P0.65mm*
+ VSSOP*2.3x2mm*P0.5mm*
+ X2SON*1.4x1mm*P0.35mm*
+$ENDFPLIST
+DRAW
+S -300 400 300 -400 0 1 10 f
+X GND 1 0 -500 100 U 50 50 1 1 W
+X VREF1 2 -100 500 100 D 50 50 1 1 W
+X SCL1 3 -400 0 100 R 50 50 1 1 B
+X SDA1 4 -400 -100 100 R 50 50 1 1 B
+X SDA2 5 400 -100 100 L 50 50 1 1 B
+X SCL2 6 400 0 100 L 50 50 1 1 B
+X VREF2 7 100 500 100 D 50 50 1 1 W
+X EN 8 400 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IC_PGA460
+#
+DEF IC_PGA460 U 0 40 Y Y 1 F N
+F0 "U" 0 850 50 H V C CNN
+F1 "IC_PGA460" 0 -850 50 H V C CNN ""
+F2 "PDSO:PDSO65P510X120-16N" -100 750 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
+F4 "PGA460TPW" 0 -950 50 H I C CNN "MPN"
+F5 "273 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Analog Front End - AFE Ultrasonic Signal Processor and Transducer Driver 16-TSSOP -40 to 105" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "4.03  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -350 750 350 -750 0 1 0 N
+X GND 1 -450 -550 100 R 50 50 1 1 P
+X TXD 10 -450 350 100 R 50 50 1 1 O
+X RXD 11 -450 250 100 R 50 50 1 1 I
+X SCLK 12 -450 450 100 R 50 50 1 1 I
+X DECPL 13 450 -150 100 L 50 50 1 1 O
+X IOREG 14 -450 -350 100 R 50 50 1 1 P
+X VPWR 15 -450 650 100 R 50 50 1 1 P
+X AVDD 16 -450 -150 100 R 50 50 1 1 P
+X INP 2 450 250 100 L 50 50 1 1 I
+X INN 3 450 50 100 L 50 50 1 1 I
+X GND 4 -450 -650 100 R 50 50 1 1 P
+X OUTA 5 450 650 100 L 50 50 1 1 O
+X GNDP 6 450 -650 100 L 50 50 1 1 P
+X OUTB 7 450 450 100 L 50 50 1 1 O
+X IO 8 -450 50 100 R 50 50 1 1 B
+X TEST 9 -450 -50 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# IC_SN75ALS192D
+#
+DEF IC_SN75ALS192D U 0 40 Y Y 1 F N
+F0 "U" 0 700 50 H V C CNN
+F1 "IC_SN75ALS192D" 0 600 50 H V C CNN ""
+F2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" 0 800 50 H I C CNN ""
+F3 "" 0 100 50 H I C CNN ""
+F4 "SN75ALS192D" 0 -700 50 H I C CNN "MPN"
+F5 "1411 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "RS-422 Interface IC Quad Diff Line" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "0.812  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+T 0 0 200 20 0 0 0 "Line Drive" Normal 0 C C
+S -200 250 200 -650 0 1 0 N
+S -200 550 200 250 0 1 0 N
+X 1A 1 -300 100 100 R 50 50 1 1 I
+X 3Y 10 300 -250 100 L 50 50 1 1 O
+X 3Z 11 300 -350 100 L 50 50 1 1 O
+X ~G 12 -300 350 100 R 50 50 1 1 I
+X 4Z 13 300 -550 100 L 50 50 1 1 O
+X 4Y 14 300 -450 100 L 50 50 1 1 O
+X 2B 15 -300 -500 100 R 50 50 1 1 I
+X VCC 16 300 450 100 L 50 50 1 1 W
+X 1Y 2 300 150 100 L 50 50 1 1 O
+X 1Z 3 300 50 100 L 50 50 1 1 O
+X G 4 -300 450 100 R 50 50 1 1 I
+X 2Z 5 300 -150 100 L 50 50 1 1 O
+X 2Y 6 300 -50 100 L 50 50 1 1 O
+X 1B 7 -300 -100 100 R 50 50 1 1 I
+X GND 8 300 350 100 L 50 50 1 1 W
+X 2A 9 -300 -300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IC_STM32F103CBU6
+#
+DEF IC_STM32F103CBU6 U 0 40 Y Y 1 L N
+F0 "U" -2800 1725 50 H V L BNN
+F1 "IC_STM32F103CBU6" 2800 1725 50 H V R BNN ""
+F2 "QFN:QFN50P69X69X50-49N" 2800 1675 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f103c8-956229.pdf" 0 0 50 H I C CNN ""
+F4 "STM32F103CBU6" 0 0 50 H I C CNN "MPN"
+F5 "1502 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ARM Microcontrollers - MCU 32-Bit ARM Cortex 128kb Performance" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/389/stm32f103c8-956229.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "5.62  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -2800 -1700 2800 1700 0 1 10 f
+X VBAT 1 -2900 1000 100 R 50 50 1 1 W
+X ADC1_IN0/ADC2_IN0/SYS_WKUP/TIM2_CH1/TIM2_ETR/USART2_CTS/PA0 10 2900 100 100 L 50 50 1 1 B
+X ADC1_IN1/ADC2_IN1/TIM2_CH2/USART2_RTS/PA1 11 2900 0 100 L 50 50 1 1 B
+X ADC1_IN2/ADC2_IN2/TIM2_CH3/USART2_TX/PA2 12 2900 -100 100 L 50 50 1 1 B
+X ADC1_IN3/ADC2_IN3/TIM2_CH4/USART2_RX/PA3 13 2900 -200 100 L 50 50 1 1 B
+X ADC1_IN4/ADC2_IN4/SPI1_NSS/USART2_CK/PA4 14 2900 -300 100 L 50 50 1 1 B
+X ADC1_IN5/ADC2_IN5/SPI1_SCK/PA5 15 2900 -400 100 L 50 50 1 1 B
+X ADC1_IN6/ADC2_IN6/SPI1_MISO/TIM1_BKIN/TIM3_CH1/PA6 16 2900 -500 100 L 50 50 1 1 B
+X ADC1_IN7/ADC2_IN7/SPI1_MOSI/TIM1_CH1N/TIM3_CH2/PA7 17 2900 -600 100 L 50 50 1 1 B
+X PB0/ADC1_IN8/ADC2_IN8/TIM1_CH2N/TIM3_CH3 18 -2900 100 100 R 50 50 1 1 B
+X PB1/ADC1_IN9/ADC2_IN9/TIM1_CH3N/TIM3_CH4 19 -2900 0 100 R 50 50 1 1 B
+X PC13/RTC_OUT/RTC_TAMPER 2 -2900 500 100 R 50 50 1 1 B
+X PB2/BOOT1 20 -2900 -100 100 R 50 50 1 1 B
+X PB10/I2C2_SCL/TIM2_CH3/USART3_TX 21 -2900 -900 100 R 50 50 1 1 B
+X PB11/ADC1_EXTI11/ADC2_EXTI11/I2C2_SDA/TIM2_CH4/USART3_RX 22 -2900 -1000 100 R 50 50 1 1 B
+X VSS 23 -200 -1800 100 U 50 50 1 1 W
+X VDD 24 -200 1800 100 D 50 50 1 1 W
+X PB12/I2C2_SMBA/SPI2_NSS/TIM1_BKIN/USART3_CK 25 -2900 -1100 100 R 50 50 1 1 B
+X PB13/SPI2_SCK/TIM1_CH1N/USART3_CTS 26 -2900 -1200 100 R 50 50 1 1 B
+X PB14/SPI2_MISO/TIM1_CH2N/USART3_RTS 27 -2900 -1300 100 R 50 50 1 1 B
+X PB15/ADC1_EXTI15/ADC2_EXTI15/SPI2_MOSI/TIM1_CH3N 28 -2900 -1400 100 R 50 50 1 1 B
+X RCC_MCO/TIM1_CH1/USART1_CK/PA8 29 2900 -700 100 L 50 50 1 1 B
+X PC14/RCC_OSC32_IN 3 -2900 400 100 R 50 50 1 1 B
+X TIM1_CH2/USART1_TX/PA9 30 2900 -800 100 L 50 50 1 1 B
+X TIM1_CH3/USART1_RX/PA10 31 2900 -900 100 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/CAN_RX/TIM1_CH4/USART1_CTS/USB_DM/PA11 32 2900 -1000 100 L 50 50 1 1 B
+X CAN_TX/TIM1_ETR/USART1_RTS/USB_DP/PA12 33 2900 -1100 100 L 50 50 1 1 B
+X SYS_JTMS-SWDIO/PA13 34 2900 -1200 100 L 50 50 1 1 B
+X VSS 35 -100 -1800 100 U 50 50 1 1 W
+X VDD 36 -100 1800 100 D 50 50 1 1 W
+X SYS_JTCK-SWCLK/PA14 37 2900 -1300 100 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/SPI1_NSS/SYS_JTDI/TIM2_CH1/TIM2_ETR/PA15 38 2900 -1400 100 L 50 50 1 1 B
+X PB3/SPI1_SCK/SYS_JTDO-TRACESWO/TIM2_CH2 39 -2900 -200 100 R 50 50 1 1 B
+X PC15/ADC1_EXTI15/ADC2_EXTI15/RCC_OSC32_OUT 4 -2900 300 100 R 50 50 1 1 B
+X PB4/SPI1_MISO/SYS_NJTRST/TIM3_CH1 40 -2900 -300 100 R 50 50 1 1 B
+X PB5/I2C1_SMBA/SPI1_MOSI/TIM3_CH2 41 -2900 -400 100 R 50 50 1 1 B
+X PB6/I2C1_SCL/TIM4_CH1/USART1_TX 42 -2900 -500 100 R 50 50 1 1 B
+X PB7/I2C1_SDA/TIM4_CH2/USART1_RX 43 -2900 -600 100 R 50 50 1 1 B
+X BOOT0 44 -2900 1200 100 R 50 50 1 1 I
+X PB8/CAN_RX/I2C1_SCL/TIM4_CH3 45 -2900 -700 100 R 50 50 1 1 B
+X PB9/CAN_TX/I2C1_SDA/TIM4_CH4 46 -2900 -800 100 R 50 50 1 1 B
+X VSS 47 0 -1800 100 U 50 50 1 1 W
+X VDD 48 0 1800 100 D 50 50 1 1 W
+X VSS 49 100 -1800 100 U 50 50 1 1 W
+X PD0/RCC_OSC_IN 5 -2900 800 100 R 50 50 1 1 I
+X PD1/RCC_OSC_OUT 6 -2900 700 100 R 50 50 1 1 I
+X NRST 7 -2900 1400 100 R 50 50 1 1 I
+X VSSA 8 200 -1800 100 U 50 50 1 1 W
+X VDDA 9 100 1800 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# IC_STM32F401CBU7
+#
+DEF IC_STM32F401CBU7 U 0 40 Y Y 1 F N
+F0 "U" -3000 1825 50 H V L BNN
+F1 "IC_STM32F401CBU7" 3000 1825 50 H V R BNN ""
+F2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" 3000 1775 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f401cb-956305.pdf" 0 0 50 H I C CNN ""
+F4 "STM32F401CBU7" 0 0 50 H I C CNN "MPN"
+F5 "282 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ARM Microcontrollers - MCU 16/32-BITS MICROS" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "4.86  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -3000 -1700 3000 1800 0 1 10 f
+X VBAT 1 -3100 1100 100 R 50 50 1 1 W
+X ADC1_IN0/SYS_WKUP/TIM2_CH1/TIM2_ETR/TIM5_CH1/USART2_CTS/PA0 10 3100 100 100 L 50 50 1 1 B
+X ADC1_IN1/TIM2_CH2/TIM5_CH2/USART2_RTS/PA1 11 3100 0 100 L 50 50 1 1 B
+X ADC1_IN2/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/PA2 12 3100 -100 100 L 50 50 1 1 B
+X ADC1_IN3/TIM2_CH4/TIM5_CH4/TIM9_CH2/USART2_RX/PA3 13 3100 -200 100 L 50 50 1 1 B
+X ADC1_IN4/I2S3_WS/SPI1_NSS/SPI3_NSS/USART2_CK/PA4 14 3100 -300 100 L 50 50 1 1 B
+X ADC1_IN5/SPI1_SCK/TIM2_CH1/TIM2_ETR/PA5 15 3100 -400 100 L 50 50 1 1 B
+X ADC1_IN6/SPI1_MISO/TIM1_BKIN/TIM3_CH1/PA6 16 3100 -500 100 L 50 50 1 1 B
+X ADC1_IN7/SPI1_MOSI/TIM1_CH1N/TIM3_CH2/PA7 17 3100 -600 100 L 50 50 1 1 B
+X PB0/ADC1_IN8/TIM1_CH2N/TIM3_CH3 18 -3100 0 100 R 50 50 1 1 B
+X PB1/ADC1_IN9/TIM1_CH3N/TIM3_CH4 19 -3100 -100 100 R 50 50 1 1 B
+X PC13/ANTI_TAMP/RTC_AF1 2 -3100 400 100 R 50 50 1 1 B
+X PB2/BOOT1 20 -3100 -200 100 R 50 50 1 1 B
+X PB10/I2C2_SCL/I2S2_CK/SPI2_SCK/TIM2_CH3 21 -3100 -1000 100 R 50 50 1 1 B
+X VCAP1 22 -3100 900 100 R 50 50 1 1 W
+X VSS 23 -200 -1800 100 U 50 50 1 1 W
+X VDD 24 -100 1900 100 D 50 50 1 1 W
+X PB12/I2C2_SMBA/I2S2_WS/SPI2_NSS/TIM1_BKIN 25 -3100 -1100 100 R 50 50 1 1 B
+X PB13/I2S2_CK/SPI2_SCK/TIM1_CH1N 26 -3100 -1200 100 R 50 50 1 1 B
+X PB14/I2S2_ext_SD/SPI2_MISO/TIM1_CH2N 27 -3100 -1300 100 R 50 50 1 1 B
+X PB15/ADC1_EXTI15/I2S2_SD/RTC_REFIN/SPI2_MOSI/TIM1_CH3N 28 -3100 -1400 100 R 50 50 1 1 B
+X I2C3_SCL/RCC_MCO_1/TIM1_CH1/USART1_CK/USB_OTG_FS_SOF/PA8 29 3100 -700 100 L 50 50 1 1 B
+X PC14/RCC_OSC32_IN 3 -3100 300 100 R 50 50 1 1 B
+X I2C3_SMBA/TIM1_CH2/USART1_TX/USB_OTG_FS_VBUS/PA9 30 3100 -800 100 L 50 50 1 1 B
+X TIM1_CH3/USART1_RX/USB_OTG_FS_ID/PA10 31 3100 -900 100 L 50 50 1 1 B
+X ADC1_EXTI11/TIM1_CH4/USART1_CTS/USART6_TX/USB_OTG_FS_DM/PA11 32 3100 -1000 100 L 50 50 1 1 B
+X TIM1_ETR/USART1_RTS/USART6_RX/USB_OTG_FS_DP/PA12 33 3100 -1100 100 L 50 50 1 1 B
+X SYS_JTMS-SWDIO/PA13 34 3100 -1200 100 L 50 50 1 1 B
+X VSS 35 -100 -1800 100 U 50 50 1 1 W
+X VDD 36 0 1900 100 D 50 50 1 1 W
+X SYS_JTCK-SWCLK/PA14 37 3100 -1300 100 L 50 50 1 1 B
+X ADC1_EXTI15/I2S3_WS/SPI1_NSS/SPI3_NSS/SYS_JTDI/TIM2_CH1/TIM2_ETR/PA15 38 3100 -1400 100 L 50 50 1 1 B
+X PB3/I2C2_SDA/I2S3_CK/SPI1_SCK/SPI3_SCK/SYS_JTDO-SWO/TIM2_CH2 39 -3100 -300 100 R 50 50 1 1 B
+X PC15/ADC1_EXTI15/RCC_OSC32_OUT 4 -3100 200 100 R 50 50 1 1 B
+X PB4/I2C3_SDA/I2S3_ext_SD/SPI1_MISO/SPI3_MISO/SYS_JTRST/TIM3_CH1 40 -3100 -400 100 R 50 50 1 1 B
+X PB5/I2C1_SMBA/I2S3_SD/SPI1_MOSI/SPI3_MOSI/TIM3_CH2 41 -3100 -500 100 R 50 50 1 1 B
+X PB6/I2C1_SCL/TIM4_CH1/USART1_TX 42 -3100 -600 100 R 50 50 1 1 B
+X PB7/I2C1_SDA/TIM4_CH2/USART1_RX 43 -3100 -700 100 R 50 50 1 1 B
+X BOOT0 44 -3100 1300 100 R 50 50 1 1 I
+X PB8/I2C1_SCL/TIM10_CH1/TIM4_CH3 45 -3100 -800 100 R 50 50 1 1 B
+X PB9/I2C1_SDA/I2S2_WS/SPI2_NSS/TIM11_CH1/TIM4_CH4 46 -3100 -900 100 R 50 50 1 1 B
+X VSS 47 0 -1800 100 U 50 50 1 1 W
+X VDD 48 100 1900 100 D 50 50 1 1 W
+X VSS 49 100 -1800 100 U 50 50 1 1 W
+X PH0/RCC_OSC_IN 5 -3100 700 100 R 50 50 1 1 I
+X PH1/RCC_OSC_OUT 6 -3100 600 100 R 50 50 1 1 I
+X NRST 7 -3100 1500 100 R 50 50 1 1 I
+X VSSA 8 200 -1800 100 U 50 50 1 1 W
+X VREF+ 9 -3100 1000 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# IC_STM32F413RGT6
+#
+DEF IC_STM32F413RGT6 U 0 40 Y Y 1 L N
+F0 "U" -4200 1925 50 H V L BNN
+F1 "IC_STM32F413RGT6" 4200 1925 50 H V R BNN ""
+F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" 4200 1875 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f413cg-1042897.pdf" 0 0 50 H I C CNN ""
+F4 "STM32F413RGT6" 0 0 50 H I C CNN "MPN"
+F5 "11015 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ARM Microcontrollers - MCU 16/32-BITS MICROS" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "8.45  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -4200 -1900 4200 1900 0 1 10 f
+X VBAT 1 -4300 1200 100 R 50 50 1 1 W
+X PC2/ADC1_IN12/ADC2_IN12/ADC3_IN12/I2S2_ext_SD/SPI2_MISO/USB_OTG_HS_ULPI_DIR 10 -4300 -300 100 R 50 50 1 1 B
+X PC3/ADC1_IN13/ADC2_IN13/ADC3_IN13/I2S2_SD/SPI2_MOSI/USB_OTG_HS_ULPI_NXT 11 -4300 -400 100 R 50 50 1 1 B
+X VSSA 12 100 -2000 100 U 50 50 1 1 W
+X VDDA 13 200 2000 100 D 50 50 1 1 W
+X ADC1_IN0/ADC2_IN0/ADC3_IN0/SYS_WKUP/TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/UART4_TX/USART2_CTS/PA0 14 4300 1600 100 L 50 50 1 1 B
+X ADC1_IN1/ADC2_IN1/ADC3_IN1/TIM2_CH2/TIM5_CH2/UART4_RX/USART2_RTS/PA1 15 4300 1500 100 L 50 50 1 1 B
+X ADC1_IN2/ADC2_IN2/ADC3_IN2/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/PA2 16 4300 1400 100 L 50 50 1 1 B
+X ADC1_IN3/ADC2_IN3/ADC3_IN3/TIM2_CH4/TIM5_CH4/TIM9_CH2/USART2_RX/USB_OTG_HS_ULPI_D0/PA3 17 4300 1300 100 L 50 50 1 1 B
+X VSS 18 -100 -2000 100 U 50 50 1 1 W
+X VDD 19 -200 2000 100 D 50 50 1 1 W
+X PC13/ANTI_TAMP/RTC_AF1 2 -4300 -1400 100 R 50 50 1 1 B
+X ADC1_IN4/ADC2_IN4/DAC_OUT1/I2S3_WS/SPI1_NSS/SPI3_NSS/USART2_CK/USB_OTG_HS_SOF/PA4 20 4300 1200 100 L 50 50 1 1 B
+X ADC1_IN5/ADC2_IN5/DAC_OUT2/SPI1_SCK/TIM2_CH1/TIM2_ETR/TIM8_CH1N/USB_OTG_HS_ULPI_CK/PA5 21 4300 1100 100 L 50 50 1 1 B
+X ADC1_IN6/ADC2_IN6/SPI1_MISO/TIM13_CH1/TIM1_BKIN/TIM3_CH1/TIM8_BKIN/PA6 22 4300 1000 100 L 50 50 1 1 B
+X ADC1_IN7/ADC2_IN7/SPI1_MOSI/TIM14_CH1/TIM1_CH1N/TIM3_CH2/TIM8_CH1N/PA7 23 4300 900 100 L 50 50 1 1 B
+X PC4/ADC1_IN14/ADC2_IN14 24 -4300 -500 100 R 50 50 1 1 B
+X PC5/ADC1_IN15/ADC2_IN15 25 -4300 -600 100 R 50 50 1 1 B
+X ADC1_IN8/ADC2_IN8/TIM1_CH2N/TIM3_CH3/TIM8_CH2N/USB_OTG_HS_ULPI_D1/PB0 26 4300 -100 100 L 50 50 1 1 B
+X ADC1_IN9/ADC2_IN9/TIM1_CH3N/TIM3_CH4/TIM8_CH3N/USB_OTG_HS_ULPI_D2/PB1 27 4300 -200 100 L 50 50 1 1 B
+X BOOT1/PB2 28 4300 -300 100 L 50 50 1 1 B
+X I2C2_SCL/I2S2_CK/SPI2_SCK/TIM2_CH3/USART3_TX/USB_OTG_HS_ULPI_D3/PB10 29 4300 -1100 100 L 50 50 1 1 B
+X PC14/RCC_OSC32_IN 3 -4300 -1500 100 R 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/I2C2_SDA/TIM2_CH4/USART3_RX/USB_OTG_HS_ULPI_D4/PB11 30 4300 -1200 100 L 50 50 1 1 B
+X VCAP_1 31 -4300 1100 100 R 50 50 1 1 P
+X VDD 32 -100 2000 100 D 50 50 1 1 W
+X CAN2_RX/I2C2_SMBA/I2S2_WS/SPI2_NSS/TIM1_BKIN/USART3_CK/USB_OTG_HS_ID/USB_OTG_HS_ULPI_D5/PB12 33 4300 -1300 100 L 50 50 1 1 B
+X CAN2_TX/I2S2_CK/SPI2_SCK/TIM1_CH1N/USART3_CTS/USB_OTG_HS_ULPI_D6/USB_OTG_HS_VBUS/PB13 34 4300 -1400 100 L 50 50 1 1 B
+X I2S2_ext_SD/SPI2_MISO/TIM12_CH1/TIM1_CH2N/TIM8_CH2N/USART3_RTS/USB_OTG_HS_DM/PB14 35 4300 -1500 100 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S2_SD/RTC_REFIN/SPI2_MOSI/TIM12_CH2/TIM1_CH3N/TIM8_CH3N/USB_OTG_HS_DP/PB15 36 4300 -1600 100 L 50 50 1 1 B
+X PC6/I2S2_MCK/SDIO_D6/TIM3_CH1/TIM8_CH1/USART6_TX 37 -4300 -700 100 R 50 50 1 1 B
+X PC7/I2S3_MCK/SDIO_D7/TIM3_CH2/TIM8_CH2/USART6_RX 38 -4300 -800 100 R 50 50 1 1 B
+X PC8/SDIO_D0/TIM3_CH3/TIM8_CH3/USART6_CK 39 -4300 -900 100 R 50 50 1 1 B
+X PC15/ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/RCC_OSC32_OUT 4 -4300 -1600 100 R 50 50 1 1 B
+X PC9/DAC_EXTI9/I2C3_SDA/I2S_CKIN/RCC_MCO_2/SDIO_D1/TIM3_CH4/TIM8_CH4 40 -4300 -1000 100 R 50 50 1 1 B
+X I2C3_SCL/RCC_MCO_1/TIM1_CH1/USART1_CK/USB_OTG_FS_SOF/PA8 41 4300 800 100 L 50 50 1 1 B
+X DAC_EXTI9/I2C3_SMBA/TIM1_CH2/USART1_TX/USB_OTG_FS_VBUS/PA9 42 4300 700 100 L 50 50 1 1 B
+X TIM1_CH3/USART1_RX/USB_OTG_FS_ID/PA10 43 4300 600 100 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/CAN1_RX/TIM1_CH4/USART1_CTS/USB_OTG_FS_DM/PA11 44 4300 500 100 L 50 50 1 1 B
+X CAN1_TX/TIM1_ETR/USART1_RTS/USB_OTG_FS_DP/PA12 45 4300 400 100 L 50 50 1 1 B
+X SYS_JTMS-SWDIO/PA13 46 4300 300 100 L 50 50 1 1 B
+X VCAP_2 47 -4300 1000 100 R 50 50 1 1 P
+X VDD 48 0 2000 100 D 50 50 1 1 W
+X SYS_JTCK-SWCLK/PA14 49 4300 200 100 L 50 50 1 1 B
+X PH0/RCC_OSC_IN 5 -4300 400 100 R 50 50 1 1 I
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S3_WS/SPI1_NSS/SPI3_NSS/SYS_JTDI/TIM2_CH1/TIM2_ETR/PA15 50 4300 100 100 L 50 50 1 1 B
+X PC10/I2S3_CK/SDIO_D2/SPI3_SCK/UART4_TX/USART3_TX 51 -4300 -1100 100 R 50 50 1 1 B
+X PC11/ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/I2S3_ext_SD/SDIO_D3/SPI3_MISO/UART4_RX/USART3_RX 52 -4300 -1200 100 R 50 50 1 1 B
+X PC12/I2S3_SD/SDIO_CK/SPI3_MOSI/UART5_TX/USART3_CK 53 -4300 -1300 100 R 50 50 1 1 B
+X PD2/SDIO_CMD/TIM3_ETR/UART5_RX 54 -4300 100 100 R 50 50 1 1 B
+X I2S3_CK/SPI1_SCK/SPI3_SCK/SYS_JTDO-SWO/TIM2_CH2/PB3 55 4300 -400 100 L 50 50 1 1 B
+X I2S3_ext_SD/SPI1_MISO/SPI3_MISO/SYS_JTRST/TIM3_CH1/PB4 56 4300 -500 100 L 50 50 1 1 B
+X CAN2_RX/I2C1_SMBA/I2S3_SD/SPI1_MOSI/SPI3_MOSI/TIM3_CH2/USB_OTG_HS_ULPI_D7/PB5 57 4300 -600 100 L 50 50 1 1 B
+X CAN2_TX/I2C1_SCL/TIM4_CH1/USART1_TX/PB6 58 4300 -700 100 L 50 50 1 1 B
+X I2C1_SDA/TIM4_CH2/USART1_RX/PB7 59 4300 -800 100 L 50 50 1 1 B
+X PH1/RCC_OSC_OUT 6 -4300 300 100 R 50 50 1 1 I
+X BOOT0 60 -4300 1400 100 R 50 50 1 1 I
+X CAN1_RX/I2C1_SCL/SDIO_D4/TIM10_CH1/TIM4_CH3/PB8 61 4300 -900 100 L 50 50 1 1 B
+X CAN1_TX/DAC_EXTI9/I2C1_SDA/I2S2_WS/SDIO_D5/SPI2_NSS/TIM11_CH1/TIM4_CH4/PB9 62 4300 -1000 100 L 50 50 1 1 B
+X VSS 63 0 -2000 100 U 50 50 1 1 W
+X VDD 64 100 2000 100 D 50 50 1 1 W
+X NRST 7 -4300 1600 100 R 50 50 1 1 I
+X PC0/ADC1_IN10/ADC2_IN10/ADC3_IN10/USB_OTG_HS_ULPI_STP 8 -4300 -100 100 R 50 50 1 1 B
+X PC1/ADC1_IN11/ADC2_IN11/ADC3_IN11 9 -4300 -200 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# IC_STM32F415RGT6
+#
+DEF IC_STM32F415RGT6 U 0 40 Y Y 1 L N
+F0 "U" -4200 1925 50 H V L BNN
+F1 "IC_STM32F415RGT6" 4200 1925 50 H V R BNN ""
+F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" 4200 1875 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f415rg-956238.pdf" 0 0 50 H I C CNN ""
+F4 "STM32F415RGT6" 0 0 50 H I C CNN "MPN"
+F5 "1361 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ARM Microcontrollers - MCU ARM M4 1024 FLASH 168 Mhz 192kB SRAM" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/389/stm32f415rg-956238.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "9.75  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -4200 -1900 4200 1900 0 1 10 f
+X VBAT 1 -4300 1200 100 R 50 50 1 1 W
+X PC2/ADC1_IN12/ADC2_IN12/ADC3_IN12/I2S2_ext_SD/SPI2_MISO/USB_OTG_HS_ULPI_DIR 10 -4300 -300 100 R 50 50 1 1 B
+X PC3/ADC1_IN13/ADC2_IN13/ADC3_IN13/I2S2_SD/SPI2_MOSI/USB_OTG_HS_ULPI_NXT 11 -4300 -400 100 R 50 50 1 1 B
+X VSSA 12 100 -2000 100 U 50 50 1 1 W
+X VDDA 13 200 2000 100 D 50 50 1 1 W
+X ADC1_IN0/ADC2_IN0/ADC3_IN0/SYS_WKUP/TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/UART4_TX/USART2_CTS/PA0 14 4300 1600 100 L 50 50 1 1 B
+X ADC1_IN1/ADC2_IN1/ADC3_IN1/TIM2_CH2/TIM5_CH2/UART4_RX/USART2_RTS/PA1 15 4300 1500 100 L 50 50 1 1 B
+X ADC1_IN2/ADC2_IN2/ADC3_IN2/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/PA2 16 4300 1400 100 L 50 50 1 1 B
+X ADC1_IN3/ADC2_IN3/ADC3_IN3/TIM2_CH4/TIM5_CH4/TIM9_CH2/USART2_RX/USB_OTG_HS_ULPI_D0/PA3 17 4300 1300 100 L 50 50 1 1 B
+X VSS 18 -100 -2000 100 U 50 50 1 1 W
+X VDD 19 -200 2000 100 D 50 50 1 1 W
+X PC13/ANTI_TAMP/RTC_AF1 2 -4300 -1400 100 R 50 50 1 1 B
+X ADC1_IN4/ADC2_IN4/DAC_OUT1/I2S3_WS/SPI1_NSS/SPI3_NSS/USART2_CK/USB_OTG_HS_SOF/PA4 20 4300 1200 100 L 50 50 1 1 B
+X ADC1_IN5/ADC2_IN5/DAC_OUT2/SPI1_SCK/TIM2_CH1/TIM2_ETR/TIM8_CH1N/USB_OTG_HS_ULPI_CK/PA5 21 4300 1100 100 L 50 50 1 1 B
+X ADC1_IN6/ADC2_IN6/SPI1_MISO/TIM13_CH1/TIM1_BKIN/TIM3_CH1/TIM8_BKIN/PA6 22 4300 1000 100 L 50 50 1 1 B
+X ADC1_IN7/ADC2_IN7/SPI1_MOSI/TIM14_CH1/TIM1_CH1N/TIM3_CH2/TIM8_CH1N/PA7 23 4300 900 100 L 50 50 1 1 B
+X PC4/ADC1_IN14/ADC2_IN14 24 -4300 -500 100 R 50 50 1 1 B
+X PC5/ADC1_IN15/ADC2_IN15 25 -4300 -600 100 R 50 50 1 1 B
+X ADC1_IN8/ADC2_IN8/TIM1_CH2N/TIM3_CH3/TIM8_CH2N/USB_OTG_HS_ULPI_D1/PB0 26 4300 -100 100 L 50 50 1 1 B
+X ADC1_IN9/ADC2_IN9/TIM1_CH3N/TIM3_CH4/TIM8_CH3N/USB_OTG_HS_ULPI_D2/PB1 27 4300 -200 100 L 50 50 1 1 B
+X BOOT1/PB2 28 4300 -300 100 L 50 50 1 1 B
+X I2C2_SCL/I2S2_CK/SPI2_SCK/TIM2_CH3/USART3_TX/USB_OTG_HS_ULPI_D3/PB10 29 4300 -1100 100 L 50 50 1 1 B
+X PC14/RCC_OSC32_IN 3 -4300 -1500 100 R 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/I2C2_SDA/TIM2_CH4/USART3_RX/USB_OTG_HS_ULPI_D4/PB11 30 4300 -1200 100 L 50 50 1 1 B
+X VCAP_1 31 -4300 1100 100 R 50 50 1 1 W
+X VDD 32 -100 2000 100 D 50 50 1 1 W
+X CAN2_RX/I2C2_SMBA/I2S2_WS/SPI2_NSS/TIM1_BKIN/USART3_CK/USB_OTG_HS_ID/USB_OTG_HS_ULPI_D5/PB12 33 4300 -1300 100 L 50 50 1 1 B
+X CAN2_TX/I2S2_CK/SPI2_SCK/TIM1_CH1N/USART3_CTS/USB_OTG_HS_ULPI_D6/USB_OTG_HS_VBUS/PB13 34 4300 -1400 100 L 50 50 1 1 B
+X I2S2_ext_SD/SPI2_MISO/TIM12_CH1/TIM1_CH2N/TIM8_CH2N/USART3_RTS/USB_OTG_HS_DM/PB14 35 4300 -1500 100 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S2_SD/RTC_REFIN/SPI2_MOSI/TIM12_CH2/TIM1_CH3N/TIM8_CH3N/USB_OTG_HS_DP/PB15 36 4300 -1600 100 L 50 50 1 1 B
+X PC6/I2S2_MCK/SDIO_D6/TIM3_CH1/TIM8_CH1/USART6_TX 37 -4300 -700 100 R 50 50 1 1 B
+X PC7/I2S3_MCK/SDIO_D7/TIM3_CH2/TIM8_CH2/USART6_RX 38 -4300 -800 100 R 50 50 1 1 B
+X PC8/SDIO_D0/TIM3_CH3/TIM8_CH3/USART6_CK 39 -4300 -900 100 R 50 50 1 1 B
+X PC15/ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/RCC_OSC32_OUT 4 -4300 -1600 100 R 50 50 1 1 B
+X PC9/DAC_EXTI9/I2C3_SDA/I2S_CKIN/RCC_MCO_2/SDIO_D1/TIM3_CH4/TIM8_CH4 40 -4300 -1000 100 R 50 50 1 1 B
+X I2C3_SCL/RCC_MCO_1/TIM1_CH1/USART1_CK/USB_OTG_FS_SOF/PA8 41 4300 800 100 L 50 50 1 1 B
+X DAC_EXTI9/I2C3_SMBA/TIM1_CH2/USART1_TX/USB_OTG_FS_VBUS/PA9 42 4300 700 100 L 50 50 1 1 B
+X TIM1_CH3/USART1_RX/USB_OTG_FS_ID/PA10 43 4300 600 100 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/CAN1_RX/TIM1_CH4/USART1_CTS/USB_OTG_FS_DM/PA11 44 4300 500 100 L 50 50 1 1 B
+X CAN1_TX/TIM1_ETR/USART1_RTS/USB_OTG_FS_DP/PA12 45 4300 400 100 L 50 50 1 1 B
+X SYS_JTMS-SWDIO/PA13 46 4300 300 100 L 50 50 1 1 B
+X VCAP_2 47 -4300 1000 100 R 50 50 1 1 W
+X VDD 48 0 2000 100 D 50 50 1 1 W
+X SYS_JTCK-SWCLK/PA14 49 4300 200 100 L 50 50 1 1 B
+X PH0/RCC_OSC_IN 5 -4300 400 100 R 50 50 1 1 I
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S3_WS/SPI1_NSS/SPI3_NSS/SYS_JTDI/TIM2_CH1/TIM2_ETR/PA15 50 4300 100 100 L 50 50 1 1 B
+X PC10/I2S3_CK/SDIO_D2/SPI3_SCK/UART4_TX/USART3_TX 51 -4300 -1100 100 R 50 50 1 1 B
+X PC11/ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/I2S3_ext_SD/SDIO_D3/SPI3_MISO/UART4_RX/USART3_RX 52 -4300 -1200 100 R 50 50 1 1 B
+X PC12/I2S3_SD/SDIO_CK/SPI3_MOSI/UART5_TX/USART3_CK 53 -4300 -1300 100 R 50 50 1 1 B
+X PD2/SDIO_CMD/TIM3_ETR/UART5_RX 54 -4300 100 100 R 50 50 1 1 B
+X I2S3_CK/SPI1_SCK/SPI3_SCK/SYS_JTDO-SWO/TIM2_CH2/PB3 55 4300 -400 100 L 50 50 1 1 B
+X I2S3_ext_SD/SPI1_MISO/SPI3_MISO/SYS_JTRST/TIM3_CH1/PB4 56 4300 -500 100 L 50 50 1 1 B
+X CAN2_RX/I2C1_SMBA/I2S3_SD/SPI1_MOSI/SPI3_MOSI/TIM3_CH2/USB_OTG_HS_ULPI_D7/PB5 57 4300 -600 100 L 50 50 1 1 B
+X CAN2_TX/I2C1_SCL/TIM4_CH1/USART1_TX/PB6 58 4300 -700 100 L 50 50 1 1 B
+X I2C1_SDA/TIM4_CH2/USART1_RX/PB7 59 4300 -800 100 L 50 50 1 1 B
+X PH1/RCC_OSC_OUT 6 -4300 300 100 R 50 50 1 1 I
+X BOOT0 60 -4300 1400 100 R 50 50 1 1 I
+X CAN1_RX/I2C1_SCL/SDIO_D4/TIM10_CH1/TIM4_CH3/PB8 61 4300 -900 100 L 50 50 1 1 B
+X CAN1_TX/DAC_EXTI9/I2C1_SDA/I2S2_WS/SDIO_D5/SPI2_NSS/TIM11_CH1/TIM4_CH4/PB9 62 4300 -1000 100 L 50 50 1 1 B
+X VSS 63 0 -2000 100 U 50 50 1 1 W
+X VDD 64 100 2000 100 D 50 50 1 1 W
+X NRST 7 -4300 1600 100 R 50 50 1 1 I
+X PC0/ADC1_IN10/ADC2_IN10/ADC3_IN10/USB_OTG_HS_ULPI_STP 8 -4300 -100 100 R 50 50 1 1 B
+X PC1/ADC1_IN11/ADC2_IN11/ADC3_IN11 9 -4300 -200 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# IC_STM32F415VGT6
+#
+DEF IC_STM32F415VGT6 U 0 40 Y Y 1 L N
+F0 "U" -4300 2825 50 H V L BNN
+F1 "IC_STM32F415VGT6" 4300 2825 50 H V R BNN ""
+F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" 4300 2775 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f415rg-956238.pdf" 0 0 50 H I C CNN ""
+F4 "STM32F415VGT6" 0 0 50 H I C CNN "MPN"
+F5 "2471 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ARM Microcontrollers - MCU ARM M4 1024 FLASH 168 Mhz 192kB SRAM" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/389/stm32f415rg-956238.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "10.35  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -4300 -2700 4300 2800 0 1 10 f
+X PE2/FSMC_A23/SYS_TRACECLK 1 -4500 600 200 R 50 50 1 1 B
+X VSS 10 -200 -2900 200 U 50 50 1 1 W
+X VDD 100 200 3000 200 D 50 50 1 1 W
+X VDD 11 -300 3000 200 D 50 50 1 1 W
+X PH0/RCC_OSC_IN 12 -4500 1100 200 R 50 50 1 1 I
+X PH1/RCC_OSC_OUT 13 -4500 1000 200 R 50 50 1 1 I
+X NRST 14 -4500 2500 200 R 50 50 1 1 I
+X ADC1_IN10/ADC2_IN10/ADC3_IN10/USB_OTG_HS_ULPI_STP/PC0 15 4500 -900 200 L 50 50 1 1 B
+X ADC1_IN11/ADC2_IN11/ADC3_IN11/PC1 16 4500 -1000 200 L 50 50 1 1 B
+X ADC1_IN12/ADC2_IN12/ADC3_IN12/I2S2_ext_SD/SPI2_MISO/USB_OTG_HS_ULPI_DIR/PC2 17 4500 -1100 200 L 50 50 1 1 B
+X ADC1_IN13/ADC2_IN13/ADC3_IN13/I2S2_SD/SPI2_MOSI/USB_OTG_HS_ULPI_NXT/PC3 18 4500 -1200 200 L 50 50 1 1 B
+X VDD 19 -200 3000 200 D 50 50 1 1 W
+X PE3/FSMC_A19/SYS_TRACED0 2 -4500 500 200 R 50 50 1 1 B
+X VSSA 20 200 -2900 200 U 50 50 1 1 W
+X VREF+ 21 -4500 2000 200 R 50 50 1 1 W
+X VDDA 22 300 3000 200 D 50 50 1 1 W
+X ADC1_IN0/ADC2_IN0/ADC3_IN0/SYS_WKUP/TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/UART4_TX/USART2_CTS/PA0 23 4500 2500 200 L 50 50 1 1 B
+X ADC1_IN1/ADC2_IN1/ADC3_IN1/TIM2_CH2/TIM5_CH2/UART4_RX/USART2_RTS/PA1 24 4500 2400 200 L 50 50 1 1 B
+X ADC1_IN2/ADC2_IN2/ADC3_IN2/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/PA2 25 4500 2300 200 L 50 50 1 1 B
+X ADC1_IN3/ADC2_IN3/ADC3_IN3/TIM2_CH4/TIM5_CH4/TIM9_CH2/USART2_RX/USB_OTG_HS_ULPI_D0/PA3 26 4500 2200 200 L 50 50 1 1 B
+X VSS 27 -100 -2900 200 U 50 50 1 1 W
+X VDD 28 -100 3000 200 D 50 50 1 1 W
+X ADC1_IN4/ADC2_IN4/DAC_OUT1/I2S3_WS/SPI1_NSS/SPI3_NSS/USART2_CK/USB_OTG_HS_SOF/PA4 29 4500 2100 200 L 50 50 1 1 B
+X PE4/FSMC_A20/SYS_TRACED1 3 -4500 400 200 R 50 50 1 1 B
+X ADC1_IN5/ADC2_IN5/DAC_OUT2/SPI1_SCK/TIM2_CH1/TIM2_ETR/TIM8_CH1N/USB_OTG_HS_ULPI_CK/PA5 30 4500 2000 200 L 50 50 1 1 B
+X ADC1_IN6/ADC2_IN6/SPI1_MISO/TIM13_CH1/TIM1_BKIN/TIM3_CH1/TIM8_BKIN/PA6 31 4500 1900 200 L 50 50 1 1 B
+X ADC1_IN7/ADC2_IN7/SPI1_MOSI/TIM14_CH1/TIM1_CH1N/TIM3_CH2/TIM8_CH1N/PA7 32 4500 1800 200 L 50 50 1 1 B
+X ADC1_IN14/ADC2_IN14/PC4 33 4500 -1300 200 L 50 50 1 1 B
+X ADC1_IN15/ADC2_IN15/PC5 34 4500 -1400 200 L 50 50 1 1 B
+X ADC1_IN8/ADC2_IN8/TIM1_CH2N/TIM3_CH3/TIM8_CH2N/USB_OTG_HS_ULPI_D1/PB0 35 4500 800 200 L 50 50 1 1 B
+X ADC1_IN9/ADC2_IN9/TIM1_CH3N/TIM3_CH4/TIM8_CH3N/USB_OTG_HS_ULPI_D2/PB1 36 4500 700 200 L 50 50 1 1 B
+X BOOT1/PB2 37 4500 600 200 L 50 50 1 1 B
+X PE7/FSMC_D4/FSMC_DA4/TIM1_ETR 38 -4500 100 200 R 50 50 1 1 B
+X PE8/FSMC_D5/FSMC_DA5/TIM1_CH1N 39 -4500 0 200 R 50 50 1 1 B
+X PE5/FSMC_A21/SYS_TRACED2/TIM9_CH1 4 -4500 300 200 R 50 50 1 1 B
+X PE9/DAC_EXTI9/FSMC_D6/FSMC_DA6/TIM1_CH1 40 -4500 -100 200 R 50 50 1 1 B
+X PE10/FSMC_D7/FSMC_DA7/TIM1_CH2N 41 -4500 -200 200 R 50 50 1 1 B
+X PE11/ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/FSMC_D8/FSMC_DA8/TIM1_CH2 42 -4500 -300 200 R 50 50 1 1 B
+X PE12/FSMC_D9/FSMC_DA9/TIM1_CH3N 43 -4500 -400 200 R 50 50 1 1 B
+X PE13/FSMC_D10/FSMC_DA10/TIM1_CH3 44 -4500 -500 200 R 50 50 1 1 B
+X PE14/FSMC_D11/FSMC_DA11/TIM1_CH4 45 -4500 -600 200 R 50 50 1 1 B
+X PE15/ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/FSMC_D12/FSMC_DA12/TIM1_BKIN 46 -4500 -700 200 R 50 50 1 1 B
+X I2C2_SCL/I2S2_CK/SPI2_SCK/TIM2_CH3/USART3_TX/USB_OTG_HS_ULPI_D3/PB10 47 4500 -200 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/I2C2_SDA/TIM2_CH4/USART3_RX/USB_OTG_HS_ULPI_D4/PB11 48 4500 -300 200 L 50 50 1 1 B
+X VCAP_1 49 -4500 1900 200 R 50 50 1 1 W
+X PE6/FSMC_A22/SYS_TRACED3/TIM9_CH2 5 -4500 200 200 R 50 50 1 1 B
+X VDD 50 0 3000 200 D 50 50 1 1 W
+X CAN2_RX/I2C2_SMBA/I2S2_WS/SPI2_NSS/TIM1_BKIN/USART3_CK/USB_OTG_HS_ID/USB_OTG_HS_ULPI_D5/PB12 51 4500 -400 200 L 50 50 1 1 B
+X CAN2_TX/I2S2_CK/SPI2_SCK/TIM1_CH1N/USART3_CTS/USB_OTG_HS_ULPI_D6/USB_OTG_HS_VBUS/PB13 52 4500 -500 200 L 50 50 1 1 B
+X I2S2_ext_SD/SPI2_MISO/TIM12_CH1/TIM1_CH2N/TIM8_CH2N/USART3_RTS/USB_OTG_HS_DM/PB14 53 4500 -600 200 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S2_SD/RTC_REFIN/SPI2_MOSI/TIM12_CH2/TIM1_CH3N/TIM8_CH3N/USB_OTG_HS_DP/PB15 54 4500 -700 200 L 50 50 1 1 B
+X PD8/FSMC_D13/FSMC_DA13/USART3_TX 55 -4500 -1700 200 R 50 50 1 1 B
+X PD9/DAC_EXTI9/FSMC_D14/FSMC_DA14/USART3_RX 56 -4500 -1800 200 R 50 50 1 1 B
+X PD10/FSMC_D15/FSMC_DA15/USART3_CK 57 -4500 -1900 200 R 50 50 1 1 B
+X PD11/ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/FSMC_A16/FSMC_CLE/USART3_CTS 58 -4500 -2000 200 R 50 50 1 1 B
+X PD12/FSMC_A17/FSMC_ALE/TIM4_CH1/USART3_RTS 59 -4500 -2100 200 R 50 50 1 1 B
+X VBAT 6 -4500 2100 200 R 50 50 1 1 W
+X PD13/FSMC_A18/TIM4_CH2 60 -4500 -2200 200 R 50 50 1 1 B
+X PD14/FSMC_D0/FSMC_DA0/TIM4_CH3 61 -4500 -2300 200 R 50 50 1 1 B
+X PD15/ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/FSMC_D1/FSMC_DA1/TIM4_CH4 62 -4500 -2400 200 R 50 50 1 1 B
+X I2S2_MCK/SDIO_D6/TIM3_CH1/TIM8_CH1/USART6_TX/PC6 63 4500 -1500 200 L 50 50 1 1 B
+X I2S3_MCK/SDIO_D7/TIM3_CH2/TIM8_CH2/USART6_RX/PC7 64 4500 -1600 200 L 50 50 1 1 B
+X SDIO_D0/TIM3_CH3/TIM8_CH3/USART6_CK/PC8 65 4500 -1700 200 L 50 50 1 1 B
+X DAC_EXTI9/I2C3_SDA/I2S_CKIN/RCC_MCO_2/SDIO_D1/TIM3_CH4/TIM8_CH4/PC9 66 4500 -1800 200 L 50 50 1 1 B
+X I2C3_SCL/RCC_MCO_1/TIM1_CH1/USART1_CK/USB_OTG_FS_SOF/PA8 67 4500 1700 200 L 50 50 1 1 B
+X DAC_EXTI9/I2C3_SMBA/TIM1_CH2/USART1_TX/USB_OTG_FS_VBUS/PA9 68 4500 1600 200 L 50 50 1 1 B
+X TIM1_CH3/USART1_RX/USB_OTG_FS_ID/PA10 69 4500 1500 200 L 50 50 1 1 B
+X ANTI_TAMP/RTC_AF1/PC13 7 4500 -2200 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/CAN1_RX/TIM1_CH4/USART1_CTS/USB_OTG_FS_DM/PA11 70 4500 1400 200 L 50 50 1 1 B
+X CAN1_TX/TIM1_ETR/USART1_RTS/USB_OTG_FS_DP/PA12 71 4500 1300 200 L 50 50 1 1 B
+X SYS_JTMS-SWDIO/PA13 72 4500 1200 200 L 50 50 1 1 B
+X VCAP_2 73 -4500 1800 200 R 50 50 1 1 W
+X VSS 74 0 -2900 200 U 50 50 1 1 W
+X VDD 75 100 3000 200 D 50 50 1 1 W
+X SYS_JTCK-SWCLK/PA14 76 4500 1100 200 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S3_WS/SPI1_NSS/SPI3_NSS/SYS_JTDI/TIM2_CH1/TIM2_ETR/PA15 77 4500 1000 200 L 50 50 1 1 B
+X I2S3_CK/SDIO_D2/SPI3_SCK/UART4_TX/USART3_TX/PC10 78 4500 -1900 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/I2S3_ext_SD/SDIO_D3/SPI3_MISO/UART4_RX/USART3_RX/PC11 79 4500 -2000 200 L 50 50 1 1 B
+X RCC_OSC32_IN/PC14 8 4500 -2300 200 L 50 50 1 1 B
+X I2S3_SD/SDIO_CK/SPI3_MOSI/UART5_TX/USART3_CK/PC12 80 4500 -2100 200 L 50 50 1 1 B
+X PD0/CAN1_RX/FSMC_D2/FSMC_DA2 81 -4500 -900 200 R 50 50 1 1 B
+X PD1/CAN1_TX/FSMC_D3/FSMC_DA3 82 -4500 -1000 200 R 50 50 1 1 B
+X PD2/SDIO_CMD/TIM3_ETR/UART5_RX 83 -4500 -1100 200 R 50 50 1 1 B
+X PD3/FSMC_CLK/USART2_CTS 84 -4500 -1200 200 R 50 50 1 1 B
+X PD4/FSMC_NOE/USART2_RTS 85 -4500 -1300 200 R 50 50 1 1 B
+X PD5/FSMC_NWE/USART2_TX 86 -4500 -1400 200 R 50 50 1 1 B
+X PD6/FSMC_NWAIT/USART2_RX 87 -4500 -1500 200 R 50 50 1 1 B
+X PD7/FSMC_NCE2/FSMC_NE1/USART2_CK 88 -4500 -1600 200 R 50 50 1 1 B
+X I2S3_CK/SPI1_SCK/SPI3_SCK/SYS_JTDO-SWO/TIM2_CH2/PB3 89 4500 500 200 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/RCC_OSC32_OUT/PC15 9 4500 -2400 200 L 50 50 1 1 B
+X I2S3_ext_SD/SPI1_MISO/SPI3_MISO/SYS_JTRST/TIM3_CH1/PB4 90 4500 400 200 L 50 50 1 1 B
+X CAN2_RX/I2C1_SMBA/I2S3_SD/SPI1_MOSI/SPI3_MOSI/TIM3_CH2/USB_OTG_HS_ULPI_D7/PB5 91 4500 300 200 L 50 50 1 1 B
+X CAN2_TX/I2C1_SCL/TIM4_CH1/USART1_TX/PB6 92 4500 200 200 L 50 50 1 1 B
+X FSMC_NL/I2C1_SDA/TIM4_CH2/USART1_RX/PB7 93 4500 100 200 L 50 50 1 1 B
+X BOOT0 94 -4500 2300 200 R 50 50 1 1 I
+X CAN1_RX/I2C1_SCL/SDIO_D4/TIM10_CH1/TIM4_CH3/PB8 95 4500 0 200 L 50 50 1 1 B
+X CAN1_TX/DAC_EXTI9/I2C1_SDA/I2S2_WS/SDIO_D5/SPI2_NSS/TIM11_CH1/TIM4_CH4/PB9 96 4500 -100 200 L 50 50 1 1 B
+X PE0/FSMC_NBL0/TIM4_ETR 97 -4500 800 200 R 50 50 1 1 B
+X PE1/FSMC_NBL1 98 -4500 700 200 R 50 50 1 1 B
+X VSS 99 100 -2900 200 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# IC_STM32F427VGT6
+#
+DEF IC_STM32F427VGT6 U 0 40 Y Y 1 F N
+F0 "U" -4300 2825 50 H V L BNN
+F1 "IC_STM32F427VGT6" 4300 2825 50 H V R BNN ""
+F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" 4300 2775 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f427vg-956239.pdf" 0 0 50 H I C CNN ""
+F4 "STM32F427VGT6" 0 0 50 H I C CNN "MPN"
+F5 "3152 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ARM Microcontrollers - MCU 32B ARM Cortex-M4 1Mb Flash 168MHz CPU" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/389/stm32f427vg-956239.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "11.14  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -4300 -2700 4300 2800 0 1 10 f
+X PE2/ETH_TXD3/FMC_A23/SAI1_MCLK_A/SPI4_SCK/SYS_TRACECLK 1 -4500 600 200 R 50 50 1 1 B
+X VSS 10 -200 -2900 200 U 50 50 1 1 W
+X VDD 100 200 3000 200 D 50 50 1 1 W
+X VDD 11 -300 3000 200 D 50 50 1 1 W
+X PH0/RCC_OSC_IN 12 -4500 1100 200 R 50 50 1 1 I
+X PH1/RCC_OSC_OUT 13 -4500 1000 200 R 50 50 1 1 I
+X NRST 14 -4500 2500 200 R 50 50 1 1 I
+X ADC1_IN10/ADC2_IN10/ADC3_IN10/FMC_SDNWE/USB_OTG_HS_ULPI_STP/PC0 15 4500 -900 200 L 50 50 1 1 B
+X ADC1_IN11/ADC2_IN11/ADC3_IN11/ETH_MDC/PC1 16 4500 -1000 200 L 50 50 1 1 B
+X ADC1_IN12/ADC2_IN12/ADC3_IN12/ETH_TXD2/FMC_SDNE0/I2S2_ext_SD/SPI2_MISO/USB_OTG_HS_ULPI_DIR/PC2 17 4500 -1100 200 L 50 50 1 1 B
+X ADC1_IN13/ADC2_IN13/ADC3_IN13/ETH_TX_CLK/FMC_SDCKE0/I2S2_SD/SPI2_MOSI/USB_OTG_HS_ULPI_NXT/PC3 18 4500 -1200 200 L 50 50 1 1 B
+X VDD 19 -200 3000 200 D 50 50 1 1 W
+X PE3/FMC_A19/SAI1_SD_B/SYS_TRACED0 2 -4500 500 200 R 50 50 1 1 B
+X VSSA 20 200 -2900 200 U 50 50 1 1 W
+X VREF+ 21 -4500 2000 200 R 50 50 1 1 W
+X VDDA 22 300 3000 200 D 50 50 1 1 W
+X ADC1_IN0/ADC2_IN0/ADC3_IN0/ETH_CRS/SYS_WKUP/TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/UART4_TX/USART2_CTS/PA0 23 4500 2500 200 L 50 50 1 1 B
+X ADC1_IN1/ADC2_IN1/ADC3_IN1/ETH_REF_CLK/ETH_RX_CLK/TIM2_CH2/TIM5_CH2/UART4_RX/USART2_RTS/PA1 24 4500 2400 200 L 50 50 1 1 B
+X ADC1_IN2/ADC2_IN2/ADC3_IN2/ETH_MDIO/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/PA2 25 4500 2300 200 L 50 50 1 1 B
+X ADC1_IN3/ADC2_IN3/ADC3_IN3/ETH_COL/TIM2_CH4/TIM5_CH4/TIM9_CH2/USART2_RX/USB_OTG_HS_ULPI_D0/PA3 26 4500 2200 200 L 50 50 1 1 B
+X VSS 27 -100 -2900 200 U 50 50 1 1 W
+X VDD 28 -100 3000 200 D 50 50 1 1 W
+X ADC1_IN4/ADC2_IN4/DAC_OUT1/DCMI_HSYNC/I2S3_WS/SPI1_NSS/SPI3_NSS/USART2_CK/USB_OTG_HS_SOF/PA4 29 4500 2100 200 L 50 50 1 1 B
+X PE4/DCMI_D4/FMC_A20/SAI1_FS_A/SPI4_NSS/SYS_TRACED1 3 -4500 400 200 R 50 50 1 1 B
+X ADC1_IN5/ADC2_IN5/DAC_OUT2/SPI1_SCK/TIM2_CH1/TIM2_ETR/TIM8_CH1N/USB_OTG_HS_ULPI_CK/PA5 30 4500 2000 200 L 50 50 1 1 B
+X ADC1_IN6/ADC2_IN6/DCMI_PIXCK/SPI1_MISO/TIM13_CH1/TIM1_BKIN/TIM3_CH1/TIM8_BKIN/PA6 31 4500 1900 200 L 50 50 1 1 B
+X ADC1_IN7/ADC2_IN7/ETH_CRS_DV/ETH_RX_DV/SPI1_MOSI/TIM14_CH1/TIM1_CH1N/TIM3_CH2/TIM8_CH1N/PA7 32 4500 1800 200 L 50 50 1 1 B
+X ADC1_IN14/ADC2_IN14/ETH_RXD0/PC4 33 4500 -1300 200 L 50 50 1 1 B
+X ADC1_IN15/ADC2_IN15/ETH_RXD1/PC5 34 4500 -1400 200 L 50 50 1 1 B
+X ADC1_IN8/ADC2_IN8/ETH_RXD2/TIM1_CH2N/TIM3_CH3/TIM8_CH2N/USB_OTG_HS_ULPI_D1/PB0 35 4500 800 200 L 50 50 1 1 B
+X ADC1_IN9/ADC2_IN9/ETH_RXD3/TIM1_CH3N/TIM3_CH4/TIM8_CH3N/USB_OTG_HS_ULPI_D2/PB1 36 4500 700 200 L 50 50 1 1 B
+X BOOT1/PB2 37 4500 600 200 L 50 50 1 1 B
+X PE7/FMC_D4/FMC_DA4/TIM1_ETR/UART7_RX 38 -4500 100 200 R 50 50 1 1 B
+X PE8/FMC_D5/FMC_DA5/TIM1_CH1N/UART7_TX 39 -4500 0 200 R 50 50 1 1 B
+X PE5/DCMI_D6/FMC_A21/SAI1_SCK_A/SPI4_MISO/SYS_TRACED2/TIM9_CH1 4 -4500 300 200 R 50 50 1 1 B
+X PE9/DAC_EXTI9/FMC_D6/FMC_DA6/TIM1_CH1 40 -4500 -100 200 R 50 50 1 1 B
+X PE10/FMC_D7/FMC_DA7/TIM1_CH2N 41 -4500 -200 200 R 50 50 1 1 B
+X PE11/ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/FMC_D8/FMC_DA8/SPI4_NSS/TIM1_CH2 42 -4500 -300 200 R 50 50 1 1 B
+X PE12/FMC_D9/FMC_DA9/SPI4_SCK/TIM1_CH3N 43 -4500 -400 200 R 50 50 1 1 B
+X PE13/FMC_D10/FMC_DA10/SPI4_MISO/TIM1_CH3 44 -4500 -500 200 R 50 50 1 1 B
+X PE14/FMC_D11/FMC_DA11/SPI4_MOSI/TIM1_CH4 45 -4500 -600 200 R 50 50 1 1 B
+X PE15/ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/FMC_D12/FMC_DA12/TIM1_BKIN 46 -4500 -700 200 R 50 50 1 1 B
+X ETH_RX_ER/I2C2_SCL/I2S2_CK/SPI2_SCK/TIM2_CH3/USART3_TX/USB_OTG_HS_ULPI_D3/PB10 47 4500 -200 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/ETH_TX_EN/I2C2_SDA/TIM2_CH4/USART3_RX/USB_OTG_HS_ULPI_D4/PB11 48 4500 -300 200 L 50 50 1 1 B
+X VCAP_1 49 -4500 1900 200 R 50 50 1 1 W
+X PE6/DCMI_D7/FMC_A22/SAI1_SD_A/SPI4_MOSI/SYS_TRACED3/TIM9_CH2 5 -4500 200 200 R 50 50 1 1 B
+X VDD 50 0 3000 200 D 50 50 1 1 W
+X CAN2_RX/ETH_TXD0/I2C2_SMBA/I2S2_WS/SPI2_NSS/TIM1_BKIN/USART3_CK/USB_OTG_HS_ID/USB_OTG_HS_ULPI_D5/PB12 51 4500 -400 200 L 50 50 1 1 B
+X CAN2_TX/ETH_TXD1/I2S2_CK/SPI2_SCK/TIM1_CH1N/USART3_CTS/USB_OTG_HS_ULPI_D6/USB_OTG_HS_VBUS/PB13 52 4500 -500 200 L 50 50 1 1 B
+X I2S2_ext_SD/SPI2_MISO/TIM12_CH1/TIM1_CH2N/TIM8_CH2N/USART3_RTS/USB_OTG_HS_DM/PB14 53 4500 -600 200 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S2_SD/RTC_REFIN/SPI2_MOSI/TIM12_CH2/TIM1_CH3N/TIM8_CH3N/USB_OTG_HS_DP/PB15 54 4500 -700 200 L 50 50 1 1 B
+X PD8/FMC_D13/FMC_DA13/USART3_TX 55 -4500 -1700 200 R 50 50 1 1 B
+X PD9/DAC_EXTI9/FMC_D14/FMC_DA14/USART3_RX 56 -4500 -1800 200 R 50 50 1 1 B
+X PD10/FMC_D15/FMC_DA15/USART3_CK 57 -4500 -1900 200 R 50 50 1 1 B
+X PD11/ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/FMC_A16/FMC_CLE/USART3_CTS 58 -4500 -2000 200 R 50 50 1 1 B
+X PD12/FMC_A17/FMC_ALE/TIM4_CH1/USART3_RTS 59 -4500 -2100 200 R 50 50 1 1 B
+X VBAT 6 -4500 2100 200 R 50 50 1 1 W
+X PD13/FMC_A18/TIM4_CH2 60 -4500 -2200 200 R 50 50 1 1 B
+X PD14/FMC_D0/FMC_DA0/TIM4_CH3 61 -4500 -2300 200 R 50 50 1 1 B
+X PD15/ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/FMC_D1/FMC_DA1/TIM4_CH4 62 -4500 -2400 200 R 50 50 1 1 B
+X DCMI_D0/I2S2_MCK/SDIO_D6/TIM3_CH1/TIM8_CH1/USART6_TX/PC6 63 4500 -1500 200 L 50 50 1 1 B
+X DCMI_D1/I2S3_MCK/SDIO_D7/TIM3_CH2/TIM8_CH2/USART6_RX/PC7 64 4500 -1600 200 L 50 50 1 1 B
+X DCMI_D2/SDIO_D0/TIM3_CH3/TIM8_CH3/USART6_CK/PC8 65 4500 -1700 200 L 50 50 1 1 B
+X DAC_EXTI9/DCMI_D3/I2C3_SDA/I2S_CKIN/RCC_MCO_2/SDIO_D1/TIM3_CH4/TIM8_CH4/PC9 66 4500 -1800 200 L 50 50 1 1 B
+X I2C3_SCL/RCC_MCO_1/TIM1_CH1/USART1_CK/USB_OTG_FS_SOF/PA8 67 4500 1700 200 L 50 50 1 1 B
+X DAC_EXTI9/DCMI_D0/I2C3_SMBA/TIM1_CH2/USART1_TX/USB_OTG_FS_VBUS/PA9 68 4500 1600 200 L 50 50 1 1 B
+X DCMI_D1/TIM1_CH3/USART1_RX/USB_OTG_FS_ID/PA10 69 4500 1500 200 L 50 50 1 1 B
+X RTC_AF1/PC13 7 4500 -2200 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/CAN1_RX/TIM1_CH4/USART1_CTS/USB_OTG_FS_DM/PA11 70 4500 1400 200 L 50 50 1 1 B
+X CAN1_TX/TIM1_ETR/USART1_RTS/USB_OTG_FS_DP/PA12 71 4500 1300 200 L 50 50 1 1 B
+X SYS_JTMS-SWDIO/PA13 72 4500 1200 200 L 50 50 1 1 B
+X VCAP_2 73 -4500 1800 200 R 50 50 1 1 W
+X VSS 74 0 -2900 200 U 50 50 1 1 W
+X VDD 75 100 3000 200 D 50 50 1 1 W
+X SYS_JTCK-SWCLK/PA14 76 4500 1100 200 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S3_WS/SPI1_NSS/SPI3_NSS/SYS_JTDI/TIM2_CH1/TIM2_ETR/PA15 77 4500 1000 200 L 50 50 1 1 B
+X DCMI_D8/I2S3_CK/SDIO_D2/SPI3_SCK/UART4_TX/USART3_TX/PC10 78 4500 -1900 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/DCMI_D4/I2S3_ext_SD/SDIO_D3/SPI3_MISO/UART4_RX/USART3_RX/PC11 79 4500 -2000 200 L 50 50 1 1 B
+X RCC_OSC32_IN/PC14 8 4500 -2300 200 L 50 50 1 1 B
+X DCMI_D9/I2S3_SD/SDIO_CK/SPI3_MOSI/UART5_TX/USART3_CK/PC12 80 4500 -2100 200 L 50 50 1 1 B
+X PD0/CAN1_RX/FMC_D2/FMC_DA2 81 -4500 -900 200 R 50 50 1 1 B
+X PD1/CAN1_TX/FMC_D3/FMC_DA3 82 -4500 -1000 200 R 50 50 1 1 B
+X PD2/DCMI_D11/SDIO_CMD/TIM3_ETR/UART5_RX 83 -4500 -1100 200 R 50 50 1 1 B
+X PD3/DCMI_D5/FMC_CLK/I2S2_CK/SPI2_SCK/USART2_CTS 84 -4500 -1200 200 R 50 50 1 1 B
+X PD4/FMC_NOE/USART2_RTS 85 -4500 -1300 200 R 50 50 1 1 B
+X PD5/FMC_NWE/USART2_TX 86 -4500 -1400 200 R 50 50 1 1 B
+X PD6/DCMI_D10/FMC_NWAIT/I2S3_SD/SAI1_SD_A/SPI3_MOSI/USART2_RX 87 -4500 -1500 200 R 50 50 1 1 B
+X PD7/FMC_NCE2/FMC_NE1/USART2_CK 88 -4500 -1600 200 R 50 50 1 1 B
+X I2S3_CK/SPI1_SCK/SPI3_SCK/SYS_JTDO-SWO/TIM2_CH2/PB3 89 4500 500 200 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/RCC_OSC32_OUT/PC15 9 4500 -2400 200 L 50 50 1 1 B
+X I2S3_ext_SD/SPI1_MISO/SPI3_MISO/SYS_JTRST/TIM3_CH1/PB4 90 4500 400 200 L 50 50 1 1 B
+X CAN2_RX/DCMI_D10/ETH_PPS_OUT/FMC_SDCKE1/I2C1_SMBA/I2S3_SD/SPI1_MOSI/SPI3_MOSI/TIM3_CH2/USB_OTG_HS_ULPI_D7/PB5 91 4500 300 200 L 50 50 1 1 B
+X CAN2_TX/DCMI_D5/FMC_SDNE1/I2C1_SCL/TIM4_CH1/USART1_TX/PB6 92 4500 200 200 L 50 50 1 1 B
+X DCMI_VSYNC/FMC_NL/I2C1_SDA/TIM4_CH2/USART1_RX/PB7 93 4500 100 200 L 50 50 1 1 B
+X BOOT0 94 -4500 2300 200 R 50 50 1 1 I
+X CAN1_RX/DCMI_D6/ETH_TXD3/I2C1_SCL/SDIO_D4/TIM10_CH1/TIM4_CH3/PB8 95 4500 0 200 L 50 50 1 1 B
+X CAN1_TX/DAC_EXTI9/DCMI_D7/I2C1_SDA/I2S2_WS/SDIO_D5/SPI2_NSS/TIM11_CH1/TIM4_CH4/PB9 96 4500 -100 200 L 50 50 1 1 B
+X PE0/DCMI_D2/FMC_NBL0/TIM4_ETR/UART8_RX 97 -4500 800 200 R 50 50 1 1 B
+X PE1/DCMI_D3/FMC_NBL1/UART8_TX 98 -4500 700 200 R 50 50 1 1 B
+X VSS 99 100 -2900 200 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# IC_STM32F429ZET6
+#
+DEF IC_STM32F429ZET6 U 0 40 Y Y 1 F N
+F0 "U" -4400 3625 50 H V L BNN
+F1 "IC_STM32F429ZET6" 4400 3625 50 H V R BNN ""
+F2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" 4400 3575 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f427vg-956239.pdf" 0 0 50 H I C CNN ""
+F4 "STM32F429ZET6" 0 0 50 H I C CNN "MPN"
+F5 "4699 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ARM Microcontrollers - MCU 16/32-BITS MICROS" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "10.52  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -4400 -3600 4400 3600 0 1 10 f
+X PE2/ETH_TXD3/FMC_A23/SAI1_MCLK_A/SPI4_SCK/SYS_TRACECLK 1 -4600 -2000 200 R 50 50 1 1 B
+X PF0/FMC_A0/I2C2_SDA 10 -4600 -100 200 R 50 50 1 1 B
+X I2C3_SCL/LTDC_R6/RCC_MCO_1/TIM1_CH1/USART1_CK/USB_OTG_FS_SOF/PA8 100 4600 2500 200 L 50 50 1 1 B
+X DAC_EXTI9/DCMI_D0/I2C3_SMBA/TIM1_CH2/USART1_TX/USB_OTG_FS_VBUS/PA9 101 4600 2400 200 L 50 50 1 1 B
+X DCMI_D1/TIM1_CH3/USART1_RX/USB_OTG_FS_ID/PA10 102 4600 2300 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/CAN1_RX/LTDC_R4/TIM1_CH4/USART1_CTS/USB_OTG_FS_DM/PA11 103 4600 2200 200 L 50 50 1 1 B
+X CAN1_TX/LTDC_R5/TIM1_ETR/USART1_RTS/USB_OTG_FS_DP/PA12 104 4600 2100 200 L 50 50 1 1 B
+X SYS_JTMS-SWDIO/PA13 105 4600 2000 200 L 50 50 1 1 B
+X VCAP_2 106 -4600 2500 200 R 50 50 1 1 W
+X VSS 107 100 -3800 200 U 50 50 1 1 W
+X VDD 108 200 3800 200 D 50 50 1 1 W
+X SYS_JTCK-SWCLK/PA14 109 4600 1900 200 L 50 50 1 1 B
+X PF1/FMC_A1/I2C2_SCL 11 -4600 -200 200 R 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S3_WS/SPI1_NSS/SPI3_NSS/SYS_JTDI/TIM2_CH1/TIM2_ETR/PA15 110 4600 1800 200 L 50 50 1 1 B
+X DCMI_D8/I2S3_CK/LTDC_R2/SDIO_D2/SPI3_SCK/UART4_TX/USART3_TX/PC10 111 4600 -1100 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/DCMI_D4/I2S3_ext_SD/SDIO_D3/SPI3_MISO/UART4_RX/USART3_RX/PC11 112 4600 -1200 200 L 50 50 1 1 B
+X DCMI_D9/I2S3_SD/SDIO_CK/SPI3_MOSI/UART5_TX/USART3_CK/PC12 113 4600 -1300 200 L 50 50 1 1 B
+X CAN1_RX/FMC_D2/FMC_DA2/PD0 114 4600 -1800 200 L 50 50 1 1 B
+X CAN1_TX/FMC_D3/FMC_DA3/PD1 115 4600 -1900 200 L 50 50 1 1 B
+X DCMI_D11/SDIO_CMD/TIM3_ETR/UART5_RX/PD2 116 4600 -2000 200 L 50 50 1 1 B
+X DCMI_D5/FMC_CLK/I2S2_CK/LTDC_G7/SPI2_SCK/USART2_CTS/PD3 117 4600 -2100 200 L 50 50 1 1 B
+X FMC_NOE/USART2_RTS/PD4 118 4600 -2200 200 L 50 50 1 1 B
+X FMC_NWE/USART2_TX/PD5 119 4600 -2300 200 L 50 50 1 1 B
+X PF2/FMC_A2/I2C2_SMBA 12 -4600 -300 200 R 50 50 1 1 B
+X VSS 120 200 -3800 200 U 50 50 1 1 W
+X VDD 121 300 3800 200 D 50 50 1 1 W
+X DCMI_D10/FMC_NWAIT/I2S3_SD/LTDC_B2/SAI1_SD_A/SPI3_MOSI/USART2_RX/PD6 122 4600 -2400 200 L 50 50 1 1 B
+X FMC_NCE2/FMC_NE1/USART2_CK/PD7 123 4600 -2500 200 L 50 50 1 1 B
+X PG9/DAC_EXTI9/DCMI_VSYNC/FMC_NCE3/FMC_NE2/USART6_RX 124 -4600 700 200 R 50 50 1 1 B
+X PG10/DCMI_D2/FMC_NCE4_1/FMC_NE3/LTDC_B2/LTDC_G3 125 -4600 600 200 R 50 50 1 1 B
+X PG11/ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/DCMI_D3/ETH_TX_EN/FMC_NCE4_2/LTDC_B3 126 -4600 500 200 R 50 50 1 1 B
+X PG12/FMC_NE4/LTDC_B1/LTDC_B4/SPI6_MISO/USART6_RTS 127 -4600 400 200 R 50 50 1 1 B
+X PG13/ETH_TXD0/FMC_A24/SPI6_SCK/USART6_CTS 128 -4600 300 200 R 50 50 1 1 B
+X PG14/ETH_TXD1/FMC_A25/SPI6_MOSI/USART6_TX 129 -4600 200 200 R 50 50 1 1 B
+X PF3/ADC3_IN9/FMC_A3 13 -4600 -400 200 R 50 50 1 1 B
+X VSS 130 300 -3800 200 U 50 50 1 1 W
+X VDD 131 400 3800 200 D 50 50 1 1 W
+X PG15/ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/DCMI_D13/FMC_SDNCAS/USART6_CTS 132 -4600 100 200 R 50 50 1 1 B
+X I2S3_CK/SPI1_SCK/SPI3_SCK/SYS_JTDO-SWO/TIM2_CH2/PB3 133 4600 1300 200 L 50 50 1 1 B
+X I2S3_ext_SD/SPI1_MISO/SPI3_MISO/SYS_JTRST/TIM3_CH1/PB4 134 4600 1200 200 L 50 50 1 1 B
+X CAN2_RX/DCMI_D10/ETH_PPS_OUT/FMC_SDCKE1/I2C1_SMBA/I2S3_SD/SPI1_MOSI/SPI3_MOSI/TIM3_CH2/USB_OTG_HS_ULPI_D7/PB5 135 4600 1100 200 L 50 50 1 1 B
+X CAN2_TX/DCMI_D5/FMC_SDNE1/I2C1_SCL/TIM4_CH1/USART1_TX/PB6 136 4600 1000 200 L 50 50 1 1 B
+X DCMI_VSYNC/FMC_NL/I2C1_SDA/TIM4_CH2/USART1_RX/PB7 137 4600 900 200 L 50 50 1 1 B
+X BOOT0 138 -4600 3000 200 R 50 50 1 1 I
+X CAN1_RX/DCMI_D6/ETH_TXD3/I2C1_SCL/LTDC_B6/SDIO_D4/TIM10_CH1/TIM4_CH3/PB8 139 4600 800 200 L 50 50 1 1 B
+X PF4/ADC3_IN14/FMC_A4 14 -4600 -500 200 R 50 50 1 1 B
+X CAN1_TX/DAC_EXTI9/DCMI_D7/I2C1_SDA/I2S2_WS/LTDC_B7/SDIO_D5/SPI2_NSS/TIM11_CH1/TIM4_CH4/PB9 140 4600 700 200 L 50 50 1 1 B
+X PE0/DCMI_D2/FMC_NBL0/TIM4_ETR/UART8_RX 141 -4600 -1800 200 R 50 50 1 1 B
+X PE1/DCMI_D3/FMC_NBL1/UART8_TX 142 -4600 -1900 200 R 50 50 1 1 B
+X PDR_ON 143 -4600 3200 200 R 50 50 1 1 I
+X VDD 144 500 3800 200 D 50 50 1 1 W
+X PF5/ADC3_IN15/FMC_A5 15 -4600 -600 200 R 50 50 1 1 B
+X VSS 16 -500 -3800 200 U 50 50 1 1 W
+X VDD 17 -600 3800 200 D 50 50 1 1 W
+X PF6/ADC3_IN4/FMC_NIORD/SAI1_SD_B/SPI5_NSS/TIM10_CH1/UART7_RX 18 -4600 -700 200 R 50 50 1 1 B
+X PF7/ADC3_IN5/FMC_NREG/SAI1_MCLK_B/SPI5_SCK/TIM11_CH1/UART7_TX 19 -4600 -800 200 R 50 50 1 1 B
+X PE3/FMC_A19/SAI1_SD_B/SYS_TRACED0 2 -4600 -2100 200 R 50 50 1 1 B
+X PF8/ADC3_IN6/FMC_NIOWR/SAI1_SCK_B/SPI5_MISO/TIM13_CH1 20 -4600 -900 200 R 50 50 1 1 B
+X PF9/ADC3_IN7/DAC_EXTI9/FMC_CD/SAI1_FS_B/SPI5_MOSI/TIM14_CH1 21 -4600 -1000 200 R 50 50 1 1 B
+X PF10/ADC3_IN8/DCMI_D11/FMC_INTR/LTDC_DE 22 -4600 -1100 200 R 50 50 1 1 B
+X PH0/RCC_OSC_IN 23 -4600 1900 200 R 50 50 1 1 I
+X PH1/RCC_OSC_OUT 24 -4600 1800 200 R 50 50 1 1 I
+X ~RST 25 -4600 3300 200 R 50 50 1 1 I
+X ADC1_IN10/ADC2_IN10/ADC3_IN10/FMC_SDNWE/USB_OTG_HS_ULPI_STP/PC0 26 4600 -100 200 L 50 50 1 1 B
+X ADC1_IN11/ADC2_IN11/ADC3_IN11/ETH_MDC/PC1 27 4600 -200 200 L 50 50 1 1 B
+X ADC1_IN12/ADC2_IN12/ADC3_IN12/ETH_TXD2/FMC_SDNE0/I2S2_ext_SD/SPI2_MISO/USB_OTG_HS_ULPI_DIR/PC2 28 4600 -300 200 L 50 50 1 1 B
+X ADC1_IN13/ADC2_IN13/ADC3_IN13/ETH_TX_CLK/FMC_SDCKE0/I2S2_SD/SPI2_MOSI/USB_OTG_HS_ULPI_NXT/PC3 29 4600 -400 200 L 50 50 1 1 B
+X PE4/DCMI_D4/FMC_A20/LTDC_B0/SAI1_FS_A/SPI4_NSS/SYS_TRACED1 3 -4600 -2200 200 R 50 50 1 1 B
+X VDD 30 -500 3800 200 D 50 50 1 1 W
+X VSSA 31 400 -3800 200 U 50 50 1 1 W
+X VREF+ 32 -4600 2700 200 R 50 50 1 1 W
+X VDDA 33 600 3800 200 D 50 50 1 1 W
+X ADC1_IN0/ADC2_IN0/ADC3_IN0/ETH_CRS/SYS_WKUP/TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/UART4_TX/USART2_CTS/PA0 34 4600 3300 200 L 50 50 1 1 B
+X ADC1_IN1/ADC2_IN1/ADC3_IN1/ETH_REF_CLK/ETH_RX_CLK/TIM2_CH2/TIM5_CH2/UART4_RX/USART2_RTS/PA1 35 4600 3200 200 L 50 50 1 1 B
+X ADC1_IN2/ADC2_IN2/ADC3_IN2/ETH_MDIO/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/PA2 36 4600 3100 200 L 50 50 1 1 B
+X ADC1_IN3/ADC2_IN3/ADC3_IN3/ETH_COL/LTDC_B5/TIM2_CH4/TIM5_CH4/TIM9_CH2/USART2_RX/USB_OTG_HS_ULPI_D0/PA3 37 4600 3000 200 L 50 50 1 1 B
+X VSS 38 -400 -3800 200 U 50 50 1 1 W
+X VDD 39 -400 3800 200 D 50 50 1 1 W
+X PE5/DCMI_D6/FMC_A21/LTDC_G0/SAI1_SCK_A/SPI4_MISO/SYS_TRACED2/TIM9_CH1 4 -4600 -2300 200 R 50 50 1 1 B
+X ADC1_IN4/ADC2_IN4/DAC_OUT1/DCMI_HSYNC/I2S3_WS/LTDC_VSYNC/SPI1_NSS/SPI3_NSS/USART2_CK/USB_OTG_HS_SOF/PA4 40 4600 2900 200 L 50 50 1 1 B
+X ADC1_IN5/ADC2_IN5/DAC_OUT2/SPI1_SCK/TIM2_CH1/TIM2_ETR/TIM8_CH1N/USB_OTG_HS_ULPI_CK/PA5 41 4600 2800 200 L 50 50 1 1 B
+X ADC1_IN6/ADC2_IN6/DCMI_PIXCK/LTDC_G2/SPI1_MISO/TIM13_CH1/TIM1_BKIN/TIM3_CH1/TIM8_BKIN/PA6 42 4600 2700 200 L 50 50 1 1 B
+X ADC1_IN7/ADC2_IN7/ETH_CRS_DV/ETH_RX_DV/SPI1_MOSI/TIM14_CH1/TIM1_CH1N/TIM3_CH2/TIM8_CH1N/PA7 43 4600 2600 200 L 50 50 1 1 B
+X ADC1_IN14/ADC2_IN14/ETH_RXD0/PC4 44 4600 -500 200 L 50 50 1 1 B
+X ADC1_IN15/ADC2_IN15/ETH_RXD1/PC5 45 4600 -600 200 L 50 50 1 1 B
+X ADC1_IN8/ADC2_IN8/ETH_RXD2/LTDC_R3/TIM1_CH2N/TIM3_CH3/TIM8_CH2N/USB_OTG_HS_ULPI_D1/PB0 46 4600 1600 200 L 50 50 1 1 B
+X ADC1_IN9/ADC2_IN9/ETH_RXD3/LTDC_R6/TIM1_CH3N/TIM3_CH4/TIM8_CH3N/USB_OTG_HS_ULPI_D2/PB1 47 4600 1500 200 L 50 50 1 1 B
+X BOOT1/PB2 48 4600 1400 200 L 50 50 1 1 B
+X PF11/ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/DCMI_D12/FMC_SDNRAS/SPI5_MOSI 49 -4600 -1200 200 R 50 50 1 1 B
+X PE6/DCMI_D7/FMC_A22/LTDC_G1/SAI1_SD_A/SPI4_MOSI/SYS_TRACED3/TIM9_CH2 5 -4600 -2400 200 R 50 50 1 1 B
+X PF12/FMC_A6 50 -4600 -1300 200 R 50 50 1 1 B
+X VSS 51 -300 -3800 200 U 50 50 1 1 W
+X VDD 52 -300 3800 200 D 50 50 1 1 W
+X PF13/FMC_A7 53 -4600 -1400 200 R 50 50 1 1 B
+X PF14/FMC_A8 54 -4600 -1500 200 R 50 50 1 1 B
+X PF15/ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/FMC_A9 55 -4600 -1600 200 R 50 50 1 1 B
+X PG0/FMC_A10 56 -4600 1600 200 R 50 50 1 1 B
+X PG1/FMC_A11 57 -4600 1500 200 R 50 50 1 1 B
+X PE7/FMC_D4/FMC_DA4/TIM1_ETR/UART7_RX 58 -4600 -2500 200 R 50 50 1 1 B
+X PE8/FMC_D5/FMC_DA5/TIM1_CH1N/UART7_TX 59 -4600 -2600 200 R 50 50 1 1 B
+X VBAT 6 -4600 2800 200 R 50 50 1 1 W
+X PE9/DAC_EXTI9/FMC_D6/FMC_DA6/TIM1_CH1 60 -4600 -2700 200 R 50 50 1 1 B
+X VSS 61 -200 -3800 200 U 50 50 1 1 W
+X VDD 62 -200 3800 200 D 50 50 1 1 W
+X PE10/FMC_D7/FMC_DA7/TIM1_CH2N 63 -4600 -2800 200 R 50 50 1 1 B
+X PE11/ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/FMC_D8/FMC_DA8/LTDC_G3/SPI4_NSS/TIM1_CH2 64 -4600 -2900 200 R 50 50 1 1 B
+X PE12/FMC_D9/FMC_DA9/LTDC_B4/SPI4_SCK/TIM1_CH3N 65 -4600 -3000 200 R 50 50 1 1 B
+X PE13/FMC_D10/FMC_DA10/LTDC_DE/SPI4_MISO/TIM1_CH3 66 -4600 -3100 200 R 50 50 1 1 B
+X PE14/FMC_D11/FMC_DA11/LTDC_CLK/SPI4_MOSI/TIM1_CH4 67 -4600 -3200 200 R 50 50 1 1 B
+X PE15/ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/FMC_D12/FMC_DA12/LTDC_R7/TIM1_BKIN 68 -4600 -3300 200 R 50 50 1 1 B
+X ETH_RX_ER/I2C2_SCL/I2S2_CK/LTDC_G4/SPI2_SCK/TIM2_CH3/USART3_TX/USB_OTG_HS_ULPI_D3/PB10 69 4600 600 200 L 50 50 1 1 B
+X RTC_AF1/PC13 7 4600 -1400 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/ETH_TX_EN/I2C2_SDA/LTDC_G5/TIM2_CH4/USART3_RX/USB_OTG_HS_ULPI_D4/PB11 70 4600 500 200 L 50 50 1 1 B
+X VCAP_1 71 -4600 2600 200 R 50 50 1 1 W
+X VDD 72 -100 3800 200 D 50 50 1 1 W
+X CAN2_RX/ETH_TXD0/I2C2_SMBA/I2S2_WS/SPI2_NSS/TIM1_BKIN/USART3_CK/USB_OTG_HS_ID/USB_OTG_HS_ULPI_D5/PB12 73 4600 400 200 L 50 50 1 1 B
+X CAN2_TX/ETH_TXD1/I2S2_CK/SPI2_SCK/TIM1_CH1N/USART3_CTS/USB_OTG_HS_ULPI_D6/USB_OTG_HS_VBUS/PB13 74 4600 300 200 L 50 50 1 1 B
+X I2S2_ext_SD/SPI2_MISO/TIM12_CH1/TIM1_CH2N/TIM8_CH2N/USART3_RTS/USB_OTG_HS_DM/PB14 75 4600 200 200 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/I2S2_SD/RTC_REFIN/SPI2_MOSI/TIM12_CH2/TIM1_CH3N/TIM8_CH3N/USB_OTG_HS_DP/PB15 76 4600 100 200 L 50 50 1 1 B
+X FMC_D13/FMC_DA13/USART3_TX/PD8 77 4600 -2600 200 L 50 50 1 1 B
+X DAC_EXTI9/FMC_D14/FMC_DA14/USART3_RX/PD9 78 4600 -2700 200 L 50 50 1 1 B
+X FMC_D15/FMC_DA15/LTDC_B3/USART3_CK/PD10 79 4600 -2800 200 L 50 50 1 1 B
+X RCC_OSC32_IN/PC14 8 4600 -1500 200 L 50 50 1 1 B
+X ADC1_EXTI11/ADC2_EXTI11/ADC3_EXTI11/FMC_A16/FMC_CLE/USART3_CTS/PD11 80 4600 -2900 200 L 50 50 1 1 B
+X FMC_A17/FMC_ALE/TIM4_CH1/USART3_RTS/PD12 81 4600 -3000 200 L 50 50 1 1 B
+X FMC_A18/TIM4_CH2/PD13 82 4600 -3100 200 L 50 50 1 1 B
+X VSS 83 -100 -3800 200 U 50 50 1 1 W
+X VDD 84 0 3800 200 D 50 50 1 1 W
+X FMC_D0/FMC_DA0/TIM4_CH3/PD14 85 4600 -3200 200 L 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/FMC_D1/FMC_DA1/TIM4_CH4/PD15 86 4600 -3300 200 L 50 50 1 1 B
+X PG2/FMC_A12 87 -4600 1400 200 R 50 50 1 1 B
+X PG3/FMC_A13 88 -4600 1300 200 R 50 50 1 1 B
+X PG4/FMC_A14/FMC_BA0 89 -4600 1200 200 R 50 50 1 1 B
+X ADC1_EXTI15/ADC2_EXTI15/ADC3_EXTI15/RCC_OSC32_OUT/PC15 9 4600 -1600 200 L 50 50 1 1 B
+X PG5/FMC_A15/FMC_BA1 90 -4600 1100 200 R 50 50 1 1 B
+X PG6/DCMI_D12/FMC_INT2/LTDC_R7 91 -4600 1000 200 R 50 50 1 1 B
+X PG7/DCMI_D13/FMC_INT3/LTDC_CLK/USART6_CK 92 -4600 900 200 R 50 50 1 1 B
+X PG8/ETH_PPS_OUT/FMC_SDCLK/SPI6_NSS/USART6_RTS 93 -4600 800 200 R 50 50 1 1 B
+X VSS 94 0 -3800 200 U 50 50 1 1 W
+X VDD 95 100 3800 200 D 50 50 1 1 W
+X DCMI_D0/I2S2_MCK/LTDC_HSYNC/SDIO_D6/TIM3_CH1/TIM8_CH1/USART6_TX/PC6 96 4600 -700 200 L 50 50 1 1 B
+X DCMI_D1/I2S3_MCK/LTDC_G6/SDIO_D7/TIM3_CH2/TIM8_CH2/USART6_RX/PC7 97 4600 -800 200 L 50 50 1 1 B
+X DCMI_D2/SDIO_D0/TIM3_CH3/TIM8_CH3/USART6_CK/PC8 98 4600 -900 200 L 50 50 1 1 B
+X DAC_EXTI9/DCMI_D3/I2C3_SDA/I2S_CKIN/RCC_MCO_2/SDIO_D1/TIM3_CH4/TIM8_CH4/PC9 99 4600 -1000 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# IC_SX1280
+#
+DEF IC_SX1280 U 0 40 Y Y 1 F N
+F0 "U" 0 800 50 H V C CNN
+F1 "IC_SX1280" 0 700 50 H V C CNN ""
+F2 "QFN:QFN50P40X40X75-25N" -50 250 50 H I C CNN ""
+F3 "" -50 250 50 H I C CNN ""
+F4 "SX1280IMLTRT" 0 0 50 H I C CNN "MPN"
+F5 "6080 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "RF Transceiver Long range 2.4 GHz Wireless Transceiver" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "https://www.mouser.com/datasheet/2/761/DS_SX1280-1_V2.2-1511144.pdf" 0 0 50 H I C CNN "Datasheet"
+F10 "6.05  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -400 650 400 -650 0 1 0 N
+X VR_PA 1 -500 550 100 R 50 50 1 1 I
+X DIO3 10 -500 -350 100 R 50 50 1 1 B
+X VBAT_IO 11 -500 -450 100 R 50 50 1 1 I
+X DCC_FB 12 -500 -550 100 R 50 50 1 1 O
+X GND 13 500 -550 100 L 50 50 1 1 W
+X DCC_SW 14 500 -450 100 L 50 50 1 1 O
+X VBAT 15 500 -350 100 L 50 50 1 1 I
+X MISO_TX 16 500 -250 100 L 50 50 1 1 O
+X MOSI_RX 17 500 -150 100 L 50 50 1 1 I
+X SCK/RTSN 18 500 -50 100 L 50 50 1 1 I
+X NSS/CTS 19 500 50 100 L 50 50 1 1 I
+X VDD_IN 2 -500 450 100 R 50 50 1 1 W
+X GND 20 500 150 100 L 50 50 1 1 W
+X GND 21 500 250 100 L 50 50 1 1 W
+X RFIO 22 500 350 100 L 50 50 1 1 B
+X GND 23 500 450 100 L 50 50 1 1 W
+X GND 24 500 550 100 L 50 50 1 1 W
+X NRESET 3 -500 350 100 R 50 50 1 1 I
+X XTA 4 -500 250 100 R 50 50 1 1 I
+X GND 5 -500 150 100 R 50 50 1 1 W
+X XTB 6 -500 50 100 R 50 50 1 1 I
+X BUSY 7 -500 -50 100 R 50 50 1 1 O
+X DIO1 8 -500 -150 100 R 50 50 1 1 B
+X DIO2 9 -500 -250 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# IC_TJF1051T_3_118
+#
+DEF IC_TJF1051T_3_118 U 0 40 Y Y 1 F N
+F0 "U" 0 450 50 H V C CNN
+F1 "IC_TJF1051T_3_118" 0 350 50 H V C CNN ""
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 550 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/302/TJF1051-1127980.pdf" 0 150 50 H I C CNN ""
+F4 "TJF1051T/3" 0 -350 50 H I C CNN "MPN"
+F5 "6488 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "CAN Interface IC Hi Spd CAN Transcvr 4.5V-5.5V 220ns" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/302/TJF1051-1127980.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.856  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -300 250 300 -250 0 1 0 N
+X TXD 1 -400 150 100 R 50 50 1 1 I
+X GND 2 -400 50 100 R 50 50 1 1 W
+X VCC 3 -400 -50 100 R 50 50 1 1 W
+X RXD 4 -400 -150 100 R 50 50 1 1 O
+X VDDIO 5 400 -150 100 L 50 50 1 1 W
+X CANL 6 400 -50 100 L 50 50 1 1 B
+X CANH 7 400 50 100 L 50 50 1 1 B
+X SILENT 8 400 150 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IC_TPS54360DDA
+#
+DEF IC_TPS54360DDA U 0 10 Y Y 1 F N
+F0 "U" -300 450 50 H V L CNN
+F1 "IC_TPS54360DDA" -300 350 50 H V L CNN ""
+F2 "SOIC:SOIC127P600X175_HS-9N" 50 -450 50 H I L CIN ""
+F3 "" 0 0 50 H I C CNN ""
+F4 "TPS54360DDAR" 0 -300 50 H I C CNN "MPN"
+F5 "18573 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Switching Voltage Regulators 60 Vin,3.5 A,SD DC-DC Converter" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "3.66  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ TI*SO*PowerPAD*ThermalVias*
+$ENDFPLIST
+DRAW
+T 0 450 50 20 0 0 0 3.5A Normal 0 C C
+T 0 -400 150 20 0 0 0 60V Normal 0 C C
+S -300 300 300 -400 0 1 10 f
+X BOOT 1 400 200 100 L 50 50 1 1 I
+X VIN 2 -400 200 100 R 50 50 1 1 W
+X EN 3 -400 -300 100 R 50 50 1 1 I
+X RT/CLK 4 -400 0 100 R 50 50 1 1 I
+X FB 5 400 -300 100 L 50 50 1 1 I
+X COMP 6 400 -100 100 L 50 50 1 1 P
+X GND 7 -100 -500 100 U 50 50 1 1 W
+X SW 8 400 0 100 L 50 50 1 1 O
+X GNDPAD 9 0 -500 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# IC_USBLC6-2
+#
+DEF IC_USBLC6-2 U 0 40 Y Y 1 F N
+F0 "U" 5 250 50 H V C CNN
+F1 "IC_USBLC6-2" 5 350 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23-6" 75 250 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" 75 250 50 H I C CNN ""
+F4 "USBLC6-2SC6" 0 -270 50 H I C CNN "MPN"
+F5 "108598 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ESD Suppressors / TVS Diodes ESD Protection Low Cap" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.393  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S 350 200 -350 -200 0 1 0 N
+P 2 0 1 0 -150 0 -30 0 N
+P 2 0 1 0 -150 100 160 100 N
+P 2 0 1 0 -120 -10 -120 0 N
+P 2 0 1 0 -50 -50 70 -50 N
+P 2 0 1 0 -50 -30 -50 -70 N
+P 2 0 1 0 -50 70 -50 30 N
+P 2 0 1 0 -30 0 -10 0 N
+P 2 0 1 0 10 -100 -150 -100 N
+P 2 0 1 0 10 50 -50 50 N
+P 2 0 1 0 20 -20 10 -30 N
+P 2 0 1 0 20 0 160 0 N
+P 2 0 1 0 20 20 20 -20 N
+P 2 0 1 0 20 20 30 30 N
+P 2 0 1 0 60 50 70 50 N
+P 2 0 1 0 70 -50 70 -30 N
+P 2 0 1 0 100 -30 100 -70 N
+P 2 0 1 0 100 70 100 30 N
+P 2 0 1 0 150 -100 160 -100 N
+P 3 0 1 0 -120 -10 -120 -50 -80 -50 N
+P 3 0 1 0 -80 50 -120 50 -120 0 N
+P 3 0 1 0 0 -50 0 -100 150 -100 N
+P 3 0 1 0 60 50 0 50 0 100 N
+P 3 0 1 0 100 -50 130 -50 130 0 N
+P 3 0 1 0 100 50 130 50 130 0 N
+P 4 0 1 0 -80 -30 -80 -70 -50 -50 -80 -30 N
+P 4 0 1 0 -50 50 -80 70 -80 30 -50 50 N
+P 4 0 1 0 -10 20 -10 -20 20 0 -10 20 N
+P 4 0 1 0 70 -30 100 -50 70 -70 70 -50 N
+P 4 0 1 0 70 70 70 30 100 50 70 70 N
+X IO1 1 -450 -100 100 R 50 50 1 1 P
+X GND 2 -450 0 100 R 50 50 1 1 P
+X IO2 3 -450 100 100 R 50 50 1 1 P
+X IO2 4 450 100 100 L 50 50 1 1 P
+X VCC 5 450 0 100 L 50 50 1 1 P
+X IO1 6 450 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IC_VL6180X
+#
+DEF IC_VL6180X U 0 40 Y Y 1 F N
+F0 "U" 0 -400 50 H V C CNN
+F1 "IC_VL6180X" 0 500 50 H V C CNN ""
+F2 "CUSTOM:LGA-12" -100 -500 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/vl6180x-1156206.pdf" 0 0 50 H I C CNN ""
+F4 "VL6180XV0NR/1" 50 400 50 H I C CNN "MPN"
+F5 "31391 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Proximity Sensors Proximity sensor, gesture and ambient light sensing (ALS) module" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "3.93  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -400 350 400 -350 0 1 0 N
+X GPIO1 1 -500 250 100 R 50 50 1 1 B
+X AVDD 10 500 50 100 L 50 50 1 1 W
+X NC 11 500 150 100 L 50 50 1 1 N
+X AVSS 12 500 250 100 L 50 50 1 1 W
+X NC 2 -500 150 100 R 50 50 1 1 N
+X NC 3 -500 50 100 R 50 50 1 1 N
+X GPIO0 4 -500 -50 100 R 50 50 1 1 B
+X SCL 5 -500 -150 100 R 50 50 1 1 I
+X SDA 6 -500 -250 100 R 50 50 1 1 B
+X NC 7 500 -250 100 L 50 50 1 1 N
+X AVDD_VCSEL 8 500 -150 100 L 50 50 1 1 I
+X AVSS_VCSEL 9 500 -50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IND_15uH_0805
+#
+DEF ~IND_15uH_0805 L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "IND_15uH_0805" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0805_2012Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/400/nductor_commercial_decoupling_mlz2012_en-918301.pdf" 0 0 50 H I C CNN ""
+F4 "MLZ2012M150WT000" 130 140 50 H I C CNN "MPN"
+F5 "3267 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 15   UH  20%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/400/nductor_commercial_decoupling_mlz2012_en-918301.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.122  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -50 0 20 0 0 0 "15uH 5A" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IND_2.5nH_0402
+#
+DEF ~IND_2.5nH_0402 L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "IND_2.5nH_0402" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0402_1005Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/JELF243A-0050-1380872.pdf" 0 0 50 H I C CNN ""
+F4 "LQW15AN2N5C00D" 130 140 50 H I C CNN "MPN"
+F5 "18064 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 2.5nH 0.2nH 100MHz" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/281/JELF243A-0050-1380872.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.166  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -50 0 20 0 0 0 2.5nH Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IND_3nH_0402
+#
+DEF ~IND_3nH_0402 L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "IND_3nH_0402" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0402_1005Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/JELF243A-0100-1380931.pdf" 0 0 50 H I C CNN ""
+F4 "LQW15AN3N0B80D" 130 140 50 H I C CNN "MPN"
+F5 "39116 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 0402 3.0nH 0.1nH" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/281/JELF243A-0100-1380931.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.227  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -50 0 20 0 0 0 3nH Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IND_4.7uH_2.63A
+#
+DEF ~IND_4.7uH_2.63A L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "IND_4.7uH_2.63A" 30 -40 50 H I L CNN ""
+F2 "CUSTOM:L_SRR4528A" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/rr4528a-1391584.pdf" 0 0 50 H I C CNN ""
+F4 "SRR4528A-4R7Y" 130 140 50 H I C CNN "MPN"
+F5 "476 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 4.7uH 30% 2.63A" 0 0 50 H I C CNN "Description"
+F7 "0.585  EUR" 0 0 50 H I C CNN "Price"
+F8 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -50 0 20 0 0 0 "4.7uH 2.63A" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IND_4.7uH_200mA_0805
+#
+DEF ~IND_4.7uH_200mA_0805 L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "IND_4.7uH_200mA_0805" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0805_2012Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/wound01_e-1509533.pdf" 0 0 50 H I C CNN ""
+F4 "LBR2012T4R7M" 130 140 50 H I C CNN "MPN"
+F5 "27180 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 0805 4.7uH 312mOhms +/-20%Tol 200mA" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/396/wound01_e-1509533.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.096  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -50 0 20 0 0 0 "4.7uH 0.2A" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IND_4.7uH_300mA_0805
+#
+DEF ~IND_4.7uH_300mA_0805 L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "IND_4.7uH_300mA_0805" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0805_2012Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/wound02_e-13113-1206718.pdf" 0 0 50 H I C CNN ""
+F4 "CB2012T4R7M" 130 140 50 H I C CNN "MPN"
+F5 "20780 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 0805 4.7uH 520mOhms +/-20% 300mA" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/396/wound02_e-13113-1206718.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.201  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -50 0 20 0 0 0 "4.7uH 0.3A" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_GREEN_0603
+#
+DEF ~LED_GREEN_0603 D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "LED_GREEN_0603" -300 -100 50 H I L CNN ""
+F2 "LED_SMD:LED_0603_1608Metric" -100 200 50 H I C CNN ""
+F3 "https___www.mouser.com_datasheet_2_216_APTD1608LZGCK-535846.pdf" 0 0 50 H I C CNN ""
+F4 "APTD1608LZGCK" 0 -200 50 H I C CNN "MPN"
+F5 "29621 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Standard LEDs - SMD 1.6X0.8MM DOME LENS LOW CURRENT SMD" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "0.603  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+T 0 100 50 20 0 0 0 GREEN Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 40 40 1 1 P
+X A 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_RED_0603
+#
+DEF ~LED_RED_0603 D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "LED_RED_0603" -300 -100 50 H I L CNN ""
+F2 "LED_SMD:LED_0603_1608Metric" -100 200 50 H I C CNN ""
+F3 "" 0 0 50 V V C CNN ""
+F4 "SML-D15VWT86C" 0 -200 50 H I C CNN "MPN"
+F5 "4040 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Standard LEDs - SMD Red 630nm 90mcd 2V; 20mA; 0603" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "https://www.mouser.com/datasheet/2/348/sml-d15(c)-e-1508222.pdf" 0 0 50 H I C CNN "Datasheet"
+F10 "0.367  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+T 0 100 50 20 0 0 0 RED Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 40 40 1 1 P
+X A 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_RED_THT
+#
+DEF ~LED_RED_THT D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "LED_RED_THT" -300 -100 50 H I L CNN ""
+F2 "LED_THT:LED_D5.0mm" -100 200 50 H I C CNN ""
+F3 "https___www.mouser.com_datasheet_2_216_WP7113SRD-J4-1114353.pdf" 0 0 50 H I C CNN ""
+F4 "WP7113SRD/J4" 0 -200 50 H I C CNN "MPN"
+F5 "3657 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Standard LEDs - Through Hole 5mm Red LED 640nm" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "0.646  EUR" 0 0 50 H I C CNN "Price"
+F9 "New at Mouser" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+T 0 100 50 20 0 0 0 RED Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 40 40 1 1 P
+X A 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_15uH_5A
+#
+DEF ~L_15uH_5A L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "L_15uH_5A" 30 -40 50 H I L CNN ""
+F2 "INDM:INDM125125X60N" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/RR1260A-1391555.pdf" 0 0 50 H I C CNN ""
+F4 "SRR1260A-150M" 0 -300 50 H I C CNN "MPN"
+F5 "985 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 15uH 20% SMD 1260 AEC-Q200" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/54/RR1260A-1391555.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.934  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -50 0 20 0 0 0 "15uH 5A" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_8.2uH_4.5A
+#
+DEF ~L_8.2uH_4.5A L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "L_8.2uH_4.5A" 30 -40 50 H I L CNN ""
+F2 "INDM:INDM7265X40N" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/rp6540-1391491.pdf" 0 0 50 H I C CNN ""
+F4 "SRP6540-8R2M" 0 -300 50 H I C CNN "MPN"
+F5 "3458 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 8.2uH 20% SMD 6540" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/54/rp6540-1391491.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "1.01  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -50 0 20 0 0 0 "8.2uH 4.5A" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MOUNT_HOLE
+#
+DEF ~MOUNT_HOLE MT? 0 40 Y Y 1 F N
+F0 "MT?" 0 200 50 H I C CNN
+F1 "MOUNT_HOLE" 0 -200 50 H I C CNN ""
+F2 "MountingHole:MountingHole_3.2mm_M3_Pad" -100 100 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 71 0 1 0 N
+X ~ 1 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MT_CAM_12MM
+#
+DEF ~MT_CAM_12MM P 0 40 Y Y 1 F N
+F0 "P" 0 0 50 H V C CNN
+F1 "MT_CAM_12MM" 0 -150 50 H I C CNN ""
+F2 "CUSTOM:PT-LH006P" -100 -100 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
+F4 "PT-LH006P" 0 0 50 H I C CNN "MPN"
+DRAW
+S -300 100 300 -100 0 1 0 N
+S -200 100 200 200 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# OSC_LFTCXO073006
+#
+DEF ~OSC_LFTCXO073006 U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "OSC_LFTCXO073006" 0 -300 50 H I C CNN ""
+F2 "" 0 100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/741/iqxt-350-1-33-1075257.pdf" 0 100 50 H I C CNN ""
+F4 "LFTCXO073006" 0 -200 50 H I C CNN "MPN"
+F5 "1817 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "TCXO Oscillators 52.0MHz 1.8V -30C +85C" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "3.27  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -300 150 300 -150 0 1 0 N
+X GND 1 -500 50 200 R 50 50 1 1 I
+X GND 2 -500 -50 200 R 50 50 1 1 I
+X OUT 3 500 -50 200 L 50 50 1 1 O
+X VCC 4 500 50 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# POWER_PAD
+#
+DEF ~POWER_PAD J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "POWER_PAD" 0 -100 50 H I C CNN ""
+F2 "TestPoint:TestPoint_Pad_4.0x4.0mm" -100 0 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
+F4 "#" 0 0 50 H I C CNN "MPN"
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 50 100 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_NMOS_FDN337N
+#
+DEF ~Q_NMOS_FDN337N Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_NMOS_FDN337N" 200 -50 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SuperSOT-3" 200 100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/FDN337N-1305833.pdf" 0 0 50 H I C CNN ""
+F4 "FDN337N" 50 -450 50 H I C CNN "MPN"
+F5 "1337 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "MOSFET SSOT-3 N-CH 30V" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/308/FDN337N-1305833.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.384  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+T 0 200 -100 20 0 0 0 30V Normal 0 C C
+T 0 0 150 20 0 0 0 FDN86246 Normal 0 C C
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -150 0 126 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_NMOS_FDN86246
+#
+DEF ~Q_NMOS_FDN86246 Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_NMOS_FDN86246" 200 -50 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SuperSOT-3" 200 100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/FDN86246-1300565.pdf" 0 0 50 H I C CNN ""
+F4 "FDN86246" 50 -450 50 H I C CNN "MPN"
+F5 "8941 On Order" 0 0 50 H I C CNN "Availability"
+F6 "MOSFET 150V N-Channel PowerTrench MOSFET" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/308/FDN86246-1300565.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.751  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+T 0 200 -100 20 0 0 0 150V Normal 0 C C
+T 0 0 150 20 0 0 0 FDN86246 Normal 0 C C
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 200 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_0R_0402
+#
+DEF ~RES_0R_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_0R_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 30 20 50 H I C CNN ""
+F4 "CRCW04020000Z0ED" 0 0 50 H I C CNN "MPN"
+F5 "3675 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/16watt 0ohms" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.105  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 0R Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_10.2K_1%_0603
+#
+DEF ~RES_10.2K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_10.2K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf" 30 20 50 H I C CNN ""
+F4 "RC0201FR-0710K2L" 130 120 50 H I C CNN "MPN"
+F5 "25200 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/20W 10.2K Ohms 1%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "10K2 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_100K_1%_0603
+#
+DEF ~RES_100K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_100K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 30 20 50 H I C CNN ""
+F4 "CPF0603F100KC1" 130 120 50 H I C CNN "MPN"
+F5 "32650 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thin Film Resistors - SMD CPF 0603 100K 1% 50PPM 1K RL" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "100K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_100R_1%_1206
+#
+DEF ~RES_100R_1%_1206 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_100R_1%_1206" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_1206_3216Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/CRM0805_1206_2010-1110565.pdf" 30 20 50 H I C CNN ""
+F4 "CRM1206-FX-1000ELF" 130 120 50 H I C CNN "MPN"
+F5 "22886 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Current Sense Resistors - SMD CHIP RESISTOR Low Value" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/54/CRM0805_1206_2010-1110565.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.14  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "100R 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_10K_1%_0402
+#
+DEF ~RES_10K_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_10K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "" 30 20 50 H I C CNN ""
+F4 "CRCW040210K0FKEDC" 130 120 50 H I C CNN "MPN"
+F5 "1813839 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 0 0 50 H I C CNN "Datasheet"
+F10 "0.114  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "10K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_10R_5%_1210
+#
+DEF ~RES_10R_5%_1210 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_10R_5%_1210" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_1210_3225Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf" 30 20 50 H I C CNN ""
+F4 "RC1210JR-0710RL" 130 120 50 H I C CNN "MPN"
+F5 "23900 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 10 OHM 5%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "0.253  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "10R 5%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_13K_1%_0603
+#
+DEF ~RES_13K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_13K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN ""
+F4 "AC0603FR-0713KL" 0 -300 50 H I C CNN "MPN"
+F5 "65660 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/10W 13K ohm 1% AEC-Q200" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "13K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_143K_1%_0603
+#
+DEF ~RES_143K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_143K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN ""
+F4 "CR0603-FX-1433ELF" 0 -300 50 H I C CNN "MPN"
+F5 "51175 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 143K 1% 1/10W" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "143K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_162K_1%_0603
+#
+DEF ~RES_162K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_162K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 30 20 50 H I C CNN ""
+F4 "CRCW0603162KFKEA" 0 -300 50 H I C CNN "MPN"
+F5 "116057 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/10watt 162Kohms 1%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "162K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_18K_1%_0603
+#
+DEF ~RES_18K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_18K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/219/RN73-11994.pdf" 30 20 50 H I C CNN ""
+F4 "RN731JTTD1802F100" 0 -300 50 H I C CNN "MPN"
+F5 "3249 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thin Film Resistors - SMD 0603 18 Kohms 1% 10PPM" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/219/RN73-11994.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.201  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "18K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_200K_1%_0402
+#
+DEF ~RES_200K_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_200K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN ""
+F4 "CRCW0402200KFKEDC" 130 120 50 H I C CNN "MPN"
+F5 "262681 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/16watt 200Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.114  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "200K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_200R_1%_0402
+#
+DEF ~RES_200R_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_200R_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN ""
+F4 "AC0402FR-07200RL" 130 120 50 H I C CNN "MPN"
+F5 "106080 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD AEC-Q200" 0 0 50 H I C CNN "Description"
+F7 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "200R 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_22R_1%_0402
+#
+DEF ~RES_22R_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_22R_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN ""
+F4 "CRCW040222R0FKEDC" 130 120 50 H I C CNN "MPN"
+F5 "215652 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.114  EUR" 0 0 50 H I C CNN "Price"
+F10 "New Product" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "22R 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_25.5K_1%_0603
+#
+DEF ~RES_25.5K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_25.5K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 30 20 50 H I C CNN ""
+F4 "CPF0603F25K5C1" 0 -300 50 H I C CNN "MPN"
+F5 "3733 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thin Film Resistors - SMD CPF 0603 25K5 1% 50PPM 1K RL" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.096  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "25K5 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_3K_1%_1206
+#
+DEF ~RES_3K_1%_1206 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_3K_1%_1206" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_1206_3216Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN ""
+F4 "CR1206-FX-3001ELF" 0 0 50 H I C CNN "MPN"
+F5 "2587 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 3K 1%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "3K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_470R_1%_0402
+#
+DEF ~RES_470R_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_470R_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "" 30 20 50 H I C CNN ""
+F4 "CRCW0402470RFKEDC" 130 120 50 H I C CNN "MPN"
+F5 "96773 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/16watt 470ohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 0 0 50 H I C CNN "Datasheet"
+F10 "0.114  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "470R 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_49.9K_1%_0402
+#
+DEF ~RES_49.9K_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_49.9K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "" 30 20 50 H I C CNN ""
+F4 "CRCW040249K9FKEDC" 130 120 50 H I C CNN "MPN"
+F5 "57299 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/16W 49.9Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 0 0 50 H I C CNN "Datasheet"
+F10 "0.114  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "49.9K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_523K_1%_0603
+#
+DEF ~RES_523K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_523K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN ""
+F4 "AC0603FR-07523KL" 0 -300 50 H I C CNN "MPN"
+F5 "18601 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD AEC-Q200" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "523K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_53.6K_1%_0603
+#
+DEF ~RES_53.6K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_53.6K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN ""
+F4 "CRCW060353K6FKEAC" 0 -300 50 H I C CNN "MPN"
+F5 "52010 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/10W 53.6Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
+F7 "0.122  EUR" 0 0 50 H I C CNN "Price"
+F8 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "53K6 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_66.5K_1%_0603
+#
+DEF ~RES_66.5K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_66.5K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 30 20 50 H I C CNN ""
+F4 "CPF0603F66K5C1" 0 -300 50 H I C CNN "MPN"
+F5 "6605 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thin Film Resistors - SMD CPF 0603 66K5 1% 50PPM 1K RL" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.096  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "18K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_84.5K_1%_0603
+#
+DEF ~RES_84.5K_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_84.5K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN ""
+F4 "CR0603-FX-8452ELF" 0 -300 50 H I C CNN "MPN"
+F5 "29410 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 84.5K ohm 1%" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "84K5 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SHIELD_16.5x16.5
+#
+DEF ~SHIELD_16.5x16.5 S 0 40 Y Y 1 F N
+F0 "S" 0 100 50 H V C CNN
+F1 "SHIELD_16.5x16.5" -100 0 50 H I C CNN ""
+F2 "RF_Shielding:Laird_Technologies_BMI-S-102_16.50x16.50mm" -250 -100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/223/EMI-CAT-Essentials 1213-1131764.pdf" -100 0 50 H I C CNN ""
+F4 "BMI-S-102" -100 0 50 H I C CNN "MPN"
+F5 "6374 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "EMI Gaskets, Sheets, Absorbers & Shielding SBS,1PSH 3.60x16.5x16.5MM" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/223/EMI-CAT-Essentials 1213-1131764.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "1.76  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+P 4 0 1 0 -250 0 -250 50 300 50 300 0 N
+X GND 1 -450 0 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# SHIELD_20x20
+#
+DEF ~SHIELD_20x20 S 0 40 Y Y 1 F N
+F0 "S" 0 100 50 H V C CNN
+F1 "SHIELD_20x20" -100 0 50 H I C CNN ""
+F2 "RF_Shielding:Wuerth_36103205_20x20mm" -250 -100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/36103205-537966.pdf" -100 0 50 H I C CNN ""
+F4 "36103205" -100 0 50 H I C CNN "MPN"
+F5 "1008 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "EMI Gaskets, Sheets, Absorbers & Shielding WE-SHC SMD Frame 21x21mm" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/445/36103205-537966.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "2.80  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+P 4 0 1 0 -250 0 -250 50 300 50 300 0 N
+X GND 1 -450 0 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# SW_BTN_3.7x3.7
+#
+DEF ~SW_BTN_3.7x3.7 S 0 40 Y N 1 F N
+F0 "S" 0 150 50 H V C CNN
+F1 "SW_BTN_3.7x3.7" 0 200 50 H I C CNN ""
+F2 "SOIC:SOIC127P670X145-8N" 0 200 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/60/pts540-1382793.pdf" 0 200 50 H I C CNN ""
+F4 "PTS540JM035SMTRLFS" 0 -300 50 H I C CNN "MPN"
+F5 "13394 In Stock" 0 -50 50 H I C CNN "Availability"
+F6 "Tactile Switches 160 GF Top Actuated Ultra Low Profile" -100 -50 50 H I C CNN "Description"
+F7 "0.166  EUR" 0 -50 50 H I C CNN "Price"
+F8 "OK" 0 -50 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+DRAW
+S -100 100 100 -100 0 1 0 N
+P 2 0 1 0 -10 50 10 50 N
+P 2 0 1 0 -10 60 10 60 N
+P 2 0 1 0 0 20 0 50 N
+P 2 0 1 0 0 60 0 50 N
+P 3 0 1 0 -80 0 -30 0 20 30 N
+P 3 0 1 0 80 0 80 -50 100 -50 N
+P 4 0 1 0 -100 50 -80 50 -80 -50 -100 -50 N
+P 4 0 1 0 20 0 80 0 80 50 100 50 N
+X A1 1 -200 50 100 R 50 50 1 1 P
+X B1 2 -200 -50 100 R 50 50 1 1 P
+X B2 3 200 -50 100 L 50 50 1 1 P
+X A2 4 200 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_DIP_4P
+#
+DEF SW_DIP_4P S 0 40 Y Y 1 F N
+F0 "S" 0 400 50 H V C CNN
+F1 "SW_DIP_4P" 0 300 50 H V C CNN ""
+F2 "SOIC:SOIC127P670X145-8N" 0 300 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/307/en-a6h-1221378.pdf" 0 300 50 H I C CNN ""
+F4 "A6H-4102-P" 0 -300 50 H I C CNN "MPN"
+F5 "6971 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "DIP Switches/SIP Switches DIP SWITCH" -100 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/307/en-a6h-1221378.pdf" -100 0 50 H I C CNN "Datasheet"
+F9 "2.17  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -300 250 300 -200 0 1 0 N
+P 2 0 1 0 50 -150 100 -150 N
+P 2 0 1 0 50 -50 100 -50 N
+P 2 0 1 0 50 150 100 150 N
+P 2 0 1 0 100 50 50 50 N
+P 3 0 1 0 -100 -150 -50 -150 50 -100 N
+P 3 0 1 0 -100 -50 -50 -50 50 0 N
+P 3 0 1 0 -100 50 -50 50 50 100 N
+P 3 0 1 0 -100 150 -50 150 50 200 N
+X A1 1 -400 150 100 R 50 50 1 1 P
+X B1 2 -400 50 100 R 50 50 1 1 P
+X C1 3 -400 -50 100 R 50 50 1 1 P
+X D1 4 -400 -150 100 R 50 50 1 1 P
+X D2 5 400 -150 100 L 50 50 1 1 P
+X C2 6 400 -50 100 L 50 50 1 1 P
+X B2 7 400 50 100 L 50 50 1 1 P
+X A2 8 400 150 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TR_N1342DEA_0008BQE_P3
+#
+DEF ~TR_N1342DEA_0008BQE_P3 L 0 10 Y N 1 F N
+F0 "L" 0 -200 50 H V L CNN
+F1 "TR_N1342DEA_0008BQE_P3" -500 -450 50 H I L CNN ""
+F2 "MODULE:N1342DEA0008BQE" -50 -350 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/m_fsdva-947840.pdf" 0 0 50 H I C CNN ""
+F4 "N1342DEA-0008BQE=P3" 0 400 50 H I C CNN "MPN"
+F5 "1060 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Variable Inductors INDUCTOR" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/281/m_fsdva-947840.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "1.87  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+A 50 -60 20 901 -901 0 1 0 N 50 -40 50 -80
+A 50 -20 20 901 -901 0 1 0 N 50 0 50 -40
+A 50 20 20 901 -901 0 1 0 N 50 40 50 0
+A 50 60 20 901 -901 0 1 0 N 50 80 50 40
+P 2 0 1 0 -80 0 0 0 N
+P 2 0 1 0 -50 -150 100 -150 N
+P 3 0 1 0 -80 100 0 100 0 80 N
+P 3 0 1 0 0 -80 0 -100 -80 -100 N
+P 3 0 1 0 50 -80 50 -100 130 -100 N
+P 3 0 1 0 50 80 50 100 130 100 N
+X ~ 1 -100 100 20 R 50 50 1 1 P
+X ~ 2 -100 0 20 R 50 50 1 1 P
+X ~ 3 -100 -100 20 R 50 50 1 1 P
+X ~ 4 150 -100 20 L 50 50 1 1 P
+X ~ 5 150 100 20 L 50 50 1 1 P
+X ~ 6 -50 -250 100 U 50 50 1 1 P
+X ~ 7 100 -250 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_B_Micro
+#
+DEF USB_B_Micro J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "USB_B_Micro" -200 350 50 H V L CNN ""
+F2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" 150 -50 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/18/10118193-1361773.pdf" 150 -50 50 H I C CNN ""
+F4 "10118193-0001LF" 150 550 50 H I C CNN "MPN"
+F5 "80661 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "USB Connectors 5P MICRO USB TYPE B RECEPTACLE W/ PEGS" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/18/10118193-1361773.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.384  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -205 170 -195 0 1 0 N
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 2 0 1 10 -75 85 25 85 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
+P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X ID 4 300 -200 100 L 50 50 1 1 P
+X GND 5 0 -400 100 U 50 50 1 1 w
+X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# XDCR_40KHZ_12.5MM
+#
+DEF ~XDCR_40KHZ_12.5MM Z 0 40 N N 1 F N
+F0 "Z" 150 0 50 H V C CNN
+F1 "XDCR_40KHZ_12.5MM" 0 -450 50 H I C CNN ""
+F2 "MODULE:UTR1440KTTR" 50 -100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/334/UTR-1440K-TT-R-953250.pdf" 0 0 50 V I C CNN ""
+F4 "UTR-1440K-TT-R" 0 -350 50 H I C CNN "MPN"
+F5 "265 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Speakers & Transducers ULTRASONIC TRNSMTTR /RECEIVER" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/334/UTR-1440K-TT-R-953250.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "7.27  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+T 0 0 0 20 0 1 0 40KHz Normal 0 C C
+S 60 -30 -60 30 1 1 0 N
+P 2 1 1 0 30 -50 -30 -50 N
+P 2 1 1 0 30 50 -30 50 N
+X 1 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# XTAL_8Mhz_5032
+#
+DEF XTAL_8Mhz_5032 Y 0 40 Y N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "XTAL_8Mhz_5032" 0 -200 50 H V C CNN ""
+F2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" 150 250 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/3/abm3b-39910.pdf" 0 0 50 H I C CNN ""
+F4 "ABM3B-8.000MHZ-10-1UT" 0 -300 50 H I C CNN "MPN"
+F5 "5027 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Crystals 8.0MHz 10pf 10ppm -10C +60C" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "0.961  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ Crystal_
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 8MHz Normal 0 C C
+S -150 100 150 -100 0 1 0 N
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 0 -50 -30 -50 30 N
+P 2 0 1 0 50 -30 50 30 N
+P 4 0 1 0 -150 -50 -100 -50 -100 0 -50 0 N
+P 4 0 1 0 50 0 100 0 100 50 150 50 N
+X 1 1 -200 -50 50 R 40 40 1 1 P
+X 2 2 200 -50 50 L 40 40 1 1 N
+X 2 3 200 50 50 L 40 40 1 1 P
+X 4 4 -200 50 50 R 40 40 1 1 N
+ENDDRAW
+ENDDEF
+#
+# XTAL_AWSCR-24.00CV-T
+#
+DEF XTAL_AWSCR-24.00CV-T X 0 40 Y Y 1 F N
+F0 "X" 0 -350 50 H V C CNN
+F1 "XTAL_AWSCR-24.00CV-T" 0 -450 50 H V C CNN ""
+F2 "CUSTOM:AWSCR-24.00CV-T" 0 -50 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/3/AWSCR_CV-47896.pdf" 0 -50 50 H I C CNN ""
+F4 "AWSCR-24.00CV-T" 0 -550 50 H I C CNN "MPN"
+F5 "632 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Resonators 24.0MHz -25C +85C 5pF w/built in Cap" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/3/AWSCR_CV-47896.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.341  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+DRAW
+S -200 250 200 -200 0 1 0 N
+P 2 0 1 0 0 30 0 -20 N
+P 2 0 1 0 50 -100 50 -150 N
+P 4 0 1 0 100 0 100 -100 50 -100 50 -50 N
+P 6 0 1 0 -100 0 -100 -100 -50 -100 -50 -50 -50 -100 -50 -150 N
+P 6 0 1 0 -30 -50 -30 -150 30 -150 30 -60 30 -50 -30 -50 N
+X OSC1 1 -100 350 100 D 50 50 1 1 P
+X GND 2 0 350 100 D 50 50 1 1 P
+X OSC2 3 100 350 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
