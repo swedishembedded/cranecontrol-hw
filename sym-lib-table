@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SwEmb)(type Legacy)(uri ${KIPRJMOD}/Swedish_Embedded.lib)(options "")(descr ""))
+)
