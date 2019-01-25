@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP D_BAT54S
+D schottky barrier diode
+K schottky diode
+F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+$ENDCMP
+#
 $CMP IC_STM32F429ZET6
 D Core: ARM Cortex-M4, Package: LQFP144, Flash: 512 kB, RAM: 192 kB, Frequency: 180 MHz, Voltage: 1.7..3.6V, I/O pins: 114
 K ARM Cortex-M4 STM32F4 STM32F429/439
