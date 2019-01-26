@@ -1072,6 +1072,27 @@ X GND 2 -350 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONN_SENSOR
+#
+DEF ~CONN_SENSOR P 0 40 Y Y 1 F N
+F0 "P" -50 200 50 H V C CNN
+F1 "CONN_SENSOR" -100 900 50 H I C CNN
+F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
+F4 "691321100003" -100 900 50 H I C CNN "MPN"
+F5 "587 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" -200 900 50 H I C CNN "Description"
+F7 "OK" 0 900 50 H I C CNN "LifeCycle"
+F8 "1.00  EUR" 100 900 50 H I C CNN "Price"
+DRAW
+T 900 70 0 20 0 0 0 In Normal 0 C C
+S -150 150 100 -150 0 1 0 N
+X 5V 1 -250 100 100 R 50 50 1 1 W
+X IN 2 -250 0 100 R 50 50 1 1 O
+X GND 3 -250 -100 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # CONN_SMA
 #
 DEF CONN_SMA J 0 40 Y N 1 F N
