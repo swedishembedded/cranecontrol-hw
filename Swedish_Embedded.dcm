@@ -12,4 +12,10 @@ K ARM Cortex-M4 STM32F4 STM32F429/439
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf
 $ENDCMP
 #
+$CMP Test_Point
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
 #End Doc Library

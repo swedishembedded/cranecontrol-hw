@@ -6129,4 +6129,50 @@ Wire Wire Line
 	17200 11175 17200 10350
 Wire Wire Line
 	17200 10350 16775 10350
+Text Notes 17200 3625 0    50   ~ 0
+- add testpoints\n- add pmic\n- add motor connector
+$Comp
+L SwEmb:CONN_MOTOR P?
+U 1 1 5F513FDC
+P 24850 7275
+F 0 "P?" H 24978 7280 50  0000 L CNN
+F 1 "CONN_MOTOR" H 24750 8175 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 24550 8175 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 24650 8175 50  0001 C CNN
+F 4 "VC0301500000G" H 24750 8175 50  0001 C CNN "MPN"
+F 5 "587 In Stock" H 24750 8175 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" H 24650 8175 50  0001 C CNN "Description"
+F 7 "OK" H 24850 8175 50  0001 C CNN "LifeCycle"
+F 8 "1.00  EUR" H 24950 8175 50  0001 C CNN "Price"
+	1    24850 7275
+	1    0    0    -1  
+$EndComp
+Text GLabel 24600 7175 0    50   Input ~ 0
+SLA1
+Text GLabel 24600 7275 0    50   Input ~ 0
+SLB1
+Text GLabel 24600 7375 0    50   Input ~ 0
+SLC1
+$Comp
+L SwEmb:CONN_MOTOR P?
+U 1 1 5F5165E2
+P 24875 11225
+F 0 "P?" H 25003 11230 50  0000 L CNN
+F 1 "CONN_MOTOR" H 24775 12125 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 24575 12125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 24675 12125 50  0001 C CNN
+F 4 "VC0301500000G" H 24775 12125 50  0001 C CNN "MPN"
+F 5 "587 In Stock" H 24775 12125 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" H 24675 12125 50  0001 C CNN "Description"
+F 7 "OK" H 24875 12125 50  0001 C CNN "LifeCycle"
+F 8 "1.00  EUR" H 24975 12125 50  0001 C CNN "Price"
+	1    24875 11225
+	1    0    0    -1  
+$EndComp
+Text GLabel 24625 11125 0    50   Input ~ 0
+SLA2
+Text GLabel 24625 11225 0    50   Input ~ 0
+SLB2
+Text GLabel 24625 11325 0    50   Input ~ 0
+SLC2
 $EndSCHEMATC
