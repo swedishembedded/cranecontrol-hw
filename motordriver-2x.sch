@@ -2577,32 +2577,20 @@ Wire Wire Line
 	20550 5800 20550 5700
 Wire Wire Line
 	20550 5700 20900 5700
-Text GLabel 20600 5900 0    50   Input ~ 0
+Text GLabel 19425 5900 0    50   Input ~ 0
 EN_GATE1
-Text GLabel 20600 6000 0    50   Input ~ 0
+Text GLabel 19425 6000 0    50   Input ~ 0
 INHA1
-Text GLabel 20600 6100 0    50   Input ~ 0
+Text GLabel 19425 6100 0    50   Input ~ 0
 INLA1
-Text GLabel 20600 6200 0    50   Input ~ 0
+Text GLabel 19425 6200 0    50   Input ~ 0
 INHB1
-Text GLabel 20600 6300 0    50   Input ~ 0
+Text GLabel 19425 6300 0    50   Input ~ 0
 INLB1
-Text GLabel 20600 6400 0    50   Input ~ 0
+Text GLabel 19425 6400 0    50   Input ~ 0
 INHC1
-Text GLabel 20600 6500 0    50   Input ~ 0
+Text GLabel 19425 6500 0    50   Input ~ 0
 INLC1
-Wire Wire Line
-	20600 6000 20900 6000
-Wire Wire Line
-	20900 6100 20600 6100
-Wire Wire Line
-	20600 6200 20900 6200
-Wire Wire Line
-	20900 6300 20600 6300
-Wire Wire Line
-	20600 6400 20900 6400
-Wire Wire Line
-	20600 6500 20900 6500
 Text GLabel 19400 6600 0    50   Input ~ 0
 VDD_3V3_REF
 Wire Wire Line
@@ -2645,8 +2633,6 @@ F 4 "#" H 19550 6850 50  0001 C CNN "MPN"
 	1    19550 6850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	20600 5900 20900 5900
 $Comp
 L SwEmb:IC_DRV8302 U?
 U 1 1 5CA49A92
@@ -4133,23 +4119,6 @@ F 4 "#" H 20325 9575 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	20525 9575 20900 9575
-$Comp
-L SwEmb:CAP_0.022uF_100V_0603 C?
-U 1 1 5CA49E44
-P 20700 9775
-F 0 "C?" V 20525 9775 50  0000 C CNN
-F 1 "CAP_0.022uF_100V_0603" H 20710 9695 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 21150 9925 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 20710 9845 50  0001 C CNN
-F 4 "C0603C223K1RACTU" H 20700 9425 50  0001 C CNN "MPN"
-F 5 "271764 In Stock" H 20700 9775 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V .022uF 0603 X7R 10%" H 20700 9775 50  0001 C CNN "Description"
-F 7 "OK" H 20700 9775 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 20700 9775 50  0001 C CNN "Price"
-F 9 "Mouser" H 20700 9775 50  0001 C CNN "Vendor"
-	1    20700 9775
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	20800 9775 20900 9775
 Wire Wire Line
@@ -4158,32 +4127,20 @@ Wire Wire Line
 	20550 9775 20550 9675
 Wire Wire Line
 	20550 9675 20900 9675
-Text GLabel 20600 9875 0    50   Input ~ 0
+Text GLabel 19425 9875 0    50   Input ~ 0
 EN_GATE2
-Text GLabel 20600 9975 0    50   Input ~ 0
+Text GLabel 19425 9975 0    50   Input ~ 0
 INHA2
-Text GLabel 20600 10075 0    50   Input ~ 0
+Text GLabel 19425 10075 0    50   Input ~ 0
 INLA2
-Text GLabel 20600 10175 0    50   Input ~ 0
+Text GLabel 19425 10175 0    50   Input ~ 0
 INHB2
-Text GLabel 20600 10275 0    50   Input ~ 0
+Text GLabel 19425 10275 0    50   Input ~ 0
 INLB2
-Text GLabel 20600 10375 0    50   Input ~ 0
+Text GLabel 19425 10375 0    50   Input ~ 0
 INHC2
-Text GLabel 20600 10475 0    50   Input ~ 0
+Text GLabel 19425 10475 0    50   Input ~ 0
 INLC2
-Wire Wire Line
-	20600 9975 20900 9975
-Wire Wire Line
-	20900 10075 20600 10075
-Wire Wire Line
-	20600 10175 20900 10175
-Wire Wire Line
-	20900 10275 20600 10275
-Wire Wire Line
-	20600 10375 20900 10375
-Wire Wire Line
-	20600 10475 20900 10475
 Text GLabel 19400 10575 0    50   Input ~ 0
 VDD_3V3_REF
 Wire Wire Line
@@ -4226,8 +4183,6 @@ F 4 "#" H 19550 10825 50  0001 C CNN "MPN"
 	1    19550 10825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	20600 9875 20900 9875
 Text Notes 24100 9700 1    50   ~ 0
 3.3v @ 48V
 Text Notes 24100 5725 1    50   ~ 0
@@ -5159,8 +5114,6 @@ Wire Wire Line
 	17650 5350 17650 5150
 Wire Wire Line
 	17450 5350 17650 5350
-Text GLabel 18025 5250 0    50   Input ~ 0
-VDD_5V
 Text GLabel 18025 5350 0    50   Input ~ 0
 GND
 Text GLabel 15675 4750 0    50   Input ~ 0
@@ -5253,8 +5206,6 @@ F 4 "#" H 18350 5600 50  0001 C CNN "MPN"
 	1    18350 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 18150 5600 0    50   Input ~ 0
-VDD_5V
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C?
 U 1 1 5EAEB3D0
@@ -5570,8 +5521,6 @@ Wire Wire Line
 	17650 9350 17650 9150
 Wire Wire Line
 	17450 9350 17650 9350
-Text GLabel 18025 9250 0    50   Input ~ 0
-VDD_5V
 Text GLabel 18025 9350 0    50   Input ~ 0
 GND
 Text GLabel 15675 8750 0    50   Input ~ 0
@@ -5664,8 +5613,6 @@ F 4 "#" H 18350 9600 50  0001 C CNN "MPN"
 	1    18350 9600
 	1    0    0    -1  
 $EndComp
-Text GLabel 18150 9600 0    50   Input ~ 0
-VDD_5V
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C?
 U 1 1 5EF42D25
@@ -5832,10 +5779,6 @@ F 4 "#" H 18350 6250 50  0001 C CNN "MPN"
 	1    18350 6250
 	1    0    0    -1  
 $EndComp
-Text GLabel 18150 6250 0    50   Input ~ 0
-VDD_5V
-Text GLabel 18025 5825 0    50   Input ~ 0
-VDD_5V
 Text GLabel 18025 6025 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -5889,10 +5832,6 @@ F 4 "#" H 18350 6900 50  0001 C CNN "MPN"
 	1    18350 6900
 	1    0    0    -1  
 $EndComp
-Text GLabel 18150 6900 0    50   Input ~ 0
-VDD_5V
-Text GLabel 18025 6475 0    50   Input ~ 0
-VDD_5V
 Text GLabel 18025 6675 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -5942,10 +5881,6 @@ F 4 "#" H 18350 7525 50  0001 C CNN "MPN"
 	1    18350 7525
 	1    0    0    -1  
 $EndComp
-Text GLabel 18150 7525 0    50   Input ~ 0
-VDD_5V
-Text GLabel 18025 7100 0    50   Input ~ 0
-VDD_5V
 Text GLabel 18025 7300 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -6003,10 +5938,6 @@ F 4 "#" H 18350 10225 50  0001 C CNN "MPN"
 	1    18350 10225
 	1    0    0    -1  
 $EndComp
-Text GLabel 18150 10225 0    50   Input ~ 0
-VDD_5V
-Text GLabel 18025 9800 0    50   Input ~ 0
-VDD_5V
 Text GLabel 18025 10000 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -6056,10 +5987,6 @@ F 4 "#" H 18350 10875 50  0001 C CNN "MPN"
 	1    18350 10875
 	1    0    0    -1  
 $EndComp
-Text GLabel 18150 10875 0    50   Input ~ 0
-VDD_5V
-Text GLabel 18025 10450 0    50   Input ~ 0
-VDD_5V
 Text GLabel 18025 10650 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -6109,10 +6036,6 @@ F 4 "#" H 18350 11500 50  0001 C CNN "MPN"
 	1    18350 11500
 	1    0    0    -1  
 $EndComp
-Text GLabel 18150 11500 0    50   Input ~ 0
-VDD_5V
-Text GLabel 18025 11075 0    50   Input ~ 0
-VDD_5V
 Text GLabel 18025 11275 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -6129,8 +6052,6 @@ Wire Wire Line
 	17200 11175 17200 10350
 Wire Wire Line
 	17200 10350 16775 10350
-Text Notes 17200 3625 0    50   ~ 0
-- add testpoints\n- add pmic\n- add motor connector
 $Comp
 L SwEmb:CONN_MOTOR P?
 U 1 1 5F513FDC
@@ -6175,4 +6096,1145 @@ Text GLabel 24625 11225 0    50   Input ~ 0
 SLB2
 Text GLabel 24625 11325 0    50   Input ~ 0
 SLC2
+Text GLabel 20200 5400 0    50   Input ~ 0
+OC_ADJ1
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5F7B1C4F
+P 19675 5850
+F 0 "TP?" H 19675 6120 50  0001 C CNN
+F 1 "Test_Point" H 19675 6050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 19875 5850 50  0001 C CNN
+F 3 "~" H 19875 5850 50  0001 C CNN
+	1    19675 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5F7B1DE6
+P 19750 5850
+F 0 "TP?" H 19750 6120 50  0001 C CNN
+F 1 "Test_Point" H 19750 6050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 19950 5850 50  0001 C CNN
+F 3 "~" H 19950 5850 50  0001 C CNN
+	1    19750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5F7B2043
+P 19825 5850
+F 0 "TP?" H 19825 6120 50  0001 C CNN
+F 1 "Test_Point" H 19825 6050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20025 5850 50  0001 C CNN
+F 3 "~" H 20025 5850 50  0001 C CNN
+	1    19825 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5F7B2049
+P 19900 5850
+F 0 "TP?" H 19900 6120 50  0001 C CNN
+F 1 "Test_Point" H 19900 6050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20100 5850 50  0001 C CNN
+F 3 "~" H 20100 5850 50  0001 C CNN
+	1    19900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5F7B204F
+P 19975 5850
+F 0 "TP?" H 19975 6120 50  0001 C CNN
+F 1 "Test_Point" H 19975 6050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20175 5850 50  0001 C CNN
+F 3 "~" H 20175 5850 50  0001 C CNN
+	1    19975 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5F81EED7
+P 20050 5850
+F 0 "TP?" H 20050 6120 50  0001 C CNN
+F 1 "Test_Point" H 20050 6050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20250 5850 50  0001 C CNN
+F 3 "~" H 20250 5850 50  0001 C CNN
+	1    20050 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19425 6000 19675 6000
+Wire Wire Line
+	19425 6100 19750 6100
+Wire Wire Line
+	19425 6200 19825 6200
+Wire Wire Line
+	19425 6300 19900 6300
+Wire Wire Line
+	19425 6400 19975 6400
+Wire Wire Line
+	19425 6500 20050 6500
+Wire Wire Line
+	19675 5850 19675 6000
+Connection ~ 19675 6000
+Wire Wire Line
+	19675 6000 20900 6000
+Wire Wire Line
+	19750 5850 19750 6100
+Connection ~ 19750 6100
+Wire Wire Line
+	19750 6100 20900 6100
+Wire Wire Line
+	19825 5850 19825 6200
+Connection ~ 19825 6200
+Wire Wire Line
+	19825 6200 20900 6200
+Wire Wire Line
+	19900 5850 19900 6300
+Connection ~ 19900 6300
+Wire Wire Line
+	19900 6300 20900 6300
+Wire Wire Line
+	19975 5850 19975 6400
+Connection ~ 19975 6400
+Wire Wire Line
+	19975 6400 20900 6400
+Wire Wire Line
+	20050 5850 20050 6500
+Connection ~ 20050 6500
+Wire Wire Line
+	20050 6500 20900 6500
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5FE9C6AE
+P 20250 5350
+F 0 "TP?" H 20250 5620 50  0001 C CNN
+F 1 "Test_Point" H 20250 5550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20450 5350 50  0001 C CNN
+F 3 "~" H 20450 5350 50  0001 C CNN
+	1    20250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20200 5400 20250 5400
+Wire Wire Line
+	20250 5350 20250 5400
+Connection ~ 20250 5400
+Wire Wire Line
+	20250 5400 20900 5400
+Text GLabel 20225 9375 0    50   Input ~ 0
+OC_ADJ1
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5FF8543C
+P 20275 9325
+F 0 "TP?" H 20275 9595 50  0001 C CNN
+F 1 "Test_Point" H 20275 9525 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20475 9325 50  0001 C CNN
+F 3 "~" H 20475 9325 50  0001 C CNN
+	1    20275 9325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20225 9375 20275 9375
+Wire Wire Line
+	20275 9325 20275 9375
+Connection ~ 20275 9375
+Wire Wire Line
+	20275 9375 20900 9375
+Connection ~ 20900 9375
+Wire Wire Line
+	20900 9375 20925 9375
+$Comp
+L SwEmb:CAP_0.022uF_100V_0603 C?
+U 1 1 5CA49E44
+P 20700 9775
+F 0 "C?" V 20525 9775 50  0000 C CNN
+F 1 "CAP_0.022uF_100V_0603" H 20710 9695 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 21150 9925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 20710 9845 50  0001 C CNN
+F 4 "C0603C223K1RACTU" H 20700 9425 50  0001 C CNN "MPN"
+F 5 "271764 In Stock" H 20700 9775 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V .022uF 0603 X7R 10%" H 20700 9775 50  0001 C CNN "Description"
+F 7 "OK" H 20700 9775 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 20700 9775 50  0001 C CNN "Price"
+F 9 "Mouser" H 20700 9775 50  0001 C CNN "Vendor"
+	1    20700 9775
+	0    1    1    0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 60251CCD
+P 19675 9825
+F 0 "TP?" H 19675 10095 50  0001 C CNN
+F 1 "Test_Point" H 19675 10025 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 19875 9825 50  0001 C CNN
+F 3 "~" H 19875 9825 50  0001 C CNN
+	1    19675 9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 60251CD3
+P 19750 9825
+F 0 "TP?" H 19750 10095 50  0001 C CNN
+F 1 "Test_Point" H 19750 10025 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 19950 9825 50  0001 C CNN
+F 3 "~" H 19950 9825 50  0001 C CNN
+	1    19750 9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 60251CD9
+P 19825 9825
+F 0 "TP?" H 19825 10095 50  0001 C CNN
+F 1 "Test_Point" H 19825 10025 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20025 9825 50  0001 C CNN
+F 3 "~" H 20025 9825 50  0001 C CNN
+	1    19825 9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 60251CDF
+P 19900 9825
+F 0 "TP?" H 19900 10095 50  0001 C CNN
+F 1 "Test_Point" H 19900 10025 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20100 9825 50  0001 C CNN
+F 3 "~" H 20100 9825 50  0001 C CNN
+	1    19900 9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 60251CE5
+P 19975 9825
+F 0 "TP?" H 19975 10095 50  0001 C CNN
+F 1 "Test_Point" H 19975 10025 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20175 9825 50  0001 C CNN
+F 3 "~" H 20175 9825 50  0001 C CNN
+	1    19975 9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 60251CEB
+P 20050 9825
+F 0 "TP?" H 20050 10095 50  0001 C CNN
+F 1 "Test_Point" H 20050 10025 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20250 9825 50  0001 C CNN
+F 3 "~" H 20250 9825 50  0001 C CNN
+	1    20050 9825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19425 9975 19675 9975
+Wire Wire Line
+	19425 10075 19750 10075
+Wire Wire Line
+	19425 10175 19825 10175
+Wire Wire Line
+	19425 10275 19900 10275
+Wire Wire Line
+	19425 10375 19975 10375
+Wire Wire Line
+	19425 10475 20050 10475
+Wire Wire Line
+	19675 9825 19675 9975
+Connection ~ 19675 9975
+Wire Wire Line
+	19675 9975 20900 9975
+Wire Wire Line
+	19750 9825 19750 10075
+Connection ~ 19750 10075
+Wire Wire Line
+	19750 10075 20900 10075
+Wire Wire Line
+	19825 9825 19825 10175
+Connection ~ 19825 10175
+Wire Wire Line
+	19825 10175 20900 10175
+Wire Wire Line
+	19900 9825 19900 10275
+Connection ~ 19900 10275
+Wire Wire Line
+	19900 10275 20900 10275
+Wire Wire Line
+	19975 9825 19975 10375
+Connection ~ 19975 10375
+Wire Wire Line
+	19975 10375 20900 10375
+Wire Wire Line
+	20050 9825 20050 10475
+Connection ~ 20050 10475
+Wire Wire Line
+	20050 10475 20900 10475
+Wire Wire Line
+	19425 9875 20900 9875
+Wire Wire Line
+	19425 5900 20900 5900
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 60346382
+P 19800 6800
+F 0 "TP?" H 19800 7070 50  0001 C CNN
+F 1 "Test_Point" H 19800 7000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20000 6800 50  0001 C CNN
+F 3 "~" H 20000 6800 50  0001 C CNN
+	1    19800 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 19800 6800
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 603466A5
+P 20500 7550
+F 0 "TP?" H 20500 7820 50  0001 C CNN
+F 1 "Test_Point" H 20500 7750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20700 7550 50  0001 C CNN
+F 3 "~" H 20700 7550 50  0001 C CNN
+	1    20500 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 6034683C
+P 19800 10775
+F 0 "TP?" H 19800 11045 50  0001 C CNN
+F 1 "Test_Point" H 19800 10975 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20000 10775 50  0001 C CNN
+F 3 "~" H 20000 10775 50  0001 C CNN
+	1    19800 10775
+	1    0    0    -1  
+$EndComp
+Connection ~ 19800 10775
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 60346DB1
+P 20500 11525
+F 0 "TP?" H 20500 11795 50  0001 C CNN
+F 1 "Test_Point" H 20500 11725 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 20700 11525 50  0001 C CNN
+F 3 "~" H 20700 11525 50  0001 C CNN
+	1    20500 11525
+	0    1    1    0   
+$EndComp
+Connection ~ 20500 11525
+Connection ~ 20500 7550
+$Comp
+L SwEmb:IC_MIC2026 U?
+U 1 1 603C76E6
+P 16275 3225
+F 0 "U?" H 16275 3640 50  0000 C CNN
+F 1 "IC_MIC2026" H 16275 3549 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 16175 3125 50  0001 C CNN
+F 3 "" H 16275 3225 50  0001 C CNN
+F 4 "MIC2026-1YM-TR" H 16275 3225 50  0001 C CNN "MPN"
+	1    16275 3225
+	1    0    0    -1  
+$EndComp
+Text GLabel 15925 3075 0    50   Input ~ 0
+ENCPWEN1
+Text GLabel 15925 3375 0    50   Input ~ 0
+ENCPWEN2
+Text GLabel 15925 3175 0    50   Input ~ 0
+ENCOC1
+Text GLabel 15925 3275 0    50   Input ~ 0
+ENCOC2
+Text GLabel 17200 3150 1    50   Input ~ 0
+VDD_5V
+Text GLabel 16625 3275 2    50   Input ~ 0
+GND
+Text GLabel 16625 3075 2    50   Input ~ 0
+ENC1VDD5V
+Text GLabel 16625 3375 2    50   Input ~ 0
+ENC2VDD5V
+Text GLabel 18025 5250 0    50   Input ~ 0
+ENC1VDD5V
+Text GLabel 18150 5600 0    50   Input ~ 0
+ENC1VDD5V
+Text GLabel 18025 5825 0    50   Input ~ 0
+ENC1VDD5V
+Text GLabel 18150 6250 0    50   Input ~ 0
+ENC1VDD5V
+Text GLabel 18025 6475 0    50   Input ~ 0
+ENC1VDD5V
+Text GLabel 18150 6900 0    50   Input ~ 0
+ENC1VDD5V
+Text GLabel 18150 7525 0    50   Input ~ 0
+ENC1VDD5V
+Text GLabel 18025 7100 0    50   Input ~ 0
+ENC1VDD5V
+Text GLabel 18025 9250 0    50   Input ~ 0
+ENC2VDD5V
+Text GLabel 18025 9800 0    50   Input ~ 0
+ENC2VDD5V
+Text GLabel 18150 9600 0    50   Input ~ 0
+ENC2VDD5V
+Text GLabel 18150 10225 0    50   Input ~ 0
+ENC2VDD5V
+Text GLabel 18025 10450 0    50   Input ~ 0
+ENC2VDD5V
+Text GLabel 18150 10875 0    50   Input ~ 0
+ENC2VDD5V
+Text GLabel 18025 11075 0    50   Input ~ 0
+ENC2VDD5V
+Text GLabel 18150 11500 0    50   Input ~ 0
+ENC2VDD5V
+$Comp
+L SwEmb:CAP_2.2uF_16V_0402 C?
+U 1 1 604456B7
+P 17350 3175
+F 0 "C?" V 17203 3175 50  0000 C CNN
+F 1 "CAP_2.2uF_16V_0402" H 17360 3095 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 17800 3325 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GRT_Series-1310174.pdf" H 17360 3245 50  0001 C CNN
+F 4 "GRT155C81C225KE13D" H 17350 2825 50  0001 C CNN "MPN"
+F 5 "113017 In Stock" H 17350 3175 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 16Vdc 2.2uF X6S 10%" H 17350 3175 50  0001 C CNN "Description"
+F 7 "Mouser" H 17350 3175 50  0001 C CNN "Vendor"
+F 8 "OK" H 17350 3175 50  0001 C CNN "LifeCycle"
+F 9 "0.271  EUR" H 17350 3175 50  0001 C CNN "Price"
+	1    17350 3175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 60445BDC
+P 17450 3175
+F 0 "#PWR?" H 17450 2925 50  0001 C CNN
+F 1 "GNDREF" H 17450 3025 50  0001 C CNN
+F 2 "" H 17450 3175 50  0001 C CNN
+F 3 "" H 17450 3175 50  0001 C CNN
+F 4 "#" H 17450 3175 50  0001 C CNN "MPN"
+	1    17450 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17200 3150 17200 3175
+Wire Wire Line
+	17200 3175 17250 3175
+Wire Wire Line
+	17200 3175 16625 3175
+Connection ~ 17200 3175
+$Comp
+L SwEmb:IC_LM324 U?
+U 1 1 6063D5D0
+P 2700 17625
+F 0 "U?" H 2675 17800 50  0000 L CNN
+F 1 "IC_LM324" H 2650 17450 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 17725 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2750 17825 50  0001 C CNN
+F 4 "LM324D" H 2700 17625 50  0001 C CNN "MPN"
+	1    2700 17625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 17725 2400 18050
+Wire Wire Line
+	3150 18050 3150 17625
+Connection ~ 3150 17625
+$Comp
+L SwEmb:CONN_SENSOR P?
+U 1 1 60734CAE
+P 1375 17525
+F 0 "P?" H 1294 17758 50  0000 C CNN
+F 1 "CONN_SENSOR" H 1275 18425 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 18425 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 1175 18425 50  0001 C CNN
+F 4 "691321100003" H 1275 18425 50  0001 C CNN "MPN"
+F 5 "587 In Stock" H 1275 18425 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" H 1175 18425 50  0001 C CNN "Description"
+F 7 "OK" H 1375 18425 50  0001 C CNN "LifeCycle"
+F 8 "1.00  EUR" H 1475 18425 50  0001 C CNN "Price"
+	1    1375 17525
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1625 17425 2    50   Input ~ 0
+AIN_VDD_5V
+Wire Wire Line
+	1625 17525 2175 17525
+$Comp
+L SwEmb:RES_0R_0402 #R?
+U 1 1 60A1F344
+P 2425 17200
+F 0 "#R?" V 2321 17200 50  0000 C CNN
+F 1 "RES_0R_0402" H 2455 17160 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2355 17120 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" H 2425 17200 50  0001 C CNN
+F 4 "CRCW04020000Z0ED" H 2425 17200 50  0001 C CNN "MPN"
+F 5 "3675 In Stock" H 2425 17200 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 0ohms" H 2425 17200 50  0001 C CNN "Description"
+F 7 "Mouser" H 2425 17200 50  0001 C CNN "Vendor"
+F 8 "0.105  EUR" H 2425 17200 50  0001 C CNN "Price"
+F 9 "OK" H 2425 17200 50  0001 C CNN "LifeCycle"
+	1    2425 17200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2325 17200 2175 17200
+Wire Wire Line
+	2175 17200 2175 17525
+Connection ~ 2175 17525
+Wire Wire Line
+	2175 17525 2400 17525
+Wire Wire Line
+	3150 17200 3150 17625
+Text GLabel 2650 17300 2    50   Input ~ 0
+AIN_VDD_5V
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 60B1AE6E
+P 2600 17925
+F 0 "#PWR?" H 2600 17675 50  0001 C CNN
+F 1 "GNDREF" H 2600 17775 50  0001 C CNN
+F 2 "" H 2600 17925 50  0001 C CNN
+F 3 "" H 2600 17925 50  0001 C CNN
+F 4 "#" H 2600 17925 50  0001 C CNN "MPN"
+	1    2600 17925
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 60B992FA
+P 1625 17625
+F 0 "#PWR?" H 1625 17375 50  0001 C CNN
+F 1 "GNDREF" H 1625 17475 50  0001 C CNN
+F 2 "" H 1625 17625 50  0001 C CNN
+F 3 "" H 1625 17625 50  0001 C CNN
+F 4 "#" H 1625 17625 50  0001 C CNN "MPN"
+	1    1625 17625
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:IC_MIC2026 U?
+U 1 1 60B9A743
+P 2050 22075
+F 0 "U?" H 2050 22490 50  0000 C CNN
+F 1 "IC_MIC2026" H 2050 22399 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1950 21975 50  0001 C CNN
+F 3 "" H 2050 22075 50  0001 C CNN
+F 4 "MIC2026-1YM-TR" H 2050 22075 50  0001 C CNN "MPN"
+	1    2050 22075
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 21925 0    50   Input ~ 0
+AINPWEN
+Text GLabel 1700 22025 0    50   Input ~ 0
+AIN_OC
+Text GLabel 2975 22000 1    50   Input ~ 0
+VDD_5V
+Text GLabel 2400 22125 2    50   Input ~ 0
+GND
+Text GLabel 2400 21925 2    50   Input ~ 0
+AIN_VDD_5V
+$Comp
+L SwEmb:CAP_2.2uF_16V_0402 C?
+U 1 1 60B9A757
+P 3125 22025
+F 0 "C?" V 2978 22025 50  0000 C CNN
+F 1 "CAP_2.2uF_16V_0402" H 3135 21945 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3575 22175 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GRT_Series-1310174.pdf" H 3135 22095 50  0001 C CNN
+F 4 "GRT155C81C225KE13D" H 3125 21675 50  0001 C CNN "MPN"
+F 5 "113017 In Stock" H 3125 22025 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 16Vdc 2.2uF X6S 10%" H 3125 22025 50  0001 C CNN "Description"
+F 7 "Mouser" H 3125 22025 50  0001 C CNN "Vendor"
+F 8 "OK" H 3125 22025 50  0001 C CNN "LifeCycle"
+F 9 "0.271  EUR" H 3125 22025 50  0001 C CNN "Price"
+	1    3125 22025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 60B9A75E
+P 3225 22025
+F 0 "#PWR?" H 3225 21775 50  0001 C CNN
+F 1 "GNDREF" H 3225 21875 50  0001 C CNN
+F 2 "" H 3225 22025 50  0001 C CNN
+F 3 "" H 3225 22025 50  0001 C CNN
+F 4 "#" H 3225 22025 50  0001 C CNN "MPN"
+	1    3225 22025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 22000 2975 22025
+Wire Wire Line
+	2975 22025 3025 22025
+Wire Wire Line
+	2975 22025 2400 22025
+Connection ~ 2975 22025
+Text GLabel 3525 17625 2    50   Input ~ 0
+POT1
+$Comp
+L SwEmb:RES_3K_1%_0402 R?
+U 1 1 60D28BEF
+P 3475 17750
+F 0 "R?" H 3534 17750 50  0000 L CNN
+F 1 "RES_3K_1%_0402" H 3505 17710 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3405 17670 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 3505 17770 50  0001 C CNN
+F 4 "RC0402FR-073KL" H 3605 17870 50  0001 C CNN "MPN"
+F 5 "638811 In Stock" H 3475 17750 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 3475 17750 50  0001 C CNN "Description"
+F 7 "OK" H 3475 17750 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 3475 17750 50  0001 C CNN "Price"
+F 9 "Mouser" H 3475 17750 50  0001 C CNN "Vendor"
+	1    3475 17750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:RES_1K5_1%_0402 R?
+U 1 1 60D28F98
+P 3325 17625
+F 0 "R?" V 3221 17625 50  0000 C CNN
+F 1 "RES_1K5_1%_0402" H 3355 17585 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3255 17545 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 3355 17645 50  0001 C CNN
+F 4 "RC0402FR-071K5L" H 3455 17745 50  0001 C CNN "MPN"
+F 5 "1570651 In Stock" H 3325 17625 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1.5K OHM 1%" H 3325 17625 50  0001 C CNN "Description"
+F 7 "OK" H 3325 17625 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 3325 17625 50  0001 C CNN "Price"
+F 9 "Mouser" H 3325 17625 50  0001 C CNN "Vendor"
+	1    3325 17625
+	0    1    1    0   
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 60D29C29
+P 3475 17850
+F 0 "#PWR?" H 3475 17600 50  0001 C CNN
+F 1 "GNDREF" H 3475 17700 50  0001 C CNN
+F 2 "" H 3475 17850 50  0001 C CNN
+F 3 "" H 3475 17850 50  0001 C CNN
+F 4 "#" H 3475 17850 50  0001 C CNN "MPN"
+	1    3475 17850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:RES_0R_0402 #R?
+U 1 1 60EAB9B6
+P 2050 21550
+F 0 "#R?" V 1946 21550 50  0000 C CNN
+F 1 "RES_0R_0402" H 2080 21510 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1980 21470 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" H 2050 21550 50  0001 C CNN
+F 4 "CRCW04020000Z0ED" H 2050 21550 50  0001 C CNN "MPN"
+F 5 "3675 In Stock" H 2050 21550 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 0ohms" H 2050 21550 50  0001 C CNN "Description"
+F 7 "Mouser" H 2050 21550 50  0001 C CNN "Vendor"
+F 8 "0.105  EUR" H 2050 21550 50  0001 C CNN "Price"
+F 9 "OK" H 2050 21550 50  0001 C CNN "LifeCycle"
+	1    2050 21550
+	0    1    1    0   
+$EndComp
+Text GLabel 1950 21550 0    50   Input ~ 0
+VDD_5V
+Text GLabel 2150 21550 2    50   Input ~ 0
+AIN_VDD_5V
+Wire Wire Line
+	2600 17325 2600 17300
+Wire Wire Line
+	2600 17300 2650 17300
+Wire Wire Line
+	2525 17200 3150 17200
+Wire Wire Line
+	2400 18050 3150 18050
+Wire Wire Line
+	3000 17625 3150 17625
+Wire Wire Line
+	3425 17625 3475 17625
+Wire Wire Line
+	3475 17650 3475 17625
+Connection ~ 3475 17625
+Wire Wire Line
+	3475 17625 3525 17625
+$Comp
+L SwEmb:IC_LM324 U?
+U 1 1 6154EB1F
+P 2700 18625
+F 0 "U?" H 2675 18800 50  0000 L CNN
+F 1 "IC_LM324" H 2650 18450 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 18725 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2750 18825 50  0001 C CNN
+F 4 "LM324D" H 2700 18625 50  0001 C CNN "MPN"
+	1    2700 18625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 18725 2400 19050
+Wire Wire Line
+	3150 19050 3150 18625
+Connection ~ 3150 18625
+$Comp
+L SwEmb:CONN_SENSOR P?
+U 1 1 6154EB2D
+P 1375 18525
+F 0 "P?" H 1294 18758 50  0000 C CNN
+F 1 "CONN_SENSOR" H 1275 19425 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 19425 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 1175 19425 50  0001 C CNN
+F 4 "691321100003" H 1275 19425 50  0001 C CNN "MPN"
+F 5 "587 In Stock" H 1275 19425 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" H 1175 19425 50  0001 C CNN "Description"
+F 7 "OK" H 1375 19425 50  0001 C CNN "LifeCycle"
+F 8 "1.00  EUR" H 1475 19425 50  0001 C CNN "Price"
+	1    1375 18525
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1625 18425 2    50   Input ~ 0
+AIN_VDD_5V
+Wire Wire Line
+	1625 18525 2175 18525
+$Comp
+L SwEmb:RES_0R_0402 #R?
+U 1 1 6154EB3B
+P 2425 18200
+F 0 "#R?" V 2321 18200 50  0000 C CNN
+F 1 "RES_0R_0402" H 2455 18160 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2355 18120 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" H 2425 18200 50  0001 C CNN
+F 4 "CRCW04020000Z0ED" H 2425 18200 50  0001 C CNN "MPN"
+F 5 "3675 In Stock" H 2425 18200 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 0ohms" H 2425 18200 50  0001 C CNN "Description"
+F 7 "Mouser" H 2425 18200 50  0001 C CNN "Vendor"
+F 8 "0.105  EUR" H 2425 18200 50  0001 C CNN "Price"
+F 9 "OK" H 2425 18200 50  0001 C CNN "LifeCycle"
+	1    2425 18200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2325 18200 2175 18200
+Wire Wire Line
+	2175 18200 2175 18525
+Connection ~ 2175 18525
+Wire Wire Line
+	2175 18525 2400 18525
+Wire Wire Line
+	3150 18200 3150 18625
+Text GLabel 2650 18300 2    50   Input ~ 0
+AIN_VDD_5V
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 6154EB48
+P 2600 18925
+F 0 "#PWR?" H 2600 18675 50  0001 C CNN
+F 1 "GNDREF" H 2600 18775 50  0001 C CNN
+F 2 "" H 2600 18925 50  0001 C CNN
+F 3 "" H 2600 18925 50  0001 C CNN
+F 4 "#" H 2600 18925 50  0001 C CNN "MPN"
+	1    2600 18925
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 6154EB4F
+P 1625 18625
+F 0 "#PWR?" H 1625 18375 50  0001 C CNN
+F 1 "GNDREF" H 1625 18475 50  0001 C CNN
+F 2 "" H 1625 18625 50  0001 C CNN
+F 3 "" H 1625 18625 50  0001 C CNN
+F 4 "#" H 1625 18625 50  0001 C CNN "MPN"
+	1    1625 18625
+	1    0    0    -1  
+$EndComp
+Text GLabel 3525 18625 2    50   Input ~ 0
+POT1
+$Comp
+L SwEmb:RES_3K_1%_0402 R?
+U 1 1 6154EB5C
+P 3475 18750
+F 0 "R?" H 3534 18750 50  0000 L CNN
+F 1 "RES_3K_1%_0402" H 3505 18710 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3405 18670 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 3505 18770 50  0001 C CNN
+F 4 "RC0402FR-073KL" H 3605 18870 50  0001 C CNN "MPN"
+F 5 "638811 In Stock" H 3475 18750 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 3475 18750 50  0001 C CNN "Description"
+F 7 "OK" H 3475 18750 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 3475 18750 50  0001 C CNN "Price"
+F 9 "Mouser" H 3475 18750 50  0001 C CNN "Vendor"
+	1    3475 18750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:RES_1K5_1%_0402 R?
+U 1 1 6154EB68
+P 3325 18625
+F 0 "R?" V 3221 18625 50  0000 C CNN
+F 1 "RES_1K5_1%_0402" H 3355 18585 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3255 18545 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 3355 18645 50  0001 C CNN
+F 4 "RC0402FR-071K5L" H 3455 18745 50  0001 C CNN "MPN"
+F 5 "1570651 In Stock" H 3325 18625 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1.5K OHM 1%" H 3325 18625 50  0001 C CNN "Description"
+F 7 "OK" H 3325 18625 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 3325 18625 50  0001 C CNN "Price"
+F 9 "Mouser" H 3325 18625 50  0001 C CNN "Vendor"
+	1    3325 18625
+	0    1    1    0   
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 6154EB6F
+P 3475 18850
+F 0 "#PWR?" H 3475 18600 50  0001 C CNN
+F 1 "GNDREF" H 3475 18700 50  0001 C CNN
+F 2 "" H 3475 18850 50  0001 C CNN
+F 3 "" H 3475 18850 50  0001 C CNN
+F 4 "#" H 3475 18850 50  0001 C CNN "MPN"
+	1    3475 18850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 18325 2600 18300
+Wire Wire Line
+	2600 18300 2650 18300
+Wire Wire Line
+	2525 18200 3150 18200
+Wire Wire Line
+	2400 19050 3150 19050
+Wire Wire Line
+	3000 18625 3150 18625
+Wire Wire Line
+	3425 18625 3475 18625
+Wire Wire Line
+	3475 18650 3475 18625
+Connection ~ 3475 18625
+Wire Wire Line
+	3475 18625 3525 18625
+$Comp
+L SwEmb:IC_LM324 U?
+U 1 1 615D5B49
+P 2700 19625
+F 0 "U?" H 2675 19800 50  0000 L CNN
+F 1 "IC_LM324" H 2650 19450 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 19725 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2750 19825 50  0001 C CNN
+F 4 "LM324D" H 2700 19625 50  0001 C CNN "MPN"
+	1    2700 19625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 19725 2400 20050
+Wire Wire Line
+	3150 20050 3150 19625
+Connection ~ 3150 19625
+$Comp
+L SwEmb:CONN_SENSOR P?
+U 1 1 615D5B57
+P 1375 19525
+F 0 "P?" H 1294 19758 50  0000 C CNN
+F 1 "CONN_SENSOR" H 1275 20425 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 20425 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 1175 20425 50  0001 C CNN
+F 4 "691321100003" H 1275 20425 50  0001 C CNN "MPN"
+F 5 "587 In Stock" H 1275 20425 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" H 1175 20425 50  0001 C CNN "Description"
+F 7 "OK" H 1375 20425 50  0001 C CNN "LifeCycle"
+F 8 "1.00  EUR" H 1475 20425 50  0001 C CNN "Price"
+	1    1375 19525
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1625 19425 2    50   Input ~ 0
+AIN_VDD_5V
+Wire Wire Line
+	1625 19525 2175 19525
+$Comp
+L SwEmb:RES_0R_0402 #R?
+U 1 1 615D5B65
+P 2425 19200
+F 0 "#R?" V 2321 19200 50  0000 C CNN
+F 1 "RES_0R_0402" H 2455 19160 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2355 19120 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" H 2425 19200 50  0001 C CNN
+F 4 "CRCW04020000Z0ED" H 2425 19200 50  0001 C CNN "MPN"
+F 5 "3675 In Stock" H 2425 19200 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 0ohms" H 2425 19200 50  0001 C CNN "Description"
+F 7 "Mouser" H 2425 19200 50  0001 C CNN "Vendor"
+F 8 "0.105  EUR" H 2425 19200 50  0001 C CNN "Price"
+F 9 "OK" H 2425 19200 50  0001 C CNN "LifeCycle"
+	1    2425 19200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2325 19200 2175 19200
+Wire Wire Line
+	2175 19200 2175 19525
+Connection ~ 2175 19525
+Wire Wire Line
+	2175 19525 2400 19525
+Wire Wire Line
+	3150 19200 3150 19625
+Text GLabel 2650 19300 2    50   Input ~ 0
+AIN_VDD_5V
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 615D5B72
+P 2600 19925
+F 0 "#PWR?" H 2600 19675 50  0001 C CNN
+F 1 "GNDREF" H 2600 19775 50  0001 C CNN
+F 2 "" H 2600 19925 50  0001 C CNN
+F 3 "" H 2600 19925 50  0001 C CNN
+F 4 "#" H 2600 19925 50  0001 C CNN "MPN"
+	1    2600 19925
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 615D5B79
+P 1625 19625
+F 0 "#PWR?" H 1625 19375 50  0001 C CNN
+F 1 "GNDREF" H 1625 19475 50  0001 C CNN
+F 2 "" H 1625 19625 50  0001 C CNN
+F 3 "" H 1625 19625 50  0001 C CNN
+F 4 "#" H 1625 19625 50  0001 C CNN "MPN"
+	1    1625 19625
+	1    0    0    -1  
+$EndComp
+Text GLabel 3525 19625 2    50   Input ~ 0
+POT1
+$Comp
+L SwEmb:RES_3K_1%_0402 R?
+U 1 1 615D5B86
+P 3475 19750
+F 0 "R?" H 3534 19750 50  0000 L CNN
+F 1 "RES_3K_1%_0402" H 3505 19710 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3405 19670 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 3505 19770 50  0001 C CNN
+F 4 "RC0402FR-073KL" H 3605 19870 50  0001 C CNN "MPN"
+F 5 "638811 In Stock" H 3475 19750 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 3475 19750 50  0001 C CNN "Description"
+F 7 "OK" H 3475 19750 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 3475 19750 50  0001 C CNN "Price"
+F 9 "Mouser" H 3475 19750 50  0001 C CNN "Vendor"
+	1    3475 19750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:RES_1K5_1%_0402 R?
+U 1 1 615D5B92
+P 3325 19625
+F 0 "R?" V 3221 19625 50  0000 C CNN
+F 1 "RES_1K5_1%_0402" H 3355 19585 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3255 19545 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 3355 19645 50  0001 C CNN
+F 4 "RC0402FR-071K5L" H 3455 19745 50  0001 C CNN "MPN"
+F 5 "1570651 In Stock" H 3325 19625 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1.5K OHM 1%" H 3325 19625 50  0001 C CNN "Description"
+F 7 "OK" H 3325 19625 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 3325 19625 50  0001 C CNN "Price"
+F 9 "Mouser" H 3325 19625 50  0001 C CNN "Vendor"
+	1    3325 19625
+	0    1    1    0   
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 615D5B99
+P 3475 19850
+F 0 "#PWR?" H 3475 19600 50  0001 C CNN
+F 1 "GNDREF" H 3475 19700 50  0001 C CNN
+F 2 "" H 3475 19850 50  0001 C CNN
+F 3 "" H 3475 19850 50  0001 C CNN
+F 4 "#" H 3475 19850 50  0001 C CNN "MPN"
+	1    3475 19850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 19325 2600 19300
+Wire Wire Line
+	2600 19300 2650 19300
+Wire Wire Line
+	2525 19200 3150 19200
+Wire Wire Line
+	2400 20050 3150 20050
+Wire Wire Line
+	3000 19625 3150 19625
+Wire Wire Line
+	3425 19625 3475 19625
+Wire Wire Line
+	3475 19650 3475 19625
+Connection ~ 3475 19625
+Wire Wire Line
+	3475 19625 3525 19625
+$Comp
+L SwEmb:IC_LM324 U?
+U 1 1 616629BF
+P 2700 20625
+F 0 "U?" H 2675 20800 50  0000 L CNN
+F 1 "IC_LM324" H 2650 20450 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 20725 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2750 20825 50  0001 C CNN
+F 4 "LM324D" H 2700 20625 50  0001 C CNN "MPN"
+	1    2700 20625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 20725 2400 21050
+Wire Wire Line
+	3150 21050 3150 20625
+Connection ~ 3150 20625
+$Comp
+L SwEmb:CONN_SENSOR P?
+U 1 1 616629CD
+P 1375 20525
+F 0 "P?" H 1294 20758 50  0000 C CNN
+F 1 "CONN_SENSOR" H 1275 21425 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 21425 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 1175 21425 50  0001 C CNN
+F 4 "691321100003" H 1275 21425 50  0001 C CNN "MPN"
+F 5 "587 In Stock" H 1275 21425 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" H 1175 21425 50  0001 C CNN "Description"
+F 7 "OK" H 1375 21425 50  0001 C CNN "LifeCycle"
+F 8 "1.00  EUR" H 1475 21425 50  0001 C CNN "Price"
+	1    1375 20525
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1625 20425 2    50   Input ~ 0
+AIN_VDD_5V
+Wire Wire Line
+	1625 20525 2175 20525
+$Comp
+L SwEmb:RES_0R_0402 #R?
+U 1 1 616629DB
+P 2425 20200
+F 0 "#R?" V 2321 20200 50  0000 C CNN
+F 1 "RES_0R_0402" H 2455 20160 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2355 20120 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" H 2425 20200 50  0001 C CNN
+F 4 "CRCW04020000Z0ED" H 2425 20200 50  0001 C CNN "MPN"
+F 5 "3675 In Stock" H 2425 20200 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 0ohms" H 2425 20200 50  0001 C CNN "Description"
+F 7 "Mouser" H 2425 20200 50  0001 C CNN "Vendor"
+F 8 "0.105  EUR" H 2425 20200 50  0001 C CNN "Price"
+F 9 "OK" H 2425 20200 50  0001 C CNN "LifeCycle"
+	1    2425 20200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2325 20200 2175 20200
+Wire Wire Line
+	2175 20200 2175 20525
+Connection ~ 2175 20525
+Wire Wire Line
+	2175 20525 2400 20525
+Wire Wire Line
+	3150 20200 3150 20625
+Text GLabel 2650 20300 2    50   Input ~ 0
+AIN_VDD_5V
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 616629E8
+P 2600 20925
+F 0 "#PWR?" H 2600 20675 50  0001 C CNN
+F 1 "GNDREF" H 2600 20775 50  0001 C CNN
+F 2 "" H 2600 20925 50  0001 C CNN
+F 3 "" H 2600 20925 50  0001 C CNN
+F 4 "#" H 2600 20925 50  0001 C CNN "MPN"
+	1    2600 20925
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 616629EF
+P 1625 20625
+F 0 "#PWR?" H 1625 20375 50  0001 C CNN
+F 1 "GNDREF" H 1625 20475 50  0001 C CNN
+F 2 "" H 1625 20625 50  0001 C CNN
+F 3 "" H 1625 20625 50  0001 C CNN
+F 4 "#" H 1625 20625 50  0001 C CNN "MPN"
+	1    1625 20625
+	1    0    0    -1  
+$EndComp
+Text GLabel 3525 20625 2    50   Input ~ 0
+POT1
+$Comp
+L SwEmb:RES_3K_1%_0402 R?
+U 1 1 616629FC
+P 3475 20750
+F 0 "R?" H 3534 20750 50  0000 L CNN
+F 1 "RES_3K_1%_0402" H 3505 20710 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3405 20670 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 3505 20770 50  0001 C CNN
+F 4 "RC0402FR-073KL" H 3605 20870 50  0001 C CNN "MPN"
+F 5 "638811 In Stock" H 3475 20750 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 3475 20750 50  0001 C CNN "Description"
+F 7 "OK" H 3475 20750 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 3475 20750 50  0001 C CNN "Price"
+F 9 "Mouser" H 3475 20750 50  0001 C CNN "Vendor"
+	1    3475 20750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:RES_1K5_1%_0402 R?
+U 1 1 61662A08
+P 3325 20625
+F 0 "R?" V 3221 20625 50  0000 C CNN
+F 1 "RES_1K5_1%_0402" H 3355 20585 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3255 20545 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 3355 20645 50  0001 C CNN
+F 4 "RC0402FR-071K5L" H 3455 20745 50  0001 C CNN "MPN"
+F 5 "1570651 In Stock" H 3325 20625 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1.5K OHM 1%" H 3325 20625 50  0001 C CNN "Description"
+F 7 "OK" H 3325 20625 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 3325 20625 50  0001 C CNN "Price"
+F 9 "Mouser" H 3325 20625 50  0001 C CNN "Vendor"
+	1    3325 20625
+	0    1    1    0   
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 61662A0F
+P 3475 20850
+F 0 "#PWR?" H 3475 20600 50  0001 C CNN
+F 1 "GNDREF" H 3475 20700 50  0001 C CNN
+F 2 "" H 3475 20850 50  0001 C CNN
+F 3 "" H 3475 20850 50  0001 C CNN
+F 4 "#" H 3475 20850 50  0001 C CNN "MPN"
+	1    3475 20850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 20325 2600 20300
+Wire Wire Line
+	2600 20300 2650 20300
+Wire Wire Line
+	2525 20200 3150 20200
+Wire Wire Line
+	2400 21050 3150 21050
+Wire Wire Line
+	3000 20625 3150 20625
+Wire Wire Line
+	3425 20625 3475 20625
+Wire Wire Line
+	3475 20650 3475 20625
+Connection ~ 3475 20625
+Wire Wire Line
+	3475 20625 3525 20625
+Wire Wire Line
+	3150 17625 3225 17625
+Wire Wire Line
+	3150 18625 3225 18625
+Wire Wire Line
+	3150 19625 3225 19625
+Wire Wire Line
+	3150 20625 3225 20625
+Text Notes 1475 16975 0    118  ~ 0
+Analog IN 5V
+Text Notes 1250 21325 0    50   ~ 0
+Voltage follower inputs\n- Allow connecting any impedance potentiometer without distortion\n- Allow connecting 5V actively driven signal
+Wire Notes Line
+	1425 16925 1150 16925
+Wire Notes Line
+	1150 16925 1150 22425
+Wire Notes Line
+	1150 22425 3875 22425
+Wire Notes Line
+	3875 22425 3875 16900
+Wire Notes Line
+	3875 16900 2675 16900
 $EndSCHEMATC

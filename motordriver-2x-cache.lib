@@ -290,10 +290,11 @@ F1 "SwEmb_CONN_ENCODER" -100 900 50 H I C CNN
 F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
 F4 "691322110008" -100 900 50 H I C CNN "MPN"
-F5 "587 In Stock" -100 900 50 H I C CNN "Availability"
-F6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" -200 900 50 H I C CNN "Description"
+F5 "760 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 8PIn Horzntl PCBHdr" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
-F8 "1.00  EUR" 100 900 50 H I C CNN "Price"
+F8 "1.25  EUR" 100 900 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 DRAW
 T 900 70 -300 20 0 0 0 "5V out" Normal 0 C C
 T 900 70 150 20 0 0 0 Encoder Normal 0 C C
@@ -340,12 +341,13 @@ DEF ~SwEmb_CONN_MOTOR P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
 F1 "SwEmb_CONN_MOTOR" -100 900 50 H I C CNN
 F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/18/eIO4RBm_lB__-1379253.pdf" -200 900 50 H I C CNN
 F4 "VC0301500000G" -100 900 50 H I C CNN "MPN"
-F5 "587 In Stock" -100 900 50 H I C CNN "Availability"
-F6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" -200 900 50 H I C CNN "Description"
+F5 "176 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks TB PLG SKT RA W/F" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
-F8 "1.00  EUR" 100 900 50 H I C CNN "Price"
+F8 "1.01  EUR" 100 900 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 DRAW
 T 900 70 0 20 0 0 0 "32A 7.62mm" Normal 0 C C
 S -150 150 100 -150 0 1 0 N
@@ -361,12 +363,13 @@ DEF ~SwEmb_CONN_SENSOR P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
 F1 "SwEmb_CONN_SENSOR" -100 900 50 H I C CNN
 F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
 F4 "691321100003" -100 900 50 H I C CNN "MPN"
-F5 "587 In Stock" -100 900 50 H I C CNN "Availability"
-F6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" -200 900 50 H I C CNN "Description"
+F5 "2041 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
-F8 "1.00  EUR" 100 900 50 H I C CNN "Price"
+F8 "0.63  EUR" 100 900 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 DRAW
 T 900 70 0 20 0 0 0 In Normal 0 C C
 S -150 150 100 -150 0 1 0 N
@@ -565,6 +568,45 @@ X M_OC 9 -600 550 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# SwEmb_IC_LM324
+#
+DEF SwEmb_IC_LM324 U 0 20 Y Y 4 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "SwEmb_IC_LM324" 0 -200 50 H V L CNN
+F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" -50 100 50 H I C CNN
+F3 "" 50 200 50 H I C CNN
+F4 "LM324D" 0 0 50 H I C CNN "MPN"
+F5 "12748 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Operational Amplifiers - Op Amps Quad" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.367  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ SOIC*3.9x8.7mm*P1.27mm*
+ DIP*W7.62mm*
+ TSSOP*4.4x5mm*P0.65mm*
+ SSOP*5.3x6.2mm*P0.65mm*
+ MSOP*3x3mm*P0.5mm*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V- 11 -100 -300 150 U 50 50 0 1 W
+X V+ 4 -100 300 150 D 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X - 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+X + 10 -300 100 100 R 50 50 3 1 I
+X ~ 8 300 0 100 L 50 50 3 1 O
+X - 9 -300 -100 100 R 50 50 3 1 I
+X + 12 -300 100 100 R 50 50 4 1 I
+X - 13 -300 -100 100 R 50 50 4 1 I
+X ~ 14 300 0 100 L 50 50 4 1 O
+ENDDRAW
+ENDDEF
+#
 # SwEmb_IC_MAX14890
 #
 DEF SwEmb_IC_MAX14890 U 0 40 Y Y 1 F N
@@ -613,6 +655,32 @@ X TTL/SDI 6 550 -1100 100 L 50 50 1 1 I
 X ~D2FAULT~/~IRQ 7 550 -1200 100 L 50 50 1 1 O
 X BO 8 550 800 100 L 50 50 1 1 O
 X B 9 -550 800 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SwEmb_IC_MIC2026
+#
+DEF SwEmb_IC_MIC2026 U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "SwEmb_IC_MIC2026" 0 0 50 H V C CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -100 -100 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/268/mic2026-779053.pdf" 0 0 50 H I C CNN
+F4 "MIC2026-1YM-TR" 0 0 50 H I C CNN "MPN"
+F5 "27015 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Power Switch ICs - Power Distribution Dual USB High-Side Power Switch" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.899  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+S -250 250 250 -250 0 1 0 N
+X ENA 1 -350 150 100 R 50 50 1 1 I
+X FLGA 2 -350 50 100 R 50 50 1 1 O
+X FLGB 3 -350 -50 100 R 50 50 1 1 O
+X ENB 4 -350 -150 100 R 50 50 1 1 O
+X OUTB 5 350 -150 100 L 50 50 1 1 w
+X GND 6 350 -50 100 L 50 50 1 1 W
+X IN 7 350 50 100 L 50 50 1 1 W
+X OUTA 8 350 150 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
@@ -916,6 +984,31 @@ X D 6 0 450 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SwEmb_RES_0R_0402
+#
+DEF ~SwEmb_RES_0R_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "SwEmb_RES_0R_0402" 30 -40 50 H I L CNN
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 30 20 50 H I C CNN
+F4 "CRCW04020000Z0ED" 0 0 50 H I C CNN "MPN"
+F5 "3675 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1/16watt 0ohms" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 0 0 50 H I C CNN "Datasheet"
+F9 "0.105  EUR" 0 0 50 H I C CNN "Price"
+F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 0R Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SwEmb_RES_10K_1%_0402
 #
 DEF ~SwEmb_RES_10K_1%_0402 R 0 10 N N 1 F N
@@ -959,6 +1052,30 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 900 0 0 20 0 0 0 "135K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_RES_1K5_1%_0402
+#
+DEF ~SwEmb_RES_1K5_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "SwEmb_RES_1K5_1%_0402" 30 -40 50 H I L CNN
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F4 "RC0402FR-071K5L" 130 120 50 H I C CNN "MPN"
+F5 "1570651 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 1.5K OHM 1%" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "1k5 1%" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
@@ -1032,6 +1149,30 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 900 0 0 20 0 0 0 "270R 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_RES_3K_1%_0402
+#
+DEF ~SwEmb_RES_3K_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "SwEmb_RES_3K_1%_0402" 30 -40 50 H I L CNN
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F4 "RC0402FR-073KL" 130 120 50 H I C CNN "MPN"
+F5 "638811 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 3K OHM 1%" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "3k 1%" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
@@ -1114,6 +1255,23 @@ X A1 1 -200 50 100 R 50 50 1 1 P
 X B1 2 -200 -50 100 R 50 50 1 1 P
 X B2 3 200 -50 100 L 50 50 1 1 P
 X A2 4 200 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_Test_Point
+#
+DEF ~SwEmb_Test_Point TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H I C CNN
+F1 "SwEmb_Test_Point" 0 200 50 H I C CNN
+F2 "TestPoint:TestPoint_Pad_1.0x1.0mm" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
