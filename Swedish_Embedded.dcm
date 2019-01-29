@@ -24,7 +24,7 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
 $ENDCMP
 #
-$CMP IC_M24C02
+$CMP IC_M24C16
 D I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SO8
 K I2C Serial EEPROM Nonvolatile Memory
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
