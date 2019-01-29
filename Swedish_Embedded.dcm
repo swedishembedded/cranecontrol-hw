@@ -6,6 +6,12 @@ K I2C Serial EEPROM Nonvolatile Memory
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf
 $ENDCMP
 #
+$CMP CONN_RJ45_MAG
+D RJ45 with transformer + leds WURTH
+K RJ45
+F ~
+$ENDCMP
+#
 $CMP D_BAT54S
 D schottky barrier diode
 K schottky diode
