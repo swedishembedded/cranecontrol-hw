@@ -57,6 +57,33 @@ X ~ 6 50 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SwEmb_CAPP_100uF_25V_6357
+#
+DEF SwEmb_CAPP_100uF_25V_6357 C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "SwEmb_CAPP_100uF_25V_6357" 25 -100 50 H V L CNN
+F2 "Capacitor_SMD:CP_Elec_6.3x5.7" 38 -150 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/231/151002385281-1222337.pdf" 25 100 50 H I C CNN
+F4 "VZS101M1ETR-0606" 0 0 39 H I C CNN "MPN"
+F5 "25876 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Aluminium Electrolytic Capacitors - SMD 25 Volts 100uF 20% 6.3X5.7" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.335  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:CP_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "100uF 25V" Normal 0 C C
+S -60 -12 60 -27 1 1 0 F
+S -60 27 60 12 1 1 0 N
+P 2 1 1 0 -50 60 -30 60 N
+P 2 1 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SwEmb_CAPP_220uF_63V_10x15_THT
 #
 DEF ~SwEmb_CAPP_220uF_63V_10x15_THT C 0 10 N Y 1 F N
@@ -140,11 +167,11 @@ DEF ~SwEmb_CAP_100nF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_100nF_50V_0402" 10 -80 50 H I L CNN
 F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN
-F4 "GRM155R71H104ME14D" 450 250 50 H I C CNN "MPN"
-F5 "359167 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" 0 0 50 H I C CNN "Description"
-F7 "Not Recommended for New Designs" 0 0 50 H I C CNN "LifeCycle"
+F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN
+F4 "CC0402KRX5R9BB104" 450 250 50 H I C CNN "MPN"
+F5 "120297 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
 F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
@@ -327,6 +354,56 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 0 0 0 20 0 0 0 "2.2uF 16V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_CAP_27nF_16V_0402
+#
+DEF ~SwEmb_CAP_27nF_16V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "SwEmb_CAP_27nF_16V_0402" 10 -830 50 H I L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 -600 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 -680 50 H I C CNN
+F4 "GCM155R71C273KA37D" 450 -500 50 H I C CNN "MPN"
+F5 "10300 In Stock" 0 -600 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.027uF 16volts X7R 10%" 0 -750 50 H I C CNN "Description"
+F7 "OK" 50 -600 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" 0 -600 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "27nF 16V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_CAP_51pF_50V_0402
+#
+DEF ~SwEmb_CAP_51pF_50V_0402 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "SwEmb_CAP_51pF_50V_0402" 10 -830 50 H I L CNN
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 -600 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf" 10 -680 50 H I C CNN
+F4 "CC0402JRNPO9BN510" 450 -500 50 H I C CNN "MPN"
+F5 "42645 In Stock" 0 -600 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 51pF 50V NPO 5%" 0 -750 50 H I C CNN "Description"
+F7 "OK" 50 -600 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" 0 -600 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "51pF 50V" Normal 0 C C
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
@@ -675,6 +752,36 @@ X ~ 3 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SwEmb_D_CDBC5100
+#
+DEF ~SwEmb_D_CDBC5100 D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "SwEmb_D_CDBC5100" -150 -80 50 H I L CNN
+F2 "Diode_SMD:D_SMC" 100 -150 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/80/CDBC520-HF_Thru195419._CDBC5100-HF_RevB-1480789.pdf" 0 0 50 V I C CNN
+F4 "CDBC5100-HF" 0 -300 50 H I C CNN "MPN"
+F5 "9967 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers VR=100V, IO=5A (Halogen Free)" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.568  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 0 -60 20 0 0 0 "CDBC5100 100V 5A" Normal 0 C C
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SwEmb_D_ESDCAN06
 #
 DEF ~SwEmb_D_ESDCAN06 D 0 10 Y N 1 F N
@@ -910,12 +1017,13 @@ DEF SwEmb_IC_M24C16 U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
 F1 "SwEmb_IC_M24C16" 100 -250 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/m24c01-r-954990.pdf" 0 0 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/389/m24c16-w-954991.pdf" 0 0 50 H I C CNN
 F4 "M24C16-RMN6TP" 0 0 50 H I C CNN "MPN"
-F5 "28402 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "EEPROM EEPROM S I2C 2K" 0 0 50 H I C CNN "Description"
+F5 "14758 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "EEPROM 16Kbit 8Kbit 4Kbit 2Kb and 1Kb Serial" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "0.122  EUR" 0 0 50 H I C CNN "Price"
+F8 "0.175  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 ALIAS AT24CS02-SSHM
 $FPLIST
  SOIC*3.9x4.9mm*P1.27mm*
@@ -1336,6 +1444,38 @@ X STB 8 -500 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# SwEmb_IC_TPS54360DDA
+#
+DEF SwEmb_IC_TPS54360DDA U 0 10 Y Y 1 F N
+F0 "U" -300 450 50 H V L CNN
+F1 "SwEmb_IC_TPS54360DDA" -300 400 50 H V L CNN
+F2 "SOIC:SOIC127P600X175_HS-9N" 50 -400 50 H I L CIN
+F3 "" 0 50 50 H I C CNN
+F4 "TPS54360DDAR" 0 -250 50 H I C CNN "MPN"
+F5 "18573 In Stock" 0 50 50 H I C CNN "Availability"
+F6 "Switching Voltage Regulators 60 Vin,3.5 A,SD DC-DC Converter" 0 50 50 H I C CNN "Description"
+F7 "Mouser" 0 50 50 H I C CNN "Vendor"
+F8 "3.66  EUR" 0 50 50 H I C CNN "Price"
+F9 "OK" 0 50 50 H I C CNN "LifeCycle"
+$FPLIST
+ TI*SO*PowerPAD*ThermalVias*
+$ENDFPLIST
+DRAW
+T 0 250 -50 20 0 0 0 3.5A Normal 0 C C
+T 0 -250 200 20 0 0 0 60V Normal 0 C C
+S -300 350 300 -350 0 1 10 f
+X BOOT 1 400 250 100 L 50 50 1 1 I
+X VIN 2 -400 250 100 R 50 50 1 1 W
+X EN 3 -400 0 100 R 50 50 1 1 I
+X RT/CLK 4 -400 -200 100 R 50 50 1 1 I
+X FB 5 400 -250 100 L 50 50 1 1 I
+X COMP 6 -400 -100 100 R 50 50 1 1 P
+X GND 7 50 -450 100 U 50 50 1 1 W
+X SW 8 400 0 100 L 50 50 1 1 O
+X GNDPAD 9 150 -450 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # SwEmb_IC_TXS0108
 #
 DEF SwEmb_IC_TXS0108 U 0 40 Y Y 1 F N
@@ -1537,6 +1677,36 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SwEmb_L_100uH_3.64A
+#
+DEF ~SwEmb_L_100uH_3.64A L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "SwEmb_L_100uH_3.64A" 30 -40 50 H I L CNN
+F2 "CUSTOM:L_Wuerth_WE-PD-Typ-LS_1250x1250" -70 -60 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/87/Bus_Elx_DS_4315_DR_Series-248110.pdf" 0 0 50 H I C CNN
+F4 "DR127-101-R" 0 -300 50 H I C CNN "MPN"
+F5 "8402 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 100uH 3.64A 0.163ohms" 0 0 50 H I C CNN "Description"
+F7 "1.77  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -30 0 20 0 0 0 "100uH 3.64A" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SwEmb_Q_NMOS_2X_100V_70A
 #
 DEF ~SwEmb_Q_NMOS_2X_100V_70A Q 0 0 Y N 1 F N
@@ -1624,6 +1794,30 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SwEmb_RES_10.5k_1%_0603
+#
+DEF ~SwEmb_RES_10.5k_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "SwEmb_RES_10.5k_1%_0603" 30 -40 50 H I L CNN
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F4 "RC0603FR-0710K5L" 0 -300 50 H I C CNN "MPN"
+F5 "123654 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 10.5K OHM 1%" 0 0 50 H I C CNN "Description"
+F7 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "10.5k 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SwEmb_RES_10K_1%_0402
 #
 DEF ~SwEmb_RES_10K_1%_0402 R 0 10 N N 1 F N
@@ -1657,10 +1851,11 @@ F1 "SwEmb_RES_12.1K_1%_0402" 30 -40 50 H I L CNN
 F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
 F4 "RC0402FR-0712K1L" 130 120 50 H I C CNN "MPN"
-F5 "1570651 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Thick Film Resistors - SMD 1.5K OHM 1%" 0 0 50 H I C CNN "Description"
+F5 "336681 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 12.1K OHM 1%" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -1690,6 +1885,30 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 900 0 0 20 0 0 0 "135K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_RES_147k_1%_0603
+#
+DEF ~SwEmb_RES_147k_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "SwEmb_RES_147k_1%_0603" 30 -40 50 H I L CNN
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F4 "RC0603FR-07147KL" 0 -300 50 H I C CNN "MPN"
+F5 "93114 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 147K OHM 1%" 0 0 50 H I C CNN "Description"
+F7 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "147k 1%" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
