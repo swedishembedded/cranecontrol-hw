@@ -1034,7 +1034,7 @@ Text GLabel 11575 3150 2    50   Input ~ 0
 UART1_TX
 Text GLabel 11575 3250 2    50   Input ~ 0
 UART1_RX
-Text GLabel 11575 4250 2    50   Input ~ 0
+Text GLabel 12350 3800 2    50   Input ~ 0
 SWO
 $Comp
 L SwEmb:IC_DRV8302 U?
@@ -4790,11 +4790,11 @@ Wire Wire Line
 	25975 11125 25925 11125
 Connection ~ 25975 11125
 Text GLabel 25925 11125 0    50   Input ~ 0
-HALL_A1
+HALL_A2
 Text GLabel 25925 11225 0    50   Input ~ 0
-HALL_B1
+HALL_B2
 Text GLabel 25925 11325 0    50   Input ~ 0
-HALL_C1
+HALL_C2
 $Comp
 L SwEmb:D_TPD3E001 D?
 U 1 1 5D8FF539
@@ -11740,8 +11740,8 @@ $Comp
 L SwEmb:IC_TPS54360DDA U?
 U 1 1 806F3944
 P 3400 15900
-F 0 "U?" H 3428 16367 50  0000 C CNN
-F 1 "IC_TPS54360DDA" H 3428 16276 50  0000 C CNN
+F 0 "U?" H 3425 16375 50  0000 C CNN
+F 1 "IC_TPS54360DDA" H 3425 16300 50  0000 C CNN
 F 2 "SOIC:SOIC127P600X175_HS-9N" H 3450 15450 50  0001 L CIN
 F 3 "" H 3400 15900 50  0001 C CNN
 F 4 "TPS54360DDAR" H 3400 15600 50  0001 C CNN "MPN"
@@ -12824,11 +12824,11 @@ Text GLabel 14075 3225 0    50   Input ~ 0
 ENCOC1
 Text GLabel 14075 3325 0    50   Input ~ 0
 ENCOC2
-Text GLabel 14075 3525 0    50   Input ~ 0
+Text GLabel 11575 2750 2    50   Input ~ 0
 ENCA1
 Text GLabel 14075 3625 0    50   Input ~ 0
 ENCAF1
-Text GLabel 14075 3825 0    50   Input ~ 0
+Text GLabel 11575 4250 2    50   Input ~ 0
 ENCB1
 Text GLabel 14075 3925 0    50   Input ~ 0
 ENCBF1
@@ -12862,17 +12862,15 @@ Text GLabel 14075 5825 0    50   Input ~ 0
 ENCIRQ1
 Text GLabel 14075 5925 0    50   Input ~ 0
 EN_GATE1
-Text GLabel 14075 6025 0    50   Input ~ 0
-INHA1
-Text GLabel 14075 6125 0    50   Input ~ 0
+Text GLabel 2375 8150 0    50   Input ~ 0
 INLA1
-Text GLabel 14075 6225 0    50   Input ~ 0
+Text GLabel 2375 8450 0    50   Input ~ 0
 INHB1
-Text GLabel 14075 6325 0    50   Input ~ 0
+Text GLabel 2375 8350 0    50   Input ~ 0
 INLB1
-Text GLabel 14075 6425 0    50   Input ~ 0
+Text GLabel 2375 8650 0    50   Input ~ 0
 INHC1
-Text GLabel 14075 6525 0    50   Input ~ 0
+Text GLabel 2375 8550 0    50   Input ~ 0
 INLC1
 Text GLabel 14075 6625 0    50   Input ~ 0
 SOA1
@@ -12884,11 +12882,11 @@ Text GLabel 14075 6925 0    50   Input ~ 0
 VSB1
 Text GLabel 14075 7025 0    50   Input ~ 0
 VSC1
-Text GLabel 14075 7725 0    50   Input ~ 0
+Text GLabel 11575 8550 2    50   Input ~ 0
 ENCA2
 Text GLabel 14075 7825 0    50   Input ~ 0
 ENCAF2
-Text GLabel 14075 8025 0    50   Input ~ 0
+Text GLabel 11575 8650 2    50   Input ~ 0
 ENCB2
 Text GLabel 14075 8125 0    50   Input ~ 0
 ENCBF2
@@ -12922,17 +12920,17 @@ Text GLabel 14075 10025 0    50   Input ~ 0
 ENCIRQ2
 Text GLabel 14075 10125 0    50   Input ~ 0
 EN_GATE2
-Text GLabel 14075 10225 0    50   Input ~ 0
+Text GLabel 11575 6250 2    50   Input ~ 0
 INHA2
-Text GLabel 14075 10325 0    50   Input ~ 0
+Text GLabel 11575 2950 2    50   Input ~ 0
 INLA2
-Text GLabel 14075 10425 0    50   Input ~ 0
+Text GLabel 11575 6350 2    50   Input ~ 0
 INHB2
-Text GLabel 14075 10525 0    50   Input ~ 0
+Text GLabel 11575 5350 2    50   Input ~ 0
 INLB2
-Text GLabel 14075 10625 0    50   Input ~ 0
+Text GLabel 11575 6450 2    50   Input ~ 0
 INHC2
-Text GLabel 14075 10725 0    50   Input ~ 0
+Text GLabel 11575 5450 2    50   Input ~ 0
 INLC2
 Text GLabel 14075 10825 0    50   Input ~ 0
 VREF2
@@ -12946,18 +12944,18 @@ Text GLabel 14075 11325 0    50   Input ~ 0
 VSB2
 Text GLabel 14075 11425 0    50   Input ~ 0
 VSC2
-Text GLabel 14075 7125 0    50   Input ~ 0
+Text GLabel 11575 4350 2    50   Input ~ 0
 HALL_A1
-Text GLabel 14075 7225 0    50   Input ~ 0
+Text GLabel 11575 4450 2    50   Input ~ 0
 HALL_B1
-Text GLabel 14075 7325 0    50   Input ~ 0
+Text GLabel 11575 4550 2    50   Input ~ 0
 HALL_C1
-Text GLabel 14075 11525 0    50   Input ~ 0
-HALL_A1
-Text GLabel 14075 11625 0    50   Input ~ 0
-HALL_B1
-Text GLabel 14075 11725 0    50   Input ~ 0
-HALL_C1
+Text GLabel 11575 2250 2    50   Input ~ 0
+HALL_A2
+Text GLabel 11575 2350 2    50   Input ~ 0
+HALL_B2
+Text GLabel 11575 2450 2    50   Input ~ 0
+HALL_C2
 Text GLabel 13000 9775 2    50   Input ~ 0
 POT1
 Text GLabel 13000 9975 2    50   Input ~ 0
@@ -13058,4 +13056,10 @@ Text Notes 15825 3600 0    39   ~ 0
 Add possibility to bypass power
 Text Notes 2675 22350 0    39   ~ 0
 Add possibility to bypass
+Text Notes 7825 15225 0    39   ~ 0
+Add current sensing to each supply
+Text Notes 3200 17250 0    39   ~ 0
+Investigate up to vcc-2v input range\nConsider TLV2401 or TLV2474 instead\nAdd clipping diodes to output
+Text GLabel 2375 8250 0    50   Input ~ 0
+INHA1
 $EndSCHEMATC
