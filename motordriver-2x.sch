@@ -38,11 +38,11 @@ P 8475 1500
 F 0 "C?" H 8582 1500 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 8485 1420 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8925 1650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 8485 1570 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 8925 1750 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 8475 1500 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 8475 1500 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 8475 1500 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 8485 1570 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 8925 1750 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 8475 1500 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 8475 1500 50  0001 C CNN "Description"
+F 7 "OK" H 8475 1500 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 8475 1500 50  0001 C CNN "Price"
 F 9 "Mouser" H 8475 1500 50  0001 C CNN "Vendor"
 	1    8475 1500
@@ -55,11 +55,11 @@ P 8875 1500
 F 0 "C?" H 8982 1500 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 8885 1420 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9325 1650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 8885 1570 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 9325 1750 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 8875 1500 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 8875 1500 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 8875 1500 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 8885 1570 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 9325 1750 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 8875 1500 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 8875 1500 50  0001 C CNN "Description"
+F 7 "OK" H 8875 1500 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 8875 1500 50  0001 C CNN "Price"
 F 9 "Mouser" H 8875 1500 50  0001 C CNN "Vendor"
 	1    8875 1500
@@ -72,11 +72,11 @@ P 9275 1500
 F 0 "C?" H 9382 1500 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 9285 1420 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9725 1650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 9285 1570 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 9725 1750 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 9275 1500 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 9275 1500 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 9275 1500 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 9285 1570 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 9725 1750 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 9275 1500 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 9275 1500 50  0001 C CNN "Description"
+F 7 "OK" H 9275 1500 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 9275 1500 50  0001 C CNN "Price"
 F 9 "Mouser" H 9275 1500 50  0001 C CNN "Vendor"
 	1    9275 1500
@@ -89,11 +89,11 @@ P 9675 1500
 F 0 "C?" H 9782 1500 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 9685 1420 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10125 1650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 9685 1570 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 10125 1750 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 9675 1500 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 9675 1500 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 9675 1500 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 9685 1570 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 10125 1750 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 9675 1500 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 9675 1500 50  0001 C CNN "Description"
+F 7 "OK" H 9675 1500 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 9675 1500 50  0001 C CNN "Price"
 F 9 "Mouser" H 9675 1500 50  0001 C CNN "Vendor"
 	1    9675 1500
@@ -106,11 +106,11 @@ P 10100 1500
 F 0 "C?" H 10207 1500 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 10110 1420 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10550 1650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 10110 1570 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 10550 1750 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 10100 1500 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 10100 1500 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 10100 1500 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 10110 1570 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 10550 1750 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 10100 1500 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 10100 1500 50  0001 C CNN "Description"
+F 7 "OK" H 10100 1500 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 10100 1500 50  0001 C CNN "Price"
 F 9 "Mouser" H 10100 1500 50  0001 C CNN "Vendor"
 	1    10100 1500
@@ -123,11 +123,11 @@ P 10525 1500
 F 0 "C?" H 10632 1500 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 10535 1420 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10975 1650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 10535 1570 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 10975 1750 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 10525 1500 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 10525 1500 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 10525 1500 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 10535 1570 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 10975 1750 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 10525 1500 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 10525 1500 50  0001 C CNN "Description"
+F 7 "OK" H 10525 1500 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 10525 1500 50  0001 C CNN "Price"
 F 9 "Mouser" H 10525 1500 50  0001 C CNN "Vendor"
 	1    10525 1500
@@ -140,11 +140,11 @@ P 8475 1050
 F 0 "C?" H 8582 1050 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 8485 970 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8925 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 8485 1120 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 8925 1300 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 8475 1050 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 8475 1050 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 8475 1050 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 8485 1120 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 8925 1300 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 8475 1050 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 8475 1050 50  0001 C CNN "Description"
+F 7 "OK" H 8475 1050 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 8475 1050 50  0001 C CNN "Price"
 F 9 "Mouser" H 8475 1050 50  0001 C CNN "Vendor"
 	1    8475 1050
@@ -157,11 +157,11 @@ P 8875 1050
 F 0 "C?" H 8982 1050 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 8885 970 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9325 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 8885 1120 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 9325 1300 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 8875 1050 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 8875 1050 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 8875 1050 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 8885 1120 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 9325 1300 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 8875 1050 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 8875 1050 50  0001 C CNN "Description"
+F 7 "OK" H 8875 1050 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 8875 1050 50  0001 C CNN "Price"
 F 9 "Mouser" H 8875 1050 50  0001 C CNN "Vendor"
 	1    8875 1050
@@ -174,11 +174,11 @@ P 9275 1050
 F 0 "C?" H 9382 1050 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 9285 970 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9725 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 9285 1120 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 9725 1300 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 9275 1050 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 9275 1050 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 9275 1050 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 9285 1120 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 9725 1300 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 9275 1050 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 9275 1050 50  0001 C CNN "Description"
+F 7 "OK" H 9275 1050 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 9275 1050 50  0001 C CNN "Price"
 F 9 "Mouser" H 9275 1050 50  0001 C CNN "Vendor"
 	1    9275 1050
@@ -191,11 +191,11 @@ P 9675 1050
 F 0 "C?" H 9782 1050 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 9685 970 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10125 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 9685 1120 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 10125 1300 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 9675 1050 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 9675 1050 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 9675 1050 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 9685 1120 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 10125 1300 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 9675 1050 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 9675 1050 50  0001 C CNN "Description"
+F 7 "OK" H 9675 1050 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 9675 1050 50  0001 C CNN "Price"
 F 9 "Mouser" H 9675 1050 50  0001 C CNN "Vendor"
 	1    9675 1050
@@ -208,11 +208,11 @@ P 10100 1050
 F 0 "C?" H 10207 1050 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 10110 970 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10550 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 10110 1120 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 10550 1300 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 10100 1050 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 10100 1050 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 10100 1050 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 10110 1120 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 10550 1300 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 10100 1050 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 10100 1050 50  0001 C CNN "Description"
+F 7 "OK" H 10100 1050 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 10100 1050 50  0001 C CNN "Price"
 F 9 "Mouser" H 10100 1050 50  0001 C CNN "Vendor"
 	1    10100 1050
@@ -225,11 +225,11 @@ P 10525 1050
 F 0 "C?" H 10632 1050 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 10535 970 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10975 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 10535 1120 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 10975 1300 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 10525 1050 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 10525 1050 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 10525 1050 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 10535 1120 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 10975 1300 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 10525 1050 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 10525 1050 50  0001 C CNN "Description"
+F 7 "OK" H 10525 1050 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 10525 1050 50  0001 C CNN "Price"
 F 9 "Mouser" H 10525 1050 50  0001 C CNN "Vendor"
 	1    10525 1050
@@ -242,11 +242,11 @@ P 10950 1500
 F 0 "C?" H 11057 1500 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 10960 1420 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 11400 1650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 10960 1570 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 11400 1750 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 10950 1500 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 10950 1500 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 10950 1500 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 10960 1570 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 11400 1750 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 10950 1500 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 10950 1500 50  0001 C CNN "Description"
+F 7 "OK" H 10950 1500 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 10950 1500 50  0001 C CNN "Price"
 F 9 "Mouser" H 10950 1500 50  0001 C CNN "Vendor"
 	1    10950 1500
@@ -379,9 +379,9 @@ Connection ~ 8475 1650
 Wire Wire Line
 	8475 1650 8875 1650
 Text GLabel 8375 875  0    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 Text GLabel 8375 1350 0    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 $Comp
 L SwEmb:GNDREF #PWR0101
 U 1 1 5C7F00B4
@@ -466,7 +466,7 @@ Connection ~ 7375 1650
 Wire Wire Line
 	7375 1650 7475 1650
 Text GLabel 6225 1650 0    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C?
 U 1 1 5C7FE682
@@ -634,18 +634,18 @@ P 1650 2950
 F 0 "C?" H 1757 2950 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 1660 2870 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2100 3100 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 1660 3020 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 2100 3200 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 1650 2950 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 1650 2950 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 1650 2950 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 1660 3020 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 2100 3200 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 1650 2950 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 1650 2950 50  0001 C CNN "Description"
+F 7 "OK" H 1650 2950 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 1650 2950 50  0001 C CNN "Price"
 F 9 "Mouser" H 1650 2950 50  0001 C CNN "Vendor"
 	1    1650 2950
 	1    0    0    -1  
 $EndComp
 Text GLabel 1575 2750 0    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 Wire Wire Line
 	2375 2750 1650 2750
 Wire Wire Line
@@ -672,11 +672,11 @@ P 1775 2400
 F 0 "C?" H 1882 2400 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 1785 2320 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2225 2550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 1785 2470 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 2225 2650 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 1775 2400 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 1775 2400 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 1775 2400 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 1785 2470 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 2225 2650 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 1775 2400 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 1775 2400 50  0001 C CNN "Description"
+F 7 "OK" H 1775 2400 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 1775 2400 50  0001 C CNN "Price"
 F 9 "Mouser" H 1775 2400 50  0001 C CNN "Vendor"
 	1    1775 2400
@@ -700,7 +700,7 @@ Wire Wire Line
 	1775 2250 1500 2250
 Connection ~ 1775 2250
 Text GLabel 2375 2350 0    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 Wire Wire Line
 	1775 2250 2375 2250
 $Comp
@@ -790,120 +790,112 @@ $EndComp
 $Comp
 L SwEmb:IC_NCP51460SN33T1G U?
 U 1 1 5C86DA05
-P 2125 15225
-F 0 "U?" H 2132 15590 50  0000 C CNN
-F 1 "IC_NCP51460SN33T1G" H 2132 15499 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2125 15525 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/NCP51460-D-60909.pdf" H 2125 15525 50  0001 C CNN
-F 4 "NCP51460SN33T1G" H 2575 14975 50  0001 C CNN "MPN"
-F 5 "8024 In Stock" H 2125 15225 50  0001 C CNN "Availability"
-F 6 "Voltage References PRECISE LN 20 MA LDO REG" H 2125 15225 50  0001 C CNN "Description"
-F 7 "0.629  EUR" H 2125 15225 50  0001 C CNN "Price"
-F 8 "OK" H 2125 15225 50  0001 C CNN "LifeCycle"
-F 9 "Mouser" H 2125 15225 50  0001 C CNN "Vendor"
-	1    2125 15225
+P 6225 1100
+F 0 "U?" H 6232 1465 50  0000 C CNN
+F 1 "IC_NCP51460SN33T1G" H 6232 1374 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6225 1400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/NCP51460-D-60909.pdf" H 6225 1400 50  0001 C CNN
+F 4 "NCP51460SN33T1G" H 6675 850 50  0001 C CNN "MPN"
+F 5 "8024 In Stock" H 6225 1100 50  0001 C CNN "Availability"
+F 6 "Voltage References PRECISE LN 20 MA LDO REG" H 6225 1100 50  0001 C CNN "Description"
+F 7 "0.629  EUR" H 6225 1100 50  0001 C CNN "Price"
+F 8 "OK" H 6225 1100 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 6225 1100 50  0001 C CNN "Vendor"
+	1    6225 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C?
 U 1 1 5C86DCAD
-P 1625 15275
-F 0 "C?" H 1732 15275 50  0000 L CNN
-F 1 "CAP_100nF_50V_0402" H 1635 15195 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2075 15425 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 1635 15345 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 2075 15525 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 1625 15275 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 1625 15275 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 1625 15275 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 1625 15275 50  0001 C CNN "Price"
-F 9 "Mouser" H 1625 15275 50  0001 C CNN "Vendor"
-	1    1625 15275
+P 5725 1150
+F 0 "C?" H 5832 1150 50  0000 L CNN
+F 1 "CAP_100nF_50V_0402" H 5735 1070 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6175 1300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 5735 1220 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 6175 1400 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 5725 1150 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 5725 1150 50  0001 C CNN "Description"
+F 7 "OK" H 5725 1150 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 5725 1150 50  0001 C CNN "Price"
+F 9 "Mouser" H 5725 1150 50  0001 C CNN "Vendor"
+	1    5725 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 2375 2850 0    50   Input ~ 0
-VDD_3V3_REF
-Text GLabel 2700 15125 2    50   Input ~ 0
-VDD_3V3_REF
-Text GLabel 1500 15125 0    50   Input ~ 0
+Text GLabel 5600 1000 0    50   Input ~ 0
 VDD_5V
 Wire Wire Line
-	1500 15125 1625 15125
+	5600 1000 5725 1000
 Wire Wire Line
-	1625 15125 1625 15175
-Connection ~ 1625 15125
+	5725 1000 5725 1050
+Connection ~ 5725 1000
 Wire Wire Line
-	1625 15125 1725 15125
+	5725 1000 5825 1000
 Wire Wire Line
-	1625 15375 1625 15600
+	5725 1250 5725 1475
 Wire Wire Line
-	2125 15600 2125 15525
+	6225 1475 6225 1400
 $Comp
 L SwEmb:GNDREF #PWR0110
 U 1 1 5C87A1AC
-P 2125 15600
-F 0 "#PWR0110" H 2125 15350 50  0001 C CNN
-F 1 "GNDREF" H 2125 15450 50  0001 C CNN
-F 2 "" H 2125 15600 50  0001 C CNN
-F 3 "" H 2125 15600 50  0001 C CNN
-F 4 "#" H 2125 15600 50  0001 C CNN "MPN"
-	1    2125 15600
+P 6225 1475
+F 0 "#PWR0110" H 6225 1225 50  0001 C CNN
+F 1 "GNDREF" H 6225 1325 50  0001 C CNN
+F 2 "" H 6225 1475 50  0001 C CNN
+F 3 "" H 6225 1475 50  0001 C CNN
+F 4 "#" H 6225 1475 50  0001 C CNN "MPN"
+	1    6225 1475
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:GNDREF #PWR0111
 U 1 1 5C87A1EB
-P 1625 15600
-F 0 "#PWR0111" H 1625 15350 50  0001 C CNN
-F 1 "GNDREF" H 1625 15450 50  0001 C CNN
-F 2 "" H 1625 15600 50  0001 C CNN
-F 3 "" H 1625 15600 50  0001 C CNN
-F 4 "#" H 1625 15600 50  0001 C CNN "MPN"
-	1    1625 15600
+P 5725 1475
+F 0 "#PWR0111" H 5725 1225 50  0001 C CNN
+F 1 "GNDREF" H 5725 1325 50  0001 C CNN
+F 2 "" H 5725 1475 50  0001 C CNN
+F 3 "" H 5725 1475 50  0001 C CNN
+F 4 "#" H 5725 1475 50  0001 C CNN "MPN"
+	1    5725 1475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2525 15125 2600 15125
+	6625 1000 6700 1000
 Wire Wire Line
 	7575 1750 7575 1650
-Wire Wire Line
-	7575 1650 7625 1650
-Text GLabel 7625 1650 2    50   Input ~ 0
-VDD_3V3_REF
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C?
 U 1 1 5C8878B4
-P 2600 15275
-F 0 "C?" H 2707 15275 50  0000 L CNN
-F 1 "CAP_100nF_50V_0402" H 2610 15195 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3050 15425 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 2610 15345 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 3050 15525 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 2600 15275 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 2600 15275 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 2600 15275 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 2600 15275 50  0001 C CNN "Price"
-F 9 "Mouser" H 2600 15275 50  0001 C CNN "Vendor"
-	1    2600 15275
+P 6700 1150
+F 0 "C?" H 6807 1150 50  0000 L CNN
+F 1 "CAP_100nF_50V_0402" H 6710 1070 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7150 1300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 6710 1220 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 7150 1400 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 6700 1150 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 6700 1150 50  0001 C CNN "Description"
+F 7 "OK" H 6700 1150 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 6700 1150 50  0001 C CNN "Price"
+F 9 "Mouser" H 6700 1150 50  0001 C CNN "Vendor"
+	1    6700 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 15125 2600 15175
-Connection ~ 2600 15125
+	6700 1000 6700 1050
+Connection ~ 6700 1000
 Wire Wire Line
-	2600 15125 2700 15125
+	6700 1000 6800 1000
 Wire Wire Line
-	2600 15375 2600 15600
+	6700 1250 6700 1475
 $Comp
 L SwEmb:GNDREF #PWR0112
 U 1 1 5C8953A4
-P 2600 15600
-F 0 "#PWR0112" H 2600 15350 50  0001 C CNN
-F 1 "GNDREF" H 2600 15450 50  0001 C CNN
-F 2 "" H 2600 15600 50  0001 C CNN
-F 3 "" H 2600 15600 50  0001 C CNN
-F 4 "#" H 2600 15600 50  0001 C CNN "MPN"
-	1    2600 15600
+P 6700 1475
+F 0 "#PWR0112" H 6700 1225 50  0001 C CNN
+F 1 "GNDREF" H 6700 1325 50  0001 C CNN
+F 2 "" H 6700 1475 50  0001 C CNN
+F 3 "" H 6700 1475 50  0001 C CNN
+F 4 "#" H 6700 1475 50  0001 C CNN "MPN"
+	1    6700 1475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1010,9 +1002,9 @@ U 1 1 5C8ED02E
 P 2825 1375
 F 0 "P?" H 2844 652 50  0000 C CNN
 F 1 "CONN_DEBUG_2R" H 2925 675 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2825 1475 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 2825 1475 50  0001 C CNN
 F 3 "" H 2825 1475 50  0000 C CNN
-F 4 "#" H 2825 1375 50  0001 C CNN "MPN"
+F 4 "N2510-6002RB" H 2825 1375 50  0001 C CNN "MPN"
 	1    2825 1375
 	-1   0    0    1   
 $EndComp
@@ -1095,24 +1087,24 @@ Wire Wire Line
 	22350 5100 22375 5100
 Text GLabel 22375 5100 2    50   Input ~ 0
 GND
-Text GLabel 3250 15600 0    50   Input ~ 0
+Text GLabel 1875 16300 0    50   Input ~ 0
 GND
 $Comp
 L SwEmb:GNDREF #PWR0115
 U 1 1 5C9921FA
-P 3400 15625
-F 0 "#PWR0115" H 3400 15375 50  0001 C CNN
-F 1 "GNDREF" H 3400 15475 50  0001 C CNN
-F 2 "" H 3400 15625 50  0001 C CNN
-F 3 "" H 3400 15625 50  0001 C CNN
-F 4 "#" H 3400 15625 50  0001 C CNN "MPN"
-	1    3400 15625
+P 2025 16325
+F 0 "#PWR0115" H 2025 16075 50  0001 C CNN
+F 1 "GNDREF" H 2025 16175 50  0001 C CNN
+F 2 "" H 2025 16325 50  0001 C CNN
+F 3 "" H 2025 16325 50  0001 C CNN
+F 4 "#" H 2025 16325 50  0001 C CNN "MPN"
+	1    2025 16325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 15600 3400 15600
+	1875 16300 2025 16300
 Wire Wire Line
-	3400 15600 3400 15625
+	2025 16300 2025 16325
 $Comp
 L SwEmb:CAP_100nF_100V_0603 C?
 U 1 1 5C9A59AB
@@ -2308,7 +2300,7 @@ $EndComp
 Text GLabel 19450 7450 0    50   Input ~ 0
 GND
 Text GLabel 20575 7450 2    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 Wire Wire Line
 	20350 7350 20400 7350
 Wire Wire Line
@@ -2468,7 +2460,7 @@ Connection ~ 20500 4500
 Wire Wire Line
 	20500 4500 20600 4500
 Text GLabel 20350 4450 0    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 Text GLabel 20900 5100 0    50   Input ~ 0
 GND
 Text GLabel 20900 5200 0    50   Input ~ 0
@@ -2547,8 +2539,8 @@ Text GLabel 19425 6400 0    50   Input ~ 0
 INHC1
 Text GLabel 19425 6500 0    50   Input ~ 0
 INLC1
-Text GLabel 19400 6600 0    50   Input ~ 0
-VDD_3V3_REF
+Text GLabel 19425 6600 0    50   Input ~ 0
+VREF1
 Wire Wire Line
 	20450 6600 20450 6700
 Wire Wire Line
@@ -2571,7 +2563,7 @@ F 9 "Mouser" H 19550 6750 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19400 6600 19550 6600
+	19425 6600 19550 6600
 Wire Wire Line
 	19550 6600 19550 6650
 Wire Wire Line
@@ -3991,7 +3983,7 @@ Connection ~ 20500 8475
 Wire Wire Line
 	20500 8475 20600 8475
 Text GLabel 20350 8425 0    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 Text GLabel 20900 9075 0    50   Input ~ 0
 GND
 Text GLabel 20900 9175 0    50   Input ~ 0
@@ -4053,8 +4045,8 @@ Text GLabel 19425 10375 0    50   Input ~ 0
 INHC2
 Text GLabel 19425 10475 0    50   Input ~ 0
 INLC2
-Text GLabel 19400 10575 0    50   Input ~ 0
-VDD_3V3_REF
+Text GLabel 19425 10575 0    50   Input ~ 0
+VREF2
 Wire Wire Line
 	20450 10575 20450 10675
 Wire Wire Line
@@ -4077,7 +4069,7 @@ F 9 "Mouser" H 19550 10725 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19400 10575 19550 10575
+	19425 10575 19550 10575
 Wire Wire Line
 	19550 10575 19550 10625
 Wire Wire Line
@@ -5085,7 +5077,7 @@ ENCSH1
 Text GLabel 15675 6450 0    50   Input ~ 0
 ENCSHCTRL1
 Text GLabel 15425 4600 0    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 Text GLabel 17050 4575 2    50   Input ~ 0
 VDD_5V
 $Comp
@@ -5143,11 +5135,11 @@ P 16900 4375
 F 0 "C?" H 16794 4375 50  0000 R CNN
 F 1 "CAP_100nF_50V_0402" H 16910 4295 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 17350 4525 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 16910 4445 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 17350 4625 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 16900 4375 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 16900 4375 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 16900 4375 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 16910 4445 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 17350 4625 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 16900 4375 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 16900 4375 50  0001 C CNN "Description"
+F 7 "OK" H 16900 4375 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 16900 4375 50  0001 C CNN "Price"
 F 9 "Mouser" H 16900 4375 50  0001 C CNN "Vendor"
 	1    16900 4375
@@ -5160,11 +5152,11 @@ P 15550 4350
 F 0 "C?" H 15444 4350 50  0000 R CNN
 F 1 "CAP_100nF_50V_0402" H 15560 4270 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 16000 4500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 15560 4420 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 16000 4600 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 15550 4350 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 15550 4350 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 15550 4350 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 15560 4420 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 16000 4600 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 15550 4350 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 15550 4350 50  0001 C CNN "Description"
+F 7 "OK" H 15550 4350 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 15550 4350 50  0001 C CNN "Price"
 F 9 "Mouser" H 15550 4350 50  0001 C CNN "Vendor"
 	1    15550 4350
@@ -5498,7 +5490,7 @@ ENCSH2
 Text GLabel 15675 10450 0    50   Input ~ 0
 ENCSHCTRL2
 Text GLabel 15425 8600 0    50   Input ~ 0
-VDD_3V3
+VDD_3V3_MCU
 Text GLabel 17050 8575 2    50   Input ~ 0
 VDD_5V
 $Comp
@@ -5556,11 +5548,11 @@ P 16900 8375
 F 0 "C?" H 16794 8375 50  0000 R CNN
 F 1 "CAP_100nF_50V_0402" H 16910 8295 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 17350 8525 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 16910 8445 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 17350 8625 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 16900 8375 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 16900 8375 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 16900 8375 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 16910 8445 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 17350 8625 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 16900 8375 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 16900 8375 50  0001 C CNN "Description"
+F 7 "OK" H 16900 8375 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 16900 8375 50  0001 C CNN "Price"
 F 9 "Mouser" H 16900 8375 50  0001 C CNN "Vendor"
 	1    16900 8375
@@ -5573,11 +5565,11 @@ P 15550 8350
 F 0 "C?" H 15444 8350 50  0000 R CNN
 F 1 "CAP_100nF_50V_0402" H 15560 8270 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 16000 8500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 15560 8420 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 16000 8600 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 15550 8350 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 15550 8350 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 15550 8350 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 15560 8420 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 16000 8600 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 15550 8350 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 15550 8350 50  0001 C CNN "Description"
+F 7 "OK" H 15550 8350 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 15550 8350 50  0001 C CNN "Price"
 F 9 "Mouser" H 15550 8350 50  0001 C CNN "Vendor"
 	1    15550 8350
@@ -8383,11 +8375,11 @@ P 8100 19075
 F 0 "C?" H 8207 19075 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 8110 18995 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8550 19225 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 8110 19145 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 8550 19325 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 8100 19075 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 8100 19075 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 8100 19075 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 8110 19145 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 8550 19325 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 8100 19075 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 8100 19075 50  0001 C CNN "Description"
+F 7 "OK" H 8100 19075 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 8100 19075 50  0001 C CNN "Price"
 F 9 "Mouser" H 8100 19075 50  0001 C CNN "Vendor"
 	1    8100 19075
@@ -8418,11 +8410,11 @@ P 5625 21300
 F 0 "C?" H 5732 21300 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 5635 21220 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6075 21450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 5635 21370 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 6075 21550 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 5625 21300 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 5625 21300 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 5625 21300 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 5635 21370 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 6075 21550 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 5625 21300 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 5625 21300 50  0001 C CNN "Description"
+F 7 "OK" H 5625 21300 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 5625 21300 50  0001 C CNN "Price"
 F 9 "Mouser" H 5625 21300 50  0001 C CNN "Vendor"
 	1    5625 21300
@@ -8449,11 +8441,11 @@ P 5625 21650
 F 0 "C?" H 5732 21650 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 5635 21570 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6075 21800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 5635 21720 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 6075 21900 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 5625 21650 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 5625 21650 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 5625 21650 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 5635 21720 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 6075 21900 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 5625 21650 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 5625 21650 50  0001 C CNN "Description"
+F 7 "OK" H 5625 21650 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 5625 21650 50  0001 C CNN "Price"
 F 9 "Mouser" H 5625 21650 50  0001 C CNN "Vendor"
 	1    5625 21650
@@ -8588,11 +8580,11 @@ P 11950 17900
 F 0 "C?" H 12057 17900 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 11960 17820 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 12400 18050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 11960 17970 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 12400 18150 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 11950 17900 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 11950 17900 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 11950 17900 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 11960 17970 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 12400 18150 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 11950 17900 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 11950 17900 50  0001 C CNN "Description"
+F 7 "OK" H 11950 17900 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 11950 17900 50  0001 C CNN "Price"
 F 9 "Mouser" H 11950 17900 50  0001 C CNN "Vendor"
 	1    11950 17900
@@ -8619,11 +8611,11 @@ P 12250 17900
 F 0 "C?" H 12357 17900 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 12260 17820 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 12700 18050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 12260 17970 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 12700 18150 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 12250 17900 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 12250 17900 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 12250 17900 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 12260 17970 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 12700 18150 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 12250 17900 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 12250 17900 50  0001 C CNN "Description"
+F 7 "OK" H 12250 17900 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 12250 17900 50  0001 C CNN "Price"
 F 9 "Mouser" H 12250 17900 50  0001 C CNN "Vendor"
 	1    12250 17900
@@ -8644,11 +8636,11 @@ P 11950 18275
 F 0 "C?" H 12057 18275 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 11960 18195 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 12400 18425 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 11960 18345 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 12400 18525 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 11950 18275 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 11950 18275 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 11950 18275 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 11960 18345 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 12400 18525 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 11950 18275 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 11950 18275 50  0001 C CNN "Description"
+F 7 "OK" H 11950 18275 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 11950 18275 50  0001 C CNN "Price"
 F 9 "Mouser" H 11950 18275 50  0001 C CNN "Vendor"
 	1    11950 18275
@@ -8675,11 +8667,11 @@ P 12250 18275
 F 0 "C?" H 12357 18275 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 12260 18195 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 12700 18425 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 12260 18345 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 12700 18525 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 12250 18275 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 12250 18275 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 12250 18275 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 12260 18345 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 12700 18525 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 12250 18275 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 12250 18275 50  0001 C CNN "Description"
+F 7 "OK" H 12250 18275 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 12250 18275 50  0001 C CNN "Price"
 F 9 "Mouser" H 12250 18275 50  0001 C CNN "Vendor"
 	1    12250 18275
@@ -9002,11 +8994,11 @@ P 12300 20400
 F 0 "C?" H 12407 20400 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 12310 20320 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 12750 20550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 12310 20470 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 12750 20650 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 12300 20400 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 12300 20400 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 12300 20400 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 12310 20470 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 12750 20650 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 12300 20400 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 12300 20400 50  0001 C CNN "Description"
+F 7 "OK" H 12300 20400 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 12300 20400 50  0001 C CNN "Price"
 F 9 "Mouser" H 12300 20400 50  0001 C CNN "Vendor"
 	1    12300 20400
@@ -9019,11 +9011,11 @@ P 11975 20400
 F 0 "C?" H 12082 20400 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 11985 20320 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 12425 20550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 11985 20470 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 12425 20650 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 11975 20400 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 11975 20400 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 11975 20400 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 11985 20470 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 12425 20650 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 11975 20400 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 11975 20400 50  0001 C CNN "Description"
+F 7 "OK" H 11975 20400 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 11975 20400 50  0001 C CNN "Price"
 F 9 "Mouser" H 11975 20400 50  0001 C CNN "Vendor"
 	1    11975 20400
@@ -9067,11 +9059,11 @@ P 12825 20525
 F 0 "C?" H 12932 20525 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 12835 20445 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 13275 20675 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 12835 20595 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 13275 20775 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 12825 20525 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 12825 20525 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 12825 20525 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 12835 20595 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 13275 20775 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 12825 20525 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 12825 20525 50  0001 C CNN "Description"
+F 7 "OK" H 12825 20525 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 12825 20525 50  0001 C CNN "Price"
 F 9 "Mouser" H 12825 20525 50  0001 C CNN "Vendor"
 	1    12825 20525
@@ -9228,15 +9220,15 @@ L SwEmb:IC_M24C16 U?
 U 1 1 68777402
 P 13000 17375
 F 0 "U?" H 13125 17100 50  0000 C CNN
-F 1 "IC_M24C02" H 13275 17000 50  0000 C CNN
+F 1 "IC_M24C16" H 13275 17000 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13000 17375 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/389/m24c01-r-954990.pdf" H 13000 17375 50  0001 C CNN
-F 4 "M24C02-WMN6TP" H 13000 17375 50  0001 C CNN "MPN"
-F 5 "28402 In Stock" H 13000 17375 50  0001 C CNN "Availability"
-F 6 "EEPROM EEPROM S I2C 2K" H 13000 17375 50  0001 C CNN "Description"
+F 3 "https://www.mouser.com/datasheet/2/389/m24c16-w-954991.pdf" H 13000 17375 50  0001 C CNN
+F 4 "M24C16-RMN6TP" H 13000 17375 50  0001 C CNN "MPN"
+F 5 "14758 In Stock" H 13000 17375 50  0001 C CNN "Availability"
+F 6 "EEPROM 16Kbit 8Kbit 4Kbit 2Kb and 1Kb Serial" H 13000 17375 50  0001 C CNN "Description"
 F 7 "OK" H 13000 17375 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 13000 17375 50  0001 C CNN "Vendor"
-F 9 "0.122  EUR" H 13000 17375 50  0001 C CNN "Price"
+F 9 "0.175  EUR" H 13000 17375 50  0001 C CNN "Price"
 	1    13000 17375
 	1    0    0    -1  
 $EndComp
@@ -9262,11 +9254,11 @@ P 12775 17675
 F 0 "C?" H 12882 17675 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 12785 17595 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 13225 17825 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 12785 17745 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 13225 17925 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 12775 17675 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 12775 17675 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 12775 17675 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 12785 17745 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 13225 17925 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 12775 17675 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 12775 17675 50  0001 C CNN "Description"
+F 7 "OK" H 12775 17675 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 12775 17675 50  0001 C CNN "Price"
 F 9 "Mouser" H 12775 17675 50  0001 C CNN "Vendor"
 	1    12775 17675
@@ -9514,10 +9506,10 @@ Wire Wire Line
 	14175 20475 14175 20525
 Connection ~ 14175 20475
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0229
 U 1 1 69E14F0D
 P 14175 20525
-F 0 "#PWR?" H 14175 20275 50  0001 C CNN
+F 0 "#PWR0229" H 14175 20275 50  0001 C CNN
 F 1 "GNDREF" H 14175 20375 50  0001 C CNN
 F 2 "" H 14175 20525 50  0001 C CNN
 F 3 "" H 14175 20525 50  0001 C CNN
@@ -9570,10 +9562,10 @@ Wire Wire Line
 Wire Wire Line
 	14575 19400 14900 19400
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0230
 U 1 1 6ADA647F
 P 14900 19600
-F 0 "#PWR?" H 14900 19350 50  0001 C CNN
+F 0 "#PWR0230" H 14900 19350 50  0001 C CNN
 F 1 "GNDREF" H 14900 19450 50  0001 C CNN
 F 2 "" H 14900 19600 50  0001 C CNN
 F 3 "" H 14900 19600 50  0001 C CNN
@@ -9588,11 +9580,11 @@ P 15900 18600
 F 0 "C?" H 16007 18600 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 15910 18520 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 16350 18750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 15910 18670 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 16350 18850 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 15900 18600 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 15900 18600 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 15900 18600 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 15910 18670 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 16350 18850 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 15900 18600 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 15900 18600 50  0001 C CNN "Description"
+F 7 "OK" H 15900 18600 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 15900 18600 50  0001 C CNN "Price"
 F 9 "Mouser" H 15900 18600 50  0001 C CNN "Vendor"
 	1    15900 18600
@@ -9610,10 +9602,10 @@ Connection ~ 15750 18600
 Wire Wire Line
 	15750 18600 15750 18425
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0231
 U 1 1 6AFC3B9C
 P 16000 18600
-F 0 "#PWR?" H 16000 18350 50  0001 C CNN
+F 0 "#PWR0231" H 16000 18350 50  0001 C CNN
 F 1 "GNDREF" H 16000 18450 50  0001 C CNN
 F 2 "" H 16000 18600 50  0001 C CNN
 F 3 "" H 16000 18600 50  0001 C CNN
@@ -9681,11 +9673,11 @@ P 17800 18975
 F 0 "C?" H 17907 18975 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 17810 18895 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 18250 19125 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 17810 19045 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 18250 19225 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 17800 18975 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 17800 18975 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 17800 18975 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 17810 19045 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 18250 19225 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 17800 18975 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 17800 18975 50  0001 C CNN "Description"
+F 7 "OK" H 17800 18975 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 17800 18975 50  0001 C CNN "Price"
 F 9 "Mouser" H 17800 18975 50  0001 C CNN "Vendor"
 	1    17800 18975
@@ -9698,21 +9690,21 @@ P 16625 18975
 F 0 "C?" H 16732 18975 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 16635 18895 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 17075 19125 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 16635 19045 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 17075 19225 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 16625 18975 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 16625 18975 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 16625 18975 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 16635 19045 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 17075 19225 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 16625 18975 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 16625 18975 50  0001 C CNN "Description"
+F 7 "OK" H 16625 18975 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 16625 18975 50  0001 C CNN "Price"
 F 9 "Mouser" H 16625 18975 50  0001 C CNN "Vendor"
 	1    16625 18975
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0232
 U 1 1 6B1EA707
 P 16525 18975
-F 0 "#PWR?" H 16525 18725 50  0001 C CNN
+F 0 "#PWR0232" H 16525 18725 50  0001 C CNN
 F 1 "GNDREF" H 16525 18825 50  0001 C CNN
 F 2 "" H 16525 18975 50  0001 C CNN
 F 3 "" H 16525 18975 50  0001 C CNN
@@ -9721,10 +9713,10 @@ F 4 "#" H 16525 18975 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0233
 U 1 1 6B1EA962
 P 17900 18975
-F 0 "#PWR?" H 17900 18725 50  0001 C CNN
+F 0 "#PWR0233" H 17900 18725 50  0001 C CNN
 F 1 "GNDREF" H 17900 18825 50  0001 C CNN
 F 2 "" H 17900 18975 50  0001 C CNN
 F 3 "" H 17900 18975 50  0001 C CNN
@@ -9745,10 +9737,10 @@ Wire Wire Line
 Wire Wire Line
 	17675 18975 17700 18975
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0234
 U 1 1 6B40E684
 P 17625 20050
-F 0 "#PWR?" H 17625 19800 50  0001 C CNN
+F 0 "#PWR0234" H 17625 19800 50  0001 C CNN
 F 1 "GNDREF" H 17625 19900 50  0001 C CNN
 F 2 "" H 17625 20050 50  0001 C CNN
 F 3 "" H 17625 20050 50  0001 C CNN
@@ -10015,10 +10007,10 @@ Wire Wire Line
 Wire Wire Line
 	26950 15275 26950 14725
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0235
 U 1 1 6D7845BF
 P 27000 15525
-F 0 "#PWR?" H 27000 15275 50  0001 C CNN
+F 0 "#PWR0235" H 27000 15275 50  0001 C CNN
 F 1 "GNDREF" H 27000 15375 50  0001 C CNN
 F 2 "" H 27000 15525 50  0001 C CNN
 F 3 "" H 27000 15525 50  0001 C CNN
@@ -10027,10 +10019,10 @@ F 4 "#" H 27000 15525 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0236
 U 1 1 6D784F64
 P 26725 15525
-F 0 "#PWR?" H 26725 15275 50  0001 C CNN
+F 0 "#PWR0236" H 26725 15275 50  0001 C CNN
 F 1 "GNDREF" H 26725 15375 50  0001 C CNN
 F 2 "" H 26725 15525 50  0001 C CNN
 F 3 "" H 26725 15525 50  0001 C CNN
@@ -10039,10 +10031,10 @@ F 4 "#" H 26725 15525 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0237
 U 1 1 6D7851D7
 P 26450 15525
-F 0 "#PWR?" H 26450 15275 50  0001 C CNN
+F 0 "#PWR0237" H 26450 15275 50  0001 C CNN
 F 1 "GNDREF" H 26450 15375 50  0001 C CNN
 F 2 "" H 26450 15525 50  0001 C CNN
 F 3 "" H 26450 15525 50  0001 C CNN
@@ -10051,10 +10043,10 @@ F 4 "#" H 26450 15525 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0238
 U 1 1 6D78544A
 P 26175 15525
-F 0 "#PWR?" H 26175 15275 50  0001 C CNN
+F 0 "#PWR0238" H 26175 15275 50  0001 C CNN
 F 1 "GNDREF" H 26175 15375 50  0001 C CNN
 F 2 "" H 26175 15525 50  0001 C CNN
 F 3 "" H 26175 15525 50  0001 C CNN
@@ -10353,10 +10345,10 @@ F 9 "Mouser" H 27200 15650 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0239
 U 1 1 718848DD
 P 27225 15525
-F 0 "#PWR?" H 27225 15275 50  0001 C CNN
+F 0 "#PWR0239" H 27225 15275 50  0001 C CNN
 F 1 "GNDREF" H 27225 15375 50  0001 C CNN
 F 2 "" H 27225 15525 50  0001 C CNN
 F 3 "" H 27225 15525 50  0001 C CNN
@@ -10413,10 +10405,10 @@ F 9 "Mouser" H 8775 150 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0240
 U 1 1 72C0B391
 P 26725 6975
-F 0 "#PWR?" H 26725 6725 50  0001 C CNN
+F 0 "#PWR0240" H 26725 6725 50  0001 C CNN
 F 1 "GNDREF" H 26725 6825 50  0001 C CNN
 F 2 "" H 26725 6975 50  0001 C CNN
 F 3 "" H 26725 6975 50  0001 C CNN
@@ -10444,10 +10436,10 @@ F 9 "Mouser" H 8725 4125 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0241
 U 1 1 72D45E3B
 P 26675 10950
-F 0 "#PWR?" H 26675 10700 50  0001 C CNN
+F 0 "#PWR0241" H 26675 10700 50  0001 C CNN
 F 1 "GNDREF" H 26675 10800 50  0001 C CNN
 F 2 "" H 26675 10950 50  0001 C CNN
 F 3 "" H 26675 10950 50  0001 C CNN
@@ -10581,10 +10573,10 @@ F 9 "Mouser" H 24700 13850 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0242
 U 1 1 749AE757
 P 24700 13950
-F 0 "#PWR?" H 24700 13700 50  0001 C CNN
+F 0 "#PWR0242" H 24700 13700 50  0001 C CNN
 F 1 "GNDREF" H 24700 13800 50  0001 C CNN
 F 2 "" H 24700 13950 50  0001 C CNN
 F 3 "" H 24700 13950 50  0001 C CNN
@@ -10593,10 +10585,10 @@ F 4 "#" H 24700 13950 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0243
 U 1 1 749AEB39
 P 24350 13950
-F 0 "#PWR?" H 24350 13700 50  0001 C CNN
+F 0 "#PWR0243" H 24350 13700 50  0001 C CNN
 F 1 "GNDREF" H 24350 13800 50  0001 C CNN
 F 2 "" H 24350 13950 50  0001 C CNN
 F 3 "" H 24350 13950 50  0001 C CNN
@@ -10605,10 +10597,10 @@ F 4 "#" H 24350 13950 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0244
 U 1 1 749AEDD4
 P 24000 13950
-F 0 "#PWR?" H 24000 13700 50  0001 C CNN
+F 0 "#PWR0244" H 24000 13700 50  0001 C CNN
 F 1 "GNDREF" H 24000 13800 50  0001 C CNN
 F 2 "" H 24000 13950 50  0001 C CNN
 F 3 "" H 24000 13950 50  0001 C CNN
@@ -10617,10 +10609,10 @@ F 4 "#" H 24000 13950 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0245
 U 1 1 749AF06F
 P 23650 13950
-F 0 "#PWR?" H 23650 13700 50  0001 C CNN
+F 0 "#PWR0245" H 23650 13700 50  0001 C CNN
 F 1 "GNDREF" H 23650 13800 50  0001 C CNN
 F 2 "" H 23650 13950 50  0001 C CNN
 F 3 "" H 23650 13950 50  0001 C CNN
@@ -10629,10 +10621,10 @@ F 4 "#" H 23650 13950 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0246
 U 1 1 749AF30A
 P 23300 13950
-F 0 "#PWR?" H 23300 13700 50  0001 C CNN
+F 0 "#PWR0246" H 23300 13700 50  0001 C CNN
 F 1 "GNDREF" H 23300 13800 50  0001 C CNN
 F 2 "" H 23300 13950 50  0001 C CNN
 F 3 "" H 23300 13950 50  0001 C CNN
@@ -10641,10 +10633,10 @@ F 4 "#" H 23300 13950 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0247
 U 1 1 749AF5A5
 P 22950 13950
-F 0 "#PWR?" H 22950 13700 50  0001 C CNN
+F 0 "#PWR0247" H 22950 13700 50  0001 C CNN
 F 1 "GNDREF" H 22950 13800 50  0001 C CNN
 F 2 "" H 22950 13950 50  0001 C CNN
 F 3 "" H 22950 13950 50  0001 C CNN
@@ -10745,10 +10737,10 @@ Wire Wire Line
 	25225 13675 24925 13675
 Connection ~ 25225 13675
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0248
 U 1 1 75A48BE0
 P 25225 13950
-F 0 "#PWR?" H 25225 13700 50  0001 C CNN
+F 0 "#PWR0248" H 25225 13700 50  0001 C CNN
 F 1 "GNDREF" H 25225 13800 50  0001 C CNN
 F 2 "" H 25225 13950 50  0001 C CNN
 F 3 "" H 25225 13950 50  0001 C CNN
@@ -10757,10 +10749,10 @@ F 4 "#" H 25225 13950 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0249
 U 1 1 75A48E7F
 P 25575 13950
-F 0 "#PWR?" H 25575 13700 50  0001 C CNN
+F 0 "#PWR0249" H 25575 13700 50  0001 C CNN
 F 1 "GNDREF" H 25575 13800 50  0001 C CNN
 F 2 "" H 25575 13950 50  0001 C CNN
 F 3 "" H 25575 13950 50  0001 C CNN
@@ -10801,12 +10793,13 @@ P 24375 14325
 F 0 "FB?" V 24271 14325 50  0000 C CNN
 F 1 "LB_220R_2A_0603" H 24405 14285 50  0001 L CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 24305 14245 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" H 24405 14345 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" H 24405 14345 50  0001 C CNN
 F 4 "BLM18EG221SN1D" H 24375 14025 50  0001 C CNN "MPN"
-F 5 "65660 In Stock" H 24375 14325 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/10W 13K ohm 1% AEC-Q200" H 24375 14325 50  0001 C CNN "Description"
-F 7 "0.087  EUR" H 24375 14325 50  0001 C CNN "Price"
+F 5 "193480 In Stock" H 24375 14325 50  0001 C CNN "Availability"
+F 6 "Ferrite Beads 220ohms GHz General Usage" H 24375 14325 50  0001 C CNN "Description"
+F 7 "0.201  EUR" H 24375 14325 50  0001 C CNN "Price"
 F 8 "OK" H 24375 14325 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    24375 14325
 	0    1    1    0   
 $EndComp
@@ -10828,12 +10821,13 @@ P 22850 14300
 F 0 "FB?" H 22791 14300 50  0000 R CNN
 F 1 "LB_220R_2A_0603" H 22880 14260 50  0001 L CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 22780 14220 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" H 22880 14320 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" H 22880 14320 50  0001 C CNN
 F 4 "BLM18EG221SN1D" H 22850 14000 50  0001 C CNN "MPN"
-F 5 "65660 In Stock" H 22850 14300 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/10W 13K ohm 1% AEC-Q200" H 22850 14300 50  0001 C CNN "Description"
-F 7 "0.087  EUR" H 22850 14300 50  0001 C CNN "Price"
+F 5 "193480 In Stock" H 22850 14300 50  0001 C CNN "Availability"
+F 6 "Ferrite Beads 220ohms GHz General Usage" H 22850 14300 50  0001 C CNN "Description"
+F 7 "0.201  EUR" H 22850 14300 50  0001 C CNN "Price"
 F 8 "OK" H 22850 14300 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    22850 14300
 	-1   0    0    1   
 $EndComp
@@ -10857,10 +10851,10 @@ F 9 "Mouser" H 22650 14450 50  0001 C CNN "Vendor"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0250
 U 1 1 76E112C2
 P 22550 14450
-F 0 "#PWR?" H 22550 14200 50  0001 C CNN
+F 0 "#PWR0250" H 22550 14200 50  0001 C CNN
 F 1 "GNDREF" H 22550 14300 50  0001 C CNN
 F 2 "" H 22550 14450 50  0001 C CNN
 F 3 "" H 22550 14450 50  0001 C CNN
@@ -10954,10 +10948,10 @@ Wire Wire Line
 	20025 14775 20025 14825
 Connection ~ 20025 14775
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0251
 U 1 1 7775EB14
 P 20025 14825
-F 0 "#PWR?" H 20025 14575 50  0001 C CNN
+F 0 "#PWR0251" H 20025 14575 50  0001 C CNN
 F 1 "GNDREF" H 20025 14675 50  0001 C CNN
 F 2 "" H 20025 14825 50  0001 C CNN
 F 3 "" H 20025 14825 50  0001 C CNN
@@ -10967,10 +10961,10 @@ F 4 "#" H 20025 14825 50  0001 C CNN "MPN"
 $EndComp
 NoConn ~ 20950 14875
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0252
 U 1 1 778B618E
 P 20950 14975
-F 0 "#PWR?" H 20950 14725 50  0001 C CNN
+F 0 "#PWR0252" H 20950 14725 50  0001 C CNN
 F 1 "GNDREF" H 20950 14825 50  0001 C CNN
 F 2 "" H 20950 14975 50  0001 C CNN
 F 3 "" H 20950 14975 50  0001 C CNN
@@ -10991,10 +10985,11 @@ F 1 "RES_12.1K_1%_0402" H 20830 15135 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20730 15095 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 20830 15195 50  0001 C CNN
 F 4 "RC0402FR-0712K1L" H 20930 15295 50  0001 C CNN "MPN"
-F 5 "1570651 In Stock" H 20800 15175 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1.5K OHM 1%" H 20800 15175 50  0001 C CNN "Description"
+F 5 "336681 In Stock" H 20800 15175 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 12.1K OHM 1%" H 20800 15175 50  0001 C CNN "Description"
 F 7 "OK" H 20800 15175 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 20800 15175 50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    20800 15175
 	0    1    1    0   
 $EndComp
@@ -11005,10 +11000,10 @@ Wire Wire Line
 Wire Wire Line
 	20400 15175 20400 15225
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0253
 U 1 1 77F78296
 P 20400 15225
-F 0 "#PWR?" H 20400 14975 50  0001 C CNN
+F 0 "#PWR0253" H 20400 14975 50  0001 C CNN
 F 1 "GNDREF" H 20400 15075 50  0001 C CNN
 F 2 "" H 20400 15225 50  0001 C CNN
 F 3 "" H 20400 15225 50  0001 C CNN
@@ -11053,10 +11048,10 @@ Connection ~ 25425 14675
 Wire Wire Line
 	25425 14675 26025 14675
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0254
 U 1 1 7822FB10
 P 25675 14450
-F 0 "#PWR?" H 25675 14200 50  0001 C CNN
+F 0 "#PWR0254" H 25675 14200 50  0001 C CNN
 F 1 "GNDREF" H 25675 14300 50  0001 C CNN
 F 2 "" H 25675 14450 50  0001 C CNN
 F 3 "" H 25675 14450 50  0001 C CNN
@@ -11071,12 +11066,13 @@ P 26025 14325
 F 0 "FB?" H 25966 14325 50  0000 R CNN
 F 1 "LB_220R_2A_0603" H 26055 14285 50  0001 L CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 25955 14245 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" H 26055 14345 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" H 26055 14345 50  0001 C CNN
 F 4 "BLM18EG221SN1D" H 26025 14025 50  0001 C CNN "MPN"
-F 5 "65660 In Stock" H 26025 14325 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/10W 13K ohm 1% AEC-Q200" H 26025 14325 50  0001 C CNN "Description"
-F 7 "0.087  EUR" H 26025 14325 50  0001 C CNN "Price"
+F 5 "193480 In Stock" H 26025 14325 50  0001 C CNN "Availability"
+F 6 "Ferrite Beads 220ohms GHz General Usage" H 26025 14325 50  0001 C CNN "Description"
+F 7 "0.201  EUR" H 26025 14325 50  0001 C CNN "Price"
 F 8 "OK" H 26025 14325 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    26025 14325
 	-1   0    0    1   
 $EndComp
@@ -11094,12 +11090,13 @@ P 26950 17125
 F 0 "FB?" H 26891 17125 50  0000 R CNN
 F 1 "LB_220R_2A_0603" H 26980 17085 50  0001 L CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 26880 17045 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" H 26980 17145 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" H 26980 17145 50  0001 C CNN
 F 4 "BLM18EG221SN1D" H 26950 16825 50  0001 C CNN "MPN"
-F 5 "65660 In Stock" H 26950 17125 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/10W 13K ohm 1% AEC-Q200" H 26950 17125 50  0001 C CNN "Description"
-F 7 "0.087  EUR" H 26950 17125 50  0001 C CNN "Price"
+F 5 "193480 In Stock" H 26950 17125 50  0001 C CNN "Availability"
+F 6 "Ferrite Beads 220ohms GHz General Usage" H 26950 17125 50  0001 C CNN "Description"
+F 7 "0.201  EUR" H 26950 17125 50  0001 C CNN "Price"
 F 8 "OK" H 26950 17125 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    26950 17125
 	-1   0    0    1   
 $EndComp
@@ -11128,10 +11125,10 @@ Connection ~ 25725 16200
 Wire Wire Line
 	25725 16200 25725 15975
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0255
 U 1 1 78A58570
 P 25450 16200
-F 0 "#PWR?" H 25450 15950 50  0001 C CNN
+F 0 "#PWR0255" H 25450 15950 50  0001 C CNN
 F 1 "GNDREF" H 25450 16050 50  0001 C CNN
 F 2 "" H 25450 16200 50  0001 C CNN
 F 3 "" H 25450 16200 50  0001 C CNN
@@ -11140,10 +11137,10 @@ F 4 "#" H 25450 16200 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0256
 U 1 1 78D1B16B
 P 27550 15625
-F 0 "#PWR?" H 27550 15375 50  0001 C CNN
+F 0 "#PWR0256" H 27550 15375 50  0001 C CNN
 F 1 "GNDREF" H 27550 15475 50  0001 C CNN
 F 2 "" H 27550 15625 50  0001 C CNN
 F 3 "" H 27550 15625 50  0001 C CNN
@@ -11156,10 +11153,10 @@ NoConn ~ 27650 15775
 NoConn ~ 27650 17125
 NoConn ~ 27650 17025
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0257
 U 1 1 7929F2EE
 P 27575 16950
-F 0 "#PWR?" H 27575 16700 50  0001 C CNN
+F 0 "#PWR0257" H 27575 16700 50  0001 C CNN
 F 1 "GNDREF" H 27575 16800 50  0001 C CNN
 F 2 "" H 27575 16950 50  0001 C CNN
 F 3 "" H 27575 16950 50  0001 C CNN
@@ -11177,10 +11174,10 @@ Wire Wire Line
 	25475 17775 25475 17825
 Connection ~ 25475 17775
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0258
 U 1 1 7983291F
 P 25475 17825
-F 0 "#PWR?" H 25475 17575 50  0001 C CNN
+F 0 "#PWR0258" H 25475 17575 50  0001 C CNN
 F 1 "GNDREF" H 25475 17675 50  0001 C CNN
 F 2 "" H 25475 17825 50  0001 C CNN
 F 3 "" H 25475 17825 50  0001 C CNN
@@ -11231,10 +11228,10 @@ Wire Wire Line
 Wire Wire Line
 	25600 16975 25400 16975
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0259
 U 1 1 79DD238C
 P 25500 17325
-F 0 "#PWR?" H 25500 17075 50  0001 C CNN
+F 0 "#PWR0259" H 25500 17075 50  0001 C CNN
 F 1 "GNDREF" H 25500 17175 50  0001 C CNN
 F 2 "" H 25500 17325 50  0001 C CNN
 F 3 "" H 25500 17325 50  0001 C CNN
@@ -11243,10 +11240,10 @@ F 4 "#" H 25500 17325 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0260
 U 1 1 79DD2643
 P 25600 17325
-F 0 "#PWR?" H 25600 17075 50  0001 C CNN
+F 0 "#PWR0260" H 25600 17075 50  0001 C CNN
 F 1 "GNDREF" H 25600 17175 50  0001 C CNN
 F 2 "" H 25600 17325 50  0001 C CNN
 F 3 "" H 25600 17325 50  0001 C CNN
@@ -11284,10 +11281,10 @@ Wire Wire Line
 Wire Wire Line
 	25700 16875 25400 16875
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0261
 U 1 1 7A37B3CF
 P 25700 17325
-F 0 "#PWR?" H 25700 17075 50  0001 C CNN
+F 0 "#PWR0261" H 25700 17075 50  0001 C CNN
 F 1 "GNDREF" H 25700 17175 50  0001 C CNN
 F 2 "" H 25700 17325 50  0001 C CNN
 F 3 "" H 25700 17325 50  0001 C CNN
@@ -11300,23 +11297,23 @@ L SwEmb:IC_M24C16 U?
 U 1 1 7A4ECBAA
 P 26000 18575
 F 0 "U?" H 26125 18325 50  0000 C CNN
-F 1 "IC_M24C02" H 26275 18200 50  0000 C CNN
+F 1 "IC_M24C16" H 26275 18200 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 26000 18575 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/389/m24c01-r-954990.pdf" H 26000 18575 50  0001 C CNN
-F 4 "M24C02-WMN6TP" H 26000 18575 50  0001 C CNN "MPN"
-F 5 "28402 In Stock" H 26000 18575 50  0001 C CNN "Availability"
-F 6 "EEPROM EEPROM S I2C 2K" H 26000 18575 50  0001 C CNN "Description"
+F 3 "https://www.mouser.com/datasheet/2/389/m24c16-w-954991.pdf" H 26000 18575 50  0001 C CNN
+F 4 "M24C16-RMN6TP" H 26000 18575 50  0001 C CNN "MPN"
+F 5 "14758 In Stock" H 26000 18575 50  0001 C CNN "Availability"
+F 6 "EEPROM 16Kbit 8Kbit 4Kbit 2Kb and 1Kb Serial" H 26000 18575 50  0001 C CNN "Description"
 F 7 "OK" H 26000 18575 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 26000 18575 50  0001 C CNN "Vendor"
-F 9 "0.122  EUR" H 26000 18575 50  0001 C CNN "Price"
+F 9 "0.175  EUR" H 26000 18575 50  0001 C CNN "Price"
 	1    26000 18575
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0262
 U 1 1 7A4ECBB4
 P 26000 18875
-F 0 "#PWR?" H 26000 18625 50  0001 C CNN
+F 0 "#PWR0262" H 26000 18625 50  0001 C CNN
 F 1 "GNDREF" H 26000 18725 50  0001 C CNN
 F 2 "" H 26000 18875 50  0001 C CNN
 F 3 "" H 26000 18875 50  0001 C CNN
@@ -11331,11 +11328,11 @@ P 25775 18875
 F 0 "C?" H 25882 18875 50  0000 L CNN
 F 1 "CAP_100nF_50V_0402" H 25785 18795 50  0001 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 26225 19025 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 25785 18945 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 26225 19125 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 25775 18875 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 25775 18875 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 25775 18875 50  0001 C CNN "LifeCycle"
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 25785 18945 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 26225 19125 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 25775 18875 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 25775 18875 50  0001 C CNN "Description"
+F 7 "OK" H 25775 18875 50  0001 C CNN "LifeCycle"
 F 8 "0.087  EUR" H 25775 18875 50  0001 C CNN "Price"
 F 9 "Mouser" H 25775 18875 50  0001 C CNN "Vendor"
 	1    25775 18875
@@ -11392,10 +11389,10 @@ Wire Wire Line
 Wire Wire Line
 	25800 16775 25400 16775
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0263
 U 1 1 7AD88533
 P 25800 17325
-F 0 "#PWR?" H 25800 17075 50  0001 C CNN
+F 0 "#PWR0263" H 25800 17075 50  0001 C CNN
 F 1 "GNDREF" H 25800 17175 50  0001 C CNN
 F 2 "" H 25800 17325 50  0001 C CNN
 F 3 "" H 25800 17325 50  0001 C CNN
@@ -11470,10 +11467,10 @@ Connection ~ 25550 18575
 Wire Wire Line
 	25550 18575 25550 18675
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0264
 U 1 1 7BAB0C56
 P 25550 19000
-F 0 "#PWR?" H 25550 18750 50  0001 C CNN
+F 0 "#PWR0264" H 25550 18750 50  0001 C CNN
 F 1 "GNDREF" H 25550 18850 50  0001 C CNN
 F 2 "" H 25550 19000 50  0001 C CNN
 F 3 "" H 25550 19000 50  0001 C CNN
@@ -11629,10 +11626,10 @@ F 9 "0.114  EUR" H 27200 17550 50  0001 C CNN "Price"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0265
 U 1 1 7DB3D701
 P 27200 17650
-F 0 "#PWR?" H 27200 17400 50  0001 C CNN
+F 0 "#PWR0265" H 27200 17400 50  0001 C CNN
 F 1 "GNDREF" H 27200 17500 50  0001 C CNN
 F 2 "" H 27200 17650 50  0001 C CNN
 F 3 "" H 27200 17650 50  0001 C CNN
@@ -11658,10 +11655,10 @@ F 9 "0.114  EUR" H 27575 15950 50  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0266
 U 1 1 7DB3EA23
 P 27675 15950
-F 0 "#PWR?" H 27675 15700 50  0001 C CNN
+F 0 "#PWR0266" H 27675 15700 50  0001 C CNN
 F 1 "GNDREF" H 27675 15800 50  0001 C CNN
 F 2 "" H 27675 15950 50  0001 C CNN
 F 3 "" H 27675 15950 50  0001 C CNN
@@ -11742,916 +11739,1323 @@ Wire Wire Line
 $Comp
 L SwEmb:IC_TPS54360DDA U?
 U 1 1 806F3944
-P 5375 14100
-F 0 "U?" H 5403 14567 50  0000 C CNN
-F 1 "IC_TPS54360DDA" H 5403 14476 50  0000 C CNN
-F 2 "SOIC:SOIC127P600X175_HS-9N" H 5425 13650 50  0001 L CIN
-F 3 "" H 5375 14100 50  0001 C CNN
-F 4 "TPS54360DDAR" H 5375 13800 50  0001 C CNN "MPN"
-F 5 "18573 In Stock" H 5375 14100 50  0001 C CNN "Availability"
-F 6 "Switching Voltage Regulators 60 Vin,3.5 A,SD DC-DC Converter" H 5375 14100 50  0001 C CNN "Description"
-F 7 "Mouser" H 5375 14100 50  0001 C CNN "Vendor"
-F 8 "3.66  EUR" H 5375 14100 50  0001 C CNN "Price"
-F 9 "OK" H 5375 14100 50  0001 C CNN "LifeCycle"
-	1    5375 14100
+P 3400 15900
+F 0 "U?" H 3428 16367 50  0000 C CNN
+F 1 "IC_TPS54360DDA" H 3428 16276 50  0000 C CNN
+F 2 "SOIC:SOIC127P600X175_HS-9N" H 3450 15450 50  0001 L CIN
+F 3 "" H 3400 15900 50  0001 C CNN
+F 4 "TPS54360DDAR" H 3400 15600 50  0001 C CNN "MPN"
+F 5 "18573 In Stock" H 3400 15900 50  0001 C CNN "Availability"
+F 6 "Switching Voltage Regulators 60 Vin,3.5 A,SD DC-DC Converter" H 3400 15900 50  0001 C CNN "Description"
+F 7 "Mouser" H 3400 15900 50  0001 C CNN "Vendor"
+F 8 "3.66  EUR" H 3400 15900 50  0001 C CNN "Price"
+F 9 "OK" H 3400 15900 50  0001 C CNN "LifeCycle"
+	1    3400 15900
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:CAPP_220uF_63V_10x15_THT C?
 U 1 1 806F422B
-P 4175 14025
-F 0 "C?" H 4282 14025 50  0000 L CNN
-F 1 "CAPP_220uF_63V_10x15_THT" H 4200 13925 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4213 13875 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" H 4200 14125 50  0001 C CNN
-F 4 "ESK227M063AH2AA" H 4175 14025 39  0001 C CNN "MPN"
-F 5 "2937 In Stock" H 4175 14025 50  0001 C CNN "Availability"
-F 6 "Aluminium Electrolytic Capacitors - Radial Leaded 63V 220uF 85C 2k Hour Radial" H 4175 14025 50  0001 C CNN "Description"
-F 7 "OK" H 4175 14025 50  0001 C CNN "LifeCycle"
-F 8 "0.393  EUR" H 4175 14025 50  0001 C CNN "Price"
-F 9 "Mouser" H 4175 14025 50  0001 C CNN "Vendor"
-	1    4175 14025
+P 2200 15825
+F 0 "C?" H 2307 15825 50  0000 L CNN
+F 1 "CAPP_220uF_63V_10x15_THT" H 2225 15725 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 2238 15675 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" H 2225 15925 50  0001 C CNN
+F 4 "ESK227M063AH2AA" H 2200 15825 39  0001 C CNN "MPN"
+F 5 "2937 In Stock" H 2200 15825 50  0001 C CNN "Availability"
+F 6 "Aluminium Electrolytic Capacitors - Radial Leaded 63V 220uF 85C 2k Hour Radial" H 2200 15825 50  0001 C CNN "Description"
+F 7 "OK" H 2200 15825 50  0001 C CNN "LifeCycle"
+F 8 "0.393  EUR" H 2200 15825 50  0001 C CNN "Price"
+F 9 "Mouser" H 2200 15825 50  0001 C CNN "Vendor"
+	1    2200 15825
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:CAP_27nF_16V_0402 C?
 U 1 1 8087D878
-P 4375 14575
-F 0 "C?" H 4472 14575 50  0000 L CNN
-F 1 "CAP_27nF_16V_0402" H 4385 13745 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4825 13975 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 4385 13895 50  0001 C CNN
-F 4 "GCM155R71C273KA37D" H 4825 14075 50  0001 C CNN "MPN"
-F 5 "10300 In Stock" H 4375 13975 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.027uF 16volts X7R 10%" H 4375 13825 50  0001 C CNN "Description"
-F 7 "OK" H 4425 13975 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 4375 13975 50  0001 C CNN "Price"
-F 9 "Mouser" H 4375 14575 50  0001 C CNN "Vendor"
-	1    4375 14575
+P 2400 16375
+F 0 "C?" H 2497 16375 50  0000 L CNN
+F 1 "CAP_27nF_16V_0402" H 2410 15545 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2850 15775 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 2410 15695 50  0001 C CNN
+F 4 "GCM155R71C273KA37D" H 2850 15875 50  0001 C CNN "MPN"
+F 5 "10300 In Stock" H 2400 15775 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.027uF 16volts X7R 10%" H 2400 15625 50  0001 C CNN "Description"
+F 7 "OK" H 2450 15775 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 2400 15775 50  0001 C CNN "Price"
+F 9 "Mouser" H 2400 16375 50  0001 C CNN "Vendor"
+	1    2400 16375
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C?
 U 1 1 80B8E9C9
-P 6050 13975
-F 0 "C?" H 6157 13975 50  0000 L CNN
-F 1 "CAP_100nF_50V_0402" H 6060 13895 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 14125 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 6060 14045 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 6500 14225 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 6050 13975 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 6050 13975 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 6050 13975 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 6050 13975 50  0001 C CNN "Price"
-F 9 "Mouser" H 6050 13975 50  0001 C CNN "Vendor"
-	1    6050 13975
+P 4075 15775
+F 0 "C?" H 4182 15775 50  0000 L CNN
+F 1 "CAP_100nF_50V_0402" H 4085 15695 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4525 15925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 4085 15845 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 4525 16025 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 4075 15775 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 4075 15775 50  0001 C CNN "Description"
+F 7 "OK" H 4075 15775 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 4075 15775 50  0001 C CNN "Price"
+F 9 "Mouser" H 4075 15775 50  0001 C CNN "Vendor"
+	1    4075 15775
 	-1   0    0    1   
 $EndComp
 $Comp
 L SwEmb:CAP_51pF_50V_0402 C?
 U 1 1 811B4770
-P 4625 14450
-F 0 "C?" H 4722 14450 50  0000 L CNN
-F 1 "CAP_51pF_50V_0402" H 4635 13620 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5075 13850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf" H 4635 13770 50  0001 C CNN
-F 4 "CC0402JRNPO9BN510" H 5075 13950 50  0001 C CNN "MPN"
-F 5 "42645 In Stock" H 4625 13850 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 51pF 50V NPO 5%" H 4625 13700 50  0001 C CNN "Description"
-F 7 "OK" H 4675 13850 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 4625 13850 50  0001 C CNN "Price"
-F 9 "Mouser" H 4625 14450 50  0001 C CNN "Vendor"
-	1    4625 14450
+P 2650 16250
+F 0 "C?" H 2747 16250 50  0000 L CNN
+F 1 "CAP_51pF_50V_0402" H 2660 15420 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3100 15650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf" H 2660 15570 50  0001 C CNN
+F 4 "CC0402JRNPO9BN510" H 3100 15750 50  0001 C CNN "MPN"
+F 5 "42645 In Stock" H 2650 15650 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 51pF 50V NPO 5%" H 2650 15500 50  0001 C CNN "Description"
+F 7 "OK" H 2700 15650 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 2650 15650 50  0001 C CNN "Price"
+F 9 "Mouser" H 2650 16250 50  0001 C CNN "Vendor"
+	1    2650 16250
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:RES_1M_1%_0402 R?
 U 1 1 8133E955
-P 4875 14450
-F 0 "R?" H 4934 14450 50  0000 L CNN
-F 1 "RES_1M_1%_0402" H 4905 14410 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4805 14370 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 4905 14470 50  0001 C CNN
-F 4 "RC0402FR-071ML" H 5005 14570 50  0001 C CNN "MPN"
-F 5 "4349715 In Stock" H 4875 14450 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1M OHM 1%" H 4875 14450 50  0001 C CNN "Description"
-F 7 "OK" H 4875 14450 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 4875 14450 50  0001 C CNN "Price"
-F 9 "Mouser" H 4875 14450 50  0001 C CNN "Vendor"
-	1    4875 14450
+P 2900 16250
+F 0 "R?" H 2959 16250 50  0000 L CNN
+F 1 "RES_1M_1%_0402" H 2930 16210 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2830 16170 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 2930 16270 50  0001 C CNN
+F 4 "RC0402FR-071ML" H 3030 16370 50  0001 C CNN "MPN"
+F 5 "4349715 In Stock" H 2900 16250 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1M OHM 1%" H 2900 16250 50  0001 C CNN "Description"
+F 7 "OK" H 2900 16250 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 2900 16250 50  0001 C CNN "Price"
+F 9 "Mouser" H 2900 16250 50  0001 C CNN "Vendor"
+	1    2900 16250
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:RES_5K_1%_0402 R?
 U 1 1 814C68DF
-P 4375 14325
-F 0 "R?" H 4434 14325 50  0000 L CNN
-F 1 "RES_5K_1%_0402" H 4405 14285 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4305 14245 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 4405 14345 50  0001 C CNN
-F 4 "RC0402FR-075KL " H 4505 14445 50  0001 C CNN "MPN"
-F 5 "38996 In Stock" H 4375 14325 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 5K ohm 1% 50V General Purpose" H 4375 14325 50  0001 C CNN "Description"
-F 7 "New Product" H 4375 14325 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 4375 14325 50  0001 C CNN "Price"
-F 9 "Mouser" H 4375 14325 50  0001 C CNN "Vendor"
-	1    4375 14325
+P 2400 16125
+F 0 "R?" H 2459 16125 50  0000 L CNN
+F 1 "RES_5K_1%_0402" H 2430 16085 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2330 16045 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 2430 16145 50  0001 C CNN
+F 4 "RC0402FR-075KL " H 2530 16245 50  0001 C CNN "MPN"
+F 5 "38996 In Stock" H 2400 16125 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 5K ohm 1% 50V General Purpose" H 2400 16125 50  0001 C CNN "Description"
+F 7 "New Product" H 2400 16125 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 2400 16125 50  0001 C CNN "Price"
+F 9 "Mouser" H 2400 16125 50  0001 C CNN "Vendor"
+	1    2400 16125
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:RES_10K_1%_0402 R?
 U 1 1 814C6E0F
-P 4500 14200
-F 0 "R?" V 4396 14200 50  0000 C CNN
-F 1 "RES_10K_1%_0402" H 4530 14160 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4430 14120 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 4500 14200 50  0001 C CNN
-F 4 "CRCW040210K0FKEDC" H 4630 14320 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 4500 14200 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 4500 14200 50  0001 C CNN "Description"
-F 7 "New Product" H 4500 14200 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 4500 14200 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 4500 14200 50  0001 C CNN "Price"
-	1    4500 14200
+P 2525 16000
+F 0 "R?" V 2421 16000 50  0000 C CNN
+F 1 "RES_10K_1%_0402" H 2555 15960 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2455 15920 50  0001 C CNN
+F 3 "" H 2525 16000 50  0001 C CNN
+F 4 "CRCW040210K0FKEDC" H 2655 16120 50  0001 C CNN "MPN"
+F 5 "1813839 In Stock" H 2525 16000 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 2525 16000 50  0001 C CNN "Description"
+F 7 "New Product" H 2525 16000 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 2525 16000 50  0001 C CNN "Vendor"
+F 9 "0.114  EUR" H 2525 16000 50  0001 C CNN "Price"
+	1    2525 16000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4375 14675 4375 14725
+	2400 16475 2400 16525
 Wire Wire Line
-	4375 14725 4500 14725
+	2400 16525 2525 16525
 Wire Wire Line
-	4625 14725 4625 14550
+	2650 16525 2650 16350
 Wire Wire Line
-	4625 14350 4625 14200
+	2650 16150 2650 16000
 Wire Wire Line
-	4625 14200 4600 14200
+	2650 16000 2625 16000
 Wire Wire Line
-	4625 14200 4975 14200
-Connection ~ 4625 14200
+	2650 16000 3000 16000
+Connection ~ 2650 16000
 Wire Wire Line
-	4875 14350 4875 14300
+	2900 16150 2900 16100
 Wire Wire Line
-	4875 14300 4975 14300
+	2900 16100 3000 16100
 Wire Wire Line
-	4400 14200 4375 14200
+	2425 16000 2400 16000
 Wire Wire Line
-	4375 14200 4375 14225
+	2400 16000 2400 16025
 Wire Wire Line
-	4375 14425 4375 14475
+	2400 16225 2400 16275
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0267
 U 1 1 8273752D
-P 4500 14725
-F 0 "#PWR?" H 4500 14475 50  0001 C CNN
-F 1 "GNDREF" H 4500 14575 50  0001 C CNN
-F 2 "" H 4500 14725 50  0001 C CNN
-F 3 "" H 4500 14725 50  0001 C CNN
-F 4 "#" H 4500 14725 50  0001 C CNN "MPN"
-	1    4500 14725
+P 2525 16525
+F 0 "#PWR0267" H 2525 16275 50  0001 C CNN
+F 1 "GNDREF" H 2525 16375 50  0001 C CNN
+F 2 "" H 2525 16525 50  0001 C CNN
+F 3 "" H 2525 16525 50  0001 C CNN
+F 4 "#" H 2525 16525 50  0001 C CNN "MPN"
+	1    2525 16525
 	1    0    0    -1  
 $EndComp
-Connection ~ 4500 14725
+Connection ~ 2525 16525
 Wire Wire Line
-	4500 14725 4625 14725
+	2525 16525 2650 16525
 Wire Wire Line
-	4875 14550 4875 14725
+	2900 16350 2900 16525
 Wire Wire Line
-	4875 14725 4625 14725
-Connection ~ 4625 14725
+	2900 16525 2650 16525
+Connection ~ 2650 16525
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0268
 U 1 1 828C8F5C
-P 5425 14550
-F 0 "#PWR?" H 5425 14300 50  0001 C CNN
-F 1 "GNDREF" H 5425 14400 50  0001 C CNN
-F 2 "" H 5425 14550 50  0001 C CNN
-F 3 "" H 5425 14550 50  0001 C CNN
-F 4 "#" H 5425 14550 50  0001 C CNN "MPN"
-	1    5425 14550
+P 3450 16350
+F 0 "#PWR0268" H 3450 16100 50  0001 C CNN
+F 1 "GNDREF" H 3450 16200 50  0001 C CNN
+F 2 "" H 3450 16350 50  0001 C CNN
+F 3 "" H 3450 16350 50  0001 C CNN
+F 4 "#" H 3450 16350 50  0001 C CNN "MPN"
+	1    3450 16350
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0269
 U 1 1 828C923B
-P 5525 14550
-F 0 "#PWR?" H 5525 14300 50  0001 C CNN
-F 1 "GNDREF" H 5525 14400 50  0001 C CNN
-F 2 "" H 5525 14550 50  0001 C CNN
-F 3 "" H 5525 14550 50  0001 C CNN
-F 4 "#" H 5525 14550 50  0001 C CNN "MPN"
-	1    5525 14550
+P 3550 16350
+F 0 "#PWR0269" H 3550 16100 50  0001 C CNN
+F 1 "GNDREF" H 3550 16200 50  0001 C CNN
+F 2 "" H 3550 16350 50  0001 C CNN
+F 3 "" H 3550 16350 50  0001 C CNN
+F 4 "#" H 3550 16350 50  0001 C CNN "MPN"
+	1    3550 16350
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:D_CDBC5100 D?
 U 1 1 828C9731
-P 6050 14225
-F 0 "D?" V 6050 14293 50  0000 L CNN
-F 1 "D_CDBC5100" H 5900 14145 50  0001 L CNN
-F 2 "Diode_SMD:D_SMC" H 6150 14075 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/80/CDBC520-HF_Thru195419._CDBC5100-HF_RevB-1480789.pdf" V 6050 14225 50  0001 C CNN
-F 4 "CDBC5100-HF" H 6050 13925 50  0001 C CNN "MPN"
-F 5 "9967 In Stock" H 6050 14225 50  0001 C CNN "Availability"
-F 6 "Schottky Diodes & Rectifiers VR=100V, IO=5A (Halogen Free)" H 6050 14225 50  0001 C CNN "Description"
-F 7 "OK" H 6050 14225 50  0001 C CNN "LifeCycle"
-F 8 "0.568  EUR" H 6050 14225 50  0001 C CNN "Price"
-F 9 "Mouser" H 6050 14225 50  0001 C CNN "Vendor"
-	1    6050 14225
+P 4075 16025
+F 0 "D?" V 4075 16093 50  0000 L CNN
+F 1 "D_CDBC5100" H 3925 15945 50  0001 L CNN
+F 2 "Diode_SMD:D_SMC" H 4175 15875 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/80/CDBC520-HF_Thru195419._CDBC5100-HF_RevB-1480789.pdf" V 4075 16025 50  0001 C CNN
+F 4 "CDBC5100-HF" H 4075 15725 50  0001 C CNN "MPN"
+F 5 "9967 In Stock" H 4075 16025 50  0001 C CNN "Availability"
+F 6 "Schottky Diodes & Rectifiers VR=100V, IO=5A (Halogen Free)" H 4075 16025 50  0001 C CNN "Description"
+F 7 "OK" H 4075 16025 50  0001 C CNN "LifeCycle"
+F 8 "0.568  EUR" H 4075 16025 50  0001 C CNN "Price"
+F 9 "Mouser" H 4075 16025 50  0001 C CNN "Vendor"
+	1    4075 16025
 	0    1    1    0   
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0270
 U 1 1 828C9D79
-P 6050 14325
-F 0 "#PWR?" H 6050 14075 50  0001 C CNN
-F 1 "GNDREF" H 6050 14175 50  0001 C CNN
-F 2 "" H 6050 14325 50  0001 C CNN
-F 3 "" H 6050 14325 50  0001 C CNN
-F 4 "#" H 6050 14325 50  0001 C CNN "MPN"
-	1    6050 14325
+P 4075 16125
+F 0 "#PWR0270" H 4075 15875 50  0001 C CNN
+F 1 "GNDREF" H 4075 15975 50  0001 C CNN
+F 2 "" H 4075 16125 50  0001 C CNN
+F 3 "" H 4075 16125 50  0001 C CNN
+F 4 "#" H 4075 16125 50  0001 C CNN "MPN"
+	1    4075 16125
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:L_100uH_3.64A L?
 U 1 1 828CA55A
-P 6225 14100
-F 0 "L?" V 6319 14100 50  0000 C CNN
-F 1 "L_100uH_3.64A" H 6255 14060 50  0001 L CNN
-F 2 "CUSTOM:L_Wuerth_WE-PD-Typ-LS_1250x1250" H 6155 14040 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/54/RR1260A-1391555.pdf" H 6225 14100 50  0001 C CNN
-F 4 "DR127-101-R" H 6225 13800 50  0001 C CNN "MPN"
-F 5 "985 In Stock" H 6225 14100 50  0001 C CNN "Availability"
-F 6 "Fixed Inductors 15uH 20% SMD 1260 AEC-Q200" H 6225 14100 50  0001 C CNN "Description"
-F 7 "0.934  EUR" H 6225 14100 50  0001 C CNN "Price"
-F 8 "OK" H 6225 14100 50  0001 C CNN "LifeCycle"
-	1    6225 14100
+P 4250 15900
+F 0 "L?" V 4344 15900 50  0000 C CNN
+F 1 "L_100uH_3.64A" H 4280 15860 50  0001 L CNN
+F 2 "CUSTOM:L_Wuerth_WE-PD-Typ-LS_1250x1250" H 4180 15840 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/87/Bus_Elx_DS_4315_DR_Series-248110.pdf" H 4250 15900 50  0001 C CNN
+F 4 "DR127-101-R" H 4250 15600 50  0001 C CNN "MPN"
+F 5 "8402 In Stock" H 4250 15900 50  0001 C CNN "Availability"
+F 6 "Fixed Inductors 100uH 3.64A 0.163ohms" H 4250 15900 50  0001 C CNN "Description"
+F 7 "1.77  EUR" H 4250 15900 50  0001 C CNN "Price"
+F 8 "OK" H 4250 15900 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
+	1    4250 15900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L SwEmb:RES_147k_1%_0603 R?
 U 1 1 82BF5F1D
-P 6400 14250
-F 0 "R?" H 6459 14250 50  0000 L CNN
-F 1 "RES_147k_1%_0603" H 6430 14210 50  0001 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6330 14170 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 6430 14270 50  0001 C CNN
-F 4 "RC0603FR-07147KL" H 6400 13950 50  0001 C CNN "MPN"
-F 5 "93114 In Stock" H 6400 14250 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 147K OHM 1%" H 6400 14250 50  0001 C CNN "Description"
-F 7 "0.087  EUR" H 6400 14250 50  0001 C CNN "Price"
-F 8 "OK" H 6400 14250 50  0001 C CNN "LifeCycle"
-F 9 "Mouser" H 6400 14250 50  0001 C CNN "Vendor"
-	1    6400 14250
+P 4425 16050
+F 0 "R?" H 4484 16050 50  0000 L CNN
+F 1 "RES_147k_1%_0603" H 4455 16010 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4355 15970 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 4455 16070 50  0001 C CNN
+F 4 "RC0603FR-07147KL" H 4425 15750 50  0001 C CNN "MPN"
+F 5 "93114 In Stock" H 4425 16050 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 147K OHM 1%" H 4425 16050 50  0001 C CNN "Description"
+F 7 "0.087  EUR" H 4425 16050 50  0001 C CNN "Price"
+F 8 "OK" H 4425 16050 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 4425 16050 50  0001 C CNN "Vendor"
+	1    4425 16050
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:RES_10.5k_1%_0603 R?
 U 1 1 82BF64E2
-P 6400 14500
-F 0 "R?" H 6459 14500 50  0000 L CNN
-F 1 "RES_10.5k_1%_0603" H 6430 14460 50  0001 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6330 14420 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 6430 14520 50  0001 C CNN
-F 4 "RC0603FR-0710K5L" H 6400 14200 50  0001 C CNN "MPN"
-F 5 "123654 In Stock" H 6400 14500 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 10.5K OHM 1%" H 6400 14500 50  0001 C CNN "Description"
-F 7 "0.087  EUR" H 6400 14500 50  0001 C CNN "Price"
-F 8 "OK" H 6400 14500 50  0001 C CNN "LifeCycle"
-F 9 "Mouser" H 6400 14500 50  0001 C CNN "Vendor"
-	1    6400 14500
+P 4425 16300
+F 0 "R?" H 4484 16300 50  0000 L CNN
+F 1 "RES_10.5k_1%_0603" H 4455 16260 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4355 16220 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 4455 16320 50  0001 C CNN
+F 4 "RC0603FR-0710K5L" H 4425 16000 50  0001 C CNN "MPN"
+F 5 "123654 In Stock" H 4425 16300 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10.5K OHM 1%" H 4425 16300 50  0001 C CNN "Description"
+F 7 "0.087  EUR" H 4425 16300 50  0001 C CNN "Price"
+F 8 "OK" H 4425 16300 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 4425 16300 50  0001 C CNN "Vendor"
+	1    4425 16300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 14350 6400 14375
+	4425 16150 4425 16175
 Wire Wire Line
-	6400 14375 6250 14375
+	4425 16175 4275 16175
 Wire Wire Line
-	6250 14375 6250 14525
+	4275 16175 4275 16325
 Wire Wire Line
-	6250 14525 5850 14525
+	4275 16325 3875 16325
 Wire Wire Line
-	5850 14525 5850 14350
+	3875 16325 3875 16150
 Wire Wire Line
-	5850 14350 5775 14350
-Connection ~ 6400 14375
+	3875 16150 3800 16150
+Connection ~ 4425 16175
 Wire Wire Line
-	6400 14375 6400 14400
+	4425 16175 4425 16200
 Wire Wire Line
-	5775 14100 6050 14100
+	3800 15900 4075 15900
 Wire Wire Line
-	6050 14075 6050 14100
-Connection ~ 6050 14100
+	4075 15875 4075 15900
+Connection ~ 4075 15900
 Wire Wire Line
-	6050 14100 6125 14100
+	4075 15900 4150 15900
 Wire Wire Line
-	6050 14100 6050 14125
+	4075 15900 4075 15925
 Wire Wire Line
-	6050 13875 6050 13850
+	4075 15675 4075 15650
 Wire Wire Line
-	6050 13850 5775 13850
+	4075 15650 3800 15650
 Wire Wire Line
-	6325 14100 6400 14100
+	4350 15900 4425 15900
 Wire Wire Line
-	6400 14100 6400 14150
+	4425 15900 4425 15950
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0271
 U 1 1 83F274C8
-P 6400 14600
-F 0 "#PWR?" H 6400 14350 50  0001 C CNN
-F 1 "GNDREF" H 6400 14450 50  0001 C CNN
-F 2 "" H 6400 14600 50  0001 C CNN
-F 3 "" H 6400 14600 50  0001 C CNN
-F 4 "#" H 6400 14600 50  0001 C CNN "MPN"
-	1    6400 14600
+P 4425 16400
+F 0 "#PWR0271" H 4425 16150 50  0001 C CNN
+F 1 "GNDREF" H 4425 16250 50  0001 C CNN
+F 2 "" H 4425 16400 50  0001 C CNN
+F 3 "" H 4425 16400 50  0001 C CNN
+F 4 "#" H 4425 16400 50  0001 C CNN "MPN"
+	1    4425 16400
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:CAPP_100uF_25V_6357 C?
 U 1 1 83F27EA6
-P 6675 14375
-F 0 "C?" H 6782 14375 50  0000 L CNN
-F 1 "CAPP_100uF_25V_6357" H 6782 14330 50  0001 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 6713 14225 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/231/151002385281-1222337.pdf" H 6700 14475 50  0001 C CNN
-F 4 "VZS101M1ETR-0606" H 6675 14375 39  0001 C CNN "MPN"
-F 5 "25876 In Stock" H 6675 14375 50  0001 C CNN "Availability"
-F 6 "Aluminium Electrolytic Capacitors - SMD 25 Volts 100uF 20% 6.3X5.7" H 6675 14375 50  0001 C CNN "Description"
-F 7 "Mouser" H 6675 14375 50  0001 C CNN "Vendor"
-F 8 "OK" H 6675 14375 50  0001 C CNN "LifeCycle"
-F 9 "0.335  EUR" H 6675 14375 50  0001 C CNN "Price"
-	1    6675 14375
+P 4700 16175
+F 0 "C?" H 4807 16175 50  0000 L CNN
+F 1 "CAPP_100uF_25V_6357" H 4807 16130 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 4738 16025 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/231/151002385281-1222337.pdf" H 4725 16275 50  0001 C CNN
+F 4 "VZS101M1ETR-0606" H 4700 16175 39  0001 C CNN "MPN"
+F 5 "25876 In Stock" H 4700 16175 50  0001 C CNN "Availability"
+F 6 "Aluminium Electrolytic Capacitors - SMD 25 Volts 100uF 20% 6.3X5.7" H 4700 16175 50  0001 C CNN "Description"
+F 7 "Mouser" H 4700 16175 50  0001 C CNN "Vendor"
+F 8 "OK" H 4700 16175 50  0001 C CNN "LifeCycle"
+F 9 "0.335  EUR" H 4700 16175 50  0001 C CNN "Price"
+	1    4700 16175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6675 14100 6675 14275
+	4700 15900 4700 16075
 Wire Wire Line
-	6675 14475 6675 14600
+	4700 16275 4700 16400
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0272
 U 1 1 84269370
-P 6675 14600
-F 0 "#PWR?" H 6675 14350 50  0001 C CNN
-F 1 "GNDREF" H 6675 14450 50  0001 C CNN
-F 2 "" H 6675 14600 50  0001 C CNN
-F 3 "" H 6675 14600 50  0001 C CNN
-F 4 "#" H 6675 14600 50  0001 C CNN "MPN"
-	1    6675 14600
+P 4700 16400
+F 0 "#PWR0272" H 4700 16150 50  0001 C CNN
+F 1 "GNDREF" H 4700 16250 50  0001 C CNN
+F 2 "" H 4700 16400 50  0001 C CNN
+F 3 "" H 4700 16400 50  0001 C CNN
+F 4 "#" H 4700 16400 50  0001 C CNN "MPN"
+	1    4700 16400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4975 14100
+NoConn ~ 3000 15900
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0273
 U 1 1 844094D9
-P 4175 14125
-F 0 "#PWR?" H 4175 13875 50  0001 C CNN
-F 1 "GNDREF" H 4175 13975 50  0001 C CNN
-F 2 "" H 4175 14125 50  0001 C CNN
-F 3 "" H 4175 14125 50  0001 C CNN
-F 4 "#" H 4175 14125 50  0001 C CNN "MPN"
-	1    4175 14125
+P 2200 15925
+F 0 "#PWR0273" H 2200 15675 50  0001 C CNN
+F 1 "GNDREF" H 2200 15775 50  0001 C CNN
+F 2 "" H 2200 15925 50  0001 C CNN
+F 3 "" H 2200 15925 50  0001 C CNN
+F 4 "#" H 2200 15925 50  0001 C CNN "MPN"
+	1    2200 15925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4175 13925 4175 13850
+	2200 15725 2200 15650
 Wire Wire Line
-	4175 13850 4975 13850
-Connection ~ 4175 13850
-Connection ~ 6675 14100
-Text GLabel 4000 13725 2    50   Input ~ 0
+	2200 15650 2925 15650
+Connection ~ 2200 15650
+Connection ~ 4700 15900
+Text GLabel 2025 15525 2    50   Input ~ 0
 VMOT
 Wire Wire Line
-	4000 13725 3950 13725
+	2025 15525 1975 15525
 Wire Wire Line
-	3950 13725 3950 13850
+	1975 15525 1975 15650
 Wire Wire Line
-	3950 13850 4175 13850
+	1975 15650 2200 15650
 $Comp
 L SwEmb:CONN_POWER_41A P?
 U 1 1 852D2F6D
-P 3350 13900
-F 0 "P?" H 3281 14083 50  0000 C CNN
-F 1 "CONN_POWER_41A" H 3350 13750 50  0001 C CNN
-F 2 "CUSTOM:PhoenixContact_Power41A_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" H 3250 13850 50  0001 C CNN
-F 3 "" H 3250 13850 50  0000 C CNN
-F 4 "1720466" H 3350 13900 50  0001 C CNN "MPN"
-	1    3350 13900
+P 1375 15700
+F 0 "P?" H 1306 15883 50  0000 C CNN
+F 1 "CONN_POWER_41A" H 1375 15550 50  0001 C CNN
+F 2 "CUSTOM:PhoenixContact_Power41A_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" H 1275 15650 50  0001 C CNN
+F 3 "" H 1275 15650 50  0000 C CNN
+F 4 "1720466" H 1375 15700 50  0001 C CNN "MPN"
+F 5 "357 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks 2 Pos 7.62mm pitch Through Hole Header" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "2.68  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
+	1    1375 15700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 13850 3850 13850
-Connection ~ 3950 13850
+	1625 15650 1875 15650
+Connection ~ 1975 15650
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0274
 U 1 1 8561F8F2
-P 3600 13950
-F 0 "#PWR?" H 3600 13700 50  0001 C CNN
-F 1 "GNDREF" H 3600 13800 50  0001 C CNN
-F 2 "" H 3600 13950 50  0001 C CNN
-F 3 "" H 3600 13950 50  0001 C CNN
-F 4 "#" H 3600 13950 50  0001 C CNN "MPN"
-	1    3600 13950
+P 1625 15750
+F 0 "#PWR0274" H 1625 15500 50  0001 C CNN
+F 1 "GNDREF" H 1625 15600 50  0001 C CNN
+F 2 "" H 1625 15750 50  0001 C CNN
+F 3 "" H 1625 15750 50  0001 C CNN
+F 4 "#" H 1625 15750 50  0001 C CNN "MPN"
+	1    1625 15750
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:D_SMBJ48A D?
 U 1 1 85CCD8AB
-P 3850 14075
-F 0 "D?" V 3850 14179 50  0000 L CNN
-F 1 "D_SMBJ48A" H 3850 13975 50  0001 C CNN
-F 2 "" H 3850 14075 50  0001 C CNN
-F 3 "~" H 3850 14075 50  0001 C CNN
-F 4 "SMBJ48A-TR" H 3850 14075 50  0001 C CNN "MPN"
-	1    3850 14075
+P 1875 15875
+F 0 "D?" V 1875 15979 50  0000 L CNN
+F 1 "D_SMBJ48A" H 1875 15775 50  0001 C CNN
+F 2 "Diode_SMD:D_SMB" H 1875 15875 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" H 1875 15875 50  0001 C CNN
+F 4 "SMBJ48A-TR" H 1875 15875 50  0001 C CNN "MPN"
+F 5 "12398 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "ESD Suppressors / TVS Diodes 600W 48V Unidirect" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "0.314  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
+	1    1875 15875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3850 13850 3850 13925
-Connection ~ 3850 13850
+	1875 15650 1875 15725
+Connection ~ 1875 15650
 Wire Wire Line
-	3850 13850 3950 13850
+	1875 15650 1975 15650
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0275
 U 1 1 85E74E36
-P 3850 14225
-F 0 "#PWR?" H 3850 13975 50  0001 C CNN
-F 1 "GNDREF" H 3850 14075 50  0001 C CNN
-F 2 "" H 3850 14225 50  0001 C CNN
-F 3 "" H 3850 14225 50  0001 C CNN
-F 4 "#" H 3850 14225 50  0001 C CNN "MPN"
-	1    3850 14225
+P 1875 16025
+F 0 "#PWR0275" H 1875 15775 50  0001 C CNN
+F 1 "GNDREF" H 1875 15875 50  0001 C CNN
+F 2 "" H 1875 16025 50  0001 C CNN
+F 3 "" H 1875 16025 50  0001 C CNN
+F 4 "#" H 1875 16025 50  0001 C CNN "MPN"
+	1    1875 16025
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:D_SMBJ12A D?
 U 1 1 8602826D
-P 7025 14400
-F 0 "D?" V 7025 14504 50  0000 L CNN
-F 1 "D_SMBJ12A" H 7025 14300 50  0001 C CNN
-F 2 "" H 7025 14400 50  0001 C CNN
-F 3 "~" H 7025 14400 50  0001 C CNN
-F 4 "SMBJ12A-TR" H 7025 14400 50  0001 C CNN "MPN"
-	1    7025 14400
+P 5050 16200
+F 0 "D?" V 5050 16304 50  0000 L CNN
+F 1 "D_SMBJ12A" H 5050 16100 50  0001 C CNN
+F 2 "Diode_SMD:D_SMB" H 5050 16200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" H 5050 16200 50  0001 C CNN
+F 4 "SMBJ12A-TR" H 5050 16200 50  0001 C CNN "MPN"
+F 5 "11297 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "ESD Suppressors / TVS Diodes 600W 12V Unidirect" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "0.314  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
+	1    5050 16200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7025 14250 7025 14100
+	5050 16050 5050 15900
 Wire Wire Line
-	6675 14100 7025 14100
+	4700 15900 5050 15900
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0276
 U 1 1 861D23D7
-P 7025 14600
-F 0 "#PWR?" H 7025 14350 50  0001 C CNN
-F 1 "GNDREF" H 7025 14450 50  0001 C CNN
-F 2 "" H 7025 14600 50  0001 C CNN
-F 3 "" H 7025 14600 50  0001 C CNN
-F 4 "#" H 7025 14600 50  0001 C CNN "MPN"
-	1    7025 14600
+P 5050 16400
+F 0 "#PWR0276" H 5050 16150 50  0001 C CNN
+F 1 "GNDREF" H 5050 16250 50  0001 C CNN
+F 2 "" H 5050 16400 50  0001 C CNN
+F 3 "" H 5050 16400 50  0001 C CNN
+F 4 "#" H 5050 16400 50  0001 C CNN "MPN"
+	1    5050 16400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7025 14550 7025 14600
+	5050 16350 5050 16400
 $Comp
 L SwEmb:IC_TPS62147RGXR U?
 U 1 1 8637BFAC
-P 8300 14150
-F 0 "U?" H 8300 14715 50  0000 C CNN
-F 1 "IC_TPS62147RGXR" H 8300 14624 50  0000 C CNN
-F 2 "CUSTOM:RGX_VQFN-11" H 8250 13350 50  0001 C CNN
-F 3 "" H 8250 13350 50  0001 C CNN
-F 4 "TPS62147RGXR" H 8300 13600 50  0001 C CNN "MPN"
-F 5 "26992 In Stock" H 8300 14150 50  0001 C CNN "Availability"
-F 6 "Switching Voltage Regulators 3-17V 2.0A Step-Down Converter with 1% accuracy and PFM/Forced-PWM in 2x3QFN 11-VQFN-HR -40 to 125" H 8300 14150 50  0001 C CNN "Description"
-F 7 "New Product" H 8300 14150 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 8300 14150 50  0001 C CNN "Vendor"
-F 9 "1.88  EUR" H 8300 14150 50  0001 C CNN "Price"
-	1    8300 14150
+P 6325 15950
+F 0 "U?" H 6325 16515 50  0000 C CNN
+F 1 "IC_TPS62147RGXR" H 6325 16424 50  0000 C CNN
+F 2 "CUSTOM:RGX_VQFN-11" H 6275 15150 50  0001 C CNN
+F 3 "" H 6275 15150 50  0001 C CNN
+F 4 "TPS62147RGXR" H 6325 15400 50  0001 C CNN "MPN"
+F 5 "26992 In Stock" H 6325 15950 50  0001 C CNN "Availability"
+F 6 "Switching Voltage Regulators 3-17V 2.0A Step-Down Converter with 1% accuracy and PFM/Forced-PWM in 2x3QFN 11-VQFN-HR -40 to 125" H 6325 15950 50  0001 C CNN "Description"
+F 7 "New Product" H 6325 15950 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 6325 15950 50  0001 C CNN "Vendor"
+F 9 "1.88  EUR" H 6325 15950 50  0001 C CNN "Price"
+	1    6325 15950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 13850 7850 13850
+	5925 15650 5875 15650
 Wire Wire Line
-	7850 13850 7850 13950
+	5875 15650 5875 15750
 Wire Wire Line
-	7850 13950 7900 13950
+	5875 15750 5925 15750
 Wire Wire Line
-	7350 14150 7350 14350
+	5375 15950 5375 16150
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0277
 U 1 1 86887178
-P 7350 14600
-F 0 "#PWR?" H 7350 14350 50  0001 C CNN
-F 1 "GNDREF" H 7350 14450 50  0001 C CNN
-F 2 "" H 7350 14600 50  0001 C CNN
-F 3 "" H 7350 14600 50  0001 C CNN
-F 4 "#" H 7350 14600 50  0001 C CNN "MPN"
-	1    7350 14600
+P 5375 16400
+F 0 "#PWR0277" H 5375 16150 50  0001 C CNN
+F 1 "GNDREF" H 5375 16250 50  0001 C CNN
+F 2 "" H 5375 16400 50  0001 C CNN
+F 3 "" H 5375 16400 50  0001 C CNN
+F 4 "#" H 5375 16400 50  0001 C CNN "MPN"
+	1    5375 16400
 	1    0    0    -1  
 $EndComp
-Connection ~ 7350 14350
+Connection ~ 5375 16150
 Wire Wire Line
-	7350 14350 7350 14600
+	5375 16150 5375 16400
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C?
 U 1 1 86BE5819
-P 7800 14450
-F 0 "C?" H 7907 14450 50  0000 L CNN
-F 1 "CAP_100nF_50V_0402" H 7810 14370 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8250 14600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 7810 14520 50  0001 C CNN
-F 4 "GRM155R71H104ME14D" H 8250 14700 50  0001 C CNN "MPN"
-F 5 "359167 In Stock" H 7800 14450 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.1uF 50volts X7R 20%" H 7800 14450 50  0001 C CNN "Description"
-F 7 "Not Recommended for New Designs" H 7800 14450 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 7800 14450 50  0001 C CNN "Price"
-F 9 "Mouser" H 7800 14450 50  0001 C CNN "Vendor"
-	1    7800 14450
+P 5825 16250
+F 0 "C?" H 5932 16250 50  0000 L CNN
+F 1 "CAP_100nF_50V_0402" H 5835 16170 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6275 16400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 5835 16320 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 6275 16500 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 5825 16250 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 5825 16250 50  0001 C CNN "Description"
+F 7 "OK" H 5825 16250 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 5825 16250 50  0001 C CNN "Price"
+F 9 "Mouser" H 5825 16250 50  0001 C CNN "Vendor"
+	1    5825 16250
 	0    1    1    0   
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0278
 U 1 1 86D96947
-P 7675 14600
-F 0 "#PWR?" H 7675 14350 50  0001 C CNN
-F 1 "GNDREF" H 7675 14450 50  0001 C CNN
-F 2 "" H 7675 14600 50  0001 C CNN
-F 3 "" H 7675 14600 50  0001 C CNN
-F 4 "#" H 7675 14600 50  0001 C CNN "MPN"
-	1    7675 14600
+P 5700 16400
+F 0 "#PWR0278" H 5700 16150 50  0001 C CNN
+F 1 "GNDREF" H 5700 16250 50  0001 C CNN
+F 2 "" H 5700 16400 50  0001 C CNN
+F 3 "" H 5700 16400 50  0001 C CNN
+F 4 "#" H 5700 16400 50  0001 C CNN "MPN"
+	1    5700 16400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 14450 7675 14450
+	5725 16250 5700 16250
 Wire Wire Line
-	7675 14450 7675 14600
+	5700 16250 5700 16400
 Wire Wire Line
-	7350 14350 7900 14350
+	5375 16150 5925 16150
 Wire Wire Line
-	7350 14150 7900 14150
+	5375 15950 5925 15950
 Wire Wire Line
-	7025 13850 7025 14100
-Connection ~ 7025 14100
+	5050 15650 5050 15900
+Connection ~ 5050 15900
 $Comp
 L SwEmb:CONN_POWER_10A P?
 U 1 1 87CE26D3
-P 6600 13900
-F 0 "P?" H 6519 14083 50  0000 C CNN
-F 1 "CONN_POWER_10A" H 6500 14800 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 6300 14800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 6400 14800 50  0001 C CNN
-F 4 "691321100002" H 6500 14800 50  0001 C CNN "MPN"
-F 5 "2043 In Stock" H 6500 14800 50  0001 C CNN "Availability"
-F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 6400 14800 50  0001 C CNN "Description"
-F 7 "OK" H 6600 14800 50  0001 C CNN "LifeCycle"
-F 8 "0.38  EUR" H 6700 14800 50  0001 C CNN "Price"
-F 9 "Mouser" H 6600 13850 50  0001 C CNN "Vendor"
-	1    6600 13900
+P 4625 15700
+F 0 "P?" H 4544 15883 50  0000 C CNN
+F 1 "CONN_POWER_10A" H 4525 16600 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 4325 16600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 4425 16600 50  0001 C CNN
+F 4 "691321100002" H 4525 16600 50  0001 C CNN "MPN"
+F 5 "2043 In Stock" H 4525 16600 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 4425 16600 50  0001 C CNN "Description"
+F 7 "OK" H 4625 16600 50  0001 C CNN "LifeCycle"
+F 8 "0.38  EUR" H 4725 16600 50  0001 C CNN "Price"
+F 9 "Mouser" H 4625 15650 50  0001 C CNN "Vendor"
+	1    4625 15700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 14100 6675 14100
-Connection ~ 6400 14100
+	4425 15900 4700 15900
+Connection ~ 4425 15900
 Wire Wire Line
-	6850 13850 7025 13850
+	4875 15650 5050 15650
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0279
 U 1 1 88578B42
-P 6850 13950
-F 0 "#PWR?" H 6850 13700 50  0001 C CNN
-F 1 "GNDREF" H 6850 13800 50  0001 C CNN
-F 2 "" H 6850 13950 50  0001 C CNN
-F 3 "" H 6850 13950 50  0001 C CNN
-F 4 "#" H 6850 13950 50  0001 C CNN "MPN"
-	1    6850 13950
+P 4875 15750
+F 0 "#PWR0279" H 4875 15500 50  0001 C CNN
+F 1 "GNDREF" H 4875 15600 50  0001 C CNN
+F 2 "" H 4875 15750 50  0001 C CNN
+F 3 "" H 4875 15750 50  0001 C CNN
+F 4 "#" H 4875 15750 50  0001 C CNN "MPN"
+	1    4875 15750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7025 13850 7850 13850
-Connection ~ 7025 13850
-Connection ~ 7850 13850
+	5050 15650 5875 15650
+Connection ~ 5050 15650
+Connection ~ 5875 15650
 $Comp
 L SwEmb:RES_147k_1%_0603 R?
 U 1 1 88C4F6C1
-P 9075 14025
-F 0 "R?" H 9134 14025 50  0000 L CNN
-F 1 "RES_147k_1%_0603" H 9105 13985 50  0001 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9005 13945 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 9105 14045 50  0001 C CNN
-F 4 "RC0603FR-07147KL" H 9075 13725 50  0001 C CNN "MPN"
-F 5 "93114 In Stock" H 9075 14025 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 147K OHM 1%" H 9075 14025 50  0001 C CNN "Description"
-F 7 "0.087  EUR" H 9075 14025 50  0001 C CNN "Price"
-F 8 "OK" H 9075 14025 50  0001 C CNN "LifeCycle"
-F 9 "Mouser" H 9075 14025 50  0001 C CNN "Vendor"
-	1    9075 14025
+P 7100 15825
+F 0 "R?" H 7159 15825 50  0000 L CNN
+F 1 "RES_147k_1%_0603" H 7130 15785 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7030 15745 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 7130 15845 50  0001 C CNN
+F 4 "RC0603FR-07147KL" H 7100 15525 50  0001 C CNN "MPN"
+F 5 "93114 In Stock" H 7100 15825 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 147K OHM 1%" H 7100 15825 50  0001 C CNN "Description"
+F 7 "0.087  EUR" H 7100 15825 50  0001 C CNN "Price"
+F 8 "OK" H 7100 15825 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 7100 15825 50  0001 C CNN "Vendor"
+	1    7100 15825
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:RES_24k_1%_0603 R?
 U 1 1 88E0A018
-P 9075 14275
-F 0 "R?" H 9134 14275 50  0000 L CNN
-F 1 "RES_24k_1%_0603" H 9105 14235 50  0001 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9005 14195 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 9105 14295 50  0001 C CNN
-F 4 "CR0603-FX-2402ELF" H 9075 13975 50  0001 C CNN "MPN"
-F 5 "93114 In Stock" H 9075 14275 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 147K OHM 1%" H 9075 14275 50  0001 C CNN "Description"
-F 7 "0.087  EUR" H 9075 14275 50  0001 C CNN "Price"
-F 8 "OK" H 9075 14275 50  0001 C CNN "LifeCycle"
-	1    9075 14275
+P 7100 16075
+F 0 "R?" H 7159 16075 50  0000 L CNN
+F 1 "RES_24k_1%_0603" H 7130 16035 50  0001 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7030 15995 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" H 7130 16095 50  0001 C CNN
+F 4 "CR0603-FX-2402ELF" H 7100 15775 50  0001 C CNN "MPN"
+F 5 "179806 In Stock" H 7100 16075 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 24K ohm 1%" H 7100 16075 50  0001 C CNN "Description"
+F 7 "0.087  EUR" H 7100 16075 50  0001 C CNN "Price"
+F 8 "OK" H 7100 16075 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
+	1    7100 16075
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:L_2.2uH_8A L?
 U 1 1 8932FEE7
-P 8850 13850
-F 0 "L?" V 8944 13850 50  0000 C CNN
-F 1 "L_2.2uH_8A" H 8880 13810 50  0001 L CNN
-F 2 "Inductor_SMD:L_Coilcraft_XxL4020" H 8780 13790 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/597/xfl4020-270756.pdf" H 8850 13850 50  0001 C CNN
-F 4 "XFL4020-222MEC" H 8850 13550 50  0001 C CNN "MPN"
-F 5 "31040 In Stock" H 8850 13850 50  0001 C CNN "Availability"
-F 6 "Fixed Inductors 2.2uH 20% 8A 23.5mOhms AEC-Q200" H 8850 13850 50  0001 C CNN "Description"
-F 7 "1.93  EUR" H 8850 13850 50  0001 C CNN "Price"
-F 8 "OK" H 8850 13850 50  0001 C CNN "LifeCycle"
-F 9 "Mouser" H 8850 13850 50  0001 C CNN "Vendor"
-	1    8850 13850
+P 6875 15650
+F 0 "L?" V 6969 15650 50  0000 C CNN
+F 1 "L_2.2uH_8A" H 6905 15610 50  0001 L CNN
+F 2 "Inductor_SMD:L_Coilcraft_XxL4020" H 6805 15590 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/597/xfl4020-270756.pdf" H 6875 15650 50  0001 C CNN
+F 4 "XFL4020-222MEC" H 6875 15350 50  0001 C CNN "MPN"
+F 5 "31040 In Stock" H 6875 15650 50  0001 C CNN "Availability"
+F 6 "Fixed Inductors 2.2uH 20% 8A 23.5mOhms AEC-Q200" H 6875 15650 50  0001 C CNN "Description"
+F 7 "1.93  EUR" H 6875 15650 50  0001 C CNN "Price"
+F 8 "OK" H 6875 15650 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 6875 15650 50  0001 C CNN "Vendor"
+	1    6875 15650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8950 13850 9000 13850
+	6975 15650 7025 15650
 Wire Wire Line
-	9000 13850 9000 13950
+	7025 15650 7025 15750
 Wire Wire Line
-	9000 13950 8700 13950
+	7025 15750 6725 15750
 Wire Wire Line
-	8700 13850 8750 13850
+	6725 15650 6775 15650
 Wire Wire Line
-	9000 13850 9075 13850
+	7025 15650 7100 15650
 Wire Wire Line
-	9075 13850 9075 13925
-Connection ~ 9000 13850
+	7100 15650 7100 15725
+Connection ~ 7025 15650
 Wire Wire Line
-	9075 14125 9075 14150
+	7100 15925 7100 15950
 Wire Wire Line
-	8700 14150 9075 14150
-Connection ~ 9075 14150
+	6725 15950 7100 15950
+Connection ~ 7100 15950
 Wire Wire Line
-	9075 14150 9075 14175
+	7100 15950 7100 15975
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0280
 U 1 1 89BC9724
-P 9075 14600
-F 0 "#PWR?" H 9075 14350 50  0001 C CNN
-F 1 "GNDREF" H 9075 14450 50  0001 C CNN
-F 2 "" H 9075 14600 50  0001 C CNN
-F 3 "" H 9075 14600 50  0001 C CNN
-F 4 "#" H 9075 14600 50  0001 C CNN "MPN"
-	1    9075 14600
+P 7100 16400
+F 0 "#PWR0280" H 7100 16150 50  0001 C CNN
+F 1 "GNDREF" H 7100 16250 50  0001 C CNN
+F 2 "" H 7100 16400 50  0001 C CNN
+F 3 "" H 7100 16400 50  0001 C CNN
+F 4 "#" H 7100 16400 50  0001 C CNN "MPN"
+	1    7100 16400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9075 14375 9075 14600
+	7100 16175 7100 16400
 $Comp
 L SwEmb:Test_Point TP?
 U 1 1 89F4122D
-P 8700 14250
-F 0 "TP?" H 8700 14520 50  0001 C CNN
-F 1 "Test_Point" H 8700 14450 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8900 14250 50  0001 C CNN
-F 3 "" H 8900 14250 50  0001 C CNN
-	1    8700 14250
+P 6725 16050
+F 0 "TP?" H 6725 16320 50  0001 C CNN
+F 1 "Test_Point" H 6725 16250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6925 16050 50  0001 C CNN
+F 3 "" H 6925 16050 50  0001 C CNN
+	1    6725 16050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8700 14350 8750 14350
+	6725 16150 6775 16150
 Wire Wire Line
-	8750 14350 8750 14450
+	6775 16150 6775 16250
 Wire Wire Line
-	8750 14450 8700 14450
+	6775 16250 6725 16250
 Wire Wire Line
-	8750 14450 8750 14600
-Connection ~ 8750 14450
+	6775 16250 6775 16400
+Connection ~ 6775 16250
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0281
 U 1 1 8A2BED3E
-P 8750 14600
-F 0 "#PWR?" H 8750 14350 50  0001 C CNN
-F 1 "GNDREF" H 8750 14450 50  0001 C CNN
-F 2 "" H 8750 14600 50  0001 C CNN
-F 3 "" H 8750 14600 50  0001 C CNN
-F 4 "#" H 8750 14600 50  0001 C CNN "MPN"
-	1    8750 14600
+P 6775 16400
+F 0 "#PWR0281" H 6775 16150 50  0001 C CNN
+F 1 "GNDREF" H 6775 16250 50  0001 C CNN
+F 2 "" H 6775 16400 50  0001 C CNN
+F 3 "" H 6775 16400 50  0001 C CNN
+F 4 "#" H 6775 16400 50  0001 C CNN "MPN"
+	1    6775 16400
 	1    0    0    -1  
 $EndComp
-Connection ~ 9075 13850
-Text GLabel 9125 13750 2    50   Input ~ 0
+Connection ~ 7100 15650
+Text GLabel 7150 15550 2    50   Input ~ 0
 VDD_5V
 Wire Wire Line
-	9075 13850 9075 13750
+	7100 15650 7100 15550
 Wire Wire Line
-	9075 13750 9125 13750
+	7100 15550 7150 15550
 $Comp
 L SwEmb:IC_TLV5533 U?
 U 1 1 8AD54C31
-P 10350 13950
-F 0 "U?" H 10350 14315 50  0000 C CNN
-F 1 "IC_TLV5533" H 10350 14224 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 10350 14250 50  0001 C CNN
-F 3 "" H 10350 14250 50  0001 C CNN
-F 4 "TLV75533PDBVR" H 10800 13700 50  0001 C CNN "MPN"
-F 5 "49899 In Stock" H 10350 13950 50  0001 C CNN "Availability"
-F 6 "LDO Voltage Regulators 500-mA, Low IQ, Small Size, Low Dropout Regulator 5-SOT-23 -40 to 125" H 10350 13950 50  0001 C CNN "Description"
-F 7 "0.541  EUR" H 10350 13950 50  0001 C CNN "Price"
-F 8 "New Product" H 10350 13950 50  0001 C CNN "LifeCycle"
-F 9 "Mouser" H 10350 13950 50  0001 C CNN "Vendor"
-	1    10350 13950
+P 8375 15750
+F 0 "U?" H 8375 16115 50  0000 C CNN
+F 1 "IC_TLV5533" H 8375 16024 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8375 16050 50  0001 C CNN
+F 3 "" H 8375 16050 50  0001 C CNN
+F 4 "TLV75533PDBVR" H 8825 15500 50  0001 C CNN "MPN"
+F 5 "49899 In Stock" H 8375 15750 50  0001 C CNN "Availability"
+F 6 "LDO Voltage Regulators 500-mA, Low IQ, Small Size, Low Dropout Regulator 5-SOT-23 -40 to 125" H 8375 15750 50  0001 C CNN "Description"
+F 7 "0.541  EUR" H 8375 15750 50  0001 C CNN "Price"
+F 8 "New Product" H 8375 15750 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 8375 15750 50  0001 C CNN "Vendor"
+	1    8375 15750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9075 13850 9300 13850
+	7100 15650 7325 15650
 Wire Wire Line
-	10700 13850 10900 13850
+	8725 15650 8925 15650
 $Comp
 L SwEmb:CAP_22uF_10V_0805 C?
 U 1 1 8B0DC03A
-P 9300 14150
-F 0 "C?" H 9397 14150 50  0000 L CNN
-F 1 "CAP_22uF_10V_0805" H 9310 14070 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9750 14300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 9310 14220 50  0001 C CNN
-F 4 "LMK212BBJ226MG-T" H 9750 14400 50  0001 C CNN "MPN"
-F 5 "131798 In Stock" H 9300 14150 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" H 9300 14150 50  0001 C CNN "Description"
-F 7 "OK" H 9300 14150 50  0001 C CNN "LifeCycle"
-F 8 "0.245  EUR" H 9300 14150 50  0001 C CNN "Price"
-F 9 "Mouser" H 9300 14150 50  0001 C CNN "Vendor"
-	1    9300 14150
+P 7325 15950
+F 0 "C?" H 7422 15950 50  0000 L CNN
+F 1 "CAP_22uF_10V_0805" H 7335 15870 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7775 16100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 7335 16020 50  0001 C CNN
+F 4 "LMK212BBJ226MG-T" H 7775 16200 50  0001 C CNN "MPN"
+F 5 "131798 In Stock" H 7325 15950 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" H 7325 15950 50  0001 C CNN "Description"
+F 7 "OK" H 7325 15950 50  0001 C CNN "LifeCycle"
+F 8 "0.245  EUR" H 7325 15950 50  0001 C CNN "Price"
+F 9 "Mouser" H 7325 15950 50  0001 C CNN "Vendor"
+	1    7325 15950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 13850 9300 14050
-Connection ~ 9300 13850
+	7325 15650 7325 15850
+Connection ~ 7325 15650
 Wire Wire Line
-	9300 13850 9575 13850
+	7325 15650 7600 15650
 Wire Wire Line
-	9300 14250 9300 14600
+	7325 16050 7325 16400
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0282
 U 1 1 8B463D7A
-P 9300 14600
-F 0 "#PWR?" H 9300 14350 50  0001 C CNN
-F 1 "GNDREF" H 9300 14450 50  0001 C CNN
-F 2 "" H 9300 14600 50  0001 C CNN
-F 3 "" H 9300 14600 50  0001 C CNN
-F 4 "#" H 9300 14600 50  0001 C CNN "MPN"
-	1    9300 14600
+P 7325 16400
+F 0 "#PWR0282" H 7325 16150 50  0001 C CNN
+F 1 "GNDREF" H 7325 16250 50  0001 C CNN
+F 2 "" H 7325 16400 50  0001 C CNN
+F 3 "" H 7325 16400 50  0001 C CNN
+F 4 "#" H 7325 16400 50  0001 C CNN "MPN"
+	1    7325 16400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7825 13700 7850 13700
+	5850 15500 5875 15500
 Wire Wire Line
-	7850 13700 7850 13850
+	5875 15500 5875 15650
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0283
 U 1 1 8B62B324
-P 7625 13700
-F 0 "#PWR?" H 7625 13450 50  0001 C CNN
-F 1 "GNDREF" H 7625 13550 50  0001 C CNN
-F 2 "" H 7625 13700 50  0001 C CNN
-F 3 "" H 7625 13700 50  0001 C CNN
-F 4 "#" H 7625 13700 50  0001 C CNN "MPN"
-	1    7625 13700
+P 5650 15500
+F 0 "#PWR0283" H 5650 15250 50  0001 C CNN
+F 1 "GNDREF" H 5650 15350 50  0001 C CNN
+F 2 "" H 5650 15500 50  0001 C CNN
+F 3 "" H 5650 15500 50  0001 C CNN
+F 4 "#" H 5650 15500 50  0001 C CNN "MPN"
+	1    5650 15500
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:CAP_10uF_35V_0603 C?
 U 1 1 8B62BE94
-P 7725 13700
-F 0 "C?" V 7583 13700 50  0000 C CNN
-F 1 "CAP_10uF_35V_0603" H 7735 13620 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8175 13850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 7735 13770 50  0001 C CNN
-F 4 "GRM188R6YA106MA73D" H 7725 13350 50  0001 C CNN "MPN"
-F 5 "1829 In Stock" H 7725 13700 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp" H 7725 13700 50  0001 C CNN "Description"
-F 7 "Mouser" H 7725 13700 50  0001 C CNN "Vendor"
-F 8 "OK" H 7725 13700 50  0001 C CNN "LifeCycle"
-F 9 "0.437  EUR" H 7725 13700 50  0001 C CNN "Price"
-	1    7725 13700
+P 5750 15500
+F 0 "C?" V 5608 15500 50  0000 C CNN
+F 1 "CAP_10uF_35V_0603" H 5760 15420 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 15650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 5760 15570 50  0001 C CNN
+F 4 "GRM188R6YA106MA73D" H 5750 15150 50  0001 C CNN "MPN"
+F 5 "1829 In Stock" H 5750 15500 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp" H 5750 15500 50  0001 C CNN "Description"
+F 7 "Mouser" H 5750 15500 50  0001 C CNN "Vendor"
+F 8 "OK" H 5750 15500 50  0001 C CNN "LifeCycle"
+F 9 "0.437  EUR" H 5750 15500 50  0001 C CNN "Price"
+	1    5750 15500
 	0    1    1    0   
 $EndComp
 $Comp
 L SwEmb:CAP_22uF_10V_0805 C?
 U 1 1 8B62C9A2
-P 9575 14150
-F 0 "C?" H 9672 14150 50  0000 L CNN
-F 1 "CAP_22uF_10V_0805" H 9585 14070 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10025 14300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 9585 14220 50  0001 C CNN
-F 4 "LMK212BBJ226MG-T" H 10025 14400 50  0001 C CNN "MPN"
-F 5 "131798 In Stock" H 9575 14150 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" H 9575 14150 50  0001 C CNN "Description"
-F 7 "OK" H 9575 14150 50  0001 C CNN "LifeCycle"
-F 8 "0.245  EUR" H 9575 14150 50  0001 C CNN "Price"
-F 9 "Mouser" H 9575 14150 50  0001 C CNN "Vendor"
-	1    9575 14150
+P 7600 15950
+F 0 "C?" H 7697 15950 50  0000 L CNN
+F 1 "CAP_22uF_10V_0805" H 7610 15870 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8050 16100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 7610 16020 50  0001 C CNN
+F 4 "LMK212BBJ226MG-T" H 8050 16200 50  0001 C CNN "MPN"
+F 5 "131798 In Stock" H 7600 15950 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" H 7600 15950 50  0001 C CNN "Description"
+F 7 "OK" H 7600 15950 50  0001 C CNN "LifeCycle"
+F 8 "0.245  EUR" H 7600 15950 50  0001 C CNN "Price"
+F 9 "Mouser" H 7600 15950 50  0001 C CNN "Vendor"
+	1    7600 15950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9575 13850 9575 14050
-Connection ~ 9575 13850
+	7600 15650 7600 15850
+Connection ~ 7600 15650
 Wire Wire Line
-	9575 14250 9575 14600
+	7600 16050 7600 16400
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0284
 U 1 1 8B9BC481
-P 9575 14600
-F 0 "#PWR?" H 9575 14350 50  0001 C CNN
-F 1 "GNDREF" H 9575 14450 50  0001 C CNN
-F 2 "" H 9575 14600 50  0001 C CNN
-F 3 "" H 9575 14600 50  0001 C CNN
-F 4 "#" H 9575 14600 50  0001 C CNN "MPN"
-	1    9575 14600
+P 7600 16400
+F 0 "#PWR0284" H 7600 16150 50  0001 C CNN
+F 1 "GNDREF" H 7600 16250 50  0001 C CNN
+F 2 "" H 7600 16400 50  0001 C CNN
+F 3 "" H 7600 16400 50  0001 C CNN
+F 4 "#" H 7600 16400 50  0001 C CNN "MPN"
+	1    7600 16400
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:CAP_22uF_10V_0805 C?
 U 1 1 8BB8502E
-P 10900 14150
-F 0 "C?" H 10997 14150 50  0000 L CNN
-F 1 "CAP_22uF_10V_0805" H 10910 14070 50  0001 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11350 14300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 10910 14220 50  0001 C CNN
-F 4 "LMK212BBJ226MG-T" H 11350 14400 50  0001 C CNN "MPN"
-F 5 "131798 In Stock" H 10900 14150 50  0001 C CNN "Availability"
-F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" H 10900 14150 50  0001 C CNN "Description"
-F 7 "OK" H 10900 14150 50  0001 C CNN "LifeCycle"
-F 8 "0.245  EUR" H 10900 14150 50  0001 C CNN "Price"
-F 9 "Mouser" H 10900 14150 50  0001 C CNN "Vendor"
-	1    10900 14150
+P 8925 15950
+F 0 "C?" H 9022 15950 50  0000 L CNN
+F 1 "CAP_22uF_10V_0805" H 8935 15870 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9375 16100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 8935 16020 50  0001 C CNN
+F 4 "LMK212BBJ226MG-T" H 9375 16200 50  0001 C CNN "MPN"
+F 5 "131798 In Stock" H 8925 15950 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" H 8925 15950 50  0001 C CNN "Description"
+F 7 "OK" H 8925 15950 50  0001 C CNN "LifeCycle"
+F 8 "0.245  EUR" H 8925 15950 50  0001 C CNN "Price"
+F 9 "Mouser" H 8925 15950 50  0001 C CNN "Vendor"
+	1    8925 15950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10900 13850 10900 14050
-Connection ~ 10900 13850
-Wire Wire Line
-	10900 13850 11000 13850
+	8925 15650 8925 15850
+Connection ~ 8925 15650
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0285
 U 1 1 8BD4E538
-P 10700 14000
-F 0 "#PWR?" H 10700 13750 50  0001 C CNN
-F 1 "GNDREF" H 10700 13850 50  0001 C CNN
-F 2 "" H 10700 14000 50  0001 C CNN
-F 3 "" H 10700 14000 50  0001 C CNN
-F 4 "#" H 10700 14000 50  0001 C CNN "MPN"
-	1    10700 14000
+P 8725 15800
+F 0 "#PWR0285" H 8725 15550 50  0001 C CNN
+F 1 "GNDREF" H 8725 15650 50  0001 C CNN
+F 2 "" H 8725 15800 50  0001 C CNN
+F 3 "" H 8725 15800 50  0001 C CNN
+F 4 "#" H 8725 15800 50  0001 C CNN "MPN"
+	1    8725 15800
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:GNDREF #PWR?
+L SwEmb:GNDREF #PWR0286
 U 1 1 8BD4ECBD
-P 10900 14600
-F 0 "#PWR?" H 10900 14350 50  0001 C CNN
-F 1 "GNDREF" H 10900 14450 50  0001 C CNN
-F 2 "" H 10900 14600 50  0001 C CNN
-F 3 "" H 10900 14600 50  0001 C CNN
-F 4 "#" H 10900 14600 50  0001 C CNN "MPN"
-	1    10900 14600
+P 8925 16400
+F 0 "#PWR0286" H 8925 16150 50  0001 C CNN
+F 1 "GNDREF" H 8925 16250 50  0001 C CNN
+F 2 "" H 8925 16400 50  0001 C CNN
+F 3 "" H 8925 16400 50  0001 C CNN
+F 4 "#" H 8925 16400 50  0001 C CNN "MPN"
+	1    8925 16400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10900 14250 10900 14600
-Text GLabel 11000 13850 2    50   Input ~ 0
-VDD_5V
+	8925 16050 8925 16400
+Text GLabel 9375 15650 2    50   Input ~ 0
+VDD_3V3
 Wire Wire Line
-	9575 13850 9700 13850
+	7600 15650 7725 15650
 $Comp
 L SwEmb:RES_10K_1%_0402 R?
 U 1 1 8C47B889
-P 9850 14000
-F 0 "R?" V 9746 14000 50  0000 C CNN
-F 1 "RES_10K_1%_0402" H 9880 13960 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9780 13920 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 9850 14000 50  0001 C CNN
-F 4 "CRCW040210K0FKEDC" H 9980 14120 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 9850 14000 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 9850 14000 50  0001 C CNN "Description"
-F 7 "New Product" H 9850 14000 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 9850 14000 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 9850 14000 50  0001 C CNN "Price"
-	1    9850 14000
+P 7875 15800
+F 0 "R?" V 7771 15800 50  0000 C CNN
+F 1 "RES_10K_1%_0402" H 7905 15760 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7805 15720 50  0001 C CNN
+F 3 "" H 7875 15800 50  0001 C CNN
+F 4 "CRCW040210K0FKEDC" H 8005 15920 50  0001 C CNN "MPN"
+F 5 "1813839 In Stock" H 7875 15800 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 7875 15800 50  0001 C CNN "Description"
+F 7 "New Product" H 7875 15800 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 7875 15800 50  0001 C CNN "Vendor"
+F 9 "0.114  EUR" H 7875 15800 50  0001 C CNN "Price"
+	1    7875 15800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9950 14000 10000 14000
+	7975 15800 8025 15800
 Wire Wire Line
-	9750 14000 9700 14000
+	7775 15800 7725 15800
 Wire Wire Line
-	9700 14000 9700 13850
-Connection ~ 9700 13850
+	7725 15800 7725 15650
+Connection ~ 7725 15650
 Wire Wire Line
-	9700 13850 10000 13850
+	7725 15650 8025 15650
+$Comp
+L SwEmb:LB_220R_2A_0603 FB?
+U 1 1 8C81ED21
+P 6900 1000
+F 0 "FB?" V 7004 1000 50  0000 C CNN
+F 1 "LB_220R_2A_0603" H 6930 960 50  0001 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 6830 920 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" H 6930 1020 50  0001 C CNN
+F 4 "BLM18EG221SN1D" H 6900 700 50  0001 C CNN "MPN"
+F 5 "193480 In Stock" H 6900 1000 50  0001 C CNN "Availability"
+F 6 "Ferrite Beads 220ohms GHz General Usage" H 6900 1000 50  0001 C CNN "Description"
+F 7 "0.201  EUR" H 6900 1000 50  0001 C CNN "Price"
+F 8 "OK" H 6900 1000 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
+	1    6900 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 8C9F316D
+P 7725 15650
+F 0 "TP?" H 7725 15920 50  0001 C CNN
+F 1 "Test_Point" H 7725 15850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7925 15650 50  0001 C CNN
+F 3 "" H 7925 15650 50  0001 C CNN
+	1    7725 15650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 8C9F38EE
+P 5050 15650
+F 0 "TP?" H 5050 15920 50  0001 C CNN
+F 1 "Test_Point" H 5050 15850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5250 15650 50  0001 C CNN
+F 3 "" H 5250 15650 50  0001 C CNN
+	1    5050 15650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 8C9F3BF5
+P 2925 15650
+F 0 "TP?" H 2925 15920 50  0001 C CNN
+F 1 "Test_Point" H 2925 15850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3125 15650 50  0001 C CNN
+F 3 "" H 3125 15650 50  0001 C CNN
+	1    2925 15650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2925 15650
+Wire Wire Line
+	2925 15650 3000 15650
+Wire Wire Line
+	7000 1000 7575 1000
+Connection ~ 7575 1650
+Wire Wire Line
+	7675 1650 7675 1750
+Wire Wire Line
+	7575 1650 7675 1650
+Text GLabel 7500 1250 0    50   Input ~ 0
+VREF1
+Text GLabel 7500 1350 0    50   Input ~ 0
+VREF2
+Wire Wire Line
+	7500 1250 7575 1250
+Connection ~ 7575 1250
+Wire Wire Line
+	7575 1250 7575 1350
+Wire Wire Line
+	7500 1350 7575 1350
+Connection ~ 7575 1350
+Wire Wire Line
+	7575 1350 7575 1650
+Wire Wire Line
+	7575 1000 7575 1250
+Text GLabel 9375 15550 2    50   Input ~ 0
+VDD_3V3_MCU
+Text GLabel 6850 15300 0    50   Input ~ 0
+VDD_5V_DBG_IN
+$Comp
+L SwEmb:D_BAT54S D?
+U 1 1 8DC572D9
+P 7100 15300
+F 0 "D?" H 6775 15400 50  0000 C CNN
+F 1 "D_BAT54S" H 6875 15150 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7175 15425 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/308/BAT54SLT1-D-103997.pdf" H 6980 15300 50  0001 C CNN
+F 4 "BAT54SLT1G" H 7100 15300 50  0001 C CNN "MPN"
+F 5 "388644 In Stock" H 7100 15300 50  0001 C CNN "Availability"
+F 6 "Schottky Diodes & Rectifiers 30V 225mW Dual" H 7100 15300 50  0001 C CNN "Description"
+F 7 "OK" H 7100 15300 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 7100 15300 50  0001 C CNN "Vendor"
+F 9 "0.157  EUR" H 7100 15300 50  0001 C CNN "Price"
+	1    7100 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 15400 7100 15550
+Connection ~ 7100 15550
+NoConn ~ 7350 15300
+$Comp
+L SwEmb:D_MM3Z3V3B D?
+U 1 1 8E3C96D9
+P 9250 15950
+F 0 "D?" V 9250 16018 50  0000 L CNN
+F 1 "D_MM3Z3V3B" H 9250 15860 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323F" H 9150 15940 50  0001 C CNN
+F 3 "" H 9250 16040 50  0001 C CNN
+F 4 "MM3Z3V3B" H 9250 15950 39  0001 C CNN "MPN"
+	1    9250 15950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8925 15650 9250 15650
+Wire Wire Line
+	9250 15850 9250 15650
+Connection ~ 9250 15650
+Wire Wire Line
+	9250 15650 9375 15650
+Wire Wire Line
+	9250 15650 9250 15550
+Wire Wire Line
+	9250 15550 9375 15550
+Wire Wire Line
+	9250 16050 9250 16400
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 8EEDF148
+P 9250 16400
+F 0 "#PWR?" H 9250 16150 50  0001 C CNN
+F 1 "GNDREF" H 9250 16250 50  0001 C CNN
+F 2 "" H 9250 16400 50  0001 C CNN
+F 3 "" H 9250 16400 50  0001 C CNN
+F 4 "#" H 9250 16400 50  0001 C CNN "MPN"
+	1    9250 16400
+	1    0    0    -1  
+$EndComp
+Text Notes 1500 15125 0    118  ~ 0
+Power
+Wire Notes Line
+	10075 15050 10075 16700
+Wire Notes Line
+	10075 16700 1150 16700
+Wire Notes Line
+	1150 16700 1150 15050
+Wire Notes Line
+	1150 15050 1450 15050
+Wire Notes Line
+	2075 15050 10075 15050
+Text GLabel 14075 3125 0    50   Input ~ 0
+ENCPWEN1
+Text GLabel 14075 3425 0    50   Input ~ 0
+ENCPWEN2
+Text GLabel 14075 3225 0    50   Input ~ 0
+ENCOC1
+Text GLabel 14075 3325 0    50   Input ~ 0
+ENCOC2
+Text GLabel 14075 3525 0    50   Input ~ 0
+ENCA1
+Text GLabel 14075 3625 0    50   Input ~ 0
+ENCAF1
+Text GLabel 14075 3825 0    50   Input ~ 0
+ENCB1
+Text GLabel 14075 3925 0    50   Input ~ 0
+ENCBF1
+Text GLabel 14075 4125 0    50   Input ~ 0
+ENCZ1
+Text GLabel 14075 4225 0    50   Input ~ 0
+ENCZF1
+Text GLabel 14075 4425 0    50   Input ~ 0
+ENCSY1
+Text GLabel 14075 4525 0    50   Input ~ 0
+ENCSYF1
+Text GLabel 14075 4625 0    50   Input ~ 0
+ENCSYCTRL1
+Text GLabel 14075 4825 0    50   Input ~ 0
+ENCSG1
+Text GLabel 14075 4925 0    50   Input ~ 0
+ENCSGCTRL1
+Text GLabel 14075 5125 0    50   Input ~ 0
+ENCSH1
+Text GLabel 14075 5225 0    50   Input ~ 0
+ENCSHCTRL1
+Text GLabel 14075 5425 0    50   Input ~ 0
+ENCMISO1
+Text GLabel 14075 5525 0    50   Input ~ 0
+ENCCS1
+Text GLabel 14075 5625 0    50   Input ~ 0
+ENCSCK1
+Text GLabel 14075 5725 0    50   Input ~ 0
+ENCMOSI1
+Text GLabel 14075 5825 0    50   Input ~ 0
+ENCIRQ1
+Text GLabel 14075 5925 0    50   Input ~ 0
+EN_GATE1
+Text GLabel 14075 6025 0    50   Input ~ 0
+INHA1
+Text GLabel 14075 6125 0    50   Input ~ 0
+INLA1
+Text GLabel 14075 6225 0    50   Input ~ 0
+INHB1
+Text GLabel 14075 6325 0    50   Input ~ 0
+INLB1
+Text GLabel 14075 6425 0    50   Input ~ 0
+INHC1
+Text GLabel 14075 6525 0    50   Input ~ 0
+INLC1
+Text GLabel 14075 6625 0    50   Input ~ 0
+SOA1
+Text GLabel 14075 6725 0    50   Input ~ 0
+SOB1
+Text GLabel 14075 6825 0    50   Input ~ 0
+VSA1
+Text GLabel 14075 6925 0    50   Input ~ 0
+VSB1
+Text GLabel 14075 7025 0    50   Input ~ 0
+VSC1
+Text GLabel 14075 7725 0    50   Input ~ 0
+ENCA2
+Text GLabel 14075 7825 0    50   Input ~ 0
+ENCAF2
+Text GLabel 14075 8025 0    50   Input ~ 0
+ENCB2
+Text GLabel 14075 8125 0    50   Input ~ 0
+ENCBF2
+Text GLabel 14075 8325 0    50   Input ~ 0
+ENCZ2
+Text GLabel 14075 8425 0    50   Input ~ 0
+ENCZF2
+Text GLabel 14075 8625 0    50   Input ~ 0
+ENCSY2
+Text GLabel 14075 8725 0    50   Input ~ 0
+ENCSYF2
+Text GLabel 14075 8825 0    50   Input ~ 0
+ENCSYCTRL2
+Text GLabel 14075 9025 0    50   Input ~ 0
+ENCSG2
+Text GLabel 14075 9125 0    50   Input ~ 0
+ENCSGCTRL2
+Text GLabel 14075 9325 0    50   Input ~ 0
+ENCSH2
+Text GLabel 14075 9425 0    50   Input ~ 0
+ENCSHCTRL2
+Text GLabel 14075 9625 0    50   Input ~ 0
+ENCMISO2
+Text GLabel 14075 9725 0    50   Input ~ 0
+ENCCS2
+Text GLabel 14075 9825 0    50   Input ~ 0
+ENCSCK2
+Text GLabel 14075 9925 0    50   Input ~ 0
+ENCMOSI2
+Text GLabel 14075 10025 0    50   Input ~ 0
+ENCIRQ2
+Text GLabel 14075 10125 0    50   Input ~ 0
+EN_GATE2
+Text GLabel 14075 10225 0    50   Input ~ 0
+INHA2
+Text GLabel 14075 10325 0    50   Input ~ 0
+INLA2
+Text GLabel 14075 10425 0    50   Input ~ 0
+INHB2
+Text GLabel 14075 10525 0    50   Input ~ 0
+INLB2
+Text GLabel 14075 10625 0    50   Input ~ 0
+INHC2
+Text GLabel 14075 10725 0    50   Input ~ 0
+INLC2
+Text GLabel 14075 10825 0    50   Input ~ 0
+VREF2
+Text GLabel 14075 10925 0    50   Input ~ 0
+SOA2
+Text GLabel 14075 11125 0    50   Input ~ 0
+SOB2
+Text GLabel 14075 11225 0    50   Input ~ 0
+VSA2
+Text GLabel 14075 11325 0    50   Input ~ 0
+VSB2
+Text GLabel 14075 11425 0    50   Input ~ 0
+VSC2
+Text GLabel 14075 7125 0    50   Input ~ 0
+HALL_A1
+Text GLabel 14075 7225 0    50   Input ~ 0
+HALL_B1
+Text GLabel 14075 7325 0    50   Input ~ 0
+HALL_C1
+Text GLabel 14075 11525 0    50   Input ~ 0
+HALL_A1
+Text GLabel 14075 11625 0    50   Input ~ 0
+HALL_B1
+Text GLabel 14075 11725 0    50   Input ~ 0
+HALL_C1
+Text GLabel 13000 9775 2    50   Input ~ 0
+POT1
+Text GLabel 13000 9975 2    50   Input ~ 0
+POT2
+Text GLabel 13000 10175 2    50   Input ~ 0
+POT3
+Text GLabel 13000 10375 2    50   Input ~ 0
+POT4
+Text GLabel 13000 9875 2    50   Input ~ 0
+POT5
+Text GLabel 13000 10075 2    50   Input ~ 0
+POT6
+Text GLabel 13000 10275 2    50   Input ~ 0
+POT7
+Text GLabel 13000 10475 2    50   Input ~ 0
+POT8
+Text GLabel 14075 11825 0    50   Input ~ 0
+AINPWEN
+Text GLabel 14075 11925 0    50   Input ~ 0
+AIN_OC
+Text GLabel 14075 12025 0    50   Input ~ 0
+AP_SCL1
+Text GLabel 14075 12125 0    50   Input ~ 0
+AP_SDA1
+Text GLabel 13000 10575 2    50   Input ~ 0
+AP_RESET1
+Text GLabel 13000 10675 2    50   Input ~ 0
+AP_WP1
+Text GLabel 14075 12525 0    50   Input ~ 0
+CAN_TX2
+Text GLabel 14075 12625 0    50   Input ~ 0
+CAN_RX2
+Text GLabel 14075 12725 0    50   Input ~ 0
+CAN_STB2
+Text GLabel 14075 12225 0    50   Input ~ 0
+CAN_TX1
+Text GLabel 14075 12325 0    50   Input ~ 0
+CAN_RX1
+Text GLabel 14075 12425 0    50   Input ~ 0
+CAN_STB1
+Text GLabel 14075 12825 0    50   Input ~ 0
+CANFD_MOSI
+Text GLabel 14075 12925 0    50   Input ~ 0
+CANFD_MISO
+Text GLabel 14075 13025 0    50   Input ~ 0
+CANFD_CS
+Text GLabel 14075 13125 0    50   Input ~ 0
+CANFD_SCK
+Text GLabel 14075 13275 0    50   Input ~ 0
+CANFD_SOF
+Text GLabel 14075 13375 0    50   Input ~ 0
+CANFD_INT
+Text GLabel 13000 10775 2    50   Input ~ 0
+EE_SDA
+Text GLabel 13000 10875 2    50   Input ~ 0
+EE_SCL
+Text GLabel 13000 10975 2    50   Input ~ 0
+EE_WEN
+Text GLabel 14075 13475 0    50   Input ~ 0
+ECAT_RESET
+Text GLabel 14075 13575 0    50   Input ~ 0
+ECAT_IRQ
+Text GLabel 14075 13675 0    50   Input ~ 0
+ECAT_MOSI
+Text GLabel 14075 13775 0    50   Input ~ 0
+ECAT_MISO
+Text GLabel 14075 13875 0    50   Input ~ 0
+ECAT_CS
+Text GLabel 14075 13975 0    50   Input ~ 0
+ECAT_SCK
+Text Notes 15175 4075 0    118  ~ 0
+Motor Sensors 1
+Text Notes 15175 8100 0    118  ~ 0
+Motor Sensors 2
+Wire Notes Line
+	18675 4000 18675 7875
+Wire Notes Line
+	18675 7875 14800 7875
+Wire Notes Line
+	14800 7875 14800 4000
+Wire Notes Line
+	14800 4000 15150 4000
+Wire Notes Line
+	15150 8025 14800 8025
+Wire Notes Line
+	14800 8025 14800 11825
+Wire Notes Line
+	14800 11825 18675 11825
+Wire Notes Line
+	18675 11825 18675 8025
+Wire Notes Line
+	18675 8025 16700 8025
+Wire Notes Line
+	18675 4000 16650 4000
+Text Notes 17550 4325 0    39   ~ 0
+Use extra inputs for HALL?\nAdd possibility to bypass
+Text Notes 15825 3600 0    39   ~ 0
+Add possibility to bypass power
+Text Notes 2675 22350 0    39   ~ 0
+Add possibility to bypass
 $EndSCHEMATC

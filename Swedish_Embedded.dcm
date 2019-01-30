@@ -18,6 +18,12 @@ K schottky diode
 F https://www.diodes.com/assets/Datasheets/ds11005.pdf
 $ENDCMP
 #
+$CMP D_MM3Z3V3B
+D Zener Diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_SMBJ12A
 D Schottky diode
 K diode Schottky
