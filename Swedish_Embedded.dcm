@@ -18,6 +18,24 @@ K schottky diode
 F https://www.diodes.com/assets/Datasheets/ds11005.pdf
 $ENDCMP
 #
+$CMP D_SMBJ12A
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP D_SMBJ48A
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP D_SMBJ5.0A
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
 $CMP IC_LM324
 D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp

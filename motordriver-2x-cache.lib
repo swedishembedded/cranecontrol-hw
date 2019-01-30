@@ -236,6 +236,31 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SwEmb_CAP_10uF_35V_0603
+#
+DEF ~SwEmb_CAP_10uF_35V_0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "SwEmb_CAP_10uF_35V_0603" 10 -80 50 H I L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN
+F4 "GRM188R6YA106MA73D" 0 -350 50 H I C CNN "MPN"
+F5 "1829 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp" 0 0 50 H I C CNN "Description"
+F7 "Mouser" 0 0 50 H I C CNN "Vendor"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "0.437  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "10uF 35V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SwEmb_CAP_1nF_100V_0603
 #
 DEF ~SwEmb_CAP_1nF_100V_0603 C 0 10 N N 1 F N
@@ -354,6 +379,31 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 0 0 0 20 0 0 0 "2.2uF 16V" Normal 0 C C
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_CAP_22uF_10V_0805
+#
+DEF ~SwEmb_CAP_22uF_10V_0805 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "SwEmb_CAP_22uF_10V_0805" 10 -80 50 H I L CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 450 150 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" 10 70 50 H I C CNN
+F4 "LMK212BBJ226MG-T" 450 250 50 H I C CNN "MPN"
+F5 "131798 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.245  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:C_*
+$ENDFPLIST
+DRAW
+T 0 0 0 20 0 0 0 "22uF 10V" Normal 0 C C
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
@@ -561,6 +611,52 @@ S -150 150 100 -150 0 1 0 N
 X A 1 -250 100 100 R 50 50 1 1 W
 X W 2 -250 0 100 R 50 50 1 1 O
 X B 3 -250 -100 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# SwEmb_CONN_POWER_10A
+#
+DEF ~SwEmb_CONN_POWER_10A P 0 40 Y Y 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "SwEmb_CONN_POWER_10A" -100 900 50 H I C CNN
+F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F4 "691321100002" -100 900 50 H I C CNN "MPN"
+F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
+F7 "OK" 0 900 50 H I C CNN "LifeCycle"
+F8 "0.38  EUR" 100 900 50 H I C CNN "Price"
+F9 "Mouser" 0 -50 50 H I C CNN "Vendor"
+DRAW
+S -150 100 100 -100 0 1 0 N
+X VCC 1 -250 50 100 R 50 50 1 1 P
+X GND 2 -250 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_CONN_POWER_41A
+#
+DEF ~SwEmb_CONN_POWER_41A P 0 40 Y Y 1 F N
+F0 "P" -100 150 50 H V C CNN
+F1 "SwEmb_CONN_POWER_41A" 0 -150 50 H I C CNN
+F2 "CUSTOM:PhoenixContact_Power41A_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" -100 -50 50 H I C CNN
+F3 "" -100 -50 50 H V C CNN
+F4 "1720466" 0 0 50 H I C CNN "MPN"
+F5 "357 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks 2 Pos 7.62mm pitch Through Hole Header" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "2.68  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ Pin_Header_Straight_1X03
+ Pin_Header_Angled_1X03
+ Socket_Strip_Straight_1X03
+ Socket_Strip_Angled_1X03
+$ENDFPLIST
+DRAW
+S -150 100 125 -100 0 1 0 N
+X VCC 1 -250 50 100 R 50 50 1 1 P
+X GND 2 -250 -50 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -818,6 +914,68 @@ P 4 0 1 0 60 60 0 100 60 140 60 60 F
 X ~ 1 -150 100 70 R 50 50 1 1 P
 X K 2 -150 -100 70 R 50 50 1 1 P
 X A 3 150 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_D_SMBJ12A
+#
+DEF ~SwEmb_D_SMBJ12A D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "SwEmb_D_SMBJ12A" 0 -100 50 H I C CNN
+F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN
+F4 "SMBJ12A-TR" 0 0 50 H I C CNN "MPN"
+F5 "11297 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ESD Suppressors / TVS Diodes 600W 12V Unidirect" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.314  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 10 -100 20 0 0 0 SMBJ12A Normal 0 C C
+P 2 0 1 8 -50 50 -75 75 N
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 50 -50 -50 -25 -75 N
+P 4 0 1 8 -50 0 40 50 40 -50 -50 0 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_D_SMBJ48A
+#
+DEF ~SwEmb_D_SMBJ48A D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "SwEmb_D_SMBJ48A" 0 -100 50 H I C CNN
+F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN
+F4 "SMBJ48A-TR" 0 0 50 H I C CNN "MPN"
+F5 "12398 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "ESD Suppressors / TVS Diodes 600W 48V Unidirect" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.314  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 10 -100 20 0 0 0 SMBJ48A Normal 0 C C
+P 2 0 1 8 -50 50 -75 75 N
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 50 -50 -50 -25 -75 N
+P 4 0 1 8 -50 0 40 50 40 -50 -50 0 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1444,6 +1602,30 @@ X STB 8 -500 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# SwEmb_IC_TLV5533
+#
+DEF SwEmb_IC_TLV5533 U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "SwEmb_IC_TLV5533" 0 250 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+F4 "TLV75533PDBVR" 450 -250 50 H I C CNN "MPN"
+F5 "49899 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "LDO Voltage Regulators 500-mA, Low IQ, Small Size, Low Dropout Regulator 5-SOT-23 -40 to 125" 0 0 50 H I C CNN "Description"
+F7 "0.541  EUR" 0 0 50 H I C CNN "Price"
+F8 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+DRAW
+T 0 150 50 20 0 0 0 "3.3V 500mA" Normal 0 C C
+S -250 200 250 -150 0 1 0 N
+X IN 1 -350 100 100 R 50 50 1 1 W
+X GND 2 350 -50 100 L 50 50 1 1 W
+X EN 3 -350 -50 100 R 50 50 1 1 I
+X NC 4 0 -250 100 U 50 50 1 1 U N
+X OUT 5 350 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # SwEmb_IC_TPS54360DDA
 #
 DEF SwEmb_IC_TPS54360DDA U 0 10 Y Y 1 F N
@@ -1473,6 +1655,36 @@ X COMP 6 -400 -100 100 R 50 50 1 1 P
 X GND 7 50 -450 100 U 50 50 1 1 W
 X SW 8 400 0 100 L 50 50 1 1 O
 X GNDPAD 9 150 -450 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# SwEmb_IC_TPS62147RGXR
+#
+DEF SwEmb_IC_TPS62147RGXR U 0 40 Y Y 1 F N
+F0 "U" 0 450 50 H V C CNN
+F1 "SwEmb_IC_TPS62147RGXR" 0 -450 50 H V C CNN
+F2 "CUSTOM:RGX_VQFN-11" -50 -800 50 H I C CNN
+F3 "" -50 -800 50 H I C CNN
+F4 "TPS62147RGXR" 0 -550 50 H I C CNN "MPN"
+F5 "26992 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Switching Voltage Regulators 3-17V 2.0A Step-Down Converter with 1% accuracy and PFM/Forced-PWM in 2x3QFN 11-VQFN-HR -40 to 125" 0 0 50 H I C CNN "Description"
+F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "1.88  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+T 0 210 350 20 0 0 0 2.0A Normal 0 C C
+S -300 400 300 -400 0 1 0 N
+X VIN 1 -400 300 100 R 50 50 1 1 W
+X MODE 10 -400 -200 100 R 50 50 1 1 I
+X FSEL 11 -400 0 100 R 50 50 1 1 I
+X SW 2 400 300 100 L 50 50 1 1 B
+X GND 3 400 -300 100 L 50 50 1 1 W
+X AGND 4 400 -200 100 L 50 50 1 1 W
+X FB 5 400 0 100 L 50 50 1 1 I
+X VOS 6 400 200 100 L 50 50 1 1 I
+X PG 7 400 -100 100 L 50 50 1 1 O
+X EN 8 -400 200 100 R 50 50 1 1 I
+X SS/TR 9 -400 -300 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1702,6 +1914,36 @@ A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
 A 0 20 20 -899 899 0 1 0 N 0 0 0 40
 A 0 60 20 -899 899 0 1 0 N 0 40 0 80
 T 900 -30 0 20 0 0 0 "100uH 3.64A" Normal 0 C C
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_L_2.2uH_8A
+#
+DEF ~SwEmb_L_2.2uH_8A L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "SwEmb_L_2.2uH_8A" 30 -40 50 H I L CNN
+F2 "Inductor_SMD:L_Coilcraft_XxL4020" -70 -60 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/597/xfl4020-270756.pdf" 0 0 50 H I C CNN
+F4 "XFL4020-222MEC" 0 -300 50 H I C CNN "MPN"
+F5 "31040 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Fixed Inductors 2.2uH 20% 8A 23.5mOhms AEC-Q200" 0 0 50 H I C CNN "Description"
+F7 "1.93  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ *:L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+T 900 -30 0 20 0 0 0 "2.2uH 8A" Normal 0 C C
 X ~ 1 0 100 20 D 50 50 1 1 P
 X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
@@ -1982,6 +2224,30 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 900 0 0 20 0 0 0 "22R 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_RES_24k_1%_0603
+#
+DEF ~SwEmb_RES_24k_1%_0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "SwEmb_RES_24k_1%_0603" 30 -40 50 H I L CNN
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN
+F4 "CR0603-FX-2402ELF" 0 -300 50 H I C CNN "MPN"
+F5 "179806 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 24K ohm 1%" 0 0 50 H I C CNN "Description"
+F7 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "24k 1%" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
