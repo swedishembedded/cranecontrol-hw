@@ -960,6 +960,26 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONN_AN_OUT
+#
+DEF ~CONN_AN_OUT P 0 40 Y Y 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "CONN_AN_OUT" -100 900 50 H I C CNN
+F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F4 "691321100002" -100 900 50 H I C CNN "MPN"
+F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
+F7 "OK" 0 900 50 H I C CNN "LifeCycle"
+F8 "0.38  EUR" 100 900 50 H I C CNN "Price"
+F9 "Mouser" 0 -50 50 H I C CNN "Vendor"
+DRAW
+S -150 100 100 -100 0 1 0 N
+X AN 1 -250 50 100 R 50 50 1 1 I
+X GND 2 -250 -50 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # CONN_CAN
 #
 DEF ~CONN_CAN P 0 40 Y Y 1 F N
