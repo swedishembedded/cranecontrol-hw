@@ -60,6 +60,12 @@ K CAN FD Controller SPI
 F https://ww1.microchip.com/downloads/en/DeviceDoc/20005688A.pdf
 $ENDCMP
 #
+$CMP IC_SN74LV4051
+D Analog Multiplexer 8 to 1 lins
+K CMOS MUX MUX8
+F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf
+$ENDCMP
+#
 $CMP IC_STM32F429ZET6
 D Core: ARM Cortex-M4, Package: LQFP144, Flash: 512 kB, RAM: 192 kB, Frequency: 180 MHz, Voltage: 1.7..3.6V, I/O pins: 114
 K ARM Cortex-M4 STM32F4 STM32F429/439
@@ -70,6 +76,12 @@ $CMP IC_TJA1044GT3
 D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
+$ENDCMP
+#
+$CMP IC_TLV2474
+D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
+K quad opamp
+F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
 $ENDCMP
 #
 $CMP TJA1042T
