@@ -981,13 +981,13 @@ $EndComp
 $Comp
 L SwEmb:GNDREF #PWR0114
 U 1 1 5C8DFB63
-P 12450 4200
-F 0 "#PWR0114" H 12450 3950 50  0001 C CNN
-F 1 "GNDREF" H 12450 4050 50  0001 C CNN
-F 2 "" H 12450 4200 50  0001 C CNN
-F 3 "" H 12450 4200 50  0001 C CNN
-F 4 "#" H 12450 4200 50  0001 C CNN "MPN"
-	1    12450 4200
+P 12775 4150
+F 0 "#PWR0114" H 12775 3900 50  0001 C CNN
+F 1 "GNDREF" H 12775 4000 50  0001 C CNN
+F 2 "" H 12775 4150 50  0001 C CNN
+F 3 "" H 12775 4150 50  0001 C CNN
+F 4 "#" H 12775 4150 50  0001 C CNN "MPN"
+	1    12775 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -12322,29 +12322,9 @@ Wire Wire Line
 	7575 1000 7575 1250
 Text GLabel 15600 21675 2    50   Input ~ 0
 VDD_3V3_MCU
-Text GLabel 13075 21425 0    50   Input ~ 0
+Text GLabel 13375 21475 2    50   Input ~ 0
 VDD_5V_DBG_IN
-$Comp
-L SwEmb:D_BAT54S D?
-U 1 1 8DC572D9
-P 13325 21425
-F 0 "D?" H 13000 21525 50  0000 C CNN
-F 1 "D_BAT54S" H 13100 21275 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 13400 21550 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/308/BAT54SLT1-D-103997.pdf" H 13205 21425 50  0001 C CNN
-F 4 "BAT54SLT1G" H 13325 21425 50  0001 C CNN "MPN"
-F 5 "388644 In Stock" H 13325 21425 50  0001 C CNN "Availability"
-F 6 "Schottky Diodes & Rectifiers 30V 225mW Dual" H 13325 21425 50  0001 C CNN "Description"
-F 7 "OK" H 13325 21425 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 13325 21425 50  0001 C CNN "Vendor"
-F 9 "0.157  EUR" H 13325 21425 50  0001 C CNN "Price"
-	1    13325 21425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13325 21525 13325 21675
 Connection ~ 13325 21675
-NoConn ~ 13575 21425
 $Comp
 L SwEmb:D_MM3Z3V3B D?
 U 1 1 8E3C96D9
@@ -12394,35 +12374,35 @@ Wire Notes Line
 	7375 21175 7675 21175
 Wire Notes Line
 	8300 21175 16300 21175
-Text GLabel 14075 3525 0    50   Input ~ 0
+Text GLabel 13600 7200 2    50   Input ~ 0
 ENCPWEN1
-Text GLabel 14075 3825 0    50   Input ~ 0
+Text GLabel 13600 7100 2    50   Input ~ 0
 ENCPWEN2
-Text GLabel 14075 3625 0    50   Input ~ 0
+Text GLabel 15750 15825 0    50   Input ~ 0
 ENCOC1
-Text GLabel 14075 3725 0    50   Input ~ 0
+Text GLabel 15750 15925 0    50   Input ~ 0
 ENCOC2
 Text GLabel 11575 2750 2    50   Input ~ 0
 ENCA1
 Text GLabel 11575 4250 2    50   Input ~ 0
 ENCB1
-Text GLabel 14075 4125 0    50   Input ~ 0
+Text GLabel 11575 8850 2    50   Input ~ 0
 ENCZ1
-Text GLabel 14075 4225 0    50   Input ~ 0
+Text GLabel 11575 8050 2    50   Input ~ 0
 ENCSY1
-Text GLabel 14075 4325 0    50   Input ~ 0
+Text GLabel 11575 7950 2    50   Input ~ 0
 ENCSG1
-Text GLabel 14075 4425 0    50   Input ~ 0
+Text GLabel 11575 7850 2    50   Input ~ 0
 ENCSH1
-Text GLabel 12250 6650 1    50   Input ~ 0
+Text GLabel 12350 6650 1    50   Input ~ 0
 ENCMISO1
-Text GLabel 14075 4625 0    50   Input ~ 0
+Text GLabel 11575 7750 2    50   Input ~ 0
 ENCCS1
 Text GLabel 12050 6550 1    50   Input ~ 0
 ENCSCK1
-Text GLabel 12450 6750 1    50   Input ~ 0
+Text GLabel 12650 6750 1    50   Input ~ 0
 ENCMOSI1
-Text GLabel 14075 4525 0    50   Input ~ 0
+Text GLabel 11575 7650 2    50   Input ~ 0
 EN_GATE1
 Text GLabel 2375 8150 0    50   Input ~ 0
 INLA1
@@ -12450,21 +12430,19 @@ Text GLabel 11575 8650 2    50   Input ~ 0
 ENCB2
 Text GLabel 11575 8750 2    50   Input ~ 0
 ENCZ2
-Text GLabel 14075 4925 0    50   Input ~ 0
+Text GLabel 11575 8350 2    50   Input ~ 0
 ENCSY2
-Text GLabel 14075 5025 0    50   Input ~ 0
+Text GLabel 11575 8250 2    50   Input ~ 0
 ENCSG2
-Text GLabel 14075 5125 0    50   Input ~ 0
+Text GLabel 11575 8150 2    50   Input ~ 0
 ENCSH2
-Text GLabel 12350 6650 1    50   Input ~ 0
+Text GLabel 12450 6650 1    50   Input ~ 0
 ENCMISO2
-Text GLabel 14075 4725 0    50   Input ~ 0
-ENCCS2
 Text GLabel 12150 6550 1    50   Input ~ 0
 ENCSCK2
-Text GLabel 12550 6750 1    50   Input ~ 0
+Text GLabel 12750 6750 1    50   Input ~ 0
 ENCMOSI2
-Text GLabel 14075 5225 0    50   Input ~ 0
+Text GLabel 11575 7550 2    50   Input ~ 0
 EN_GATE2
 Text GLabel 11575 6250 2    50   Input ~ 0
 INHA2
@@ -12500,17 +12478,17 @@ Text GLabel 11575 2350 2    50   Input ~ 0
 HALL_B2
 Text GLabel 11575 2450 2    50   Input ~ 0
 HALL_C2
-Text GLabel 14075 5325 0    50   Input ~ 0
+Text GLabel 14000 7525 0    50   Input ~ 0
 AINPWEN
-Text GLabel 14075 5425 0    50   Input ~ 0
+Text GLabel 15750 15725 0    50   Input ~ 0
 AIN_OC
-Text GLabel 12225 4675 1    50   Input ~ 0
+Text GLabel 12325 4675 1    50   Input ~ 0
 AP_SCL1
 Text GLabel 12025 4625 1    50   Input ~ 0
 AP_SDA1
-Text GLabel 14075 6325 0    50   Input ~ 0
+Text GLabel 15750 16125 0    50   Input ~ 0
 AP_RESET1
-Text GLabel 14075 6225 0    50   Input ~ 0
+Text GLabel 15750 16025 0    50   Input ~ 0
 AP_WP1
 Text GLabel 11575 5250 2    50   Input ~ 0
 CAN_TX2
@@ -12536,12 +12514,10 @@ Text GLabel 2375 4750 0    50   Input ~ 0
 CANFD_SOF
 Text GLabel 2375 4850 0    50   Input ~ 0
 CANFD_INT
-Text GLabel 14075 6125 0    50   Input ~ 0
+Text GLabel 12225 4625 1    50   Input ~ 0
 EE_SDA
-Text GLabel 14075 6025 0    50   Input ~ 0
+Text GLabel 12525 4675 1    50   Input ~ 0
 EE_SCL
-Text GLabel 14075 5925 0    50   Input ~ 0
-EE_WEN
 Text GLabel 2375 4550 0    50   Input ~ 0
 ECAT_RESET
 Text GLabel 2375 4650 0    50   Input ~ 0
@@ -13474,23 +13450,13 @@ Wire Wire Line
 	12150 6650 12050 6650
 Connection ~ 12050 6650
 Wire Wire Line
-	11575 6750 12250 6750
+	12350 6750 12350 6650
 Wire Wire Line
-	12250 6750 12250 6650
+	12450 6650 12450 6750
 Wire Wire Line
-	12350 6650 12350 6750
+	12650 6750 12650 6850
 Wire Wire Line
-	12350 6750 12250 6750
-Connection ~ 12250 6750
-Wire Wire Line
-	12450 6750 12450 6850
-Wire Wire Line
-	12450 6850 11575 6850
-Wire Wire Line
-	12450 6850 12550 6850
-Wire Wire Line
-	12550 6850 12550 6750
-Connection ~ 12450 6850
+	12750 6850 12750 6750
 Text GLabel 15375 7150 0    50   Input ~ 0
 VDD_3V3_MCU
 NoConn ~ 15675 5850
@@ -13510,7 +13476,7 @@ Wire Wire Line
 Wire Wire Line
 	11900 2750 11900 2850
 Connection ~ 11900 2850
-Text GLabel 14075 4025 0    50   Input ~ 0
+Text GLabel 14150 6550 0    50   Input ~ 0
 MOTOR2_BRKIN
 NoConn ~ 15675 4850
 NoConn ~ 15675 5150
@@ -13524,7 +13490,7 @@ NoConn ~ 15675 9150
 NoConn ~ 15675 8850
 Text GLabel 12000 2850 2    50   Input ~ 0
 ENCIRQ2
-Text GLabel 14075 3925 0    50   Input ~ 0
+Text GLabel 14150 6450 0    50   Input ~ 0
 MOTOR1_BRKIN
 Text GLabel 2250 8950 0    50   Input ~ 0
 MOTOR1_BRKIN
@@ -13586,13 +13552,13 @@ Text GLabel 19600 2950 0    50   Input ~ 0
 GND
 Text GLabel 20500 2750 2    50   Input ~ 0
 GND
-Text GLabel 14075 5525 0    50   Input ~ 0
+Text GLabel 2375 6850 0    50   Input ~ 0
 MOC1
-Text GLabel 14075 5625 0    50   Input ~ 0
+Text GLabel 2375 6950 0    50   Input ~ 0
 GAIN1
-Text GLabel 14075 5725 0    50   Input ~ 0
+Text GLabel 2375 7050 0    50   Input ~ 0
 MOC2
-Text GLabel 14075 5825 0    50   Input ~ 0
+Text GLabel 2375 7150 0    50   Input ~ 0
 GAIN2
 $Comp
 L SwEmb:RES_0R_0402 #R?
@@ -14408,21 +14374,17 @@ F 9 "Mouser" H 20050 3725 50  0001 C CNN "Vendor"
 	1    20050 3725
 	0    1    1    0   
 $EndComp
-NoConn ~ 20500 2350
-NoConn ~ 19600 2350
-NoConn ~ 19600 3050
-NoConn ~ 19600 3150
 NoConn ~ 20500 3150
 NoConn ~ 20500 3250
 Text GLabel 2375 6150 0    50   Input ~ 0
 OC_ADJ1
 Text GLabel 2375 6250 0    50   Input ~ 0
 OC_ADJ2
-Text GLabel 13650 6700 2    50   Input ~ 0
+Text GLabel 15750 16225 0    50   Input ~ 0
 MOCP_RESET
-Text GLabel 13650 6800 2    50   Input ~ 0
+Text GLabel 15750 16325 0    50   Input ~ 0
 MOCP_WP
-Text GLabel 12325 4675 1    50   Input ~ 0
+Text GLabel 12425 4675 1    50   Input ~ 0
 MOCP_SCL
 Text GLabel 12125 4625 1    50   Input ~ 0
 MOCP_SDA
@@ -14436,33 +14398,24 @@ Connection ~ 12025 4650
 Wire Wire Line
 	12025 4650 12125 4650
 Wire Wire Line
-	12450 4150 12450 4200
-Wire Wire Line
-	12025 4150 12450 4150
-Wire Wire Line
-	12225 4675 12225 4750
-Wire Wire Line
-	12225 4750 11575 4750
-Wire Wire Line
 	12325 4675 12325 4750
 Wire Wire Line
-	12325 4750 12225 4750
-Connection ~ 12225 4750
+	12425 4675 12425 4750
 $Comp
 L SwEmb:CONN_LCD P?
 U 1 1 B0891A5F
-P 18775 19300
-F 0 "P?" H 18953 19300 50  0000 L CNN
-F 1 "CONN_LCD" H 18775 17650 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 18675 17750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0702461004_PCB_HEADERS-229930.pdf" H 18952 19255 50  0001 L CNN
-F 4 "70246-0802" H 18775 17850 50  0001 C CNN "MPN"
-F 5 "2466 In Stock" H 18775 19300 50  0001 C CNN "Availability"
-F 6 "Headers & Wire Housings 2.54mm CGrid Hdr Shr rd /Slt .76AuLF 8Ckt" H 18775 19300 50  0001 C CNN "Description"
-F 7 "OK" H 18775 19300 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 18775 19300 50  0001 C CNN "Vendor"
-F 9 "1.25  EUR" H 18775 19300 50  0001 C CNN "Price"
-	1    18775 19300
+P 19500 19450
+F 0 "P?" H 19678 19450 50  0000 L CNN
+F 1 "CONN_LCD" H 19500 17800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 19400 17900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/0702461004_PCB_HEADERS-229930.pdf" H 19677 19405 50  0001 L CNN
+F 4 "70246-0802" H 19500 18000 50  0001 C CNN "MPN"
+F 5 "2466 In Stock" H 19500 19450 50  0001 C CNN "Availability"
+F 6 "Headers & Wire Housings 2.54mm CGrid Hdr Shr rd /Slt .76AuLF 8Ckt" H 19500 19450 50  0001 C CNN "Description"
+F 7 "OK" H 19500 19450 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 19500 19450 50  0001 C CNN "Vendor"
+F 9 "1.25  EUR" H 19500 19450 50  0001 C CNN "Price"
+	1    19500 19450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -16015,4 +15968,465 @@ Text GLabel 2375 7750 0    50   Input ~ 0
 UEXT_CS
 Text GLabel 2375 7650 0    50   Input ~ 0
 UEXT_PWEN
+$Comp
+L SwEmb:USB_B_Micro J?
+U 1 1 BFAD3F81
+P 11250 13000
+F 0 "J?" H 11305 13467 50  0000 C CNN
+F 1 "USB_B_Micro" H 11305 13376 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 11400 12950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/18/10118193-1361773.pdf" H 11250 13000 50  0001 C CNN
+F 4 "10118193-0001LF" H 11400 13550 50  0001 C CNN "MPN"
+F 5 "80661 In Stock" H 11250 13000 50  0001 C CNN "Availability"
+F 6 "USB Connectors 5P MICRO USB TYPE B RECEPTACLE W/ PEGS" H 11250 13000 50  0001 C CNN "Description"
+F 7 "Mouser" H 11250 13000 50  0001 C CNN "Vendor"
+F 8 "0.384  EUR" H 11250 13000 50  0001 C CNN "Price"
+F 9 "OK" H 11250 13000 50  0001 C CNN "LifeCycle"
+	1    11250 13000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 BFAD8A09
+P 11150 13400
+F 0 "#PWR?" H 11150 13150 50  0001 C CNN
+F 1 "GNDREF" H 11150 13250 50  0001 C CNN
+F 2 "" H 11150 13400 50  0001 C CNN
+F 3 "" H 11150 13400 50  0001 C CNN
+F 4 "#" H 11150 13400 50  0001 C CNN "MPN"
+	1    11150 13400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 BFAD8DC6
+P 11250 13400
+F 0 "#PWR?" H 11250 13150 50  0001 C CNN
+F 1 "GNDREF" H 11250 13250 50  0001 C CNN
+F 2 "" H 11250 13400 50  0001 C CNN
+F 3 "" H 11250 13400 50  0001 C CNN
+F 4 "#" H 11250 13400 50  0001 C CNN "MPN"
+	1    11250 13400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11550 13200
+Text GLabel 11900 12650 2    50   Input ~ 0
+USB_5V
+Text GLabel 13375 21575 2    50   Input ~ 0
+USB_5V
+Wire Wire Line
+	13375 21475 13325 21475
+Wire Wire Line
+	13325 21475 13325 21575
+Wire Wire Line
+	13375 21575 13325 21575
+Connection ~ 13325 21575
+Wire Wire Line
+	13325 21575 13325 21675
+$Comp
+L SwEmb:IC_USBLC6-2 U?
+U 1 1 C0339ECE
+P 12400 13050
+F 0 "U?" H 12400 12685 50  0000 C CNN
+F 1 "IC_USBLC6-2" H 12400 12776 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 12475 13300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" H 12400 13050 50  0001 C CNN
+F 4 "USBLC6-2SC6" H 12400 12780 50  0001 C CNN "MPN"
+F 5 "108598 In Stock" H 12400 13050 50  0001 C CNN "Availability"
+F 6 "ESD Suppressors / TVS Diodes ESD Protection Low Cap" H 12400 13050 50  0001 C CNN "Description"
+F 7 "Mouser" H 12400 13050 50  0001 C CNN "Vendor"
+F 8 "0.393  EUR" H 12400 13050 50  0001 C CNN "Price"
+F 9 "OK" H 12400 13050 50  0001 C CNN "LifeCycle"
+	1    12400 13050
+	-1   0    0    1   
+$EndComp
+$Comp
+L SwEmb:RES_22R_1%_0402 R?
+U 1 1 C033D3E7
+P 11700 13000
+F 0 "R?" V 11596 13000 50  0000 C CNN
+F 1 "RES_22R_1%_0402" H 11730 12960 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11630 12920 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 11700 13000 50  0001 C CNN
+F 4 "CRCW040222R0FKEDC" H 11830 13120 50  0001 C CNN "MPN"
+F 5 "215652 In Stock" H 11700 13000 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 11700 13000 50  0001 C CNN "Description"
+F 7 "Mouser" H 11700 13000 50  0001 C CNN "Vendor"
+F 8 "0.114  EUR" H 11700 13000 50  0001 C CNN "Price"
+F 9 "New Product" H 11700 13000 50  0001 C CNN "LifeCycle"
+	1    11700 13000
+	0    1    1    0   
+$EndComp
+$Comp
+L SwEmb:RES_22R_1%_0402 R?
+U 1 1 C033DDD2
+P 11700 13100
+F 0 "R?" V 11775 13100 50  0000 C CNN
+F 1 "RES_22R_1%_0402" H 11730 13060 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11630 13020 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 11700 13100 50  0001 C CNN
+F 4 "CRCW040222R0FKEDC" H 11830 13220 50  0001 C CNN "MPN"
+F 5 "215652 In Stock" H 11700 13100 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 11700 13100 50  0001 C CNN "Description"
+F 7 "Mouser" H 11700 13100 50  0001 C CNN "Vendor"
+F 8 "0.114  EUR" H 11700 13100 50  0001 C CNN "Price"
+F 9 "New Product" H 11700 13100 50  0001 C CNN "LifeCycle"
+	1    11700 13100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11550 13000 11600 13000
+Wire Wire Line
+	11550 13100 11600 13100
+Wire Wire Line
+	11950 12950 11875 12950
+Wire Wire Line
+	11875 12950 11875 13000
+Wire Wire Line
+	11875 13000 11800 13000
+Wire Wire Line
+	11800 13100 11875 13100
+Wire Wire Line
+	11875 13100 11875 13150
+Wire Wire Line
+	11875 13150 11950 13150
+Wire Wire Line
+	11950 13050 11825 13050
+Wire Wire Line
+	11825 13050 11825 12800
+Wire Wire Line
+	11825 12800 11550 12800
+Wire Wire Line
+	11900 12650 11825 12650
+Wire Wire Line
+	11825 12650 11825 12800
+Connection ~ 11825 12800
+Text GLabel 12850 13050 2    50   Input ~ 0
+GND
+Text GLabel 12850 12950 2    50   Input ~ 0
+USB_P
+Text GLabel 12850 13150 2    50   Input ~ 0
+USB_N
+Text GLabel 11575 3450 2    50   Input ~ 0
+USB_P
+Text GLabel 11575 3350 2    50   Input ~ 0
+USB_N
+Text GLabel 11575 8450 2    50   Input ~ 0
+ENCCS2
+$Comp
+L SwEmb:IC_MCP23S17 U?
+U 1 1 C2AC2084
+P 16300 16475
+F 0 "U?" H 16400 15575 39  0000 C CNN
+F 1 "IC_MCP23S17" H 16575 15500 39  0000 C CNN
+F 2 "" H 16300 16475 39  0001 C CNN
+F 3 "" H 16300 16475 39  0001 C CNN
+F 4 "MCP23S17" H 16300 17503 39  0001 C CNN "MPN"
+	1    16300 16475
+	1    0    0    -1  
+$EndComp
+Text GLabel 15750 16625 0    50   Input ~ 0
+GPIO_CS
+Text GLabel 15750 16725 0    50   Input ~ 0
+GPIO_SCK
+Text GLabel 15750 16825 0    50   Input ~ 0
+GPIO_MOSI
+Text GLabel 15750 16925 0    50   Input ~ 0
+GPIO_MISO
+Text GLabel 15750 17025 0    50   Input ~ 0
+GPIO_RESET
+Text GLabel 15750 17125 0    50   Input ~ 0
+GPIO_INTA
+Text GLabel 15750 17225 0    50   Input ~ 0
+GPIO_INTB
+Text GLabel 2375 4250 0    50   Input ~ 0
+GPIO_CS
+Text GLabel 12850 6750 1    50   Input ~ 0
+GPIO_MOSI
+Text GLabel 12550 6650 1    50   Input ~ 0
+GPIO_MISO
+Text GLabel 2375 3950 0    50   Input ~ 0
+GPIO_RESET
+Text GLabel 2375 4050 0    50   Input ~ 0
+GPIO_INTA
+Text GLabel 2375 4150 0    50   Input ~ 0
+GPIO_INTB
+Text GLabel 2375 5450 0    50   Input ~ 0
+SWIRQ
+Wire Wire Line
+	11575 6750 12350 6750
+Text GLabel 12250 6550 1    50   Input ~ 0
+GPIO_SCK
+Wire Wire Line
+	12250 6550 12250 6650
+Wire Wire Line
+	12250 6650 12150 6650
+Connection ~ 12150 6650
+Wire Wire Line
+	12350 6750 12450 6750
+Connection ~ 12350 6750
+Wire Wire Line
+	12550 6650 12550 6750
+Wire Wire Line
+	12550 6750 12450 6750
+Connection ~ 12450 6750
+Wire Wire Line
+	12850 6850 12850 6750
+Wire Wire Line
+	11575 6850 12650 6850
+Connection ~ 12650 6850
+Wire Wire Line
+	12650 6850 12750 6850
+Connection ~ 12750 6850
+Wire Wire Line
+	12750 6850 12850 6850
+Wire Wire Line
+	12025 4150 12775 4150
+Text GLabel 11575 4850 2    50   Input ~ 0
+EE_WEN
+Wire Wire Line
+	11575 4750 12325 4750
+Text Notes 12800 4550 0    39   ~ 0
+Check addresses
+Wire Wire Line
+	12325 4750 12425 4750
+Wire Wire Line
+	12525 4750 12525 4675
+Connection ~ 12325 4750
+Connection ~ 12425 4750
+Wire Wire Line
+	12425 4750 12525 4750
+Wire Wire Line
+	12225 4625 12225 4650
+Wire Wire Line
+	12225 4650 12125 4650
+Connection ~ 12125 4650
+Text GLabel 16850 15725 2    50   Input ~ 0
+SW1
+Text GLabel 16850 15825 2    50   Input ~ 0
+SW2
+Text GLabel 16850 15925 2    50   Input ~ 0
+SW3
+Text GLabel 16850 16025 2    50   Input ~ 0
+SW4
+Text GLabel 16850 16125 2    50   Input ~ 0
+SW5
+Text GLabel 16850 16225 2    50   Input ~ 0
+SW6
+Text GLabel 16850 16325 2    50   Input ~ 0
+SW7
+Text GLabel 16850 16425 2    50   Input ~ 0
+SW8
+$Comp
+L SwEmb:CAP_100nF_50V_0402 C?
+U 1 1 C60F71AF
+P 16450 15475
+F 0 "C?" H 16557 15475 50  0000 L CNN
+F 1 "CAP_100nF_50V_0402" H 16460 15395 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 16900 15625 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 16460 15545 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 16900 15725 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 16450 15475 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 16450 15475 50  0001 C CNN "Description"
+F 7 "OK" H 16450 15475 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 16450 15475 50  0001 C CNN "Price"
+F 9 "Mouser" H 16450 15475 50  0001 C CNN "Vendor"
+	1    16450 15475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 C60F8D3F
+P 16300 17425
+F 0 "#PWR?" H 16300 17175 50  0001 C CNN
+F 1 "GNDREF" H 16300 17275 50  0001 C CNN
+F 2 "" H 16300 17425 50  0001 C CNN
+F 3 "" H 16300 17425 50  0001 C CNN
+F 4 "#" H 16300 17425 50  0001 C CNN "MPN"
+	1    16300 17425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16350 15475 16300 15475
+Wire Wire Line
+	16300 15475 16300 15525
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 C63D93B4
+P 16550 15475
+F 0 "#PWR?" H 16550 15225 50  0001 C CNN
+F 1 "GNDREF" H 16550 15325 50  0001 C CNN
+F 2 "" H 16550 15475 50  0001 C CNN
+F 3 "" H 16550 15475 50  0001 C CNN
+F 4 "#" H 16550 15475 50  0001 C CNN "MPN"
+	1    16550 15475
+	1    0    0    -1  
+$EndComp
+Text GLabel 16250 15475 0    50   Input ~ 0
+VDD_3V3
+Wire Wire Line
+	16250 15475 16300 15475
+Connection ~ 16300 15475
+$Comp
+L SwEmb:IC_MCP23S17 U?
+U 1 1 C66BDBFE
+P 18350 16500
+F 0 "U?" H 18450 15600 39  0000 C CNN
+F 1 "IC_MCP23S17" H 18625 15525 39  0000 C CNN
+F 2 "" H 18350 16500 39  0001 C CNN
+F 3 "" H 18350 16500 39  0001 C CNN
+F 4 "MCP23S17" H 18350 17528 39  0001 C CNN "MPN"
+	1    18350 16500
+	1    0    0    -1  
+$EndComp
+Text GLabel 17800 16650 0    50   Input ~ 0
+GPEX_CS
+Text GLabel 17800 16750 0    50   Input ~ 0
+GPIO_SCK
+Text GLabel 17800 16850 0    50   Input ~ 0
+GPIO_MOSI
+Text GLabel 17800 16950 0    50   Input ~ 0
+GPIO_MISO
+Text GLabel 17800 17050 0    50   Input ~ 0
+GPEX_RESET
+Text GLabel 17800 17150 0    50   Input ~ 0
+GPEX_INTA
+Text GLabel 17800 17250 0    50   Input ~ 0
+GPEX_INTB
+$Comp
+L SwEmb:CAP_100nF_50V_0402 C?
+U 1 1 C66BDC19
+P 18500 15500
+F 0 "C?" H 18607 15500 50  0000 L CNN
+F 1 "CAP_100nF_50V_0402" H 18510 15420 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 18950 15650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 18510 15570 50  0001 C CNN
+F 4 "CC0402KRX5R9BB104" H 18950 15750 50  0001 C CNN "MPN"
+F 5 "120297 In Stock" H 18500 15500 50  0001 C CNN "Availability"
+F 6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" H 18500 15500 50  0001 C CNN "Description"
+F 7 "OK" H 18500 15500 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 18500 15500 50  0001 C CNN "Price"
+F 9 "Mouser" H 18500 15500 50  0001 C CNN "Vendor"
+	1    18500 15500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 C66BDC20
+P 18350 17450
+F 0 "#PWR?" H 18350 17200 50  0001 C CNN
+F 1 "GNDREF" H 18350 17300 50  0001 C CNN
+F 2 "" H 18350 17450 50  0001 C CNN
+F 3 "" H 18350 17450 50  0001 C CNN
+F 4 "#" H 18350 17450 50  0001 C CNN "MPN"
+	1    18350 17450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18400 15500 18350 15500
+Wire Wire Line
+	18350 15500 18350 15550
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 C66BDC29
+P 18600 15500
+F 0 "#PWR?" H 18600 15250 50  0001 C CNN
+F 1 "GNDREF" H 18600 15350 50  0001 C CNN
+F 2 "" H 18600 15500 50  0001 C CNN
+F 3 "" H 18600 15500 50  0001 C CNN
+F 4 "#" H 18600 15500 50  0001 C CNN "MPN"
+	1    18600 15500
+	1    0    0    -1  
+$EndComp
+Text GLabel 18300 15500 0    50   Input ~ 0
+VDD_3V3
+Wire Wire Line
+	18300 15500 18350 15500
+Connection ~ 18350 15500
+Text GLabel 19250 18800 0    50   Input ~ 0
+VDD_3V3
+Text GLabel 19250 18700 0    50   Input ~ 0
+GND
+Text GLabel 19600 2350 0    50   Input ~ 0
+VDD_3V3
+Text GLabel 20500 2350 2    50   Input ~ 0
+VDD_3V3
+Text GLabel 19600 3050 0    50   Input ~ 0
+VDD_3V3
+Text GLabel 19600 3150 0    50   Input ~ 0
+LCD_VO
+Text GLabel 19250 18900 0    50   Input ~ 0
+LCD_VO
+Text GLabel 19250 19000 0    50   Input ~ 0
+LCD_MDATA
+Text GLabel 19250 19100 0    50   Input ~ 0
+LCD_READ
+Text GLabel 19250 19200 0    50   Input ~ 0
+LCD_EN
+Text GLabel 19250 19700 0    50   Input ~ 0
+LCD_D4
+Text GLabel 19250 19800 0    50   Input ~ 0
+LCD_D5
+Text GLabel 19250 19900 0    50   Input ~ 0
+LCD_D6
+Text GLabel 19250 20000 0    50   Input ~ 0
+LCD_D7
+NoConn ~ 19250 19300
+NoConn ~ 19250 19400
+NoConn ~ 19250 19500
+NoConn ~ 19250 19600
+Text GLabel 17800 15750 0    50   Input ~ 0
+LCD_MDATA
+Text GLabel 17800 15850 0    50   Input ~ 0
+LCD_READ
+Text GLabel 17800 15950 0    50   Input ~ 0
+LCD_EN
+Text GLabel 17800 16150 0    50   Input ~ 0
+LCD_D4
+Text GLabel 17800 16250 0    50   Input ~ 0
+LCD_D5
+Text GLabel 17800 16350 0    50   Input ~ 0
+LCD_D6
+Text GLabel 17800 16450 0    50   Input ~ 0
+LCD_D7
+Text GLabel 18900 16450 2    50   Input ~ 0
+GPEX7
+Text GLabel 18900 15750 2    50   Input ~ 0
+GPEX0
+Text GLabel 18900 15850 2    50   Input ~ 0
+GPEX1
+Text GLabel 18900 15950 2    50   Input ~ 0
+GPEX2
+Text GLabel 18900 16050 2    50   Input ~ 0
+GPEX3
+Text GLabel 18900 16150 2    50   Input ~ 0
+GPEX4
+Text GLabel 18900 16250 2    50   Input ~ 0
+GPEX5
+Text GLabel 18900 16350 2    50   Input ~ 0
+GPEX6
+Text GLabel 16825 19950 0    50   Input ~ 0
+GPEX7
+Text GLabel 16825 19250 0    50   Input ~ 0
+GPEX0
+Text GLabel 16825 19350 0    50   Input ~ 0
+GPEX1
+Text GLabel 16825 19450 0    50   Input ~ 0
+GPEX2
+Text GLabel 16825 19550 0    50   Input ~ 0
+GPEX3
+Text GLabel 16825 19650 0    50   Input ~ 0
+GPEX4
+Text GLabel 16825 19750 0    50   Input ~ 0
+GPEX5
+Text GLabel 16825 19850 0    50   Input ~ 0
+GPEX6
+Text GLabel 13950 7925 0    50   Input ~ 0
+GPEX_CS
+Text GLabel 14000 7625 0    50   Input ~ 0
+GPEX_RESET
+Text GLabel 14000 7725 0    50   Input ~ 0
+GPEX_INTA
+Text GLabel 14000 7825 0    50   Input ~ 0
+GPEX_INTB
 $EndSCHEMATC
