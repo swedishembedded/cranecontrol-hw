@@ -1041,8 +1041,13 @@ DEF ~CONN_DEBUG_2R P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
 F1 "CONN_DEBUG_2R" 100 -700 50 H I C CNN
 F2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
-F3 "" 0 100 50 H V C CNN
+F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H V C CNN
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
+F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "1.22  EUR" 0 0 50 H I C CNN "Price"
 $FPLIST
  Pin_Header_Straight_1X06
  Pin_Header_Angled_1X06
@@ -1140,7 +1145,7 @@ X A 1 -200 200 100 R 50 50 1 1 O
 X B 2 -200 100 100 R 50 50 1 1 O
 X C 3 -200 0 100 R 50 50 1 1 O
 X 5V 4 -200 -100 100 R 50 50 1 1 W
-X GND 6 -200 -200 100 R 50 50 1 1 W
+X GND 5 -200 -200 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -1258,7 +1263,7 @@ ENDDEF
 DEF ~CONN_MOTOR P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
 F1 "CONN_MOTOR" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F2 "CUSTOM:ANYTEK_7.62mm_2x_3P_32A" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/18/eIO4RBm_lB__-1379253.pdf" -200 900 50 H I C CNN
 F4 "VC0301500000G" -100 900 50 H I C CNN "MPN"
 F5 "176 In Stock" -100 900 50 H I C CNN "Availability"
@@ -1411,8 +1416,9 @@ ENDDEF
 DEF CONN_RJ45_MAG J 0 1 Y Y 1 F N
 F0 "J" 100 600 50 H V L CNN
 F1 "CONN_RJ45_MAG" -50 600 50 H V R CNN
-F2 "" 0 500 50 H I C CNN
+F2 "Connector_RJ:RJ45_Tranformer" 0 500 50 H I C CNN
 F3 "" 100 600 50 H I C CNN
+F4 "7499010121A" 200 700 39 H I C CNN "MFN"
 DRAW
 A -900 25 25 -899 899 0 1 0 N -900 0 -900 50
 A -900 75 25 -899 899 0 1 0 N -900 50 -900 100
@@ -1616,8 +1622,13 @@ DEF ~CONN_UEXT P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
 F1 "CONN_UEXT" 100 -700 50 H I C CNN
 F2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
-F3 "" 0 100 50 H V C CNN
+F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H V C CNN
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
+F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "1.22  EUR" 0 0 50 H I C CNN "Price"
 $FPLIST
  Pin_Header_Straight_1X06
  Pin_Header_Angled_1X06
@@ -1866,8 +1877,13 @@ DEF ~D_MM3Z3V3B D 0 10 N N 1 F N
 F0 "D" 0 90 50 H V C CNN
 F1 "D_MM3Z3V3B" 0 -90 50 H I C CNN
 F2 "Diode_SMD:D_SOD-323F" -100 -10 50 H I C CNN
-F3 "" 0 90 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/308/MM3Z10VB-1301283.pdf" 0 90 50 H I C CNN
 F4 "MM3Z3V3B" 0 0 39 H I C CNN "MPN"
+F5 "110855 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Zener Diodes Diode Zener 3.3V 200mW 2%" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.183  EUR" 0 0 50 H I C CNN "Price"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -2411,7 +2427,7 @@ ENDDEF
 DEF IC_DRV8302 U 0 40 Y Y 1 F N
 F0 "U" 0 1500 60 H V C CNN
 F1 "IC_DRV8302" 300 -1550 60 H V C CNN
-F2 "Package_SO_HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm" -100 1400 60 H I C CNN
+F2 "CUSTOM:HTSSOP-56-PowerPAD_6.2x14.1mm_P0.5mm_EP3.61x6.35mm" -100 1400 60 H I C CNN
 F3 "" 0 1500 60 H V C CNN
 F4 "RV8302DCAR" 0 0 50 H I C CNN "MPN"
 F5 "2413 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2599,6 +2615,11 @@ F1 "IC_LP55231" 250 -900 39 H V C CNN
 F2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" -100 -1400 39 H I C CNN
 F3 "" 0 -1400 39 H I C CNN
 F4 "LP55231SQX/NOPB" 0 -1400 39 H I C CNN "MPN"
+F5 "19443 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "LED Lighting Drivers Programmble 9-Output LED Driver" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "1.69  EUR" 0 0 50 H I C CNN "Price"
 DRAW
 S -550 850 500 -850 0 1 8 N
 X C2+ 1 -200 950 100 D 50 50 1 1 P
@@ -2753,9 +2774,13 @@ ENDDEF
 DEF IC_MCP23S17 U 0 40 Y Y 1 F N
 F0 "U" 0 0 39 H V C CNN
 F1 "IC_MCP23S17" 0 0 39 H V C CNN
-F2 "" 0 0 39 H I C CNN
-F3 "" 0 0 39 H I C CNN
-F4 "MCP23S17" 0 0 39 H I C CNN "MPN"
+F2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" -100 -100 39 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/268/20001952C-1129816.pdf" 0 0 39 H I C CNN
+F4 "MCP23S17T-E/SO" 0 0 39 H I C CNN "MPN"
+F5 "16730 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Interface - I/O Expanders 16bit Input/Output Exp SPI interface" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "1.19  EUR" 0 0 50 H I C CNN "Price"
 DRAW
 S -450 850 450 -850 0 1 8 N
 X PB0 1 550 750 100 L 50 50 1 1 B
@@ -3009,6 +3034,11 @@ F1 "IC_SN74LV4051" 300 750 50 H V C CNN
 F2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" 0 1300 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "SN74LV4051APWR" 0 0 39 H I C CNN "MPN"
+F5 "222317 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Multiplexer Switch ICs 8-Channel Analog" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.533  EUR" 0 0 50 H I C CNN "Price"
 $FPLIST
  DIP?16*
 $ENDFPLIST
@@ -3878,10 +3908,11 @@ F1 "IC_TLV2474" 0 -150 50 H V L CNN
 F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" -50 100 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 F4 "TLV2474CDR" 0 0 50 H I C CNN "MPN"
-F5 "12748 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Operational Amplifiers - Op Amps Quad" 0 0 50 H I C CNN "Description"
+F5 "1390 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "0.367  EUR" 0 0 50 H I C CNN "Price"
+F8 "2.39  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  SOIC*3.9x8.7mm*P1.27mm*
  DIP*W7.62mm*
@@ -5013,13 +5044,14 @@ DEF ~RES_10mOhm_1% R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "RES_10mOhm_1%" 30 -40 50 H I L CNN
 F2 "Resistor_SMD:R_0805_2012Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" 30 20 50 H I C CNN
 F4 "LVT08R0100FER" 130 120 50 H I C CNN "MPN"
-F5 "215652 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
-F7 "0.114  EUR" 0 0 50 H I C CNN "Price"
+F5 "7485 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Current Sense Resistors - SMD 0.01 ohm 1% 0.5W Current Sense" 0 0 50 H I C CNN "Description"
+F7 "0.183  EUR" 0 0 50 H I C CNN "Price"
 F8 "New Product" 0 0 50 H I C CNN "LifeCycle"
 F9 "500mW" 0 0 50 H I C CNN "Comment"
+F10 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  R_*
 $ENDFPLIST

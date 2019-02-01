@@ -999,8 +999,13 @@ P 2825 1375
 F 0 "P17" H 2844 652 50  0000 C CNN
 F 1 "CONN_DEBUG_2R" H 2925 675 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 2825 1475 50  0001 C CNN
-F 3 "" H 2825 1475 50  0000 C CNN
+F 3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" H 2825 1475 50  0000 C CNN
 F 4 "N2510-6002RB" H 2825 1375 50  0001 C CNN "MPN"
+F 5 "11668 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "1.22  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    2825 1375
 	-1   0    0    1   
 $EndComp
@@ -1034,7 +1039,7 @@ U 1 1 5C92928A
 P 21500 5750
 F 0 "U31" H 21500 7375 60  0000 C CNN
 F 1 "IC_DRV8302" H 21500 7250 60  0000 C CNN
-F 2 "Package_SO_HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm" H 21500 7372 60  0001 C CNN
+F 2 "CUSTOM:HTSSOP-56-PowerPAD_6.2x14.1mm_P0.5mm_EP3.61x6.35mm" H 21500 7372 60  0001 C CNN
 F 3 "" H 21500 7250 60  0000 C CNN
 F 4 "RV8302DCAR" H 21500 7274 50  0001 C CNN "MPN"
 F 5 "2413 In Stock" H 4700 750 50  0001 C CNN "Availability"
@@ -2575,7 +2580,7 @@ U 1 1 5CA49A92
 P 21500 9725
 F 0 "U32" H 21500 11350 60  0000 C CNN
 F 1 "IC_DRV8302" H 21500 11225 60  0000 C CNN
-F 2 "Package_SO_HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm" H 21500 11347 60  0001 C CNN
+F 2 "CUSTOM:HTSSOP-56-PowerPAD_6.2x14.1mm_P0.5mm_EP3.61x6.35mm" H 21500 11347 60  0001 C CNN
 F 3 "" H 21500 11225 60  0000 C CNN
 F 4 "RV8302DCAR" H 21500 11249 50  0001 C CNN "MPN"
 F 5 "2413 In Stock" H 4700 4725 50  0001 C CNN "Availability"
@@ -4265,15 +4270,15 @@ L SwEmb:RES_5K_1%_0402 R69
 U 1 1 5D0B2A17
 P 16650 2075
 F 0 "R69" V 16546 2075 50  0000 C CNN
-F 1 "RES_10K_1%_0402" H 16680 2035 50  0001 L CNN
+F 1 "RES_5K_1%_0402" H 16680 2035 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 16580 1995 50  0001 C CNN
-F 3 "" H 16650 2075 50  0001 C CNN
-F 4 "CRCW040210K0FKEDC" H 16780 2195 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 16650 2075 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 16650 2075 50  0001 C CNN "Description"
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 16650 2075 50  0001 C CNN
+F 4 "RC0402FR-075KL " H 16780 2195 50  0001 C CNN "MPN"
+F 5 "38996 In Stock" H 16650 2075 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 5K ohm 1% 50V General Purpose" H 16650 2075 50  0001 C CNN "Description"
 F 7 "New Product" H 16650 2075 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 16650 2075 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 16650 2075 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 16650 2075 50  0001 C CNN "Price"
 	1    16650 2075
 	-1   0    0    1   
 $EndComp
@@ -5946,7 +5951,7 @@ U 1 1 5F513FDC
 P 24850 7275
 F 0 "P45" H 24978 7280 50  0000 L CNN
 F 1 "CONN_MOTOR" H 24750 8175 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 24550 8175 50  0001 C CNN
+F 2 "CUSTOM:ANYTEK_7.62mm_2x_3P_32A" H 24550 8175 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/18/eIO4RBm_lB__-1379253.pdf" H 24650 8175 50  0001 C CNN
 F 4 "VC0301500000G" H 24750 8175 50  0001 C CNN "MPN"
 F 5 "176 In Stock" H 24750 8175 50  0001 C CNN "Availability"
@@ -5969,7 +5974,7 @@ U 1 1 5F5165E2
 P 24875 11225
 F 0 "P46" H 25003 11230 50  0000 L CNN
 F 1 "CONN_MOTOR" H 24775 12125 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 24575 12125 50  0001 C CNN
+F 2 "CUSTOM:ANYTEK_7.62mm_2x_3P_32A" H 24575 12125 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/18/eIO4RBm_lB__-1379253.pdf" H 24675 12125 50  0001 C CNN
 F 4 "VC0301500000G" H 24775 12125 50  0001 C CNN "MPN"
 F 5 "176 In Stock" H 24775 12125 50  0001 C CNN "Availability"
@@ -6424,10 +6429,10 @@ F 1 "IC_TLV2474" H 2650 17450 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 17725 50  0001 C CNN
 F 3 "" H 2750 17825 50  0001 C CNN
 F 4 "TLV2474CDR" H 2700 17625 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 0   0   50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 0   0   50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 0   0   50  0001 C CNN "Description"
 F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
-F 8 "0.367  EUR" H 0   0   50  0001 C CNN "Price"
+F 8 "2.39  EUR" H 0   0   50  0001 C CNN "Price"
 F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    2700 17625
 	1    0    0    -1  
@@ -7181,11 +7186,11 @@ F 1 "IC_TLV2474" H 2750 18475 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 18725 50  0001 C CNN
 F 3 "" H 2750 18825 50  0001 C CNN
 F 4 "TLV2474CDR" H 2700 18625 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 2700 18625 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 2700 18625 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 2700 18625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 18625 50  0001 C CNN "Description"
 F 7 "OK" H 2700 18625 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 2700 18625 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 2700 18625 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 2700 18625 50  0001 C CNN "Price"
 	2    2700 18625
 	1    0    0    -1  
 $EndComp
@@ -7198,11 +7203,11 @@ F 1 "IC_TLV2474" H 2800 19475 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 19725 50  0001 C CNN
 F 3 "" H 2750 19825 50  0001 C CNN
 F 4 "TLV2474CDR" H 2700 19625 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 2700 19625 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 2700 19625 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 2700 19625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 19625 50  0001 C CNN "Description"
 F 7 "OK" H 2700 19625 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 2700 19625 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 2700 19625 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 2700 19625 50  0001 C CNN "Price"
 	3    2700 19625
 	1    0    0    -1  
 $EndComp
@@ -7215,11 +7220,11 @@ F 1 "IC_TLV2474" H 2750 20500 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 20725 50  0001 C CNN
 F 3 "" H 2750 20825 50  0001 C CNN
 F 4 "TLV2474CDR" H 2700 20625 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 2700 20625 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 2700 20625 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 2700 20625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 20625 50  0001 C CNN "Description"
 F 7 "OK" H 2700 20625 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 2700 20625 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 2700 20625 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 2700 20625 50  0001 C CNN "Price"
 	4    2700 20625
 	1    0    0    -1  
 $EndComp
@@ -7232,10 +7237,10 @@ F 1 "IC_TLV2474" H 2650 13450 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 13725 50  0001 C CNN
 F 3 "" H 2750 13825 50  0001 C CNN
 F 4 "TLV2474CDR" H 2700 13625 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H -2775 -4000 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H -2775 -4000 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H -2775 -4000 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H -2775 -4000 50  0001 C CNN "Description"
 F 7 "OK" H -2775 -4000 50  0001 C CNN "LifeCycle"
-F 8 "0.367  EUR" H -2775 -4000 50  0001 C CNN "Price"
+F 8 "2.39  EUR" H -2775 -4000 50  0001 C CNN "Price"
 F 9 "Mouser" H -2775 -4000 50  0001 C CNN "Vendor"
 	1    2700 13625
 	1    0    0    -1  
@@ -7887,11 +7892,11 @@ F 1 "IC_TLV2474" H 2725 14500 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 14725 50  0001 C CNN
 F 3 "" H 2750 14825 50  0001 C CNN
 F 4 "TLV2474CDR" H 2700 14625 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 2700 14625 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 2700 14625 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 2700 14625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 14625 50  0001 C CNN "Description"
 F 7 "OK" H 2700 14625 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 2700 14625 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 2700 14625 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 2700 14625 50  0001 C CNN "Price"
 	2    2700 14625
 	1    0    0    -1  
 $EndComp
@@ -7904,11 +7909,11 @@ F 1 "IC_TLV2474" H 2775 15500 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 15725 50  0001 C CNN
 F 3 "" H 2750 15825 50  0001 C CNN
 F 4 "TLV2474CDR" H 2700 15625 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 2700 15625 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 2700 15625 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 2700 15625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 15625 50  0001 C CNN "Description"
 F 7 "OK" H 2700 15625 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 2700 15625 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 2700 15625 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 2700 15625 50  0001 C CNN "Price"
 	3    2700 15625
 	1    0    0    -1  
 $EndComp
@@ -7921,11 +7926,11 @@ F 1 "IC_TLV2474" H 2775 16475 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 16725 50  0001 C CNN
 F 3 "" H 2750 16825 50  0001 C CNN
 F 4 "TLV2474CDR" H 2700 16625 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 2700 16625 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 2700 16625 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 2700 16625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 16625 50  0001 C CNN "Description"
 F 7 "OK" H 2700 16625 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 2700 16625 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 2700 16625 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 2700 16625 50  0001 C CNN "Price"
 	4    2700 16625
 	1    0    0    -1  
 $EndComp
@@ -9246,8 +9251,9 @@ U 1 1 6B86DFA8
 P 26850 15125
 F 0 "J3" H 26500 15850 50  0000 C CNN
 F 1 "CONN_RJ45_MAG" H 26500 15759 50  0000 C CNN
-F 2 "" H 26850 15625 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_Tranformer" H 26850 15625 50  0001 C CNN
 F 3 "" H 26950 15725 50  0001 C CNN
+F 4 "7499010121A" H 0   0   50  0001 C CNN "MFN"
 	1    26850 15125
 	1    0    0    -1  
 $EndComp
@@ -11010,8 +11016,9 @@ U 1 1 6B86DD30
 P 26850 13775
 F 0 "J2" H 26500 14500 50  0000 C CNN
 F 1 "CONN_RJ45_MAG" H 26500 14409 50  0000 C CNN
-F 2 "" H 26850 14275 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_Tranformer" H 26850 14275 50  0001 C CNN
 F 3 "" H 26950 14375 50  0001 C CNN
+F 4 "7499010121A" H 0   0   50  0001 C CNN "MFN"
 	1    26850 13775
 	1    0    0    -1  
 $EndComp
@@ -12211,8 +12218,13 @@ P 13725 21700
 F 0 "D16" V 13725 21768 50  0000 L CNN
 F 1 "D_MM3Z3V3B" H 13725 21610 50  0001 C CNN
 F 2 "Diode_SMD:D_SOD-323F" H 13625 21690 50  0001 C CNN
-F 3 "" H 13725 21790 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/MM3Z10VB-1301283.pdf" H 13725 21790 50  0001 C CNN
 F 4 "MM3Z3V3B" H 13725 21700 39  0001 C CNN "MPN"
+F 5 "110855 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "Zener Diodes Diode Zener 3.3V 200mW 2%" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "0.183  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    13725 21700
 	0    1    1    0   
 $EndComp
@@ -12452,6 +12464,11 @@ F 1 "IC_SN74LV4051" H 4575 16750 50  0000 L CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4425 18375 50  0001 C CNN
 F 3 "" H 4825 17725 50  0001 C CNN
 F 4 "SN74LV4051APWR" H 4825 17725 39  0001 C CNN "MPN"
+F 5 "222317 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "Multiplexer Switch ICs 8-Channel Analog" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "0.533  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    4825 17725
 	1    0    0    -1  
 $EndComp
@@ -13478,10 +13495,10 @@ F 1 "IC_TLV2474" H 8050 12925 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8050 13200 50  0001 C CNN
 F 3 "" H 8150 13300 50  0001 C CNN
 F 4 "TLV2474CDR" H 8100 13100 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 2625 -4525 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 2625 -4525 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 2625 -4525 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2625 -4525 50  0001 C CNN "Description"
 F 7 "OK" H 2625 -4525 50  0001 C CNN "LifeCycle"
-F 8 "0.367  EUR" H 2625 -4525 50  0001 C CNN "Price"
+F 8 "2.39  EUR" H 2625 -4525 50  0001 C CNN "Price"
 F 9 "Mouser" H 2625 -4525 50  0001 C CNN "Vendor"
 	1    8100 13100
 	1    0    0    -1  
@@ -13525,7 +13542,7 @@ P 7750 13700
 F 0 "R41" H 7809 13700 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 7780 13660 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7680 13620 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 7750 13700 50  0001 C CNN
+F 3 "" H 7750 13700 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 7880 13820 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 7750 13700 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 7750 13700 50  0001 C CNN "Description"
@@ -13596,11 +13613,11 @@ F 1 "IC_TLV2474" H 8125 13950 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8050 14175 50  0001 C CNN
 F 3 "" H 8150 14275 50  0001 C CNN
 F 4 "TLV2474CDR" H 8100 14075 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 8100 14075 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 8100 14075 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 8100 14075 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 8100 14075 50  0001 C CNN "Description"
 F 7 "OK" H 8100 14075 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 8100 14075 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 8100 14075 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 8100 14075 50  0001 C CNN "Price"
 	2    8100 14075
 	1    0    0    -1  
 $EndComp
@@ -13613,11 +13630,11 @@ F 1 "IC_TLV2474" H 9725 12975 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9600 13200 50  0001 C CNN
 F 3 "" H 9700 13300 50  0001 C CNN
 F 4 "TLV2474CDR" H 9650 13100 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 9650 13100 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 9650 13100 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 9650 13100 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 9650 13100 50  0001 C CNN "Description"
 F 7 "OK" H 9650 13100 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 9650 13100 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 9650 13100 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 9650 13100 50  0001 C CNN "Price"
 	3    9650 13100
 	1    0    0    -1  
 $EndComp
@@ -13630,11 +13647,11 @@ F 1 "IC_TLV2474" H 9725 13925 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9600 14175 50  0001 C CNN
 F 3 "" H 9700 14275 50  0001 C CNN
 F 4 "TLV2474CDR" H 9650 14075 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 9650 14075 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 9650 14075 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 9650 14075 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 9650 14075 50  0001 C CNN "Description"
 F 7 "OK" H 9650 14075 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 9650 14075 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 9650 14075 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 9650 14075 50  0001 C CNN "Price"
 	4    9650 14075
 	1    0    0    -1  
 $EndComp
@@ -13661,7 +13678,7 @@ P 7750 14675
 F 0 "R42" H 7809 14675 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 7780 14635 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7680 14595 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 7750 14675 50  0001 C CNN
+F 3 "" H 7750 14675 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 7880 14795 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 7750 14675 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 7750 14675 50  0001 C CNN "Description"
@@ -13738,7 +13755,7 @@ P 9300 13700
 F 0 "R53" H 9359 13700 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 9330 13660 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9230 13620 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 9300 13700 50  0001 C CNN
+F 3 "" H 9300 13700 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 9430 13820 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 9300 13700 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 9300 13700 50  0001 C CNN "Description"
@@ -13815,7 +13832,7 @@ P 9300 14675
 F 0 "R54" H 9359 14675 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 9330 14635 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9230 14595 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 9300 14675 50  0001 C CNN
+F 3 "" H 9300 14675 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 9430 14795 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 9300 14675 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 9300 14675 50  0001 C CNN "Description"
@@ -14042,7 +14059,7 @@ P 7650 13000
 F 0 "TP12" H 7650 13270 50  0001 C CNN
 F 1 "Test_Point" H 7650 13200 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7850 13000 50  0001 C CNN
-F 3 "~" H 7850 13000 50  0001 C CNN
+F 3 "" H 7850 13000 50  0001 C CNN
 	1    7650 13000
 	1    0    0    -1  
 $EndComp
@@ -14054,7 +14071,7 @@ P 7650 13625
 F 0 "TP13" H 7650 13895 50  0001 C CNN
 F 1 "Test_Point" H 7650 13825 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7850 13625 50  0001 C CNN
-F 3 "~" H 7850 13625 50  0001 C CNN
+F 3 "" H 7850 13625 50  0001 C CNN
 	1    7650 13625
 	1    0    0    -1  
 $EndComp
@@ -14066,7 +14083,7 @@ P 9175 13975
 F 0 "TP15" H 9175 14245 50  0001 C CNN
 F 1 "Test_Point" H 9175 14175 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9375 13975 50  0001 C CNN
-F 3 "~" H 9375 13975 50  0001 C CNN
+F 3 "" H 9375 13975 50  0001 C CNN
 	1    9175 13975
 	1    0    0    -1  
 $EndComp
@@ -14078,7 +14095,7 @@ P 9125 13000
 F 0 "TP14" H 9125 13270 50  0001 C CNN
 F 1 "Test_Point" H 9125 13200 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9325 13000 50  0001 C CNN
-F 3 "~" H 9325 13000 50  0001 C CNN
+F 3 "" H 9325 13000 50  0001 C CNN
 	1    9125 13000
 	1    0    0    -1  
 $EndComp
@@ -14090,7 +14107,7 @@ P 3950 13625
 F 0 "TP7" H 3950 13895 50  0001 C CNN
 F 1 "Test_Point" H 3950 13825 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4150 13625 50  0001 C CNN
-F 3 "~" H 4150 13625 50  0001 C CNN
+F 3 "" H 4150 13625 50  0001 C CNN
 	1    3950 13625
 	1    0    0    -1  
 $EndComp
@@ -14102,7 +14119,7 @@ P 3900 14625
 F 0 "TP5" H 3900 14895 50  0001 C CNN
 F 1 "Test_Point" H 3900 14825 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4100 14625 50  0001 C CNN
-F 3 "~" H 4100 14625 50  0001 C CNN
+F 3 "" H 4100 14625 50  0001 C CNN
 	1    3900 14625
 	1    0    0    -1  
 $EndComp
@@ -14114,7 +14131,7 @@ P 3850 15625
 F 0 "TP3" H 3850 15895 50  0001 C CNN
 F 1 "Test_Point" H 3850 15825 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4050 15625 50  0001 C CNN
-F 3 "~" H 4050 15625 50  0001 C CNN
+F 3 "" H 4050 15625 50  0001 C CNN
 	1    3850 15625
 	1    0    0    -1  
 $EndComp
@@ -14126,7 +14143,7 @@ P 3800 16625
 F 0 "TP1" H 3800 16895 50  0001 C CNN
 F 1 "Test_Point" H 3800 16825 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4000 16625 50  0001 C CNN
-F 3 "~" H 4000 16625 50  0001 C CNN
+F 3 "" H 4000 16625 50  0001 C CNN
 	1    3800 16625
 	1    0    0    -1  
 $EndComp
@@ -14138,7 +14155,7 @@ P 3800 17625
 F 0 "TP2" H 3800 17895 50  0001 C CNN
 F 1 "Test_Point" H 3800 17825 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4000 17625 50  0001 C CNN
-F 3 "~" H 4000 17625 50  0001 C CNN
+F 3 "" H 4000 17625 50  0001 C CNN
 	1    3800 17625
 	-1   0    0    1   
 $EndComp
@@ -14150,7 +14167,7 @@ P 3850 18625
 F 0 "TP4" H 3850 18895 50  0001 C CNN
 F 1 "Test_Point" H 3850 18825 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4050 18625 50  0001 C CNN
-F 3 "~" H 4050 18625 50  0001 C CNN
+F 3 "" H 4050 18625 50  0001 C CNN
 	1    3850 18625
 	-1   0    0    1   
 $EndComp
@@ -14162,7 +14179,7 @@ P 3900 19625
 F 0 "TP6" H 3900 19895 50  0001 C CNN
 F 1 "Test_Point" H 3900 19825 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4100 19625 50  0001 C CNN
-F 3 "~" H 4100 19625 50  0001 C CNN
+F 3 "" H 4100 19625 50  0001 C CNN
 	1    3900 19625
 	-1   0    0    1   
 $EndComp
@@ -14174,7 +14191,7 @@ P 3950 20625
 F 0 "TP8" H 3950 20895 50  0001 C CNN
 F 1 "Test_Point" H 3950 20825 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4150 20625 50  0001 C CNN
-F 3 "~" H 4150 20625 50  0001 C CNN
+F 3 "" H 4150 20625 50  0001 C CNN
 	1    3950 20625
 	-1   0    0    1   
 $EndComp
@@ -14186,7 +14203,7 @@ P 5275 17125
 F 0 "TP9" H 5275 17395 50  0001 C CNN
 F 1 "Test_Point" H 5275 17325 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5475 17125 50  0001 C CNN
-F 3 "~" H 5475 17125 50  0001 C CNN
+F 3 "" H 5475 17125 50  0001 C CNN
 	1    5275 17125
 	-1   0    0    1   
 $EndComp
@@ -14281,7 +14298,7 @@ P 9700 16175
 F 0 "P25" H 9878 16175 50  0000 L CNN
 F 1 "CONN_LCD" H 9700 14525 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 9600 14625 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0702461004_PCB_HEADERS-229930.pdf" H 9877 16130 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/276/0702461004_PCB_HEADERS-229930.pdf" H 9877 16130 50  0000 L CNN
 F 4 "70246-0802" H 9700 14725 50  0001 C CNN "MPN"
 F 5 "2466 In Stock" H 9700 16175 50  0001 C CNN "Availability"
 F 6 "Headers & Wire Housings 2.54mm CGrid Hdr Shr rd /Slt .76AuLF 8Ckt" H 9700 16175 50  0001 C CNN "Description"
@@ -14398,10 +14415,10 @@ F 1 "IC_TLV2474" H 23375 3000 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 23375 3275 50  0001 C CNN
 F 3 "" H 23475 3375 50  0001 C CNN
 F 4 "TLV2474CDR" H 23425 3175 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 17950 -14450 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 17950 -14450 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 17950 -14450 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 17950 -14450 50  0001 C CNN "Description"
 F 7 "OK" H 17950 -14450 50  0001 C CNN "LifeCycle"
-F 8 "0.367  EUR" H 17950 -14450 50  0001 C CNN "Price"
+F 8 "2.39  EUR" H 17950 -14450 50  0001 C CNN "Price"
 F 9 "Mouser" H 17950 -14450 50  0001 C CNN "Vendor"
 	1    23425 3175
 	1    0    0    -1  
@@ -14415,11 +14432,11 @@ F 1 "IC_TLV2474" H 25100 3000 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 25100 3275 50  0001 C CNN
 F 3 "" H 25200 3375 50  0001 C CNN
 F 4 "TLV2474CDR" H 25150 3175 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 25150 3175 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 25150 3175 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 25150 3175 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 25150 3175 50  0001 C CNN "Description"
 F 7 "OK" H 25150 3175 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 25150 3175 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 25150 3175 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 25150 3175 50  0001 C CNN "Price"
 	3    25150 3175
 	1    0    0    -1  
 $EndComp
@@ -14432,11 +14449,11 @@ F 1 "IC_TLV2474" H 26825 3000 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 26825 3275 50  0001 C CNN
 F 3 "" H 26925 3375 50  0001 C CNN
 F 4 "TLV2474CDR" H 26875 3175 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 26875 3175 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 26875 3175 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 26875 3175 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 26875 3175 50  0001 C CNN "Description"
 F 7 "OK" H 26875 3175 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 26875 3175 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 26875 3175 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 26875 3175 50  0001 C CNN "Price"
 	1    26875 3175
 	1    0    0    -1  
 $EndComp
@@ -14449,11 +14466,11 @@ F 1 "IC_TLV2474" H 21975 3175 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 21975 3450 50  0001 C CNN
 F 3 "" H 22075 3550 50  0001 C CNN
 F 4 "TLV2474CDR" H 22025 3350 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 22025 3350 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 22025 3350 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 22025 3350 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 22025 3350 50  0001 C CNN "Description"
 F 7 "OK" H 22025 3350 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22025 3350 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 22025 3350 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 22025 3350 50  0001 C CNN "Price"
 	3    22025 3350
 	1    0    0    -1  
 $EndComp
@@ -14583,7 +14600,7 @@ P 24000 3175
 F 0 "R122" V 23896 3175 50  0000 C CNN
 F 1 "RES_22R_1%_0402" H 24030 3135 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 23930 3095 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 24000 3175 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 24000 3175 50  0001 C CNN
 F 4 "CRCW040222R0FKEDC" H 24130 3295 50  0001 C CNN "MPN"
 F 5 "215652 In Stock" H 24000 3175 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 24000 3175 50  0001 C CNN "Description"
@@ -14602,7 +14619,7 @@ P 25725 3175
 F 0 "R162" V 25621 3175 50  0000 C CNN
 F 1 "RES_22R_1%_0402" H 25755 3135 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 25655 3095 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 25725 3175 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 25725 3175 50  0001 C CNN
 F 4 "CRCW040222R0FKEDC" H 25855 3295 50  0001 C CNN "MPN"
 F 5 "215652 In Stock" H 25725 3175 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 25725 3175 50  0001 C CNN "Description"
@@ -14703,7 +14720,7 @@ P 22925 3625
 F 0 "R99" V 22821 3625 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 22955 3585 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 22855 3545 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 22925 3625 50  0001 C CNN
+F 3 "" H 22925 3625 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 23055 3745 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 22925 3625 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22925 3625 50  0001 C CNN "Description"
@@ -14720,7 +14737,7 @@ P 24650 3625
 F 0 "R136" V 24546 3625 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 24680 3585 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 24580 3545 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 24650 3625 50  0001 C CNN
+F 3 "" H 24650 3625 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 24780 3745 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 24650 3625 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 24650 3625 50  0001 C CNN "Description"
@@ -14737,7 +14754,7 @@ P 26375 3625
 F 0 "R182" V 26271 3625 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 26405 3585 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 26305 3545 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 26375 3625 50  0001 C CNN
+F 3 "" H 26375 3625 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 26505 3745 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 26375 3625 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 26375 3625 50  0001 C CNN "Description"
@@ -14815,7 +14832,7 @@ P 21550 3125
 F 0 "R90" H 21491 3125 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 21580 3085 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21480 3045 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 21550 3125 50  0001 C CNN
+F 3 "" H 21550 3125 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 21680 3245 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 21550 3125 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21550 3125 50  0001 C CNN "Description"
@@ -14832,7 +14849,7 @@ P 21550 3400
 F 0 "R91" H 21491 3400 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 21580 3360 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21480 3320 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 21550 3400 50  0001 C CNN
+F 3 "" H 21550 3400 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 21680 3520 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 21550 3400 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21550 3400 50  0001 C CNN "Description"
@@ -14870,7 +14887,7 @@ P 22925 3225
 F 0 "R98" H 22866 3225 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 22955 3185 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 22855 3145 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 22925 3225 50  0001 C CNN
+F 3 "" H 22925 3225 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 23055 3345 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 22925 3225 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22925 3225 50  0001 C CNN "Description"
@@ -14887,7 +14904,7 @@ P 22925 2925
 F 0 "R97" H 22866 2925 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 22955 2885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 22855 2845 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 22925 2925 50  0001 C CNN
+F 3 "" H 22925 2925 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 23055 3045 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 22925 2925 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22925 2925 50  0001 C CNN "Description"
@@ -14915,7 +14932,7 @@ P 24650 3225
 F 0 "R135" H 24591 3225 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 24680 3185 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 24580 3145 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 24650 3225 50  0001 C CNN
+F 3 "" H 24650 3225 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 24780 3345 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 24650 3225 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 24650 3225 50  0001 C CNN "Description"
@@ -14932,7 +14949,7 @@ P 24650 2925
 F 0 "R134" H 24591 2925 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 24680 2885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 24580 2845 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 24650 2925 50  0001 C CNN
+F 3 "" H 24650 2925 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 24780 3045 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 24650 2925 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 24650 2925 50  0001 C CNN "Description"
@@ -14960,7 +14977,7 @@ P 26375 2925
 F 0 "R180" H 26316 2925 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 26405 2885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 26305 2845 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 26375 2925 50  0001 C CNN
+F 3 "" H 26375 2925 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 26505 3045 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 26375 2925 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 26375 2925 50  0001 C CNN "Description"
@@ -14977,7 +14994,7 @@ P 26375 3225
 F 0 "R181" H 26316 3225 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 26405 3185 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 26305 3145 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 26375 3225 50  0001 C CNN
+F 3 "" H 26375 3225 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 26505 3345 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 26375 3225 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 26375 3225 50  0001 C CNN "Description"
@@ -15045,10 +15062,10 @@ F 1 "IC_TLV2474" H 23375 1825 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 23375 2100 50  0001 C CNN
 F 3 "" H 23475 2200 50  0001 C CNN
 F 4 "TLV2474CDR" H 23425 2000 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 17950 -15625 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 17950 -15625 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 17950 -15625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 17950 -15625 50  0001 C CNN "Description"
 F 7 "OK" H 17950 -15625 50  0001 C CNN "LifeCycle"
-F 8 "0.367  EUR" H 17950 -15625 50  0001 C CNN "Price"
+F 8 "2.39  EUR" H 17950 -15625 50  0001 C CNN "Price"
 F 9 "Mouser" H 17950 -15625 50  0001 C CNN "Vendor"
 	4    23425 2000
 	1    0    0    -1  
@@ -15062,11 +15079,11 @@ F 1 "IC_TLV2474" H 25100 1825 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 25100 2100 50  0001 C CNN
 F 3 "" H 25200 2200 50  0001 C CNN
 F 4 "TLV2474CDR" H 25150 2000 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 25150 2000 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 25150 2000 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 25150 2000 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 25150 2000 50  0001 C CNN "Description"
 F 7 "OK" H 25150 2000 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 25150 2000 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 25150 2000 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 25150 2000 50  0001 C CNN "Price"
 	2    25150 2000
 	1    0    0    -1  
 $EndComp
@@ -15079,11 +15096,11 @@ F 1 "IC_TLV2474" H 26825 1825 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 26825 2100 50  0001 C CNN
 F 3 "" H 26925 2200 50  0001 C CNN
 F 4 "TLV2474CDR" H 26875 2000 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 26875 2000 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 26875 2000 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 26875 2000 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 26875 2000 50  0001 C CNN "Description"
 F 7 "OK" H 26875 2000 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 26875 2000 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 26875 2000 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 26875 2000 50  0001 C CNN "Price"
 	4    26875 2000
 	1    0    0    -1  
 $EndComp
@@ -15096,11 +15113,11 @@ F 1 "IC_TLV2474" H 21975 2000 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 21975 2275 50  0001 C CNN
 F 3 "" H 22075 2375 50  0001 C CNN
 F 4 "TLV2474CDR" H 22025 2175 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 22025 2175 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 22025 2175 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 22025 2175 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 22025 2175 50  0001 C CNN "Description"
 F 7 "OK" H 22025 2175 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22025 2175 50  0001 C CNN "Vendor"
-F 9 "0.367  EUR" H 22025 2175 50  0001 C CNN "Price"
+F 9 "2.39  EUR" H 22025 2175 50  0001 C CNN "Price"
 	2    22025 2175
 	1    0    0    -1  
 $EndComp
@@ -15224,7 +15241,7 @@ P 24000 2000
 F 0 "R121" V 23896 2000 50  0000 C CNN
 F 1 "RES_22R_1%_0402" H 24030 1960 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 23930 1920 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 24000 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 24000 2000 50  0001 C CNN
 F 4 "CRCW040222R0FKEDC" H 24130 2120 50  0001 C CNN "MPN"
 F 5 "215652 In Stock" H 24000 2000 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 24000 2000 50  0001 C CNN "Description"
@@ -15243,7 +15260,7 @@ P 25725 2000
 F 0 "R161" V 25621 2000 50  0000 C CNN
 F 1 "RES_22R_1%_0402" H 25755 1960 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 25655 1920 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 25725 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 25725 2000 50  0001 C CNN
 F 4 "CRCW040222R0FKEDC" H 25855 2120 50  0001 C CNN "MPN"
 F 5 "215652 In Stock" H 25725 2000 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 25725 2000 50  0001 C CNN "Description"
@@ -15344,7 +15361,7 @@ P 22925 2450
 F 0 "R96" V 22821 2450 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 22955 2410 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 22855 2370 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 22925 2450 50  0001 C CNN
+F 3 "" H 22925 2450 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 23055 2570 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 22925 2450 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22925 2450 50  0001 C CNN "Description"
@@ -15361,7 +15378,7 @@ P 24650 2450
 F 0 "R133" V 24546 2450 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 24680 2410 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 24580 2370 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 24650 2450 50  0001 C CNN
+F 3 "" H 24650 2450 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 24780 2570 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 24650 2450 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 24650 2450 50  0001 C CNN "Description"
@@ -15378,7 +15395,7 @@ P 26375 2450
 F 0 "R179" V 26271 2450 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 26405 2410 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 26305 2370 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 26375 2450 50  0001 C CNN
+F 3 "" H 26375 2450 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 26505 2570 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 26375 2450 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 26375 2450 50  0001 C CNN "Description"
@@ -15456,7 +15473,7 @@ P 21550 1950
 F 0 "R88" H 21491 1950 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 21580 1910 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21480 1870 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 21550 1950 50  0001 C CNN
+F 3 "" H 21550 1950 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 21680 2070 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 21550 1950 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21550 1950 50  0001 C CNN "Description"
@@ -15473,7 +15490,7 @@ P 21550 2225
 F 0 "R89" H 21491 2225 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 21580 2185 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21480 2145 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 21550 2225 50  0001 C CNN
+F 3 "" H 21550 2225 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 21680 2345 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 21550 2225 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21550 2225 50  0001 C CNN "Description"
@@ -15511,7 +15528,7 @@ P 22925 2050
 F 0 "R95" H 22866 2050 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 22955 2010 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 22855 1970 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 22925 2050 50  0001 C CNN
+F 3 "" H 22925 2050 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 23055 2170 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 22925 2050 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22925 2050 50  0001 C CNN "Description"
@@ -15528,7 +15545,7 @@ P 22925 1750
 F 0 "R94" H 22866 1750 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 22955 1710 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 22855 1670 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 22925 1750 50  0001 C CNN
+F 3 "" H 22925 1750 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 23055 1870 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 22925 1750 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22925 1750 50  0001 C CNN "Description"
@@ -15556,7 +15573,7 @@ P 24650 2050
 F 0 "R132" H 24591 2050 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 24680 2010 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 24580 1970 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 24650 2050 50  0001 C CNN
+F 3 "" H 24650 2050 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 24780 2170 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 24650 2050 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 24650 2050 50  0001 C CNN "Description"
@@ -15573,7 +15590,7 @@ P 24650 1750
 F 0 "R131" H 24591 1750 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 24680 1710 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 24580 1670 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 24650 1750 50  0001 C CNN
+F 3 "" H 24650 1750 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 24780 1870 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 24650 1750 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 24650 1750 50  0001 C CNN "Description"
@@ -15601,7 +15618,7 @@ P 26375 1750
 F 0 "R177" H 26316 1750 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 26405 1710 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 26305 1670 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 26375 1750 50  0001 C CNN
+F 3 "" H 26375 1750 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 26505 1870 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 26375 1750 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 26375 1750 50  0001 C CNN "Description"
@@ -15618,7 +15635,7 @@ P 26375 2050
 F 0 "R178" H 26316 2050 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 26405 2010 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 26305 1970 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 26375 2050 50  0001 C CNN
+F 3 "" H 26375 2050 50  0001 C CNN
 F 4 "CRCW040210K0FKEDC" H 26505 2170 50  0001 C CNN "MPN"
 F 5 "1813839 In Stock" H 26375 2050 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 26375 2050 50  0001 C CNN "Description"
@@ -15690,8 +15707,13 @@ P 11125 16450
 F 0 "P28" V 11143 16928 50  0000 L CNN
 F 1 "CONN_UEXT" H 11225 15750 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 11125 16550 50  0001 C CNN
-F 3 "" H 11125 16550 50  0000 C CNN
+F 3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" H 11125 16550 50  0000 C CNN
 F 4 "N2510-6002RB" H 11125 16450 50  0001 C CNN "MPN"
+F 5 "11668 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "1.22  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    11125 16450
 	0    1    1    0   
 $EndComp
@@ -15767,8 +15789,13 @@ P 12250 15725
 F 0 "D15" V 12250 15793 50  0000 L CNN
 F 1 "D_MM3Z3V3B" H 12250 15635 50  0001 C CNN
 F 2 "Diode_SMD:D_SOD-323F" H 12150 15715 50  0001 C CNN
-F 3 "" H 12250 15815 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/MM3Z10VB-1301283.pdf" H 12250 15815 50  0001 C CNN
 F 4 "MM3Z3V3B" H 12250 15725 39  0001 C CNN "MPN"
+F 5 "110855 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "Zener Diodes Diode Zener 3.3V 200mW 2%" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "0.183  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    12250 15725
 	0    1    1    0   
 $EndComp
@@ -15918,7 +15945,7 @@ P 9200 10600
 F 0 "R51" V 9096 10600 50  0000 C CNN
 F 1 "RES_22R_1%_0402" H 9230 10560 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9130 10520 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9200 10600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 9200 10600 50  0001 C CNN
 F 4 "CRCW040222R0FKEDC" H 9330 10720 50  0001 C CNN "MPN"
 F 5 "215652 In Stock" H 9200 10600 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 9200 10600 50  0001 C CNN "Description"
@@ -15935,7 +15962,7 @@ P 9200 10700
 F 0 "R52" V 9275 10700 50  0000 C CNN
 F 1 "RES_22R_1%_0402" H 9230 10660 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9130 10620 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9200 10700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 9200 10700 50  0001 C CNN
 F 4 "CRCW040222R0FKEDC" H 9330 10820 50  0001 C CNN "MPN"
 F 5 "215652 In Stock" H 9200 10700 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 9200 10700 50  0001 C CNN "Description"
@@ -15990,9 +16017,14 @@ U 1 1 C2AC2084
 P 4625 11375
 F 0 "U5" H 4725 10475 39  0000 C CNN
 F 1 "IC_MCP23S17" H 4900 10400 39  0000 C CNN
-F 2 "" H 4625 11375 39  0001 C CNN
-F 3 "" H 4625 11375 39  0001 C CNN
-F 4 "MCP23S17" H 4625 12403 39  0001 C CNN "MPN"
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 4625 11375 39  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/20001952C-1129816.pdf" H 4625 11375 39  0001 C CNN
+F 4 "MCP23S17T-E/SO" H 4625 12403 39  0001 C CNN "MPN"
+F 5 "16730 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "Interface - I/O Expanders 16bit Input/Output Exp SPI interface" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "1.19  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    4625 11375
 	1    0    0    -1  
 $EndComp
@@ -16142,9 +16174,14 @@ U 1 1 C66BDBFE
 P 7300 11375
 F 0 "U13" H 7400 10475 39  0000 C CNN
 F 1 "IC_MCP23S17" H 7575 10400 39  0000 C CNN
-F 2 "" H 7300 11375 39  0001 C CNN
-F 3 "" H 7300 11375 39  0001 C CNN
-F 4 "MCP23S17" H 7300 12403 39  0001 C CNN "MPN"
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 7300 11375 39  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/268/20001952C-1129816.pdf" H 7300 11375 39  0001 C CNN
+F 4 "MCP23S17T-E/SO" H 7300 12403 39  0001 C CNN "MPN"
+F 5 "16730 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "Interface - I/O Expanders 16bit Input/Output Exp SPI interface" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "1.19  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    7300 11375
 	1    0    0    -1  
 $EndComp
@@ -16269,7 +16306,7 @@ P 9025 16700
 F 0 "R50" H 9100 16900 50  0000 R CNN
 F 1 "RES_470R_1%_0402" H 9055 16660 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8955 16620 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 9025 16700 50  0001 C CNN
+F 3 "" H 9025 16700 50  0001 C CNN
 F 4 "CRCW0402470RFKEDC" H 9155 16820 50  0001 C CNN "MPN"
 F 5 "96773 In Stock" H 9025 16700 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 470ohms 1% Commercial Use" H 9025 16700 50  0001 C CNN "Description"
@@ -16304,6 +16341,11 @@ F 1 "IC_LP55231" H 12225 13075 39  0000 C CNN
 F 2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" H 11825 12575 39  0001 C CNN
 F 3 "" H 11925 12575 39  0001 C CNN
 F 4 "LP55231SQX/NOPB" H 11925 12575 39  0001 C CNN "MPN"
+F 5 "19443 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 6 "LED Lighting Drivers Programmble 9-Output LED Driver" H 0   0   50  0001 C CNN "Description"
+F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 8 "1.69  EUR" H 0   0   50  0001 C CNN "Price"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    11925 13975
 	1    0    0    -1  
 $EndComp
@@ -16312,7 +16354,7 @@ L SwEmb:CONN_LED P29
 U 1 1 C9AF05A8
 P 13550 13075
 F 0 "P29" H 13700 13075 50  0000 C CNN
-F 1 "CONN_SWITCH" H 13450 13975 50  0001 C CNN
+F 1 "CONN_LED" H 13450 13975 50  0001 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 13250 13975 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 13350 13975 50  0001 C CNN
 F 4 "691321100002" H 13450 13975 50  0001 C CNN "MPN"
@@ -16329,7 +16371,7 @@ L SwEmb:CONN_LED P30
 U 1 1 CA0BD955
 P 13550 13300
 F 0 "P30" H 13700 13300 50  0000 C CNN
-F 1 "CONN_SWITCH" H 13450 14200 50  0001 C CNN
+F 1 "CONN_LED" H 13450 14200 50  0001 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 13250 14200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 13350 14200 50  0001 C CNN
 F 4 "691321100002" H 13450 14200 50  0001 C CNN "MPN"
@@ -16346,7 +16388,7 @@ L SwEmb:CONN_LED P31
 U 1 1 CA0BE4D5
 P 13550 13525
 F 0 "P31" H 13700 13525 50  0000 C CNN
-F 1 "CONN_SWITCH" H 13450 14425 50  0001 C CNN
+F 1 "CONN_LED" H 13450 14425 50  0001 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 13250 14425 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 13350 14425 50  0001 C CNN
 F 4 "691321100002" H 13450 14425 50  0001 C CNN "MPN"
@@ -16363,7 +16405,7 @@ L SwEmb:CONN_LED P32
 U 1 1 CA0BE8D9
 P 13550 13750
 F 0 "P32" H 13700 13750 50  0000 C CNN
-F 1 "CONN_SWITCH" H 13450 14650 50  0001 C CNN
+F 1 "CONN_LED" H 13450 14650 50  0001 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 13250 14650 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 13350 14650 50  0001 C CNN
 F 4 "691321100002" H 13450 14650 50  0001 C CNN "MPN"
@@ -16380,7 +16422,7 @@ L SwEmb:CONN_LED P33
 U 1 1 CA0BECC9
 P 13550 13975
 F 0 "P33" H 13700 13975 50  0000 C CNN
-F 1 "CONN_SWITCH" H 13450 14875 50  0001 C CNN
+F 1 "CONN_LED" H 13450 14875 50  0001 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 13250 14875 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 13350 14875 50  0001 C CNN
 F 4 "691321100002" H 13450 14875 50  0001 C CNN "MPN"
@@ -16397,7 +16439,7 @@ L SwEmb:CONN_LED P34
 U 1 1 CA0BF0B1
 P 13550 14200
 F 0 "P34" H 13700 14200 50  0000 C CNN
-F 1 "CONN_SWITCH" H 13450 15100 50  0001 C CNN
+F 1 "CONN_LED" H 13450 15100 50  0001 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 13250 15100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 13350 15100 50  0001 C CNN
 F 4 "691321100002" H 13450 15100 50  0001 C CNN "MPN"
@@ -16414,7 +16456,7 @@ L SwEmb:CONN_LED P35
 U 1 1 CA0BF49D
 P 13550 14425
 F 0 "P35" H 13700 14425 50  0000 C CNN
-F 1 "CONN_SWITCH" H 13450 15325 50  0001 C CNN
+F 1 "CONN_LED" H 13450 15325 50  0001 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 13250 15325 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 13350 15325 50  0001 C CNN
 F 4 "691321100002" H 13450 15325 50  0001 C CNN "MPN"
@@ -16431,7 +16473,7 @@ L SwEmb:CONN_LED P36
 U 1 1 CA0BF899
 P 13550 14650
 F 0 "P36" H 13700 14650 50  0000 C CNN
-F 1 "CONN_SWITCH" H 13450 15550 50  0001 C CNN
+F 1 "CONN_LED" H 13450 15550 50  0001 C CNN
 F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 13250 15550 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 13350 15550 50  0001 C CNN
 F 4 "691321100002" H 13450 15550 50  0001 C CNN "MPN"
@@ -17203,10 +17245,10 @@ F 1 "IC_TLV2474" H 17725 1825 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 17725 2100 50  0001 C CNN
 F 3 "" H 17825 2200 50  0001 C CNN
 F 4 "TLV2474CDR" H 17775 2000 50  0001 C CNN "MPN"
-F 5 "12748 In Stock" H 12300 -15625 50  0001 C CNN "Availability"
-F 6 "Operational Amplifiers - Op Amps Quad" H 12300 -15625 50  0001 C CNN "Description"
+F 5 "1390 In Stock" H 12300 -15625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 12300 -15625 50  0001 C CNN "Description"
 F 7 "OK" H 12300 -15625 50  0001 C CNN "LifeCycle"
-F 8 "0.367  EUR" H 12300 -15625 50  0001 C CNN "Price"
+F 8 "2.39  EUR" H 12300 -15625 50  0001 C CNN "Price"
 F 9 "Mouser" H 12300 -15625 50  0001 C CNN "Vendor"
 	1    17775 2000
 	1    0    0    -1  
@@ -17270,7 +17312,7 @@ P 18300 2000
 F 0 "R76" V 18196 2000 50  0000 C CNN
 F 1 "RES_22R_1%_0402" H 18330 1960 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18230 1920 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 18300 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 18300 2000 50  0001 C CNN
 F 4 "CRCW040222R0FKEDC" H 18430 2120 50  0001 C CNN "MPN"
 F 5 "215652 In Stock" H 18300 2000 50  0001 C CNN "Availability"
 F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 18300 2000 50  0001 C CNN "Description"
@@ -17326,13 +17368,14 @@ P 7100 21400
 F 0 "R39" V 6996 21400 50  0000 C CNN
 F 1 "RES_10mOhm_1%" H 7130 21360 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7030 21320 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 7130 21420 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" H 7130 21420 50  0001 C CNN
 F 4 "LVT08R0100FER" H 7230 21520 50  0001 C CNN "MPN"
-F 5 "215652 In Stock" H 7100 21400 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 7100 21400 50  0001 C CNN "Description"
-F 7 "0.114  EUR" H 7100 21400 50  0001 C CNN "Price"
+F 5 "7485 In Stock" H 7100 21400 50  0001 C CNN "Availability"
+F 6 "Current Sense Resistors - SMD 0.01 ohm 1% 0.5W Current Sense" H 7100 21400 50  0001 C CNN "Description"
+F 7 "0.183  EUR" H 7100 21400 50  0001 C CNN "Price"
 F 8 "New Product" H 7100 21400 50  0001 C CNN "LifeCycle"
 F 9 "500mW" H 7100 21400 50  0001 C CNN "Comment"
+F 10 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    7100 21400
 	0    1    1    0   
 $EndComp
@@ -17345,7 +17388,7 @@ P 6950 21400
 F 0 "TP10" H 6950 21670 50  0001 C CNN
 F 1 "Test_Point" H 6950 21600 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7150 21400 50  0001 C CNN
-F 3 "~" H 7150 21400 50  0001 C CNN
+F 3 "" H 7150 21400 50  0001 C CNN
 	1    6950 21400
 	1    0    0    -1  
 $EndComp
@@ -17370,13 +17413,14 @@ P 12350 21400
 F 0 "R61" V 12246 21400 50  0000 C CNN
 F 1 "RES_10mOhm_1%" H 12380 21360 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 12280 21320 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 12380 21420 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" H 12380 21420 50  0001 C CNN
 F 4 "LVT08R0100FER" H 12480 21520 50  0001 C CNN "MPN"
-F 5 "215652 In Stock" H 12350 21400 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 12350 21400 50  0001 C CNN "Description"
-F 7 "0.114  EUR" H 12350 21400 50  0001 C CNN "Price"
+F 5 "7485 In Stock" H 12350 21400 50  0001 C CNN "Availability"
+F 6 "Current Sense Resistors - SMD 0.01 ohm 1% 0.5W Current Sense" H 12350 21400 50  0001 C CNN "Description"
+F 7 "0.183  EUR" H 12350 21400 50  0001 C CNN "Price"
 F 8 "New Product" H 12350 21400 50  0001 C CNN "LifeCycle"
 F 9 "500mW" H 12350 21400 50  0001 C CNN "Comment"
+F 10 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    12350 21400
 	0    1    1    0   
 $EndComp
@@ -17403,13 +17447,14 @@ P 9525 21525
 F 0 "R55" H 9466 21525 50  0000 R CNN
 F 1 "RES_10mOhm_1%" H 9555 21485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9455 21445 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 9555 21545 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" H 9555 21545 50  0001 C CNN
 F 4 "LVT08R0100FER" H 9655 21645 50  0001 C CNN "MPN"
-F 5 "215652 In Stock" H 9525 21525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 9525 21525 50  0001 C CNN "Description"
-F 7 "0.114  EUR" H 9525 21525 50  0001 C CNN "Price"
+F 5 "7485 In Stock" H 9525 21525 50  0001 C CNN "Availability"
+F 6 "Current Sense Resistors - SMD 0.01 ohm 1% 0.5W Current Sense" H 9525 21525 50  0001 C CNN "Description"
+F 7 "0.183  EUR" H 9525 21525 50  0001 C CNN "Price"
 F 8 "New Product" H 9525 21525 50  0001 C CNN "LifeCycle"
 F 9 "500mW" H 9525 21525 50  0001 C CNN "Comment"
+F 10 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    9525 21525
 	-1   0    0    1   
 $EndComp
@@ -17427,13 +17472,14 @@ P 13575 21400
 F 0 "R65" V 13471 21400 50  0000 C CNN
 F 1 "RES_10mOhm_1%" H 13605 21360 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 13505 21320 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" H 13605 21420 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" H 13605 21420 50  0001 C CNN
 F 4 "LVT08R0100FER" H 13705 21520 50  0001 C CNN "MPN"
-F 5 "215652 In Stock" H 13575 21400 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" H 13575 21400 50  0001 C CNN "Description"
-F 7 "0.114  EUR" H 13575 21400 50  0001 C CNN "Price"
+F 5 "7485 In Stock" H 13575 21400 50  0001 C CNN "Availability"
+F 6 "Current Sense Resistors - SMD 0.01 ohm 1% 0.5W Current Sense" H 13575 21400 50  0001 C CNN "Description"
+F 7 "0.183  EUR" H 13575 21400 50  0001 C CNN "Price"
 F 8 "New Product" H 13575 21400 50  0001 C CNN "LifeCycle"
 F 9 "500mW" H 13575 21400 50  0001 C CNN "Comment"
+F 10 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    13575 21400
 	0    1    1    0   
 $EndComp
