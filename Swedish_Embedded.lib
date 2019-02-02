@@ -980,6 +980,26 @@ X GND 2 -250 -50 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# CONN_BRKRES
+#
+DEF ~CONN_BRKRES P 0 40 Y Y 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "CONN_BRKRES" -100 900 50 H I C CNN
+F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F4 "691321100002" -100 900 50 H I C CNN "MPN"
+F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
+F7 "OK" 0 900 50 H I C CNN "LifeCycle"
+F8 "0.38  EUR" 100 900 50 H I C CNN "Price"
+F9 "Mouser" 0 -50 50 H I C CNN "Vendor"
+DRAW
+S -150 100 100 -100 0 1 0 N
+X BR 1 -250 50 100 R 50 50 1 1 P
+X BR 2 -250 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CONN_CAN
 #
 DEF ~CONN_CAN P 0 40 Y Y 1 F N
@@ -1178,7 +1198,7 @@ DEF ~CONN_LCD P 0 40 Y Y 1 F N
 F0 "P" 0 900 50 H V C CNN
 F1 "CONN_LCD" 0 -1650 50 H I C CNN
 F2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" -100 -1550 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/276/0702461004_PCB_HEADERS-229930.pdf" -100 500 50 H V C CNN
+F3 "https___www.mouser.com_datasheet_2_276_0702461004_PCB_HEADERS-229930.pdf" -100 500 50 H I C CNN
 F4 "70246-0802" 0 -1450 50 H I C CNN "MPN"
 F5 "2466 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 2.54mm CGrid Hdr Shr rd /Slt .76AuLF 8Ckt" 0 0 50 H I C CNN "Description"
@@ -1622,7 +1642,7 @@ DEF ~CONN_UEXT P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
 F1 "CONN_UEXT" 100 -700 50 H I C CNN
 F2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H V C CNN
+F3 "https___www.mouser.com_datasheet_2_1_ts0770-34478.pdf" 0 100 50 H I C CNN
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
 F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" 0 0 50 H I C CNN "Description"
@@ -1764,23 +1784,54 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_BAT54S
+# D_BAT54
 #
-DEF D_BAT54S D 0 40 Y Y 1 F N
-F0 "D" 25 -150 50 H V L CNN
-F1 "D_BAT54S" -250 125 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 75 125 50 H I L CNN
-F3 "https://www.mouser.com/datasheet/2/308/BAT54SLT1-D-103997.pdf" -120 0 50 H I C CNN
-F4 "BAT54SLT1G" 0 0 50 H I C CNN "MPN"
-F5 "388644 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Schottky Diodes & Rectifiers 30V 225mW Dual" 0 0 50 H I C CNN "Description"
-F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "Mouser" 0 0 50 H I C CNN "Vendor"
-F9 "0.157  EUR" 0 0 50 H I C CNN "Price"
+DEF ~D_BAT54 D 0 40 N Y 1 F N
+F0 "D" -50 100 50 H V L CNN
+F1 "D_BAT54" -150 -450 50 H I L CNN
+F2 "Diode_SMD:D_SOD-123" -175 -425 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/916/BAT54GW-1318921.pdf" -370 -550 50 H I C CNN
+F4 "BAT54GWJ" -100 -450 50 H I C CNN "MPN"
+F5 "34404 In Stock" -100 -500 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers BL Bipolar Discretes" -250 -550 50 H I C CNN "Description"
+F7 "OK" -50 -500 50 H I C CNN "LifeCycle"
+F8 "0.122  EUR" -50 -500 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  *:SOT*23*
 $ENDFPLIST
 DRAW
+T 0 0 -100 20 0 0 0 BAT54 Normal 0 C C
+P 2 0 1 0 -75 -50 -75 -40 N
+P 2 0 1 0 -50 -50 -75 -50 N
+P 2 0 1 0 -50 50 -50 -50 N
+P 2 0 1 0 -50 50 -25 50 N
+P 2 0 1 0 -25 50 -25 40 N
+P 2 0 1 0 0 0 -100 0 N
+P 4 0 1 0 25 -50 25 50 -50 0 25 -50 F
+X ~ 1 -100 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_BAT54S
+#
+DEF ~D_BAT54S D 0 40 Y Y 1 F N
+F0 "D" 25 -150 50 H V L CNN
+F1 "D_BAT54S" -150 -400 50 H I L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 25 -325 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/308/BAT54SLT1-D-103997.pdf" -170 -450 50 H I C CNN
+F4 "BAT54SLT1G" 0 -450 50 H I C CNN "MPN"
+F5 "388644 In Stock" -50 -450 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers 30V 225mW Dual" -50 -450 50 H I C CNN "Description"
+F7 "OK" 0 -450 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 -450 50 H I C CNN "Vendor"
+F9 "0.157  EUR" 0 -450 50 H I C CNN "Price"
+$FPLIST
+ *:SOT*23*
+$ENDFPLIST
+DRAW
+T 0 0 50 20 0 0 0 BAT54 Normal 0 C C
 P 2 0 1 0 -150 0 -50 0 N
 P 2 0 1 0 -125 -50 -125 -40 N
 P 2 0 1 0 -100 -50 -125 -50 N
@@ -1794,8 +1845,8 @@ P 2 0 1 0 150 -50 125 -50 N
 P 2 0 1 0 150 -50 150 50 N
 P 2 0 1 0 150 50 175 50 N
 P 2 0 1 0 175 50 175 40 N
-P 4 0 1 0 -175 50 -175 -50 -100 0 -175 50 N
-P 4 0 1 0 75 50 75 -50 150 0 75 50 N
+P 4 0 1 0 -175 50 -175 -50 -100 0 -175 50 F
+P 4 0 1 0 75 50 75 -50 150 0 75 50 F
 X ~ 1 -250 0 100 R 50 50 1 1 P
 X ~ 2 250 0 100 L 50 50 1 1 P
 X ~ 3 0 -100 100 U 50 50 1 1 P
@@ -1806,15 +1857,15 @@ ENDDEF
 #
 DEF ~D_CDBC5100 D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_CDBC5100" -150 -80 50 H I L CNN
-F2 "Diode_SMD:D_SMC" 100 -150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/80/CDBC520-HF_Thru195419._CDBC5100-HF_RevB-1480789.pdf" 0 0 50 V I C CNN
-F4 "CDBC5100-HF" 0 -300 50 H I C CNN "MPN"
-F5 "9967 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Schottky Diodes & Rectifiers VR=100V, IO=5A (Halogen Free)" 0 0 50 H I C CNN "Description"
-F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "0.568  EUR" 0 0 50 H I C CNN "Price"
-F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+F1 "D_CDBC5100" -150 -430 50 H I L CNN
+F2 "Diode_SMD:D_SMC" 100 -500 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/80/CDBC520-HF_Thru195419._CDBC5100-HF_RevB-1480789.pdf" 150 -500 50 H I C CNN
+F4 "CDBC5100-HF" 0 -650 50 H I C CNN "MPN"
+F5 "9967 In Stock" 0 -350 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers VR=100V, IO=5A (Halogen Free)" 0 -350 50 H I C CNN "Description"
+F7 "OK" 0 -450 50 H I C CNN "LifeCycle"
+F8 "0.568  EUR" 50 -350 50 H I C CNN "Price"
+F9 "Mouser" 50 -350 50 H I C CNN "Vendor"
 $FPLIST
  TO-???*
  *SingleDiode
@@ -1826,6 +1877,8 @@ DRAW
 T 0 0 -60 20 0 0 0 "CDBC5100 100V 5A" Normal 0 C C
 P 2 0 1 0 -30 -40 -30 40 N
 P 2 0 1 0 -30 0 30 0 N
+P 3 0 1 0 -30 -40 -10 -40 -10 -30 N
+P 3 0 1 0 -30 40 -50 40 -50 30 N
 P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
 X K 1 -100 0 70 R 50 50 1 1 P
 X A 2 100 0 70 L 50 50 1 1 P
@@ -2093,6 +2146,46 @@ P 3 0 1 8 -50 50 -50 -50 -25 -75 N
 P 4 0 1 8 -50 0 40 50 40 -50 -50 0 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_STPS41H100
+#
+DEF ~D_STPS41H100 D 0 40 Y Y 1 F N
+F0 "D" 75 -50 50 H V L CNN
+F1 "D_STPS41H100" -250 -200 50 H I L CNN
+F2 "Package_TO_SOT_SMD:TO-263-2" -75 -575 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/389/stps41h100c-y-956752.pdf" -270 -700 50 H I C CNN
+F4 "STPS41H100CGY-TR" -50 -650 50 H I C CNN "MPN"
+F5 "1484 In Stock" 0 -600 50 H I C CNN "Availability"
+F6 "Schottky Diodes & Rectifiers Auto pwr Schottky 2X20A 100V 0.67VF" -150 -700 50 H I C CNN "Description"
+F7 "OK" 0 -650 50 H I C CNN "LifeCycle"
+F8 "2.48  EUR" 0 -650 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ *:SOT*23*
+$ENDFPLIST
+DRAW
+T 0 -100 0 20 0 0 0 STPS41H100 Normal 0 C C
+P 2 0 1 0 -150 -100 -50 -100 N
+P 2 0 1 0 -100 100 0 100 N
+P 2 0 1 0 -75 -150 -75 -140 N
+P 2 0 1 0 -75 50 -75 60 N
+P 2 0 1 0 -50 -150 -75 -150 N
+P 2 0 1 0 -50 -150 -50 -50 N
+P 2 0 1 0 -50 -50 -25 -50 N
+P 2 0 1 0 -50 50 -75 50 N
+P 2 0 1 0 -50 50 -50 150 N
+P 2 0 1 0 -50 150 -25 150 N
+P 2 0 1 0 -25 150 -25 140 N
+P 2 0 1 0 225 150 225 140 N
+P 3 0 1 0 50 0 50 -100 -50 -100 N
+P 3 0 1 0 50 0 50 100 0 100 N
+P 4 0 1 0 -125 -50 -125 -150 -50 -100 -125 -50 F
+P 4 0 1 0 -125 150 -125 50 -50 100 -125 150 F
+X ~ 1 -200 100 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+X ~ 3 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -2777,10 +2870,11 @@ F1 "IC_MCP23S17" 0 0 39 H V C CNN
 F2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" -100 -100 39 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/268/20001952C-1129816.pdf" 0 0 39 H I C CNN
 F4 "MCP23S17T-E/SO" 0 0 39 H I C CNN "MPN"
-F5 "16730 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "12705 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Interface - I/O Expanders 16bit Input/Output Exp SPI interface" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "1.19  EUR" 0 0 50 H I C CNN "Price"
+F8 "1.14  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 DRAW
 S -450 850 450 -850 0 1 8 N
 X PB0 1 550 750 100 L 50 50 1 1 B
@@ -4783,6 +4877,47 @@ X D 6 0 450 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Q_NMOS_BUK9875
+#
+DEF ~Q_NMOS_BUK9875 Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_NMOS_BUK9875" -50 -650 50 H I L CNN
+F2 "Package_TO_SOT_SMD:SOT-223" -50 -500 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/916/BUK9875-100A-1320200.pdf" -250 -600 50 H I C CNN
+F4 "BUK9875-100A/CUX " 50 -450 50 H I C CNN "MPN"
+F5 "55789 In Stock" 0 -450 50 H I C CNN "Availability"
+F6 "MOSFET N-channel TrenchMOS logic level FET" -250 -600 50 H I C CNN "Description"
+F7 "0.559  EUR" 0 -400 50 H I C CNN "Price"
+F8 "OK" -50 -450 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+T 0 200 -100 20 0 0 0 100V Normal 0 C C
+T 0 0 150 20 0 0 0 BUK9875 Normal 0 C C
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -150 0 126 R 50 50 1 1 I
+X D 2 100 200 100 D 50 50 1 1 P
+X S 3 100 -200 100 U 50 50 1 1 P
+X D 4 100 200 100 D 50 50 1 1 P N
+ENDDRAW
+ENDDEF
+#
 # Q_NMOS_FDN337N
 #
 DEF ~Q_NMOS_FDN337N Q 0 0 Y N 1 F N
@@ -4862,6 +4997,33 @@ P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
 X G 1 -200 0 200 R 50 50 1 1 I
 X S 2 100 -200 100 U 50 50 1 1 P
 X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_PNP_BC856
+#
+DEF ~Q_PNP_BC856 Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_PNP_BC856" 200 -50 50 H I L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 100 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/308/BC856ALT1-D-249456.pdf" 0 0 50 H I C CNN
+F4 "100mA 80V" 50 -450 39 H I C CNN "Comment"
+F5 "BC856BLT1G" 50 -500 39 H I C CNN "MPN"
+F6 "143810 In Stock" 0 0 50 H I C CNN "Availability"
+F7 "Bipolar Transistors - BJT 100mA 80V PNP" 0 0 50 H I C CNN "Description"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+F10 "0.096  EUR" 0 0 50 H I C CNN "Price"
+DRAW
+C 50 0 111 0 1 10 N
+T 0 0 -150 20 0 0 0 BC856 Normal 0 C C
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X B 1 -150 0 157 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

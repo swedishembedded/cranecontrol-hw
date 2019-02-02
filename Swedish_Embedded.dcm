@@ -12,6 +12,12 @@ K RJ45
 F ~
 $ENDCMP
 #
+$CMP D_BAT54
+D schottky barrier diode
+K schottky diode
+F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+$ENDCMP
+#
 $CMP D_BAT54S
 D schottky barrier diode
 K schottky diode
@@ -40,6 +46,12 @@ $CMP D_SMBJ5.0A
 D Schottky diode
 K diode Schottky
 F ~
+$ENDCMP
+#
+$CMP D_STPS41H100
+D schottky barrier diode
+K schottky diode
+F https://www.diodes.com/assets/Datasheets/ds11005.pdf
 $ENDCMP
 #
 $CMP IC_LM324
@@ -82,6 +94,12 @@ $CMP IC_TLV2474
 D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
+$ENDCMP
+#
+$CMP Q_PNP_BC856
+D Transistor PNP (general)
+K pnp transistor
+F ~
 $ENDCMP
 #
 $CMP TJA1042T
