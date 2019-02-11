@@ -102,6 +102,12 @@ K pnp transistor
 F ~
 $ENDCMP
 #
+$CMP RES_NTC_10K_402
+D temperature dependent resistor, negative temperature coefficient (NTC)
+K thermistor NTC resistor sensor RTD
+F ~
+$ENDCMP
+#
 $CMP TJA1042T
 D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
