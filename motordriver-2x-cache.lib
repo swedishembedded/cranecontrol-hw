@@ -230,31 +230,6 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SwEmb_CAP_1uF_10V_0402
-#
-DEF ~SwEmb_CAP_1uF_10V_0402 C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "SwEmb_CAP_1uF_10V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN
-F4 "CC0402KRX5R6BB105" 0 0 50 H I C CNN "MPN"
-F5 "19231817 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 10V X5R 10%" 0 0 50 H I C CNN "Description"
-F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "0.148  EUR" 0 0 50 H I C CNN "Price"
-F9 "Mouser" 0 0 50 H I C CNN "Vendor"
-$FPLIST
- *:C_*
-$ENDFPLIST
-DRAW
-T 0 0 0 20 0 0 0 "1uF 10V" Normal 0 C C
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # SwEmb_CAP_2.2uF_100V_1210
 #
 DEF ~SwEmb_CAP_2.2uF_100V_1210 C 0 10 N N 1 F N
@@ -478,7 +453,7 @@ DEF ~SwEmb_CONN_DEBUG_2R P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
 F1 "SwEmb_CONN_DEBUG_2R" 100 -700 50 H I C CNN
 F2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H V C CNN
+F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H I C CNN
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
 F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" 0 0 50 H I C CNN "Description"
@@ -974,14 +949,14 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SwEmb_D_ESDCAN06
+# SwEmb_D_ESDCAN03
 #
-DEF ~SwEmb_D_ESDCAN06 D 0 10 Y N 1 F N
+DEF ~SwEmb_D_ESDCAN03 D 0 10 Y N 1 F N
 F0 "D" -60 310 50 H V L CNN
-F1 "SwEmb_D_ESDCAN06" -250 -350 50 H I L CNN
+F1 "SwEmb_D_ESDCAN03" -250 -350 50 H I L CNN
 F2 "Package_TO_SOT_SMD:SOT-323_SC-70" 50 -450 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/389/esdcan02-2bwy-954689.pdf" 30 -100 50 V I C CNN
-F4 "ESDCAN06-2BWY" 10 420 50 H I C CNN "MPN"
+F4 "ESDCAN03-2BWY " 10 420 50 H I C CNN "MPN"
 F5 "20191 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes Automotive dual-line Transil, Transient voltage suppressor (TVS) for CAN bus" 0 0 50 H I C CNN "Description"
 F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
@@ -995,7 +970,7 @@ $FPLIST
  *:D_*
 $ENDFPLIST
 DRAW
-T 900 20 0 20 0 0 0 ESDCAN06 Normal 0 C C
+T 900 20 0 20 0 0 0 ESDCAN03 Normal 0 C C
 P 2 0 1 0 -80 -100 -60 -100 N
 P 2 0 1 0 -80 100 -60 100 N
 P 2 0 1 0 0 -140 0 -60 N
@@ -1010,36 +985,6 @@ P 4 0 1 0 60 60 0 100 60 140 60 60 F
 X ~ 1 -150 100 70 R 50 50 1 1 P
 X K 2 -150 -100 70 R 50 50 1 1 P
 X A 3 150 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SwEmb_D_MM3Z3V3B
-#
-DEF ~SwEmb_D_MM3Z3V3B D 0 10 N N 1 F N
-F0 "D" 0 90 50 H V C CNN
-F1 "SwEmb_D_MM3Z3V3B" 0 -90 50 H I C CNN
-F2 "Diode_SMD:D_SOD-323F" -100 -10 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/308/MM3Z10VB-1301283.pdf" 0 90 50 H I C CNN
-F4 "MM3Z3V3B" 0 0 39 H I C CNN "MPN"
-F5 "110855 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Zener Diodes Diode Zener 3.3V 200mW 2%" 0 0 50 H I C CNN "Description"
-F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "Mouser" 0 0 50 H I C CNN "Vendor"
-F9 "0.183  EUR" 0 0 50 H I C CNN "Price"
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- *:D_*
-$ENDFPLIST
-DRAW
-T 0 0 -80 39 0 0 0 MM3Z3V3B Normal 0 C C
-P 2 0 1 0 30 0 -30 0 N
-P 3 0 1 0 -10 40 -30 40 -30 -40 N
-P 4 0 1 0 30 40 -30 0 30 -40 30 40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1145,6 +1090,36 @@ X ~ 3 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SwEmb_D_SZ1SMB5913BT3G
+#
+DEF ~SwEmb_D_SZ1SMB5913BT3G D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "SwEmb_D_SZ1SMB5913BT3G" 0 -90 50 H I C CNN
+F2 "Diode_SMD:D_SMB" -100 -10 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/308/1SMB5913BT3-D-1292981.pdf" 0 90 50 H I C CNN
+F4 "SZ1SMB5913BT3G" 0 0 39 H I C CNN "MPN"
+F5 "2800 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Zener Diodes ZEN SMB REG 3W" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.55  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ *:D_*
+$ENDFPLIST
+DRAW
+T 0 0 -80 39 0 0 0 "3.3V 3W" Normal 0 C C
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 0 -10 40 -30 40 -30 -40 N
+P 4 0 1 0 30 40 -30 0 30 -40 30 40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SwEmb_D_TPD3E001
 #
 DEF SwEmb_D_TPD3E001 D 0 40 Y Y 1 F N
@@ -1201,6 +1176,31 @@ X ~ 2 0 -200 100 U 50 50 1 1 P
 X ~ 4 100 -200 100 U 50 50 1 1 P
 X ~ 4 300 0 100 L 50 50 1 1 P
 X ~ 5 -300 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_FUSE_3A_9750
+#
+DEF ~SwEmb_FUSE_3A_9750 F 0 10 N N 1 F N
+F0 "F" 30 20 50 H V L CNN
+F1 "SwEmb_FUSE_3A_9750" 30 -40 50 H I L CNN
+F2 "CUSTOM:Fuse_Littlefuse_9750" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet.pdf-365375.pdf" 30 20 50 H I C CNN
+F4 "0154003.DR" 0 -300 50 H I C CNN "MPN"
+F5 "5709 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Surface Mount Fuses Fuseblock w/ fuse 3A OMNI BLOK 154" 0 0 50 H I C CNN "Description"
+F7 "2.03  EUR" 0 0 50 H I C CNN "Price"
+F8 "OK" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 50 0 20 0 0 0 3A Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1895,11 +1895,11 @@ X ~ 14 300 0 100 L 50 50 4 1 O
 ENDDRAW
 ENDDEF
 #
-# SwEmb_IC_TLV5533
+# SwEmb_IC_TLV75533
 #
-DEF SwEmb_IC_TLV5533 U 0 40 Y Y 1 F N
+DEF SwEmb_IC_TLV75533 U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "SwEmb_IC_TLV5533" 0 250 50 H V C CNN
+F1 "SwEmb_IC_TLV75533" 0 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
 F4 "TLV75533PDBVR" 450 -250 50 H I C CNN "MPN"
