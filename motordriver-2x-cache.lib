@@ -669,8 +669,13 @@ DEF SwEmb_CONN_RJ45_MAG J 0 1 Y Y 1 F N
 F0 "J" 100 600 50 H V L CNN
 F1 "SwEmb_CONN_RJ45_MAG" -50 600 50 H V R CNN
 F2 "CUSTOM:RJ45_Tranformer" 0 500 50 H I C CNN
-F3 "" 100 600 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/7499010121A-254210.pdf" 100 600 50 H I C CNN
 F4 "7499010121A" 0 0 315 H I C CNN "MPN"
+F5 "202 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Modular Connectors / Ethernet Connectors WE-RJ45 Intgtd XFMR 1x1 THT Tab Up" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "5.72  EUR" 0 0 50 H I C CNN "Price"
 DRAW
 A -900 25 25 -899 899 0 1 0 N -900 0 -900 50
 A -900 75 25 -899 899 0 1 0 N -900 50 -900 100
@@ -777,9 +782,9 @@ ENDDEF
 DEF ~SwEmb_CONN_SENSOR P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
 F1 "SwEmb_CONN_SENSOR" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
-F4 "691321100003" -100 900 50 H I C CNN "MPN"
+F4 "691322110003" -100 900 50 H I C CNN "MPN"
 F5 "2041 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
@@ -799,14 +804,14 @@ ENDDEF
 DEF ~SwEmb_CONN_SWITCH P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "SwEmb_CONN_SWITCH" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
-F4 "691321100002" -100 900 50 H I C CNN "MPN"
-F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
-F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
+F2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
+F4 "691322110002" -100 900 50 H I C CNN "MPN"
+F5 "1435 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
 F8 "0.38  EUR" 100 900 50 H I C CNN "Price"
-F9 "Mouser" 0 -50 50 H I C CNN "Vendor"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 DRAW
 S -150 100 100 -100 0 1 0 N
 X SW 1 -250 50 100 R 50 50 1 1 O

@@ -5580,9 +5580,9 @@ U 1 1 5F0150CF
 P 17550 13125
 F 0 "P38" H 17678 13130 50  0000 L CNN
 F 1 "CONN_SENSOR" H 17450 14025 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 17250 14025 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 17250 14025 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 17350 14025 50  0001 C CNN
-F 4 "691321100003" H 17450 14025 50  0001 C CNN "MPN"
+F 4 "691322110003" H 17450 14025 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 17450 14025 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 17350 14025 50  0001 C CNN "Description"
 F 7 "OK" H 17550 14025 50  0001 C CNN "LifeCycle"
@@ -5634,9 +5634,9 @@ U 1 1 5F0E25ED
 P 17550 13775
 F 0 "P39" H 17678 13780 50  0000 L CNN
 F 1 "CONN_SENSOR" H 17450 14675 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 17250 14675 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 17250 14675 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 17350 14675 50  0001 C CNN
-F 4 "691321100003" H 17450 14675 50  0001 C CNN "MPN"
+F 4 "691322110003" H 17450 14675 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 17450 14675 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 17350 14675 50  0001 C CNN "Description"
 F 7 "OK" H 17550 14675 50  0001 C CNN "LifeCycle"
@@ -5684,9 +5684,9 @@ U 1 1 5F149B50
 P 17550 14400
 F 0 "P40" H 17678 14405 50  0000 L CNN
 F 1 "CONN_SENSOR" H 17450 15300 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 17250 15300 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 17250 15300 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 17350 15300 50  0001 C CNN
-F 4 "691321100003" H 17450 15300 50  0001 C CNN "MPN"
+F 4 "691322110003" H 17450 15300 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 17450 15300 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 17350 15300 50  0001 C CNN "Description"
 F 7 "OK" H 17550 15300 50  0001 C CNN "LifeCycle"
@@ -5742,9 +5742,9 @@ U 1 1 5F2EE182
 P 22950 13075
 F 0 "P42" H 23078 13080 50  0000 L CNN
 F 1 "CONN_SENSOR" H 22850 13975 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 22650 13975 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 22650 13975 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 22750 13975 50  0001 C CNN
-F 4 "691321100003" H 22850 13975 50  0001 C CNN "MPN"
+F 4 "691322110003" H 22850 13975 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 22850 13975 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 22750 13975 50  0001 C CNN "Description"
 F 7 "OK" H 22950 13975 50  0001 C CNN "LifeCycle"
@@ -5792,9 +5792,9 @@ U 1 1 5F2EE1A4
 P 22950 13725
 F 0 "P43" H 23078 13730 50  0000 L CNN
 F 1 "CONN_SENSOR" H 22850 14625 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 22650 14625 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 22650 14625 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 22750 14625 50  0001 C CNN
-F 4 "691321100003" H 22850 14625 50  0001 C CNN "MPN"
+F 4 "691322110003" H 22850 14625 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 22850 14625 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 22750 14625 50  0001 C CNN "Description"
 F 7 "OK" H 22950 14625 50  0001 C CNN "LifeCycle"
@@ -5842,9 +5842,9 @@ U 1 1 5F2EE1C6
 P 22950 14350
 F 0 "P44" H 23078 14355 50  0000 L CNN
 F 1 "CONN_SENSOR" H 22850 15250 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 22650 15250 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 22650 15250 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 22750 15250 50  0001 C CNN
-F 4 "691321100003" H 22850 15250 50  0001 C CNN "MPN"
+F 4 "691322110003" H 22850 15250 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 22850 15250 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 22750 15250 50  0001 C CNN "Description"
 F 7 "OK" H 22950 15250 50  0001 C CNN "LifeCycle"
@@ -6396,9 +6396,9 @@ U 1 1 60734CAE
 P 1375 17525
 F 0 "P13" H 1294 17758 50  0000 C CNN
 F 1 "CONN_SENSOR" H 1275 18425 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 18425 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 18425 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 1175 18425 50  0001 C CNN
-F 4 "691321100003" H 1275 18425 50  0001 C CNN "MPN"
+F 4 "691322110003" H 1275 18425 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 1275 18425 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 1175 18425 50  0001 C CNN "Description"
 F 7 "OK" H 1375 18425 50  0001 C CNN "LifeCycle"
@@ -6619,9 +6619,9 @@ U 1 1 6154EB2D
 P 1375 18525
 F 0 "P14" H 1294 18758 50  0000 C CNN
 F 1 "CONN_SENSOR" H 1275 19425 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 19425 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 19425 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 1175 19425 50  0001 C CNN
-F 4 "691321100003" H 1275 19425 50  0001 C CNN "MPN"
+F 4 "691322110003" H 1275 19425 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 1275 19425 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 1175 19425 50  0001 C CNN "Description"
 F 7 "OK" H 1375 19425 50  0001 C CNN "LifeCycle"
@@ -6758,9 +6758,9 @@ U 1 1 615D5B57
 P 1375 19525
 F 0 "P15" H 1294 19758 50  0000 C CNN
 F 1 "CONN_SENSOR" H 1275 20425 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 20425 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 20425 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 1175 20425 50  0001 C CNN
-F 4 "691321100003" H 1275 20425 50  0001 C CNN "MPN"
+F 4 "691322110003" H 1275 20425 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 1275 20425 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 1175 20425 50  0001 C CNN "Description"
 F 7 "OK" H 1375 20425 50  0001 C CNN "LifeCycle"
@@ -6897,9 +6897,9 @@ U 1 1 616629CD
 P 1375 20525
 F 0 "P16" H 1294 20758 50  0000 C CNN
 F 1 "CONN_SENSOR" H 1275 21425 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 21425 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 21425 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 1175 21425 50  0001 C CNN
-F 4 "691321100003" H 1275 21425 50  0001 C CNN "MPN"
+F 4 "691322110003" H 1275 21425 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 1275 21425 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 1175 21425 50  0001 C CNN "Description"
 F 7 "OK" H 1375 21425 50  0001 C CNN "LifeCycle"
@@ -7204,9 +7204,9 @@ U 1 1 62177124
 P 1375 13525
 F 0 "P9" H 1294 13758 50  0000 C CNN
 F 1 "CONN_SENSOR" H 1275 14425 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 14425 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 14425 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 1175 14425 50  0001 C CNN
-F 4 "691321100003" H 1275 14425 50  0001 C CNN "MPN"
+F 4 "691322110003" H 1275 14425 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 1275 14425 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 1175 14425 50  0001 C CNN "Description"
 F 7 "OK" H 1375 14425 50  0001 C CNN "LifeCycle"
@@ -7343,9 +7343,9 @@ U 1 1 6217717D
 P 1375 14525
 F 0 "P10" H 1294 14758 50  0000 C CNN
 F 1 "CONN_SENSOR" H 1275 15425 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 15425 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 15425 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 1175 15425 50  0001 C CNN
-F 4 "691321100003" H 1275 15425 50  0001 C CNN "MPN"
+F 4 "691322110003" H 1275 15425 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 1275 15425 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 1175 15425 50  0001 C CNN "Description"
 F 7 "OK" H 1375 15425 50  0001 C CNN "LifeCycle"
@@ -7482,9 +7482,9 @@ U 1 1 621771D6
 P 1375 15525
 F 0 "P11" H 1294 15758 50  0000 C CNN
 F 1 "CONN_SENSOR" H 1275 16425 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 16425 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 16425 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 1175 16425 50  0001 C CNN
-F 4 "691321100003" H 1275 16425 50  0001 C CNN "MPN"
+F 4 "691322110003" H 1275 16425 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 1275 16425 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 1175 16425 50  0001 C CNN "Description"
 F 7 "OK" H 1375 16425 50  0001 C CNN "LifeCycle"
@@ -7621,9 +7621,9 @@ U 1 1 6217722F
 P 1375 16525
 F 0 "P12" H 1294 16758 50  0000 C CNN
 F 1 "CONN_SENSOR" H 1275 17425 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 17425 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 1075 17425 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 1175 17425 50  0001 C CNN
-F 4 "691321100003" H 1275 17425 50  0001 C CNN "MPN"
+F 4 "691322110003" H 1275 17425 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 1275 17425 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 1175 17425 50  0001 C CNN "Description"
 F 7 "OK" H 1375 17425 50  0001 C CNN "LifeCycle"
@@ -8855,11 +8855,11 @@ U 1 1 69533AB4
 P 1175 10575
 F 0 "P1" H 1325 10575 50  0000 C CNN
 F 1 "CONN_SWITCH" H 1075 11475 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 11475 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 975 11475 50  0001 C CNN
-F 4 "691321100002" H 1075 11475 50  0001 C CNN "MPN"
-F 5 "2043 In Stock" H 1075 11475 50  0001 C CNN "Availability"
-F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 975 11475 50  0001 C CNN "Description"
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 11475 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 975 11475 50  0001 C CNN
+F 4 "691322110002" H 1075 11475 50  0001 C CNN "MPN"
+F 5 "1435 In Stock" H 1075 11475 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" H 975 11475 50  0001 C CNN "Description"
 F 7 "OK" H 1175 11475 50  0001 C CNN "LifeCycle"
 F 8 "0.38  EUR" H 1275 11475 50  0001 C CNN "Price"
 F 9 "Mouser" H 1175 10525 50  0001 C CNN "Vendor"
@@ -8872,11 +8872,11 @@ U 1 1 6962C717
 P 1175 10800
 F 0 "P2" H 1325 10800 50  0000 C CNN
 F 1 "CONN_SWITCH" H 1075 11700 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 11700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 975 11700 50  0001 C CNN
-F 4 "691321100002" H 1075 11700 50  0001 C CNN "MPN"
-F 5 "2043 In Stock" H 1075 11700 50  0001 C CNN "Availability"
-F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 975 11700 50  0001 C CNN "Description"
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 11700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 975 11700 50  0001 C CNN
+F 4 "691322110002" H 1075 11700 50  0001 C CNN "MPN"
+F 5 "1435 In Stock" H 1075 11700 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" H 975 11700 50  0001 C CNN "Description"
 F 7 "OK" H 1175 11700 50  0001 C CNN "LifeCycle"
 F 8 "0.38  EUR" H 1275 11700 50  0001 C CNN "Price"
 F 9 "Mouser" H 1175 10750 50  0001 C CNN "Vendor"
@@ -8889,11 +8889,11 @@ U 1 1 6962C977
 P 1175 11025
 F 0 "P3" H 1325 11025 50  0000 C CNN
 F 1 "CONN_SWITCH" H 1075 11925 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 11925 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 975 11925 50  0001 C CNN
-F 4 "691321100002" H 1075 11925 50  0001 C CNN "MPN"
-F 5 "2043 In Stock" H 1075 11925 50  0001 C CNN "Availability"
-F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 975 11925 50  0001 C CNN "Description"
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 11925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 975 11925 50  0001 C CNN
+F 4 "691322110002" H 1075 11925 50  0001 C CNN "MPN"
+F 5 "1435 In Stock" H 1075 11925 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" H 975 11925 50  0001 C CNN "Description"
 F 7 "OK" H 1175 11925 50  0001 C CNN "LifeCycle"
 F 8 "0.38  EUR" H 1275 11925 50  0001 C CNN "Price"
 F 9 "Mouser" H 1175 10975 50  0001 C CNN "Vendor"
@@ -8906,11 +8906,11 @@ U 1 1 6962CBDF
 P 1175 11250
 F 0 "P4" H 1325 11250 50  0000 C CNN
 F 1 "CONN_SWITCH" H 1075 12150 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 12150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 975 12150 50  0001 C CNN
-F 4 "691321100002" H 1075 12150 50  0001 C CNN "MPN"
-F 5 "2043 In Stock" H 1075 12150 50  0001 C CNN "Availability"
-F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 975 12150 50  0001 C CNN "Description"
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 12150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 975 12150 50  0001 C CNN
+F 4 "691322110002" H 1075 12150 50  0001 C CNN "MPN"
+F 5 "1435 In Stock" H 1075 12150 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" H 975 12150 50  0001 C CNN "Description"
 F 7 "OK" H 1175 12150 50  0001 C CNN "LifeCycle"
 F 8 "0.38  EUR" H 1275 12150 50  0001 C CNN "Price"
 F 9 "Mouser" H 1175 11200 50  0001 C CNN "Vendor"
@@ -8923,11 +8923,11 @@ U 1 1 6962CE45
 P 1175 11475
 F 0 "P5" H 1325 11475 50  0000 C CNN
 F 1 "CONN_SWITCH" H 1075 12375 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 12375 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 975 12375 50  0001 C CNN
-F 4 "691321100002" H 1075 12375 50  0001 C CNN "MPN"
-F 5 "2043 In Stock" H 1075 12375 50  0001 C CNN "Availability"
-F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 975 12375 50  0001 C CNN "Description"
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 12375 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 975 12375 50  0001 C CNN
+F 4 "691322110002" H 1075 12375 50  0001 C CNN "MPN"
+F 5 "1435 In Stock" H 1075 12375 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" H 975 12375 50  0001 C CNN "Description"
 F 7 "OK" H 1175 12375 50  0001 C CNN "LifeCycle"
 F 8 "0.38  EUR" H 1275 12375 50  0001 C CNN "Price"
 F 9 "Mouser" H 1175 11425 50  0001 C CNN "Vendor"
@@ -8940,11 +8940,11 @@ U 1 1 6962D0C9
 P 1175 11700
 F 0 "P6" H 1325 11700 50  0000 C CNN
 F 1 "CONN_SWITCH" H 1075 12600 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 12600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 975 12600 50  0001 C CNN
-F 4 "691321100002" H 1075 12600 50  0001 C CNN "MPN"
-F 5 "2043 In Stock" H 1075 12600 50  0001 C CNN "Availability"
-F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 975 12600 50  0001 C CNN "Description"
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 12600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 975 12600 50  0001 C CNN
+F 4 "691322110002" H 1075 12600 50  0001 C CNN "MPN"
+F 5 "1435 In Stock" H 1075 12600 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" H 975 12600 50  0001 C CNN "Description"
 F 7 "OK" H 1175 12600 50  0001 C CNN "LifeCycle"
 F 8 "0.38  EUR" H 1275 12600 50  0001 C CNN "Price"
 F 9 "Mouser" H 1175 11650 50  0001 C CNN "Vendor"
@@ -8957,11 +8957,11 @@ U 1 1 6962D337
 P 1175 11925
 F 0 "P7" H 1325 11925 50  0000 C CNN
 F 1 "CONN_SWITCH" H 1075 12825 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 12825 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 975 12825 50  0001 C CNN
-F 4 "691321100002" H 1075 12825 50  0001 C CNN "MPN"
-F 5 "2043 In Stock" H 1075 12825 50  0001 C CNN "Availability"
-F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 975 12825 50  0001 C CNN "Description"
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 12825 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 975 12825 50  0001 C CNN
+F 4 "691322110002" H 1075 12825 50  0001 C CNN "MPN"
+F 5 "1435 In Stock" H 1075 12825 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" H 975 12825 50  0001 C CNN "Description"
 F 7 "OK" H 1175 12825 50  0001 C CNN "LifeCycle"
 F 8 "0.38  EUR" H 1275 12825 50  0001 C CNN "Price"
 F 9 "Mouser" H 1175 11875 50  0001 C CNN "Vendor"
@@ -8974,11 +8974,11 @@ U 1 1 6962DB51
 P 1175 12150
 F 0 "P8" H 1325 12150 50  0000 C CNN
 F 1 "CONN_SWITCH" H 1075 13050 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 13050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 975 13050 50  0001 C CNN
-F 4 "691321100002" H 1075 13050 50  0001 C CNN "MPN"
-F 5 "2043 In Stock" H 1075 13050 50  0001 C CNN "Availability"
-F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" H 975 13050 50  0001 C CNN "Description"
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 875 13050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" H 975 13050 50  0001 C CNN
+F 4 "691322110002" H 1075 13050 50  0001 C CNN "MPN"
+F 5 "1435 In Stock" H 1075 13050 50  0001 C CNN "Availability"
+F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" H 975 13050 50  0001 C CNN "Description"
 F 7 "OK" H 1175 13050 50  0001 C CNN "LifeCycle"
 F 8 "0.38  EUR" H 1275 13050 50  0001 C CNN "Price"
 F 9 "Mouser" H 1175 12100 50  0001 C CNN "Vendor"
@@ -9189,10 +9189,15 @@ U 1 1 6B86DFA8
 P 22450 18325
 F 0 "J3" H 22100 19050 50  0000 C CNN
 F 1 "CONN_RJ45_MAG" H 22100 18959 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Tranformer" H 22450 18825 50  0001 C CNN
-F 3 "" H 22550 18925 50  0001 C CNN
+F 2 "CUSTOM:RJ45_Tranformer" H 22450 18825 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/7499010121A-254210.pdf" H 22550 18925 50  0001 C CNN
 F 4 "7499010121A" H -4400 3200 50  0001 C CNN "MFN"
 F 5 "7499010121A" H 0   0   50  0001 C CNN "MPN"
+F 6 "202 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 7 "Modular Connectors / Ethernet Connectors WE-RJ45 Intgtd XFMR 1x1 THT Tab Up" H 0   0   50  0001 C CNN "Description"
+F 8 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 9 "5.72  EUR" H 0   0   50  0001 C CNN "Price"
+F 10 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    22450 18325
 	1    0    0    -1  
 $EndComp
@@ -10912,10 +10917,15 @@ U 1 1 6B86DD30
 P 22450 16975
 F 0 "J2" H 22100 17700 50  0000 C CNN
 F 1 "CONN_RJ45_MAG" H 22100 17609 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Tranformer" H 22450 17475 50  0001 C CNN
-F 3 "" H 22550 17575 50  0001 C CNN
+F 2 "CUSTOM:RJ45_Tranformer" H 22450 17475 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/7499010121A-254210.pdf" H 22550 17575 50  0001 C CNN
 F 4 "7499010121A" H -4400 3200 50  0001 C CNN "MFN"
 F 5 "7499010121A" H 0   0   50  0001 C CNN "MPN"
+F 6 "202 In Stock" H 0   0   50  0001 C CNN "Availability"
+F 7 "Modular Connectors / Ethernet Connectors WE-RJ45 Intgtd XFMR 1x1 THT Tab Up" H 0   0   50  0001 C CNN "Description"
+F 8 "OK" H 0   0   50  0001 C CNN "LifeCycle"
+F 9 "5.72  EUR" H 0   0   50  0001 C CNN "Price"
+F 10 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    22450 16975
 	1    0    0    -1  
 $EndComp
@@ -17757,9 +17767,9 @@ U 1 1 5D793268
 P 12075 18225
 F 0 "P50" H 12203 18230 50  0000 L CNN
 F 1 "CONN_SENSOR" H 11975 19125 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 11775 19125 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 11775 19125 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 11875 19125 50  0001 C CNN
-F 4 "691321100003" H 11975 19125 50  0001 C CNN "MPN"
+F 4 "691322110003" H 11975 19125 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 11975 19125 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 11875 19125 50  0001 C CNN "Description"
 F 7 "OK" H 12075 19125 50  0001 C CNN "LifeCycle"
@@ -17774,9 +17784,9 @@ U 1 1 5D793D57
 P 12075 18550
 F 0 "P51" H 12203 18555 50  0000 L CNN
 F 1 "CONN_SENSOR" H 11975 19450 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 11775 19450 50  0001 C CNN
+F 2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 11775 19450 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" H 11875 19450 50  0001 C CNN
-F 4 "691321100003" H 11975 19450 50  0001 C CNN "MPN"
+F 4 "691322110003" H 11975 19450 50  0001 C CNN "MPN"
 F 5 "2041 In Stock" H 11975 19450 50  0001 C CNN "Availability"
 F 6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" H 11875 19450 50  0001 C CNN "Description"
 F 7 "OK" H 12075 19450 50  0001 C CNN "LifeCycle"
