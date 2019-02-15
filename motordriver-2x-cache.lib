@@ -385,9 +385,9 @@ ENDDEF
 DEF ~SwEmb_CONN_AN_OUT P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "SwEmb_CONN_AN_OUT" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F2 "CUSTOM:CONN_AN_OUT" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
-F4 "691321100002" -100 900 50 H I C CNN "MPN"
+F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
@@ -405,9 +405,9 @@ ENDDEF
 DEF ~SwEmb_CONN_BRKRES P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "SwEmb_CONN_BRKRES" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F2 "CUSTOM:CONN_BRKRES" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
-F4 "691321100002" -100 900 50 H I C CNN "MPN"
+F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
@@ -425,9 +425,9 @@ ENDDEF
 DEF ~SwEmb_CONN_CAN P 0 40 Y Y 1 F N
 F0 "P" -100 200 50 H V C CNN
 F1 "SwEmb_CONN_CAN" 0 -200 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" 50 -300 50 H I C CNN
+F2 "CUSTOM:CONN_CAN" 50 -300 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -100 0 50 H I C CNN
-F4 "691321100003" 0 50 50 H I C CNN "MPN"
+F4 "691322110003" 0 50 50 H I C CNN "MPN"
 F5 "2041 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
@@ -452,7 +452,7 @@ ENDDEF
 DEF ~SwEmb_CONN_DEBUG_2R P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
 F1 "SwEmb_CONN_DEBUG_2R" 100 -700 50 H I C CNN
-F2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
+F2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H I C CNN
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
 F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
@@ -515,7 +515,7 @@ ENDDEF
 DEF ~SwEmb_CONN_HALL P 0 40 Y Y 1 F N
 F0 "P" 0 300 50 H V C CNN
 F1 "SwEmb_CONN_HALL" 0 0 50 H I C CNN
-F2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06305HBWC_1x05_P3.50mm_Horizontal" -100 200 50 H I C CNN
+F2 "CUSTOM:CONN_HALL" -100 200 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" 0 0 50 H I C CNN
 F4 "691322110005" 0 0 50 H I C CNN "MPN"
 F5 "587 In Stock" 0 0 50 H I C CNN "Availability"
@@ -539,14 +539,13 @@ ENDDEF
 DEF ~SwEmb_CONN_LCD P 0 40 Y Y 1 F N
 F0 "P" 0 900 50 H V C CNN
 F1 "SwEmb_CONN_LCD" 0 -1650 50 H I C CNN
-F2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" -100 -1550 50 H I C CNN
+F2 "CUSTOM:CONN_LCD" -100 -1550 50 H I C CNN
 F3 "https___www.mouser.com_datasheet_2_276_0702461004_PCB_HEADERS-229930.pdf" -100 500 50 H I C CNN
 F4 "70246-0802" 0 -1450 50 H I C CNN "MPN"
 F5 "2466 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 2.54mm CGrid Hdr Shr rd /Slt .76AuLF 8Ckt" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "Mouser" 0 0 50 H I C CNN "Vendor"
-F9 "1.25  EUR" 0 0 50 H I C CNN "Price"
+F8 "1.25  EUR" 0 0 50 H I C CNN "Price"
 $FPLIST
  Pin_Header_Straight_1X06
  Pin_Header_Angled_1X06
@@ -580,9 +579,9 @@ ENDDEF
 DEF ~SwEmb_CONN_LED P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "SwEmb_CONN_LED" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F2 "CUSTOM:CONN_LED" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
-F4 "691321100002" -100 900 50 H I C CNN "MPN"
+F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
@@ -622,9 +621,9 @@ ENDDEF
 DEF ~SwEmb_CONN_POWER_10A P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "SwEmb_CONN_POWER_10A" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F2 "CUSTOM:CONN_POWER_10A" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
-F4 "691321100002" -100 900 50 H I C CNN "MPN"
+F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
@@ -782,7 +781,7 @@ ENDDEF
 DEF ~SwEmb_CONN_SENSOR P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
 F1 "SwEmb_CONN_SENSOR" -100 900 50 H I C CNN
-F2 "CUSTOM:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F2 "CUSTOM:CONN_SENSOR" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
 F4 "691322110003" -100 900 50 H I C CNN "MPN"
 F5 "2041 In Stock" -100 900 50 H I C CNN "Availability"
@@ -804,7 +803,7 @@ ENDDEF
 DEF ~SwEmb_CONN_SWITCH P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "SwEmb_CONN_SWITCH" -100 900 50 H I C CNN
-F2 "CUSTOM:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F2 "CUSTOM:CONN_SWITCH" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
 F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "1435 In Stock" -100 900 50 H I C CNN "Availability"
@@ -824,14 +823,13 @@ ENDDEF
 DEF ~SwEmb_CONN_UEXT P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
 F1 "SwEmb_CONN_UEXT" 100 -700 50 H I C CNN
-F2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
+F2 "CUSTOM:CONN_UEXT" 0 100 50 H I C CNN
 F3 "https___www.mouser.com_datasheet_2_1_ts0770-34478.pdf" 0 100 50 H I C CNN
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
 F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "Mouser" 0 0 50 H I C CNN "Vendor"
-F9 "1.22  EUR" 0 0 50 H I C CNN "Price"
+F8 "1.22  EUR" 0 0 50 H I C CNN "Price"
 $FPLIST
  Pin_Header_Straight_1X06
  Pin_Header_Angled_1X06
