@@ -4962,14 +4962,14 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Q_NMOS_2X_100V_70A
+# Q_NMOS_2X_100V_30A
 #
-DEF ~Q_NMOS_2X_100V_70A Q 0 0 Y N 1 F N
+DEF ~Q_NMOS_2X_100V_30A Q 0 0 Y N 1 F N
 F0 "Q" 100 250 50 H V L CNN
-F1 "Q_NMOS_2X_100V_70A" 250 -1000 50 H I L CNN
-F2 "CUSTOM:PowerPack-8x8-Dual" 250 -850 50 H I C CNN
+F1 "Q_NMOS_2X_100V_30A" 250 -1000 50 H I L CNN
+F2 "CUSTOM:PowerPack-SO-8L-Dual" 250 -850 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/427/sqjq910el-1110892.pdf" 50 -950 50 H I C CNN
-F4 "SQJQ910EL-T1_GE3" 50 -750 50 H I C CNN "MPN"
+F4 "SQJ974EP-T1_GE3 " 50 -750 50 H I C CNN "MPN"
 F5 "1945 In Stock" 100 -1200 50 H I C CNN "Availability"
 F6 "MOSFET 100V Vds Dual N-Ch AEC-Q101 Qualified" 100 -1100 50 H I C CNN "Description"
 F7 "2.14  EUR" 100 -1200 50 H I C CNN "Price"
@@ -4984,7 +4984,70 @@ C 0 180 11 0 1 0 F
 C 0 320 11 0 1 0 F
 T 0 -200 350 20 0 0 0 100V Normal 0 C C
 T 0 100 -350 20 0 0 0 100V Normal 0 C C
-T 0 -150 400 20 0 0 0 SQJQ910EL Normal 0 C C
+T 0 -160 380 20 0 0 0 SQJ974EP Normal 0 C C
+T 0 -210 320 20 0 1 0 30A Normal 0 C C
+P 2 0 1 0 -98 -250 -90 -250 N
+P 2 0 1 0 -98 250 -90 250 N
+P 2 0 1 0 -70 -320 0 -320 N
+P 2 0 1 10 -70 -300 -70 -340 N
+P 2 0 1 0 -70 -250 0 -250 N
+P 2 0 1 10 -70 -230 -70 -270 N
+P 2 0 1 0 -70 -180 0 -180 N
+P 2 0 1 10 -70 -160 -70 -200 N
+P 2 0 1 0 -70 180 0 180 N
+P 2 0 1 10 -70 200 -70 160 N
+P 2 0 1 0 -70 250 0 250 N
+P 2 0 1 10 -70 270 -70 230 N
+P 2 0 1 0 -70 320 0 320 N
+P 2 0 1 10 -70 340 -70 300 N
+P 2 0 1 0 0 -320 0 -350 N
+P 2 0 1 0 0 -320 0 -250 N
+P 2 0 1 0 0 -150 0 -180 N
+P 2 0 1 0 0 180 0 150 N
+P 2 0 1 0 0 180 0 250 N
+P 2 0 1 0 0 350 0 320 N
+P 3 0 1 10 -90 -175 -90 -325 -90 -325 N
+P 3 0 1 10 -90 325 -90 175 -90 175 N
+P 4 0 1 0 -60 -250 -20 -235 -20 -265 -60 -250 F
+P 4 0 1 0 -60 250 -20 265 -20 235 -60 250 F
+P 4 0 1 0 0 -320 30 -320 30 -180 0 -180 N
+P 4 0 1 0 0 180 30 180 30 320 0 320 N
+P 4 0 1 0 10 -230 15 -235 45 -235 50 -240 N
+P 4 0 1 0 10 270 15 265 45 265 50 260 N
+P 4 0 1 0 30 -235 15 -260 45 -260 30 -235 N
+P 4 0 1 0 30 265 15 240 45 240 30 265 N
+X S 1 0 50 100 U 50 50 1 1 P
+X G 2 -250 250 126 R 50 50 1 1 I
+X S 3 0 -450 100 U 50 50 1 1 P
+X G 4 -250 -250 126 R 50 50 1 1 I
+X D 5 0 -50 100 D 50 50 1 1 P
+X D 6 0 450 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_NMOS_2X_60V_63A
+#
+DEF ~Q_NMOS_2X_60V_63A Q 0 0 Y N 1 F N
+F0 "Q" 100 250 50 H V L CNN
+F1 "Q_NMOS_2X_60V_63A" 250 -1000 50 H I L CNN
+F2 "CUSTOM:PowerPack-8x8-Dual" 250 -850 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/427/sqjq910el-1110892.pdf" 50 -950 50 H I C CNN
+F4 "SQJQ960EL-T1_GE3" 50 -750 50 H I C CNN "MPN"
+F5 "1945 In Stock" 100 -1200 50 H I C CNN "Availability"
+F6 "MOSFET 100V Vds Dual N-Ch AEC-Q101 Qualified" 100 -1100 50 H I C CNN "Description"
+F7 "2.14  EUR" 100 -1200 50 H I C CNN "Price"
+F8 "New Product" 0 -1300 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+DRAW
+C -35 -250 111 0 1 10 N
+C -35 250 111 0 1 10 N
+C 0 -320 11 0 1 0 F
+C 0 -180 11 0 1 0 F
+C 0 180 11 0 1 0 F
+C 0 320 11 0 1 0 F
+T 0 -210 350 20 0 0 0 60V Normal 0 C C
+T 0 -150 380 20 0 0 0 SQJQ960EL Normal 0 C C
+T 0 -210 320 20 0 1 0 63A Normal 0 C C
 P 2 0 1 0 -98 -250 -90 -250 N
 P 2 0 1 0 -98 250 -90 250 N
 P 2 0 1 0 -70 -320 0 -320 N
@@ -5181,7 +5244,7 @@ F0 "R" 30 20 50 H V L CNN
 F1 "RES_0R_0402" 30 -40 50 H I L CNN
 F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 30 20 50 H I C CNN
-F4 "CRCW04020000Z0ED" 0 0 50 H I C CNN "MPN"
+F4 "CRCW04020000Z0EDC" 0 0 50 H I C CNN "MPN"
 F5 "3675 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/16watt 0ohms" 0 0 50 H I C CNN "Description"
 F7 "Mouser" 0 0 50 H I C CNN "Vendor"
@@ -5414,6 +5477,29 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 900 0 0 20 0 0 0 "135K 1%" Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES_137K_1%_0402
+#
+DEF ~RES_137K_1%_0402 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "RES_137K_1%_0402" 30 -40 50 H I L CNN
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F4 "AC0402FR-07137KL" 130 120 50 H I C CNN "MPN"
+F5 "147765 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 135 kOhms 1%" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 0 0 20 0 0 0 "137K 1%" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
@@ -5988,7 +6074,7 @@ ENDDEF
 DEF ~RES_5mR_1%_10W R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "RES_5mR_1%_10W" 30 -40 50 H I L CNN
-F2 "CUSTOM:WSLF25123L000FEA" -70 -80 50 H I C CNN
+F2 "CUSTOM:R_2818_7146Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/427/wshp2818-1082656.pdf" 30 20 50 H I C CNN
 F4 "WSHP28185L000FEA" 130 120 50 H I C CNN "MPN"
 F5 "5333 In Stock" 0 0 50 H I C CNN "Availability"
@@ -6061,16 +6147,16 @@ ENDDEF
 # RES_NTC_10K_402
 #
 DEF ~RES_NTC_10K_402 R 0 0 N Y 1 F N
-F0 "R" -175 0 50 V V C CNN
-F1 "RES_NTC_10K_402" 125 0 50 V I C CNN
-F2 "Resistor_SMD:R_0402_1005Metric" 0 30 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/400/pd_commercial_ntc-thermistor_ntcg_en-1290965.pdf" 0 30 50 H I C CNN
-F4 "NTCG103JF103FT1" 0 -20 39 H I C CNN "MPN"
-F5 "199483 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "NTC (Negative Temperature Coefficient) Thermistors THERMISTOR, NTC 10K OHM, 1%, 0402" 0 0 50 H I C CNN "Description"
+F0 "R" -100 0 50 V V C CNN
+F1 "RES_NTC_10K_402" 125 -250 50 V I C CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 0 -220 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/400/pd_commercial_ntc-thermistor_ntcg_en-1290965.pdf" 0 -220 50 H I C CNN
+F4 "NTCG103JF103FT1" 0 -270 39 H I C CNN "MPN"
+F5 "199483 In Stock" 0 -250 50 H I C CNN "Availability"
+F6 "NTC (Negative Temperature Coefficient) Thermistors THERMISTOR, NTC 10K OHM, 1%, 0402" 0 -250 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "Mouser" 0 0 50 H I C CNN "Vendor"
-F9 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F8 "Mouser" 0 -250 50 H I C CNN "Vendor"
+F9 "0.087  EUR" 0 -250 50 H I C CNN "Price"
 $FPLIST
  *NTC*
  *Thermistor*
@@ -6079,6 +6165,7 @@ $FPLIST
  *Terminal?Block*
 $ENDFPLIST
 DRAW
+T 900 50 0 20 0 0 0 10k Normal 0 C C
 P 4 0 1 0 -50 70 -50 50 50 -50 50 -70 N
 P 5 0 1 0 -30 70 30 70 30 -70 -30 -70 -30 70 N
 X ~ 1 0 100 30 D 50 50 1 1 P
