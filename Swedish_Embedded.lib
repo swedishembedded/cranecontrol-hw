@@ -489,14 +489,14 @@ ENDDEF
 #
 DEF ~CAP_10uF_25V_0805 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10uF_25V_0805" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0805_2012Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN
+F1 "CAP_10uF_25V_0805" -40 -280 50 H I L CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 400 -50 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" -40 -130 50 H I C CNN
 F4 "GRM21BR61E106MA73L" 0 -350 50 H I C CNN "MPN"
-F5 "196753 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 10uF 25volts X5R 20%" 0 0 50 H I C CNN "Description"
+F5 "196753 In Stock" -50 -200 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 10uF 25volts X5R 20%" -50 -200 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
-F8 "0.262  EUR" 0 0 50 H I C CNN "Price"
+F8 "0.262  EUR" -50 -200 50 H I C CNN "Price"
 F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  *:C_*
@@ -514,15 +514,15 @@ ENDDEF
 #
 DEF ~CAP_10uF_35V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10uF_35V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN
+F1 "CAP_10uF_35V_0603" 10 -280 50 H I L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 -50 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 -130 50 H I C CNN
 F4 "GRM188R6YA106MA73D" 0 -350 50 H I C CNN "MPN"
-F5 "1829 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp" 0 0 50 H I C CNN "Description"
-F7 "Mouser" 0 0 50 H I C CNN "Vendor"
-F8 "OK" 0 0 50 H I C CNN "LifeCycle"
-F9 "0.437  EUR" 0 0 50 H I C CNN "Price"
+F5 "1829 In Stock" 0 -200 50 H I C CNN "Availability"
+F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp" 0 -200 50 H I C CNN "Description"
+F7 "Mouser" 50 -100 50 H I C CNN "Vendor"
+F8 "OK" 0 -150 50 H I C CNN "LifeCycle"
+F9 "0.437  EUR" 0 -200 50 H I C CNN "Price"
 $FPLIST
  *:C_*
 $ENDFPLIST
