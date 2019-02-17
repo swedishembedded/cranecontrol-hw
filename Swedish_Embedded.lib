@@ -4311,15 +4311,14 @@ ENDDEF
 DEF IC_USBLC6-2 U 0 40 Y Y 1 F N
 F0 "U" 5 250 50 H V C CNN
 F1 "IC_USBLC6-2" 5 350 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6" 75 250 50 H I C CNN
+F2 "CUSTOM:SOT-23-6L" 75 250 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" 75 250 50 H I C CNN
 F4 "USBLC6-2SC6" 0 -270 50 H I C CNN "MPN"
 F5 "108598 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes ESD Protection Low Cap" 0 0 50 H I C CNN "Description"
 F7 "Mouser" 0 0 50 H I C CNN "Vendor"
-F8 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" 0 0 50 H I C CNN "Datasheet"
-F9 "0.393  EUR" 0 0 50 H I C CNN "Price"
-F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.393  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
 DRAW
 S 350 200 -350 -200 0 1 0 N
 P 2 0 1 0 -150 0 -30 0 N
