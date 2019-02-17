@@ -978,13 +978,13 @@ $EndComp
 $Comp
 L SwEmb:GNDREF #PWR0114
 U 1 1 5C8DFB63
-P 12775 4150
-F 0 "#PWR0114" H 12775 3900 50  0001 C CNN
-F 1 "GNDREF" H 12775 4000 50  0001 C CNN
-F 2 "" H 12775 4150 50  0001 C CNN
-F 3 "" H 12775 4150 50  0001 C CNN
-F 4 "#" H 12775 4150 50  0001 C CNN "MPN"
-	1    12775 4150
+P 13050 4150
+F 0 "#PWR0114" H 13050 3900 50  0001 C CNN
+F 1 "GNDREF" H 13050 4000 50  0001 C CNN
+F 2 "" H 13050 4150 50  0001 C CNN
+F 3 "" H 13050 4150 50  0001 C CNN
+F 4 "#" H 13050 4150 50  0001 C CNN "MPN"
+	1    13050 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -8363,7 +8363,7 @@ F 9 "Mouser" H -3975 -1675 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7375 18175 7550 18175
+	7375 18175 7450 18175
 Wire Wire Line
 	7375 18075 7450 18075
 Wire Wire Line
@@ -8701,7 +8701,6 @@ Wire Notes Line
 	5625 19275 5625 17550
 Wire Notes Line
 	6975 17550 9375 17550
-NoConn ~ 6175 18625
 $Comp
 L SwEmb:IC_M24C16 U17
 U 1 1 68777402
@@ -11276,7 +11275,7 @@ F 4 "#" H 8550 21875 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SwEmb:L_100uH_3.64A L1
+L SwEmb:L_33uH_4.2A_45mR L1
 U 1 1 828CA55A
 P 8725 21650
 F 0 "L1" V 8850 21675 50  0000 C CNN
@@ -12102,7 +12101,7 @@ Text GLabel 4075 10725 0    50   Input ~ 0
 ENCOC1
 Text GLabel 4075 10825 0    50   Input ~ 0
 ENCOC2
-Text GLabel 11575 2750 2    50   Input ~ 0
+Text GLabel 11575 3750 2    50   Input ~ 0
 ENCA1
 Text GLabel 11575 4250 2    50   Input ~ 0
 ENCB1
@@ -12138,11 +12137,11 @@ Text GLabel 11575 2550 2    50   Input ~ 0
 SOA1
 Text GLabel 11575 2650 2    50   Input ~ 0
 SOB1
-Text GLabel 11575 6150 2    50   Input ~ 0
-VSA1
 Text GLabel 11575 5650 2    50   Input ~ 0
-VSB1
+VSA1
 Text GLabel 11575 5750 2    50   Input ~ 0
+VSB1
+Text GLabel 11575 5850 2    50   Input ~ 0
 VSC1
 Text GLabel 11575 8550 2    50   Input ~ 0
 ENCA2
@@ -12176,22 +12175,20 @@ Text GLabel 11575 6450 2    50   Input ~ 0
 INHC2
 Text GLabel 11575 5450 2    50   Input ~ 0
 INLC2
-Text GLabel 11575 3950 2    50   Input ~ 0
+Text GLabel 11575 2750 2    50   Input ~ 0
 SOA2
 Text GLabel 11575 4050 2    50   Input ~ 0
 SOB2
-Text GLabel 11575 5850 2    50   Input ~ 0
-VSA2
 Text GLabel 11575 5950 2    50   Input ~ 0
-VSB2
+VSA2
 Text GLabel 11575 6050 2    50   Input ~ 0
+VSB2
+Text GLabel 11575 6150 2    50   Input ~ 0
 VSC2
 Text GLabel 11575 4350 2    50   Input ~ 0
 HALL_A1
 Text GLabel 11575 4450 2    50   Input ~ 0
 HALL_B1
-Text GLabel 11575 4550 2    50   Input ~ 0
-HALL_C1
 Text GLabel 11575 2250 2    50   Input ~ 0
 HALL_A2
 Text GLabel 11575 2350 2    50   Input ~ 0
@@ -12202,7 +12199,7 @@ Text GLabel 2375 5850 0    50   Input ~ 0
 AINPWEN
 Text GLabel 4075 10625 0    50   Input ~ 0
 AIN_OC
-Text GLabel 12425 4675 1    50   Input ~ 0
+Text GLabel 12525 4675 1    50   Input ~ 0
 AP_SCL1
 Text GLabel 12025 4625 1    50   Input ~ 0
 AP_SDA1
@@ -12236,7 +12233,7 @@ Text GLabel 2375 4850 0    50   Input ~ 0
 CANFD_INT
 Text GLabel 12225 4625 1    50   Input ~ 0
 EE_SDA
-Text GLabel 12625 4675 1    50   Input ~ 0
+Text GLabel 12725 4675 1    50   Input ~ 0
 EE_SCL
 Text GLabel 2375 4550 0    50   Input ~ 0
 ECAT_RESET
@@ -12272,12 +12269,12 @@ Text GLabel 2375 8250 0    50   Input ~ 0
 INHA1
 Text GLabel 2375 5950 0    50   Input ~ 0
 VMOT_SENSE
-Text Notes 24250 4825 0    79   ~ 0
-TIM1: motor 1\nTIM2: motor 1 enc\nTIM3: motor 1 hall\nTIM4: motor 2 enc\nTIM5: motor 2 hall\nTIM8: motor 2
-Text Notes 24275 6550 0    79   ~ 0
-ADC1_CH1: \nADC1_CH2: \nADC1_CH3: motor 1 cur A\nADC1_CH4: motor 1 cur B\nADC1_CH5: \nADC1_CH6: motor 1 volt A\nADC1_CH7:\nADC1_CH8:\nADC1_CH9:\nADC1_CH10: motor 1 volt B\nADC1_CH11: motor 1 volt C
-Text Notes 26525 6300 0    79   ~ 0
-ADC2_CH1:\nADC2_CH2:\nADC2_CH3:\nADC2_CH4:\nADC2_CH5:\nADC2_CH6:\nADC2_CH7:\nADC2_CH8: motor 2 cur A\nADC2_CH9: motor 2 cur B\n
+Text Notes 24150 5275 0    79   ~ 0
+TIM1: motor 1\nTIM2: motor 1 enc\nTIM3: motor 1 hall\nTIM4: motor 2 enc\nTIM5: motor 2 hall\nTIM8: motor 2\nTIM10: pwm1\nTIM11: pwm2
+Text Notes 25825 6275 0    79   ~ 0
+ADC1_CH0: x\nADC1_CH1: x\nADC1_CH2: x\nADC1_CH3: cura_mot1\nADC1_CH4: curb_mot1\nADC1_CH5: (cura_mot2)\nADC1_CH6: x\nADC1_CH7: x\nADC1_CH8: x\nADC1_CH9: (curb_mot2)\nADC1_CH10: vsa_mot1\nADC1_CH11: vsb_mot1\nADC1_CH12: vsc_mot1\nADC1_CH13: vsa_mot2\nADC1_CH14: vsb_mot2\nADC1_CH15: vsc_mot2
+Text Notes 27475 6275 0    79   ~ 0
+ADC2_CH0: x\nADC2_CH1: x\nADC2_CH2: x\nADC2_CH3: (cura_mot1)\nADC2_CH4: (curb_mot1)\nADC2_CH5: cura_mot2\nADC2_CH6: x\nADC2_CH7: x\nADC2_CH8: x\nADC2_CH9: curb_mot2\nADC2_CH10: (vsa_mot1)\nADC2_CH11: (vsb_mot1)\nADC2_CH12: (vsc_mot1)\nADC2_CH13: (vsa_mot2)\nADC2_CH14: (vsb_mot2)\nADC2_CH15: (vsc_mot2)
 $Comp
 L SwEmb:IC_SN74LV4051 U6
 U 1 1 95D8644D
@@ -13189,8 +13186,6 @@ Wire Wire Line
 Wire Wire Line
 	11900 2750 11900 2850
 Connection ~ 11900 2850
-Text GLabel 24125 800  0    50   Input ~ 0
-MOTOR2_BRKIN
 NoConn ~ 14950 12050
 NoConn ~ 14950 12350
 NoConn ~ 14950 12650
@@ -13203,8 +13198,6 @@ NoConn ~ 20350 12325
 NoConn ~ 20350 12025
 Text GLabel 12000 2850 2    50   Input ~ 0
 ENCIRQ2
-Text GLabel 24125 700  0    50   Input ~ 0
-MOTOR1_BRKIN
 Text GLabel 2250 8950 0    50   Input ~ 0
 MOTOR1_BRKIN
 Wire Wire Line
@@ -14031,7 +14024,7 @@ $EndComp
 Connection ~ 5275 17125
 Text GLabel 14900 1850 0    50   Input ~ 0
 VDD_3V3
-Text GLabel 14900 2450 0    50   Input ~ 0
+Text GLabel 14900 2250 0    50   Input ~ 0
 GND
 Text GLabel 15800 2250 2    50   Input ~ 0
 GND
@@ -14091,7 +14084,7 @@ Text GLabel 4075 11125 0    50   Input ~ 0
 MOCP_RESET
 Text GLabel 4075 11225 0    50   Input ~ 0
 MOCP_WP
-Text GLabel 12525 4675 1    50   Input ~ 0
+Text GLabel 12625 4675 1    50   Input ~ 0
 MOCP_SCL
 Text GLabel 12125 4625 1    50   Input ~ 0
 MOCP_SDA
@@ -14105,9 +14098,9 @@ Connection ~ 12025 4650
 Wire Wire Line
 	12025 4650 12125 4650
 Wire Wire Line
-	12425 4675 12425 4750
-Wire Wire Line
 	12525 4675 12525 4750
+Wire Wire Line
+	12625 4675 12625 4750
 $Comp
 L SwEmb:CONN_LCD P25
 U 1 1 B0891A5F
@@ -15740,17 +15733,17 @@ Connection ~ 12750 6850
 Wire Wire Line
 	12750 6850 12850 6850
 Wire Wire Line
-	12025 4150 12775 4150
+	12025 4150 13050 4150
 Text GLabel 11575 4850 2    50   Input ~ 0
 EE_WEN
 Wire Wire Line
-	12425 4750 12525 4750
-Wire Wire Line
-	12625 4750 12625 4675
-Connection ~ 12425 4750
-Connection ~ 12525 4750
-Wire Wire Line
 	12525 4750 12625 4750
+Wire Wire Line
+	12725 4750 12725 4675
+Connection ~ 12525 4750
+Connection ~ 12625 4750
+Wire Wire Line
+	12625 4750 12725 4750
 Wire Wire Line
 	12225 4625 12225 4650
 Wire Wire Line
@@ -15911,7 +15904,7 @@ Text GLabel 14900 1550 0    50   Input ~ 0
 VDD_3V3
 Text GLabel 15800 1550 2    50   Input ~ 0
 VDD_3V3
-Text GLabel 14900 2250 0    50   Input ~ 0
+Text GLabel 14900 2450 0    50   Input ~ 0
 VDD_3V3
 Text GLabel 14900 2350 0    50   Input ~ 0
 LCD_VO
@@ -15945,7 +15938,7 @@ Text GLabel 7850 11225 2    50   Input ~ 0
 LCD_D6
 Text GLabel 7850 11325 2    50   Input ~ 0
 LCD_D7
-Text GLabel 11575 3750 2    50   Input ~ 0
+Text GLabel 11575 4550 2    50   Input ~ 0
 GPEX_CS
 Text GLabel 2375 6550 0    50   Input ~ 0
 GPEX_INTA
@@ -16567,17 +16560,15 @@ Text GLabel 2375 8050 0    50   Input ~ 0
 BLED_EN
 Text GLabel 12325 4625 1    50   Input ~ 0
 BLED_SDA
-Text GLabel 12725 4675 1    50   Input ~ 0
+Text GLabel 12825 4675 1    50   Input ~ 0
 BLED_SCL
 Text GLabel 2375 8750 0    50   Input ~ 0
 BLED_INT
 Wire Wire Line
-	11575 4750 12425 4750
+	12825 4675 12825 4750
 Wire Wire Line
-	12725 4675 12725 4750
-Wire Wire Line
-	12725 4750 12625 4750
-Connection ~ 12625 4750
+	12825 4750 12725 4750
+Connection ~ 12725 4750
 Wire Wire Line
 	12325 4625 12325 4650
 Wire Wire Line
@@ -17175,11 +17166,11 @@ Wire Notes Line
 	23350 11200 23350 15075
 Text Notes 25900 925  0    197  ~ 0
 Quick Design Summary
-Text Notes 24000 4000 0    118  ~ 0
+Text Notes 24150 4150 0    118  ~ 0
 Timers
-Text Notes 24000 5100 0    118  ~ 0
+Text Notes 25825 4150 0    118  ~ 0
 ADC1
-Text Notes 26250 5125 0    118  ~ 0
+Text Notes 27475 4150 0    118  ~ 0
 ADC2
 Wire Bus Line
 	25900 1000 29350 1000
@@ -17189,7 +17180,7 @@ Text Notes 24000 3200 0    79   ~ 0
 - Capable of driving two PMSM or DC motors @ 48V, 20A\n- Automatic overcurrent protection with adjustable current limit\n- Break resistor support\n- Versatile encoder interface supporting SE, RS-422 and DHTL encoders\n- 3 extra +-40 inputs per motor for high voltage industrial sensors\n- Motor hall sensor support\n- Amplified back emf feedback for better sensorless control\n- 2x CAN2.0B\n- CANFD 5Mbit/s\n- EtherCAT slave controller\n- USB 2.0 device interface\n- LCD connector\n- UEXT connector for arbitrary expansion\n- 8 analog 5v capable inputs supporting inductive joystick and potentiometers\n- 4 analog 5v control outputs\n- 8 button inputs with hardware debouncing\n- 8 flexible LED outputs with programmable light patterns
 Wire Bus Line
 	25200 3650 29800 3650
-Text Notes 25900 9050 0    315  ~ 0
+Text Notes 26075 11375 0    315  ~ 0
 This is a draft\nIncomplete!
 $Comp
 L SwEmb:RES_0R_0402 #R19
@@ -18239,7 +18230,7 @@ Wire Wire Line
 	7950 11625 7950 12000
 Wire Wire Line
 	8025 11525 8025 12000
-Text Notes 12850 4575 0    39   ~ 0
+Text Notes 13275 4575 0    39   ~ 0
 BLED: 32h\nAP: 58h\nMOCP: 55h\nEE: A0h
 Wire Wire Line
 	8525 11775 8475 11775
@@ -18930,17 +18921,6 @@ F 3 "~" H 11775 6950 50  0001 C CNN
 	1    11575 6950
 	0    1    1    0   
 $EndComp
-$Comp
-L SwEmb:Test_Point TP?
-U 1 1 85137E0F
-P 11575 6550
-F 0 "TP?" V 11575 6775 50  0000 C CNN
-F 1 "Test_Point" H 11575 6750 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 11775 6550 50  0001 C CNN
-F 3 "~" H 11775 6550 50  0001 C CNN
-	1    11575 6550
-	0    1    1    0   
-$EndComp
 NoConn ~ 32450 4400
 Text GLabel 1550 21675 0    50   Input ~ 0
 VDD_3V3_MCU
@@ -19312,4 +19292,190 @@ Wire Wire Line
 Connection ~ 13000 11825
 Wire Wire Line
 	13000 11825 13000 11925
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 8B26B12F
+P 6175 18625
+F 0 "TP?" V 6175 18800 50  0000 L CNN
+F 1 "Test_Point" H 6175 18825 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6375 18625 50  0001 C CNN
+F 3 "~" H 6375 18625 50  0001 C CNN
+	1    6175 18625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 8B26BB53
+P 7450 18175
+F 0 "TP?" V 7450 18350 50  0000 L CNN
+F 1 "Test_Point" H 7450 18375 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7650 18175 50  0001 C CNN
+F 3 "~" H 7650 18175 50  0001 C CNN
+	1    7450 18175
+	-1   0    0    1   
+$EndComp
+Connection ~ 7450 18175
+Wire Wire Line
+	7450 18175 7550 18175
+Text Notes 24125 7500 0    79   ~ 0
+SPI1: -\nSPI2: -\nSPI3: GPIO/ENC\nSPI4: UEXT\nSPI5: -\nSPI6: CANFD/ECAT
+Text Notes 25825 7125 0    79   ~ 0
+I2C1: POT/EE/LED\nI2C2: UEXT\nI2C3: -
+Text Notes 29175 6275 0    79   ~ 0
+ADC3_CH0: x\nADC3_CH1: x\nADC3_CH2: x\nADC3_CH3: x\nADC3_CH4: -\nADC3_CH5: -\nADC3_CH6: temp_mot2\nADC3_CH7: -\nADC3_CH8: -\nADC3_CH9: vmot\nADC3_CH10: -\nADC3_CH11: -\nADC3_CH12: -\nADC3_CH13: -\nADC3_CH14: joysticks\nADC3_CH15: temp_mot1
+Text GLabel 11575 3950 2    50   Input ~ 0
+HALL_C1
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 8BEFCEF8
+P 11575 6550
+F 0 "TP?" V 11575 6775 50  0000 C CNN
+F 1 "Test_Point" H 11575 6750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 11775 6550 50  0001 C CNN
+F 3 "~" H 11775 6550 50  0001 C CNN
+	1    11575 6550
+	0    1    1    0   
+$EndComp
+Text Notes 27475 7000 0    79   ~ 0
+UART1: DEBUG\nUART8: UEXT
+Text Notes 29200 4150 0    118  ~ 0
+ADC3
+Wire Notes Line
+	24025 6375 30750 6375
+Wire Notes Line
+	24025 3900 30750 3900
+Wire Notes Line
+	24025 4200 30750 4200
+Text Notes 24125 6600 0    118  ~ 0
+SPI
+Wire Notes Line
+	24025 6675 30750 6675
+Wire Notes Line
+	24025 7750 30750 7750
+Wire Notes Line
+	30750 3900 30750 7750
+Wire Notes Line
+	24025 3900 24025 7750
+Wire Notes Line
+	29075 3900 29075 7750
+Wire Notes Line
+	27375 3900 27375 7750
+Wire Notes Line
+	25700 3900 25700 7750
+Text Notes 25800 6600 0    118  ~ 0
+I2C
+Text Notes 27475 6600 0    118  ~ 0
+UART
+$Comp
+L SwEmb:RES_0R_0402 #R?
+U 1 1 91249074
+P 12125 2625
+F 0 "#R?" V 12021 2625 50  0000 C CNN
+F 1 "RES_0R_0402" H 12155 2585 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12055 2545 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" H 12125 2625 50  0001 C CNN
+F 4 "CRCW04020000Z0EDC" H 12125 2625 50  0001 C CNN "MPN"
+F 5 "3675 In Stock" H 12125 2625 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 0ohms" H 12125 2625 50  0001 C CNN "Description"
+F 7 "Mouser" H 12125 2625 50  0001 C CNN "Vendor"
+F 8 "0.105  EUR" H 12125 2625 50  0001 C CNN "Price"
+F 9 "OK" H 12125 2625 50  0001 C CNN "LifeCycle"
+	1    12125 2625
+	0    1    1    0   
+$EndComp
+Text GLabel 12225 2625 2    50   Input ~ 0
+ENCSH2
+Wire Wire Line
+	12025 2625 11900 2625
+Wire Wire Line
+	11900 2625 11900 2750
+Connection ~ 11900 2750
+Text GLabel 1975 9050 0    50   Input ~ 0
+ENCSH2
+$Comp
+L SwEmb:RES_0R_0402 #R?
+U 1 1 91A4096E
+P 2125 9050
+F 0 "#R?" V 2200 9050 50  0000 C CNN
+F 1 "RES_0R_0402" H 2155 9010 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2055 8970 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" H 2125 9050 50  0001 C CNN
+F 4 "CRCW04020000Z0EDC" H 2125 9050 50  0001 C CNN "MPN"
+F 5 "3675 In Stock" H 2125 9050 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 0ohms" H 2125 9050 50  0001 C CNN "Description"
+F 7 "Mouser" H 2125 9050 50  0001 C CNN "Vendor"
+F 8 "0.105  EUR" H 2125 9050 50  0001 C CNN "Price"
+F 9 "OK" H 2125 9050 50  0001 C CNN "LifeCycle"
+	1    2125 9050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 9050 2225 9050
+Wire Wire Line
+	1975 9050 2025 9050
+Wire Wire Line
+	2300 8950 2300 9050
+Connection ~ 2300 8950
+NoConn ~ 4075 11325
+$Comp
+L SwEmb:RES_3K_1%_0402 R?
+U 1 1 93E3F000
+P 12425 4475
+F 0 "R?" H 12475 4700 50  0000 C CNN
+F 1 "RES_3K_1%_0402" H 12455 4435 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12355 4395 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 12455 4495 50  0001 C CNN
+F 4 "RC0402FR-073KL" H 12555 4595 50  0001 C CNN "MPN"
+F 5 "638811 In Stock" H 12425 4475 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 12425 4475 50  0001 C CNN "Description"
+F 7 "OK" H 12425 4475 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 12425 4475 50  0001 C CNN "Price"
+F 9 "Mouser" H 12425 4475 50  0001 C CNN "Vendor"
+	1    12425 4475
+	-1   0    0    1   
+$EndComp
+$Comp
+L SwEmb:RES_3K_1%_0402 R?
+U 1 1 946389E7
+P 12925 4475
+F 0 "R?" V 12850 4475 50  0000 C CNN
+F 1 "RES_3K_1%_0402" H 12955 4435 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12855 4395 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 12955 4495 50  0001 C CNN
+F 4 "RC0402FR-073KL" H 13055 4595 50  0001 C CNN "MPN"
+F 5 "638811 In Stock" H 12925 4475 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 12925 4475 50  0001 C CNN "Description"
+F 7 "OK" H 12925 4475 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 12925 4475 50  0001 C CNN "Price"
+F 9 "Mouser" H 12925 4475 50  0001 C CNN "Vendor"
+	1    12925 4475
+	-1   0    0    1   
+$EndComp
+Text GLabel 12600 4000 0    50   Input ~ 0
+VDD_3V3_MCU
+Wire Wire Line
+	12325 4650 12425 4650
+Wire Wire Line
+	12425 4650 12425 4575
+Connection ~ 12325 4650
+Wire Wire Line
+	12425 4375 12425 4200
+Wire Wire Line
+	12425 4200 12675 4200
+Wire Wire Line
+	12925 4200 12925 4375
+Wire Wire Line
+	12925 4575 12925 4750
+Wire Wire Line
+	12925 4750 12825 4750
+Connection ~ 12825 4750
+Wire Wire Line
+	11575 4750 12525 4750
+Wire Wire Line
+	12675 4200 12675 4000
+Wire Wire Line
+	12675 4000 12600 4000
+Connection ~ 12675 4200
+Wire Wire Line
+	12675 4200 12925 4200
 $EndSCHEMATC
