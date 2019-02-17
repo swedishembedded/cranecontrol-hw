@@ -5,9 +5,9 @@ EESchema-LIBRARY Version 2.4
 #
 DEF ANT_SR4W035 A 0 40 Y Y 1 F N
 F0 "A" 0 300 50 H V C CNN
-F1 "ANT_SR4W035" 0 -450 50 H V C CNN
-F2 "MODULE:SR4W035" 0 -250 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/23/Serica-SR4W035-PS-1.0-1100557.pdf" 0 -50 50 H I C CNN
+F1 "ANT_SR4W035" 0 -450 50 H V C CNN ""
+F2 "MODULE:SR4W035" 0 -250 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/23/Serica-SR4W035-PS-1.0-1100557.pdf" 0 -50 50 H I C CNN ""
 F4 "SR4W035" 0 -350 50 H I C CNN "MPN"
 F5 "8080 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Antennas 2.4GHz FR4 lamainate antenna" 0 0 50 H I C CNN "Description"
@@ -29,9 +29,9 @@ ENDDEF
 #
 DEF BZA408B D 0 40 Y Y 1 F N
 F0 "D" 0 -400 50 H V C CNN
-F1 "BZA408B" 0 -400 50 H V C CNN
-F2 "" 0 -400 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/916/BZA408B-1320202.pdf" 0 -400 50 H I C CNN
+F1 "BZA408B" 0 -400 50 H V C CNN ""
+F2 "" 0 -400 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/916/BZA408B-1320202.pdf" 0 -400 50 H I C CNN ""
 F4 "BZA408B_115" 0 -400 50 H I C CNN "MPN"
 F5 "41606 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes DIODE ARRAY TAPE-7" 0 0 50 H I C CNN "Description"
@@ -85,9 +85,9 @@ ENDDEF
 #
 DEF ~CAPP_100uF_25V_6357 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "CAPP_100uF_25V_6357" 25 -100 50 H I L CNN
-F2 "Capacitor_SMD:CP_Elec_6.3x5.7" 38 -150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/231/151002385281-1222337.pdf" 25 100 50 H I C CNN
+F1 "CAPP_100uF_25V_6357" 25 -100 50 H I L CNN ""
+F2 "Capacitor_SMD:CP_Elec_6.3x5.7" 38 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/231/151002385281-1222337.pdf" 25 100 50 H I C CNN ""
 F4 "VZS101M1ETR-0606" 0 0 39 H I C CNN "MPN"
 F5 "25876 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Aluminium Electrolytic Capacitors - SMD 25 Volts 100uF 20% 6.3X5.7" 0 0 50 H I C CNN "Description"
@@ -112,9 +112,9 @@ ENDDEF
 #
 DEF ~CAPP_220uF_63V_10x15_THT C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "CAPP_220uF_63V_10x15_THT" 25 -100 50 H I L CNN
-F2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" 38 -150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" 25 100 50 H I C CNN
+F1 "CAPP_220uF_63V_10x15_THT" 25 -100 50 H I L CNN ""
+F2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" 38 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" 25 100 50 H I C CNN ""
 F4 "ESK227M063AH2AA" 0 0 39 H I C CNN "MPN"
 F5 "2937 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Aluminium Electrolytic Capacitors - Radial Leaded 63V 220uF 85C 2k Hour Radial" 0 0 50 H I C CNN "Description"
@@ -139,9 +139,9 @@ ENDDEF
 #
 DEF ~CAP_0.022uF_100V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_0.022uF_100V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" 10 70 50 H I C CNN
+F1 "CAP_0.022uF_100V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" 10 70 50 H I C CNN ""
 F4 "C0603C223K1RACTU" 0 -350 50 H I C CNN "MPN"
 F5 "271764 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V .022uF 0603 X7R 10%" 0 0 50 H I C CNN "Description"
@@ -164,9 +164,9 @@ ENDDEF
 #
 DEF ~CAP_0.47uF_10V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_0.47uF_10V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN
+F1 "CAP_0.47uF_10V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN ""
 F4 "CC0402KRX5R6BB474" 450 250 50 H I C CNN "MPN"
 F5 "33886 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 470nF 10V X5R 10%" 0 0 50 H I C CNN "Description"
@@ -189,9 +189,9 @@ ENDDEF
 #
 DEF ~CAP_0.5pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_0.5pF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/212/KEM_C1030_CBR_SMD-1101233.pdf" 10 70 50 H I C CNN
+F1 "CAP_0.5pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_C1030_CBR_SMD-1101233.pdf" 10 70 50 H I C CNN ""
 F4 "CBR04C508C5GAC" 0 0 50 H I C CNN "MPN"
 F5 "16286 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 0.5pF C0G 0402 0.25pF" 0 0 50 H I C CNN "Description"
@@ -214,9 +214,9 @@ ENDDEF
 #
 DEF ~CAP_0.8pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_0.8pF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/GCQ1555C1HR51WB01-01-1154307.pdf" 10 70 50 H I C CNN
+F1 "CAP_0.8pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/GCQ1555C1HR51WB01-01-1154307.pdf" 10 70 50 H I C CNN ""
 F4 "GCQ1555C1HR80WB01D" 0 0 50 H I C CNN "MPN"
 F5 "34617 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 0.80pF 0.05pF AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -239,9 +239,9 @@ ENDDEF
 #
 DEF ~CAP_1.2pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_1.2pF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/GCQ1555C1HR51WB01-01-1154307.pdf" 10 70 50 H I C CNN
+F1 "CAP_1.2pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/GCQ1555C1HR51WB01-01-1154307.pdf" 10 70 50 H I C CNN ""
 F4 "GCQ1555C1H1R2WB01D" 0 -350 50 H I C CNN "MPN"
 F5 "6401 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 50VDC 1.2pF 0.05pF AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -264,9 +264,9 @@ ENDDEF
 #
 DEF ~CAP_100nF_100V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_100nF_100V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/UPY-NP0X7R_MV_100-to-630V_21-1479806.pdf" 10 70 50 H I C CNN
+F1 "CAP_100nF_100V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/UPY-NP0X7R_MV_100-to-630V_21-1479806.pdf" 10 70 50 H I C CNN ""
 F4 "CC0603KRX7R0BB104" 0 -300 50 H I C CNN "MPN"
 F5 "121849 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 10% 100 Volts" 0 0 50 H I C CNN "Description"
@@ -289,9 +289,9 @@ ENDDEF
 #
 DEF ~CAP_100nF_10V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_100nF_10V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN
+F1 "CAP_100nF_10V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN ""
 F4 "VJ0603Y104JXQPW1BC" 0 -300 50 H I C CNN "MPN"
 F5 "14875 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 0.1uF 10volts X7R 5%" 0 0 50 H I C CNN "Description"
@@ -314,9 +314,9 @@ ENDDEF
 #
 DEF ~CAP_100nF_16V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_100nF_16V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/212/KEM_C1090_X7R_ESD-1103328.pdf" 10 70 50 H I C CNN
+F1 "CAP_100nF_16V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_C1090_X7R_ESD-1103328.pdf" 10 70 50 H I C CNN ""
 F4 "C0402C104K4RECAUTO" 450 250 50 H I C CNN "MPN"
 F5 "2210 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.1uF X7R 0402 10% AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -339,9 +339,9 @@ ENDDEF
 #
 DEF ~CAP_100nF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_100nF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN
+F1 "CAP_100nF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN ""
 F4 "CC0402KRX5R9BB104" 450 250 50 H I C CNN "MPN"
 F5 "120297 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" 0 0 50 H I C CNN "Description"
@@ -364,9 +364,9 @@ ENDDEF
 #
 DEF ~CAP_100pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_100pF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/885012205055-554058.pdf" 10 70 50 H I C CNN
+F1 "CAP_100pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/885012205055-554058.pdf" 10 70 50 H I C CNN ""
 F4 "885012205055" 0 0 50 H I C CNN "MPN"
 F5 "139976 On Order" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 100pF 0402 10% 50V MLCC" 0 0 50 H I C CNN "Description"
@@ -389,9 +389,9 @@ ENDDEF
 #
 DEF ~CAP_10nF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10nF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" 10 70 50 H I C CNN
+F1 "CAP_10nF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" 10 70 50 H I C CNN ""
 F4 "UMK105B7103KVHF" 0 0 50 H I C CNN "MPN"
 F5 "235904 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.01uF 50V X7R +/-10% 0402 AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -414,9 +414,9 @@ ENDDEF
 #
 DEF ~CAP_10pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10pF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/885012005055-553907.pdf" 10 70 50 H I C CNN
+F1 "CAP_10pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/885012005055-553907.pdf" 10 70 50 H I C CNN ""
 F4 "885012005055" 450 250 50 H I C CNN "MPN"
 F5 "383 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 10pF 0402 5% 50V MLCC" 0 0 50 H I C CNN "Description"
@@ -439,9 +439,9 @@ ENDDEF
 #
 DEF ~CAP_10uF_16V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10uF_16V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_general_en-837201.pdf" 10 70 50 H I C CNN
+F1 "CAP_10uF_16V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_general_en-837201.pdf" 10 70 50 H I C CNN ""
 F4 "C1608X5R1C106M080AB" 0 0 50 H I C CNN "MPN"
 F5 "173508 On Order" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 16V 10uF X5R 20% T: 0.8mm" 0 0 50 H I C CNN "Description"
@@ -464,9 +464,9 @@ ENDDEF
 #
 DEF ~CAP_10uF_16V_3216 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10uF_16V_3216" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_1206_3216Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 70 50 H I C CNN
+F1 "CAP_10uF_16V_3216" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_1206_3216Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 70 50 H I C CNN ""
 F4 "GCM31CR71C106KA64K" 0 0 50 H I C CNN "MPN"
 F5 "16286 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 16Volts X7R 10%" 0 0 50 H I C CNN "Description"
@@ -489,9 +489,9 @@ ENDDEF
 #
 DEF ~CAP_10uF_25V_0805 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10uF_25V_0805" -40 -280 50 H I L CNN
-F2 "Capacitor_SMD:C_0805_2012Metric" 400 -50 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" -40 -130 50 H I C CNN
+F1 "CAP_10uF_25V_0805" -40 -280 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0805_2012Metric" 400 -50 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" -40 -130 50 H I C CNN ""
 F4 "GRM21BR61E106MA73L" 0 -350 50 H I C CNN "MPN"
 F5 "196753 In Stock" -50 -200 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 10uF 25volts X5R 20%" -50 -200 50 H I C CNN "Description"
@@ -514,9 +514,9 @@ ENDDEF
 #
 DEF ~CAP_10uF_35V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10uF_35V_0603" 10 -280 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 -50 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 -130 50 H I C CNN
+F1 "CAP_10uF_35V_0603" 10 -280 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 -50 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 -130 50 H I C CNN ""
 F4 "GRM188R6YA106MA73D" 0 -350 50 H I C CNN "MPN"
 F5 "1829 In Stock" 0 -200 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10uF 35volts *Derate Voltage/Temp" 0 -200 50 H I C CNN "Description"
@@ -539,9 +539,9 @@ ENDDEF
 #
 DEF ~CAP_10uF_6.3V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10uF_6.3V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN
+F1 "CAP_10uF_6.3V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN ""
 F4 "GRM155C80J106ME11J" 0 -350 50 H I C CNN "MPN"
 F5 "338282 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT" 0 0 50 H I C CNN "Description"
@@ -564,9 +564,9 @@ ENDDEF
 #
 DEF ~CAP_10uF_63V_5750 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_10uF_63V_5750" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_2220_5650Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN
+F1 "CAP_10uF_63V_5750" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_2220_5650Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" 10 70 50 H I C CNN ""
 F4 "KRM55QR71J106KH01K" 0 -300 50 H I C CNN "MPN"
 F5 "221948 On Order" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210 10uF 63volts *Derate Voltage/Temp" 0 0 50 H I C CNN "Description"
@@ -589,9 +589,9 @@ ENDDEF
 #
 DEF ~CAP_1nF_100V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_1nF_100V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/400/lcc_automotive_midvoltage_en-355485.pdf" 10 70 50 H I C CNN
+F1 "CAP_1nF_100V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/400/lcc_automotive_midvoltage_en-355485.pdf" 10 70 50 H I C CNN ""
 F4 "CGA3E2X7R2A102K080AA" 0 -350 50 H I C CNN "MPN"
 F5 "100868 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0603 100V 1000pF X7R 10% AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -614,9 +614,9 @@ ENDDEF
 #
 DEF ~CAP_1nF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_1nF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" 10 70 50 H I C CNN
+F1 "CAP_1nF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" 10 70 50 H I C CNN ""
 F4 "C0402C102J5RAC7411" 0 0 50 H I C CNN "MPN"
 F5 "51530 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 1000pF X7R 0402 5%" 0 0 50 H I C CNN "Description"
@@ -639,9 +639,9 @@ ENDDEF
 #
 DEF ~CAP_1uF_10V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_1uF_10V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN
+F1 "CAP_1uF_10V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN ""
 F4 "CC0402KRX5R6BB105" 0 0 50 H I C CNN "MPN"
 F5 "19231817 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 10V X5R 10%" 0 0 50 H I C CNN "Description"
@@ -664,9 +664,9 @@ ENDDEF
 #
 DEF ~CAP_1uF_6.3V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_1uF_6.3V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_lowprofile_en-520027.pdf" 10 70 50 H I C CNN
+F1 "CAP_1uF_6.3V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_lowprofile_en-520027.pdf" 10 70 50 H I C CNN ""
 F4 "CGB2A1X7S0J105M033BC" 0 0 50 H I C CNN "MPN"
 F5 "75025 On Order" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGB 0402 6.3V 1uF X7S 20% T: 0.33mm" 0 0 50 H I C CNN "Description"
@@ -689,9 +689,9 @@ ENDDEF
 #
 DEF ~CAP_2.2nF_50V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_2.2nF_50V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/400/lcc_automotive_general_en-843974.pdf" 10 70 50 H I C CNN
+F1 "CAP_2.2nF_50V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/400/lcc_automotive_general_en-843974.pdf" 10 70 50 H I C CNN ""
 F4 "CGA3E2X7R1H223K080AA" 0 -350 50 H I C CNN "MPN"
 F5 "116641 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT CGA 0603 50V 0.022uF X7R 10% AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -714,9 +714,9 @@ ENDDEF
 #
 DEF ~CAP_2.2uF_100V_1210 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_2.2uF_100V_1210" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_1210_3225Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" 10 70 50 H I C CNN
+F1 "CAP_2.2uF_100V_1210" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_1210_3225Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" 10 70 50 H I C CNN ""
 F4 "HMJ325AB7225KMHT" 0 -300 50 H I C CNN "MPN"
 F5 "12161 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF 100V X7R 10% 1210 Flx AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -739,9 +739,9 @@ ENDDEF
 #
 DEF ~CAP_2.2uF_16V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_2.2uF_16V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GRT_Series-1310174.pdf" 10 70 50 H I C CNN
+F1 "CAP_2.2uF_16V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GRT_Series-1310174.pdf" 10 70 50 H I C CNN ""
 F4 "GRT155C81C225KE13D" 0 -350 50 H I C CNN "MPN"
 F5 "113017 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 16Vdc 2.2uF X6S 10%" 0 0 50 H I C CNN "Description"
@@ -764,9 +764,9 @@ ENDDEF
 #
 DEF ~CAP_22nF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_22nF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 70 50 H I C CNN
+F1 "CAP_22nF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 70 50 H I C CNN ""
 F4 "GCM155R71H223JA55D" 0 -350 50 H I C CNN "MPN"
 F5 "76047 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.022uF 50volts X7R 5%" 0 0 50 H I C CNN "Description"
@@ -789,9 +789,9 @@ ENDDEF
 #
 DEF ~CAP_22uF_10V_0805 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_22uF_10V_0805" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0805_2012Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" 10 70 50 H I C CNN
+F1 "CAP_22uF_10V_0805" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0805_2012Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" 10 70 50 H I C CNN ""
 F4 "LMK212BBJ226MG-T" 450 250 50 H I C CNN "MPN"
 F5 "131798 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 10V X5R +/-20% 0805 Gen Purp" 0 0 50 H I C CNN "Description"
@@ -814,9 +814,9 @@ ENDDEF
 #
 DEF ~CAP_27nF_16V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_27nF_16V_0402" 10 -830 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 -600 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 -680 50 H I C CNN
+F1 "CAP_27nF_16V_0402" 10 -830 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 -600 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 -680 50 H I C CNN ""
 F4 "GCM155R71C273KA37D" 450 -500 50 H I C CNN "MPN"
 F5 "10300 In Stock" 0 -600 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.027uF 16volts X7R 10%" 0 -750 50 H I C CNN "Description"
@@ -839,9 +839,9 @@ ENDDEF
 #
 DEF ~CAP_39pF_50V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_39pF_50V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/212/KEM_C1003_C0G_SMD-1101588.pdf" 10 70 50 H I C CNN
+F1 "CAP_39pF_50V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/212/KEM_C1003_C0G_SMD-1101588.pdf" 10 70 50 H I C CNN ""
 F4 "C0603C390J5GACTU" 0 -300 50 H I C CNN "MPN"
 F5 "3 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 39pF 0603 C0G 5%" 0 0 50 H I C CNN "Description"
@@ -864,9 +864,9 @@ ENDDEF
 #
 DEF ~CAP_51pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_51pF_50V_0402" 10 -830 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 -600 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf" 10 -680 50 H I C CNN
+F1 "CAP_51pF_50V_0402" 10 -830 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 -600 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf" 10 -680 50 H I C CNN ""
 F4 "CC0402JRNPO9BN510" 450 -500 50 H I C CNN "MPN"
 F5 "42645 In Stock" 0 -600 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 51pF 50V NPO 5%" 0 -750 50 H I C CNN "Description"
@@ -889,9 +889,9 @@ ENDDEF
 #
 DEF ~CAP_56nF_50V_0805 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_56nF_50V_0805" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0805_2012Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN
+F1 "CAP_56nF_50V_0805" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0805_2012Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN ""
 F4 "VJ0805Y563MXAPW1BC" 450 250 50 H I C CNN "MPN"
 F5 "13197 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 0.056uF 50volts X7R 20%" 0 0 50 H I C CNN "Description"
@@ -914,9 +914,9 @@ ENDDEF
 #
 DEF ~CAP_6800pF_10V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_6800pF_10V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN
+F1 "CAP_6800pF_10V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN ""
 F4 "VJ0603Y682MXQPW1BC" 0 -300 50 H I C CNN "MPN"
 F5 "38883 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6800pF 10volts X7R 20%" 0 0 50 H I C CNN "Description"
@@ -939,9 +939,9 @@ ENDDEF
 #
 DEF ~CAP_680pF_200V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_680pF_200V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" 10 70 50 H I C CNN
+F1 "CAP_680pF_200V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" 10 70 50 H I C CNN ""
 F4 "06032C681KAT2A" 50 -200 39 H I C CNN "MPN"
 F5 "19480 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 200V 680pF X7R 0603 10%" 0 0 50 H I C CNN "Description"
@@ -964,9 +964,9 @@ ENDDEF
 #
 DEF ~CAP_8200pF_50V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_8200pF_50V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN
+F1 "CAP_8200pF_50V_0603" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-223529.pdf" 10 70 50 H I C CNN ""
 F4 "VJ0603Y822KXAPW1BC" 0 -300 50 H I C CNN "MPN"
 F5 "29392 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 8200pF 50volts X7R 10%" 0 0 50 H I C CNN "Description"
@@ -989,9 +989,9 @@ ENDDEF
 #
 DEF ~CAP_9pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CAP_9pF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf" 10 70 50 H I C CNN
+F1 "CAP_9pF_50V_0402" 10 -80 50 H I L CNN ""
+F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf" 10 70 50 H I C CNN ""
 F4 "CC0402BRNPO9BN9R0" 450 250 50 H I C CNN "MPN"
 F5 "8116 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 9.0pF 50V NPO 0.1pF" 0 0 50 H I C CNN "Description"
@@ -1014,9 +1014,9 @@ ENDDEF
 #
 DEF ~CONN_AN_OUT P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "CONN_AN_OUT" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_AN_OUT" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F1 "CONN_AN_OUT" -100 900 50 H I C CNN ""
+F2 "CUSTOM:CONN_AN_OUT" -300 900 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN ""
 F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
@@ -1034,9 +1034,9 @@ ENDDEF
 #
 DEF ~CONN_BRKRES P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "CONN_BRKRES" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_BRKRES" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F1 "CONN_BRKRES" -100 900 50 H I C CNN ""
+F2 "CUSTOM:CONN_BRKRES" -300 900 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN ""
 F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
@@ -1054,9 +1054,9 @@ ENDDEF
 #
 DEF ~CONN_CAN P 0 40 Y Y 1 F N
 F0 "P" -100 200 50 H V C CNN
-F1 "CONN_CAN" 0 -200 50 H I C CNN
-F2 "CUSTOM:CONN_CAN" 50 -300 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -100 0 50 H I C CNN
+F1 "CONN_CAN" 0 -200 50 H I C CNN ""
+F2 "CUSTOM:CONN_CAN" 50 -300 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -100 0 50 H I C CNN ""
 F4 "691322110003" 0 50 50 H I C CNN "MPN"
 F5 "2041 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" 0 0 50 H I C CNN "Description"
@@ -1081,9 +1081,9 @@ ENDDEF
 #
 DEF ~CONN_DEBUG P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
-F1 "CONN_DEBUG" 100 -600 50 H I C CNN
-F2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" 0 100 50 H I C CNN
-F3 "" 0 100 50 H V C CNN
+F1 "CONN_DEBUG" 100 -600 50 H I C CNN ""
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" 0 100 50 H I C CNN ""
+F3 "" 0 100 50 H V C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 $FPLIST
  Pin_Header_Straight_1X06
@@ -1109,9 +1109,9 @@ ENDDEF
 #
 DEF ~CONN_DEBUG_2R P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
-F1 "CONN_DEBUG_2R" 100 -700 50 H I C CNN
-F2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H I C CNN
+F1 "CONN_DEBUG_2R" 100 -700 50 H I C CNN ""
+F2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H I C CNN ""
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
 F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" 0 0 50 H I C CNN "Description"
@@ -1143,9 +1143,9 @@ ENDDEF
 #
 DEF ~CONN_ENCODER P 0 40 Y Y 1 F N
 F0 "P" -50 450 50 H V C CNN
-F1 "CONN_ENCODER" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
+F1 "CONN_ENCODER" -100 900 50 H I C CNN ""
+F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" -300 900 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN ""
 F4 "691322110008" -100 900 50 H I C CNN "MPN"
 F5 "760 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 8PIn Horzntl PCBHdr" -200 900 50 H I C CNN "Description"
@@ -1172,9 +1172,9 @@ ENDDEF
 #
 DEF ~CONN_ENC_OUT P 0 40 Y Y 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "CONN_ENC_OUT" 0 -300 50 H I C CNN
-F2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" -100 -100 50 H I C CNN
-F3 "" -100 -100 50 H V C CNN
+F1 "CONN_ENC_OUT" 0 -300 50 H I C CNN ""
+F2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" -100 -100 50 H I C CNN ""
+F3 "" -100 -100 50 H V C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 $FPLIST
  Pin_Header_Straight_1X06
@@ -1199,9 +1199,9 @@ ENDDEF
 #
 DEF ~CONN_HALL P 0 40 Y Y 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "CONN_HALL" 0 0 50 H I C CNN
-F2 "CUSTOM:CONN_HALL" -100 200 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" 0 0 50 H I C CNN
+F1 "CONN_HALL" 0 0 50 H I C CNN ""
+F2 "CUSTOM:CONN_HALL" -100 200 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" 0 0 50 H I C CNN ""
 F4 "691322110005" 0 0 50 H I C CNN "MPN"
 F5 "587 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL Mod3221 3.5mm 5PIn Horzntl PCBHdr" 0 0 50 H I C CNN "Description"
@@ -1223,9 +1223,9 @@ ENDDEF
 #
 DEF ~CONN_I2C_2MM P 0 40 Y Y 1 F N
 F0 "P" -100 250 50 H V C CNN
-F1 "CONN_I2C_2MM" 0 -250 50 H I C CNN
-F2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" 50 -350 50 H I C CNN
-F3 "" -100 50 50 H V C CNN
+F1 "CONN_I2C_2MM" 0 -250 50 H I C CNN ""
+F2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" 50 -350 50 H I C CNN ""
+F3 "" -100 50 50 H V C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 $FPLIST
  Pin_Header_Straight_1X03
@@ -1246,14 +1246,15 @@ ENDDEF
 #
 DEF ~CONN_LCD P 0 40 Y Y 1 F N
 F0 "P" 0 900 50 H V C CNN
-F1 "CONN_LCD" 0 -1650 50 H I C CNN
-F2 "CUSTOM:CONN_LCD" -100 -1550 50 H I C CNN
-F3 "https___www.mouser.com_datasheet_2_276_0702461004_PCB_HEADERS-229930.pdf" -100 500 50 H I C CNN
+F1 "CONN_LCD" 0 -1650 50 H I C CNN ""
+F2 "CUSTOM:CONN_LCD" -100 -1550 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/276/0702461004_PCB_HEADERS-229930.pdf" -100 500 50 H I C CNN ""
 F4 "70246-0802" 0 -1450 50 H I C CNN "MPN"
-F5 "2466 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "2463 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 2.54mm CGrid Hdr Shr rd /Slt .76AuLF 8Ckt" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "1.25  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  Pin_Header_Straight_1X06
  Pin_Header_Angled_1X06
@@ -1286,9 +1287,9 @@ ENDDEF
 #
 DEF ~CONN_LED P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "CONN_LED" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_LED" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F1 "CONN_LED" -100 900 50 H I C CNN ""
+F2 "CUSTOM:CONN_LED" -300 900 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN ""
 F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
@@ -1306,9 +1307,9 @@ ENDDEF
 #
 DEF CONN_LORA_RF P 0 40 Y Y 1 F N
 F0 "P" 0 700 50 H V C CNN
-F1 "CONN_LORA_RF" 0 600 50 H V C CNN
-F2 "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical" 0 700 50 H I C CNN
-F3 "" 0 700 50 H I C CNN
+F1 "CONN_LORA_RF" 0 600 50 H V C CNN ""
+F2 "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical" 0 700 50 H I C CNN ""
+F3 "" 0 700 50 H I C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 DRAW
 S -150 550 200 -650 0 1 0 N
@@ -1331,9 +1332,9 @@ ENDDEF
 #
 DEF ~CONN_MOTOR P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
-F1 "CONN_MOTOR" -100 900 50 H I C CNN
-F2 "CUSTOM:ANYTEK_7.62mm_2x_3P_32A" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/18/eIO4RBm_lB__-1379253.pdf" -200 900 50 H I C CNN
+F1 "CONN_MOTOR" -100 900 50 H I C CNN ""
+F2 "CUSTOM:ANYTEK_7.62mm_2x_3P_32A" -300 900 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/18/eIO4RBm_lB__-1379253.pdf" -200 900 50 H I C CNN ""
 F4 "VC0301500000G" -100 900 50 H I C CNN "MPN"
 F5 "176 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks TB PLG SKT RA W/F" -200 900 50 H I C CNN "Description"
@@ -1353,9 +1354,9 @@ ENDDEF
 #
 DEF ~CONN_POT_OUT P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
-F1 "CONN_POT_OUT" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F1 "CONN_POT_OUT" -100 900 50 H I C CNN ""
+F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" -300 900 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN ""
 F4 "691322110003" -100 900 50 H I C CNN "MPN"
 F5 "2041 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
@@ -1375,9 +1376,9 @@ ENDDEF
 #
 DEF ~CONN_POWER_10A P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "CONN_POWER_10A" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_POWER_10A" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F1 "CONN_POWER_10A" -100 900 50 H I C CNN ""
+F2 "CUSTOM:CONN_POWER_10A" -300 900 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN ""
 F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
@@ -1395,9 +1396,9 @@ ENDDEF
 #
 DEF ~CONN_POWER_24V P 0 40 Y Y 1 F N
 F0 "P" -100 150 50 H V C CNN
-F1 "CONN_POWER_24V" 0 -150 50 H I C CNN
-F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" -100 -50 50 H I C CNN
-F3 "" -100 -50 50 H V C CNN
+F1 "CONN_POWER_24V" 0 -150 50 H I C CNN ""
+F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" -100 -50 50 H I C CNN ""
+F3 "" -100 -50 50 H V C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 $FPLIST
  Pin_Header_Straight_1X03
@@ -1416,9 +1417,9 @@ ENDDEF
 #
 DEF ~CONN_POWER_41A P 0 40 Y Y 1 F N
 F0 "P" -100 150 50 H V C CNN
-F1 "CONN_POWER_41A" 0 -150 50 H I C CNN
-F2 "CUSTOM:PhoenixContact_Power41A_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" -100 -50 50 H I C CNN
-F3 "" -100 -50 50 H V C CNN
+F1 "CONN_POWER_41A" 0 -150 50 H I C CNN ""
+F2 "CUSTOM:PhoenixContact_Power41A_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" -100 -50 50 H I C CNN ""
+F3 "" -100 -50 50 H V C CNN ""
 F4 "1720466" 0 0 50 H I C CNN "MPN"
 F5 "357 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks 2 Pos 7.62mm pitch Through Hole Header" 0 0 50 H I C CNN "Description"
@@ -1442,10 +1443,15 @@ ENDDEF
 #
 DEF ~CONN_PPM_IN P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
-F1 "CONN_PPM_IN" -50 -200 50 H I C CNN
-F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" -150 -50 50 H I C CNN
-F3 "" -150 -50 50 H V C CNN
+F1 "CONN_PPM_IN" -50 -200 50 H I C CNN ""
+F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" -150 -50 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -150 -50 50 H V C CNN ""
 F4 "691322110002" 0 0 50 H I C CNN "MPN"
+F5 "1435 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.38  EUR" 0 0 50 H I C CNN "Price"
 $FPLIST
  Pin_Header_Straight_1X03
  Pin_Header_Angled_1X03
@@ -1463,10 +1469,15 @@ ENDDEF
 #
 DEF ~CONN_PPM_OUT P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
-F1 "CONN_PPM_OUT" -50 -200 50 H I C CNN
-F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" -150 -50 50 H V C CNN
-F3 "" -150 -50 50 H V C CNN
+F1 "CONN_PPM_OUT" -50 -200 50 H I C CNN ""
+F2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" -150 -50 50 H V C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -150 -50 50 H V C CNN ""
 F4 "691322110002" 0 0 50 H I C CNN "MPN"
+F5 "1435 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "Mouser" 0 0 50 H I C CNN "Vendor"
+F9 "0.38  EUR" 0 0 50 H I C CNN "Price"
 $FPLIST
  Pin_Header_Straight_1X03
  Pin_Header_Angled_1X03
@@ -1484,9 +1495,9 @@ ENDDEF
 #
 DEF CONN_RJ45_MAG J 0 1 Y Y 1 F N
 F0 "J" 100 600 50 H V L CNN
-F1 "CONN_RJ45_MAG" -50 600 50 H V R CNN
-F2 "CUSTOM:RJ45_Tranformer" 0 500 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/7499010121A-254210.pdf" 100 600 50 H I C CNN
+F1 "CONN_RJ45_MAG" -50 600 50 H V R CNN ""
+F2 "CUSTOM:RJ45_Tranformer" 0 500 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/7499010121A-254210.pdf" 100 600 50 H I C CNN ""
 F4 "7499010121A" 0 0 315 H I C CNN "MPN"
 F5 "202 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Modular Connectors / Ethernet Connectors WE-RJ45 Intgtd XFMR 1x1 THT Tab Up" 0 0 50 H I C CNN "Description"
@@ -1598,9 +1609,9 @@ ENDDEF
 #
 DEF ~CONN_SENSOR P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
-F1 "CONN_SENSOR" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_SENSOR" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F1 "CONN_SENSOR" -100 900 50 H I C CNN ""
+F2 "CUSTOM:CONN_SENSOR" -300 900 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN ""
 F4 "691322110003" -100 900 50 H I C CNN "MPN"
 F5 "2041 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 3Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
@@ -1620,9 +1631,9 @@ ENDDEF
 #
 DEF CONN_SMA J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "CONN_SMA" 115 0 50 V V C CNN
-F2 "Connector_Coaxial:SMA_Jack_Vertical" -90 20 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/276/0731000114_RF_COAX_CONNECTORS-173109.pdf" 0 0 50 H I C CNN
+F1 "CONN_SMA" 115 0 50 V V C CNN ""
+F2 "Connector_Coaxial:SMA_Jack_Vertical" -90 20 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/276/0731000114_RF_COAX_CONNECTORS-173109.pdf" 0 0 50 H I C CNN ""
 F4 "73100-0114" 0 0 50 H I C CNN "MPN"
 F5 "926 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "RF Connectors / Coaxial Connectors RA JACK PCB" 0 0 50 H I C CNN "Description"
@@ -1651,9 +1662,9 @@ ENDDEF
 #
 DEF ~CONN_SWITCH P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "CONN_SWITCH" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_SWITCH" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
+F1 "CONN_SWITCH" -100 900 50 H I C CNN ""
+F2 "CUSTOM:CONN_SWITCH" -300 900 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN ""
 F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "1435 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 2Pin 3.5mm Hztl" -200 900 50 H I C CNN "Description"
@@ -1671,9 +1682,9 @@ ENDDEF
 #
 DEF ~CONN_UART P 0 40 Y Y 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "CONN_UART" 0 -300 50 H I C CNN
-F2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" -100 -100 50 H I C CNN
-F3 "" -100 -100 50 H V C CNN
+F1 "CONN_UART" 0 -300 50 H I C CNN ""
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" -100 -100 50 H I C CNN ""
+F3 "" -100 -100 50 H V C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 $FPLIST
  Pin_Header_Straight_1X06
@@ -1694,14 +1705,15 @@ ENDDEF
 #
 DEF ~CONN_UEXT P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
-F1 "CONN_UEXT" 100 -700 50 H I C CNN
-F2 "CUSTOM:CONN_UEXT" 0 100 50 H I C CNN
-F3 "https___www.mouser.com_datasheet_2_1_ts0770-34478.pdf" 0 100 50 H I C CNN
+F1 "CONN_UEXT" 100 -700 50 H I C CNN ""
+F2 "CUSTOM:CONN_UEXT" 0 100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H I C CNN ""
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
-F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "10884 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "1.22  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  Pin_Header_Straight_1X06
  Pin_Header_Angled_1X06
@@ -1727,9 +1739,9 @@ ENDDEF
 #
 DEF ~CONN_XT60 J 0 40 Y Y 1 F N
 F0 "J" -50 100 50 H V C CNN
-F1 "CONN_XT60" 0 -200 50 H I C CNN
-F2 "CUSTOM:XT60" -100 0 50 H I C CNN
-F3 "" 0 100 50 H I C CNN
+F1 "CONN_XT60" 0 -200 50 H I C CNN ""
+F2 "CUSTOM:XT60" -100 0 50 H I C CNN ""
+F3 "" 0 100 50 H I C CNN ""
 F4 "BATTERY" 150 100 50 H V C CNN "Silkscreen"
 F5 "#" 0 0 50 H I C CNN "MPN"
 $FPLIST
@@ -1751,9 +1763,9 @@ ENDDEF
 #
 DEF ~D_1N4148 D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_1N4148" -150 -80 50 H I L CNN
-F2 "Diode_SMD:D_SOD-123" 20 -225 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/115/ds30086-318161.pdf" -50 80 50 H I C CNN
+F1 "D_1N4148" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SOD-123" 20 -225 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/ds30086-318161.pdf" -50 80 50 H I C CNN ""
 F4 "1N4148WQ-7-F" 50 -150 39 H I C CNN "MPN"
 F5 "552549 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Diodes - General Purpose, Power, Switching SMT Fast Switching Diode" 0 0 50 H I C CNN "Description"
@@ -1781,9 +1793,9 @@ ENDDEF
 #
 DEF ~D_B240A D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_B240A" -150 -80 50 H I L CNN
-F2 "Diode_SMD:D_SMA" 100 -150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/b230la-108339.pdf" 0 0 50 V I C CNN
+F1 "D_B240A" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SMA" 100 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/b230la-108339.pdf" 0 0 50 V I C CNN ""
 F4 "B240AE-13" 0 -250 50 H I C CNN "MPN"
 F5 "59 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Schottky Diodes & Rectifiers 2.0 Amp 40 Volt" 0 0 50 H I C CNN "Description"
@@ -1811,9 +1823,9 @@ ENDDEF
 #
 DEF ~D_B520C D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_B520C" -150 -80 50 H I L CNN
-F2 "Diode_SMD:D_SMC" 100 -150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/115/ds13012-73423.pdf" 0 0 50 V I C CNN
+F1 "D_B520C" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SMC" 100 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/ds13012-73423.pdf" 0 0 50 V I C CNN ""
 F4 "B520C-13-F" 0 -300 50 H I C CNN "MPN"
 F5 "4048 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Schottky Diodes & Rectifiers 20V 5A" 0 0 50 H I C CNN "Description"
@@ -1841,9 +1853,9 @@ ENDDEF
 #
 DEF ~D_BAT54 D 0 40 N Y 1 F N
 F0 "D" -50 100 50 H V L CNN
-F1 "D_BAT54" -150 -450 50 H I L CNN
-F2 "Diode_SMD:D_SOD-123" -175 -425 50 H I L CNN
-F3 "https://www.mouser.com/datasheet/2/916/BAT54GW-1318921.pdf" -370 -550 50 H I C CNN
+F1 "D_BAT54" -150 -450 50 H I L CNN ""
+F2 "Diode_SMD:D_SOD-123" -175 -425 50 H I L CNN ""
+F3 "https://www.mouser.com/datasheet/2/916/BAT54GW-1318921.pdf" -370 -550 50 H I C CNN ""
 F4 "BAT54GWJ" -100 -450 50 H I C CNN "MPN"
 F5 "34404 In Stock" -100 -500 50 H I C CNN "Availability"
 F6 "Schottky Diodes & Rectifiers BL Bipolar Discretes" -250 -550 50 H I C CNN "Description"
@@ -1871,9 +1883,9 @@ ENDDEF
 #
 DEF ~D_BAT54S D 0 40 Y Y 1 F N
 F0 "D" 25 -150 50 H V L CNN
-F1 "D_BAT54S" -150 -400 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 25 -325 50 H I L CNN
-F3 "https://www.mouser.com/datasheet/2/308/BAT54SLT1-D-103997.pdf" -170 -450 50 H I C CNN
+F1 "D_BAT54S" -150 -400 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23" 25 -325 50 H I L CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/BAT54SLT1-D-103997.pdf" -170 -450 50 H I C CNN ""
 F4 "BAT54SLT1G" 0 -450 50 H I C CNN "MPN"
 F5 "388644 In Stock" -50 -450 50 H I C CNN "Availability"
 F6 "Schottky Diodes & Rectifiers 30V 225mW Dual" -50 -450 50 H I C CNN "Description"
@@ -1910,9 +1922,9 @@ ENDDEF
 #
 DEF ~D_CDBC5100 D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_CDBC5100" -150 -430 50 H I L CNN
-F2 "Diode_SMD:D_SMC" 100 -500 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/80/CDBC520-HF_Thru195419._CDBC5100-HF_RevB-1480789.pdf" 150 -500 50 H I C CNN
+F1 "D_CDBC5100" -150 -430 50 H I L CNN ""
+F2 "Diode_SMD:D_SMC" 100 -500 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/80/CDBC520-HF_Thru195419._CDBC5100-HF_RevB-1480789.pdf" 150 -500 50 H I C CNN ""
 F4 "CDBC5100-HF" 0 -650 50 H I C CNN "MPN"
 F5 "9967 In Stock" 0 -350 50 H I C CNN "Availability"
 F6 "Schottky Diodes & Rectifiers VR=100V, IO=5A (Halogen Free)" 0 -350 50 H I C CNN "Description"
@@ -1942,9 +1954,9 @@ ENDDEF
 #
 DEF ~D_ESDCAN03 D 0 10 Y N 1 F N
 F0 "D" -60 310 50 H V L CNN
-F1 "D_ESDCAN03" -250 -350 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SOT-323_SC-70" 50 -450 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/esdcan02-2bwy-954689.pdf" 30 -100 50 V I C CNN
+F1 "D_ESDCAN03" -250 -350 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SOT-323_SC-70" 50 -450 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/esdcan02-2bwy-954689.pdf" 30 -100 50 V I C CNN ""
 F4 "ESDCAN03-2BWY " 10 420 50 H I C CNN "MPN"
 F5 "20191 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes Automotive dual-line Transil, Transient voltage suppressor (TVS) for CAN bus" 0 0 50 H I C CNN "Description"
@@ -1981,9 +1993,9 @@ ENDDEF
 #
 DEF ~D_ESDCAN06 D 0 10 Y N 1 F N
 F0 "D" -60 310 50 H V L CNN
-F1 "D_ESDCAN06" -250 -350 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SOT-323_SC-70" 50 -450 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/esdcan02-2bwy-954689.pdf" 30 -100 50 V I C CNN
+F1 "D_ESDCAN06" -250 -350 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SOT-323_SC-70" 50 -450 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/esdcan02-2bwy-954689.pdf" 30 -100 50 V I C CNN ""
 F4 "ESDCAN06-2BWY" 10 420 50 H I C CNN "MPN"
 F5 "20191 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes Automotive dual-line Transil, Transient voltage suppressor (TVS) for CAN bus" 0 0 50 H I C CNN "Description"
@@ -2020,9 +2032,9 @@ ENDDEF
 #
 DEF ~D_MM3Z3V3B D 0 10 N N 1 F N
 F0 "D" 0 90 50 H V C CNN
-F1 "D_MM3Z3V3B" 0 -90 50 H I C CNN
-F2 "Diode_SMD:D_SOD-323F" -100 -10 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/308/MM3Z10VB-1301283.pdf" 0 90 50 H I C CNN
+F1 "D_MM3Z3V3B" 0 -90 50 H I C CNN ""
+F2 "Diode_SMD:D_SOD-323F" -100 -10 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/MM3Z10VB-1301283.pdf" 0 90 50 H I C CNN ""
 F4 "MM3Z3V3B" 0 0 39 H I C CNN "MPN"
 F5 "110855 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Zener Diodes Diode Zener 3.3V 200mW 2%" 0 0 50 H I C CNN "Description"
@@ -2050,9 +2062,9 @@ ENDDEF
 #
 DEF ~D_S1MB_1N4007_1000V_1A D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_S1MB_1N4007_1000V_1A" -150 -80 50 H I L CNN
-F2 "Diode_SMD:D_SMB" 20 -225 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/115/ds16003-83672.pdf" 0 0 50 V I C CNN
+F1 "D_S1MB_1N4007_1000V_1A" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SMB" 20 -225 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/ds16003-83672.pdf" 0 0 50 V I C CNN ""
 F4 "S1MB-13-F" 50 -150 39 H I C CNN "MPN"
 F5 "66437 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Rectifiers 1000V 1A" 0 0 50 H I C CNN "Description"
@@ -2080,9 +2092,9 @@ ENDDEF
 #
 DEF ~D_SCH_60V_2A D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_SCH_60V_2A" -150 -80 50 H I L CNN
-F2 "Diode_SMD:D_SOD-123" 100 -150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/stps2l60zfy-1098782.pdf" 0 0 50 V I C CNN
+F1 "D_SCH_60V_2A" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_SOD-123" 100 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stps2l60zfy-1098782.pdf" 0 0 50 V I C CNN ""
 F4 "STPS2L60ZFY" 0 -250 50 H I C CNN "MPN"
 F5 "59185 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Schottky Diodes & Rectifiers Automotive low drop power Schottky rectifier" 0 0 50 H I C CNN "Description"
@@ -2112,9 +2124,9 @@ ENDDEF
 #
 DEF ~D_SDM40E20LC D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_SDM40E20LC" -280 210 50 H I L CNN
-F2 "CUSTOM:D_SOT-23_DBL_ANK" 20 -255 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/115/ds30298-90424.pdf" -50 80 50 H I C CNN
+F1 "D_SDM40E20LC" -280 210 50 H I L CNN ""
+F2 "CUSTOM:D_SOT-23_DBL_ANK" 20 -255 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/ds30298-90424.pdf" -50 80 50 H I C CNN ""
 F4 "SDM40E20LC-7" 0 140 39 H I C CNN "MPN"
 F5 "25846 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Schottky Diodes & Rectifiers 0.4A COMMON CATHODE 20V" 0 0 50 H I C CNN "Description"
@@ -2152,9 +2164,9 @@ ENDDEF
 #
 DEF ~D_SMBJ12A D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_SMBJ12A" 0 -100 50 H I C CNN
-F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN
+F1 "D_SMBJ12A" 0 -100 50 H I C CNN ""
+F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN ""
 F4 "SMBJ12A-TR" 0 0 50 H I C CNN "MPN"
 F5 "11297 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes 600W 12V Unidirect" 0 0 50 H I C CNN "Description"
@@ -2183,9 +2195,9 @@ ENDDEF
 #
 DEF ~D_SMBJ48A D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_SMBJ48A" 0 -100 50 H I C CNN
-F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN
+F1 "D_SMBJ48A" 0 -100 50 H I C CNN ""
+F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN ""
 F4 "SMBJ48A-TR" 0 0 50 H I C CNN "MPN"
 F5 "12398 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes 600W 48V Unidirect" 0 0 50 H I C CNN "Description"
@@ -2214,9 +2226,9 @@ ENDDEF
 #
 DEF ~D_SMBJ5.0A D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_SMBJ5.0A" 0 -100 50 H I C CNN
-F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN
+F1 "D_SMBJ5.0A" 0 -100 50 H I C CNN ""
+F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN ""
 F4 "SMBJ5.0A-TR" 0 0 50 H I C CNN "MPN"
 F5 "50120 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes 600W 5.0V Unidirect" 0 0 50 H I C CNN "Description"
@@ -2245,9 +2257,9 @@ ENDDEF
 #
 DEF ~D_STPS41H100 D 0 40 Y Y 1 F N
 F0 "D" 75 -50 50 H V L CNN
-F1 "D_STPS41H100" -250 -200 50 H I L CNN
-F2 "Package_TO_SOT_SMD:TO-263-2" -75 -575 50 H I L CNN
-F3 "https://www.mouser.com/datasheet/2/389/stps41h100c-y-956752.pdf" -270 -700 50 H I C CNN
+F1 "D_STPS41H100" -250 -200 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:TO-263-2" -75 -575 50 H I L CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stps41h100c-y-956752.pdf" -270 -700 50 H I C CNN ""
 F4 "STPS41H100CGY-TR" -50 -650 50 H I C CNN "MPN"
 F5 "1484 In Stock" 0 -600 50 H I C CNN "Availability"
 F6 "Schottky Diodes & Rectifiers Auto pwr Schottky 2X20A 100V 0.67VF" -150 -700 50 H I C CNN "Description"
@@ -2285,9 +2297,9 @@ ENDDEF
 #
 DEF ~D_SZ1SMB5913BT3G D 0 10 N N 1 F N
 F0 "D" 0 90 50 H V C CNN
-F1 "D_SZ1SMB5913BT3G" 0 -90 50 H I C CNN
-F2 "Diode_SMD:D_SMB" -100 -10 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/308/1SMB5913BT3-D-1292981.pdf" 0 90 50 H I C CNN
+F1 "D_SZ1SMB5913BT3G" 0 -90 50 H I C CNN ""
+F2 "Diode_SMD:D_SMB" -100 -10 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/1SMB5913BT3-D-1292981.pdf" 0 90 50 H I C CNN ""
 F4 "SZ1SMB5913BT3G" 0 0 39 H I C CNN "MPN"
 F5 "2800 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Zener Diodes ZEN SMB REG 3W" 0 0 50 H I C CNN "Description"
@@ -2315,9 +2327,9 @@ ENDDEF
 #
 DEF D_TPD3E001 D 0 40 Y Y 1 F N
 F0 "D" 0 240 50 H V C CNN
-F1 "D_TPD3E001" -10 -470 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 0 20 50 H I C CNN
-F3 "" 0 20 50 H I C CNN
+F1 "D_TPD3E001" -10 -470 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 20 50 H I C CNN ""
+F3 "" 0 20 50 H I C CNN ""
 F4 "TPD3E001DRLR" -10 -470 50 H I C CNN "MPN"
 F5 "172970 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes Low-Cap 3Ch ESD Protection Array" 0 0 50 H I C CNN "Description"
@@ -2374,9 +2386,9 @@ ENDDEF
 #
 DEF ~D_TVS_5V5_0402 D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_TVS_5V5_0402" -150 -80 50 H I L CNN
-F2 "Diode_SMD:D_0402_1005Metric" 100 -150 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/40/AVX-GiGuard-1101674.pdf" 0 0 50 V I C CNN
+F1 "D_TVS_5V5_0402" -150 -80 50 H I L CNN ""
+F2 "Diode_SMD:D_0402_1005Metric" 100 -150 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/40/AVX-GiGuard-1101674.pdf" 0 0 50 V I C CNN ""
 F4 "GG0402052R542P" 0 -250 50 H I C CNN "MPN"
 F5 "49850 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes SMP Diode 0402, 5vdc 2.5 pf,<12v clamp@1a" 0 0 50 H I C CNN "Description"
@@ -2404,9 +2416,9 @@ ENDDEF
 #
 DEF ~FUSE_1A_24V_0402 F 0 10 N N 1 F N
 F0 "F" 30 20 50 H V L CNN
-F1 "FUSE_1A_24V_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_SFF_Datasheet.pdf-1155130.pdf" 30 20 50 H I C CNN
+F1 "FUSE_1A_24V_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_SFF_Datasheet.pdf-1155130.pdf" 30 20 50 H I C CNN ""
 F4 "0402SFF100F/24-2" 130 120 50 H I C CNN "MPN"
 F5 "13879 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Surface Mount Fuses 1Ar 24V 35Ai .12 DCR Ohms" 0 0 50 H I C CNN "Description"
@@ -2429,9 +2441,9 @@ ENDDEF
 #
 DEF ~FUSE_3A_9750 F 0 10 N N 1 F N
 F0 "F" 30 20 50 H V L CNN
-F1 "FUSE_3A_9750" 30 -40 50 H I L CNN
-F2 "CUSTOM:Fuse_Littlefuse_9750" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet.pdf-365375.pdf" 30 20 50 H I C CNN
+F1 "FUSE_3A_9750" 30 -40 50 H I L CNN ""
+F2 "CUSTOM:Fuse_Littlefuse_9750" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet.pdf-365375.pdf" 30 20 50 H I C CNN ""
 F4 "0154003.DR" 0 -300 50 H I C CNN "MPN"
 F5 "5709 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Surface Mount Fuses Fuseblock w/ fuse 3A OMNI BLOK 154" 0 0 50 H I C CNN "Description"
@@ -2454,9 +2466,9 @@ ENDDEF
 #
 DEF ~GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "GND" 0 -150 50 H I C CNN ""
+F2 "" 0 0 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 DRAW
 P 2 0 1 0 -60 -75 -75 -95 N
@@ -2474,9 +2486,9 @@ ENDDEF
 #
 DEF ~GNDREF #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GNDREF" 0 -150 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "GNDREF" 0 -150 50 H I C CNN ""
+F2 "" 0 0 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 DRAW
 P 2 0 1 0 -25 -75 25 -75 N
@@ -2491,9 +2503,9 @@ ENDDEF
 #
 DEF GPS_M10578-A2 U 0 40 Y Y 1 F N
 F0 "U" 0 750 50 H V C CNN
-F1 "GPS_M10578-A2" 0 650 50 H V C CNN
-F2 "MODULE:M10578A2" -100 550 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/23/GPS_Radionova_M10578-A2_PS-1.0-844843.pdf" -100 550 50 H I C CNN
+F1 "GPS_M10578-A2" 0 650 50 H V C CNN ""
+F2 "MODULE:M10578A2" -100 550 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/23/GPS_Radionova_M10578-A2_PS-1.0-844843.pdf" -100 550 50 H I C CNN ""
 F4 "M10578-A2" 0 -650 50 H I C CNN "MPN"
 F5 "151 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "GPS Modules MediaTek MT3337-EChip" 0 0 50 H I C CNN "Description"
@@ -2525,9 +2537,9 @@ ENDDEF
 #
 DEF IC_74LVC2G86 U 0 40 Y Y 1 F N
 F0 "U" 0 300 50 H V C CNN
-F1 "IC_74LVC2G86" 0 200 50 H V C CNN
-F2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" -100 200 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/115/74LVC2G86-959249.pdf" 0 0 50 H I C CNN
+F1 "IC_74LVC2G86" 0 200 50 H V C CNN ""
+F2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" -100 200 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/74LVC2G86-959249.pdf" 0 0 50 H I C CNN ""
 F4 "SN74LVC2G86DCUR" 0 -400 50 H I C CNN "MPN"
 F5 "3941 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Logic Gates Logic LVC 2 Gate" 0 0 50 H I C CNN "Description"
@@ -2552,9 +2564,9 @@ ENDDEF
 #
 DEF IC_ACT4088 U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "IC_ACT4088" 0 250 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6" 50 450 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/631/ACT4088_Datasheet-1291541.pdf" 0 250 50 H I C CNN
+F1 "IC_ACT4088" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23-6" 50 450 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/631/ACT4088_Datasheet-1291541.pdf" 0 250 50 H I C CNN ""
 F4 "ACT4088US-T" 0 -250 50 H I C CNN "MPN"
 F5 "25437 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Switching Voltage Regulators 28V, 1.2A, 1.4MHz Step-Down Converter" 0 0 50 H I C CNN "Description"
@@ -2578,9 +2590,9 @@ ENDDEF
 #
 DEF IC_ADNS3080 U 0 40 Y Y 1 F N
 F0 "U" 0 600 50 H V C CNN
-F1 "IC_ADNS3080" 0 -600 50 H V C CNN
-F2 "CUSTOM:ADNS-3080" -100 500 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "IC_ADNS3080" 0 -600 50 H V C CNN ""
+F2 "CUSTOM:ADNS-3080" -100 500 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
 F4 "ADNS3080" 0 -700 50 H I C CNN "MPN"
 F5 "Not Available" 0 0 50 H I C CNN "Availability"
 F6 "Optical Navigation Sensors Optical Mouse Sensor" 0 0 50 H I C CNN "Description"
@@ -2616,9 +2628,9 @@ ENDDEF
 #
 DEF IC_AP7313-33SAG-7 U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "IC_AP7313-33SAG-7" 0 250 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 0 300 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/115/AP7313-82404.pdf" 0 300 50 H I C CNN
+F1 "IC_AP7313-33SAG-7" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23" 0 300 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/AP7313-82404.pdf" 0 300 50 H I C CNN ""
 F4 "AP7313-33SAG-7" 450 -250 50 H I C CNN "MPN"
 F5 "23387 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "LDO Voltage Regulators LDO SOT-23 3.3V/150MA" 0 0 50 H I C CNN "Description"
@@ -2638,9 +2650,9 @@ ENDDEF
 #
 DEF IC_AZ34063U U 0 40 Y Y 1 F N
 F0 "U" 0 300 39 H V C CNN
-F1 "IC_AZ34063U" 0 -300 39 H V C CNN
-F2 "SOIC:SOIC127P600X175-8N" 0 400 39 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/115/AZ34063U-271663.pdf" 0 0 39 H I C CNN
+F1 "IC_AZ34063U" 0 -300 39 H V C CNN ""
+F2 "SOIC:SOIC127P600X175-8N" 0 400 39 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/115/AZ34063U-271663.pdf" 0 0 39 H I C CNN ""
 F4 "AZ34063UMTR-G1" 0 -350 39 H I C CNN "MPN"
 F5 "10336 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz" 0 0 50 H I C CNN "Description"
@@ -2666,9 +2678,9 @@ ENDDEF
 #
 DEF IC_DRV8302 U 0 40 Y Y 1 F N
 F0 "U" 0 1500 60 H V C CNN
-F1 "IC_DRV8302" 300 -1550 60 H V C CNN
-F2 "CUSTOM:HTSSOP-56-PowerPAD_6.2x14.1mm_P0.5mm_EP3.61x6.35mm" -100 1400 60 H I C CNN
-F3 "" 0 1500 60 H V C CNN
+F1 "IC_DRV8302" 300 -1550 60 H V C CNN ""
+F2 "CUSTOM:HTSSOP-56-PowerPAD_6.2x14.1mm_P0.5mm_EP3.61x6.35mm" -100 1400 60 H I C CNN ""
+F3 "" 0 1500 60 H V C CNN ""
 F4 "RV8302DCAR" 0 0 50 H I C CNN "MPN"
 F5 "2413 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Motor/Motion/Ignition Controllers & Drivers 3-PHASE BRUSHLESS MOTOR PRE-DRIVER" 0 0 50 H I C CNN "Description"
@@ -2741,9 +2753,9 @@ ENDDEF
 #
 DEF IC_ICM-20689 U 0 40 Y Y 1 F N
 F0 "U" -450 550 50 H V C CNN
-F1 "IC_ICM-20689" 400 550 50 H V C CNN
-F2 "QFN:QFN50P40X40X90-25N" 0 -800 50 H I C CNN
-F3 "" 0 -150 50 H I C CNN
+F1 "IC_ICM-20689" 400 550 50 H V C CNN ""
+F2 "QFN:QFN50P40X40X90-25N" 0 -800 50 H I C CNN ""
+F3 "" 0 -150 50 H I C CNN ""
 F4 "ICM-20689" 0 0 50 H I C CNN "MPN"
 F5 "3456 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "IMUs - Inertial Measurement Units 6-Axis DMP-Enabled Drone/VR/IoT solution, Targeted For All Current MPU-6000/6050 Users" 0 0 50 H I C CNN "Description"
@@ -2787,9 +2799,9 @@ ENDDEF
 #
 DEF IC_LDLN025 U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "IC_LDLN025" 0 250 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 0 250 50 H I C CNN
-F3 "" 0 250 50 H I C CNN
+F1 "IC_LDLN025" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 250 50 H I C CNN ""
+F3 "" 0 250 50 H I C CNN ""
 F4 "LDLN025M18R" 0 -250 50 H I C CNN "MPN"
 F5 "529 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "LDO Voltage Regulators 250 mA ultra-low noise LDO" 0 0 50 H I C CNN "Description"
@@ -2812,9 +2824,9 @@ ENDDEF
 #
 DEF IC_LM324 U 0 20 Y Y 4 F N
 F0 "U" 0 150 50 H V L CNN
-F1 "IC_LM324" 0 -150 50 H V L CNN
-F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" -50 100 50 H I C CNN
-F3 "" 50 200 50 H I C CNN
+F1 "IC_LM324" 0 -150 50 H V L CNN ""
+F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" -50 100 50 H I C CNN ""
+F3 "" 50 200 50 H I C CNN ""
 F4 "LM324D" 0 0 50 H I C CNN "MPN"
 F5 "12748 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Operational Amplifiers - Op Amps Quad" 0 0 50 H I C CNN "Description"
@@ -2851,9 +2863,9 @@ ENDDEF
 #
 DEF IC_LP55231 U 0 40 Y Y 1 F N
 F0 "U" 350 900 39 H V C CNN
-F1 "IC_LP55231" 250 -900 39 H V C CNN
-F2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" -100 -1400 39 H I C CNN
-F3 "" 0 -1400 39 H I C CNN
+F1 "IC_LP55231" 250 -900 39 H V C CNN ""
+F2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" -100 -1400 39 H I C CNN ""
+F3 "" 0 -1400 39 H I C CNN ""
 F4 "LP55231SQX/NOPB" 0 -1400 39 H I C CNN "MPN"
 F5 "19443 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "LED Lighting Drivers Programmble 9-Output LED Driver" 0 0 50 H I C CNN "Description"
@@ -2894,9 +2906,9 @@ ENDDEF
 #
 DEF IC_M24C16 U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
-F1 "IC_M24C16" 100 -250 50 H V L CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/m24c16-w-954991.pdf" 0 0 50 H I C CNN
+F1 "IC_M24C16" 100 -250 50 H V L CNN ""
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/m24c16-w-954991.pdf" 0 0 50 H I C CNN ""
 F4 "M24C16-RMN6TP" 0 0 50 H I C CNN "MPN"
 F5 "14758 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "EEPROM 16Kbit 8Kbit 4Kbit 2Kb and 1Kb Serial" 0 0 50 H I C CNN "Description"
@@ -2924,9 +2936,9 @@ ENDDEF
 #
 DEF IC_MAX14890 U 0 40 Y Y 1 F N
 F0 "U" 0 -1350 50 H V C CNN
-F1 "IC_MAX14890" 0 1450 50 H V C CNN
-F2 "CUSTOM:QFN-32-1EP_5x5mm_P0.5mm_EP2.20x2.20mm" -100 1350 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/256/MAX14890E-610962.pdf" 300 -1450 50 H I C CNN
+F1 "IC_MAX14890" 0 1450 50 H V C CNN ""
+F2 "CUSTOM:QFN-32-1EP_5x5mm_P0.5mm_EP2.20x2.20mm" -100 1350 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/256/MAX14890E-610962.pdf" 300 -1450 50 H I C CNN ""
 F4 "MAX14890EATJ+T" 0 1450 50 H I C CNN "MPN"
 F5 "3404 In Stock" 0 -350 50 H I C CNN "Availability"
 F6 "RS-422 Interface IC Incremental Encoder Interface" 0 -1450 50 H I C CNN "Description"
@@ -2975,9 +2987,9 @@ ENDDEF
 #
 DEF IC_MAX6818 U 0 40 Y Y 1 F N
 F0 "U" 0 -600 50 H V C CNN
-F1 "IC_MAX6818" 0 -700 50 H V C CNN
-F2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" -100 -950 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/256/MAX6816-1514440.pdf" 0 -600 50 H I C CNN
+F1 "IC_MAX6818" 0 -700 50 H V C CNN ""
+F2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" -100 -950 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/256/MAX6816-1514440.pdf" 0 -600 50 H I C CNN ""
 F4 "MAX6818EAP+T" 0 -1000 50 H I C CNN "MPN"
 F5 "4119 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Supervisory Circuits Octal Switch Debouncer" 0 0 50 H I C CNN "Description"
@@ -3013,9 +3025,9 @@ ENDDEF
 #
 DEF IC_MCP23S17 U 0 40 Y Y 1 F N
 F0 "U" 0 0 39 H V C CNN
-F1 "IC_MCP23S17" 0 0 39 H V C CNN
-F2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" -100 -100 39 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/268/20001952C-1129816.pdf" 0 0 39 H I C CNN
+F1 "IC_MCP23S17" 0 0 39 H V C CNN ""
+F2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" -100 -100 39 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/268/20001952C-1129816.pdf" 0 0 39 H I C CNN ""
 F4 "MCP23S17T-E/SO" 0 0 39 H I C CNN "MPN"
 F5 "12705 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Interface - I/O Expanders 16bit Input/Output Exp SPI interface" 0 0 50 H I C CNN "Description"
@@ -3059,9 +3071,9 @@ ENDDEF
 #
 DEF IC_MCP2517FD-xJHA U 0 20 Y Y 1 F N
 F0 "U" -500 500 50 H V L CNN
-F1 "IC_MCP2517FD-xJHA" 100 500 50 H V L CNN
-F2 "Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm" -100 -850 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/268/MCP2517FD-External-CAN-FD-Controller-with-SPI-Inte-1519186.pdf" 0 250 50 H I C CNN
+F1 "IC_MCP2517FD-xJHA" 100 500 50 H V L CNN ""
+F2 "Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm" -100 -850 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/268/MCP2517FD-External-CAN-FD-Controller-with-SPI-Inte-1519186.pdf" 0 250 50 H I C CNN ""
 F4 "MCP2517FDT-H/JHA" 0 0 50 H I C CNN "MPN"
 F5 "4655 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "CAN Interface IC Stand-alone CAN FD Controller w/SPI Interface" 0 0 50 H I C CNN "Description"
@@ -3095,9 +3107,9 @@ ENDDEF
 #
 DEF IC_MCP4461 U 0 40 Y Y 1 F N
 F0 "U" 0 -1000 50 H V C CNN
-F1 "IC_MCP4461" 0 -1000 50 H V C CNN
-F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" 0 -1000 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/268/22265a-77594.pdf" 0 -1000 50 H I C CNN
+F1 "IC_MCP4461" 0 -1000 50 H V C CNN ""
+F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" 0 -1000 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/268/22265a-77594.pdf" 0 -1000 50 H I C CNN ""
 F4 "MCP4461-103E/ST" 0 -1000 50 H I C CNN "MPN"
 F5 "1246 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Digital Potentiometer ICs 10k I2C Quad Ch 8bit Nonvolatile Memory" 0 0 50 H I C CNN "Description"
@@ -3133,9 +3145,9 @@ ENDDEF
 #
 DEF IC_MIC2026 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "IC_MIC2026" 0 0 50 H V C CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -100 -100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/268/mic2026-779053.pdf" 0 0 50 H I C CNN
+F1 "IC_MIC2026" 0 0 50 H V C CNN ""
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -100 -100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/268/mic2026-779053.pdf" 0 0 50 H I C CNN ""
 F4 "MIC2026-1YM-TR" 0 0 50 H I C CNN "MPN"
 F5 "27015 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Power Switch ICs - Power Distribution Dual USB High-Side Power Switch" 0 0 50 H I C CNN "Description"
@@ -3159,9 +3171,9 @@ ENDDEF
 #
 DEF IC_MIC5225_2.5V U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "IC_MIC5225_2.5V" 0 250 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 0 250 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/268/mic5225-1082288.pdf" 0 250 50 H I C CNN
+F1 "IC_MIC5225_2.5V" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 250 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/268/mic5225-1082288.pdf" 0 250 50 H I C CNN ""
 F4 "MIC5225-2.5YM5-TR" 0 -250 50 H I C CNN "MPN"
 F5 "1538 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "LDO Voltage Regulators High Vin, Low Iq Regulator" 0 0 50 H I C CNN "Description"
@@ -3184,9 +3196,9 @@ ENDDEF
 #
 DEF IC_NCP51460SN33T1G U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "IC_NCP51460SN33T1G" 0 250 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 0 300 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/308/NCP51460-D-60909.pdf" 0 300 50 H I C CNN
+F1 "IC_NCP51460SN33T1G" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23" 0 300 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/NCP51460-D-60909.pdf" 0 300 50 H I C CNN ""
 F4 "NCP51460SN33T1G" 450 -250 50 H I C CNN "MPN"
 F5 "8024 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Voltage References PRECISE LN 20 MA LDO REG" 0 0 50 H I C CNN "Description"
@@ -3206,9 +3218,9 @@ ENDDEF
 #
 DEF IC_PCA9306 U 0 40 Y Y 1 F N
 F0 "U" -300 450 50 H V L CNN
-F1 "IC_PCA9306" 200 450 50 H V L CNN
-F2 "Package_SO:Zetex_SM8" -400 350 50 H I C CNN
-F3 "" -300 450 50 H I C CNN
+F1 "IC_PCA9306" 200 450 50 H V L CNN ""
+F2 "Package_SO:Zetex_SM8" -400 350 50 H I C CNN ""
+F3 "" -300 450 50 H I C CNN ""
 F4 "PCA9306DCTR" 0 0 50 H I C CNN "MPN"
 F5 "76304 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Translation - Voltage Levels Dual BiDir I2C-Bus & SMBus Vltg Lvl-Trans" 0 0 50 H I C CNN "Description"
@@ -3237,9 +3249,9 @@ ENDDEF
 #
 DEF IC_PGA460 U 0 40 Y Y 1 F N
 F0 "U" 0 850 50 H V C CNN
-F1 "IC_PGA460" 0 -850 50 H V C CNN
-F2 "PDSO:PDSO65P510X120-16N" -100 750 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "IC_PGA460" 0 -850 50 H V C CNN ""
+F2 "PDSO:PDSO65P510X120-16N" -100 750 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
 F4 "PGA460TPW" 0 -950 50 H I C CNN "MPN"
 F5 "273 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Analog Front End - AFE Ultrasonic Signal Processor and Transducer Driver 16-TSSOP -40 to 105" 0 0 50 H I C CNN "Description"
@@ -3271,9 +3283,9 @@ ENDDEF
 #
 DEF IC_SN74LV4051 U 0 40 Y Y 1 L N
 F0 "U" -250 750 50 H V C CNN
-F1 "IC_SN74LV4051" 300 750 50 H V C CNN
-F2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" 0 1300 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "IC_SN74LV4051" 300 750 50 H V C CNN ""
+F2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" 0 1300 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
 F4 "SN74LV4051APWR" 0 0 39 H I C CNN "MPN"
 F5 "222317 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multiplexer Switch ICs 8-Channel Analog" 0 0 50 H I C CNN "Description"
@@ -3308,9 +3320,9 @@ ENDDEF
 #
 DEF IC_SN75ALS192D U 0 40 Y Y 1 F N
 F0 "U" 0 700 50 H V C CNN
-F1 "IC_SN75ALS192D" 0 600 50 H V C CNN
-F2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" 0 800 50 H I C CNN
-F3 "" 0 100 50 H I C CNN
+F1 "IC_SN75ALS192D" 0 600 50 H V C CNN ""
+F2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" 0 800 50 H I C CNN ""
+F3 "" 0 100 50 H I C CNN ""
 F4 "SN75ALS192D" 0 -700 50 H I C CNN "MPN"
 F5 "1411 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "RS-422 Interface IC Quad Diff Line" 0 0 50 H I C CNN "Description"
@@ -3344,9 +3356,9 @@ ENDDEF
 #
 DEF IC_STM32F103CBU6 U 0 40 Y Y 1 L N
 F0 "U" -2800 1725 50 H V L BNN
-F1 "IC_STM32F103CBU6" 2800 1725 50 H V R BNN
-F2 "QFN:QFN50P69X69X50-49N" 2800 1675 50 H I R TNN
-F3 "https://www.mouser.com/datasheet/2/389/stm32f103c8-956229.pdf" 0 0 50 H I C CNN
+F1 "IC_STM32F103CBU6" 2800 1725 50 H V R BNN ""
+F2 "QFN:QFN50P69X69X50-49N" 2800 1675 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f103c8-956229.pdf" 0 0 50 H I C CNN ""
 F4 "STM32F103CBU6" 0 0 50 H I C CNN "MPN"
 F5 "1502 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ARM Microcontrollers - MCU 32-Bit ARM Cortex 128kb Performance" 0 0 50 H I C CNN "Description"
@@ -3412,9 +3424,9 @@ ENDDEF
 #
 DEF IC_STM32F401CBU7 U 0 40 Y Y 1 F N
 F0 "U" -3000 1825 50 H V L BNN
-F1 "IC_STM32F401CBU7" 3000 1825 50 H V R BNN
-F2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" 3000 1775 50 H I R TNN
-F3 "https://www.mouser.com/datasheet/2/389/stm32f401cb-956305.pdf" 0 0 50 H I C CNN
+F1 "IC_STM32F401CBU7" 3000 1825 50 H V R BNN ""
+F2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" 3000 1775 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f401cb-956305.pdf" 0 0 50 H I C CNN ""
 F4 "STM32F401CBU7" 0 0 50 H I C CNN "MPN"
 F5 "282 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ARM Microcontrollers - MCU 16/32-BITS MICROS" 0 0 50 H I C CNN "Description"
@@ -3479,9 +3491,9 @@ ENDDEF
 #
 DEF IC_STM32F413RGT6 U 0 40 Y Y 1 L N
 F0 "U" -4200 1925 50 H V L BNN
-F1 "IC_STM32F413RGT6" 4200 1925 50 H V R BNN
-F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" 4200 1875 50 H I R TNN
-F3 "https://www.mouser.com/datasheet/2/389/stm32f413cg-1042897.pdf" 0 0 50 H I C CNN
+F1 "IC_STM32F413RGT6" 4200 1925 50 H V R BNN ""
+F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" 4200 1875 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f413cg-1042897.pdf" 0 0 50 H I C CNN ""
 F4 "STM32F413RGT6" 0 0 50 H I C CNN "MPN"
 F5 "11015 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ARM Microcontrollers - MCU 16/32-BITS MICROS" 0 0 50 H I C CNN "Description"
@@ -3561,9 +3573,9 @@ ENDDEF
 #
 DEF IC_STM32F415RGT6 U 0 40 Y Y 1 L N
 F0 "U" -4200 1925 50 H V L BNN
-F1 "IC_STM32F415RGT6" 4200 1925 50 H V R BNN
-F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" 4200 1875 50 H I R TNN
-F3 "https://www.mouser.com/datasheet/2/389/stm32f415rg-956238.pdf" 0 0 50 H I C CNN
+F1 "IC_STM32F415RGT6" 4200 1925 50 H V R BNN ""
+F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" 4200 1875 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f415rg-956238.pdf" 0 0 50 H I C CNN ""
 F4 "STM32F415RGT6" 0 0 50 H I C CNN "MPN"
 F5 "1361 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ARM Microcontrollers - MCU ARM M4 1024 FLASH 168 Mhz 192kB SRAM" 0 0 50 H I C CNN "Description"
@@ -3644,9 +3656,9 @@ ENDDEF
 #
 DEF IC_STM32F415VGT6 U 0 40 Y Y 1 L N
 F0 "U" -4300 2825 50 H V L BNN
-F1 "IC_STM32F415VGT6" 4300 2825 50 H V R BNN
-F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" 4300 2775 50 H I R TNN
-F3 "https://www.mouser.com/datasheet/2/389/stm32f415rg-956238.pdf" 0 0 50 H I C CNN
+F1 "IC_STM32F415VGT6" 4300 2825 50 H V R BNN ""
+F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" 4300 2775 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f415rg-956238.pdf" 0 0 50 H I C CNN ""
 F4 "STM32F415VGT6" 0 0 50 H I C CNN "MPN"
 F5 "2471 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ARM Microcontrollers - MCU ARM M4 1024 FLASH 168 Mhz 192kB SRAM" 0 0 50 H I C CNN "Description"
@@ -3763,9 +3775,9 @@ ENDDEF
 #
 DEF IC_STM32F427VGT6 U 0 40 Y Y 1 F N
 F0 "U" -4300 2825 50 H V L BNN
-F1 "IC_STM32F427VGT6" 4300 2825 50 H V R BNN
-F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" 4300 2775 50 H I R TNN
-F3 "https://www.mouser.com/datasheet/2/389/stm32f427vg-956239.pdf" 0 0 50 H I C CNN
+F1 "IC_STM32F427VGT6" 4300 2825 50 H V R BNN ""
+F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" 4300 2775 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f427vg-956239.pdf" 0 0 50 H I C CNN ""
 F4 "STM32F427VGT6" 0 0 50 H I C CNN "MPN"
 F5 "3152 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ARM Microcontrollers - MCU 32B ARM Cortex-M4 1Mb Flash 168MHz CPU" 0 0 50 H I C CNN "Description"
@@ -3882,9 +3894,9 @@ ENDDEF
 #
 DEF IC_STM32F429ZET6 U 0 40 Y Y 1 F N
 F0 "U" -4400 3625 50 H V L BNN
-F1 "IC_STM32F429ZET6" 4400 3625 50 H V R BNN
-F2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" 4400 3575 50 H I R TNN
-F3 "https://www.mouser.com/datasheet/2/389/stm32f427vg-956239.pdf" 0 0 50 H I C CNN
+F1 "IC_STM32F429ZET6" 4400 3625 50 H V R BNN ""
+F2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" 4400 3575 50 H I R TNN ""
+F3 "https://www.mouser.com/datasheet/2/389/stm32f427vg-956239.pdf" 0 0 50 H I C CNN ""
 F4 "STM32F429ZET6" 0 0 50 H I C CNN "MPN"
 F5 "4699 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ARM Microcontrollers - MCU 16/32-BITS MICROS" 0 0 50 H I C CNN "Description"
@@ -4045,9 +4057,9 @@ ENDDEF
 #
 DEF IC_SX1280 U 0 40 Y Y 1 F N
 F0 "U" 0 800 50 H V C CNN
-F1 "IC_SX1280" 0 700 50 H V C CNN
-F2 "QFN:QFN50P40X40X75-25N" -50 250 50 H I C CNN
-F3 "" -50 250 50 H I C CNN
+F1 "IC_SX1280" 0 700 50 H V C CNN ""
+F2 "QFN:QFN50P40X40X75-25N" -50 250 50 H I C CNN ""
+F3 "" -50 250 50 H I C CNN ""
 F4 "SX1280IMLTRT" 0 0 50 H I C CNN "MPN"
 F5 "6080 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "RF Transceiver Long range 2.4 GHz Wireless Transceiver" 0 0 50 H I C CNN "Description"
@@ -4088,9 +4100,9 @@ ENDDEF
 #
 DEF IC_TJA1044GT3 U 0 40 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
-F1 "IC_TJA1044GT3" 50 -350 50 H V L CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CIN
-F3 "https://www.mouser.com/datasheet/2/302/TJA1044-1128037.pdf" 0 0 50 H I C CNN
+F1 "IC_TJA1044GT3" 50 -350 50 H V L CNN ""
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CIN ""
+F3 "https://www.mouser.com/datasheet/2/302/TJA1044-1128037.pdf" 0 0 50 H I C CNN ""
 F4 "TJA1044GT/3Z" 0 0 50 H I C CNN "MPN"
 F5 "2990 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "CAN Interface IC TJA1044GT/SO8//3/REEL 13 Q1 NDP SSB" 0 0 50 H I C CNN "Description"
@@ -4118,9 +4130,9 @@ ENDDEF
 #
 DEF IC_TJF1051T_3_118 U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
-F1 "IC_TJF1051T_3_118" 0 350 50 H V C CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 550 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/302/TJF1051-1127980.pdf" 0 150 50 H I C CNN
+F1 "IC_TJF1051T_3_118" 0 350 50 H V C CNN ""
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 550 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/302/TJF1051-1127980.pdf" 0 150 50 H I C CNN ""
 F4 "TJF1051T/3" 0 -350 50 H I C CNN "MPN"
 F5 "6488 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "CAN Interface IC Hi Spd CAN Transcvr 4.5V-5.5V 220ns" 0 0 50 H I C CNN "Description"
@@ -4145,9 +4157,9 @@ ENDDEF
 #
 DEF IC_TLV2474 U 0 20 Y Y 4 F N
 F0 "U" 0 150 50 H V L CNN
-F1 "IC_TLV2474" 0 -150 50 H V L CNN
-F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" -50 100 50 H I C CNN
-F3 "" 50 200 50 H I C CNN
+F1 "IC_TLV2474" 0 -150 50 H V L CNN ""
+F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" -50 100 50 H I C CNN ""
+F3 "" 50 200 50 H I C CNN ""
 F4 "TLV2474CDR" 0 0 50 H I C CNN "MPN"
 F5 "1390 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" 0 0 50 H I C CNN "Description"
@@ -4184,9 +4196,9 @@ ENDDEF
 #
 DEF IC_TLV75533 U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "IC_TLV75533" 0 250 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 0 300 50 H I C CNN
-F3 "" 0 300 50 H I C CNN
+F1 "IC_TLV75533" 0 250 50 H V C CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 300 50 H I C CNN ""
+F3 "" 0 300 50 H I C CNN ""
 F4 "TLV75533PDBVR" 450 -250 50 H I C CNN "MPN"
 F5 "49899 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "LDO Voltage Regulators 500-mA, Low IQ, Small Size, Low Dropout Regulator 5-SOT-23 -40 to 125" 0 0 50 H I C CNN "Description"
@@ -4208,9 +4220,9 @@ ENDDEF
 #
 DEF IC_TPS54360DDA U 0 10 Y Y 1 F N
 F0 "U" -300 450 50 H V L CNN
-F1 "IC_TPS54360DDA" -300 400 50 H V L CNN
-F2 "CUSTOM:TI_SO-PowerPAD-8" 50 -400 50 H I L CIN
-F3 "" 0 50 50 H I C CNN
+F1 "IC_TPS54360DDA" -300 400 50 H V L CNN ""
+F2 "CUSTOM:TI_SO-PowerPAD-8" 50 -400 50 H I L CIN ""
+F3 "" 0 50 50 H I C CNN ""
 F4 "TPS54360DDAR" 0 -250 50 H I C CNN "MPN"
 F5 "18573 In Stock" 0 50 50 H I C CNN "Availability"
 F6 "Switching Voltage Regulators 60 Vin,3.5 A,SD DC-DC Converter" 0 50 50 H I C CNN "Description"
@@ -4240,9 +4252,9 @@ ENDDEF
 #
 DEF IC_TPS62147RGXR U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
-F1 "IC_TPS62147RGXR" 0 -450 50 H V C CNN
-F2 "CUSTOM:RGX_VQFN-11" -50 -800 50 H I C CNN
-F3 "" -50 -800 50 H I C CNN
+F1 "IC_TPS62147RGXR" 0 -450 50 H V C CNN ""
+F2 "CUSTOM:RGX_VQFN-11" -50 -800 50 H I C CNN ""
+F3 "" -50 -800 50 H I C CNN ""
 F4 "TPS62147RGXR" 0 -550 50 H I C CNN "MPN"
 F5 "26992 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Switching Voltage Regulators 3-17V 2.0A Step-Down Converter with 1% accuracy and PFM/Forced-PWM in 2x3QFN 11-VQFN-HR -40 to 125" 0 0 50 H I C CNN "Description"
@@ -4270,9 +4282,9 @@ ENDDEF
 #
 DEF IC_TXS0108 U 0 40 Y Y 1 F N
 F0 "U" 0 -600 50 H V C CNN
-F1 "IC_TXS0108" 0 -700 50 H V C CNN
-F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" -100 -950 50 H I C CNN
-F3 "" 0 -600 50 H I C CNN
+F1 "IC_TXS0108" 0 -700 50 H V C CNN ""
+F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" -100 -950 50 H I C CNN ""
+F3 "" 0 -600 50 H I C CNN ""
 F4 "TXS0108EPWR" 0 -1000 50 H I C CNN "MPN"
 F5 "43158 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Translation - Voltage Levels 8B Bidir Vltg-Level Translator" 0 0 50 H I C CNN "Description"
@@ -4310,9 +4322,9 @@ ENDDEF
 #
 DEF IC_USBLC6-2 U 0 40 Y Y 1 F N
 F0 "U" 5 250 50 H V C CNN
-F1 "IC_USBLC6-2" 5 350 50 H V C CNN
-F2 "CUSTOM:SOT-23-6L" 75 250 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" 75 250 50 H I C CNN
+F1 "IC_USBLC6-2" 5 350 50 H V C CNN ""
+F2 "CUSTOM:SOT-23-6L" 75 250 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" 75 250 50 H I C CNN ""
 F4 "USBLC6-2SC6" 0 -270 50 H I C CNN "MPN"
 F5 "108598 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes ESD Protection Low Cap" 0 0 50 H I C CNN "Description"
@@ -4363,9 +4375,9 @@ ENDDEF
 #
 DEF IC_VL6180X U 0 40 Y Y 1 F N
 F0 "U" 0 -400 50 H V C CNN
-F1 "IC_VL6180X" 0 500 50 H V C CNN
-F2 "CUSTOM:LGA-12" -100 -500 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/389/vl6180x-1156206.pdf" 0 0 50 H I C CNN
+F1 "IC_VL6180X" 0 500 50 H V C CNN ""
+F2 "CUSTOM:LGA-12" -100 -500 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/389/vl6180x-1156206.pdf" 0 0 50 H I C CNN ""
 F4 "VL6180XV0NR/1" 50 400 50 H I C CNN "MPN"
 F5 "31391 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Proximity Sensors Proximity sensor, gesture and ambient light sensing (ALS) module" 0 0 50 H I C CNN "Description"
@@ -4393,9 +4405,9 @@ ENDDEF
 #
 DEF ~IND_15uH_0805 L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "IND_15uH_0805" 30 -40 50 H I L CNN
-F2 "Inductor_SMD:L_0805_2012Metric" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/400/nductor_commercial_decoupling_mlz2012_en-918301.pdf" 0 0 50 H I C CNN
+F1 "IND_15uH_0805" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0805_2012Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/400/nductor_commercial_decoupling_mlz2012_en-918301.pdf" 0 0 50 H I C CNN ""
 F4 "MLZ2012M150WT000" 130 140 50 H I C CNN "MPN"
 F5 "3267 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 15   UH  20%" 0 0 50 H I C CNN "Description"
@@ -4424,9 +4436,9 @@ ENDDEF
 #
 DEF ~IND_2.5nH_0402 L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "IND_2.5nH_0402" 30 -40 50 H I L CNN
-F2 "Inductor_SMD:L_0402_1005Metric" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/JELF243A-0050-1380872.pdf" 0 0 50 H I C CNN
+F1 "IND_2.5nH_0402" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0402_1005Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/JELF243A-0050-1380872.pdf" 0 0 50 H I C CNN ""
 F4 "LQW15AN2N5C00D" 130 140 50 H I C CNN "MPN"
 F5 "18064 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 2.5nH 0.2nH 100MHz" 0 0 50 H I C CNN "Description"
@@ -4455,9 +4467,9 @@ ENDDEF
 #
 DEF ~IND_3nH_0402 L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "IND_3nH_0402" 30 -40 50 H I L CNN
-F2 "Inductor_SMD:L_0402_1005Metric" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/JELF243A-0100-1380931.pdf" 0 0 50 H I C CNN
+F1 "IND_3nH_0402" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0402_1005Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/JELF243A-0100-1380931.pdf" 0 0 50 H I C CNN ""
 F4 "LQW15AN3N0B80D" 130 140 50 H I C CNN "MPN"
 F5 "39116 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 0402 3.0nH 0.1nH" 0 0 50 H I C CNN "Description"
@@ -4486,9 +4498,9 @@ ENDDEF
 #
 DEF ~IND_4.7uH_2.63A L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "IND_4.7uH_2.63A" 30 -40 50 H I L CNN
-F2 "CUSTOM:L_SRR4528A" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/rr4528a-1391584.pdf" 0 0 50 H I C CNN
+F1 "IND_4.7uH_2.63A" 30 -40 50 H I L CNN ""
+F2 "CUSTOM:L_SRR4528A" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/rr4528a-1391584.pdf" 0 0 50 H I C CNN ""
 F4 "SRR4528A-4R7Y" 130 140 50 H I C CNN "MPN"
 F5 "476 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 4.7uH 30% 2.63A" 0 0 50 H I C CNN "Description"
@@ -4516,9 +4528,9 @@ ENDDEF
 #
 DEF ~IND_4.7uH_200mA_0805 L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "IND_4.7uH_200mA_0805" 30 -40 50 H I L CNN
-F2 "Inductor_SMD:L_0805_2012Metric" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/396/wound01_e-1509533.pdf" 0 0 50 H I C CNN
+F1 "IND_4.7uH_200mA_0805" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0805_2012Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/wound01_e-1509533.pdf" 0 0 50 H I C CNN ""
 F4 "LBR2012T4R7M" 130 140 50 H I C CNN "MPN"
 F5 "27180 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 0805 4.7uH 312mOhms +/-20%Tol 200mA" 0 0 50 H I C CNN "Description"
@@ -4547,9 +4559,9 @@ ENDDEF
 #
 DEF ~IND_4.7uH_300mA_0805 L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "IND_4.7uH_300mA_0805" 30 -40 50 H I L CNN
-F2 "Inductor_SMD:L_0805_2012Metric" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/396/wound02_e-13113-1206718.pdf" 0 0 50 H I C CNN
+F1 "IND_4.7uH_300mA_0805" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0805_2012Metric" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/396/wound02_e-13113-1206718.pdf" 0 0 50 H I C CNN ""
 F4 "CB2012T4R7M" 130 140 50 H I C CNN "MPN"
 F5 "20780 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 0805 4.7uH 520mOhms +/-20% 300mA" 0 0 50 H I C CNN "Description"
@@ -4578,9 +4590,9 @@ ENDDEF
 #
 DEF LAN9252 U 0 40 Y Y 1 F N
 F0 "U" 0 -1750 50 H V C CNN
-F1 "LAN9252" 0 -1850 50 H V C CNN
-F2 "CUSTOM:TQFP-64-1EP_10x10mm_P0.5mm_EP6x6mm" -50 -2100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/268/00001909A-765653.pdf" 0 -2300 50 H I C CNN
+F1 "LAN9252" 0 -1850 50 H V C CNN ""
+F2 "CUSTOM:TQFP-64-1EP_10x10mm_P0.5mm_EP6x6mm" -50 -2100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/268/00001909A-765653.pdf" 0 -2300 50 H I C CNN ""
 F4 "LAN9252/PT" 0 -2200 50 H I C CNN "MPN"
 F5 "1027 In Stock" -50 -2400 50 H I C CNN "Availability"
 F6 "Ethernet ICs 10/100 EtherCAT Slave Controller" -50 -2400 50 H I C CNN "Description"
@@ -4661,9 +4673,9 @@ ENDDEF
 #
 DEF ~LB_220R_2A_0603 FB 0 10 N N 1 F N
 F0 "FB" 30 20 50 H V L CNN
-F1 "LB_220R_2A_0603" 30 -40 50 H I L CNN
-F2 "Inductor_SMD:L_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" 30 20 50 H I C CNN
+F1 "LB_220R_2A_0603" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" 30 20 50 H I C CNN ""
 F4 "BLM18EG221SN1D" 0 -300 50 H I C CNN "MPN"
 F5 "193480 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Ferrite Beads 220ohms GHz General Usage" 0 0 50 H I C CNN "Description"
@@ -4685,9 +4697,9 @@ ENDDEF
 #
 DEF ~LED_GREEN_0603 D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "LED_GREEN_0603" -300 -100 50 H I L CNN
-F2 "LED_SMD:LED_0603_1608Metric" -100 200 50 H I C CNN
-F3 "https___www.mouser.com_datasheet_2_216_APTD1608LZGCK-535846.pdf" 0 0 50 H I C CNN
+F1 "LED_GREEN_0603" -300 -100 50 H I L CNN ""
+F2 "LED_SMD:LED_0603_1608Metric" -100 200 50 H I C CNN ""
+F3 "https___www.mouser.com_datasheet_2_216_APTD1608LZGCK-535846.pdf" 0 0 50 H I C CNN ""
 F4 "APTD1608LZGCK" 0 -200 50 H I C CNN "MPN"
 F5 "29621 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Standard LEDs - SMD 1.6X0.8MM DOME LENS LOW CURRENT SMD" 0 0 50 H I C CNN "Description"
@@ -4713,9 +4725,9 @@ ENDDEF
 #
 DEF ~LED_RED_0603 D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "LED_RED_0603" -300 -100 50 H I L CNN
-F2 "LED_SMD:LED_0603_1608Metric" -100 200 50 H I C CNN
-F3 "" 0 0 50 V V C CNN
+F1 "LED_RED_0603" -300 -100 50 H I L CNN ""
+F2 "LED_SMD:LED_0603_1608Metric" -100 200 50 H I C CNN ""
+F3 "" 0 0 50 V V C CNN ""
 F4 "SML-D15VWT86C" 0 -200 50 H I C CNN "MPN"
 F5 "4040 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Standard LEDs - SMD Red 630nm 90mcd 2V; 20mA; 0603" 0 0 50 H I C CNN "Description"
@@ -4742,9 +4754,9 @@ ENDDEF
 #
 DEF ~LED_RED_THT D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "LED_RED_THT" -300 -100 50 H I L CNN
-F2 "LED_THT:LED_D5.0mm" -100 200 50 H I C CNN
-F3 "https___www.mouser.com_datasheet_2_216_WP7113SRD-J4-1114353.pdf" 0 0 50 H I C CNN
+F1 "LED_RED_THT" -300 -100 50 H I L CNN ""
+F2 "LED_THT:LED_D5.0mm" -100 200 50 H I C CNN ""
+F3 "https___www.mouser.com_datasheet_2_216_WP7113SRD-J4-1114353.pdf" 0 0 50 H I C CNN ""
 F4 "WP7113SRD/J4" 0 -200 50 H I C CNN "MPN"
 F5 "3657 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Standard LEDs - Through Hole 5mm Red LED 640nm" 0 0 50 H I C CNN "Description"
@@ -4770,9 +4782,9 @@ ENDDEF
 #
 DEF ~L_100uH_3.64A L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "L_100uH_3.64A" 30 -40 50 H I L CNN
-F2 "CUSTOM:L_Wuerth_WE-PD-Typ-LS_1250x1250" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/87/Bus_Elx_DS_4315_DR_Series-248110.pdf" 0 0 50 H I C CNN
+F1 "L_100uH_3.64A" 30 -40 50 H I L CNN ""
+F2 "CUSTOM:L_Wuerth_WE-PD-Typ-LS_1250x1250" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/87/Bus_Elx_DS_4315_DR_Series-248110.pdf" 0 0 50 H I C CNN ""
 F4 "DR127-101-R" 0 -300 50 H I C CNN "MPN"
 F5 "8402 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 100uH 3.64A 0.163ohms" 0 0 50 H I C CNN "Description"
@@ -4800,9 +4812,9 @@ ENDDEF
 #
 DEF ~L_15uH_5A L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "L_15uH_5A" 30 -40 50 H I L CNN
-F2 "INDM:INDM125125X60N" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/RR1260A-1391555.pdf" 0 0 50 H I C CNN
+F1 "L_15uH_5A" 30 -40 50 H I L CNN ""
+F2 "INDM:INDM125125X60N" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/RR1260A-1391555.pdf" 0 0 50 H I C CNN ""
 F4 "SRR1260A-150M" 0 -300 50 H I C CNN "MPN"
 F5 "985 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 15uH 20% SMD 1260 AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -4831,9 +4843,9 @@ ENDDEF
 #
 DEF ~L_2.2uH_8A L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "L_2.2uH_8A" 30 -40 50 H I L CNN
-F2 "Inductor_SMD:L_Coilcraft_XxL4020" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/597/xfl4020-270756.pdf" 0 0 50 H I C CNN
+F1 "L_2.2uH_8A" 30 -40 50 H I L CNN ""
+F2 "Inductor_SMD:L_Coilcraft_XxL4020" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/597/xfl4020-270756.pdf" 0 0 50 H I C CNN ""
 F4 "XFL4020-222MEC" 0 -300 50 H I C CNN "MPN"
 F5 "31040 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 2.2uH 20% 8A 23.5mOhms AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -4861,14 +4873,15 @@ ENDDEF
 #
 DEF ~L_33uH_4.2A_45mR L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "L_33uH_4.2A_45mR" 80 -340 50 H I L CNN
-F2 "CUSTOM:L_Wuerth_WE-PD-Typ-LS_1250x1250" -20 -360 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/87/Bus_Elx_DS_4315_DR_Series-248110.pdf" 50 -300 50 H I C CNN
+F1 "L_33uH_4.2A_45mR" 80 -340 50 H I L CNN ""
+F2 "CUSTOM:L_Wuerth_WE-PD-Typ-LS_1250x1250" -20 -360 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/7447709330-539581.pdf" 50 -300 50 H I C CNN ""
 F4 "7447709330" 0 -300 50 H I C CNN "MPN"
-F5 "8402 In Stock" 50 -300 50 H I C CNN "Availability"
-F6 "Fixed Inductors 100uH 3.64A 0.163ohms" 50 -300 50 H I C CNN "Description"
-F7 "1.77  EUR" 0 -350 50 H I C CNN "Price"
+F5 "4062 In Stock" 50 -300 50 H I C CNN "Availability"
+F6 "Fixed Inductors WE-PD 1210 33uH 4.2A .045Ohm" 50 -300 50 H I C CNN "Description"
+F7 "2.22  EUR" 0 -350 50 H I C CNN "Price"
 F8 "OK" -50 -350 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  Choke_*
  *Coil*
@@ -4890,9 +4903,9 @@ ENDDEF
 #
 DEF ~L_8.2uH_4.5A L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "L_8.2uH_4.5A" 30 -40 50 H I L CNN
-F2 "INDM:INDM7265X40N" -70 -60 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/rp6540-1391491.pdf" 0 0 50 H I C CNN
+F1 "L_8.2uH_4.5A" 30 -40 50 H I L CNN ""
+F2 "INDM:INDM7265X40N" -70 -60 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/rp6540-1391491.pdf" 0 0 50 H I C CNN ""
 F4 "SRP6540-8R2M" 0 -300 50 H I C CNN "MPN"
 F5 "3458 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Fixed Inductors 8.2uH 20% SMD 6540" 0 0 50 H I C CNN "Description"
@@ -4921,9 +4934,9 @@ ENDDEF
 #
 DEF ~MOUNT_HOLE MT? 0 40 Y Y 1 F N
 F0 "MT?" 0 200 50 H I C CNN
-F1 "MOUNT_HOLE" 0 -200 50 H I C CNN
-F2 "MountingHole:MountingHole_3.2mm_M3_Pad" -100 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "MOUNT_HOLE" 0 -200 50 H I C CNN ""
+F2 "MountingHole:MountingHole_3.2mm_M3_Pad" -100 100 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 DRAW
 C 0 0 50 0 1 0 N
@@ -4936,9 +4949,9 @@ ENDDEF
 #
 DEF ~MT_CAM_12MM P 0 40 Y Y 1 F N
 F0 "P" 0 0 50 H V C CNN
-F1 "MT_CAM_12MM" 0 -150 50 H I C CNN
-F2 "CUSTOM:PT-LH006P" -100 -100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "MT_CAM_12MM" 0 -150 50 H I C CNN ""
+F2 "CUSTOM:PT-LH006P" -100 -100 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
 F4 "PT-LH006P" 0 0 50 H I C CNN "MPN"
 DRAW
 S -300 100 300 -100 0 1 0 N
@@ -4950,9 +4963,9 @@ ENDDEF
 #
 DEF ~OSC_LFTCXO073006 U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "OSC_LFTCXO073006" 0 -300 50 H I C CNN
-F2 "" 0 100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/741/iqxt-350-1-33-1075257.pdf" 0 100 50 H I C CNN
+F1 "OSC_LFTCXO073006" 0 -300 50 H I C CNN ""
+F2 "" 0 100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/741/iqxt-350-1-33-1075257.pdf" 0 100 50 H I C CNN ""
 F4 "LFTCXO073006" 0 -200 50 H I C CNN "MPN"
 F5 "1817 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "TCXO Oscillators 52.0MHz 1.8V -30C +85C" 0 0 50 H I C CNN "Description"
@@ -4972,9 +4985,9 @@ ENDDEF
 #
 DEF ~POWER_PAD J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "POWER_PAD" 0 -100 50 H I C CNN
-F2 "TestPoint:TestPoint_Pad_4.0x4.0mm" -100 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "POWER_PAD" 0 -100 50 H I C CNN ""
+F2 "TestPoint:TestPoint_Pad_4.0x4.0mm" -100 0 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
 F4 "#" 0 0 50 H I C CNN "MPN"
 $FPLIST
  Connector*:*_??x*mm*
@@ -4994,9 +5007,9 @@ ENDDEF
 #
 DEF ~Q_NMOS_2X_100V_30A Q 0 0 Y N 1 F N
 F0 "Q" 100 250 50 H V L CNN
-F1 "Q_NMOS_2X_100V_30A" 250 -1000 50 H I L CNN
-F2 "CUSTOM:PowerPack-SO-8L-Dual" 250 -850 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/sqjq910el-1110892.pdf" 50 -950 50 H I C CNN
+F1 "Q_NMOS_2X_100V_30A" 250 -1000 50 H I L CNN ""
+F2 "CUSTOM:PowerPack-SO-8L-Dual" 250 -850 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/sqjq910el-1110892.pdf" 50 -950 50 H I C CNN ""
 F4 "SQJ974EP-T1_GE3 " 50 -750 50 H I C CNN "MPN"
 F5 "1945 In Stock" 100 -1200 50 H I C CNN "Availability"
 F6 "MOSFET 100V Vds Dual N-Ch AEC-Q101 Qualified" 100 -1100 50 H I C CNN "Description"
@@ -5057,9 +5070,9 @@ ENDDEF
 #
 DEF ~Q_NMOS_2X_60V_63A Q 0 0 Y N 1 F N
 F0 "Q" 100 250 50 H V L CNN
-F1 "Q_NMOS_2X_60V_63A" 250 -1000 50 H I L CNN
-F2 "CUSTOM:PowerPack-8x8-Dual" 250 -850 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/sqjq910el-1110892.pdf" 50 -950 50 H I C CNN
+F1 "Q_NMOS_2X_60V_63A" 250 -1000 50 H I L CNN ""
+F2 "CUSTOM:PowerPack-8x8-Dual" 250 -850 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/sqjq910el-1110892.pdf" 50 -950 50 H I C CNN ""
 F4 "SQJQ960EL-T1_GE3" 50 -750 50 H I C CNN "MPN"
 F5 "1945 In Stock" 100 -1200 50 H I C CNN "Availability"
 F6 "MOSFET 100V Vds Dual N-Ch AEC-Q101 Qualified" 100 -1100 50 H I C CNN "Description"
@@ -5119,9 +5132,9 @@ ENDDEF
 #
 DEF ~Q_NMOS_BUK9875 Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_NMOS_BUK9875" -50 -650 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SOT-223" -50 -500 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/916/BUK9875-100A-1320200.pdf" -250 -600 50 H I C CNN
+F1 "Q_NMOS_BUK9875" -50 -650 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SOT-223" -50 -500 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/916/BUK9875-100A-1320200.pdf" -250 -600 50 H I C CNN ""
 F4 "BUK9875-100A/CUX " 50 -450 50 H I C CNN "MPN"
 F5 "55789 In Stock" 0 -450 50 H I C CNN "Availability"
 F6 "MOSFET N-channel TrenchMOS logic level FET" -250 -600 50 H I C CNN "Description"
@@ -5160,9 +5173,9 @@ ENDDEF
 #
 DEF ~Q_NMOS_FDN337N Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_NMOS_FDN337N" 200 -50 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SuperSOT-3" 200 100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/308/FDN337N-1305833.pdf" 0 0 50 H I C CNN
+F1 "Q_NMOS_FDN337N" 200 -50 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SuperSOT-3" 200 100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/FDN337N-1305833.pdf" 0 0 50 H I C CNN ""
 F4 "FDN337N" 50 -450 50 H I C CNN "MPN"
 F5 "1337 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "MOSFET SSOT-3 N-CH 30V" 0 0 50 H I C CNN "Description"
@@ -5201,9 +5214,9 @@ ENDDEF
 #
 DEF ~Q_NMOS_FDN86246 Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_NMOS_FDN86246" 200 -50 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SuperSOT-3" 200 100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/308/FDN86246-1300565.pdf" 0 0 50 H I C CNN
+F1 "Q_NMOS_FDN86246" 200 -50 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SuperSOT-3" 200 100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/FDN86246-1300565.pdf" 0 0 50 H I C CNN ""
 F4 "FDN86246" 50 -450 50 H I C CNN "MPN"
 F5 "8941 On Order" 0 0 50 H I C CNN "Availability"
 F6 "MOSFET 150V N-Channel PowerTrench MOSFET" 0 0 50 H I C CNN "Description"
@@ -5242,9 +5255,9 @@ ENDDEF
 #
 DEF ~Q_PNP_BC856 Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_PNP_BC856" 200 -50 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/308/BC856ALT1-D-249456.pdf" 0 0 50 H I C CNN
+F1 "Q_PNP_BC856" 200 -50 50 H I L CNN ""
+F2 "Package_TO_SOT_SMD:SOT-23" 200 100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/308/BC856ALT1-D-249456.pdf" 0 0 50 H I C CNN ""
 F4 "100mA 80V" 50 -450 39 H I C CNN "Comment"
 F5 "BC856BLT1G" 50 -500 39 H I C CNN "MPN"
 F6 "143810 In Stock" 0 0 50 H I C CNN "Availability"
@@ -5269,9 +5282,9 @@ ENDDEF
 #
 DEF ~RES_0R_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_0R_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 30 20 50 H I C CNN
+F1 "RES_0R_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 30 20 50 H I C CNN ""
 F4 "CRCW04020000Z0EDC" 0 0 50 H I C CNN "MPN"
 F5 "3675 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/16watt 0ohms" 0 0 50 H I C CNN "Description"
@@ -5294,9 +5307,9 @@ ENDDEF
 #
 DEF ~RES_10.2K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_10.2K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf" 30 20 50 H I C CNN
+F1 "RES_10.2K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf" 30 20 50 H I C CNN ""
 F4 "RC0201FR-0710K2L" 130 120 50 H I C CNN "MPN"
 F5 "25200 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/20W 10.2K Ohms 1%" 0 0 50 H I C CNN "Description"
@@ -5319,9 +5332,9 @@ ENDDEF
 #
 DEF ~RES_10.5k_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_10.5k_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_10.5k_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN ""
 F4 "RC0603FR-0710K5L" 0 -300 50 H I C CNN "MPN"
 F5 "123654 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 10.5K OHM 1%" 0 0 50 H I C CNN "Description"
@@ -5343,9 +5356,9 @@ ENDDEF
 #
 DEF ~RES_100K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_100K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 30 20 50 H I C CNN
+F1 "RES_100K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 30 20 50 H I C CNN ""
 F4 "CPF0603F100KC1" 130 120 50 H I C CNN "MPN"
 F5 "32650 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thin Film Resistors - SMD CPF 0603 100K 1% 50PPM 1K RL" 0 0 50 H I C CNN "Description"
@@ -5368,9 +5381,9 @@ ENDDEF
 #
 DEF ~RES_100R_1%_1206 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_100R_1%_1206" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_1206_3216Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/CRM0805_1206_2010-1110565.pdf" 30 20 50 H I C CNN
+F1 "RES_100R_1%_1206" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_1206_3216Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/CRM0805_1206_2010-1110565.pdf" 30 20 50 H I C CNN ""
 F4 "CRM1206-FX-1000ELF" 130 120 50 H I C CNN "MPN"
 F5 "22886 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Current Sense Resistors - SMD CHIP RESISTOR Low Value" 0 0 50 H I C CNN "Description"
@@ -5393,9 +5406,9 @@ ENDDEF
 #
 DEF ~RES_10K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_10K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "" 30 20 50 H I C CNN
+F1 "RES_10K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "" 30 20 50 H I C CNN ""
 F4 "CRCW040210K0FKEDC" 130 120 50 H I C CNN "MPN"
 F5 "1813839 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
@@ -5418,9 +5431,9 @@ ENDDEF
 #
 DEF ~RES_10R_5%_1210 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_10R_5%_1210" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_1210_3225Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf" 30 20 50 H I C CNN
+F1 "RES_10R_5%_1210" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_1210_3225Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_9-1314892.pdf" 30 20 50 H I C CNN ""
 F4 "RC1210JR-0710RL" 130 120 50 H I C CNN "MPN"
 F5 "23900 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 10 OHM 5%" 0 0 50 H I C CNN "Description"
@@ -5442,9 +5455,9 @@ ENDDEF
 #
 DEF ~RES_10mOhm_1% R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_10mOhm_1%" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0805_2012Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" 30 20 50 H I C CNN
+F1 "RES_10mOhm_1%" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0805_2012Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" 30 20 50 H I C CNN ""
 F4 "LVT08R0100FER" 130 120 50 H I C CNN "MPN"
 F5 "7485 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Current Sense Resistors - SMD 0.01 ohm 1% 0.5W Current Sense" 0 0 50 H I C CNN "Description"
@@ -5467,9 +5480,9 @@ ENDDEF
 #
 DEF ~RES_12.1K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_12.1K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_12.1K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN ""
 F4 "RC0402FR-0712K1L" 130 120 50 H I C CNN "MPN"
 F5 "336681 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 12.1K OHM 1%" 0 0 50 H I C CNN "Description"
@@ -5491,9 +5504,9 @@ ENDDEF
 #
 DEF ~RES_135K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_135K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_135K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN ""
 F4 "RC0402FR-135K1L" 130 120 50 H I C CNN "MPN"
 F5 "147765 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 135 kOhms 1%" 0 0 50 H I C CNN "Description"
@@ -5515,14 +5528,15 @@ ENDDEF
 #
 DEF ~RES_137K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_137K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_137K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN ""
 F4 "AC0402FR-07137KL" 130 120 50 H I C CNN "MPN"
-F5 "147765 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Thick Film Resistors - SMD 135 kOhms 1%" 0 0 50 H I C CNN "Description"
+F5 "77400 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD AEC-Q200" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -5538,9 +5552,9 @@ ENDDEF
 #
 DEF ~RES_13K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_13K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN
+F1 "RES_13K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN ""
 F4 "AC0603FR-0713KL" 0 -300 50 H I C CNN "MPN"
 F5 "65660 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/10W 13K ohm 1% AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -5563,9 +5577,9 @@ ENDDEF
 #
 DEF ~RES_143K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_143K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN
+F1 "RES_143K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN ""
 F4 "CR0603-FX-1433ELF" 0 -300 50 H I C CNN "MPN"
 F5 "51175 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 143K 1% 1/10W" 0 0 50 H I C CNN "Description"
@@ -5588,9 +5602,9 @@ ENDDEF
 #
 DEF ~RES_147k_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_147k_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_147k_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN ""
 F4 "RC0603FR-07147KL" 0 -300 50 H I C CNN "MPN"
 F5 "93114 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 147K OHM 1%" 0 0 50 H I C CNN "Description"
@@ -5612,9 +5626,9 @@ ENDDEF
 #
 DEF ~RES_162K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_162K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 30 20 50 H I C CNN
+F1 "RES_162K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 30 20 50 H I C CNN ""
 F4 "CRCW0603162KFKEA" 0 -300 50 H I C CNN "MPN"
 F5 "116057 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/10watt 162Kohms 1%" 0 0 50 H I C CNN "Description"
@@ -5637,9 +5651,9 @@ ENDDEF
 #
 DEF ~RES_18K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_18K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/219/RN73-11994.pdf" 30 20 50 H I C CNN
+F1 "RES_18K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/219/RN73-11994.pdf" 30 20 50 H I C CNN ""
 F4 "RN731JTTD1802F100" 0 -300 50 H I C CNN "MPN"
 F5 "3249 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thin Film Resistors - SMD 0603 18 Kohms 1% 10PPM" 0 0 50 H I C CNN "Description"
@@ -5662,9 +5676,9 @@ ENDDEF
 #
 DEF ~RES_1K5_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_1K5_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_1K5_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN ""
 F4 "RC0402FR-071K5L" 130 120 50 H I C CNN "MPN"
 F5 "1570651 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1.5K OHM 1%" 0 0 50 H I C CNN "Description"
@@ -5686,9 +5700,9 @@ ENDDEF
 #
 DEF ~RES_1M_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_1M_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_1M_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN ""
 F4 "RC0402FR-071ML" 130 120 50 H I C CNN "MPN"
 F5 "4349715 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1M OHM 1%" 0 0 50 H I C CNN "Description"
@@ -5710,9 +5724,9 @@ ENDDEF
 #
 DEF ~RES_200K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_200K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN
+F1 "RES_200K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN ""
 F4 "CRCW0402200KFKEDC" 130 120 50 H I C CNN "MPN"
 F5 "262681 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/16watt 200Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
@@ -5734,9 +5748,9 @@ ENDDEF
 #
 DEF ~RES_200R_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_200R_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN
+F1 "RES_200R_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN ""
 F4 "AC0402FR-07200RL" 130 120 50 H I C CNN "MPN"
 F5 "106080 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -5758,9 +5772,9 @@ ENDDEF
 #
 DEF ~RES_22R_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_22R_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN
+F1 "RES_22R_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN ""
 F4 "CRCW040222R0FKEDC" 130 120 50 H I C CNN "MPN"
 F5 "215652 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/16watt 22ohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
@@ -5783,9 +5797,9 @@ ENDDEF
 #
 DEF ~RES_24k_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_24k_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN
+F1 "RES_24k_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN ""
 F4 "CR0603-FX-2402ELF" 0 -300 50 H I C CNN "MPN"
 F5 "179806 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 24K ohm 1%" 0 0 50 H I C CNN "Description"
@@ -5807,9 +5821,9 @@ ENDDEF
 #
 DEF ~RES_25.5K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_25.5K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 30 20 50 H I C CNN
+F1 "RES_25.5K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 30 20 50 H I C CNN ""
 F4 "CPF0603F25K5C1" 0 -300 50 H I C CNN "MPN"
 F5 "3733 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thin Film Resistors - SMD CPF 0603 25K5 1% 50PPM 1K RL" 0 0 50 H I C CNN "Description"
@@ -5832,9 +5846,9 @@ ENDDEF
 #
 DEF ~RES_270R_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_270R_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_270R_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN ""
 F4 "RC0402FR-07270RL" 130 120 50 H I C CNN "MPN"
 F5 "467609 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 270 OHM 1%" 0 0 50 H I C CNN "Description"
@@ -5856,9 +5870,9 @@ ENDDEF
 #
 DEF ~RES_3K3_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_3K3_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN
+F1 "RES_3K3_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN ""
 F4 "CRCW04023K30FKEDC" 130 120 50 H I C CNN "MPN"
 F5 "73127 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/16watt 3.3Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
@@ -5880,9 +5894,9 @@ ENDDEF
 #
 DEF ~RES_3K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_3K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_3K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN ""
 F4 "RC0402FR-073KL" 130 120 50 H I C CNN "MPN"
 F5 "638811 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 3K OHM 1%" 0 0 50 H I C CNN "Description"
@@ -5904,9 +5918,9 @@ ENDDEF
 #
 DEF ~RES_3K_1%_1206 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_3K_1%_1206" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_1206_3216Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN
+F1 "RES_3K_1%_1206" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_1206_3216Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN ""
 F4 "CR1206-FX-3001ELF" 0 0 50 H I C CNN "MPN"
 F5 "2587 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 3K 1%" 0 0 50 H I C CNN "Description"
@@ -5929,9 +5943,9 @@ ENDDEF
 #
 DEF ~RES_3mR_1% R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_3mR_1%" 30 -40 50 H I L CNN
-F2 "CUSTOM:WSLF25123L000FEA" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/wslf-974898.pdf" 30 20 50 H I C CNN
+F1 "RES_3mR_1%" 30 -40 50 H I L CNN ""
+F2 "CUSTOM:WSLF25123L000FEA" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/wslf-974898.pdf" 30 20 50 H I C CNN ""
 F4 "WSLF25123L000FEA" 130 120 50 H I C CNN "MPN"
 F5 "4213 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Current Sense Resistors - SMD 6watt .003ohms 1%" 0 0 50 H I C CNN "Description"
@@ -5954,9 +5968,9 @@ ENDDEF
 #
 DEF ~RES_470R_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_470R_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "" 30 20 50 H I C CNN
+F1 "RES_470R_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "" 30 20 50 H I C CNN ""
 F4 "CRCW0402470RFKEDC" 130 120 50 H I C CNN "MPN"
 F5 "96773 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/16watt 470ohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
@@ -5979,9 +5993,9 @@ ENDDEF
 #
 DEF ~RES_49.9K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_49.9K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "" 30 20 50 H I C CNN
+F1 "RES_49.9K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "" 30 20 50 H I C CNN ""
 F4 "CRCW040249K9FKEDC" 130 120 50 H I C CNN "MPN"
 F5 "57299 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/16W 49.9Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
@@ -6004,9 +6018,9 @@ ENDDEF
 #
 DEF ~RES_49.9_0.1%_0805 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_49.9_0.1%_0805" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0805_2012Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/414/PCF-1148067.pdf" 30 20 50 H I C CNN
+F1 "RES_49.9_0.1%_0805" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0805_2012Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/414/PCF-1148067.pdf" 30 20 50 H I C CNN ""
 F4 "PCF0805-02-49R9DT1" 130 120 50 H I C CNN "MPN"
 F5 "10565 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thin Film Resistors - SMD 0.1W 49.9ohm 0.1% 50ppm" 0 0 50 H I C CNN "Description"
@@ -6028,9 +6042,9 @@ ENDDEF
 #
 DEF ~RES_523K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_523K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN
+F1 "RES_523K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN ""
 F4 "AC0603FR-07523KL" 0 -300 50 H I C CNN "MPN"
 F5 "18601 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD AEC-Q200" 0 0 50 H I C CNN "Description"
@@ -6053,9 +6067,9 @@ ENDDEF
 #
 DEF ~RES_53.6K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_53.6K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN
+F1 "RES_53.6K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN ""
 F4 "CRCW060353K6FKEAC" 0 -300 50 H I C CNN "MPN"
 F5 "52010 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 1/10W 53.6Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
@@ -6077,9 +6091,9 @@ ENDDEF
 #
 DEF ~RES_5K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_5K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F1 "RES_5K_1%_0402" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN ""
 F4 "RC0402FR-075KL " 130 120 50 H I C CNN "MPN"
 F5 "38996 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 5K ohm 1% 50V General Purpose" 0 0 50 H I C CNN "Description"
@@ -6101,9 +6115,9 @@ ENDDEF
 #
 DEF ~RES_5mR_1%_10W R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_5mR_1%_10W" 30 -40 50 H I L CNN
-F2 "CUSTOM:R_2818_7146Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/427/wshp2818-1082656.pdf" 30 20 50 H I C CNN
+F1 "RES_5mR_1%_10W" 30 -40 50 H I L CNN ""
+F2 "CUSTOM:R_2818_7146Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/427/wshp2818-1082656.pdf" 30 20 50 H I C CNN ""
 F4 "WSHP28185L000FEA" 130 120 50 H I C CNN "MPN"
 F5 "5333 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Current Sense Resistors - SMD 10W .005ohms 1%" 0 0 50 H I C CNN "Description"
@@ -6126,9 +6140,9 @@ ENDDEF
 #
 DEF ~RES_66.5K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_66.5K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 30 20 50 H I C CNN
+F1 "RES_66.5K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/418/NG_DS_1773200_J-838467.pdf" 30 20 50 H I C CNN ""
 F4 "CPF0603F66K5C1" 0 -300 50 H I C CNN "MPN"
 F5 "6605 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thin Film Resistors - SMD CPF 0603 66K5 1% 50PPM 1K RL" 0 0 50 H I C CNN "Description"
@@ -6151,9 +6165,9 @@ ENDDEF
 #
 DEF ~RES_84.5K_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "RES_84.5K_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN
+F1 "RES_84.5K_1%_0603" 30 -40 50 H I L CNN ""
+F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN ""
 F4 "CR0603-FX-8452ELF" 0 -300 50 H I C CNN "MPN"
 F5 "29410 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Thick Film Resistors - SMD 84.5K ohm 1%" 0 0 50 H I C CNN "Description"
@@ -6176,9 +6190,9 @@ ENDDEF
 #
 DEF ~RES_NTC_10K_402 R 0 0 N Y 1 F N
 F0 "R" -100 0 50 V V C CNN
-F1 "RES_NTC_10K_402" 125 -250 50 V I C CNN
-F2 "Resistor_SMD:R_0402_1005Metric" 0 -220 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/400/pd_commercial_ntc-thermistor_ntcg_en-1290965.pdf" 0 -220 50 H I C CNN
+F1 "RES_NTC_10K_402" 125 -250 50 V I C CNN ""
+F2 "Resistor_SMD:R_0402_1005Metric" 0 -220 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/400/pd_commercial_ntc-thermistor_ntcg_en-1290965.pdf" 0 -220 50 H I C CNN ""
 F4 "NTCG103JF103FT1" 0 -270 39 H I C CNN "MPN"
 F5 "199483 In Stock" 0 -250 50 H I C CNN "Availability"
 F6 "NTC (Negative Temperature Coefficient) Thermistors THERMISTOR, NTC 10K OHM, 1%, 0402" 0 -250 50 H I C CNN "Description"
@@ -6205,9 +6219,9 @@ ENDDEF
 #
 DEF ~SHIELD_16.5x16.5 S 0 40 Y Y 1 F N
 F0 "S" 0 100 50 H V C CNN
-F1 "SHIELD_16.5x16.5" -100 0 50 H I C CNN
-F2 "RF_Shielding:Laird_Technologies_BMI-S-102_16.50x16.50mm" -250 -100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/223/EMI-CAT-Essentials 1213-1131764.pdf" -100 0 50 H I C CNN
+F1 "SHIELD_16.5x16.5" -100 0 50 H I C CNN ""
+F2 "RF_Shielding:Laird_Technologies_BMI-S-102_16.50x16.50mm" -250 -100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/223/EMI-CAT-Essentials 1213-1131764.pdf" -100 0 50 H I C CNN ""
 F4 "BMI-S-102" -100 0 50 H I C CNN "MPN"
 F5 "6374 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "EMI Gaskets, Sheets, Absorbers & Shielding SBS,1PSH 3.60x16.5x16.5MM" 0 0 50 H I C CNN "Description"
@@ -6225,9 +6239,9 @@ ENDDEF
 #
 DEF ~SHIELD_20x20 S 0 40 Y Y 1 F N
 F0 "S" 0 100 50 H V C CNN
-F1 "SHIELD_20x20" -100 0 50 H I C CNN
-F2 "RF_Shielding:Wuerth_36103205_20x20mm" -250 -100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/36103205-537966.pdf" -100 0 50 H I C CNN
+F1 "SHIELD_20x20" -100 0 50 H I C CNN ""
+F2 "RF_Shielding:Wuerth_36103205_20x20mm" -250 -100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/445/36103205-537966.pdf" -100 0 50 H I C CNN ""
 F4 "36103205" -100 0 50 H I C CNN "MPN"
 F5 "1008 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "EMI Gaskets, Sheets, Absorbers & Shielding WE-SHC SMD Frame 21x21mm" 0 0 50 H I C CNN "Description"
@@ -6245,9 +6259,9 @@ ENDDEF
 #
 DEF ~SW_BTN_3.7x3.7 S 0 40 Y N 1 F N
 F0 "S" 0 150 50 H V C CNN
-F1 "SW_BTN_3.7x3.7" 0 200 50 H I C CNN
-F2 "CUSTOM:SW_PTS540" 0 200 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/60/pts540-1382793.pdf" 0 200 50 H I C CNN
+F1 "SW_BTN_3.7x3.7" 0 200 50 H I C CNN ""
+F2 "CUSTOM:SW_PTS540" 0 200 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/60/pts540-1382793.pdf" 0 200 50 H I C CNN ""
 F4 "PTS540JM035SMTRLFS" 0 -300 50 H I C CNN "MPN"
 F5 "13394 In Stock" 0 -50 50 H I C CNN "Availability"
 F6 "Tactile Switches 160 GF Top Actuated Ultra Low Profile" -100 -50 50 H I C CNN "Description"
@@ -6275,9 +6289,9 @@ ENDDEF
 #
 DEF SW_DIP_4P S 0 40 Y Y 1 F N
 F0 "S" 0 400 50 H V C CNN
-F1 "SW_DIP_4P" 0 300 50 H V C CNN
-F2 "SOIC:SOIC127P670X145-8N" 0 300 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/307/en-a6h-1221378.pdf" 0 300 50 H I C CNN
+F1 "SW_DIP_4P" 0 300 50 H V C CNN ""
+F2 "SOIC:SOIC127P670X145-8N" 0 300 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/307/en-a6h-1221378.pdf" 0 300 50 H I C CNN ""
 F4 "A6H-4102-P" 0 -300 50 H I C CNN "MPN"
 F5 "6971 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "DIP Switches/SIP Switches DIP SWITCH" -100 0 50 H I C CNN "Description"
@@ -6310,9 +6324,9 @@ ENDDEF
 #
 DEF ~TR_N1342DEA_0008BQE_P3 L 0 10 Y N 1 F N
 F0 "L" 0 -200 50 H V L CNN
-F1 "TR_N1342DEA_0008BQE_P3" -500 -450 50 H I L CNN
-F2 "MODULE:N1342DEA0008BQE" -50 -350 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/281/m_fsdva-947840.pdf" 0 0 50 H I C CNN
+F1 "TR_N1342DEA_0008BQE_P3" -500 -450 50 H I L CNN ""
+F2 "MODULE:N1342DEA0008BQE" -50 -350 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/281/m_fsdva-947840.pdf" 0 0 50 H I C CNN ""
 F4 "N1342DEA-0008BQE=P3" 0 400 50 H I C CNN "MPN"
 F5 "1060 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Variable Inductors INDUCTOR" 0 0 50 H I C CNN "Description"
@@ -6355,9 +6369,9 @@ ENDDEF
 #
 DEF ~Test_Point TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "Test_Point" 0 200 50 H I C CNN
-F2 "TestPoint:TestPoint_Pad_1.0x1.0mm" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
+F1 "Test_Point" 0 200 50 H I C CNN ""
+F2 "TestPoint:TestPoint_Pad_1.0x1.0mm" 200 0 50 H I C CNN ""
+F3 "" 200 0 50 H I C CNN ""
 $FPLIST
  Pin*
  Test*
@@ -6372,9 +6386,9 @@ ENDDEF
 #
 DEF USB_B_Micro J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_B_Micro" -200 350 50 H V L CNN
-F2 "CUSTOM:USB_Micro-B_GCT_USB3076-30-A" 150 -50 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/18/10118193-1361773.pdf" 150 -50 50 H I C CNN
+F1 "USB_B_Micro" -200 350 50 H V L CNN ""
+F2 "CUSTOM:USB_Micro-B_GCT_USB3076-30-A" 150 -50 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/18/10118193-1361773.pdf" 150 -50 50 H I C CNN ""
 F4 "10118193-0001LF" 150 550 50 H I C CNN "MPN"
 F5 "80661 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "USB Connectors 5P MICRO USB TYPE B RECEPTACLE W/ PEGS" 0 0 50 H I C CNN "Description"
@@ -6413,9 +6427,9 @@ ENDDEF
 #
 DEF ~XDCR_40KHZ_12.5MM Z 0 40 N N 1 F N
 F0 "Z" 150 0 50 H V C CNN
-F1 "XDCR_40KHZ_12.5MM" 0 -450 50 H I C CNN
-F2 "MODULE:UTR1440KTTR" 50 -100 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/334/UTR-1440K-TT-R-953250.pdf" 0 0 50 V I C CNN
+F1 "XDCR_40KHZ_12.5MM" 0 -450 50 H I C CNN ""
+F2 "MODULE:UTR1440KTTR" 50 -100 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/334/UTR-1440K-TT-R-953250.pdf" 0 0 50 V I C CNN ""
 F4 "UTR-1440K-TT-R" 0 -350 50 H I C CNN "MPN"
 F5 "265 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Speakers & Transducers ULTRASONIC TRNSMTTR /RECEIVER" 0 0 50 H I C CNN "Description"
@@ -6437,9 +6451,9 @@ ENDDEF
 #
 DEF ~XTAL_20MHz_3225 Y 0 40 Y N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "XTAL_20MHz_3225" 0 -200 50 H I C CNN
-F2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" 150 250 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F1 "XTAL_20MHz_3225" 0 -200 50 H I C CNN ""
+F2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" 150 250 50 H I C CNN ""
+F3 "" 0 0 50 H I C CNN ""
 F4 "TSX-3225 20.0000MF20G-AC3" 0 -300 50 H I C CNN "MPN"
 F5 "4328 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Crystals 20MHz 10ppm 9pF -40C +105C" 0 0 50 H I C CNN "Description"
@@ -6468,9 +6482,9 @@ ENDDEF
 #
 DEF ~XTAL_25MHz_3225 Y 0 40 Y N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "XTAL_25MHz_3225" 0 -200 50 H I C CNN
-F2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" 150 250 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/122/ecx-32-1100709.pdf" 0 0 50 H I C CNN
+F1 "XTAL_25MHz_3225" 0 -200 50 H I C CNN ""
+F2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" 150 250 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/122/ecx-32-1100709.pdf" 0 0 50 H I C CNN ""
 F4 "ECS-250-8-33-AGN-TR" 0 -300 50 H I C CNN "MPN"
 F5 "641 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Crystals 25MHz 25ppm 8pF -40C +85C" 0 0 50 H I C CNN "Description"
@@ -6499,9 +6513,9 @@ ENDDEF
 #
 DEF ~XTAL_8Mhz_5032 Y 0 40 Y N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "XTAL_8Mhz_5032" 0 -200 50 H I C CNN
-F2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" 150 250 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/3/abm3b-39910.pdf" 0 0 50 H I C CNN
+F1 "XTAL_8Mhz_5032" 0 -200 50 H I C CNN ""
+F2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" 150 250 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/3/abm3b-39910.pdf" 0 0 50 H I C CNN ""
 F4 "ABM3B-8.000MHZ-10-1UT" 0 -300 50 H I C CNN "MPN"
 F5 "5027 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Crystals 8.0MHz 10pf 10ppm -10C +60C" 0 0 50 H I C CNN "Description"
@@ -6530,9 +6544,9 @@ ENDDEF
 #
 DEF XTAL_AWSCR-24.00CV-T X 0 40 Y Y 1 F N
 F0 "X" 0 -350 50 H V C CNN
-F1 "XTAL_AWSCR-24.00CV-T" 0 -450 50 H V C CNN
-F2 "CUSTOM:AWSCR-24.00CV-T" 0 -50 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/3/AWSCR_CV-47896.pdf" 0 -50 50 H I C CNN
+F1 "XTAL_AWSCR-24.00CV-T" 0 -450 50 H V C CNN ""
+F2 "CUSTOM:AWSCR-24.00CV-T" 0 -50 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/3/AWSCR_CV-47896.pdf" 0 -50 50 H I C CNN ""
 F4 "AWSCR-24.00CV-T" 0 -550 50 H I C CNN "MPN"
 F5 "632 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Resonators 24.0MHz -25C +85C 5pF w/built in Cap" 0 0 50 H I C CNN "Description"
