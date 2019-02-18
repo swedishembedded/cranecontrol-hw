@@ -536,7 +536,7 @@ U 1 1 5C802759
 P 1275 3700
 F 0 "Y1" V 1275 3828 50  0000 L CNN
 F 1 "XTAL_8Mhz_5032" V 1625 3525 50  0001 L CNN
-F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 1425 3950 50  0001 C CNN
+F 2 "CUSTOM:Crystal_ABM3B_5032-4Pin_5.0x3.2mm" H 1425 3950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/3/abm3b-39910.pdf" H 1275 3700 50  0001 C CNN
 F 4 "ABM3B-8.000MHZ-10-1UT" H 1275 3400 50  0001 C CNN "MPN"
 F 5 "5027 In Stock" H 1275 3700 50  0001 C CNN "Availability"
@@ -758,13 +758,13 @@ P 775 2650
 F 0 "R1" H 716 2650 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 805 2610 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 705 2570 50  0001 C CNN
-F 3 "" H 775 2650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 775 2650 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 905 2770 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 775 2650 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 775 2650 50  0001 C CNN "Description"
-F 7 "New Product" H 775 2650 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 775 2650 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 775 2650 50  0001 C CNN "Description"
+F 7 "OK" H 775 2650 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 775 2650 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 775 2650 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 775 2650 50  0001 C CNN "Price"
 	1    775  2650
 	-1   0    0    1   
 $EndComp
@@ -880,7 +880,7 @@ Wire Wire Line
 	6700 1000 6700 1050
 Connection ~ 6700 1000
 Wire Wire Line
-	6700 1000 6800 1000
+	6700 1000 6875 1000
 Wire Wire Line
 	6700 1250 6700 1475
 $Comp
@@ -965,13 +965,13 @@ P 11925 4150
 F 0 "R60" V 12029 4150 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 11955 4110 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 11855 4070 50  0001 C CNN
-F 3 "" H 11925 4150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 11925 4150 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 12055 4270 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 11925 4150 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 11925 4150 50  0001 C CNN "Description"
-F 7 "New Product" H 11925 4150 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 11925 4150 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 11925 4150 50  0001 C CNN "Description"
+F 7 "OK" H 11925 4150 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 11925 4150 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 11925 4150 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 11925 4150 50  0001 C CNN "Price"
 	1    11925 4150
 	0    -1   -1   0   
 $EndComp
@@ -1205,13 +1205,13 @@ P 18825 4500
 F 0 "R100" V 18721 4500 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 18855 4460 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18755 4420 50  0001 C CNN
-F 3 "" H 18825 4500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18825 4500 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18955 4620 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18825 4500 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18825 4500 50  0001 C CNN "Description"
-F 7 "New Product" H 18825 4500 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18825 4500 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18825 4500 50  0001 C CNN "Description"
+F 7 "OK" H 18825 4500 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18825 4500 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18825 4500 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18825 4500 50  0001 C CNN "Price"
 	1    18825 4500
 	0    1    1    0   
 $EndComp
@@ -1237,13 +1237,13 @@ P 18825 5425
 F 0 "R103" V 18721 5425 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 18855 5385 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18755 5345 50  0001 C CNN
-F 3 "" H 18825 5425 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18825 5425 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18955 5545 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18825 5425 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18825 5425 50  0001 C CNN "Description"
-F 7 "New Product" H 18825 5425 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18825 5425 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18825 5425 50  0001 C CNN "Description"
+F 7 "OK" H 18825 5425 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18825 5425 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18825 5425 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18825 5425 50  0001 C CNN "Price"
 	1    18825 5425
 	0    1    1    0   
 $EndComp
@@ -1333,13 +1333,13 @@ P 20300 4500
 F 0 "R137" V 20196 4500 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 20330 4460 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20230 4420 50  0001 C CNN
-F 3 "" H 20300 4500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20300 4500 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20430 4620 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20300 4500 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20300 4500 50  0001 C CNN "Description"
-F 7 "New Product" H 20300 4500 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20300 4500 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20300 4500 50  0001 C CNN "Description"
+F 7 "OK" H 20300 4500 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20300 4500 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20300 4500 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20300 4500 50  0001 C CNN "Price"
 	1    20300 4500
 	0    1    1    0   
 $EndComp
@@ -1363,13 +1363,13 @@ P 20300 5425
 F 0 "R140" V 20196 5425 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 20330 5385 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20230 5345 50  0001 C CNN
-F 3 "" H 20300 5425 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20300 5425 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20430 5545 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20300 5425 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20300 5425 50  0001 C CNN "Description"
-F 7 "New Product" H 20300 5425 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20300 5425 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20300 5425 50  0001 C CNN "Description"
+F 7 "OK" H 20300 5425 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20300 5425 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20300 5425 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20300 5425 50  0001 C CNN "Price"
 	1    20300 5425
 	0    1    1    0   
 $EndComp
@@ -1455,13 +1455,13 @@ P 21850 4500
 F 0 "R169" V 21746 4500 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21880 4460 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21780 4420 50  0001 C CNN
-F 3 "" H 21850 4500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21850 4500 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21980 4620 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21850 4500 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21850 4500 50  0001 C CNN "Description"
-F 7 "New Product" H 21850 4500 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21850 4500 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21850 4500 50  0001 C CNN "Description"
+F 7 "OK" H 21850 4500 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21850 4500 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21850 4500 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21850 4500 50  0001 C CNN "Price"
 	1    21850 4500
 	0    1    1    0   
 $EndComp
@@ -1485,13 +1485,13 @@ P 21850 5425
 F 0 "R172" V 21746 5425 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21880 5385 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21780 5345 50  0001 C CNN
-F 3 "" H 21850 5425 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21850 5425 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21980 5545 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21850 5425 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21850 5425 50  0001 C CNN "Description"
-F 7 "New Product" H 21850 5425 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21850 5425 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21850 5425 50  0001 C CNN "Description"
+F 7 "OK" H 21850 5425 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21850 5425 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21850 5425 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21850 5425 50  0001 C CNN "Price"
 	1    21850 5425
 	0    1    1    0   
 $EndComp
@@ -1722,13 +1722,13 @@ P 19450 5450
 F 0 "R118" V 19375 5450 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 19480 5410 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 19380 5370 50  0001 C CNN
-F 3 "" H 19450 5450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19450 5450 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 19580 5570 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 19450 5450 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 19450 5450 50  0001 C CNN "Description"
-F 7 "New Product" H 19450 5450 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 19450 5450 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19450 5450 50  0001 C CNN "Description"
+F 7 "OK" H 19450 5450 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 19450 5450 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 19450 5450 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 19450 5450 50  0001 C CNN "Price"
 	1    19450 5450
 	-1   0    0    1   
 $EndComp
@@ -1842,13 +1842,13 @@ P 21000 5450
 F 0 "R157" V 20896 5450 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21030 5410 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20930 5370 50  0001 C CNN
-F 3 "" H 21000 5450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21000 5450 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21130 5570 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21000 5450 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21000 5450 50  0001 C CNN "Description"
-F 7 "New Product" H 21000 5450 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21000 5450 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21000 5450 50  0001 C CNN "Description"
+F 7 "OK" H 21000 5450 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21000 5450 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21000 5450 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21000 5450 50  0001 C CNN "Price"
 	1    21000 5450
 	-1   0    0    1   
 $EndComp
@@ -1945,13 +1945,13 @@ P 22550 5450
 F 0 "R190" V 22446 5450 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 22580 5410 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 22480 5370 50  0001 C CNN
-F 3 "" H 22550 5450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 22550 5450 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 22680 5570 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 22550 5450 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22550 5450 50  0001 C CNN "Description"
-F 7 "New Product" H 22550 5450 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 22550 5450 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 22550 5450 50  0001 C CNN "Description"
+F 7 "OK" H 22550 5450 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22550 5450 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 22550 5450 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 22550 5450 50  0001 C CNN "Price"
 	1    22550 5450
 	-1   0    0    1   
 $EndComp
@@ -2371,13 +2371,13 @@ P 16225 3825
 F 0 "R86" V 16121 3825 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 16255 3785 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 16155 3745 50  0001 C CNN
-F 3 "" H 16225 3825 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 16225 3825 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 16355 3945 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 16225 3825 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 16225 3825 50  0001 C CNN "Description"
-F 7 "New Product" H 16225 3825 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 16225 3825 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 16225 3825 50  0001 C CNN "Description"
+F 7 "OK" H 16225 3825 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 16225 3825 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 16225 3825 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 16225 3825 50  0001 C CNN "Price"
 	1    16225 3825
 	-1   0    0    1   
 $EndComp
@@ -2388,13 +2388,13 @@ P 16000 3825
 F 0 "R84" V 15896 3825 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 16030 3785 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 15930 3745 50  0001 C CNN
-F 3 "" H 16000 3825 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 16000 3825 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 16130 3945 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 16000 3825 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 16000 3825 50  0001 C CNN "Description"
-F 7 "New Product" H 16000 3825 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 16000 3825 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 16000 3825 50  0001 C CNN "Description"
+F 7 "OK" H 16000 3825 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 16000 3825 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 16000 3825 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 16000 3825 50  0001 C CNN "Price"
 	1    16000 3825
 	-1   0    0    1   
 $EndComp
@@ -2706,13 +2706,13 @@ P 18825 8525
 F 0 "R104" V 18721 8525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 18855 8485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18755 8445 50  0001 C CNN
-F 3 "" H 18825 8525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18825 8525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18955 8645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18825 8525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18825 8525 50  0001 C CNN "Description"
-F 7 "New Product" H 18825 8525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18825 8525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18825 8525 50  0001 C CNN "Description"
+F 7 "OK" H 18825 8525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18825 8525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18825 8525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18825 8525 50  0001 C CNN "Price"
 	1    18825 8525
 	0    1    1    0   
 $EndComp
@@ -2738,13 +2738,13 @@ P 18825 9450
 F 0 "R107" V 18721 9450 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 18855 9410 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18755 9370 50  0001 C CNN
-F 3 "" H 18825 9450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18825 9450 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18955 9570 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18825 9450 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18825 9450 50  0001 C CNN "Description"
-F 7 "New Product" H 18825 9450 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18825 9450 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18825 9450 50  0001 C CNN "Description"
+F 7 "OK" H 18825 9450 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18825 9450 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18825 9450 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18825 9450 50  0001 C CNN "Price"
 	1    18825 9450
 	0    1    1    0   
 $EndComp
@@ -2834,13 +2834,13 @@ P 20300 8525
 F 0 "R141" V 20196 8525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 20330 8485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20230 8445 50  0001 C CNN
-F 3 "" H 20300 8525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20300 8525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20430 8645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20300 8525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20300 8525 50  0001 C CNN "Description"
-F 7 "New Product" H 20300 8525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20300 8525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20300 8525 50  0001 C CNN "Description"
+F 7 "OK" H 20300 8525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20300 8525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20300 8525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20300 8525 50  0001 C CNN "Price"
 	1    20300 8525
 	0    1    1    0   
 $EndComp
@@ -2864,13 +2864,13 @@ P 20300 9450
 F 0 "R144" V 20196 9450 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 20330 9410 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20230 9370 50  0001 C CNN
-F 3 "" H 20300 9450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20300 9450 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20430 9570 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20300 9450 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20300 9450 50  0001 C CNN "Description"
-F 7 "New Product" H 20300 9450 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20300 9450 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20300 9450 50  0001 C CNN "Description"
+F 7 "OK" H 20300 9450 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20300 9450 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20300 9450 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20300 9450 50  0001 C CNN "Price"
 	1    20300 9450
 	0    1    1    0   
 $EndComp
@@ -2956,13 +2956,13 @@ P 21850 8525
 F 0 "R173" V 21746 8525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21880 8485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21780 8445 50  0001 C CNN
-F 3 "" H 21850 8525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21850 8525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21980 8645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21850 8525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21850 8525 50  0001 C CNN "Description"
-F 7 "New Product" H 21850 8525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21850 8525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21850 8525 50  0001 C CNN "Description"
+F 7 "OK" H 21850 8525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21850 8525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21850 8525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21850 8525 50  0001 C CNN "Price"
 	1    21850 8525
 	0    1    1    0   
 $EndComp
@@ -2986,13 +2986,13 @@ P 21850 9450
 F 0 "R176" V 21746 9450 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21880 9410 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21780 9370 50  0001 C CNN
-F 3 "" H 21850 9450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21850 9450 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21980 9570 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21850 9450 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21850 9450 50  0001 C CNN "Description"
-F 7 "New Product" H 21850 9450 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21850 9450 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21850 9450 50  0001 C CNN "Description"
+F 7 "OK" H 21850 9450 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21850 9450 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21850 9450 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21850 9450 50  0001 C CNN "Price"
 	1    21850 9450
 	0    1    1    0   
 $EndComp
@@ -3223,13 +3223,13 @@ P 19450 9475
 F 0 "R120" V 19375 9475 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 19480 9435 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 19380 9395 50  0001 C CNN
-F 3 "" H 19450 9475 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19450 9475 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 19580 9595 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 19450 9475 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 19450 9475 50  0001 C CNN "Description"
-F 7 "New Product" H 19450 9475 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 19450 9475 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19450 9475 50  0001 C CNN "Description"
+F 7 "OK" H 19450 9475 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 19450 9475 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 19450 9475 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 19450 9475 50  0001 C CNN "Price"
 	1    19450 9475
 	-1   0    0    1   
 $EndComp
@@ -3343,13 +3343,13 @@ P 21000 9475
 F 0 "R159" V 20925 9475 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21030 9435 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20930 9395 50  0001 C CNN
-F 3 "" H 21000 9475 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21000 9475 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21130 9595 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21000 9475 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21000 9475 50  0001 C CNN "Description"
-F 7 "New Product" H 21000 9475 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21000 9475 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21000 9475 50  0001 C CNN "Description"
+F 7 "OK" H 21000 9475 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21000 9475 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21000 9475 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21000 9475 50  0001 C CNN "Price"
 	1    21000 9475
 	-1   0    0    1   
 $EndComp
@@ -3446,13 +3446,13 @@ P 22550 9475
 F 0 "R192" V 22475 9475 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 22580 9435 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 22480 9395 50  0001 C CNN
-F 3 "" H 22550 9475 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 22550 9475 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 22680 9595 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 22550 9475 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22550 9475 50  0001 C CNN "Description"
-F 7 "New Product" H 22550 9475 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 22550 9475 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 22550 9475 50  0001 C CNN "Description"
+F 7 "OK" H 22550 9475 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22550 9475 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 22550 9475 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 22550 9475 50  0001 C CNN "Price"
 	1    22550 9475
 	-1   0    0    1   
 $EndComp
@@ -3872,13 +3872,13 @@ P 16225 7850
 F 0 "R87" V 16121 7850 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 16255 7810 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 16155 7770 50  0001 C CNN
-F 3 "" H 16225 7850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 16225 7850 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 16355 7970 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 16225 7850 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 16225 7850 50  0001 C CNN "Description"
-F 7 "New Product" H 16225 7850 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 16225 7850 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 16225 7850 50  0001 C CNN "Description"
+F 7 "OK" H 16225 7850 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 16225 7850 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 16225 7850 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 16225 7850 50  0001 C CNN "Price"
 	1    16225 7850
 	-1   0    0    1   
 $EndComp
@@ -3889,13 +3889,13 @@ P 16000 7850
 F 0 "R85" V 15896 7850 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 16030 7810 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 15930 7770 50  0001 C CNN
-F 3 "" H 16000 7850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 16000 7850 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 16130 7970 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 16000 7850 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 16000 7850 50  0001 C CNN "Description"
-F 7 "New Product" H 16000 7850 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 16000 7850 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 16000 7850 50  0001 C CNN "Description"
+F 7 "OK" H 16000 7850 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 16000 7850 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 16000 7850 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 16000 7850 50  0001 C CNN "Price"
 	1    16000 7850
 	-1   0    0    1   
 $EndComp
@@ -4344,13 +4344,13 @@ P 21600 6725
 F 0 "R183" H 21700 6975 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21630 6685 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21530 6645 50  0001 C CNN
-F 3 "" H 21600 6725 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21600 6725 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21730 6845 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21600 6725 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21600 6725 50  0001 C CNN "Description"
-F 7 "New Product" H 21600 6725 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21600 6725 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21600 6725 50  0001 C CNN "Description"
+F 7 "OK" H 21600 6725 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21600 6725 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21600 6725 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21600 6725 50  0001 C CNN "Price"
 	1    21600 6725
 	-1   0    0    1   
 $EndComp
@@ -4361,13 +4361,13 @@ P 21700 6725
 F 0 "R184" H 21700 6975 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21730 6685 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21630 6645 50  0001 C CNN
-F 3 "" H 21700 6725 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21700 6725 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21830 6845 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21700 6725 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21700 6725 50  0001 C CNN "Description"
-F 7 "New Product" H 21700 6725 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21700 6725 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21700 6725 50  0001 C CNN "Description"
+F 7 "OK" H 21700 6725 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21700 6725 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21700 6725 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21700 6725 50  0001 C CNN "Price"
 	1    21700 6725
 	-1   0    0    1   
 $EndComp
@@ -4378,13 +4378,13 @@ P 21800 6725
 F 0 "R185" H 21700 6975 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21830 6685 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21730 6645 50  0001 C CNN
-F 3 "" H 21800 6725 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21800 6725 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21930 6845 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21800 6725 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21800 6725 50  0001 C CNN "Description"
-F 7 "New Product" H 21800 6725 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21800 6725 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21800 6725 50  0001 C CNN "Description"
+F 7 "OK" H 21800 6725 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21800 6725 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21800 6725 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21800 6725 50  0001 C CNN "Price"
 	1    21800 6725
 	-1   0    0    1   
 $EndComp
@@ -4573,13 +4573,13 @@ P 21600 10700
 F 0 "R186" H 21700 10950 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21630 10660 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21530 10620 50  0001 C CNN
-F 3 "" H 21600 10700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21600 10700 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21730 10820 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21600 10700 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21600 10700 50  0001 C CNN "Description"
-F 7 "New Product" H 21600 10700 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21600 10700 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21600 10700 50  0001 C CNN "Description"
+F 7 "OK" H 21600 10700 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21600 10700 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21600 10700 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21600 10700 50  0001 C CNN "Price"
 	1    21600 10700
 	-1   0    0    1   
 $EndComp
@@ -4590,13 +4590,13 @@ P 21700 10700
 F 0 "R187" H 21700 10950 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21730 10660 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21630 10620 50  0001 C CNN
-F 3 "" H 21700 10700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21700 10700 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21830 10820 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21700 10700 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21700 10700 50  0001 C CNN "Description"
-F 7 "New Product" H 21700 10700 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21700 10700 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21700 10700 50  0001 C CNN "Description"
+F 7 "OK" H 21700 10700 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21700 10700 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21700 10700 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21700 10700 50  0001 C CNN "Price"
 	1    21700 10700
 	-1   0    0    1   
 $EndComp
@@ -4607,13 +4607,13 @@ P 21800 10700
 F 0 "R188" H 21700 10950 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21830 10660 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21730 10620 50  0001 C CNN
-F 3 "" H 21800 10700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21800 10700 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21930 10820 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21800 10700 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21800 10700 50  0001 C CNN "Description"
-F 7 "New Product" H 21800 10700 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21800 10700 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21800 10700 50  0001 C CNN "Description"
+F 7 "OK" H 21800 10700 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21800 10700 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21800 10700 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21800 10700 50  0001 C CNN "Price"
 	1    21800 10700
 	-1   0    0    1   
 $EndComp
@@ -7000,13 +7000,13 @@ P 1925 17525
 F 0 "R6" V 2000 17525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 1955 17485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1855 17445 50  0001 C CNN
-F 3 "" H 1925 17525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1925 17525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 2055 17645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 1925 17525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 1925 17525 50  0001 C CNN "Description"
-F 7 "New Product" H 1925 17525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 1925 17525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 1925 17525 50  0001 C CNN "Description"
+F 7 "OK" H 1925 17525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 1925 17525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 1925 17525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 1925 17525 50  0001 C CNN "Price"
 	1    1925 17525
 	0    1    1    0   
 $EndComp
@@ -7019,13 +7019,13 @@ P 1925 18525
 F 0 "R7" V 2000 18525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 1955 18485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1855 18445 50  0001 C CNN
-F 3 "" H 1925 18525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1925 18525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 2055 18645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 1925 18525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 1925 18525 50  0001 C CNN "Description"
-F 7 "New Product" H 1925 18525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 1925 18525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 1925 18525 50  0001 C CNN "Description"
+F 7 "OK" H 1925 18525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 1925 18525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 1925 18525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 1925 18525 50  0001 C CNN "Price"
 	1    1925 18525
 	0    1    1    0   
 $EndComp
@@ -7038,13 +7038,13 @@ P 1925 19525
 F 0 "R8" V 2000 19525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 1955 19485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1855 19445 50  0001 C CNN
-F 3 "" H 1925 19525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1925 19525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 2055 19645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 1925 19525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 1925 19525 50  0001 C CNN "Description"
-F 7 "New Product" H 1925 19525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 1925 19525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 1925 19525 50  0001 C CNN "Description"
+F 7 "OK" H 1925 19525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 1925 19525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 1925 19525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 1925 19525 50  0001 C CNN "Price"
 	1    1925 19525
 	0    1    1    0   
 $EndComp
@@ -7057,13 +7057,13 @@ P 1925 20525
 F 0 "R9" V 2000 20525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 1955 20485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1855 20445 50  0001 C CNN
-F 3 "" H 1925 20525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1925 20525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 2055 20645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 1925 20525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 1925 20525 50  0001 C CNN "Description"
-F 7 "New Product" H 1925 20525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 1925 20525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 1925 20525 50  0001 C CNN "Description"
+F 7 "OK" H 1925 20525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 1925 20525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 1925 20525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 1925 20525 50  0001 C CNN "Price"
 	1    1925 20525
 	0    1    1    0   
 $EndComp
@@ -7720,13 +7720,13 @@ P 1925 13525
 F 0 "R2" V 2000 13525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 1955 13485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1855 13445 50  0001 C CNN
-F 3 "" H 1925 13525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1925 13525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 2055 13645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 1925 13525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 1925 13525 50  0001 C CNN "Description"
-F 7 "New Product" H 1925 13525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 1925 13525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 1925 13525 50  0001 C CNN "Description"
+F 7 "OK" H 1925 13525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 1925 13525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 1925 13525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 1925 13525 50  0001 C CNN "Price"
 	1    1925 13525
 	0    1    1    0   
 $EndComp
@@ -7739,13 +7739,13 @@ P 1925 14525
 F 0 "R3" V 2000 14525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 1955 14485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1855 14445 50  0001 C CNN
-F 3 "" H 1925 14525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1925 14525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 2055 14645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 1925 14525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 1925 14525 50  0001 C CNN "Description"
-F 7 "New Product" H 1925 14525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 1925 14525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 1925 14525 50  0001 C CNN "Description"
+F 7 "OK" H 1925 14525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 1925 14525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 1925 14525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 1925 14525 50  0001 C CNN "Price"
 	1    1925 14525
 	0    1    1    0   
 $EndComp
@@ -7758,13 +7758,13 @@ P 1925 15525
 F 0 "R4" V 2000 15525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 1955 15485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1855 15445 50  0001 C CNN
-F 3 "" H 1925 15525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1925 15525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 2055 15645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 1925 15525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 1925 15525 50  0001 C CNN "Description"
-F 7 "New Product" H 1925 15525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 1925 15525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 1925 15525 50  0001 C CNN "Description"
+F 7 "OK" H 1925 15525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 1925 15525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 1925 15525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 1925 15525 50  0001 C CNN "Price"
 	1    1925 15525
 	0    1    1    0   
 $EndComp
@@ -7777,13 +7777,13 @@ P 1925 16525
 F 0 "R5" V 2000 16525 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 1955 16485 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1855 16445 50  0001 C CNN
-F 3 "" H 1925 16525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1925 16525 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 2055 16645 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 1925 16525 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 1925 16525 50  0001 C CNN "Description"
-F 7 "New Product" H 1925 16525 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 1925 16525 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 1925 16525 50  0001 C CNN "Description"
+F 7 "OK" H 1925 16525 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 1925 16525 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 1925 16525 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 1925 16525 50  0001 C CNN "Price"
 	1    1925 16525
 	0    1    1    0   
 $EndComp
@@ -9121,7 +9121,7 @@ Wire Notes Line
 Wire Notes Line
 	3400 10025 2600 10025
 $Comp
-L SwEmb:LAN9252 U30
+L SwEmb:IC_LAN9252 U30
 U 1 1 6B86D8DD
 P 16650 17875
 F 0 "U30" H 15275 19525 50  0000 C CNN
@@ -10539,13 +10539,13 @@ P 19100 18925
 F 0 "R110" V 19050 18750 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 19130 18885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 19030 18845 50  0001 C CNN
-F 3 "" H 19100 18925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19100 18925 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 19230 19045 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 19100 18925 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 19100 18925 50  0001 C CNN "Description"
-F 7 "New Product" H 19100 18925 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 19100 18925 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19100 18925 50  0001 C CNN "Description"
+F 7 "OK" H 19100 18925 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 19100 18925 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 19100 18925 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 19100 18925 50  0001 C CNN "Price"
 	1    19100 18925
 	-1   0    0    1   
 $EndComp
@@ -10556,13 +10556,13 @@ P 19000 18925
 F 0 "R108" V 18950 18750 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 19030 18885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18930 18845 50  0001 C CNN
-F 3 "" H 19000 18925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19000 18925 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 19130 19045 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 19000 18925 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 19000 18925 50  0001 C CNN "Description"
-F 7 "New Product" H 19000 18925 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 19000 18925 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19000 18925 50  0001 C CNN "Description"
+F 7 "OK" H 19000 18925 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 19000 18925 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 19000 18925 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 19000 18925 50  0001 C CNN "Price"
 	1    19000 18925
 	-1   0    0    1   
 $EndComp
@@ -10613,13 +10613,13 @@ P 19200 18925
 F 0 "R113" V 19150 18750 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 19230 18885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 19130 18845 50  0001 C CNN
-F 3 "" H 19200 18925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19200 18925 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 19330 19045 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 19200 18925 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 19200 18925 50  0001 C CNN "Description"
-F 7 "New Product" H 19200 18925 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 19200 18925 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19200 18925 50  0001 C CNN "Description"
+F 7 "OK" H 19200 18925 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 19200 18925 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 19200 18925 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 19200 18925 50  0001 C CNN "Price"
 	1    19200 18925
 	-1   0    0    1   
 $EndComp
@@ -10707,13 +10707,13 @@ P 19300 18925
 F 0 "R116" V 19250 18750 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 19330 18885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 19230 18845 50  0001 C CNN
-F 3 "" H 19300 18925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19300 18925 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 19430 19045 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 19300 18925 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 19300 18925 50  0001 C CNN "Description"
-F 7 "New Product" H 19300 18925 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 19300 18925 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19300 18925 50  0001 C CNN "Description"
+F 7 "OK" H 19300 18925 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 19300 18925 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 19300 18925 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 19300 18925 50  0001 C CNN "Price"
 	1    19300 18925
 	-1   0    0    1   
 $EndComp
@@ -10921,13 +10921,13 @@ P 20700 19250
 F 0 "R149" V 20625 19250 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 20730 19210 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20630 19170 50  0001 C CNN
-F 3 "" H 20700 19250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20700 19250 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20830 19370 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20700 19250 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20700 19250 50  0001 C CNN "Description"
-F 7 "New Product" H 20700 19250 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20700 19250 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20700 19250 50  0001 C CNN "Description"
+F 7 "OK" H 20700 19250 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20700 19250 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20700 19250 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20700 19250 50  0001 C CNN "Price"
 	1    20700 19250
 	-1   0    0    1   
 $EndComp
@@ -10950,13 +10950,13 @@ P 21075 17650
 F 0 "R160" V 21000 17650 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 21105 17610 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21005 17570 50  0001 C CNN
-F 3 "" H 21075 17650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 21075 17650 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 21205 17770 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 21075 17650 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 21075 17650 50  0001 C CNN "Description"
-F 7 "New Product" H 21075 17650 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 21075 17650 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 21075 17650 50  0001 C CNN "Description"
+F 7 "OK" H 21075 17650 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 21075 17650 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 21075 17650 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 21075 17650 50  0001 C CNN "Price"
 	1    21075 17650
 	0    1    1    0   
 $EndComp
@@ -11168,13 +11168,13 @@ P 7000 21750
 F 0 "R38" V 6896 21750 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 7030 21710 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6930 21670 50  0001 C CNN
-F 3 "" H 7000 21750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 7000 21750 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 7130 21870 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 7000 21750 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 7000 21750 50  0001 C CNN "Description"
-F 7 "New Product" H 7000 21750 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 7000 21750 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 7000 21750 50  0001 C CNN "Description"
+F 7 "OK" H 7000 21750 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 7000 21750 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 7000 21750 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 7000 21750 50  0001 C CNN "Price"
 	1    7000 21750
 	0    1    1    0   
 $EndComp
@@ -11306,12 +11306,12 @@ P 9125 22050
 F 0 "R49" H 9184 22050 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 9155 22010 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9055 21970 50  0001 C CNN
-F 3 "" H 9155 22070 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 9155 22070 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 9125 21750 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 9125 22050 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 9125 22050 50  0001 C CNN "Description"
-F 7 "0.114  EUR" H 9125 22050 50  0001 C CNN "Price"
-F 8 "New Product" H 9125 22050 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 9125 22050 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 9125 22050 50  0001 C CNN "Description"
+F 7 "0.087  EUR" H 9125 22050 50  0001 C CNN "Price"
+F 8 "OK" H 9125 22050 50  0001 C CNN "LifeCycle"
 F 9 "Mouser" H 9125 22050 50  0001 C CNN "Vendor"
 	1    9125 22050
 	1    0    0    -1  
@@ -11911,13 +11911,13 @@ P 13000 21550
 F 0 "R62" V 13075 21550 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 13030 21510 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12930 21470 50  0001 C CNN
-F 3 "" H 13000 21550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 13000 21550 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 13130 21670 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 13000 21550 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 13000 21550 50  0001 C CNN "Description"
-F 7 "New Product" H 13000 21550 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 13000 21550 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 13000 21550 50  0001 C CNN "Description"
+F 7 "OK" H 13000 21550 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 13000 21550 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 13000 21550 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 13000 21550 50  0001 C CNN "Price"
 	1    13000 21550
 	0    1    1    0   
 $EndComp
@@ -11931,18 +11931,18 @@ Wire Wire Line
 $Comp
 L SwEmb:LB_220R_2A_0603 FB1
 U 1 1 8C81ED21
-P 6900 1000
-F 0 "FB1" V 7004 1000 50  0000 C CNN
-F 1 "LB_220R_2A_0603" H 6930 960 50  0001 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 6830 920 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" H 6930 1020 50  0001 C CNN
-F 4 "BLM18EG221SN1D" H 6900 700 50  0001 C CNN "MPN"
-F 5 "193480 In Stock" H 6900 1000 50  0001 C CNN "Availability"
-F 6 "Ferrite Beads 220ohms GHz General Usage" H 6900 1000 50  0001 C CNN "Description"
-F 7 "0.201  EUR" H 6900 1000 50  0001 C CNN "Price"
-F 8 "OK" H 6900 1000 50  0001 C CNN "LifeCycle"
-F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
-	1    6900 1000
+P 7400 1000
+F 0 "FB1" V 7504 1000 50  0000 C CNN
+F 1 "LB_220R_2A_0603" H 7430 960 50  0001 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 7330 920 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" H 7430 1020 50  0001 C CNN
+F 4 "BLM18EG221SN1D" H 7400 700 50  0001 C CNN "MPN"
+F 5 "193480 In Stock" H 7400 1000 50  0001 C CNN "Availability"
+F 6 "Ferrite Beads 220ohms GHz General Usage" H 7400 1000 50  0001 C CNN "Description"
+F 7 "0.201  EUR" H 7400 1000 50  0001 C CNN "Price"
+F 8 "OK" H 7400 1000 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 500 0   50  0001 C CNN "Vendor"
+	1    7400 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -11979,28 +11979,16 @@ F 3 "" H 7450 21400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 1000 7575 1000
+	7500 1000 7575 1000
 Connection ~ 7575 1650
 Wire Wire Line
 	7675 1650 7675 1750
 Wire Wire Line
 	7575 1650 7675 1650
-Text GLabel 7500 1250 0    50   Input ~ 0
+Text GLabel 6875 925  1    50   Input ~ 0
 VREF1
-Text GLabel 7500 1350 0    50   Input ~ 0
+Text GLabel 7000 925  1    50   Input ~ 0
 VREF2
-Wire Wire Line
-	7500 1250 7575 1250
-Connection ~ 7575 1250
-Wire Wire Line
-	7575 1250 7575 1350
-Wire Wire Line
-	7500 1350 7575 1350
-Connection ~ 7575 1350
-Wire Wire Line
-	7575 1350 7575 1650
-Wire Wire Line
-	7575 1000 7575 1250
 Text GLabel 14750 21300 2    50   Input ~ 0
 VDD_3V3_MCU
 Text GLabel 12050 21100 2    50   Input ~ 0
@@ -13315,13 +13303,13 @@ P 7750 13700
 F 0 "R41" H 7809 13700 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 7780 13660 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7680 13620 50  0001 C CNN
-F 3 "" H 7750 13700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 7750 13700 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 7880 13820 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 7750 13700 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 7750 13700 50  0001 C CNN "Description"
-F 7 "New Product" H 7750 13700 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 7750 13700 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 7750 13700 50  0001 C CNN "Description"
+F 7 "OK" H 7750 13700 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 7750 13700 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 7750 13700 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 7750 13700 50  0001 C CNN "Price"
 	1    7750 13700
 	1    0    0    -1  
 $EndComp
@@ -13451,13 +13439,13 @@ P 7750 14675
 F 0 "R42" H 7809 14675 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 7780 14635 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7680 14595 50  0001 C CNN
-F 3 "" H 7750 14675 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 7750 14675 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 7880 14795 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 7750 14675 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 7750 14675 50  0001 C CNN "Description"
-F 7 "New Product" H 7750 14675 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 7750 14675 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 7750 14675 50  0001 C CNN "Description"
+F 7 "OK" H 7750 14675 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 7750 14675 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 7750 14675 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 7750 14675 50  0001 C CNN "Price"
 	1    7750 14675
 	1    0    0    -1  
 $EndComp
@@ -13528,13 +13516,13 @@ P 9300 13700
 F 0 "R53" H 9359 13700 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 9330 13660 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9230 13620 50  0001 C CNN
-F 3 "" H 9300 13700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 9300 13700 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 9430 13820 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 9300 13700 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 9300 13700 50  0001 C CNN "Description"
-F 7 "New Product" H 9300 13700 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 9300 13700 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 9300 13700 50  0001 C CNN "Description"
+F 7 "OK" H 9300 13700 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 9300 13700 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 9300 13700 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 9300 13700 50  0001 C CNN "Price"
 	1    9300 13700
 	1    0    0    -1  
 $EndComp
@@ -13605,13 +13593,13 @@ P 9300 14675
 F 0 "R54" H 9359 14675 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 9330 14635 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9230 14595 50  0001 C CNN
-F 3 "" H 9300 14675 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 9300 14675 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 9430 14795 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 9300 14675 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 9300 14675 50  0001 C CNN "Description"
-F 7 "New Product" H 9300 14675 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 9300 14675 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 9300 14675 50  0001 C CNN "Description"
+F 7 "OK" H 9300 14675 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 9300 14675 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 9300 14675 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 9300 14675 50  0001 C CNN "Price"
 	1    9300 14675
 	1    0    0    -1  
 $EndComp
@@ -14435,13 +14423,13 @@ P 18550 2800
 F 0 "R99" V 18446 2800 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 18580 2760 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18480 2720 50  0001 C CNN
-F 3 "" H 18550 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18550 2800 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18680 2920 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18550 2800 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18550 2800 50  0001 C CNN "Description"
-F 7 "New Product" H 18550 2800 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18550 2800 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18550 2800 50  0001 C CNN "Description"
+F 7 "OK" H 18550 2800 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18550 2800 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18550 2800 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18550 2800 50  0001 C CNN "Price"
 	1    18550 2800
 	0    1    1    0   
 $EndComp
@@ -14452,13 +14440,13 @@ P 20275 2800
 F 0 "R136" V 20171 2800 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 20305 2760 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20205 2720 50  0001 C CNN
-F 3 "" H 20275 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20275 2800 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20405 2920 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20275 2800 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20275 2800 50  0001 C CNN "Description"
-F 7 "New Product" H 20275 2800 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20275 2800 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20275 2800 50  0001 C CNN "Description"
+F 7 "OK" H 20275 2800 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20275 2800 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20275 2800 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20275 2800 50  0001 C CNN "Price"
 	1    20275 2800
 	0    1    1    0   
 $EndComp
@@ -14469,13 +14457,13 @@ P 22000 2800
 F 0 "R182" V 21896 2800 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 22030 2760 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21930 2720 50  0001 C CNN
-F 3 "" H 22000 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 22000 2800 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 22130 2920 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 22000 2800 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22000 2800 50  0001 C CNN "Description"
-F 7 "New Product" H 22000 2800 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 22000 2800 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 22000 2800 50  0001 C CNN "Description"
+F 7 "OK" H 22000 2800 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22000 2800 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 22000 2800 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 22000 2800 50  0001 C CNN "Price"
 	1    22000 2800
 	0    1    1    0   
 $EndComp
@@ -14547,13 +14535,13 @@ P 17175 2300
 F 0 "R90" H 17116 2300 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 17205 2260 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 17105 2220 50  0001 C CNN
-F 3 "" H 17175 2300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 17175 2300 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 17305 2420 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 17175 2300 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 17175 2300 50  0001 C CNN "Description"
-F 7 "New Product" H 17175 2300 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 17175 2300 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 17175 2300 50  0001 C CNN "Description"
+F 7 "OK" H 17175 2300 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 17175 2300 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 17175 2300 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 17175 2300 50  0001 C CNN "Price"
 	1    17175 2300
 	-1   0    0    1   
 $EndComp
@@ -14564,13 +14552,13 @@ P 17175 2575
 F 0 "R91" H 17116 2575 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 17205 2535 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 17105 2495 50  0001 C CNN
-F 3 "" H 17175 2575 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 17175 2575 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 17305 2695 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 17175 2575 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 17175 2575 50  0001 C CNN "Description"
-F 7 "New Product" H 17175 2575 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 17175 2575 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 17175 2575 50  0001 C CNN "Description"
+F 7 "OK" H 17175 2575 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 17175 2575 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 17175 2575 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 17175 2575 50  0001 C CNN "Price"
 	1    17175 2575
 	-1   0    0    1   
 $EndComp
@@ -14602,13 +14590,13 @@ P 18550 2400
 F 0 "R98" H 18491 2400 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 18580 2360 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18480 2320 50  0001 C CNN
-F 3 "" H 18550 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18550 2400 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18680 2520 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18550 2400 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18550 2400 50  0001 C CNN "Description"
-F 7 "New Product" H 18550 2400 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18550 2400 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18550 2400 50  0001 C CNN "Description"
+F 7 "OK" H 18550 2400 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18550 2400 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18550 2400 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18550 2400 50  0001 C CNN "Price"
 	1    18550 2400
 	-1   0    0    1   
 $EndComp
@@ -14619,13 +14607,13 @@ P 18550 2100
 F 0 "R97" H 18491 2100 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 18580 2060 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18480 2020 50  0001 C CNN
-F 3 "" H 18550 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18550 2100 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18680 2220 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18550 2100 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18550 2100 50  0001 C CNN "Description"
-F 7 "New Product" H 18550 2100 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18550 2100 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18550 2100 50  0001 C CNN "Description"
+F 7 "OK" H 18550 2100 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18550 2100 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18550 2100 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18550 2100 50  0001 C CNN "Price"
 	1    18550 2100
 	-1   0    0    1   
 $EndComp
@@ -14647,13 +14635,13 @@ P 20275 2400
 F 0 "R135" H 20225 2350 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 20305 2360 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20205 2320 50  0001 C CNN
-F 3 "" H 20275 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20275 2400 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20405 2520 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20275 2400 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20275 2400 50  0001 C CNN "Description"
-F 7 "New Product" H 20275 2400 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20275 2400 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20275 2400 50  0001 C CNN "Description"
+F 7 "OK" H 20275 2400 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20275 2400 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20275 2400 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20275 2400 50  0001 C CNN "Price"
 	1    20275 2400
 	-1   0    0    1   
 $EndComp
@@ -14664,13 +14652,13 @@ P 20275 2100
 F 0 "R134" H 20216 2100 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 20305 2060 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20205 2020 50  0001 C CNN
-F 3 "" H 20275 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20275 2100 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20405 2220 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20275 2100 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20275 2100 50  0001 C CNN "Description"
-F 7 "New Product" H 20275 2100 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20275 2100 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20275 2100 50  0001 C CNN "Description"
+F 7 "OK" H 20275 2100 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20275 2100 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20275 2100 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20275 2100 50  0001 C CNN "Price"
 	1    20275 2100
 	-1   0    0    1   
 $EndComp
@@ -14692,13 +14680,13 @@ P 22000 2100
 F 0 "R180" H 21941 2100 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 22030 2060 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21930 2020 50  0001 C CNN
-F 3 "" H 22000 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 22000 2100 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 22130 2220 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 22000 2100 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22000 2100 50  0001 C CNN "Description"
-F 7 "New Product" H 22000 2100 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 22000 2100 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 22000 2100 50  0001 C CNN "Description"
+F 7 "OK" H 22000 2100 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22000 2100 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 22000 2100 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 22000 2100 50  0001 C CNN "Price"
 	1    22000 2100
 	-1   0    0    1   
 $EndComp
@@ -14709,13 +14697,13 @@ P 22000 2400
 F 0 "R181" H 21950 2350 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 22030 2360 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21930 2320 50  0001 C CNN
-F 3 "" H 22000 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 22000 2400 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 22130 2520 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 22000 2400 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22000 2400 50  0001 C CNN "Description"
-F 7 "New Product" H 22000 2400 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 22000 2400 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 22000 2400 50  0001 C CNN "Description"
+F 7 "OK" H 22000 2400 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22000 2400 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 22000 2400 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 22000 2400 50  0001 C CNN "Price"
 	1    22000 2400
 	-1   0    0    1   
 $EndComp
@@ -15034,13 +15022,13 @@ P 18550 1625
 F 0 "R96" V 18446 1625 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 18580 1585 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18480 1545 50  0001 C CNN
-F 3 "" H 18550 1625 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18550 1625 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18680 1745 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18550 1625 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18550 1625 50  0001 C CNN "Description"
-F 7 "New Product" H 18550 1625 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18550 1625 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18550 1625 50  0001 C CNN "Description"
+F 7 "OK" H 18550 1625 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18550 1625 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18550 1625 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18550 1625 50  0001 C CNN "Price"
 	1    18550 1625
 	0    1    1    0   
 $EndComp
@@ -15051,13 +15039,13 @@ P 20275 1625
 F 0 "R133" V 20171 1625 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 20305 1585 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20205 1545 50  0001 C CNN
-F 3 "" H 20275 1625 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20275 1625 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20405 1745 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20275 1625 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20275 1625 50  0001 C CNN "Description"
-F 7 "New Product" H 20275 1625 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20275 1625 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20275 1625 50  0001 C CNN "Description"
+F 7 "OK" H 20275 1625 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20275 1625 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20275 1625 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20275 1625 50  0001 C CNN "Price"
 	1    20275 1625
 	0    1    1    0   
 $EndComp
@@ -15068,13 +15056,13 @@ P 22000 1625
 F 0 "R179" V 21896 1625 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 22030 1585 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21930 1545 50  0001 C CNN
-F 3 "" H 22000 1625 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 22000 1625 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 22130 1745 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 22000 1625 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22000 1625 50  0001 C CNN "Description"
-F 7 "New Product" H 22000 1625 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 22000 1625 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 22000 1625 50  0001 C CNN "Description"
+F 7 "OK" H 22000 1625 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22000 1625 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 22000 1625 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 22000 1625 50  0001 C CNN "Price"
 	1    22000 1625
 	0    1    1    0   
 $EndComp
@@ -15146,13 +15134,13 @@ P 17175 1125
 F 0 "R88" H 17116 1125 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 17205 1085 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 17105 1045 50  0001 C CNN
-F 3 "" H 17175 1125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 17175 1125 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 17305 1245 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 17175 1125 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 17175 1125 50  0001 C CNN "Description"
-F 7 "New Product" H 17175 1125 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 17175 1125 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 17175 1125 50  0001 C CNN "Description"
+F 7 "OK" H 17175 1125 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 17175 1125 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 17175 1125 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 17175 1125 50  0001 C CNN "Price"
 	1    17175 1125
 	-1   0    0    1   
 $EndComp
@@ -15163,13 +15151,13 @@ P 17175 1400
 F 0 "R89" H 17116 1400 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 17205 1360 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 17105 1320 50  0001 C CNN
-F 3 "" H 17175 1400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 17175 1400 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 17305 1520 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 17175 1400 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 17175 1400 50  0001 C CNN "Description"
-F 7 "New Product" H 17175 1400 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 17175 1400 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 17175 1400 50  0001 C CNN "Description"
+F 7 "OK" H 17175 1400 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 17175 1400 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 17175 1400 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 17175 1400 50  0001 C CNN "Price"
 	1    17175 1400
 	-1   0    0    1   
 $EndComp
@@ -15201,13 +15189,13 @@ P 18550 1225
 F 0 "R95" H 18491 1225 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 18580 1185 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18480 1145 50  0001 C CNN
-F 3 "" H 18550 1225 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18550 1225 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18680 1345 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18550 1225 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18550 1225 50  0001 C CNN "Description"
-F 7 "New Product" H 18550 1225 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18550 1225 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18550 1225 50  0001 C CNN "Description"
+F 7 "OK" H 18550 1225 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18550 1225 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18550 1225 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18550 1225 50  0001 C CNN "Price"
 	1    18550 1225
 	-1   0    0    1   
 $EndComp
@@ -15218,13 +15206,13 @@ P 18550 925
 F 0 "R94" H 18491 925 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 18580 885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 18480 845 50  0001 C CNN
-F 3 "" H 18550 925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 18550 925 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 18680 1045 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 18550 925 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 18550 925 50  0001 C CNN "Description"
-F 7 "New Product" H 18550 925 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 18550 925 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 18550 925 50  0001 C CNN "Description"
+F 7 "OK" H 18550 925 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 18550 925 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 18550 925 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 18550 925 50  0001 C CNN "Price"
 	1    18550 925 
 	-1   0    0    1   
 $EndComp
@@ -15246,13 +15234,13 @@ P 20275 1225
 F 0 "R132" H 20250 1200 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 20305 1185 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20205 1145 50  0001 C CNN
-F 3 "" H 20275 1225 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20275 1225 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20405 1345 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20275 1225 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20275 1225 50  0001 C CNN "Description"
-F 7 "New Product" H 20275 1225 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20275 1225 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20275 1225 50  0001 C CNN "Description"
+F 7 "OK" H 20275 1225 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20275 1225 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20275 1225 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20275 1225 50  0001 C CNN "Price"
 	1    20275 1225
 	-1   0    0    1   
 $EndComp
@@ -15263,13 +15251,13 @@ P 20275 925
 F 0 "R131" H 20216 925 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 20305 885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 20205 845 50  0001 C CNN
-F 3 "" H 20275 925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 20275 925 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 20405 1045 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 20275 925 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 20275 925 50  0001 C CNN "Description"
-F 7 "New Product" H 20275 925 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 20275 925 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 20275 925 50  0001 C CNN "Description"
+F 7 "OK" H 20275 925 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 20275 925 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 20275 925 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 20275 925 50  0001 C CNN "Price"
 	1    20275 925 
 	-1   0    0    1   
 $EndComp
@@ -15291,13 +15279,13 @@ P 22000 925
 F 0 "R177" H 21941 925 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 22030 885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21930 845 50  0001 C CNN
-F 3 "" H 22000 925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 22000 925 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 22130 1045 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 22000 925 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22000 925 50  0001 C CNN "Description"
-F 7 "New Product" H 22000 925 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 22000 925 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 22000 925 50  0001 C CNN "Description"
+F 7 "OK" H 22000 925 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22000 925 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 22000 925 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 22000 925 50  0001 C CNN "Price"
 	1    22000 925 
 	-1   0    0    1   
 $EndComp
@@ -15308,13 +15296,13 @@ P 22000 1225
 F 0 "R178" H 21950 1175 50  0000 R CNN
 F 1 "RES_10K_1%_0402" H 22030 1185 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 21930 1145 50  0001 C CNN
-F 3 "" H 22000 1225 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 22000 1225 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 22130 1345 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 22000 1225 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 22000 1225 50  0001 C CNN "Description"
-F 7 "New Product" H 22000 1225 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 22000 1225 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 22000 1225 50  0001 C CNN "Description"
+F 7 "OK" H 22000 1225 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 22000 1225 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 22000 1225 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 22000 1225 50  0001 C CNN "Price"
 	1    22000 1225
 	-1   0    0    1   
 $EndComp
@@ -15942,7 +15930,7 @@ U 1 1 C9AEF839
 P 11925 13975
 F 0 "U21" H 11450 13075 39  0000 C CNN
 F 1 "IC_LP55231" H 12225 13075 39  0000 C CNN
-F 2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" H 11825 12575 39  0001 C CNN
+F 2 "CUSTOM:WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_Thermal" H 11825 12575 39  0001 C CNN
 F 3 "" H 11925 12575 39  0001 C CNN
 F 4 "LP55231SQX/NOPB" H 11925 12575 39  0001 C CNN "MPN"
 F 5 "19443 In Stock" H 0   0   50  0001 C CNN "Availability"
@@ -16849,13 +16837,13 @@ P 6325 20125
 F 0 "R195" V 6221 20125 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 6355 20085 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6255 20045 50  0001 C CNN
-F 3 "" H 6325 20125 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 6325 20125 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 6455 20245 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 6325 20125 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 6325 20125 50  0001 C CNN "Description"
-F 7 "New Product" H 6325 20125 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 6325 20125 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 6325 20125 50  0001 C CNN "Description"
+F 7 "OK" H 6325 20125 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 6325 20125 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 6325 20125 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 6325 20125 50  0001 C CNN "Price"
 	1    6325 20125
 	0    1    1    0   
 $EndComp
@@ -16910,12 +16898,12 @@ P 7475 20225
 F 0 "R197" H 7534 20225 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 7505 20185 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7405 20145 50  0001 C CNN
-F 3 "" H 7505 20245 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 7505 20245 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 7605 20345 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 7475 20225 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 7475 20225 50  0001 C CNN "Description"
-F 7 "New Product" H 7475 20225 50  0001 C CNN "LifeCycle"
-F 8 "0.114  EUR" H 7475 20225 50  0001 C CNN "Price"
+F 5 "25734340 In Stock" H 7475 20225 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 7475 20225 50  0001 C CNN "Description"
+F 7 "OK" H 7475 20225 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 7475 20225 50  0001 C CNN "Price"
 F 9 "Mouser" H 7475 20225 50  0001 C CNN "Vendor"
 	1    7475 20225
 	1    0    0    -1  
@@ -16927,12 +16915,12 @@ P 7275 19875
 F 0 "R196" V 7171 19875 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 7305 19835 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7205 19795 50  0001 C CNN
-F 3 "" H 7305 19895 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 7305 19895 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 7405 19995 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 7275 19875 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 7275 19875 50  0001 C CNN "Description"
-F 7 "New Product" H 7275 19875 50  0001 C CNN "LifeCycle"
-F 8 "0.114  EUR" H 7275 19875 50  0001 C CNN "Price"
+F 5 "25734340 In Stock" H 7275 19875 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 7275 19875 50  0001 C CNN "Description"
+F 7 "OK" H 7275 19875 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 7275 19875 50  0001 C CNN "Price"
 F 9 "Mouser" H 7275 19875 50  0001 C CNN "Vendor"
 	1    7275 19875
 	0    1    1    0   
@@ -17439,13 +17427,13 @@ P 19475 6475
 F 0 "R199" H 19534 6475 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 19505 6435 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 19405 6395 50  0001 C CNN
-F 3 "" H 19475 6475 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19475 6475 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 19605 6595 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 19475 6475 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 19475 6475 50  0001 C CNN "Description"
-F 7 "New Product" H 19475 6475 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 19475 6475 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19475 6475 50  0001 C CNN "Description"
+F 7 "OK" H 19475 6475 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 19475 6475 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 19475 6475 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 19475 6475 50  0001 C CNN "Price"
 	1    19475 6475
 	1    0    0    -1  
 $EndComp
@@ -17552,13 +17540,13 @@ P 19500 10425
 F 0 "R201" H 19559 10425 50  0000 L CNN
 F 1 "RES_10K_1%_0402" H 19530 10385 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 19430 10345 50  0001 C CNN
-F 3 "" H 19500 10425 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19500 10425 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 19630 10545 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 19500 10425 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 19500 10425 50  0001 C CNN "Description"
-F 7 "New Product" H 19500 10425 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 19500 10425 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19500 10425 50  0001 C CNN "Description"
+F 7 "OK" H 19500 10425 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 19500 10425 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 19500 10425 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 19500 10425 50  0001 C CNN "Price"
 	1    19500 10425
 	1    0    0    -1  
 $EndComp
@@ -17842,13 +17830,13 @@ P 11150 19775
 F 0 "R203" V 11250 19775 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 11180 19735 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 11080 19695 50  0001 C CNN
-F 3 "" H 11150 19775 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 11150 19775 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 11280 19895 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 11150 19775 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 11150 19775 50  0001 C CNN "Description"
-F 7 "New Product" H 11150 19775 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 11150 19775 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 11150 19775 50  0001 C CNN "Description"
+F 7 "OK" H 11150 19775 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 11150 19775 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 11150 19775 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 11150 19775 50  0001 C CNN "Price"
 	1    11150 19775
 	-1   0    0    1   
 $EndComp
@@ -17859,13 +17847,13 @@ P 11150 20025
 F 0 "R204" V 11250 20025 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 11180 19985 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 11080 19945 50  0001 C CNN
-F 3 "" H 11150 20025 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 11150 20025 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 11280 20145 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 11150 20025 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 11150 20025 50  0001 C CNN "Description"
-F 7 "New Product" H 11150 20025 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 11150 20025 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 11150 20025 50  0001 C CNN "Description"
+F 7 "OK" H 11150 20025 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 11150 20025 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 11150 20025 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 11150 20025 50  0001 C CNN "Price"
 	1    11150 20025
 	-1   0    0    1   
 $EndComp
@@ -17906,13 +17894,13 @@ P 12075 19775
 F 0 "R205" V 12175 19775 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 12105 19735 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12005 19695 50  0001 C CNN
-F 3 "" H 12075 19775 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 12075 19775 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 12205 19895 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 12075 19775 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 12075 19775 50  0001 C CNN "Description"
-F 7 "New Product" H 12075 19775 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 12075 19775 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 12075 19775 50  0001 C CNN "Description"
+F 7 "OK" H 12075 19775 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 12075 19775 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 12075 19775 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 12075 19775 50  0001 C CNN "Price"
 	1    12075 19775
 	-1   0    0    1   
 $EndComp
@@ -17923,13 +17911,13 @@ P 12075 20025
 F 0 "R206" V 12175 20025 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 12105 19985 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12005 19945 50  0001 C CNN
-F 3 "" H 12075 20025 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 12075 20025 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 12205 20145 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 12075 20025 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 12075 20025 50  0001 C CNN "Description"
-F 7 "New Product" H 12075 20025 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 12075 20025 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 12075 20025 50  0001 C CNN "Description"
+F 7 "OK" H 12075 20025 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 12075 20025 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 12075 20025 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 12075 20025 50  0001 C CNN "Price"
 	1    12075 20025
 	-1   0    0    1   
 $EndComp
@@ -17956,13 +17944,13 @@ P 12950 19775
 F 0 "R207" V 13050 19775 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 12980 19735 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12880 19695 50  0001 C CNN
-F 3 "" H 12950 19775 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 12950 19775 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 13080 19895 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 12950 19775 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 12950 19775 50  0001 C CNN "Description"
-F 7 "New Product" H 12950 19775 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 12950 19775 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 12950 19775 50  0001 C CNN "Description"
+F 7 "OK" H 12950 19775 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 12950 19775 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 12950 19775 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 12950 19775 50  0001 C CNN "Price"
 	1    12950 19775
 	-1   0    0    1   
 $EndComp
@@ -17973,13 +17961,13 @@ P 12950 20025
 F 0 "R208" V 13050 20025 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 12980 19985 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12880 19945 50  0001 C CNN
-F 3 "" H 12950 20025 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 12950 20025 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 13080 20145 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 12950 20025 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 12950 20025 50  0001 C CNN "Description"
-F 7 "New Product" H 12950 20025 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 12950 20025 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 12950 20025 50  0001 C CNN "Description"
+F 7 "OK" H 12950 20025 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 12950 20025 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 12950 20025 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 12950 20025 50  0001 C CNN "Price"
 	1    12950 20025
 	-1   0    0    1   
 $EndComp
@@ -18881,13 +18869,13 @@ P 1650 21675
 F 0 "R34" V 1725 21675 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 1680 21635 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1580 21595 50  0001 C CNN
-F 3 "" H 1650 21675 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1650 21675 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 1780 21795 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 1650 21675 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 1650 21675 50  0001 C CNN "Description"
-F 7 "New Product" H 1650 21675 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 1650 21675 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 1650 21675 50  0001 C CNN "Description"
+F 7 "OK" H 1650 21675 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 1650 21675 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 1650 21675 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 1650 21675 50  0001 C CNN "Price"
 	1    1650 21675
 	0    1    1    0   
 $EndComp
@@ -19148,13 +19136,13 @@ P 12750 11725
 F 0 "R43" V 12750 12175 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 12780 11685 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12680 11645 50  0001 C CNN
-F 3 "" H 12750 11725 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 12750 11725 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 12880 11845 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 12750 11725 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 12750 11725 50  0001 C CNN "Description"
-F 7 "New Product" H 12750 11725 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 12750 11725 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 12750 11725 50  0001 C CNN "Description"
+F 7 "OK" H 12750 11725 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 12750 11725 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 12750 11725 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 12750 11725 50  0001 C CNN "Price"
 	1    12750 11725
 	0    1    1    0   
 $EndComp
@@ -19165,13 +19153,13 @@ P 12750 11825
 F 0 "R44" V 12750 12275 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 12780 11785 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12680 11745 50  0001 C CNN
-F 3 "" H 12750 11825 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 12750 11825 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 12880 11945 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 12750 11825 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 12750 11825 50  0001 C CNN "Description"
-F 7 "New Product" H 12750 11825 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 12750 11825 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 12750 11825 50  0001 C CNN "Description"
+F 7 "OK" H 12750 11825 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 12750 11825 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 12750 11825 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 12750 11825 50  0001 C CNN "Price"
 	1    12750 11825
 	0    1    1    0   
 $EndComp
@@ -19582,12 +19570,13 @@ P 9775 21650
 F 0 "F2" V 9671 21650 50  0000 C CNN
 F 1 "FUSE_4A_0603" H 9805 21610 50  0001 L CNN
 F 2 "Fuse:Fuse_0603_1608Metric" H 9705 21570 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet.pdf-365375.pdf" H 9805 21670 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/643/ds-CP-c2f-series-1291054.pdf" H 9805 21670 50  0001 C CNN
 F 4 "0686F4000-01" H 9775 21350 50  0001 C CNN "MPN"
-F 5 "5709 In Stock" H 9775 21650 50  0001 C CNN "Availability"
-F 6 "Surface Mount Fuses Fuseblock w/ fuse 3A OMNI BLOK 154" H 9775 21650 50  0001 C CNN "Description"
-F 7 "2.03  EUR" H 9775 21650 50  0001 C CNN "Price"
-F 8 "OK" H 9775 21650 50  0001 C CNN "LifeCycle"
+F 5 "4945 In Stock" H 9775 21650 50  0001 C CNN "Availability"
+F 6 "Surface Mount Fuses Fuse, Surface Mount 4A, 0603 Size" H 9775 21650 50  0001 C CNN "Description"
+F 7 "0.262  EUR" H 9775 21650 50  0001 C CNN "Price"
+F 8 "New Product" H 9775 21650 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    9775 21650
 	0    1    1    0   
 $EndComp
@@ -19725,13 +19714,13 @@ P 12100 21850
 F 0 "R63" V 12100 22050 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 12130 21810 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12030 21770 50  0001 C CNN
-F 3 "" H 12100 21850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 12100 21850 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 12230 21970 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 12100 21850 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 12100 21850 50  0001 C CNN "Description"
-F 7 "New Product" H 12100 21850 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 12100 21850 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 12100 21850 50  0001 C CNN "Description"
+F 7 "OK" H 12100 21850 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 12100 21850 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 12100 21850 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 12100 21850 50  0001 C CNN "Price"
 	1    12100 21850
 	0    -1   -1   0   
 $EndComp
@@ -19742,13 +19731,13 @@ P 12100 21925
 F 0 "R64" V 12100 22125 50  0000 C CNN
 F 1 "RES_10K_1%_0402" H 12130 21885 50  0001 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 12030 21845 50  0001 C CNN
-F 3 "" H 12100 21925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 12100 21925 50  0001 C CNN
 F 4 "RC0402FR-0710KL" H 12230 22045 50  0001 C CNN "MPN"
-F 5 "1813839 In Stock" H 12100 21925 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" H 12100 21925 50  0001 C CNN "Description"
-F 7 "New Product" H 12100 21925 50  0001 C CNN "LifeCycle"
+F 5 "25734340 In Stock" H 12100 21925 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 12100 21925 50  0001 C CNN "Description"
+F 7 "OK" H 12100 21925 50  0001 C CNN "LifeCycle"
 F 8 "Mouser" H 12100 21925 50  0001 C CNN "Vendor"
-F 9 "0.114  EUR" H 12100 21925 50  0001 C CNN "Price"
+F 9 "0.087  EUR" H 12100 21925 50  0001 C CNN "Price"
 	1    12100 21925
 	0    -1   -1   0   
 $EndComp
@@ -19769,4 +19758,81 @@ Wire Wire Line
 Wire Wire Line
 	12250 22300 11825 22300
 Connection ~ 12250 21925
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 A3720298
+P 12525 13275
+F 0 "TP?" H 12375 13400 50  0000 C CNN
+F 1 "Test_Point" H 12525 13475 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12725 13275 50  0001 C CNN
+F 3 "" H 12725 13275 50  0001 C CNN
+	1    12525 13275
+	0    1    1    0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 A439A6E9
+P 16050 12950
+F 0 "TP?" V 16125 13050 50  0000 C CNN
+F 1 "Test_Point" H 16050 13150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 16250 12950 50  0001 C CNN
+F 3 "" H 16250 12950 50  0001 C CNN
+	1    16050 12950
+	0    1    1    0   
+$EndComp
+NoConn ~ 10875 18425
+NoConn ~ 10875 18525
+NoConn ~ 10875 18625
+NoConn ~ 10875 18725
+NoConn ~ 10875 18825
+NoConn ~ 10875 18925
+NoConn ~ 10075 18925
+NoConn ~ 10075 18825
+NoConn ~ 10075 18725
+NoConn ~ 10075 18625
+NoConn ~ 10075 18525
+NoConn ~ 10075 18425
+Wire Wire Line
+	6875 925  6875 1000
+Connection ~ 6875 1000
+Wire Wire Line
+	6875 1000 7000 1000
+Wire Wire Line
+	7000 925  7000 1000
+Connection ~ 7000 1000
+Wire Wire Line
+	7000 1000 7300 1000
+Wire Wire Line
+	7575 1000 7575 1650
+$Comp
+L SwEmb:GNDREF #PWR?
+U 1 1 A9AD1C67
+P 4425 18025
+F 0 "#PWR?" H 4425 17775 50  0001 C CNN
+F 1 "GNDREF" H 4425 17875 50  0001 C CNN
+F 2 "" H 4425 18025 50  0001 C CNN
+F 3 "" H 4425 18025 50  0001 C CNN
+F 4 "#" H 4425 18025 50  0001 C CNN "MPN"
+	1    4425 18025
+	0    1    1    0   
+$EndComp
+NoConn ~ 14450 17475
+NoConn ~ 14450 17575
+NoConn ~ 14450 17675
+NoConn ~ 14450 17875
+NoConn ~ 14450 17975
+NoConn ~ 14450 18075
+NoConn ~ 14450 18275
+NoConn ~ 14450 18375
+NoConn ~ 14450 18475
+NoConn ~ 14450 18575
+NoConn ~ 14450 18675
+NoConn ~ 14450 18775
+NoConn ~ 14450 18875
+NoConn ~ 14450 18975
+NoConn ~ 14450 19075
+NoConn ~ 14450 19175
+NoConn ~ 14450 19275
+NoConn ~ 14450 19375
+NoConn ~ 14450 19475
 $EndSCHEMATC
