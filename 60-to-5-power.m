@@ -1,24 +1,22 @@
 % TPS54360 design
 
-vout = 12;
+vout = 5;
 vin = 60;
 iout = 3.5;
-rls = 10e3;
-rdc = 36.8e-3;
-vstart = 17;
-vstop = 14;
-lo = 33e-6;
+rls = 10.5e3;
+rdc = 25e-3;
+vstart = 8;
+vstop = 6.25;
+lo = 8.2e-6;
 dcj = 380e-12;
 voripple = 0.005;
-cout = 100e-6;
-resr = 25e-3;
+cout = 58.3e-6;
 ioh = 2.625;
 iol = 0.875;
 fsw = 600e3;
 cin = 4.4e-6;
-vf = 0.81;
-rt_chosen = 137e3;
 
+vf = 0.7;
 rdson = 92e-3;
 dmax = 0.9;
 i1 = 1.2e-6;
@@ -51,9 +49,8 @@ ruvlol = vena / ((vstart - vena)/ruvloh + i1)
 tss = 1024 / fsw
 % equation 7
 rt = 1000 * 101756 / ((fsw / 1000) ^ 1.008)
-rt = rt_chosen
 % equation 8
-fsw = 1000 * 92417 / ((rt / 1000) ^ 0.991)
+%fsw = 1000 * 92417 / ((rt / 1000) ^ 0.991)
 % equation 9
 fsw_max_skip = (1/ton) * ((iout * rdc + vout + vf)/(vin - iout * rdson + vf))
 % equation 10
@@ -68,6 +65,7 @@ cout_min_2 = lo * (ioh ^ 2 - iol ^ 2)/(vpeak ^ 2 - vi ^ 2)
 cout_min_3 = (1 / (fdiv * fsw)) * 1 / ((vout * voripple) / iripple)
 cout_min = min([cout_min_1, cout_min_2, cout_min_3])
 resr_max = (vout * voripple) / iripple
+resr = 2.5e-3
 icout = (vout * (vin - vout))/(sqrt(12) * vin * lo * fsw)
 pd = ((vin - vout) * iout * vf) / vin + (dcj * fsw * (vin + vf)^2)/2
 icirms = iout * sqrt((vout / vin_min) * (vin_min - vout)/vin_min)

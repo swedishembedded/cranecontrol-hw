@@ -727,7 +727,7 @@ $FPLIST
  *:C_*
 $ENDFPLIST
 DRAW
-T 0 0 0 20 0 0 0 "2.2uF 100V" Normal 0 C C
+T 0 0 0 20 0 0 0 "2u2 100V" Normal 0 C C
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
@@ -2455,6 +2455,31 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 900 50 0 20 0 0 0 3A Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FUSE_4A_0603
+#
+DEF ~FUSE_4A_0603 F 0 10 N N 1 F N
+F0 "F" 30 20 50 H V L CNN
+F1 "FUSE_4A_0603" 30 -40 50 H I L CNN ""
+F2 "Fuse:Fuse_0603_1608Metric" -70 -80 50 H I C CNN ""
+F3 "https://www.mouser.com/datasheet/2/643/ds-CP-c2f-series-1291054.pdf" 30 20 50 H I C CNN ""
+F4 "0686F4000-01" 0 -300 50 H I C CNN "MPN"
+F5 "4945 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Surface Mount Fuses Fuse, Surface Mount 4A, 0603 Size" 0 0 50 H I C CNN "Description"
+F7 "0.262  EUR" 0 0 50 H I C CNN "Price"
+F8 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 50 0 20 0 0 0 "4A 63V" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 P 2 0 1 0 0 100 0 -100 N
 X ~ 1 0 100 30 D 50 50 1 1 P
@@ -5408,14 +5433,13 @@ DEF ~RES_10K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "RES_10K_1%_0402" 30 -40 50 H I L CNN ""
 F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN ""
-F3 "" 30 20 50 H I C CNN ""
-F4 "CRCW040210K0FKEDC" 130 120 50 H I C CNN "MPN"
-F5 "1813839 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
-F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
-F8 "Mouser" 0 0 50 H I C CNN "Vendor"
-F9 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 0 0 50 H I C CNN "Datasheet"
-F10 "0.114  EUR" 0 0 50 H I C CNN "Price"
+F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" 30 20 50 H I C CNN ""
+F4 "RC0402FR-0710KL" 130 120 50 H I C CNN "MPN"
+F5 "25734340 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 10K OHM 1%" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  R_*
 $ENDFPLIST

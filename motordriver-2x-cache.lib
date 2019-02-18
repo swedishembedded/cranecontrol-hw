@@ -247,7 +247,7 @@ $FPLIST
  *:C_*
 $ENDFPLIST
 DRAW
-T 0 0 0 20 0 0 0 "2.2uF 100V" Normal 0 C C
+T 0 0 0 20 0 0 0 "2u2 100V" Normal 0 C C
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
@@ -348,31 +348,6 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 0 0 0 20 0 0 0 "27nF 16V" Normal 0 C C
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SwEmb_CAP_51pF_50V_0402
-#
-DEF ~SwEmb_CAP_51pF_50V_0402 C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "SwEmb_CAP_51pF_50V_0402" 10 -830 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 -600 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/UPY-GP_NP0_16V-to-50V_16-1109089.pdf" 10 -680 50 H I C CNN
-F4 "CC0402JRNPO9BN510" 450 -500 50 H I C CNN "MPN"
-F5 "42645 In Stock" 0 -600 50 H I C CNN "Availability"
-F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 51pF 50V NPO 5%" 0 -750 50 H I C CNN "Description"
-F7 "OK" 50 -600 50 H I C CNN "LifeCycle"
-F8 "0.087  EUR" 0 -600 50 H I C CNN "Price"
-F9 "Mouser" 0 0 50 H I C CNN "Vendor"
-$FPLIST
- *:C_*
-$ENDFPLIST
-DRAW
-T 0 0 0 20 0 0 0 "51pF 50V" Normal 0 C C
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
@@ -540,12 +515,13 @@ DEF ~SwEmb_CONN_LCD P 0 40 Y Y 1 F N
 F0 "P" 0 900 50 H V C CNN
 F1 "SwEmb_CONN_LCD" 0 -1650 50 H I C CNN
 F2 "CUSTOM:CONN_LCD" -100 -1550 50 H I C CNN
-F3 "https___www.mouser.com_datasheet_2_276_0702461004_PCB_HEADERS-229930.pdf" -100 500 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/276/0702461004_PCB_HEADERS-229930.pdf" -100 500 50 H I C CNN
 F4 "70246-0802" 0 -1450 50 H I C CNN "MPN"
-F5 "2466 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "2463 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 2.54mm CGrid Hdr Shr rd /Slt .76AuLF 8Ckt" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "1.25  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  Pin_Header_Straight_1X06
  Pin_Header_Angled_1X06
@@ -824,12 +800,13 @@ DEF ~SwEmb_CONN_UEXT P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
 F1 "SwEmb_CONN_UEXT" 100 -700 50 H I C CNN
 F2 "CUSTOM:CONN_UEXT" 0 100 50 H I C CNN
-F3 "https___www.mouser.com_datasheet_2_1_ts0770-34478.pdf" 0 100 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H I C CNN
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
-F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
+F5 "10884 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Headers & Wire Housings 10P STRT SOLDER TAIL HIGH TEMP" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "1.22  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  Pin_Header_Straight_1X06
  Pin_Header_Angled_1X06
@@ -1200,6 +1177,31 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 900 50 0 20 0 0 0 3A Normal 0 C C
+S -30 70 30 -70 0 1 8 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SwEmb_FUSE_4A_0603
+#
+DEF ~SwEmb_FUSE_4A_0603 F 0 10 N N 1 F N
+F0 "F" 30 20 50 H V L CNN
+F1 "SwEmb_FUSE_4A_0603" 30 -40 50 H I L CNN
+F2 "Fuse:Fuse_0603_1608Metric" -70 -80 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/643/ds-CP-c2f-series-1291054.pdf" 30 20 50 H I C CNN
+F4 "0686F4000-01" 0 -300 50 H I C CNN "MPN"
+F5 "4945 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Surface Mount Fuses Fuse, Surface Mount 4A, 0603 Size" 0 0 50 H I C CNN "Description"
+F7 "0.262  EUR" 0 0 50 H I C CNN "Price"
+F8 "New Product" 0 0 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+T 900 50 0 20 0 0 0 "4A 63V" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 P 2 0 1 0 0 100 0 -100 N
 X ~ 1 0 100 30 D 50 50 1 1 P
@@ -2029,15 +2031,14 @@ ENDDEF
 DEF SwEmb_IC_USBLC6-2 U 0 40 Y Y 1 F N
 F0 "U" 5 250 50 H V C CNN
 F1 "SwEmb_IC_USBLC6-2" 5 350 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6" 75 250 50 H I C CNN
+F2 "CUSTOM:SOT-23-6L" 75 250 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" 75 250 50 H I C CNN
 F4 "USBLC6-2SC6" 0 -270 50 H I C CNN "MPN"
 F5 "108598 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "ESD Suppressors / TVS Diodes ESD Protection Low Cap" 0 0 50 H I C CNN "Description"
 F7 "Mouser" 0 0 50 H I C CNN "Vendor"
-F8 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" 0 0 50 H I C CNN "Datasheet"
-F9 "0.393  EUR" 0 0 50 H I C CNN "Price"
-F10 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.393  EUR" 0 0 50 H I C CNN "Price"
+F9 "OK" 0 0 50 H I C CNN "LifeCycle"
 DRAW
 S 350 200 -350 -200 0 1 0 N
 P 2 0 1 0 -150 0 -30 0 N
@@ -2250,12 +2251,13 @@ DEF ~SwEmb_L_33uH_4.2A_45mR L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
 F1 "SwEmb_L_33uH_4.2A_45mR" 80 -340 50 H I L CNN
 F2 "CUSTOM:L_Wuerth_WE-PD-Typ-LS_1250x1250" -20 -360 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/87/Bus_Elx_DS_4315_DR_Series-248110.pdf" 50 -300 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/7447709330-539581.pdf" 50 -300 50 H I C CNN
 F4 "7447709330" 0 -300 50 H I C CNN "MPN"
-F5 "8402 In Stock" 50 -300 50 H I C CNN "Availability"
-F6 "Fixed Inductors 100uH 3.64A 0.163ohms" 50 -300 50 H I C CNN "Description"
-F7 "1.77  EUR" 0 -350 50 H I C CNN "Price"
+F5 "4062 In Stock" 50 -300 50 H I C CNN "Availability"
+F6 "Fixed Inductors WE-PD 1210 33uH 4.2A .045Ohm" 50 -300 50 H I C CNN "Description"
+F7 "2.22  EUR" 0 -350 50 H I C CNN "Price"
 F8 "OK" -50 -350 50 H I C CNN "LifeCycle"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  Choke_*
  *Coil*
@@ -2428,44 +2430,19 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SwEmb_RES_10.5k_1%_0603
-#
-DEF ~SwEmb_RES_10.5k_1%_0603 R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "SwEmb_RES_10.5k_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
-F4 "RC0603FR-0710K5L" 0 -300 50 H I C CNN "MPN"
-F5 "123654 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Thick Film Resistors - SMD 10.5K OHM 1%" 0 0 50 H I C CNN "Description"
-F7 "0.087  EUR" 0 0 50 H I C CNN "Price"
-F8 "OK" 0 0 50 H I C CNN "LifeCycle"
-F9 "Mouser" 0 0 50 H I C CNN "Vendor"
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-T 900 0 0 20 0 0 0 "10.5k 1%" Normal 0 C C
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # SwEmb_RES_10K_1%_0402
 #
 DEF ~SwEmb_RES_10K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_10K_1%_0402" 30 -40 50 H I L CNN
 F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "" 30 20 50 H I C CNN
-F4 "CRCW040210K0FKEDC" 130 120 50 H I C CNN "MPN"
-F5 "1813839 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Thick Film Resistors - SMD 1/16watt 10Kohms 1% Commercial Use" 0 0 50 H I C CNN "Description"
-F7 "New Product" 0 0 50 H I C CNN "LifeCycle"
-F8 "Mouser" 0 0 50 H I C CNN "Vendor"
-F9 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 0 0 50 H I C CNN "Datasheet"
-F10 "0.114  EUR" 0 0 50 H I C CNN "Price"
+F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" 30 20 50 H I C CNN
+F4 "RC0402FR-0710KL" 130 120 50 H I C CNN "MPN"
+F5 "25734340 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD 10K OHM 1%" 0 0 50 H I C CNN "Description"
+F7 "OK" 0 0 50 H I C CNN "LifeCycle"
+F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -2532,12 +2509,13 @@ DEF ~SwEmb_RES_137K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_137K_1%_0402" 30 -40 50 H I L CNN
 F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN
 F4 "AC0402FR-07137KL" 130 120 50 H I C CNN "MPN"
-F5 "147765 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Thick Film Resistors - SMD 135 kOhms 1%" 0 0 50 H I C CNN "Description"
+F5 "77400 In Stock" 0 0 50 H I C CNN "Availability"
+F6 "Thick Film Resistors - SMD AEC-Q200" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
 F8 "0.087  EUR" 0 0 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 $FPLIST
  R_*
 $ENDFPLIST
@@ -2640,30 +2618,6 @@ $FPLIST
 $ENDFPLIST
 DRAW
 T 900 0 0 20 0 0 0 "22R 1%" Normal 0 C C
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SwEmb_RES_24k_1%_0603
-#
-DEF ~SwEmb_RES_24k_1%_0603 R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "SwEmb_RES_24k_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 30 20 50 H I C CNN
-F4 "CR0603-FX-2402ELF" 0 -300 50 H I C CNN "MPN"
-F5 "179806 In Stock" 0 0 50 H I C CNN "Availability"
-F6 "Thick Film Resistors - SMD 24K ohm 1%" 0 0 50 H I C CNN "Description"
-F7 "0.087  EUR" 0 0 50 H I C CNN "Price"
-F8 "OK" 0 0 50 H I C CNN "LifeCycle"
-F9 "Mouser" 0 0 50 H I C CNN "Vendor"
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-T 900 0 0 20 0 0 0 "24k 1%" Normal 0 C C
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
