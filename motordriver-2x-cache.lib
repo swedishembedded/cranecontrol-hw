@@ -483,7 +483,7 @@ ENDDEF
 DEF ~SwEmb_CONN_ENCODER P 0 40 Y Y 1 F N
 F0 "P" -50 450 50 H V C CNN
 F1 "SwEmb_CONN_ENCODER" -100 900 50 H I C CNN
-F2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" -300 900 50 H I C CNN
+F2 "CUSTOM:CONN_ENCODER" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
 F4 "691322110008" -100 900 50 H I C CNN "MPN"
 F5 "760 In Stock" -100 900 50 H I C CNN "Availability"
@@ -538,12 +538,11 @@ F0 "P" -50 250 50 H V C CNN
 F1 "SwEmb_CONN_JOYSTICK" -100 900 50 H I C CNN
 F2 "CUSTOM:CONN_JOYSTICK" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
-F4 "691321100004" -100 900 50 H I C CNN "MPN"
+F4 "691322110004" -100 900 50 H I C CNN "MPN"
 F5 "1627 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL Mod3211 3.5mm 4Pin Vertical PCBHdr" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
 F8 "0.75  EUR" 100 900 50 H I C CNN "Price"
-F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 DRAW
 T 900 70 0 20 0 0 0 JOYSTICK Normal 0 C C
 S -150 200 100 -200 0 1 0 N
