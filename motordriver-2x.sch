@@ -6297,18 +6297,18 @@ Connection ~ 11800 18800
 $Comp
 L SwEmb:IC_TLV2474 U4
 U 1 1 6063D5D0
-P 2700 17625
-F 0 "U4" H 2675 17800 50  0000 L CNN
-F 1 "IC_TLV2474" H 2650 17450 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 17725 50  0001 C CNN
-F 3 "" H 2750 17825 50  0001 C CNN
-F 4 "TLV2474CDR" H 2700 17625 50  0001 C CNN "MPN"
-F 5 "1390 In Stock" H 0   0   50  0001 C CNN "Availability"
-F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 0   0   50  0001 C CNN "Description"
-F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
-F 8 "2.39  EUR" H 0   0   50  0001 C CNN "Price"
-F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
-	1    2700 17625
+P 2700 15625
+F 0 "U4" H 2675 15800 50  0000 L CNN
+F 1 "IC_TLV2474" H 2650 15450 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 15725 50  0001 C CNN
+F 3 "" H 2750 15825 50  0001 C CNN
+F 4 "TLV2474CDR" H 2700 15625 50  0001 C CNN "MPN"
+F 5 "1390 In Stock" H 0   -2000 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 0   -2000 50  0001 C CNN "Description"
+F 7 "OK" H 0   -2000 50  0001 C CNN "LifeCycle"
+F 8 "2.39  EUR" H 0   -2000 50  0001 C CNN "Price"
+F 9 "Mouser" H 0   -2000 50  0001 C CNN "Vendor"
+	1    2700 15625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -7024,18 +7024,18 @@ Wire Wire Line
 $Comp
 L SwEmb:IC_TLV2474 U4
 U 2 1 62173C21
-P 2700 18625
-F 0 "U4" H 2750 18775 50  0000 L CNN
-F 1 "IC_TLV2474" H 2750 18475 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 18725 50  0001 C CNN
-F 3 "" H 2750 18825 50  0001 C CNN
-F 4 "TLV2474CDR" H 2700 18625 50  0001 C CNN "MPN"
-F 5 "1390 In Stock" H 2700 18625 50  0001 C CNN "Availability"
-F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 18625 50  0001 C CNN "Description"
-F 7 "OK" H 2700 18625 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 2700 18625 50  0001 C CNN "Vendor"
-F 9 "2.39  EUR" H 2700 18625 50  0001 C CNN "Price"
-	2    2700 18625
+P 2700 16625
+F 0 "U4" H 2750 16775 50  0000 L CNN
+F 1 "IC_TLV2474" H 2750 16475 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 16725 50  0001 C CNN
+F 3 "" H 2750 16825 50  0001 C CNN
+F 4 "TLV2474CDR" H 2700 16625 50  0001 C CNN "MPN"
+F 5 "1390 In Stock" H 2700 16625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 16625 50  0001 C CNN "Description"
+F 7 "OK" H 2700 16625 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 2700 16625 50  0001 C CNN "Vendor"
+F 9 "2.39  EUR" H 2700 16625 50  0001 C CNN "Price"
+	2    2700 16625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7633,35 +7633,35 @@ $EndComp
 $Comp
 L SwEmb:IC_TLV2474 U3
 U 3 1 621772CA
-P 2700 15625
-F 0 "U3" H 2775 15750 50  0000 L CNN
-F 1 "IC_TLV2474" H 2775 15500 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 15725 50  0001 C CNN
-F 3 "" H 2750 15825 50  0001 C CNN
-F 4 "TLV2474CDR" H 2700 15625 50  0001 C CNN "MPN"
-F 5 "1390 In Stock" H 2700 15625 50  0001 C CNN "Availability"
-F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 15625 50  0001 C CNN "Description"
-F 7 "OK" H 2700 15625 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 2700 15625 50  0001 C CNN "Vendor"
-F 9 "2.39  EUR" H 2700 15625 50  0001 C CNN "Price"
-	3    2700 15625
+P 2700 17625
+F 0 "U3" H 2775 17750 50  0000 L CNN
+F 1 "IC_TLV2474" H 2775 17500 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 17725 50  0001 C CNN
+F 3 "" H 2750 17825 50  0001 C CNN
+F 4 "TLV2474CDR" H 2700 17625 50  0001 C CNN "MPN"
+F 5 "1390 In Stock" H 2700 17625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 17625 50  0001 C CNN "Description"
+F 7 "OK" H 2700 17625 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 2700 17625 50  0001 C CNN "Vendor"
+F 9 "2.39  EUR" H 2700 17625 50  0001 C CNN "Price"
+	3    2700 17625
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:IC_TLV2474 U3
 U 4 1 621772D6
-P 2700 16625
-F 0 "U3" H 2750 16775 50  0000 L CNN
-F 1 "IC_TLV2474" H 2775 16475 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 16725 50  0001 C CNN
-F 3 "" H 2750 16825 50  0001 C CNN
-F 4 "TLV2474CDR" H 2700 16625 50  0001 C CNN "MPN"
-F 5 "1390 In Stock" H 2700 16625 50  0001 C CNN "Availability"
-F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 16625 50  0001 C CNN "Description"
-F 7 "OK" H 2700 16625 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 2700 16625 50  0001 C CNN "Vendor"
-F 9 "2.39  EUR" H 2700 16625 50  0001 C CNN "Price"
-	4    2700 16625
+P 2700 18625
+F 0 "U3" H 2750 18775 50  0000 L CNN
+F 1 "IC_TLV2474" H 2775 18475 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2650 18725 50  0001 C CNN
+F 3 "" H 2750 18825 50  0001 C CNN
+F 4 "TLV2474CDR" H 2700 18625 50  0001 C CNN "MPN"
+F 5 "1390 In Stock" H 2700 18625 50  0001 C CNN "Availability"
+F 6 "Precision Amplifiers Quad Lo-Pwr R-to-R Input/Output Op Amp" H 2700 18625 50  0001 C CNN "Description"
+F 7 "OK" H 2700 18625 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 2700 18625 50  0001 C CNN "Vendor"
+F 9 "2.39  EUR" H 2700 18625 50  0001 C CNN "Price"
+	4    2700 18625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -11581,9 +11581,9 @@ Wire Notes Line
 	5625 22450 5625 20800
 Wire Notes Line
 	5625 20800 5925 20800
-Text GLabel 11575 5050 2    50   Input ~ 0
-ENCPWEN1
 Text GLabel 11575 4950 2    50   Input ~ 0
+ENCPWEN1
+Text GLabel 11575 5050 2    50   Input ~ 0
 ENCPWEN2
 Text GLabel 7425 10750 0    50   Input ~ 0
 ENCOC1
