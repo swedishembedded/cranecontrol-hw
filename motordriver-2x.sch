@@ -1227,9 +1227,9 @@ Wire Wire Line
 	18975 4725 19025 4725
 Connection ~ 18975 4725
 Text GLabel 18725 4725 0    50   Input ~ 0
-GHA1
+GA1_P
 Text GLabel 17725 4475 2    50   Input ~ 0
-GHA1
+GA1_P
 $Comp
 L SwEmb:RES_10K_1%_0402 R103
 U 1 1 5CA0FA91
@@ -1276,13 +1276,13 @@ Wire Wire Line
 Text GLabel 18725 5425 0    50   Input ~ 0
 GND
 Text GLabel 18725 5225 0    50   Input ~ 0
-GLA1
+GA1_N
 Text GLabel 17725 4675 2    50   Input ~ 0
-GLA1
+GA1_N
 Text GLabel 17725 4775 2    50   Input ~ 0
 SLA1
 Text GLabel 19225 4975 0    50   Input ~ 0
-SLA1
+SHA1
 Wire Wire Line
 	19225 4975 19275 4975
 Wire Wire Line
@@ -1355,7 +1355,7 @@ Wire Wire Line
 	20450 4725 20500 4725
 Connection ~ 20450 4725
 Text GLabel 20200 4725 0    50   Input ~ 0
-GHB1
+GB1_P
 $Comp
 L SwEmb:RES_10K_1%_0402 R140
 U 1 1 5CA3DF8D
@@ -1402,9 +1402,9 @@ Wire Wire Line
 Text GLabel 20200 5425 0    50   Input ~ 0
 GND
 Text GLabel 20200 5225 0    50   Input ~ 0
-GLB1
+GB1_N
 Text GLabel 20700 4975 0    50   Input ~ 0
-SLB1
+SHB1
 Wire Wire Line
 	20700 4975 20750 4975
 Wire Wire Line
@@ -1477,7 +1477,7 @@ Wire Wire Line
 	22000 4725 22050 4725
 Connection ~ 22000 4725
 Text GLabel 21750 4725 0    50   Input ~ 0
-GHC1
+GC1_P
 $Comp
 L SwEmb:RES_10K_1%_0402 R172
 U 1 1 5CA46976
@@ -1524,9 +1524,9 @@ Wire Wire Line
 Text GLabel 21750 5425 0    50   Input ~ 0
 GND
 Text GLabel 21750 5225 0    50   Input ~ 0
-GLC1
+GC1_N
 Text GLabel 22250 4975 0    50   Input ~ 0
-SLC1
+SHC1
 Wire Wire Line
 	22250 4975 22300 4975
 Wire Wire Line
@@ -1537,9 +1537,9 @@ Connection ~ 22300 4975
 Text GLabel 22300 4525 1    50   Input ~ 0
 VMOT
 Text GLabel 17725 4975 2    50   Input ~ 0
-GHB1
+GB1_P
 Text GLabel 17725 5175 2    50   Input ~ 0
-GLB1
+GB1_N
 Text GLabel 17725 5275 2    50   Input ~ 0
 SLB1
 $Comp
@@ -1581,7 +1581,7 @@ GND
 Text GLabel 17725 6175 2    50   Input ~ 0
 GND
 Wire Wire Line
-	19275 5425 19275 5600
+	19275 5425 19275 5500
 Wire Wire Line
 	18950 5825 19125 5825
 Wire Wire Line
@@ -1594,7 +1594,7 @@ Wire Wire Line
 	20425 5600 20425 5625
 Connection ~ 20750 5600
 Wire Wire Line
-	20750 5600 20750 5425
+	20750 5600 20750 5500
 Wire Wire Line
 	19275 5600 18950 5600
 Wire Wire Line
@@ -1603,11 +1603,11 @@ Connection ~ 19275 5600
 Wire Wire Line
 	19275 5600 19275 5625
 Wire Wire Line
-	18950 5600 18525 5600
+	18950 5600 18575 5600
 Wire Wire Line
-	18525 5600 18525 5875
+	18575 5600 18575 5875
 Wire Wire Line
-	18525 5875 17725 5875
+	18575 5875 17725 5875
 Connection ~ 18950 5600
 Wire Wire Line
 	20075 6075 20075 5600
@@ -1647,21 +1647,21 @@ Wire Wire Line
 $Comp
 L SwEmb:GNDREF #PWR0118
 U 1 1 5CAD971D
-P 22300 5425
-F 0 "#PWR0118" H 22300 5175 50  0001 C CNN
-F 1 "GNDREF" H 22300 5275 50  0001 C CNN
-F 2 "" H 22300 5425 50  0001 C CNN
-F 3 "" H 22300 5425 50  0001 C CNN
-F 4 "#" H 22300 5425 50  0001 C CNN "MPN"
-	1    22300 5425
+P 22300 5550
+F 0 "#PWR0118" H 22300 5300 50  0001 C CNN
+F 1 "GNDREF" H 22300 5400 50  0001 C CNN
+F 2 "" H 22300 5550 50  0001 C CNN
+F 3 "" H 22300 5550 50  0001 C CNN
+F 4 "#" H 22300 5550 50  0001 C CNN "MPN"
+	1    22300 5550
 	1    0    0    -1  
 $EndComp
 Text GLabel 17725 5675 2    50   Input ~ 0
-GLC1
+GC1_N
 Text GLabel 17725 5775 2    50   Input ~ 0
 SLC1
 Text GLabel 17725 5475 2    50   Input ~ 0
-GHC1
+GC1_P
 $Comp
 L SwEmb:RES_5mR_1%_10W R114
 U 1 1 5CAF5865
@@ -2775,7 +2775,7 @@ GLA2
 Text GLabel 17725 8800 2    50   Input ~ 0
 SLA2
 Text GLabel 19225 9000 0    50   Input ~ 0
-SLA2
+SHA2
 Wire Wire Line
 	19225 9000 19275 9000
 Wire Wire Line
@@ -2897,7 +2897,7 @@ GND
 Text GLabel 20200 9250 0    50   Input ~ 0
 GLB2
 Text GLabel 20700 9000 0    50   Input ~ 0
-SLB2
+SHB2
 Wire Wire Line
 	20700 9000 20750 9000
 Wire Wire Line
@@ -3019,7 +3019,7 @@ GND
 Text GLabel 21750 9250 0    50   Input ~ 0
 GLC2
 Text GLabel 22250 9000 0    50   Input ~ 0
-SLC2
+SHC2
 Wire Wire Line
 	22250 9000 22300 9000
 Wire Wire Line
@@ -3074,7 +3074,7 @@ GND
 Text GLabel 17725 10200 2    50   Input ~ 0
 GND
 Wire Wire Line
-	19275 9450 19275 9625
+	19275 9450 19275 9525
 Wire Wire Line
 	18950 9850 19125 9850
 Wire Wire Line
@@ -3087,7 +3087,7 @@ Wire Wire Line
 	20425 9625 20425 9650
 Connection ~ 20750 9625
 Wire Wire Line
-	20750 9625 20750 9450
+	20750 9625 20750 9525
 Wire Wire Line
 	19275 9625 18950 9625
 Wire Wire Line
@@ -3140,13 +3140,13 @@ Wire Wire Line
 $Comp
 L SwEmb:GNDREF #PWR0133
 U 1 1 5CA49C1B
-P 22300 9450
-F 0 "#PWR0133" H 22300 9200 50  0001 C CNN
-F 1 "GNDREF" H 22300 9300 50  0001 C CNN
-F 2 "" H 22300 9450 50  0001 C CNN
-F 3 "" H 22300 9450 50  0001 C CNN
-F 4 "#" H 22300 9450 50  0001 C CNN "MPN"
-	1    22300 9450
+P 22300 9575
+F 0 "#PWR0133" H 22300 9325 50  0001 C CNN
+F 1 "GNDREF" H 22300 9425 50  0001 C CNN
+F 2 "" H 22300 9575 50  0001 C CNN
+F 3 "" H 22300 9575 50  0001 C CNN
+F 4 "#" H 22300 9575 50  0001 C CNN "MPN"
+	1    22300 9575
 	1    0    0    -1  
 $EndComp
 Text GLabel 17725 9700 2    50   Input ~ 0
@@ -5844,11 +5844,11 @@ F 9 "Mouser" H -4375 -825 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 Text GLabel 20225 6350 0    50   Input ~ 0
-SLA1
+SHA1
 Text GLabel 20225 6450 0    50   Input ~ 0
-SLB1
+SHB1
 Text GLabel 20225 6550 0    50   Input ~ 0
-SLC1
+SHC1
 $Comp
 L SwEmb:CONN_MOTOR P46
 U 1 1 5F5165E2
@@ -5867,11 +5867,11 @@ F 9 "Mouser" H -4375 -775 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 Text GLabel 20250 10350 0    50   Input ~ 0
-SLA2
+SHA2
 Text GLabel 20250 10450 0    50   Input ~ 0
-SLB2
+SHB2
 Text GLabel 20250 10550 0    50   Input ~ 0
-SLC2
+SHC2
 Text GLabel 15825 4575 0    50   Input ~ 0
 OC_ADJ1
 $Comp
@@ -20037,4 +20037,80 @@ F 4 "#" H 11650 17900 50  0001 C CNN "MPN"
 	1    11650 17900
 	1    0    0    -1  
 $EndComp
+Text GLabel 19225 5500 0    50   Input ~ 0
+SLA1
+Wire Wire Line
+	19225 5500 19275 5500
+Connection ~ 19275 5500
+Wire Wire Line
+	19275 5500 19275 5600
+Text GLabel 18275 4575 2    50   Input ~ 0
+SHA1
+Wire Wire Line
+	18225 4575 18275 4575
+Connection ~ 18225 4575
+Text GLabel 18275 5075 2    50   Input ~ 0
+SHB1
+Wire Wire Line
+	18225 5075 18275 5075
+Connection ~ 18225 5075
+Text GLabel 18275 5575 2    50   Input ~ 0
+SHC1
+Wire Wire Line
+	18225 5575 18275 5575
+Connection ~ 18225 5575
+Text GLabel 20700 5500 0    50   Input ~ 0
+SLB1
+Wire Wire Line
+	20700 5500 20750 5500
+Connection ~ 20750 5500
+Wire Wire Line
+	20750 5500 20750 5425
+Text GLabel 22225 5500 0    50   Input ~ 0
+SLC1
+Wire Wire Line
+	22225 5500 22300 5500
+Wire Wire Line
+	22300 5500 22300 5550
+Wire Wire Line
+	22300 5425 22300 5500
+Connection ~ 22300 5500
+Text GLabel 19225 9525 0    50   Input ~ 0
+SLA2
+Wire Wire Line
+	19225 9525 19275 9525
+Connection ~ 19275 9525
+Wire Wire Line
+	19275 9525 19275 9625
+Text GLabel 20700 9525 0    50   Input ~ 0
+SLB2
+Wire Wire Line
+	20700 9525 20750 9525
+Connection ~ 20750 9525
+Wire Wire Line
+	20750 9525 20750 9450
+Text GLabel 22250 9525 0    50   Input ~ 0
+SLC2
+Wire Wire Line
+	22250 9525 22300 9525
+Wire Wire Line
+	22300 9525 22300 9450
+Wire Wire Line
+	22300 9525 22300 9575
+Connection ~ 22300 9525
+Text GLabel 18250 8600 2    50   Input ~ 0
+SHA2
+Wire Wire Line
+	18225 8600 18250 8600
+Connection ~ 18225 8600
+Text GLabel 18250 9100 2    50   Input ~ 0
+SHB2
+Text GLabel 18250 9600 2    50   Input ~ 0
+SHC2
+Wire Wire Line
+	18225 9600 18250 9600
+Connection ~ 18225 9600
+Wire Wire Line
+	18225 9100 18250 9100
+Connection ~ 18225 9100
 $EndSCHEMATC
