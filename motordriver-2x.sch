@@ -7309,7 +7309,6 @@ Wire Wire Line
 	3425 14625 3475 14625
 Wire Wire Line
 	3475 14650 3475 14625
-Connection ~ 3475 14625
 Wire Wire Line
 	2400 15725 2400 16050
 Wire Wire Line
@@ -11617,9 +11616,9 @@ Text GLabel 2375 8650 0    50   Input ~ 0
 INHC1
 Text GLabel 2375 8550 0    50   Input ~ 0
 INLC1
-Text GLabel 11575 2550 2    50   Input ~ 0
-SOA1
 Text GLabel 11575 2650 2    50   Input ~ 0
+SOA1
+Text GLabel 11575 2550 2    50   Input ~ 0
 SOB1
 Text GLabel 11575 5650 2    50   Input ~ 0
 VSA1
@@ -11816,10 +11815,6 @@ Wire Wire Line
 	4425 17225 3900 17225
 Wire Wire Line
 	3900 17225 3900 14625
-Wire Wire Line
-	3475 14625 3900 14625
-Wire Wire Line
-	3950 13625 3950 17125
 Wire Wire Line
 	3950 17125 4425 17125
 Wire Wire Line
@@ -13317,7 +13312,6 @@ F 3 "" H 4150 13625 50  0001 C CNN
 	1    3950 13625
 	1    0    0    -1  
 $EndComp
-Connection ~ 3950 13625
 $Comp
 L SwEmb:Test_Point TP5
 U 1 1 AB9A5E71
@@ -13329,7 +13323,6 @@ F 3 "" H 4100 14625 50  0001 C CNN
 	1    3900 14625
 	1    0    0    -1  
 $EndComp
-Connection ~ 3900 14625
 $Comp
 L SwEmb:Test_Point TP3
 U 1 1 AB9A61C4
@@ -20113,4 +20106,11 @@ Connection ~ 18225 9600
 Wire Wire Line
 	18225 9100 18250 9100
 Connection ~ 18225 9100
+Wire Wire Line
+	3950 13625 3950 17125
+Connection ~ 3950 13625
+Connection ~ 3900 14625
+Connection ~ 3475 14625
+Wire Wire Line
+	3475 14625 3900 14625
 $EndSCHEMATC
