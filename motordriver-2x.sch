@@ -2467,7 +2467,7 @@ INHC1
 Text GLabel 15050 5675 0    50   Input ~ 0
 INLC1
 Text GLabel 15050 5775 0    50   Input ~ 0
-VREF1
+VDD_3V3
 Wire Wire Line
 	16075 5775 16075 5875
 Wire Wire Line
@@ -3941,7 +3941,7 @@ INHC2
 Text GLabel 15050 9700 0    50   Input ~ 0
 INLC2
 Text GLabel 15050 9800 0    50   Input ~ 0
-VREF2
+VDD_3V3
 Wire Wire Line
 	16075 9800 16075 9900
 Wire Wire Line
@@ -11576,7 +11576,7 @@ Text GLabel 12150 6200 1    50   Input ~ 0
 ENCSCK2
 Text GLabel 12950 6200 1    50   Input ~ 0
 ENCMOSI2
-Text GLabel 11575 7550 2    50   Input ~ 0
+Text GLabel 11575 8250 2    50   Input ~ 0
 EN_GATE2
 Text GLabel 11575 6250 2    50   Input ~ 0
 INHA2
@@ -15208,7 +15208,7 @@ Text GLabel 11200 11350 2    50   Input ~ 0
 LCD_D7
 Text GLabel 2375 5450 0    50   Input ~ 0
 GPEX_CS
-Text GLabel 11575 8250 2    50   Input ~ 0
+Text GLabel 11575 7550 2    50   Input ~ 0
 GPEX_INTA
 Text GLabel 11575 7950 2    50   Input ~ 0
 GPEX_INTB
