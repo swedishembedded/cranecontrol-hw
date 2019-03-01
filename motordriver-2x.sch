@@ -701,37 +701,6 @@ VDD_3V3_MCU
 Wire Wire Line
 	1775 2250 2375 2250
 $Comp
-L SwEmb:SW_BTN_3.7x3.7 S1
-U 1 1 5C83EBAE
-P 1250 2300
-F 0 "S1" H 1250 2473 50  0000 C CNN
-F 1 "SW_BTN_3.7x3.7" H 1250 2500 50  0001 C CNN
-F 2 "CUSTOM:SW_PTS540" H 1250 2500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/60/pts540-1382793.pdf" H 1250 2500 50  0001 C CNN
-F 4 "PTS540JM035SMTRLFS" H 1250 2000 50  0001 C CNN "MPN"
-F 5 "13394 In Stock" H 1250 2250 50  0001 C CNN "Availability"
-F 6 "Tactile Switches 160 GF Top Actuated Ultra Low Profile" H 1150 2250 50  0001 C CNN "Description"
-F 7 "0.166  EUR" H 1250 2250 50  0001 C CNN "Price"
-F 8 "OK" H 1250 2250 50  0001 C CNN "LifeCycle"
-F 9 "Mouser" H 1250 2300 50  0001 C CNN "Vendor"
-	1    1250 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 2350 1500 2350
-Wire Wire Line
-	1500 2350 1500 2250
-Connection ~ 1500 2250
-Wire Wire Line
-	1500 2250 1450 2250
-Wire Wire Line
-	1050 2350 1000 2350
-Wire Wire Line
-	1000 2350 1000 2250
-Wire Wire Line
-	1000 2250 1050 2250
-Connection ~ 1000 2350
-$Comp
 L SwEmb:GNDREF #PWR0108
 U 1 1 5C8549F3
 P 1000 2500
@@ -743,8 +712,6 @@ F 4 "#" H 1000 2500 50  0001 C CNN "MPN"
 	1    1000 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 2350 1000 2500
 Text GLabel 1750 2150 0    50   Input ~ 0
 NRST
 Wire Wire Line
@@ -978,13 +945,13 @@ $EndComp
 $Comp
 L SwEmb:GNDREF #PWR0114
 U 1 1 5C8DFB63
-P 13050 4150
-F 0 "#PWR0114" H 13050 3900 50  0001 C CNN
-F 1 "GNDREF" H 13050 4000 50  0001 C CNN
-F 2 "" H 13050 4150 50  0001 C CNN
-F 3 "" H 13050 4150 50  0001 C CNN
-F 4 "#" H 13050 4150 50  0001 C CNN "MPN"
-	1    13050 4150
+P 13100 4150
+F 0 "#PWR0114" H 13100 3900 50  0001 C CNN
+F 1 "GNDREF" H 13100 4000 50  0001 C CNN
+F 2 "" H 13100 4150 50  0001 C CNN
+F 3 "" H 13100 4150 50  0001 C CNN
+F 4 "#" H 13100 4150 50  0001 C CNN "MPN"
+	1    13100 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -11561,7 +11528,7 @@ Text GLabel 11575 3750 2    50   Input ~ 0
 ENCA1
 Text GLabel 11575 4250 2    50   Input ~ 0
 ENCB1
-Text GLabel 11575 8150 2    50   Input ~ 0
+Text GLabel 2375 3950 0    50   Input ~ 0
 ENCZ1
 Text GLabel 11575 7850 2    50   Input ~ 0
 ENCSH1
@@ -11647,9 +11614,9 @@ Text GLabel 2375 5850 0    50   Input ~ 0
 AINPWEN
 Text GLabel 7425 10650 0    50   Input ~ 0
 AIN_OC
-Text GLabel 12525 4675 1    50   Input ~ 0
+Text GLabel 12625 4675 1    50   Input ~ 0
 AP_SCL1
-Text GLabel 12025 4625 1    50   Input ~ 0
+Text GLabel 12125 4625 1    50   Input ~ 0
 AP_SDA1
 Text GLabel 11575 4850 2    50   Input ~ 0
 AP_RESET1
@@ -11663,7 +11630,7 @@ Text GLabel 11575 7350 2    50   Input ~ 0
 CAN_RX1
 Text GLabel 1250 5250 1    50   Input ~ 0
 CANFD_MOSI
-Text GLabel 1750 5050 1    50   Input ~ 0
+Text GLabel 1750 4850 1    50   Input ~ 0
 CANFD_MISO
 Text GLabel 2375 4950 0    50   Input ~ 0
 CANFD_CS
@@ -11673,9 +11640,9 @@ Text GLabel 2375 4750 0    50   Input ~ 0
 CANFD_SOF
 Text GLabel 2375 4850 0    50   Input ~ 0
 CANFD_INT
-Text GLabel 12225 4625 1    50   Input ~ 0
+Text GLabel 12325 4625 1    50   Input ~ 0
 EE_SDA
-Text GLabel 12725 4675 1    50   Input ~ 0
+Text GLabel 12825 4675 1    50   Input ~ 0
 EE_SCL
 Text GLabel 11575 4550 2    50   Input ~ 0
 ECAT_RESET
@@ -11683,7 +11650,7 @@ Text GLabel 2375 4650 0    50   Input ~ 0
 ECAT_IRQ
 Text GLabel 1350 5250 1    50   Input ~ 0
 ECAT_MOSI
-Text GLabel 1650 5050 1    50   Input ~ 0
+Text GLabel 1650 4850 1    50   Input ~ 0
 ECAT_MISO
 Text GLabel 2375 5050 0    50   Input ~ 0
 ECAT_CS
@@ -12622,7 +12589,7 @@ Text GLabel 2375 7050 0    50   Input ~ 0
 MOC1
 Text GLabel 2375 6950 0    50   Input ~ 0
 GAIN1
-Text GLabel 2375 3950 0    50   Input ~ 0
+Text GLabel 11575 8150 2    50   Input ~ 0
 MOC2
 Text GLabel 2375 7150 0    50   Input ~ 0
 GAIN2
@@ -12644,8 +12611,6 @@ ENC1VDD5V
 Wire Wire Line
 	1750 5150 2375 5150
 Connection ~ 1750 5150
-Wire Wire Line
-	1750 5050 1750 5150
 Wire Wire Line
 	1550 5250 2375 5250
 Wire Wire Line
@@ -13424,22 +13389,20 @@ Text GLabel 7425 11150 0    50   Input ~ 0
 MOCP_RESET
 Text GLabel 7425 11250 0    50   Input ~ 0
 MOCP_WP
-Text GLabel 12625 4675 1    50   Input ~ 0
+Text GLabel 12725 4675 1    50   Input ~ 0
 MOCP_SCL
-Text GLabel 12125 4625 1    50   Input ~ 0
+Text GLabel 12225 4625 1    50   Input ~ 0
 MOCP_SDA
 Wire Wire Line
-	11575 4650 12025 4650
+	12225 4650 12225 4625
 Wire Wire Line
-	12125 4650 12125 4625
+	12125 4625 12125 4650
 Wire Wire Line
-	12025 4625 12025 4650
-Wire Wire Line
-	12025 4650 12125 4650
-Wire Wire Line
-	12525 4675 12525 4750
+	12125 4650 12225 4650
 Wire Wire Line
 	12625 4675 12625 4750
+Wire Wire Line
+	12725 4675 12725 4750
 $Comp
 L SwEmb:CONN_LCD P25
 U 1 1 B0891A5F
@@ -15042,18 +15005,18 @@ Connection ~ 12450 6750
 Text GLabel 7425 10950 0    50   Input ~ 0
 EE_WEN
 Wire Wire Line
-	12525 4750 12625 4750
-Wire Wire Line
-	12725 4750 12725 4675
-Connection ~ 12525 4750
-Connection ~ 12625 4750
-Wire Wire Line
 	12625 4750 12725 4750
 Wire Wire Line
-	12225 4625 12225 4650
+	12825 4750 12825 4675
+Connection ~ 12625 4750
+Connection ~ 12725 4750
 Wire Wire Line
-	12225 4650 12125 4650
-Connection ~ 12125 4650
+	12725 4750 12825 4750
+Wire Wire Line
+	12325 4625 12325 4650
+Wire Wire Line
+	12325 4650 12225 4650
+Connection ~ 12225 4650
 Text GLabel 8525 10650 2    50   Input ~ 0
 SW1
 Text GLabel 8525 10750 2    50   Input ~ 0
@@ -15245,9 +15208,9 @@ Text GLabel 11200 11350 2    50   Input ~ 0
 LCD_D7
 Text GLabel 2375 5450 0    50   Input ~ 0
 GPEX_CS
-Text GLabel 2375 6550 0    50   Input ~ 0
+Text GLabel 11575 8250 2    50   Input ~ 0
 GPEX_INTA
-Text GLabel 2375 6650 0    50   Input ~ 0
+Text GLabel 11575 7950 2    50   Input ~ 0
 GPEX_INTB
 $Comp
 L SwEmb:RES_470R_1%_0402 R50
@@ -15628,20 +15591,20 @@ Wire Notes Line
 	13075 13925 11300 13925
 Text GLabel 2375 8050 0    50   Input ~ 0
 BLED_EN
-Text GLabel 12325 4625 1    50   Input ~ 0
+Text GLabel 12425 4625 1    50   Input ~ 0
 BLED_SDA
-Text GLabel 12825 4675 1    50   Input ~ 0
+Text GLabel 12925 4675 1    50   Input ~ 0
 BLED_SCL
 Text GLabel 2375 8750 0    50   Input ~ 0
 BLED_INT
 Wire Wire Line
-	12825 4675 12825 4750
+	12925 4675 12925 4750
 Wire Wire Line
-	12825 4750 12725 4750
-Connection ~ 12725 4750
+	12925 4750 12825 4750
+Connection ~ 12825 4750
 Wire Wire Line
-	12325 4625 12325 4650
-Connection ~ 12225 4650
+	12425 4625 12425 4650
+Connection ~ 12325 4650
 Wire Wire Line
 	8975 11050 8925 11050
 Wire Wire Line
@@ -18139,62 +18102,56 @@ NoConn ~ 7425 11350
 $Comp
 L SwEmb:RES_3K_1%_0402 R36
 U 1 1 93E3F000
-P 12425 4475
-F 0 "R36" H 12475 4700 50  0000 C CNN
-F 1 "RES_3K_1%_0402" H 12455 4435 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 12355 4395 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 12455 4495 50  0001 C CNN
-F 4 "RC0402FR-073KL" H 12555 4595 50  0001 C CNN "MPN"
-F 5 "638811 In Stock" H 12425 4475 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 12425 4475 50  0001 C CNN "Description"
-F 7 "OK" H 12425 4475 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 12425 4475 50  0001 C CNN "Price"
-F 9 "Mouser" H 12425 4475 50  0001 C CNN "Vendor"
-	1    12425 4475
+P 12525 4475
+F 0 "R36" H 12575 4700 50  0000 C CNN
+F 1 "RES_3K_1%_0402" H 12555 4435 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12455 4395 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 12555 4495 50  0001 C CNN
+F 4 "RC0402FR-073KL" H 12655 4595 50  0001 C CNN "MPN"
+F 5 "638811 In Stock" H 12525 4475 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 12525 4475 50  0001 C CNN "Description"
+F 7 "OK" H 12525 4475 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 12525 4475 50  0001 C CNN "Price"
+F 9 "Mouser" H 12525 4475 50  0001 C CNN "Vendor"
+	1    12525 4475
 	-1   0    0    1   
 $EndComp
 $Comp
 L SwEmb:RES_3K_1%_0402 R45
 U 1 1 946389E7
-P 12925 4475
-F 0 "R45" V 12850 4475 50  0000 C CNN
-F 1 "RES_3K_1%_0402" H 12955 4435 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 12855 4395 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 12955 4495 50  0001 C CNN
-F 4 "RC0402FR-073KL" H 13055 4595 50  0001 C CNN "MPN"
-F 5 "638811 In Stock" H 12925 4475 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 12925 4475 50  0001 C CNN "Description"
-F 7 "OK" H 12925 4475 50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 12925 4475 50  0001 C CNN "Price"
-F 9 "Mouser" H 12925 4475 50  0001 C CNN "Vendor"
-	1    12925 4475
+P 13025 4475
+F 0 "R45" V 12950 4475 50  0000 C CNN
+F 1 "RES_3K_1%_0402" H 13055 4435 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 12955 4395 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 13055 4495 50  0001 C CNN
+F 4 "RC0402FR-073KL" H 13155 4595 50  0001 C CNN "MPN"
+F 5 "638811 In Stock" H 13025 4475 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 3K OHM 1%" H 13025 4475 50  0001 C CNN "Description"
+F 7 "OK" H 13025 4475 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 13025 4475 50  0001 C CNN "Price"
+F 9 "Mouser" H 13025 4475 50  0001 C CNN "Vendor"
+	1    13025 4475
 	-1   0    0    1   
 $EndComp
 Text GLabel 12600 4000 0    50   Input ~ 0
 VDD_3V3_MCU
 Wire Wire Line
-	12325 4650 12425 4650
+	12425 4650 12525 4650
 Wire Wire Line
-	12425 4650 12425 4575
-Connection ~ 12325 4650
+	12525 4650 12525 4575
+Connection ~ 12425 4650
 Wire Wire Line
-	12425 4375 12425 4200
+	12525 4375 12525 4200
 Wire Wire Line
-	12425 4200 12675 4200
+	13025 4200 13025 4375
 Wire Wire Line
-	12925 4200 12925 4375
-Wire Wire Line
-	12925 4575 12925 4750
-Wire Wire Line
-	12925 4750 12825 4750
-Connection ~ 12825 4750
+	13025 4750 12925 4750
+Connection ~ 12925 4750
 Wire Wire Line
 	12675 4200 12675 4000
 Wire Wire Line
 	12675 4000 12600 4000
 Connection ~ 12675 4200
-Wire Wire Line
-	12675 4200 12925 4200
 Text Notes 9175 21725 0    39   ~ 0
 11.76V
 $Comp
@@ -18724,11 +18681,11 @@ Wire Wire Line
 Connection ~ 15225 5075
 Wire Wire Line
 	15225 5075 16525 5075
-Text GLabel 11575 7950 2    50   Input ~ 0
+Text GLabel 2375 6650 0    50   Input ~ 0
 FAULT1
 Text GLabel 11575 8050 2    50   Input ~ 0
 FAULT2
-Text GLabel 11575 8250 2    50   Input ~ 0
+Text GLabel 2375 6550 0    50   Input ~ 0
 OCW1
 Text GLabel 11575 8350 2    50   Input ~ 0
 OCW2
@@ -20204,10 +20161,78 @@ Wire Wire Line
 Wire Wire Line
 	18050 1350 18550 1350
 Wire Wire Line
-	11575 4750 12525 4750
+	12425 4650 12325 4650
 Wire Wire Line
-	12325 4650 12225 4650
+	12025 4150 13100 4150
 Wire Wire Line
-	12025 4150 13050 4150
-Connection ~ 12025 4650
+	13025 4575 13025 4750
+Wire Wire Line
+	12525 4200 12675 4200
+Connection ~ 12125 4650
+Wire Wire Line
+	11575 4650 12125 4650
+Wire Wire Line
+	11575 4750 12625 4750
+Wire Wire Line
+	12675 4200 13025 4200
+NoConn ~ 7425 11050
+$Comp
+L SwEmb:RES_270R_1%_0402 R239
+U 1 1 93468DA7
+P 1650 4950
+F 0 "R239" V 1700 4825 50  0000 C CNN
+F 1 "RES_270R_1%_0402" H 1680 4910 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1580 4870 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 1680 4970 50  0001 C CNN
+F 4 "RC0402FR-07270RL" H 1780 5070 50  0001 C CNN "MPN"
+F 5 "467609 In Stock" H 1650 4950 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 270 OHM 1%" H 1650 4950 50  0001 C CNN "Description"
+F 7 "0.087  EUR" H 1650 4950 50  0001 C CNN "Price"
+F 8 "OK" H 1650 4950 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 1650 4950 50  0001 C CNN "Vendor"
+	1    1650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwEmb:RES_270R_1%_0402 R240
+U 1 1 9346FA5F
+P 1750 4950
+F 0 "R240" V 1825 4825 50  0000 C CNN
+F 1 "RES_270R_1%_0402" H 1780 4910 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1680 4870 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" H 1780 4970 50  0001 C CNN
+F 4 "RC0402FR-07270RL" H 1880 5070 50  0001 C CNN "MPN"
+F 5 "467609 In Stock" H 1750 4950 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 270 OHM 1%" H 1750 4950 50  0001 C CNN "Description"
+F 7 "0.087  EUR" H 1750 4950 50  0001 C CNN "Price"
+F 8 "OK" H 1750 4950 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 1750 4950 50  0001 C CNN "Vendor"
+	1    1750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5050 1750 5150
+Text Label 11425 14300 0    39   ~ 0
+USB_PWR
+$Comp
+L SwEmb:SW_BTN_3.7x3.7 S1
+U 1 1 5C83EBAE
+P 1300 2250
+F 0 "S1" H 1300 2423 50  0000 C CNN
+F 1 "SW_BTN_3.7x3.7" H 1300 2450 50  0001 C CNN
+F 2 "CUSTOM:SW_PTS540" H 1300 2450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/60/pts540-1382793.pdf" H 1300 2450 50  0001 C CNN
+F 4 "PTS540JM035SMTRLFS" H 1300 1950 50  0001 C CNN "MPN"
+F 5 "13394 In Stock" H 1300 2200 50  0001 C CNN "Availability"
+F 6 "Tactile Switches 160 GF Top Actuated Ultra Low Profile" H 1200 2200 50  0001 C CNN "Description"
+F 7 "0.166  EUR" H 1300 2200 50  0001 C CNN "Price"
+F 8 "OK" H 1300 2200 50  0001 C CNN "LifeCycle"
+F 9 "Mouser" H 1300 2250 50  0001 C CNN "Vendor"
+	1    1300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2500 1000 2250
+Wire Wire Line
+	1000 2250 1100 2250
 $EndSCHEMATC
