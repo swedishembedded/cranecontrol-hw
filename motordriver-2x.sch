@@ -4697,8 +4697,6 @@ F 4 "#" H 21600 10800 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	22025 10350 21800 10350
-Wire Wire Line
 	22225 10350 22300 10350
 Wire Wire Line
 	22225 10450 22300 10450
@@ -4731,13 +4729,6 @@ Text GLabel 21400 10000 0    50   Input ~ 0
 VDD_3V3_MCU
 Text GLabel 22000 10000 2    50   Input ~ 0
 GND
-Connection ~ 21700 10450
-Wire Wire Line
-	21700 10450 21550 10450
-Wire Wire Line
-	21700 10450 22025 10450
-Wire Wire Line
-	21700 10600 21700 10450
 $Comp
 L SwEmb:IC_MAX14890 U23
 U 1 1 5DA8336F
@@ -11582,7 +11573,7 @@ Text GLabel 12050 6200 1    50   Input ~ 0
 ENCSCK1
 Text GLabel 12850 6200 1    50   Input ~ 0
 ENCMOSI1
-Text GLabel 11575 7650 2    50   Input ~ 0
+Text GLabel 2375 6750 0    50   Input ~ 0
 EN_GATE1
 Text GLabel 2375 8150 0    50   Input ~ 0
 INLA1
@@ -11642,15 +11633,15 @@ Text GLabel 11575 6150 2    50   Input ~ 0
 VSB2
 Text GLabel 11575 4050 2    50   Input ~ 0
 VSC2
-Text GLabel 11575 4350 2    50   Input ~ 0
-HALL_A1
-Text GLabel 11575 4450 2    50   Input ~ 0
-HALL_B1
 Text GLabel 11575 2250 2    50   Input ~ 0
-HALL_A2
+HALL_A1
 Text GLabel 11575 2350 2    50   Input ~ 0
+HALL_B1
+Text GLabel 11575 4350 2    50   Input ~ 0
+HALL_A2
+Text GLabel 11575 4450 2    50   Input ~ 0
 HALL_B2
-Text GLabel 11575 2450 2    50   Input ~ 0
+Text GLabel 11575 3950 2    50   Input ~ 0
 HALL_C2
 Text GLabel 2375 5850 0    50   Input ~ 0
 AINPWEN
@@ -11686,7 +11677,7 @@ Text GLabel 12225 4625 1    50   Input ~ 0
 EE_SDA
 Text GLabel 12725 4675 1    50   Input ~ 0
 EE_SCL
-Text GLabel 2375 4550 0    50   Input ~ 0
+Text GLabel 11575 4550 2    50   Input ~ 0
 ECAT_RESET
 Text GLabel 2375 4650 0    50   Input ~ 0
 ECAT_IRQ
@@ -12627,11 +12618,11 @@ Text GLabel 14900 2150 0    50   Input ~ 0
 GND
 Text GLabel 15800 1950 2    50   Input ~ 0
 GND
-Text GLabel 2375 6850 0    50   Input ~ 0
+Text GLabel 2375 7050 0    50   Input ~ 0
 MOC1
 Text GLabel 2375 6950 0    50   Input ~ 0
 GAIN1
-Text GLabel 2375 7050 0    50   Input ~ 0
+Text GLabel 2375 3950 0    50   Input ~ 0
 MOC2
 Text GLabel 2375 7150 0    50   Input ~ 0
 GAIN2
@@ -13443,7 +13434,6 @@ Wire Wire Line
 	12125 4650 12125 4625
 Wire Wire Line
 	12025 4625 12025 4650
-Connection ~ 12025 4650
 Wire Wire Line
 	12025 4650 12125 4650
 Wire Wire Line
@@ -14743,8 +14733,6 @@ Wire Wire Line
 	18050 1800 19925 1800
 Connection ~ 18050 1800
 Wire Wire Line
-	18050 1350 18550 1350
-Wire Wire Line
 	18550 1350 18550 1325
 Connection ~ 18050 1350
 Wire Wire Line
@@ -15033,13 +15021,13 @@ Text GLabel 13050 6200 1    50   Input ~ 0
 GPIO_MOSI
 Text GLabel 12650 6200 1    50   Input ~ 0
 GPIO_MISO
-Text GLabel 2375 3950 0    50   Input ~ 0
+Text GLabel 2375 4350 0    50   Input ~ 0
 GPIO_RESET
 Text GLabel 2375 4050 0    50   Input ~ 0
 GPIO_INTA
 Text GLabel 2375 4150 0    50   Input ~ 0
 GPIO_INTB
-Text GLabel 2375 5450 0    50   Input ~ 0
+Text GLabel 2375 4550 0    50   Input ~ 0
 SWIRQ
 Text GLabel 12250 6200 1    50   Input ~ 0
 GPIO_SCK
@@ -15051,8 +15039,6 @@ Connection ~ 12150 6650
 Wire Wire Line
 	12550 6750 12450 6750
 Connection ~ 12450 6750
-Wire Wire Line
-	12025 4150 13050 4150
 Text GLabel 7425 10950 0    50   Input ~ 0
 EE_WEN
 Wire Wire Line
@@ -15243,11 +15229,11 @@ Text GLabel 9450 16625 0    50   Input ~ 0
 LCD_D6
 Text GLabel 9450 16725 0    50   Input ~ 0
 LCD_D7
-Text GLabel 10100 10750 0    50   Input ~ 0
-LCD_MDATA
-Text GLabel 10100 10650 0    50   Input ~ 0
-LCD_READ
 Text GLabel 10100 10850 0    50   Input ~ 0
+LCD_MDATA
+Text GLabel 10100 10750 0    50   Input ~ 0
+LCD_READ
+Text GLabel 10100 10650 0    50   Input ~ 0
 LCD_EN
 Text GLabel 11200 11050 2    50   Input ~ 0
 LCD_D4
@@ -15257,7 +15243,7 @@ Text GLabel 11200 11250 2    50   Input ~ 0
 LCD_D6
 Text GLabel 11200 11350 2    50   Input ~ 0
 LCD_D7
-Text GLabel 11575 4550 2    50   Input ~ 0
+Text GLabel 2375 5450 0    50   Input ~ 0
 GPEX_CS
 Text GLabel 2375 6550 0    50   Input ~ 0
 GPEX_INTA
@@ -15655,8 +15641,6 @@ Wire Wire Line
 Connection ~ 12725 4750
 Wire Wire Line
 	12325 4625 12325 4650
-Wire Wire Line
-	12325 4650 12225 4650
 Connection ~ 12225 4650
 Wire Wire Line
 	8975 11050 8925 11050
@@ -16334,7 +16318,7 @@ Text GLabel 14950 13250 0    50   Input ~ 0
 PWM_IN1
 Text GLabel 20350 13225 0    50   Input ~ 0
 PWM_IN2
-Text GLabel 2375 6750 0    50   Input ~ 0
+Text GLabel 11575 7650 2    50   Input ~ 0
 GPEX_RESET
 $Comp
 L SwEmb:LED_RED_0603 D31
@@ -17138,7 +17122,7 @@ Wire Wire Line
 	11300 11650 11300 12025
 Wire Wire Line
 	11375 11550 11375 12025
-Text Notes 13075 4600 0    39   ~ 0
+Text Notes 13275 4600 0    39   ~ 0
 BLED: 32h\nAP: 58h\nMOCP: 55h\nEE: A0h
 Wire Wire Line
 	10900 13000 10850 13000
@@ -18119,7 +18103,7 @@ Text Notes 25825 7125 0    79   ~ 0
 I2C1: POT/EE/LED\nI2C2: UEXT\nI2C3: -
 Text Notes 29175 6275 0    79   ~ 0
 ADC3_CH0: x\nADC3_CH1: x\nADC3_CH2: x\nADC3_CH3: x\nADC3_CH4: -\nADC3_CH5: -\nADC3_CH6: temp_mot2\nADC3_CH7: -\nADC3_CH8: -\nADC3_CH9: vmot\nADC3_CH10: -\nADC3_CH11: -\nADC3_CH12: -\nADC3_CH13: -\nADC3_CH14: joysticks\nADC3_CH15: temp_mot1
-Text GLabel 11575 3950 2    50   Input ~ 0
+Text GLabel 11575 2450 2    50   Input ~ 0
 HALL_C1
 Text Notes 27475 7000 0    79   ~ 0
 UART1: DEBUG\nUART8: UEXT
@@ -18204,8 +18188,6 @@ Wire Wire Line
 Wire Wire Line
 	12925 4750 12825 4750
 Connection ~ 12825 4750
-Wire Wire Line
-	11575 4750 12525 4750
 Wire Wire Line
 	12675 4200 12675 4000
 Wire Wire Line
@@ -18624,7 +18606,7 @@ Connection ~ 6075 16075
 Wire Wire Line
 	6075 16925 6075 17125
 Connection ~ 6075 17125
-Text GLabel 2375 4350 0    50   Input ~ 0
+Text GLabel 2375 6850 0    50   Input ~ 0
 DC_CAL1
 $Comp
 L SwEmb:Test_Point TP101
@@ -20191,23 +20173,41 @@ Text Label 19950 18675 0    39   ~ 0
 VDD33TXRX1
 NoConn ~ 23050 17475
 NoConn ~ 23050 18825
-Wire Wire Line
-	21800 10200 21800 10350
-Connection ~ 21800 10350
-Wire Wire Line
-	21700 10200 21700 10450
-Wire Wire Line
-	21550 10350 21800 10350
-Wire Wire Line
-	21550 10550 21600 10550
-Wire Wire Line
-	21600 10200 21600 10550
-Connection ~ 21600 10550
-Wire Wire Line
-	21600 10550 22025 10550
-Wire Wire Line
-	21600 10600 21600 10550
-Wire Wire Line
-	21800 10600 21800 10350
 NoConn ~ 7075 14125
+Wire Wire Line
+	21550 10350 21700 10350
+Wire Wire Line
+	21550 10450 21600 10450
+Wire Wire Line
+	21550 10550 21800 10550
+Wire Wire Line
+	21600 10200 21600 10450
+Connection ~ 21600 10450
+Wire Wire Line
+	21600 10450 22025 10450
+Wire Wire Line
+	21600 10600 21600 10450
+Wire Wire Line
+	21700 10350 21700 10200
+Connection ~ 21700 10350
+Wire Wire Line
+	21700 10350 22025 10350
+Wire Wire Line
+	21700 10600 21700 10350
+Wire Wire Line
+	21800 10200 21800 10550
+Connection ~ 21800 10550
+Wire Wire Line
+	21800 10550 22025 10550
+Wire Wire Line
+	21800 10600 21800 10550
+Wire Wire Line
+	18050 1350 18550 1350
+Wire Wire Line
+	11575 4750 12525 4750
+Wire Wire Line
+	12325 4650 12225 4650
+Wire Wire Line
+	12025 4150 13050 4150
+Connection ~ 12025 4650
 $EndSCHEMATC
