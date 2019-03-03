@@ -20237,4 +20237,6 @@ Wire Wire Line
 	1000 2250 1100 2250
 Text Label 9400 21400 0    39   ~ 0
 12V_OUT
+Text Label 10300 21400 0    39   ~ 0
+VDD_5V_SUP
 $EndSCHEMATC
