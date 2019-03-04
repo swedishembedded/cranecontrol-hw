@@ -847,8 +847,6 @@ Wire Wire Line
 	6700 1000 6700 1050
 Connection ~ 6700 1000
 Wire Wire Line
-	6700 1000 6875 1000
-Wire Wire Line
 	6700 1250 6700 1475
 $Comp
 L SwEmb:GNDREF #PWR0112
@@ -11469,10 +11467,6 @@ Wire Wire Line
 	7675 1650 7675 1750
 Wire Wire Line
 	7575 1650 7675 1650
-Text GLabel 6875 925  1    50   Input ~ 0
-VREF1
-Text GLabel 7000 925  1    50   Input ~ 0
-VREF2
 Text GLabel 17225 21400 2    50   Input ~ 0
 VDD_3V3_MCU
 Text GLabel 12450 20925 0    50   Input ~ 0
@@ -18513,16 +18507,6 @@ F 3 "" H 16250 12950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6875 925  6875 1000
-Connection ~ 6875 1000
-Wire Wire Line
-	6875 1000 7000 1000
-Wire Wire Line
-	7000 925  7000 1000
-Connection ~ 7000 1000
-Wire Wire Line
-	7000 1000 7300 1000
-Wire Wire Line
 	7575 1000 7575 1650
 $Comp
 L SwEmb:GNDREF #PWR0232
@@ -20239,4 +20223,6 @@ Text Label 9400 21400 0    39   ~ 0
 12V_OUT
 Text Label 10300 21400 0    39   ~ 0
 VDD_5V_SUP
+Wire Wire Line
+	6700 1000 7300 1000
 $EndSCHEMATC
