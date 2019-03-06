@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/data/hardware/motordriver-2x/motordriver-2x.sch</source>
-    <date>Mon 04 Mar 2019 02:33:58 PM CET</date>
+    <date>Wed 06 Mar 2019 09:07:07 AM CET</date>
     <tool>Eeschema (5.0.1-52-g4f012dab7-dirty)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -458,7 +458,7 @@
         <field name="Availability">2413 In Stock</field>
         <field name="Description">Motor/Motion/Ignition Controllers &amp; Drivers 3-PHASE BRUSHLESS MOTOR PRE-DRIVER</field>
         <field name="LifeCycle">OK</field>
-        <field name="MPN">RV8302DCAR</field>
+        <field name="MPN">DRV8302DCAR</field>
         <field name="Price">5.08  EUR</field>
         <field name="Vendor">Mouser</field>
       </fields>
@@ -1291,7 +1291,7 @@
         <field name="Availability">2413 In Stock</field>
         <field name="Description">Motor/Motion/Ignition Controllers &amp; Drivers 3-PHASE BRUSHLESS MOTOR PRE-DRIVER</field>
         <field name="LifeCycle">OK</field>
-        <field name="MPN">RV8302DCAR</field>
+        <field name="MPN">DRV8302DCAR</field>
         <field name="Price">5.08  EUR</field>
         <field name="Vendor">Mouser</field>
       </fields>
@@ -3589,10 +3589,10 @@
     <comp ref="P9">
       <value>CONN_JOYSTICK</value>
       <footprint>CUSTOM:CONN_JOYSTICK</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf</datasheet>
+      <datasheet>https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf</datasheet>
       <fields>
-        <field name="Availability">1627 In Stock</field>
-        <field name="Description">Pluggable Terminal Blocks WR-TBL Mod3211 3.5mm 4Pin Vertical PCBHdr</field>
+        <field name="Availability">792 In Stock</field>
+        <field name="Description">Pluggable Terminal Blocks WR-TBL PCB Model3221 4Pin 3.5mm Hztl</field>
         <field name="LifeCycle">OK</field>
         <field name="MPN">691322110004</field>
         <field name="Price">0.75  EUR</field>
@@ -3683,10 +3683,10 @@
     <comp ref="P11">
       <value>CONN_JOYSTICK</value>
       <footprint>CUSTOM:CONN_JOYSTICK</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf</datasheet>
+      <datasheet>https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf</datasheet>
       <fields>
-        <field name="Availability">1627 In Stock</field>
-        <field name="Description">Pluggable Terminal Blocks WR-TBL Mod3211 3.5mm 4Pin Vertical PCBHdr</field>
+        <field name="Availability">792 In Stock</field>
+        <field name="Description">Pluggable Terminal Blocks WR-TBL PCB Model3221 4Pin 3.5mm Hztl</field>
         <field name="LifeCycle">OK</field>
         <field name="MPN">691322110004</field>
         <field name="Price">0.75  EUR</field>
@@ -5503,10 +5503,10 @@
       <footprint>CUSTOM:CONN_POWER_10A</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf</datasheet>
       <fields>
-        <field name="Availability">2043 In Stock</field>
+        <field name="Availability">1744 In Stock</field>
         <field name="Description">Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl</field>
         <field name="LifeCycle">OK</field>
-        <field name="MPN">691322110002</field>
+        <field name="MPN">691321100002</field>
         <field name="Price">0.38  EUR</field>
         <field name="Vendor">Mouser</field>
       </fields>
@@ -9734,12 +9734,13 @@
         <field name="Reference">P</field>
         <field name="Value">CONN_JOYSTICK</field>
         <field name="Footprint">CUSTOM:CONN_JOYSTICK</field>
-        <field name="Datasheet">https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf</field>
         <field name="MPN">691322110004</field>
-        <field name="Availability">1627 In Stock</field>
-        <field name="Description">Pluggable Terminal Blocks WR-TBL Mod3211 3.5mm 4Pin Vertical PCBHdr</field>
+        <field name="Availability">792 In Stock</field>
+        <field name="Description">Pluggable Terminal Blocks WR-TBL PCB Model3221 4Pin 3.5mm Hztl</field>
         <field name="LifeCycle">OK</field>
         <field name="Price">0.75  EUR</field>
+        <field name="Vendor">Mouser</field>
       </fields>
       <pins>
         <pin num="1" name="5V" type="power_in"/>
@@ -9812,10 +9813,11 @@
         <field name="Footprint">CUSTOM:CONN_POWER_10A</field>
         <field name="Datasheet">https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf</field>
         <field name="MPN">691321100002</field>
-        <field name="Availability">2043 In Stock</field>
+        <field name="Availability">1744 In Stock</field>
         <field name="Description">Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl</field>
         <field name="LifeCycle">OK</field>
         <field name="Price">0.38  EUR</field>
+        <field name="Vendor">Mouser</field>
       </fields>
       <pins>
         <pin num="1" name="VCC" type="passive"/>
@@ -10237,7 +10239,7 @@
         <field name="Reference">U</field>
         <field name="Value">IC_DRV8302</field>
         <field name="Footprint">CUSTOM:HTSSOP-56-PowerPAD_6.2x14.1mm_P0.5mm_EP3.61x6.35mm</field>
-        <field name="MPN">RV8302DCAR</field>
+        <field name="MPN">DRV8302DCAR</field>
         <field name="Availability">2413 In Stock</field>
         <field name="Description">Motor/Motion/Ignition Controllers &amp; Drivers 3-PHASE BRUSHLESS MOTOR PRE-DRIVER</field>
         <field name="LifeCycle">OK</field>
