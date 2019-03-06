@@ -537,12 +537,13 @@ DEF ~SwEmb_CONN_JOYSTICK P 0 40 Y Y 1 F N
 F0 "P" -50 250 50 H V C CNN
 F1 "SwEmb_CONN_JOYSTICK" -100 900 50 H I C CNN
 F2 "CUSTOM:CONN_JOYSTICK" -300 900 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
 F4 "691322110004" -100 900 50 H I C CNN "MPN"
-F5 "1627 In Stock" -100 900 50 H I C CNN "Availability"
-F6 "Pluggable Terminal Blocks WR-TBL Mod3211 3.5mm 4Pin Vertical PCBHdr" -200 900 50 H I C CNN "Description"
+F5 "792 In Stock" -100 900 50 H I C CNN "Availability"
+F6 "Pluggable Terminal Blocks WR-TBL PCB Model3221 4Pin 3.5mm Hztl" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
 F8 "0.75  EUR" 100 900 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 DRAW
 T 900 70 0 20 0 0 0 JOYSTICK Normal 0 C C
 S -150 200 100 -200 0 1 0 N
@@ -624,10 +625,11 @@ F1 "SwEmb_CONN_POWER_10A" -100 900 50 H I C CNN
 F2 "CUSTOM:CONN_POWER_10A" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
 F4 "691321100002" -100 900 50 H I C CNN "MPN"
-F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
+F5 "1744 In Stock" -100 900 50 H I C CNN "Availability"
 F6 "Pluggable Terminal Blocks WR-TBL PCB Model3211 2Pin 3.5mm Vtcl" -200 900 50 H I C CNN "Description"
 F7 "OK" 0 900 50 H I C CNN "LifeCycle"
 F8 "0.38  EUR" 100 900 50 H I C CNN "Price"
+F9 "Mouser" 0 0 50 H I C CNN "Vendor"
 DRAW
 S -150 100 100 -100 0 1 0 N
 X VCC 1 -250 50 100 R 50 50 1 1 P
@@ -1293,7 +1295,7 @@ F0 "U" 0 1500 60 H V C CNN
 F1 "SwEmb_IC_DRV8302" 300 -1550 60 H V C CNN
 F2 "CUSTOM:HTSSOP-56-PowerPAD_6.2x14.1mm_P0.5mm_EP3.61x6.35mm" -100 1400 60 H I C CNN
 F3 "" 0 1500 60 H V C CNN
-F4 "RV8302DCAR" 0 0 50 H I C CNN "MPN"
+F4 "DRV8302DCAR" 0 0 50 H I C CNN "MPN"
 F5 "2413 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Motor/Motion/Ignition Controllers & Drivers 3-PHASE BRUSHLESS MOTOR PRE-DRIVER" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
