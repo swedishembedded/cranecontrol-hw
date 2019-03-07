@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF ~SwEmb_CAPP_100uF_25V_6357 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "SwEmb_CAPP_100uF_25V_6357" 25 -100 50 H I L CNN
-F2 "Capacitor_SMD:CP_Elec_6.3x5.7" 38 -150 50 H I C CNN
+F2 "SwedishEmbedded:CP_Elec_6.3x5.7" 38 -150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/231/151002385281-1222337.pdf" 25 100 50 H I C CNN
 F4 "VZS101M1ETR-0606" 0 0 39 H I C CNN "MPN"
 F5 "25876 In Stock" 0 0 50 H I C CNN "Availability"
@@ -33,7 +33,7 @@ ENDDEF
 DEF ~SwEmb_CAPP_220uF_63V_10x15_THT C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "SwEmb_CAPP_220uF_63V_10x15_THT" 25 -100 50 H I L CNN
-F2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" 38 -150 50 H I C CNN
+F2 "SwedishEmbedded:CP_Radial_D10.0mm_P5.00mm" 38 -150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf" 25 100 50 H I C CNN
 F4 "ESK227M063AH2AA" 0 0 39 H I C CNN "MPN"
 F5 "2937 In Stock" 0 0 50 H I C CNN "Availability"
@@ -60,7 +60,7 @@ ENDDEF
 DEF ~SwEmb_CAP_0.022uF_100V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_0.022uF_100V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_0603_1608Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" 10 70 50 H I C CNN
 F4 "C0603C223K1RACTU" 0 -350 50 H I C CNN "MPN"
 F5 "271764 In Stock" 0 0 50 H I C CNN "Availability"
@@ -85,7 +85,7 @@ ENDDEF
 DEF ~SwEmb_CAP_100nF_100V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_100nF_100V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_0603_1608Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/UPY-NP0X7R_MV_100-to-630V_21-1479806.pdf" 10 70 50 H I C CNN
 F4 "CC0603KRX7R0BB104" 0 -300 50 H I C CNN "MPN"
 F5 "121849 In Stock" 0 0 50 H I C CNN "Availability"
@@ -110,7 +110,7 @@ ENDDEF
 DEF ~SwEmb_CAP_100nF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_100nF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN
 F4 "CC0402KRX5R9BB104" 450 250 50 H I C CNN "MPN"
 F5 "120297 In Stock" 0 0 50 H I C CNN "Availability"
@@ -135,7 +135,7 @@ ENDDEF
 DEF ~SwEmb_CAP_100pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_100pF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/885012205055-554058.pdf" 10 70 50 H I C CNN
 F4 "885012205055" 0 0 50 H I C CNN "MPN"
 F5 "139976 On Order" 0 0 50 H I C CNN "Availability"
@@ -160,7 +160,7 @@ ENDDEF
 DEF ~SwEmb_CAP_10pF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_10pF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/885012005055-553907.pdf" 10 70 50 H I C CNN
 F4 "885012005055" 450 250 50 H I C CNN "MPN"
 F5 "383 In Stock" 0 0 50 H I C CNN "Availability"
@@ -185,7 +185,7 @@ ENDDEF
 DEF ~SwEmb_CAP_10uF_25V_0805 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_10uF_25V_0805" -40 -280 50 H I L CNN
-F2 "Capacitor_SMD:C_0805_2012Metric" 400 -50 50 H I C CNN
+F2 "SwedishEmbedded:C_0805_2012Metric" 400 -50 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" -40 -130 50 H I C CNN
 F4 "GRM21BR61E106MA73L" 0 -350 50 H I C CNN "MPN"
 F5 "196753 In Stock" -50 -200 50 H I C CNN "Availability"
@@ -210,7 +210,7 @@ ENDDEF
 DEF ~SwEmb_CAP_1nF_100V_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_1nF_100V_0603" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_0603_1608Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/400/lcc_automotive_midvoltage_en-355485.pdf" 10 70 50 H I C CNN
 F4 "CGA3E2X7R2A102K080AA" 0 -350 50 H I C CNN "MPN"
 F5 "100868 In Stock" 0 0 50 H I C CNN "Availability"
@@ -235,7 +235,7 @@ ENDDEF
 DEF ~SwEmb_CAP_2.2uF_100V_1210 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_2.2uF_100V_1210" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_1210_3225Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_1210_3225Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf" 10 70 50 H I C CNN
 F4 "HMJ325AB7225KMHT" 0 -300 50 H I C CNN "MPN"
 F5 "12161 In Stock" 0 0 50 H I C CNN "Availability"
@@ -260,7 +260,7 @@ ENDDEF
 DEF ~SwEmb_CAP_2.2uF_16V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_2.2uF_16V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GRT_Series-1310174.pdf" 10 70 50 H I C CNN
 F4 "GRT155C81C225KE13D" 0 -350 50 H I C CNN "MPN"
 F5 "113017 In Stock" 0 0 50 H I C CNN "Availability"
@@ -285,7 +285,7 @@ ENDDEF
 DEF ~SwEmb_CAP_22nF_50V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_22nF_50V_0402" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 70 50 H I C CNN
 F4 "GCM155R71H223JA55D" 0 -350 50 H I C CNN "MPN"
 F5 "76047 In Stock" 0 0 50 H I C CNN "Availability"
@@ -310,7 +310,7 @@ ENDDEF
 DEF ~SwEmb_CAP_22uF_10V_0805 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_22uF_10V_0805" 10 -80 50 H I L CNN
-F2 "Capacitor_SMD:C_0805_2012Metric" 450 150 50 H I C CNN
+F2 "SwedishEmbedded:C_0805_2012Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" 10 70 50 H I C CNN
 F4 "LMK212BBJ226MG-T" 450 250 50 H I C CNN "MPN"
 F5 "131798 In Stock" 0 0 50 H I C CNN "Availability"
@@ -335,7 +335,7 @@ ENDDEF
 DEF ~SwEmb_CAP_27nF_16V_0402 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "SwEmb_CAP_27nF_16V_0402" 10 -830 50 H I L CNN
-F2 "Capacitor_SMD:C_0402_1005Metric" 450 -600 50 H I C CNN
+F2 "SwedishEmbedded:C_0402_1005Metric" 450 -600 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" 10 -680 50 H I C CNN
 F4 "GCM155R71C273KA37D" 450 -500 50 H I C CNN "MPN"
 F5 "10300 In Stock" 0 -600 50 H I C CNN "Availability"
@@ -360,7 +360,7 @@ ENDDEF
 DEF ~SwEmb_CONN_AN_OUT P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "SwEmb_CONN_AN_OUT" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_AN_OUT" -300 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_AN_OUT" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
 F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
@@ -380,7 +380,7 @@ ENDDEF
 DEF ~SwEmb_CONN_BRKRES P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "SwEmb_CONN_BRKRES" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_BRKRES" -300 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_BRKRES" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
 F4 "691322110002" -100 900 50 H I C CNN "MPN"
 F5 "2043 In Stock" -100 900 50 H I C CNN "Availability"
@@ -400,7 +400,7 @@ ENDDEF
 DEF ~SwEmb_CONN_BUTTON P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
 F1 "SwEmb_CONN_BUTTON" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_BUTTON" -300 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_BUTTON" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
 F4 "691322110003" -100 900 50 H I C CNN "MPN"
 F5 "756 In Stock" -100 900 50 H I C CNN "Availability"
@@ -422,7 +422,7 @@ ENDDEF
 DEF ~SwEmb_CONN_CAN P 0 40 Y Y 1 F N
 F0 "P" -100 200 50 H V C CNN
 F1 "SwEmb_CONN_CAN" 0 -200 50 H I C CNN
-F2 "CUSTOM:CONN_CAN" 50 -300 50 H I C CNN
+F2 "SwedishEmbedded:CONN_CAN" 50 -300 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -100 0 50 H I C CNN
 F4 "691322110003" 0 50 50 H I C CNN "MPN"
 F5 "2041 In Stock" 0 0 50 H I C CNN "Availability"
@@ -449,7 +449,7 @@ ENDDEF
 DEF ~SwEmb_CONN_DEBUG_2R P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
 F1 "SwEmb_CONN_DEBUG_2R" 100 -700 50 H I C CNN
-F2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
+F2 "SwedishEmbedded:IDC-Header_2x05_P2.54mm_Vertical" 0 100 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H I C CNN
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
 F5 "11668 In Stock" 0 0 50 H I C CNN "Availability"
@@ -483,7 +483,7 @@ ENDDEF
 DEF ~SwEmb_CONN_ENCODER P 0 40 Y Y 1 F N
 F0 "P" -50 450 50 H V C CNN
 F1 "SwEmb_CONN_ENCODER" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_ENCODER" -300 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_ENCODER" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
 F4 "691322110008" -100 900 50 H I C CNN "MPN"
 F5 "760 In Stock" -100 900 50 H I C CNN "Availability"
@@ -512,7 +512,7 @@ ENDDEF
 DEF ~SwEmb_CONN_HALL P 0 40 Y Y 1 F N
 F0 "P" 0 300 50 H V C CNN
 F1 "SwEmb_CONN_HALL" 0 0 50 H I C CNN
-F2 "CUSTOM:CONN_HALL" -100 200 50 H I C CNN
+F2 "SwedishEmbedded:CONN_HALL" -100 200 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" 0 0 50 H I C CNN
 F4 "691322110005" 0 0 50 H I C CNN "MPN"
 F5 "587 In Stock" 0 0 50 H I C CNN "Availability"
@@ -536,7 +536,7 @@ ENDDEF
 DEF ~SwEmb_CONN_JOYSTICK P 0 40 Y Y 1 F N
 F0 "P" -50 250 50 H V C CNN
 F1 "SwEmb_CONN_JOYSTICK" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_JOYSTICK" -300 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_JOYSTICK" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913221100xx-336074.pdf" -200 900 50 H I C CNN
 F4 "691322110004" -100 900 50 H I C CNN "MPN"
 F5 "792 In Stock" -100 900 50 H I C CNN "Availability"
@@ -559,7 +559,7 @@ ENDDEF
 DEF ~SwEmb_CONN_LCD P 0 40 Y Y 1 F N
 F0 "P" 0 900 50 H V C CNN
 F1 "SwEmb_CONN_LCD" 0 -1650 50 H I C CNN
-F2 "CUSTOM:CONN_LCD" -100 -1550 50 H I C CNN
+F2 "SwedishEmbedded:CONN_LCD" -100 -1550 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/276/0702461004_PCB_HEADERS-229930.pdf" -100 500 50 H I C CNN
 F4 "70246-0802" 0 -1450 50 H I C CNN "MPN"
 F5 "2463 In Stock" 0 0 50 H I C CNN "Availability"
@@ -600,7 +600,7 @@ ENDDEF
 DEF ~SwEmb_CONN_MOTOR P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
 F1 "SwEmb_CONN_MOTOR" -100 900 50 H I C CNN
-F2 "CUSTOM:ANYTEK_7.62mm_2x_3P_32A" -300 900 50 H I C CNN
+F2 "SwedishEmbedded:ANYTEK_7.62mm_2x_3P_32A" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/18/eIO4RBm_lB__-1379253.pdf" -200 900 50 H I C CNN
 F4 "VC0301500000G" -100 900 50 H I C CNN "MPN"
 F5 "176 In Stock" -100 900 50 H I C CNN "Availability"
@@ -622,7 +622,7 @@ ENDDEF
 DEF ~SwEmb_CONN_POWER_10A P 0 40 Y Y 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "SwEmb_CONN_POWER_10A" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_POWER_10A" -300 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_POWER_10A" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
 F4 "691321100002" -100 900 50 H I C CNN "MPN"
 F5 "1744 In Stock" -100 900 50 H I C CNN "Availability"
@@ -642,7 +642,7 @@ ENDDEF
 DEF ~SwEmb_CONN_POWER_41A P 0 40 Y Y 1 F N
 F0 "P" -100 150 50 H V C CNN
 F1 "SwEmb_CONN_POWER_41A" 0 -150 50 H I C CNN
-F2 "CUSTOM:PhoenixContact_Power41A_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" -100 -50 50 H I C CNN
+F2 "SwedishEmbedded:PhoenixContact_Power41A_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" -100 -50 50 H I C CNN
 F3 "" -100 -50 50 H V C CNN
 F4 "1720466" 0 0 50 H I C CNN "MPN"
 F5 "357 In Stock" 0 0 50 H I C CNN "Availability"
@@ -668,7 +668,7 @@ ENDDEF
 DEF SwEmb_CONN_RJ45_MAG J 0 1 Y Y 1 F N
 F0 "J" 100 600 50 H V L CNN
 F1 "SwEmb_CONN_RJ45_MAG" -50 600 50 H V R CNN
-F2 "CUSTOM:RJ45_Tranformer" 0 500 50 H I C CNN
+F2 "SwedishEmbedded:RJ45_Tranformer" 0 500 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/7499010121A-254210.pdf" 100 600 50 H I C CNN
 F4 "7499010121A" 0 0 315 H I C CNN "MPN"
 F5 "202 In Stock" 0 0 50 H I C CNN "Availability"
@@ -783,7 +783,7 @@ ENDDEF
 DEF ~SwEmb_CONN_SENSOR P 0 40 Y Y 1 F N
 F0 "P" -50 200 50 H V C CNN
 F1 "SwEmb_CONN_SENSOR" -100 900 50 H I C CNN
-F2 "CUSTOM:CONN_SENSOR" -300 900 50 H I C CNN
+F2 "SwedishEmbedded:CONN_SENSOR" -300 900 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6913211000xx-336057.pdf" -200 900 50 H I C CNN
 F4 "691322110003" -100 900 50 H I C CNN "MPN"
 F5 "2041 In Stock" -100 900 50 H I C CNN "Availability"
@@ -805,7 +805,7 @@ ENDDEF
 DEF ~SwEmb_CONN_UEXT P 0 40 Y Y 1 F N
 F0 "P" 100 500 50 H V C CNN
 F1 "SwEmb_CONN_UEXT" 100 -700 50 H I C CNN
-F2 "CUSTOM:CONN_UEXT" 0 100 50 H I C CNN
+F2 "SwedishEmbedded:CONN_UEXT" 0 100 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/1/ts0770-34478.pdf" 0 100 50 H I C CNN
 F4 "N2510-6002RB" 0 0 50 H I C CNN "MPN"
 F5 "10884 In Stock" 0 0 50 H I C CNN "Availability"
@@ -839,7 +839,7 @@ ENDDEF
 DEF ~SwEmb_D_BAT54 D 0 40 N Y 1 F N
 F0 "D" -50 100 50 H V L CNN
 F1 "SwEmb_D_BAT54" -150 -450 50 H I L CNN
-F2 "Diode_SMD:D_SOD-123" -175 -425 50 H I L CNN
+F2 "SwedishEmbedded:D_SOD-123" -175 -425 50 H I L CNN
 F3 "https://www.mouser.com/datasheet/2/916/BAT54GW-1318921.pdf" -370 -550 50 H I C CNN
 F4 "BAT54GWJ" -100 -450 50 H I C CNN "MPN"
 F5 "34404 In Stock" -100 -500 50 H I C CNN "Availability"
@@ -869,7 +869,7 @@ ENDDEF
 DEF ~SwEmb_D_BAT54S D 0 40 Y Y 1 F N
 F0 "D" 25 -150 50 H V L CNN
 F1 "SwEmb_D_BAT54S" -150 -400 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 25 -325 50 H I L CNN
+F2 "SwedishEmbedded:SOT-23" 25 -325 50 H I L CNN
 F3 "https://www.mouser.com/datasheet/2/308/BAT54SLT1-D-103997.pdf" -170 -450 50 H I C CNN
 F4 "BAT54SLT1G" 0 -450 50 H I C CNN "MPN"
 F5 "388644 In Stock" -50 -450 50 H I C CNN "Availability"
@@ -908,7 +908,7 @@ ENDDEF
 DEF ~SwEmb_D_CDBC5100 D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "SwEmb_D_CDBC5100" -150 -430 50 H I L CNN
-F2 "Diode_SMD:D_SMC" 100 -500 50 H I C CNN
+F2 "SwedishEmbedded:D_SMC" 100 -500 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/80/CDBC520-HF_Thru195419._CDBC5100-HF_RevB-1480789.pdf" 150 -500 50 H I C CNN
 F4 "CDBC5100-HF" 0 -650 50 H I C CNN "MPN"
 F5 "9967 In Stock" 0 -350 50 H I C CNN "Availability"
@@ -940,7 +940,7 @@ ENDDEF
 DEF ~SwEmb_D_ESDCAN03 D 0 10 Y N 1 F N
 F0 "D" -60 310 50 H V L CNN
 F1 "SwEmb_D_ESDCAN03" -250 -350 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SOT-323_SC-70" 50 -450 50 H I C CNN
+F2 "SwedishEmbedded:SOT-323_SC-70" 50 -450 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/389/esdcan02-2bwy-954689.pdf" 30 -100 50 V I C CNN
 F4 "ESDCAN03-2BWY " 10 420 50 H I C CNN "MPN"
 F5 "20191 In Stock" 0 0 50 H I C CNN "Availability"
@@ -979,7 +979,7 @@ ENDDEF
 DEF ~SwEmb_D_SMBJ12A D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "SwEmb_D_SMBJ12A" 0 -100 50 H I C CNN
-F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN
+F2 "SwedishEmbedded:D_SMB" -100 0 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN
 F4 "SMBJ12A-TR" 0 0 50 H I C CNN "MPN"
 F5 "11297 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1010,7 +1010,7 @@ ENDDEF
 DEF ~SwEmb_D_SMBJ48A D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "SwEmb_D_SMBJ48A" 0 -100 50 H I C CNN
-F2 "Diode_SMD:D_SMB" -100 0 50 H I C CNN
+F2 "SwedishEmbedded:D_SMB" -100 0 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/389/smbj-955195.pdf" 0 0 50 H I C CNN
 F4 "SMBJ48A-TR" 0 0 50 H I C CNN "MPN"
 F5 "12398 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1041,7 +1041,7 @@ ENDDEF
 DEF ~SwEmb_D_STPS41H100 D 0 40 Y Y 1 F N
 F0 "D" 75 -50 50 H V L CNN
 F1 "SwEmb_D_STPS41H100" -250 -200 50 H I L CNN
-F2 "Package_TO_SOT_SMD:TO-263-2" -75 -575 50 H I L CNN
+F2 "SwedishEmbedded:TO-263-2" -75 -575 50 H I L CNN
 F3 "https://www.mouser.com/datasheet/2/389/stps41h100c-y-956752.pdf" -270 -700 50 H I C CNN
 F4 "STPS41H100CGY-TR" -50 -650 50 H I C CNN "MPN"
 F5 "1484 In Stock" 0 -600 50 H I C CNN "Availability"
@@ -1081,7 +1081,7 @@ ENDDEF
 DEF ~SwEmb_D_SZ1SMB5913BT3G D 0 10 N N 1 F N
 F0 "D" 0 90 50 H V C CNN
 F1 "SwEmb_D_SZ1SMB5913BT3G" 0 -90 50 H I C CNN
-F2 "Diode_SMD:D_SMB" -100 -10 50 H I C CNN
+F2 "SwedishEmbedded:D_SMB" -100 -10 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/308/1SMB5913BT3-D-1292981.pdf" 0 90 50 H I C CNN
 F4 "SZ1SMB5913BT3G" 0 0 39 H I C CNN "MPN"
 F5 "2800 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1111,7 +1111,7 @@ ENDDEF
 DEF SwEmb_D_TPD3E001 D 0 40 Y Y 1 F N
 F0 "D" 0 240 50 H V C CNN
 F1 "SwEmb_D_TPD3E001" -10 -470 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 0 20 50 H I C CNN
+F2 "SwedishEmbedded:SOT-23-5" 0 20 50 H I C CNN
 F3 "" 0 20 50 H I C CNN
 F4 "TPD3E001DRLR" -10 -470 50 H I C CNN "MPN"
 F5 "172970 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1170,7 +1170,7 @@ ENDDEF
 DEF ~SwEmb_FUSE_3A_9750 F 0 10 N N 1 F N
 F0 "F" 30 20 50 H V L CNN
 F1 "SwEmb_FUSE_3A_9750" 30 -40 50 H I L CNN
-F2 "CUSTOM:Fuse_Littlefuse_9750" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:Fuse_Littlefuse_9750" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_154_154T_154L_154TL_Datasheet.pdf-365375.pdf" 30 20 50 H I C CNN
 F4 "0154003.DR" 0 -300 50 H I C CNN "MPN"
 F5 "5709 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1195,7 +1195,7 @@ ENDDEF
 DEF ~SwEmb_FUSE_4A_0603 F 0 10 N N 1 F N
 F0 "F" 30 20 50 H V L CNN
 F1 "SwEmb_FUSE_4A_0603" 30 -40 50 H I L CNN
-F2 "Fuse:Fuse_0603_1608Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:Fuse_0603_1608Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/643/ds-CP-c2f-series-1291054.pdf" 30 20 50 H I C CNN
 F4 "0686F4000-01" 0 -300 50 H I C CNN "MPN"
 F5 "4945 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1237,7 +1237,7 @@ ENDDEF
 DEF ~SwEmb_GND_100X30 GND 0 40 N N 1 F N
 F0 "GND" 0 250 39 H V C CNN
 F1 "SwEmb_GND_100X30" -50 50 39 H I C CNN
-F2 "CUSTOM:GND_100X30" -100 -100 315 H I C CNN
+F2 "SwedishEmbedded:GND_100X30" -100 -100 315 H I C CNN
 F3 "" 0 0 315 H I C CNN
 DRAW
 T 0 0 150 20 0 0 0 100x30mm Normal 0 C C
@@ -1251,7 +1251,7 @@ ENDDEF
 DEF ~SwEmb_GND_ANALOG_IN GND 0 40 N N 1 F N
 F0 "GND" 0 250 39 H V C CNN
 F1 "SwEmb_GND_ANALOG_IN" -50 50 39 H I C CNN
-F2 "CUSTOM:GND_ANALOG_IN" 0 0 39 H I C CNN
+F2 "SwedishEmbedded:GND_ANALOG_IN" 0 0 39 H I C CNN
 F3 "" 0 0 315 H I C CNN
 DRAW
 T 0 0 150 20 0 0 0 GND_AN_IN Normal 0 C C
@@ -1265,7 +1265,7 @@ ENDDEF
 DEF ~SwEmb_GND_ANALOG_OUT GND 0 40 N N 1 F N
 F0 "GND" 0 250 39 H V C CNN
 F1 "SwEmb_GND_ANALOG_OUT" -50 50 39 H I C CNN
-F2 "CUSTOM:GND_ANALOG_OUT" 0 0 39 H I C CNN
+F2 "SwedishEmbedded:GND_ANALOG_OUT" 0 0 39 H I C CNN
 F3 "" 0 0 315 H I C CNN
 DRAW
 T 0 0 150 20 0 0 0 GND_AN_OUT Normal 0 C C
@@ -1279,7 +1279,7 @@ ENDDEF
 DEF ~SwEmb_GND_MOTOR_DRIVER GND 0 40 N N 1 F N
 F0 "GND" 0 250 39 H V C CNN
 F1 "SwEmb_GND_MOTOR_DRIVER" -50 50 39 H I C CNN
-F2 "CUSTOM:GND_MOTOR_DRIVER" 0 0 39 H I C CNN
+F2 "SwedishEmbedded:GND_MOTOR_DRIVER" 0 0 39 H I C CNN
 F3 "" 0 0 315 H I C CNN
 DRAW
 T 0 0 150 20 0 0 0 GND_DRIVE Normal 0 C C
@@ -1293,7 +1293,7 @@ ENDDEF
 DEF SwEmb_IC_DRV8302 U 0 40 Y Y 1 F N
 F0 "U" 0 1500 60 H V C CNN
 F1 "SwEmb_IC_DRV8302" 300 -1550 60 H V C CNN
-F2 "CUSTOM:HTSSOP-56-PowerPAD_6.2x14.1mm_P0.5mm_EP3.61x6.35mm" -100 1400 60 H I C CNN
+F2 "SwedishEmbedded:HTSSOP-56-PowerPAD_6.2x14.1mm_P0.5mm_EP3.61x6.35mm" -100 1400 60 H I C CNN
 F3 "" 0 1500 60 H V C CNN
 F4 "DRV8302DCAR" 0 0 50 H I C CNN "MPN"
 F5 "2413 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1451,7 +1451,7 @@ ENDDEF
 DEF SwEmb_IC_LP55231 U 0 40 Y Y 1 F N
 F0 "U" 350 900 39 H V C CNN
 F1 "SwEmb_IC_LP55231" 250 -900 39 H V C CNN
-F2 "CUSTOM:WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_Thermal" -100 -1400 39 H I C CNN
+F2 "SwedishEmbedded:WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_Thermal" -100 -1400 39 H I C CNN
 F3 "" 0 -1400 39 H I C CNN
 F4 "LP55231SQX/NOPB" 0 -1400 39 H I C CNN "MPN"
 F5 "19443 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1494,7 +1494,7 @@ ENDDEF
 DEF SwEmb_IC_M24C16 U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
 F1 "SwEmb_IC_M24C16" 100 -250 50 H V L CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CNN
+F2 "SwedishEmbedded:SOIC-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/389/m24c16-w-954991.pdf" 0 0 50 H I C CNN
 F4 "M24C16-RMN6TP" 0 0 50 H I C CNN "MPN"
 F5 "14758 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1524,7 +1524,7 @@ ENDDEF
 DEF SwEmb_IC_MAX14890 U 0 40 Y Y 1 F N
 F0 "U" 0 -1350 50 H V C CNN
 F1 "SwEmb_IC_MAX14890" 0 1450 50 H V C CNN
-F2 "CUSTOM:QFN-32-1EP_5x5mm_P0.5mm_EP2.20x2.20mm" -100 1350 50 H I C CNN
+F2 "SwedishEmbedded:QFN-32-1EP_5x5mm_P0.5mm_EP2.20x2.20mm" -100 1350 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/256/MAX14890E-610962.pdf" 300 -1450 50 H I C CNN
 F4 "MAX14890EATJ+T" 0 1450 50 H I C CNN "MPN"
 F5 "3404 In Stock" 0 -350 50 H I C CNN "Availability"
@@ -1575,7 +1575,7 @@ ENDDEF
 DEF SwEmb_IC_MAX6818 U 0 40 Y Y 1 F N
 F0 "U" 0 -600 50 H V C CNN
 F1 "SwEmb_IC_MAX6818" 0 -700 50 H V C CNN
-F2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" -100 -950 50 H I C CNN
+F2 "SwedishEmbedded:SSOP-20_5.3x7.2mm_P0.65mm" -100 -950 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/256/MAX6816-1514440.pdf" 0 -600 50 H I C CNN
 F4 "MAX6818EAP+T" 0 -1000 50 H I C CNN "MPN"
 F5 "4119 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1613,7 +1613,7 @@ ENDDEF
 DEF SwEmb_IC_MCP23S17 U 0 40 Y Y 1 F N
 F0 "U" 0 0 39 H V C CNN
 F1 "SwEmb_IC_MCP23S17" 0 0 39 H V C CNN
-F2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" -100 -100 39 H I C CNN
+F2 "SwedishEmbedded:SOIC-28W_7.5x17.9mm_P1.27mm" -100 -100 39 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/268/20001952C-1129816.pdf" 0 0 39 H I C CNN
 F4 "MCP23S17T-E/SO" 0 0 39 H I C CNN "MPN"
 F5 "12705 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1659,7 +1659,7 @@ ENDDEF
 DEF SwEmb_IC_MCP2517FD-xJHA U 0 20 Y Y 1 F N
 F0 "U" -500 500 50 H V L CNN
 F1 "SwEmb_IC_MCP2517FD-xJHA" 100 500 50 H V L CNN
-F2 "Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm" -100 -850 50 H I C CNN
+F2 "SwedishEmbedded:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm" -100 -850 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/268/MCP2517FD-External-CAN-FD-Controller-with-SPI-Inte-1519186.pdf" 0 250 50 H I C CNN
 F4 "MCP2517FDT-H/JHA" 0 0 50 H I C CNN "MPN"
 F5 "4655 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1695,7 +1695,7 @@ ENDDEF
 DEF SwEmb_IC_MCP4461 U 0 40 Y Y 1 F N
 F0 "U" 0 -1000 50 H V C CNN
 F1 "SwEmb_IC_MCP4461" 0 -1000 50 H V C CNN
-F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" 0 -1000 50 H I C CNN
+F2 "SwedishEmbedded:TSSOP-20_4.4x6.5mm_P0.65mm" 0 -1000 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/268/22265a-77594.pdf" 0 -1000 50 H I C CNN
 F4 "MCP4461-103E/ST" 0 -1000 50 H I C CNN "MPN"
 F5 "1246 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1733,7 +1733,7 @@ ENDDEF
 DEF SwEmb_IC_MIC2026 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
 F1 "SwEmb_IC_MIC2026" 0 0 50 H V C CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -100 -100 50 H I C CNN
+F2 "SwedishEmbedded:SOIC-8_3.9x4.9mm_P1.27mm" -100 -100 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/268/mic2026-779053.pdf" 0 0 50 H I C CNN
 F4 "MIC2026-1YM-TR" 0 0 50 H I C CNN "MPN"
 F5 "27015 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1759,7 +1759,7 @@ ENDDEF
 DEF SwEmb_IC_NCP51460SN33T1G U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
 F1 "SwEmb_IC_NCP51460SN33T1G" 0 250 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 0 300 50 H I C CNN
+F2 "SwedishEmbedded:SOT-23" 0 300 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/308/NCP51460-D-60909.pdf" 0 300 50 H I C CNN
 F4 "NCP51460SN33T1G" 450 -250 50 H I C CNN "MPN"
 F5 "8024 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1781,7 +1781,7 @@ ENDDEF
 DEF SwEmb_IC_SN74LV4051 U 0 40 Y Y 1 L N
 F0 "U" -250 750 50 H V C CNN
 F1 "SwEmb_IC_SN74LV4051" 300 750 50 H V C CNN
-F2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" 0 1300 50 H I C CNN
+F2 "SwedishEmbedded:TSSOP-16_4.4x5mm_P0.65mm" 0 1300 50 H I C CNN
 F3 "" 150 -1050 50 H I C CNN
 F4 "SN74LV4051APWR" 150 -1050 39 H I C CNN "MPN"
 F5 "222317 In Stock" 150 -1050 50 H I C CNN "Availability"
@@ -1818,7 +1818,7 @@ ENDDEF
 DEF SwEmb_IC_STM32F429ZET6 U 0 40 Y Y 1 F N
 F0 "U" -4400 3625 50 H V L BNN
 F1 "SwEmb_IC_STM32F429ZET6" 4400 3625 50 H V R BNN
-F2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" 4400 3575 50 H I R TNN
+F2 "SwedishEmbedded:LQFP-144_20x20mm_P0.5mm" 4400 3575 50 H I R TNN
 F3 "https://www.mouser.com/datasheet/2/389/stm32f427vg-956239.pdf" 0 0 50 H I C CNN
 F4 "STM32F429ZET6" 0 0 50 H I C CNN "MPN"
 F5 "4699 In Stock" 0 0 50 H I C CNN "Availability"
@@ -1981,7 +1981,7 @@ ENDDEF
 DEF SwEmb_IC_TJA1044GT3 U 0 40 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
 F1 "SwEmb_IC_TJA1044GT3" 50 -350 50 H V L CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CIN
+F2 "SwedishEmbedded:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CIN
 F3 "https://www.mouser.com/datasheet/2/302/TJA1044-1128037.pdf" 0 0 50 H I C CNN
 F4 "TJA1044GT/3Z" 0 0 50 H I C CNN "MPN"
 F5 "2990 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2011,7 +2011,7 @@ ENDDEF
 DEF SwEmb_IC_TLV2474 U 0 20 Y Y 4 F N
 F0 "U" 0 150 50 H V L CNN
 F1 "SwEmb_IC_TLV2474" 0 -150 50 H V L CNN
-F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" -50 100 50 H I C CNN
+F2 "SwedishEmbedded:SOIC-14_3.9x8.7mm_P1.27mm" -50 100 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 F4 "TLV2474CDR" 0 0 50 H I C CNN "MPN"
 F5 "1390 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2050,7 +2050,7 @@ ENDDEF
 DEF SwEmb_IC_TLV75533 U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
 F1 "SwEmb_IC_TLV75533" 0 250 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-5" 0 300 50 H I C CNN
+F2 "SwedishEmbedded:SOT-23-5" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
 F4 "TLV75533PDBVR" 450 -250 50 H I C CNN "MPN"
 F5 "49899 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2074,7 +2074,7 @@ ENDDEF
 DEF SwEmb_IC_TPS54360DDA U 0 10 Y Y 1 F N
 F0 "U" -300 450 50 H V L CNN
 F1 "SwEmb_IC_TPS54360DDA" -300 400 50 H V L CNN
-F2 "CUSTOM:TI_SO-PowerPAD-8" 50 -400 50 H I L CIN
+F2 "SwedishEmbedded:TI_SO-PowerPAD-8" 50 -400 50 H I L CIN
 F3 "" 0 50 50 H I C CNN
 F4 "TPS54360DDAR" 0 -250 50 H I C CNN "MPN"
 F5 "18573 In Stock" 0 50 50 H I C CNN "Availability"
@@ -2106,7 +2106,7 @@ ENDDEF
 DEF SwEmb_IC_TPS62147RGXR U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
 F1 "SwEmb_IC_TPS62147RGXR" 0 -450 50 H V C CNN
-F2 "CUSTOM:RGX_VQFN-11" -50 -800 50 H I C CNN
+F2 "SwedishEmbedded:RGX_VQFN-11" -50 -800 50 H I C CNN
 F3 "" -50 -800 50 H I C CNN
 F4 "TPS62147RGXR" 0 -550 50 H I C CNN "MPN"
 F5 "26992 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2136,7 +2136,7 @@ ENDDEF
 DEF SwEmb_IC_USBLC6-2 U 0 40 Y Y 1 F N
 F0 "U" 5 250 50 H V C CNN
 F1 "SwEmb_IC_USBLC6-2" 5 350 50 H V C CNN
-F2 "CUSTOM:SOT-23-6L" 75 250 50 H I C CNN
+F2 "SwedishEmbedded:SOT-23-6L" 75 250 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/389/usblc6-2-957370.pdf" 75 250 50 H I C CNN
 F4 "USBLC6-2SC6" 0 -270 50 H I C CNN "MPN"
 F5 "108598 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2189,7 +2189,7 @@ ENDDEF
 DEF ~SwEmb_LB_220R_2A_0603 FB 0 10 N N 1 F N
 F0 "FB" 30 20 50 H V L CNN
 F1 "SwEmb_LB_220R_2A_0603" 30 -40 50 H I L CNN
-F2 "Inductor_SMD:L_0603_1608Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:L_0603_1608Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/281/c31e-794748.pdf" 30 20 50 H I C CNN
 F4 "BLM18EG221SN1D" 0 -300 50 H I C CNN "MPN"
 F5 "193480 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2213,7 +2213,7 @@ ENDDEF
 DEF ~SwEmb_LED_RED_0603 D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
 F1 "SwEmb_LED_RED_0603" -300 -100 50 H I L CNN
-F2 "LED_SMD:LED_0603_1608Metric" -100 200 50 H I C CNN
+F2 "SwedishEmbedded:LED_0603_1608Metric" -100 200 50 H I C CNN
 F3 "" 0 0 50 V V C CNN
 F4 "SML-D15VWT86C" 0 -200 50 H I C CNN "MPN"
 F5 "4040 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2242,7 +2242,7 @@ ENDDEF
 DEF ~SwEmb_L_2.2uH_8A L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
 F1 "SwEmb_L_2.2uH_8A" 30 -40 50 H I L CNN
-F2 "Inductor_SMD:L_Coilcraft_XxL4020" -70 -60 50 H I C CNN
+F2 "SwedishEmbedded:L_Coilcraft_XxL4020" -70 -60 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/597/xfl4020-270756.pdf" 0 0 50 H I C CNN
 F4 "XFL4020-222MEC" 0 -300 50 H I C CNN "MPN"
 F5 "31040 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2272,7 +2272,7 @@ ENDDEF
 DEF ~SwEmb_L_33uH_4.2A_45mR L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
 F1 "SwEmb_L_33uH_4.2A_45mR" 80 -340 50 H I L CNN
-F2 "CUSTOM:L_Wuerth_WE-PD-Typ-LS_1250x1250" -20 -360 50 H I C CNN
+F2 "SwedishEmbedded:L_Wuerth_WE-PD-Typ-LS_1250x1250" -20 -360 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/7447709330-539581.pdf" 50 -300 50 H I C CNN
 F4 "7447709330" 0 -300 50 H I C CNN "MPN"
 F5 "4062 In Stock" 50 -300 50 H I C CNN "Availability"
@@ -2302,7 +2302,7 @@ ENDDEF
 DEF ~SwEmb_MOUNT_HOLE MT? 0 40 Y Y 1 F N
 F0 "MT?" 0 200 50 H I C CNN
 F1 "SwEmb_MOUNT_HOLE" 0 -200 50 H I C CNN
-F2 "MountingHole:MountingHole_3.2mm_M3_Pad" -100 100 50 H I C CNN
+F2 "SwedishEmbedded:MountingHole_3.2mm_M3_Pad" -100 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "#" 0 0 50 H I C CNN "MPN"
 DRAW
@@ -2330,7 +2330,7 @@ ENDDEF
 DEF ~SwEmb_Q_NMOS_2X_60V_63A Q 0 0 Y N 1 F N
 F0 "Q" 100 250 50 H V L CNN
 F1 "SwEmb_Q_NMOS_2X_60V_63A" 250 -1000 50 H I L CNN
-F2 "CUSTOM:PowerPack-8x8-Dual" 250 -850 50 H I C CNN
+F2 "SwedishEmbedded:PowerPack-8x8-Dual" 250 -850 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/427/sqjq910el-1110892.pdf" 50 -950 50 H I C CNN
 F4 "SQJQ960EL-T1_GE3" 50 -750 50 H I C CNN "MPN"
 F5 "1945 In Stock" 100 -1200 50 H I C CNN "Availability"
@@ -2392,7 +2392,7 @@ ENDDEF
 DEF ~SwEmb_Q_NMOS_BUK9875 Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "SwEmb_Q_NMOS_BUK9875" -50 -650 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SOT-223" -50 -500 50 H I C CNN
+F2 "SwedishEmbedded:SOT-223" -50 -500 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/916/BUK9875-100A-1320200.pdf" -250 -600 50 H I C CNN
 F4 "BUK9875-100A/CUX " 50 -450 50 H I C CNN "MPN"
 F5 "55789 In Stock" 0 -450 50 H I C CNN "Availability"
@@ -2433,7 +2433,7 @@ ENDDEF
 DEF ~SwEmb_Q_PNP_BC856 Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "SwEmb_Q_PNP_BC856" 200 -50 50 H I L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 100 50 H I C CNN
+F2 "SwedishEmbedded:SOT-23" 200 100 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/308/BC856ALT1-D-249456.pdf" 0 0 50 H I C CNN
 F4 "100mA 80V" 50 -450 39 H I C CNN "Comment"
 F5 "BC856BLT1G" 50 -500 39 H I C CNN "MPN"
@@ -2460,7 +2460,7 @@ ENDDEF
 DEF ~SwEmb_RES_0R_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_0R_0402" 30 -390 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -430 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -430 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 30 -330 50 H I C CNN
 F4 "CRCW04020000Z0EDC" 0 -350 50 H I C CNN "MPN"
 F5 "3675 In Stock" 0 -350 50 H I C CNN "Availability"
@@ -2485,7 +2485,7 @@ ENDDEF
 DEF ~SwEmb_RES_10K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_10K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" 30 20 50 H I C CNN
 F4 "RC0402FR-0710KL" 130 120 50 H I C CNN "MPN"
 F5 "25734340 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2509,7 +2509,7 @@ ENDDEF
 DEF ~SwEmb_RES_10mOhm_1% R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_10mOhm_1%" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0805_2012Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0805_2012Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" 30 20 50 H I C CNN
 F4 "LVT08R0100FER" 130 120 50 H I C CNN "MPN"
 F5 "7485 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2534,7 +2534,7 @@ ENDDEF
 DEF ~SwEmb_RES_12.1K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_12.1K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
 F4 "RC0402FR-0712K1L" 130 120 50 H I C CNN "MPN"
 F5 "336681 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2558,7 +2558,7 @@ ENDDEF
 DEF ~SwEmb_RES_137K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_137K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf" 30 20 50 H I C CNN
 F4 "AC0402FR-07137KL" 130 120 50 H I C CNN "MPN"
 F5 "77400 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2582,7 +2582,7 @@ ENDDEF
 DEF ~SwEmb_RES_147k_1%_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_147k_1%_0603" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0603_1608Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0603_1608Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
 F4 "RC0603FR-07147KL" 0 -300 50 H I C CNN "MPN"
 F5 "93114 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2606,7 +2606,7 @@ ENDDEF
 DEF ~SwEmb_RES_1K5_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_1K5_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
 F4 "RC0402FR-071K5L" 130 120 50 H I C CNN "MPN"
 F5 "1570651 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2630,7 +2630,7 @@ ENDDEF
 DEF ~SwEmb_RES_1M_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_1M_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
 F4 "RC0402FR-071ML" 130 120 50 H I C CNN "MPN"
 F5 "4349715 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2654,7 +2654,7 @@ ENDDEF
 DEF ~SwEmb_RES_22R_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_22R_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf" 30 20 50 H I C CNN
 F4 "CRCW040222R0FKEDC" 130 120 50 H I C CNN "MPN"
 F5 "215652 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2679,7 +2679,7 @@ ENDDEF
 DEF ~SwEmb_RES_270R_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_270R_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
 F4 "RC0402FR-07270RL" 130 120 50 H I C CNN "MPN"
 F5 "467609 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2703,7 +2703,7 @@ ENDDEF
 DEF ~SwEmb_RES_3K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_3K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
 F4 "RC0402FR-073KL" 130 120 50 H I C CNN "MPN"
 F5 "638811 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2727,7 +2727,7 @@ ENDDEF
 DEF ~SwEmb_RES_470R_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_470R_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "" 30 20 50 H I C CNN
 F4 "CRCW0402470RFKEDC" 130 120 50 H I C CNN "MPN"
 F5 "96773 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2752,7 +2752,7 @@ ENDDEF
 DEF ~SwEmb_RES_49.9_0.1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_49.9_0.1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" 30 20 50 H I C CNN
 F4 "RC0402FR-0749R9L" 130 120 50 H I C CNN "MPN"
 F5 "7347343 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2776,7 +2776,7 @@ ENDDEF
 DEF ~SwEmb_RES_5K_1%_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_5K_1%_0402" 30 -40 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/yageo_01152019_DESIGN_KITS_8_2012-1522572.pdf" 30 20 50 H I C CNN
 F4 "RC0402FR-075KL " 130 120 50 H I C CNN "MPN"
 F5 "38996 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2800,7 +2800,7 @@ ENDDEF
 DEF ~SwEmb_RES_5mR_1%_10W R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_5mR_1%_10W" 30 -40 50 H I L CNN
-F2 "CUSTOM:R_2818_7146Metric" -70 -80 50 H I C CNN
+F2 "SwedishEmbedded:R_2818_7146Metric" -70 -80 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/427/wshp2818-1082656.pdf" 30 20 50 H I C CNN
 F4 "WSHP28185L000FEA" 130 120 50 H I C CNN "MPN"
 F5 "5333 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2825,7 +2825,7 @@ ENDDEF
 DEF ~SwEmb_RES_NOFIT_0402 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "SwEmb_RES_NOFIT_0402" 30 -390 50 H I L CNN
-F2 "Resistor_SMD:R_0402_1005Metric" -70 -430 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" -70 -430 50 H I C CNN
 F3 "" 30 -330 50 H I C CNN
 $FPLIST
  R_*
@@ -2843,7 +2843,7 @@ ENDDEF
 DEF ~SwEmb_RES_NTC_10K_402 R 0 0 N Y 1 F N
 F0 "R" -100 0 50 V V C CNN
 F1 "SwEmb_RES_NTC_10K_402" 125 -250 50 V I C CNN
-F2 "Resistor_SMD:R_0402_1005Metric" 0 -220 50 H I C CNN
+F2 "SwedishEmbedded:R_0402_1005Metric" 0 -220 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/400/pd_commercial_ntc-thermistor_ntcg_en-1290965.pdf" 0 -220 50 H I C CNN
 F4 "NTCG103JF103FT1" 0 -270 39 H I C CNN "MPN"
 F5 "199483 In Stock" 0 -250 50 H I C CNN "Availability"
@@ -2872,7 +2872,7 @@ ENDDEF
 DEF ~SwEmb_SW_BTN_3.7x3.7 S 0 40 Y N 1 F N
 F0 "S" 0 150 50 H V C CNN
 F1 "SwEmb_SW_BTN_3.7x3.7" 0 200 50 H I C CNN
-F2 "CUSTOM:SW_PTS540" 0 200 50 H I C CNN
+F2 "SwedishEmbedded:SW_PTS540" 0 200 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/60/pts540-1382793.pdf" 0 200 50 H I C CNN
 F4 "PTS540JM035SMTRLFS" 0 -300 50 H I C CNN "MPN"
 F5 "13394 In Stock" 0 -50 50 H I C CNN "Availability"
@@ -2901,7 +2901,7 @@ ENDDEF
 DEF SwEmb_SW_DIP_4P S 0 40 Y Y 1 F N
 F0 "S" 0 400 50 H V C CNN
 F1 "SwEmb_SW_DIP_4P" 0 300 50 H V C CNN
-F2 "SOIC:SOIC127P670X145-8N" 0 300 50 H I C CNN
+F2 "SwedishEmbedded:SOIC127P670X145-8N" 0 300 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/307/en-a6h-1221378.pdf" 0 300 50 H I C CNN
 F4 "A6H-4102-P" 0 -300 50 H I C CNN "MPN"
 F5 "6971 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2936,7 +2936,7 @@ ENDDEF
 DEF ~SwEmb_Test_Point TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
 F1 "SwEmb_Test_Point" 0 200 50 H I C CNN
-F2 "CUSTOM:TestPoint_Pad_0.5x0.5mm" 200 0 50 H I C CNN
+F2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
  Pin*
@@ -2953,7 +2953,7 @@ ENDDEF
 DEF SwEmb_USB_B_Micro J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
 F1 "SwEmb_USB_B_Micro" -200 350 50 H V L CNN
-F2 "CUSTOM:USB_Micro-B_GCT_USB3076-30-A" 150 -50 50 H I C CNN
+F2 "SwedishEmbedded:USB_Micro-B_GCT_USB3076-30-A" 150 -50 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/18/10118193-1361773.pdf" 150 -50 50 H I C CNN
 F4 "10118193-0001LF" 150 550 50 H I C CNN "MPN"
 F5 "80661 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2994,7 +2994,7 @@ ENDDEF
 DEF ~SwEmb_XTAL_20MHz_3225 Y 0 40 Y N 1 F N
 F0 "Y" 0 150 50 H V C CNN
 F1 "SwEmb_XTAL_20MHz_3225" 0 -200 50 H I C CNN
-F2 "CUSTOM:Crystal_SMD_3225-4Pin_3.2x2.5mm" 150 250 50 H I C CNN
+F2 "SwedishEmbedded:Crystal_SMD_3225-4Pin_3.2x2.5mm" 150 250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TSX-3225 20.0000MF20G-AC3" 0 -300 50 H I C CNN "MPN"
 F5 "4328 In Stock" 0 0 50 H I C CNN "Availability"
@@ -3025,7 +3025,7 @@ ENDDEF
 DEF ~SwEmb_XTAL_25MHz_3225 Y 0 40 Y N 1 F N
 F0 "Y" 0 150 50 H V C CNN
 F1 "SwEmb_XTAL_25MHz_3225" 0 -200 50 H I C CNN
-F2 "CUSTOM:Crystal_SMD_3225-4Pin_3.2x2.5mm" 150 250 50 H I C CNN
+F2 "SwedishEmbedded:Crystal_SMD_3225-4Pin_3.2x2.5mm" 150 250 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/122/ecx-32-1100709.pdf" 0 0 50 H I C CNN
 F4 "ECS-250-8-33-AGN-TR" 0 -300 50 H I C CNN "MPN"
 F5 "641 In Stock" 0 0 50 H I C CNN "Availability"
@@ -3056,7 +3056,7 @@ ENDDEF
 DEF ~SwEmb_XTAL_8Mhz_5032 Y 0 40 Y N 1 F N
 F0 "Y" 0 150 50 H V C CNN
 F1 "SwEmb_XTAL_8Mhz_5032" 0 -200 50 H I C CNN
-F2 "CUSTOM:Crystal_ABM3B_5032-4Pin_5.0x3.2mm" 150 250 50 H I C CNN
+F2 "SwedishEmbedded:Crystal_ABM3B_5032-4Pin_5.0x3.2mm" 150 250 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/3/abm3b-39910.pdf" 0 0 50 H I C CNN
 F4 "ABM3B-8.000MHZ-10-1UT" 0 -300 50 H I C CNN "MPN"
 F5 "5027 In Stock" 0 0 50 H I C CNN "Availability"
