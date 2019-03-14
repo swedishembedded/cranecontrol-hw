@@ -342,7 +342,7 @@ F0 "C" 10 70 50 H V L CNN
 F1 "CAP_100nF_50V_0402" 10 -80 50 H I L CNN
 F2 "SwedishEmbedded:C_0402_1005Metric" 450 150 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" 10 70 50 H I C CNN
-F4 "CC0402KRX5R9BB104" 450 250 50 H I C CNN "MPN"
+F4 "GRM155R61H104ME14D" 450 250 50 H I C CNN "MPN"
 F5 "120297 In Stock" 0 0 50 H I C CNN "Availability"
 F6 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100K pF 50Volts 10%" 0 0 50 H I C CNN "Description"
 F7 "OK" 0 0 50 H I C CNN "LifeCycle"
@@ -1487,7 +1487,7 @@ ENDDEF
 DEF ~CONN_POWER_41A P 0 40 Y Y 1 F N
 F0 "P" -100 150 50 H V C CNN
 F1 "CONN_POWER_41A" 0 -150 50 H I C CNN
-F2 "SwedishEmbedded:PhoenixContact_Power41A_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" -100 -50 50 H I C CNN
+F2 "SwedishEmbedded:PhoenixContact_Power41A_25_2-G-762_1x02_P7.62mm_Horizontal" -100 -50 50 H I C CNN
 F3 "" -100 -50 50 H V C CNN
 F4 "1720466" 0 0 50 H I C CNN "MPN"
 F5 "357 In Stock" 0 0 50 H I C CNN "Availability"
@@ -2972,7 +2972,7 @@ ENDDEF
 DEF IC_LAN9252 U 0 40 Y Y 1 F N
 F0 "U" 0 -1750 50 H V C CNN
 F1 "IC_LAN9252" 0 -1850 50 H V C CNN
-F2 "TQFP-64-1EP_10x10mm_P0.5mm_EP5.7x5.7mm" -50 -2100 50 H I C CNN
+F2 "SwedishEmbedded:TQFP-64-1EP_10x10mm_P0.5mm_EP5.7x5.7mm" -50 -2100 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/268/00001909A-765653.pdf" 0 -2300 50 H I C CNN
 F4 "LAN9252/PT" 0 -2200 50 H I C CNN "MPN"
 F5 "1027 In Stock" -50 -2400 50 H I C CNN "Availability"
