@@ -24,7 +24,7 @@ vout_exact = ((roh + rol) * vfb) / rol
 %roh = rol * ((vout / vfb) - 1)
 rol = roh / ((vout / vfb) - 1)
 dilmax = vin / lo_min * 100e-9
-ilmax = iout + dilmax / 2
+ilmax = iout + dilmax / 3
 tss = css / (2.5e-6 / 0.7)
 
 printf('Minimum input voltage: %fv\n', vin_min);
