@@ -102,6 +102,10 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
 $ENDCMP
 #
+$CMP IC_TPS62147RGXR
+F http://www.ti.com/lit/ds/symlink/tps62147.pdf
+$ENDCMP
+#
 $CMP PWR_FLAG
 D general power-flag symbol
 K Power Flag Symbol

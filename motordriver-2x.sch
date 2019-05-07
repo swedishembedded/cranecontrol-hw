@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:motordriver-2x-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -14851,7 +14851,7 @@ F 4 "#" H 11100 14900 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 11400 14700
-Text GLabel 11975 14050 2    50   Input ~ 0
+Text GLabel 11900 14075 2    50   Input ~ 0
 USB_5V
 Text GLabel 12450 21025 0    50   Input ~ 0
 USB_5V
@@ -14907,8 +14907,6 @@ F 9 "New Product" H 11550 14600 50  0001 C CNN "LifeCycle"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11400 14500 11450 14500
-Wire Wire Line
 	11400 14600 11450 14600
 Wire Wire Line
 	11800 14450 11725 14450
@@ -14926,9 +14924,6 @@ Wire Wire Line
 	11800 14550 11675 14550
 Wire Wire Line
 	11675 14550 11675 14300
-Wire Wire Line
-	11675 14300 11400 14300
-Connection ~ 11675 14300
 Text GLabel 12700 14550 2    50   Input ~ 0
 GND
 Text GLabel 12700 14450 2    50   Input ~ 0
@@ -16334,35 +16329,35 @@ TEMP_MOT2
 $Comp
 L SwEmb:RES_10K_1%_0402 R199
 U 1 1 61099157
-P 19475 6475
-F 0 "R199" H 19534 6475 50  0000 L CNN
-F 1 "RES_10K_1%_0402" H 19505 6435 50  0001 L CNN
-F 2 "SwedishEmbedded:R_0402_1005Metric" H 19405 6395 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19475 6475 50  0001 C CNN
-F 4 "RC0402FR-0710KL" H 19605 6595 50  0001 C CNN "MPN"
-F 5 "25734340 In Stock" H 19475 6475 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19475 6475 50  0001 C CNN "Description"
-F 7 "OK" H 19475 6475 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 19475 6475 50  0001 C CNN "Vendor"
-F 9 "0.087  EUR" H 19475 6475 50  0001 C CNN "Price"
-	1    19475 6475
+P 19475 6775
+F 0 "R199" H 19534 6775 50  0000 L CNN
+F 1 "RES_10K_1%_0402" H 19505 6735 50  0001 L CNN
+F 2 "SwedishEmbedded:R_0402_1005Metric" H 19405 6695 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19475 6775 50  0001 C CNN
+F 4 "RC0402FR-0710KL" H 19605 6895 50  0001 C CNN "MPN"
+F 5 "25734340 In Stock" H 19475 6775 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19475 6775 50  0001 C CNN "Description"
+F 7 "OK" H 19475 6775 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 19475 6775 50  0001 C CNN "Vendor"
+F 9 "0.087  EUR" H 19475 6775 50  0001 C CNN "Price"
+	1    19475 6775
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:RES_NTC_10K_402 R200
 U 1 1 61099851
-P 19475 6775
-F 0 "R200" H 19550 6775 50  0000 L CNN
-F 1 "RES_NTC_10K_402" V 19600 6775 50  0001 C CNN
-F 2 "SwedishEmbedded:R_0402_1005Metric" H 19475 6825 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/400/pd_commercial_ntc-thermistor_ntcg_en-1290965.pdf" H 19475 6825 50  0001 C CNN
-F 4 "NTCG103JF103FT1" H 19475 6775 39  0001 C CNN "MPN"
-F 5 "199483 In Stock" H 0   0   50  0001 C CNN "Availability"
-F 6 "NTC (Negative Temperature Coefficient) Thermistors THERMISTOR, NTC 10K OHM, 1%, 0402" H 0   0   50  0001 C CNN "Description"
-F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 0   0   50  0001 C CNN "Price"
-F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
-	1    19475 6775
+P 19475 6475
+F 0 "R200" H 19550 6475 50  0000 L CNN
+F 1 "RES_NTC_10K_402" V 19600 6475 50  0001 C CNN
+F 2 "SwedishEmbedded:R_0402_1005Metric" H 19475 6525 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/400/pd_commercial_ntc-thermistor_ntcg_en-1290965.pdf" H 19475 6525 50  0001 C CNN
+F 4 "NTCG103JF103FT1" H 19475 6475 39  0001 C CNN "MPN"
+F 5 "199483 In Stock" H 0   -300 50  0001 C CNN "Availability"
+F 6 "NTC (Negative Temperature Coefficient) Thermistors THERMISTOR, NTC 10K OHM, 1%, 0402" H 0   -300 50  0001 C CNN "Description"
+F 7 "OK" H 0   -300 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 0   -300 50  0001 C CNN "Price"
+F 9 "Mouser" H 0   -300 50  0001 C CNN "Vendor"
+	1    19475 6475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -16447,35 +16442,35 @@ TEMP_MOT1
 $Comp
 L SwEmb:RES_10K_1%_0402 R201
 U 1 1 62D55EEF
-P 19500 10425
-F 0 "R201" H 19559 10425 50  0000 L CNN
-F 1 "RES_10K_1%_0402" H 19530 10385 50  0001 L CNN
-F 2 "SwedishEmbedded:R_0402_1005Metric" H 19430 10345 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19500 10425 50  0001 C CNN
-F 4 "RC0402FR-0710KL" H 19630 10545 50  0001 C CNN "MPN"
-F 5 "25734340 In Stock" H 19500 10425 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19500 10425 50  0001 C CNN "Description"
-F 7 "OK" H 19500 10425 50  0001 C CNN "LifeCycle"
-F 8 "Mouser" H 19500 10425 50  0001 C CNN "Vendor"
-F 9 "0.087  EUR" H 19500 10425 50  0001 C CNN "Price"
-	1    19500 10425
+P 19500 10725
+F 0 "R201" H 19559 10725 50  0000 L CNN
+F 1 "RES_10K_1%_0402" H 19530 10685 50  0001 L CNN
+F 2 "SwedishEmbedded:R_0402_1005Metric" H 19430 10645 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 19500 10725 50  0001 C CNN
+F 4 "RC0402FR-0710KL" H 19630 10845 50  0001 C CNN "MPN"
+F 5 "25734340 In Stock" H 19500 10725 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 10K OHM 1%" H 19500 10725 50  0001 C CNN "Description"
+F 7 "OK" H 19500 10725 50  0001 C CNN "LifeCycle"
+F 8 "Mouser" H 19500 10725 50  0001 C CNN "Vendor"
+F 9 "0.087  EUR" H 19500 10725 50  0001 C CNN "Price"
+	1    19500 10725
 	1    0    0    -1  
 $EndComp
 $Comp
 L SwEmb:RES_NTC_10K_402 R202
 U 1 1 62D55EF6
-P 19500 10725
-F 0 "R202" H 19598 10725 50  0000 L CNN
-F 1 "RES_NTC_10K_402" V 19625 10725 50  0001 C CNN
-F 2 "SwedishEmbedded:R_0402_1005Metric" H 19500 10775 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/400/pd_commercial_ntc-thermistor_ntcg_en-1290965.pdf" H 19500 10775 50  0001 C CNN
-F 4 "NTCG103JF103FT1" H 19500 10725 39  0001 C CNN "MPN"
-F 5 "199483 In Stock" H 0   0   50  0001 C CNN "Availability"
-F 6 "NTC (Negative Temperature Coefficient) Thermistors THERMISTOR, NTC 10K OHM, 1%, 0402" H 0   0   50  0001 C CNN "Description"
-F 7 "OK" H 0   0   50  0001 C CNN "LifeCycle"
-F 8 "0.087  EUR" H 0   0   50  0001 C CNN "Price"
-F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
-	1    19500 10725
+P 19500 10425
+F 0 "R202" H 19598 10425 50  0000 L CNN
+F 1 "RES_NTC_10K_402" V 19625 10425 50  0001 C CNN
+F 2 "SwedishEmbedded:R_0402_1005Metric" H 19500 10475 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/400/pd_commercial_ntc-thermistor_ntcg_en-1290965.pdf" H 19500 10475 50  0001 C CNN
+F 4 "NTCG103JF103FT1" H 19500 10425 39  0001 C CNN "MPN"
+F 5 "199483 In Stock" H 0   -300 50  0001 C CNN "Availability"
+F 6 "NTC (Negative Temperature Coefficient) Thermistors THERMISTOR, NTC 10K OHM, 1%, 0402" H 0   -300 50  0001 C CNN "Description"
+F 7 "OK" H 0   -300 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 0   -300 50  0001 C CNN "Price"
+F 9 "Mouser" H 0   -300 50  0001 C CNN "Vendor"
+	1    19500 10425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -18723,26 +18718,20 @@ SWEN
 $Comp
 L SwEmb:RES_0R_0402 R65
 U 1 1 61A41872
-P 11800 14050
-F 0 "R65" V 11875 14050 50  0000 C CNN
-F 1 "RES_0R_0402" H 11830 14010 50  0001 L CNN
-F 2 "SwedishEmbedded:R_0402_1005Metric" H 11730 13970 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" H 11800 14050 50  0001 C CNN
-F 4 "CRCW04020000Z0EDC" H 11800 14050 50  0001 C CNN "MPN"
-F 5 "3675 In Stock" H 11800 14050 50  0001 C CNN "Availability"
-F 6 "Thick Film Resistors - SMD 1/16watt 0ohms" H 11800 14050 50  0001 C CNN "Description"
-F 7 "Mouser" H 11800 14050 50  0001 C CNN "Vendor"
-F 8 "0.105  EUR" H 11800 14050 50  0001 C CNN "Price"
-F 9 "OK" H 11800 14050 50  0001 C CNN "LifeCycle"
-	1    11800 14050
+P 11800 14075
+F 0 "R65" V 11875 14075 50  0000 C CNN
+F 1 "RES_0R_0402" H 11830 14035 50  0001 L CNN
+F 2 "SwedishEmbedded:R_0402_1005Metric" H 11730 13995 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" H 11800 14075 50  0001 C CNN
+F 4 "CRCW04020000Z0EDC" H 11800 14075 50  0001 C CNN "MPN"
+F 5 "3675 In Stock" H 11800 14075 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1/16watt 0ohms" H 11800 14075 50  0001 C CNN "Description"
+F 7 "Mouser" H 11800 14075 50  0001 C CNN "Vendor"
+F 8 "0.105  EUR" H 11800 14075 50  0001 C CNN "Price"
+F 9 "OK" H 11800 14075 50  0001 C CNN "LifeCycle"
+	1    11800 14075
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	11700 14050 11675 14050
-Wire Wire Line
-	11675 14050 11675 14300
-Wire Wire Line
-	11900 14050 11975 14050
 Wire Wire Line
 	12450 20925 12525 20925
 Wire Wire Line
@@ -20196,7 +20185,7 @@ F 9 "Mouser" H 1750 4950 50  0001 C CNN "Vendor"
 $EndComp
 Wire Wire Line
 	1750 5050 1750 5150
-Text Label 11425 14300 0    39   ~ 0
+Text Label 11450 14300 0    39   ~ 0
 USB_PWR
 $Comp
 L SwEmb:SW_BTN_3.7x3.7 S1
@@ -20225,4 +20214,195 @@ Text Label 10300 21400 0    39   ~ 0
 VDD_5V_SUP
 Wire Wire Line
 	6700 1000 7300 1000
+Text GLabel 14350 11950 2    50   Input ~ 0
+ENCA1
+Text GLabel 14350 12250 2    50   Input ~ 0
+ENCB1
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8A2AC
+P 14350 11950
+F 0 "TP?" V 14425 12050 50  0000 C CNN
+F 1 "Test_Point" H 14350 12150 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14550 11950 50  0001 C CNN
+F 3 "" H 14550 11950 50  0001 C CNN
+	1    14350 11950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8AA39
+P 14350 12250
+F 0 "TP?" V 14425 12350 50  0000 C CNN
+F 1 "Test_Point" H 14350 12450 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14550 12250 50  0001 C CNN
+F 3 "" H 14550 12250 50  0001 C CNN
+	1    14350 12250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 14350 12550 2    50   Input ~ 0
+ENCZ1
+Text GLabel 14175 13250 2    50   Input ~ 0
+PWM_IN1
+Text GLabel 14250 13550 2    50   Input ~ 0
+ENCSH1
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8AE0B
+P 14175 13250
+F 0 "TP?" V 14250 13350 50  0000 C CNN
+F 1 "Test_Point" H 14175 13450 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14375 13250 50  0001 C CNN
+F 3 "" H 14375 13250 50  0001 C CNN
+	1    14175 13250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8B40F
+P 14250 13550
+F 0 "TP?" V 14325 13650 50  0000 C CNN
+F 1 "Test_Point" H 14250 13750 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14450 13550 50  0001 C CNN
+F 3 "" H 14450 13550 50  0001 C CNN
+	1    14250 13550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8B78B
+P 14325 14250
+F 0 "TP?" V 14400 14350 50  0000 C CNN
+F 1 "Test_Point" H 14325 14450 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14525 14250 50  0001 C CNN
+F 3 "" H 14525 14250 50  0001 C CNN
+	1    14325 14250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8BD26
+P 19750 14225
+F 0 "TP?" V 19825 14325 50  0000 C CNN
+F 1 "Test_Point" H 19750 14425 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19950 14225 50  0001 C CNN
+F 3 "" H 19950 14225 50  0001 C CNN
+	1    19750 14225
+	0    -1   -1   0   
+$EndComp
+Text GLabel 19750 11925 2    50   Input ~ 0
+ENCA2
+Text GLabel 19750 12225 2    50   Input ~ 0
+ENCB2
+Text GLabel 19750 12525 2    50   Input ~ 0
+ENCZ2
+Text GLabel 19575 13225 2    50   Input ~ 0
+PWM_IN2
+Text GLabel 19625 13525 2    50   Input ~ 0
+ENCSH2
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8C80E
+P 19625 13525
+F 0 "TP?" V 19700 13625 50  0000 C CNN
+F 1 "Test_Point" H 19625 13725 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19825 13525 50  0001 C CNN
+F 3 "" H 19825 13525 50  0001 C CNN
+	1    19625 13525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8CCB7
+P 19575 13225
+F 0 "TP?" V 19650 13325 50  0000 C CNN
+F 1 "Test_Point" H 19575 13425 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19775 13225 50  0001 C CNN
+F 3 "" H 19775 13225 50  0001 C CNN
+	1    19575 13225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8CF41
+P 19750 12525
+F 0 "TP?" V 19825 12625 50  0000 C CNN
+F 1 "Test_Point" H 19750 12725 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19950 12525 50  0001 C CNN
+F 3 "" H 19950 12525 50  0001 C CNN
+	1    19750 12525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8D3C3
+P 19750 12225
+F 0 "TP?" V 19825 12325 50  0000 C CNN
+F 1 "Test_Point" H 19750 12425 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19950 12225 50  0001 C CNN
+F 3 "" H 19950 12225 50  0001 C CNN
+	1    19750 12225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CE8D956
+P 19750 11925
+F 0 "TP?" V 19825 12025 50  0000 C CNN
+F 1 "Test_Point" H 19750 12125 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19950 11925 50  0001 C CNN
+F 3 "" H 19950 11925 50  0001 C CNN
+	1    19750 11925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:Test_Point TP?
+U 1 1 5CEAB1B2
+P 14350 12550
+F 0 "TP?" V 14425 12650 50  0000 C CNN
+F 1 "Test_Point" H 14350 12750 50  0001 C CNN
+F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14550 12550 50  0001 C CNN
+F 3 "" H 14550 12550 50  0001 C CNN
+	1    14350 12550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SwEmb:RES_1K5_1%_0402 R?
+U 1 1 5D05BB11
+P 11425 14100
+F 0 "R?" H 11484 14100 50  0000 L CNN
+F 1 "RES_1K5_1%_0402" H 11455 14060 50  0001 L CNN
+F 2 "SwedishEmbedded:R_0402_1005Metric" H 11355 14020 50  0001 C CNN
+F 3 "" H 11455 14120 50  0001 C CNN
+F 4 "RC0402FR-071K5L" H 11555 14220 50  0001 C CNN "MPN"
+F 5 "1570651 In Stock" H 11425 14100 50  0001 C CNN "Availability"
+F 6 "Thick Film Resistors - SMD 1.5K OHM 1%" H 11425 14100 50  0001 C CNN "Description"
+F 7 "OK" H 11425 14100 50  0001 C CNN "LifeCycle"
+F 8 "0.087  EUR" H 11425 14100 50  0001 C CNN "Price"
+F 9 "Mouser" H 11425 14100 50  0001 C CNN "Vendor"
+	1    11425 14100
+	1    0    0    -1  
+$EndComp
+Text GLabel 11475 13975 2    50   Input ~ 0
+VDD_3V3
+Wire Wire Line
+	11475 13975 11425 13975
+Wire Wire Line
+	11425 13975 11425 14000
+Wire Wire Line
+	11675 14300 11400 14300
+Wire Wire Line
+	11400 14500 11425 14500
+Wire Wire Line
+	11425 14200 11425 14500
+Connection ~ 11425 14500
+Wire Wire Line
+	11425 14500 11450 14500
+Wire Wire Line
+	11700 14075 11675 14075
+Wire Wire Line
+	11675 14075 11675 14300
+Connection ~ 11675 14300
+Text Notes 11875 14000 0    39   ~ 0
+USB FS Device
 $EndSCHEMATC
