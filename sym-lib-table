@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name SwEmb)(type Legacy)(uri ${KIPRJMOD}/Swedish_Embedded.lib)(options "")(descr ""))
+  (lib (name SwEmb)(type Legacy)(uri ${KIPRJMOD}/Swedish_Embedded.lib)(options "")(descr "")(disabled))
+  (lib (name SwedishEmbedded)(type Legacy)(uri /data/4/2/hw/kicad-swe-library/SwedishEmbedded.lib)(options "")(descr ""))
 )

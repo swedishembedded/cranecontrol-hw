@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:motordriver-2x-cache
 EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
@@ -375,9 +374,9 @@ Wire Wire Line
 Connection ~ 8475 1650
 Wire Wire Line
 	8475 1650 8875 1650
-Text GLabel 8375 875  0    50   Input ~ 0
+Text GLabel 8375 875  0    50   Input ~ 6
 VDD_3V3_MCU
-Text GLabel 8375 1350 0    50   Input ~ 0
+Text GLabel 8375 1350 0    50   Input ~ 6
 VDD_3V3_MCU
 $Comp
 L SwEmb:GNDREF #PWR0101
@@ -462,7 +461,7 @@ Wire Wire Line
 Connection ~ 7375 1650
 Wire Wire Line
 	7375 1650 7475 1650
-Text GLabel 6225 1650 0    50   Input ~ 0
+Text GLabel 6225 1650 0    50   Input ~ 6
 VDD_3V3_MCU
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C6
@@ -641,7 +640,7 @@ F 9 "Mouser" H 1650 2950 50  0001 C CNN "Vendor"
 	1    1650 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 1575 2750 0    50   Input ~ 0
+Text GLabel 1575 2750 0    50   Input ~ 6
 VDD_3V3_MCU
 Wire Wire Line
 	2375 2750 1650 2750
@@ -696,7 +695,7 @@ Wire Wire Line
 Wire Wire Line
 	1775 2250 1500 2250
 Connection ~ 1775 2250
-Text GLabel 2375 2350 0    50   Input ~ 0
+Text GLabel 2375 2350 0    50   Input ~ 6
 VDD_3V3_MCU
 Wire Wire Line
 	1775 2250 2375 2250
@@ -712,7 +711,7 @@ F 4 "#" H 1000 2500 50  0001 C CNN "MPN"
 	1    1000 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 2150 0    50   Input ~ 0
+Text GLabel 1750 2150 0    50   Input ~ 6
 NRST
 Wire Wire Line
 	1750 2150 1775 2150
@@ -735,9 +734,9 @@ F 9 "0.087  EUR" H 775 2650 50  0001 C CNN "Price"
 	1    775  2650
 	-1   0    0    1   
 $EndComp
-Text GLabel 2375 2550 0    50   Input ~ 0
+Text GLabel 2375 2550 0    50   Input ~ 6
 BOOT0
-Text GLabel 775  2550 1    50   Input ~ 0
+Text GLabel 775  2550 1    50   Input ~ 6
 BOOT0
 $Comp
 L SwEmb:GNDREF #PWR0109
@@ -785,7 +784,7 @@ F 9 "Mouser" H 5725 1150 50  0001 C CNN "Vendor"
 	1    5725 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 5600 1000 0    50   Input ~ 0
+Text GLabel 5600 1000 0    50   Input ~ 6
 VDD_5V
 Wire Wire Line
 	5600 1000 5725 1000
@@ -971,29 +970,29 @@ F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    2825 1375
 	-1   0    0    1   
 $EndComp
-Text GLabel 3025 925  2    50   Input ~ 0
+Text GLabel 3025 925  2    50   Input ~ 6
 BOOT0
-Text GLabel 3025 1125 2    50   Input ~ 0
+Text GLabel 3025 1125 2    50   Input ~ 6
 SWCLK
-Text GLabel 3025 1225 2    50   Input ~ 0
+Text GLabel 3025 1225 2    50   Input ~ 6
 SWDIO
-Text GLabel 3025 1325 2    50   Input ~ 0
+Text GLabel 3025 1325 2    50   Input ~ 6
 NRST
-Text GLabel 3025 1425 2    50   Input ~ 0
+Text GLabel 3025 1425 2    50   Input ~ 6
 UART1_RX
-Text GLabel 3025 1525 2    50   Input ~ 0
+Text GLabel 3025 1525 2    50   Input ~ 6
 UART1_TX
-Text GLabel 3025 1625 2    50   Input ~ 0
+Text GLabel 3025 1625 2    50   Input ~ 6
 GND
-Text GLabel 3025 1725 2    50   Input ~ 0
+Text GLabel 3025 1725 2    50   Input ~ 6
 VDD_5V_DBG_IN
-Text GLabel 11575 3550 2    50   Input ~ 0
+Text GLabel 11575 3550 2    50   Input ~ 6
 SWDIO
-Text GLabel 11575 3650 2    50   Input ~ 0
+Text GLabel 11575 3650 2    50   Input ~ 6
 SWCLK
-Text GLabel 11575 3150 2    50   Input ~ 0
+Text GLabel 11575 3150 2    50   Input ~ 6
 UART1_TX
-Text GLabel 11575 3250 2    50   Input ~ 0
+Text GLabel 11575 3250 2    50   Input ~ 6
 UART1_RX
 $Comp
 L SwEmb:IC_DRV8302 U31
@@ -1044,9 +1043,9 @@ Wire Wire Line
 	17725 4275 17775 4275
 Wire Wire Line
 	17975 4275 18000 4275
-Text GLabel 18000 4275 2    50   Input ~ 0
+Text GLabel 18000 4275 2    50   Input ~ 6
 GND
-Text GLabel 6350 22050 0    50   Input ~ 0
+Text GLabel 6350 22050 0    50   Input ~ 6
 GND
 $Comp
 L SwEmb:GNDREF #PWR0115
@@ -1127,13 +1126,13 @@ Wire Wire Line
 	17725 5375 18225 5375
 Wire Wire Line
 	18225 5575 17725 5575
-Text GLabel 16525 4175 0    50   Input ~ 0
+Text GLabel 16525 4175 0    50   Input ~ 6
 GND
 $Comp
 L SwEmb:Q_NMOS_2X_60V_63A Q1
 U 1 1 5C9F910C
 P 19275 4975
-F 0 "Q1" H 19400 5250 50  0000 L CNN
+F 0 "Q1" H 19381 4975 50  0000 L CNN
 F 1 "Q_NMOS_2X_60V_63A" H 19525 3975 50  0001 L CNN
 F 2 "SwedishEmbedded:PowerPack-8x8-Dual" H 19525 4125 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/sqjq910el-1110892.pdf" H 19325 4025 50  0001 C CNN
@@ -1180,7 +1179,7 @@ F 9 "0.087  EUR" H 18825 4500 50  0001 C CNN "Price"
 	1    18825 4500
 	0    1    1    0   
 $EndComp
-Text GLabel 18725 4500 0    50   Input ~ 0
+Text GLabel 18725 4500 0    50   Input ~ 6
 GND
 Wire Wire Line
 	18925 4500 18975 4500
@@ -1191,9 +1190,9 @@ Wire Wire Line
 Wire Wire Line
 	18975 4725 19025 4725
 Connection ~ 18975 4725
-Text GLabel 18725 4725 0    50   Input ~ 0
+Text GLabel 18725 4725 0    50   Input ~ 6
 GA1_P
-Text GLabel 17725 4475 2    50   Input ~ 0
+Text GLabel 17725 4475 2    50   Input ~ 6
 GA1_P
 $Comp
 L SwEmb:RES_10K_1%_0402 R103
@@ -1238,15 +1237,15 @@ Wire Wire Line
 Connection ~ 18975 5225
 Wire Wire Line
 	18975 5225 19025 5225
-Text GLabel 18725 5425 0    50   Input ~ 0
+Text GLabel 18725 5425 0    50   Input ~ 6
 GND
-Text GLabel 18725 5225 0    50   Input ~ 0
+Text GLabel 18725 5225 0    50   Input ~ 6
 GA1_N
-Text GLabel 17725 4675 2    50   Input ~ 0
+Text GLabel 17725 4675 2    50   Input ~ 6
 GA1_N
-Text GLabel 17725 4775 2    50   Input ~ 0
+Text GLabel 17725 4775 2    50   Input ~ 6
 SLA1
-Text GLabel 19225 4975 0    50   Input ~ 0
+Text GLabel 19225 4975 0    50   Input ~ 6
 SHA1
 Wire Wire Line
 	19225 4975 19275 4975
@@ -1255,7 +1254,7 @@ Wire Wire Line
 Wire Wire Line
 	19275 4975 19275 5025
 Connection ~ 19275 4975
-Text GLabel 19275 4525 1    50   Input ~ 0
+Text GLabel 19275 4525 1    50   Input ~ 6
 VMOT
 $Comp
 L SwEmb:Q_NMOS_2X_60V_63A Q3
@@ -1308,7 +1307,7 @@ F 9 "0.087  EUR" H 20300 4500 50  0001 C CNN "Price"
 	1    20300 4500
 	0    1    1    0   
 $EndComp
-Text GLabel 20200 4500 0    50   Input ~ 0
+Text GLabel 20200 4500 0    50   Input ~ 6
 GND
 Wire Wire Line
 	20400 4500 20450 4500
@@ -1319,7 +1318,7 @@ Wire Wire Line
 Wire Wire Line
 	20450 4725 20500 4725
 Connection ~ 20450 4725
-Text GLabel 20200 4725 0    50   Input ~ 0
+Text GLabel 20200 4725 0    50   Input ~ 6
 GB1_P
 $Comp
 L SwEmb:RES_10K_1%_0402 R140
@@ -1364,11 +1363,11 @@ Wire Wire Line
 Connection ~ 20450 5225
 Wire Wire Line
 	20450 5225 20500 5225
-Text GLabel 20200 5425 0    50   Input ~ 0
+Text GLabel 20200 5425 0    50   Input ~ 6
 GND
-Text GLabel 20200 5225 0    50   Input ~ 0
+Text GLabel 20200 5225 0    50   Input ~ 6
 GB1_N
-Text GLabel 20700 4975 0    50   Input ~ 0
+Text GLabel 20700 4975 0    50   Input ~ 6
 SHB1
 Wire Wire Line
 	20700 4975 20750 4975
@@ -1377,7 +1376,7 @@ Wire Wire Line
 Wire Wire Line
 	20750 4975 20750 5025
 Connection ~ 20750 4975
-Text GLabel 20750 4525 1    50   Input ~ 0
+Text GLabel 20750 4525 1    50   Input ~ 6
 VMOT
 $Comp
 L SwEmb:Q_NMOS_2X_60V_63A Q5
@@ -1430,7 +1429,7 @@ F 9 "0.087  EUR" H 21850 4500 50  0001 C CNN "Price"
 	1    21850 4500
 	0    1    1    0   
 $EndComp
-Text GLabel 21750 4500 0    50   Input ~ 0
+Text GLabel 21750 4500 0    50   Input ~ 6
 GND
 Wire Wire Line
 	21950 4500 22000 4500
@@ -1441,7 +1440,7 @@ Wire Wire Line
 Wire Wire Line
 	22000 4725 22050 4725
 Connection ~ 22000 4725
-Text GLabel 21750 4725 0    50   Input ~ 0
+Text GLabel 21750 4725 0    50   Input ~ 6
 GC1_P
 $Comp
 L SwEmb:RES_10K_1%_0402 R172
@@ -1486,11 +1485,11 @@ Wire Wire Line
 Connection ~ 22000 5225
 Wire Wire Line
 	22000 5225 22050 5225
-Text GLabel 21750 5425 0    50   Input ~ 0
+Text GLabel 21750 5425 0    50   Input ~ 6
 GND
-Text GLabel 21750 5225 0    50   Input ~ 0
+Text GLabel 21750 5225 0    50   Input ~ 6
 GC1_N
-Text GLabel 22250 4975 0    50   Input ~ 0
+Text GLabel 22250 4975 0    50   Input ~ 6
 SHC1
 Wire Wire Line
 	22250 4975 22300 4975
@@ -1499,13 +1498,13 @@ Wire Wire Line
 Wire Wire Line
 	22300 4975 22300 5025
 Connection ~ 22300 4975
-Text GLabel 22300 4525 1    50   Input ~ 0
+Text GLabel 22300 4525 1    50   Input ~ 6
 VMOT
-Text GLabel 17725 4975 2    50   Input ~ 0
+Text GLabel 17725 4975 2    50   Input ~ 6
 GB1_P
-Text GLabel 17725 5175 2    50   Input ~ 0
+Text GLabel 17725 5175 2    50   Input ~ 6
 GB1_N
-Text GLabel 17725 5275 2    50   Input ~ 0
+Text GLabel 17725 5275 2    50   Input ~ 6
 SLB1
 $Comp
 L SwEmb:CAP_1nF_100V_0603 C115
@@ -1541,9 +1540,9 @@ F 9 "Mouser" H 500 -250 50  0001 C CNN "Vendor"
 	1    20425 5725
 	1    0    0    -1  
 $EndComp
-Text GLabel 17725 5975 2    50   Input ~ 0
+Text GLabel 17725 5975 2    50   Input ~ 6
 GND
-Text GLabel 17725 6175 2    50   Input ~ 0
+Text GLabel 17725 6175 2    50   Input ~ 6
 GND
 Wire Wire Line
 	19275 5425 19275 5500
@@ -1621,11 +1620,11 @@ F 4 "#" H 22300 5550 50  0001 C CNN "MPN"
 	1    22300 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 17725 5675 2    50   Input ~ 0
+Text GLabel 17725 5675 2    50   Input ~ 6
 GC1_N
-Text GLabel 17725 5775 2    50   Input ~ 0
+Text GLabel 17725 5775 2    50   Input ~ 6
 SLC1
-Text GLabel 17725 5475 2    50   Input ~ 0
+Text GLabel 17725 5475 2    50   Input ~ 6
 GC1_P
 $Comp
 L SwEmb:RES_5mR_1%_10W R114
@@ -1747,9 +1746,9 @@ Wire Wire Line
 Wire Wire Line
 	19625 5825 19450 5825
 Connection ~ 19450 5825
-Text GLabel 19925 4125 2    50   Input ~ 0
+Text GLabel 19925 4125 2    50   Input ~ 6
 GND
-Text GLabel 19325 4125 0    50   Input ~ 0
+Text GLabel 19325 4125 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	19450 5275 19625 5275
@@ -1759,7 +1758,7 @@ Wire Wire Line
 Connection ~ 19625 5275
 Wire Wire Line
 	19625 5275 19625 5550
-Text GLabel 19600 2350 2    50   Input ~ 0
+Text GLabel 19600 2350 2    50   Input ~ 6
 VSA2
 Wire Wire Line
 	19625 4975 19725 4975
@@ -1834,9 +1833,9 @@ F 9 "Mouser" H 21175 5650 50  0001 C CNN "Vendor"
 	1    21175 5650
 	1    0    0    -1  
 $EndComp
-Text GLabel 20875 4125 0    50   Input ~ 0
+Text GLabel 20875 4125 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 21475 4125 2    50   Input ~ 0
+Text GLabel 21475 4125 2    50   Input ~ 6
 GND
 Wire Wire Line
 	21175 5550 21175 5275
@@ -1864,7 +1863,7 @@ Wire Wire Line
 	20750 4975 21000 4975
 Wire Wire Line
 	21000 4975 21000 5025
-Text GLabel 21325 2350 2    50   Input ~ 0
+Text GLabel 21325 2350 2    50   Input ~ 6
 VSB2
 Wire Wire Line
 	21225 4975 21175 4975
@@ -1960,7 +1959,7 @@ Wire Wire Line
 	22300 4975 22550 4975
 Wire Wire Line
 	22550 4975 22550 5025
-Text GLabel 23000 2350 2    50   Input ~ 0
+Text GLabel 23000 2350 2    50   Input ~ 6
 VSC2
 Wire Wire Line
 	22775 4975 22725 4975
@@ -1977,9 +1976,9 @@ F 4 "#" H 22550 5825 50  0001 C CNN "MPN"
 	1    22550 5825
 	1    0    0    -1  
 $EndComp
-Text GLabel 22425 4125 0    50   Input ~ 0
+Text GLabel 22425 4125 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 23025 4125 2    50   Input ~ 0
+Text GLabel 23025 4125 2    50   Input ~ 6
 GND
 $Comp
 L SwEmb:CAP_2.2uF_100V_1210 C121
@@ -2032,7 +2031,7 @@ F 9 "Mouser" H 500 -250 50  0001 C CNN "Vendor"
 	1    20325 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 19450 3550 0    50   Input ~ 0
+Text GLabel 19450 3550 0    50   Input ~ 6
 VMOT
 Wire Wire Line
 	19450 3550 19575 3550
@@ -2177,11 +2176,11 @@ F 4 "#" H 17125 6475 50  0001 C CNN "MPN"
 	1    17125 6475
 	1    0    0    -1  
 $EndComp
-Text GLabel 15075 6725 0    50   Input ~ 0
+Text GLabel 15075 6725 0    50   Input ~ 6
 SOA1
-Text GLabel 15075 6525 0    50   Input ~ 0
+Text GLabel 15075 6525 0    50   Input ~ 6
 SOB1
-Text Notes 15875 5975 0    50   ~ 0
+Text Notes 15875 5975 0    50   ~ 6
 Swing: 0.3-5.7V
 $Comp
 L SwEmb:RES_3K_1%_0402 R80
@@ -2234,9 +2233,9 @@ F 9 "OK" H 15525 6625 50  0001 C CNN "LifeCycle"
 	1    15525 6625
 	1    0    0    -1  
 $EndComp
-Text GLabel 15075 6625 0    50   Input ~ 0
+Text GLabel 15075 6625 0    50   Input ~ 6
 GND
-Text GLabel 16200 6625 2    50   Input ~ 0
+Text GLabel 16200 6625 2    50   Input ~ 6
 VDD_3V3_MCU
 Wire Wire Line
 	15425 6300 15425 5975
@@ -2317,9 +2316,9 @@ F 4 "#" H 16325 5775 50  0001 C CNN "MPN"
 	1    16325 5775
 	1    0    0    -1  
 $EndComp
-Text Notes 15775 6925 2    50   ~ 0
+Text Notes 15775 6925 2    50   ~ 6
 Clamp to 3.6v
-Text GLabel 15775 3975 0    50   Input ~ 0
+Text GLabel 15775 3975 0    50   Input ~ 6
 OCW1
 $Comp
 L SwEmb:RES_10K_1%_0402 R86
@@ -2355,7 +2354,7 @@ F 9 "0.087  EUR" H 16000 3825 50  0001 C CNN "Price"
 	1    16000 3825
 	-1   0    0    1   
 $EndComp
-Text GLabel 15775 4075 0    50   Input ~ 0
+Text GLabel 15775 4075 0    50   Input ~ 6
 FAULT1
 Wire Wire Line
 	16525 4075 16225 4075
@@ -2384,15 +2383,15 @@ Wire Wire Line
 Connection ~ 16125 3675
 Wire Wire Line
 	16125 3675 16225 3675
-Text GLabel 15975 3625 0    50   Input ~ 0
+Text GLabel 15975 3625 0    50   Input ~ 6
 VDD_3V3_MCU
-Text GLabel 16525 4275 0    50   Input ~ 0
+Text GLabel 16525 4275 0    50   Input ~ 6
 GND
-Text GLabel 16525 4375 0    50   Input ~ 0
+Text GLabel 16525 4375 0    50   Input ~ 6
 MOC1
-Text GLabel 16525 4475 0    50   Input ~ 0
+Text GLabel 16525 4475 0    50   Input ~ 6
 GAIN1
-Text GLabel 16525 4675 0    50   Input ~ 0
+Text GLabel 16525 4675 0    50   Input ~ 6
 DC_CAL1
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C84
@@ -2450,21 +2449,21 @@ Wire Wire Line
 	16175 4975 16175 4875
 Wire Wire Line
 	16175 4875 16525 4875
-Text GLabel 15050 5075 0    50   Input ~ 0
+Text GLabel 15050 5075 0    50   Input ~ 6
 EN_GATE1
-Text GLabel 15050 5175 0    50   Input ~ 0
+Text GLabel 15050 5175 0    50   Input ~ 6
 INHA1
-Text GLabel 15050 5275 0    50   Input ~ 0
+Text GLabel 15050 5275 0    50   Input ~ 6
 INLA1
-Text GLabel 15050 5375 0    50   Input ~ 0
+Text GLabel 15050 5375 0    50   Input ~ 6
 INHB1
-Text GLabel 15050 5475 0    50   Input ~ 0
+Text GLabel 15050 5475 0    50   Input ~ 6
 INLB1
-Text GLabel 15050 5575 0    50   Input ~ 0
+Text GLabel 15050 5575 0    50   Input ~ 6
 INHC1
-Text GLabel 15050 5675 0    50   Input ~ 0
+Text GLabel 15050 5675 0    50   Input ~ 6
 INLC1
-Text GLabel 15050 5775 0    50   Input ~ 0
+Text GLabel 15050 5775 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	16075 5775 16075 5875
@@ -2555,7 +2554,7 @@ Wire Wire Line
 	17725 8300 17775 8300
 Wire Wire Line
 	17975 8300 18000 8300
-Text GLabel 18000 8300 2    50   Input ~ 0
+Text GLabel 18000 8300 2    50   Input ~ 6
 GND
 $Comp
 L SwEmb:CAP_100nF_100V_0603 C108
@@ -2620,7 +2619,7 @@ Wire Wire Line
 	17725 9400 18225 9400
 Wire Wire Line
 	18225 9600 17725 9600
-Text GLabel 16525 8200 0    50   Input ~ 0
+Text GLabel 16525 8200 0    50   Input ~ 6
 GND
 $Comp
 L SwEmb:Q_NMOS_2X_60V_63A Q2
@@ -2673,7 +2672,7 @@ F 9 "0.087  EUR" H 18825 8525 50  0001 C CNN "Price"
 	1    18825 8525
 	0    1    1    0   
 $EndComp
-Text GLabel 18725 8525 0    50   Input ~ 0
+Text GLabel 18725 8525 0    50   Input ~ 6
 GND
 Wire Wire Line
 	18925 8525 18975 8525
@@ -2684,9 +2683,9 @@ Wire Wire Line
 Wire Wire Line
 	18975 8750 19025 8750
 Connection ~ 18975 8750
-Text GLabel 18725 8750 0    50   Input ~ 0
+Text GLabel 18725 8750 0    50   Input ~ 6
 GHA2
-Text GLabel 17725 8500 2    50   Input ~ 0
+Text GLabel 17725 8500 2    50   Input ~ 6
 GHA2
 $Comp
 L SwEmb:RES_10K_1%_0402 R107
@@ -2731,15 +2730,15 @@ Wire Wire Line
 Connection ~ 18975 9250
 Wire Wire Line
 	18975 9250 19025 9250
-Text GLabel 18725 9450 0    50   Input ~ 0
+Text GLabel 18725 9450 0    50   Input ~ 6
 GND
-Text GLabel 18725 9250 0    50   Input ~ 0
+Text GLabel 18725 9250 0    50   Input ~ 6
 GLA2
-Text GLabel 17725 8700 2    50   Input ~ 0
+Text GLabel 17725 8700 2    50   Input ~ 6
 GLA2
-Text GLabel 17725 8800 2    50   Input ~ 0
+Text GLabel 17725 8800 2    50   Input ~ 6
 SLA2
-Text GLabel 19225 9000 0    50   Input ~ 0
+Text GLabel 19225 9000 0    50   Input ~ 6
 SHA2
 Wire Wire Line
 	19225 9000 19275 9000
@@ -2748,7 +2747,7 @@ Wire Wire Line
 Wire Wire Line
 	19275 9000 19275 9050
 Connection ~ 19275 9000
-Text GLabel 19275 8550 1    50   Input ~ 0
+Text GLabel 19275 8550 1    50   Input ~ 6
 VMOT
 $Comp
 L SwEmb:Q_NMOS_2X_60V_63A Q4
@@ -2801,7 +2800,7 @@ F 9 "0.087  EUR" H 20300 8525 50  0001 C CNN "Price"
 	1    20300 8525
 	0    1    1    0   
 $EndComp
-Text GLabel 20200 8525 0    50   Input ~ 0
+Text GLabel 20200 8525 0    50   Input ~ 6
 GND
 Wire Wire Line
 	20400 8525 20450 8525
@@ -2812,7 +2811,7 @@ Wire Wire Line
 Wire Wire Line
 	20450 8750 20500 8750
 Connection ~ 20450 8750
-Text GLabel 20200 8750 0    50   Input ~ 0
+Text GLabel 20200 8750 0    50   Input ~ 6
 GHB2
 $Comp
 L SwEmb:RES_10K_1%_0402 R144
@@ -2857,11 +2856,11 @@ Wire Wire Line
 Connection ~ 20450 9250
 Wire Wire Line
 	20450 9250 20500 9250
-Text GLabel 20200 9450 0    50   Input ~ 0
+Text GLabel 20200 9450 0    50   Input ~ 6
 GND
-Text GLabel 20200 9250 0    50   Input ~ 0
+Text GLabel 20200 9250 0    50   Input ~ 6
 GLB2
-Text GLabel 20700 9000 0    50   Input ~ 0
+Text GLabel 20700 9000 0    50   Input ~ 6
 SHB2
 Wire Wire Line
 	20700 9000 20750 9000
@@ -2870,7 +2869,7 @@ Wire Wire Line
 Wire Wire Line
 	20750 9000 20750 9050
 Connection ~ 20750 9000
-Text GLabel 20750 8550 1    50   Input ~ 0
+Text GLabel 20750 8550 1    50   Input ~ 6
 VMOT
 $Comp
 L SwEmb:Q_NMOS_2X_60V_63A Q6
@@ -2923,7 +2922,7 @@ F 9 "0.087  EUR" H 21850 8525 50  0001 C CNN "Price"
 	1    21850 8525
 	0    1    1    0   
 $EndComp
-Text GLabel 21750 8525 0    50   Input ~ 0
+Text GLabel 21750 8525 0    50   Input ~ 6
 GND
 Wire Wire Line
 	21950 8525 22000 8525
@@ -2934,7 +2933,7 @@ Wire Wire Line
 Wire Wire Line
 	22000 8750 22050 8750
 Connection ~ 22000 8750
-Text GLabel 21750 8750 0    50   Input ~ 0
+Text GLabel 21750 8750 0    50   Input ~ 6
 GHC2
 $Comp
 L SwEmb:RES_10K_1%_0402 R176
@@ -2979,11 +2978,11 @@ Wire Wire Line
 Connection ~ 22000 9250
 Wire Wire Line
 	22000 9250 22050 9250
-Text GLabel 21750 9450 0    50   Input ~ 0
+Text GLabel 21750 9450 0    50   Input ~ 6
 GND
-Text GLabel 21750 9250 0    50   Input ~ 0
+Text GLabel 21750 9250 0    50   Input ~ 6
 GLC2
-Text GLabel 22250 9000 0    50   Input ~ 0
+Text GLabel 22250 9000 0    50   Input ~ 6
 SHC2
 Wire Wire Line
 	22250 9000 22300 9000
@@ -2992,13 +2991,13 @@ Wire Wire Line
 Wire Wire Line
 	22300 9000 22300 9050
 Connection ~ 22300 9000
-Text GLabel 22300 8550 1    50   Input ~ 0
+Text GLabel 22300 8550 1    50   Input ~ 6
 VMOT
-Text GLabel 17725 9000 2    50   Input ~ 0
+Text GLabel 17725 9000 2    50   Input ~ 6
 GHB2
-Text GLabel 17725 9200 2    50   Input ~ 0
+Text GLabel 17725 9200 2    50   Input ~ 6
 GLB2
-Text GLabel 17725 9300 2    50   Input ~ 0
+Text GLabel 17725 9300 2    50   Input ~ 6
 SLB2
 $Comp
 L SwEmb:CAP_1nF_100V_0603 C116
@@ -3034,9 +3033,9 @@ F 9 "Mouser" H 500 -200 50  0001 C CNN "Vendor"
 	1    20425 9750
 	1    0    0    -1  
 $EndComp
-Text GLabel 17725 10000 2    50   Input ~ 0
+Text GLabel 17725 10000 2    50   Input ~ 6
 GND
-Text GLabel 17725 10200 2    50   Input ~ 0
+Text GLabel 17725 10200 2    50   Input ~ 6
 GND
 Wire Wire Line
 	19275 9450 19275 9525
@@ -3114,11 +3113,11 @@ F 4 "#" H 22300 9575 50  0001 C CNN "MPN"
 	1    22300 9575
 	1    0    0    -1  
 $EndComp
-Text GLabel 17725 9700 2    50   Input ~ 0
+Text GLabel 17725 9700 2    50   Input ~ 6
 GLC2
-Text GLabel 17725 9800 2    50   Input ~ 0
+Text GLabel 17725 9800 2    50   Input ~ 6
 SLC2
-Text GLabel 17725 9500 2    50   Input ~ 0
+Text GLabel 17725 9500 2    50   Input ~ 6
 GHC2
 $Comp
 L SwEmb:RES_5mR_1%_10W R115
@@ -3240,9 +3239,9 @@ Wire Wire Line
 Wire Wire Line
 	19625 9850 19450 9850
 Connection ~ 19450 9850
-Text GLabel 19925 8150 2    50   Input ~ 0
+Text GLabel 19925 8150 2    50   Input ~ 6
 GND
-Text GLabel 19325 8150 0    50   Input ~ 0
+Text GLabel 19325 8150 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	19450 9300 19625 9300
@@ -3252,7 +3251,7 @@ Wire Wire Line
 Connection ~ 19625 9300
 Wire Wire Line
 	19625 9300 19625 9575
-Text GLabel 19725 9000 2    50   Input ~ 0
+Text GLabel 19725 9000 2    50   Input ~ 6
 VSA2_RAW
 Wire Wire Line
 	19625 9000 19725 9000
@@ -3327,9 +3326,9 @@ F 9 "Mouser" H 21175 9675 50  0001 C CNN "Vendor"
 	1    21175 9675
 	1    0    0    -1  
 $EndComp
-Text GLabel 20875 8150 0    50   Input ~ 0
+Text GLabel 20875 8150 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 21475 8150 2    50   Input ~ 0
+Text GLabel 21475 8150 2    50   Input ~ 6
 GND
 Wire Wire Line
 	21175 9575 21175 9300
@@ -3357,7 +3356,7 @@ Wire Wire Line
 	20750 9000 21000 9000
 Wire Wire Line
 	21000 9000 21000 9050
-Text GLabel 21225 9000 2    50   Input ~ 0
+Text GLabel 21225 9000 2    50   Input ~ 6
 VSB2_RAW
 Wire Wire Line
 	21225 9000 21175 9000
@@ -3453,7 +3452,7 @@ Wire Wire Line
 	22300 9000 22550 9000
 Wire Wire Line
 	22550 9000 22550 9050
-Text GLabel 22775 9000 2    50   Input ~ 0
+Text GLabel 22775 9000 2    50   Input ~ 6
 VSC2_RAW
 Wire Wire Line
 	22775 9000 22725 9000
@@ -3470,9 +3469,9 @@ F 4 "#" H 22550 9850 50  0001 C CNN "MPN"
 	1    22550 9850
 	1    0    0    -1  
 $EndComp
-Text GLabel 22425 8150 0    50   Input ~ 0
+Text GLabel 22425 8150 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 23025 8150 2    50   Input ~ 0
+Text GLabel 23025 8150 2    50   Input ~ 6
 GND
 $Comp
 L SwEmb:CAP_2.2uF_100V_1210 C122
@@ -3525,7 +3524,7 @@ F 9 "Mouser" H 500 -200 50  0001 C CNN "Vendor"
 	1    20325 7725
 	1    0    0    -1  
 $EndComp
-Text GLabel 19450 7575 0    50   Input ~ 0
+Text GLabel 19450 7575 0    50   Input ~ 6
 VMOT
 Wire Wire Line
 	19450 7575 19575 7575
@@ -3670,11 +3669,11 @@ F 4 "#" H 17125 10500 50  0001 C CNN "MPN"
 	1    17125 10500
 	1    0    0    -1  
 $EndComp
-Text GLabel 15075 10750 0    50   Input ~ 0
+Text GLabel 15075 10750 0    50   Input ~ 6
 SOA2
-Text GLabel 15075 10550 0    50   Input ~ 0
+Text GLabel 15075 10550 0    50   Input ~ 6
 SOB2
-Text Notes 15850 10000 0    50   ~ 0
+Text Notes 15850 10000 0    50   ~ 6
 Swing: 0.3-5.7V
 $Comp
 L SwEmb:RES_3K_1%_0402 R82
@@ -3727,9 +3726,9 @@ F 9 "OK" H 15525 10650 50  0001 C CNN "LifeCycle"
 	1    15525 10650
 	1    0    0    -1  
 $EndComp
-Text GLabel 15075 10650 0    50   Input ~ 0
+Text GLabel 15075 10650 0    50   Input ~ 6
 GND
-Text GLabel 16225 10650 2    50   Input ~ 0
+Text GLabel 16225 10650 2    50   Input ~ 6
 VDD_3V3_MCU
 Wire Wire Line
 	15425 10325 15425 10000
@@ -3808,9 +3807,9 @@ F 4 "#" H 16325 9800 50  0001 C CNN "MPN"
 	1    16325 9800
 	1    0    0    -1  
 $EndComp
-Text Notes 15775 10950 2    50   ~ 0
+Text Notes 15775 10950 2    50   ~ 6
 Clamp to 3.6v
-Text GLabel 15775 8000 0    50   Input ~ 0
+Text GLabel 15775 8000 0    50   Input ~ 6
 OCW2
 $Comp
 L SwEmb:RES_10K_1%_0402 R87
@@ -3846,7 +3845,7 @@ F 9 "0.087  EUR" H 16000 7850 50  0001 C CNN "Price"
 	1    16000 7850
 	-1   0    0    1   
 $EndComp
-Text GLabel 15775 8100 0    50   Input ~ 0
+Text GLabel 15775 8100 0    50   Input ~ 6
 FAULT2
 Wire Wire Line
 	16525 8100 16225 8100
@@ -3875,15 +3874,15 @@ Wire Wire Line
 Connection ~ 16125 7700
 Wire Wire Line
 	16125 7700 16225 7700
-Text GLabel 15975 7650 0    50   Input ~ 0
+Text GLabel 15975 7650 0    50   Input ~ 6
 VDD_3V3_MCU
-Text GLabel 16525 8300 0    50   Input ~ 0
+Text GLabel 16525 8300 0    50   Input ~ 6
 GND
-Text GLabel 16525 8400 0    50   Input ~ 0
+Text GLabel 16525 8400 0    50   Input ~ 6
 MOC2
-Text GLabel 16525 8500 0    50   Input ~ 0
+Text GLabel 16525 8500 0    50   Input ~ 6
 GAIN2
-Text GLabel 16525 8700 0    50   Input ~ 0
+Text GLabel 16525 8700 0    50   Input ~ 6
 DC_CAL2
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C85
@@ -3924,21 +3923,21 @@ Wire Wire Line
 	16175 9000 16175 8900
 Wire Wire Line
 	16175 8900 16525 8900
-Text GLabel 15050 9100 0    50   Input ~ 0
+Text GLabel 15050 9100 0    50   Input ~ 6
 EN_GATE2
-Text GLabel 15050 9200 0    50   Input ~ 0
+Text GLabel 15050 9200 0    50   Input ~ 6
 INHA2
-Text GLabel 15050 9300 0    50   Input ~ 0
+Text GLabel 15050 9300 0    50   Input ~ 6
 INLA2
-Text GLabel 15050 9400 0    50   Input ~ 0
+Text GLabel 15050 9400 0    50   Input ~ 6
 INHB2
-Text GLabel 15050 9500 0    50   Input ~ 0
+Text GLabel 15050 9500 0    50   Input ~ 6
 INLB2
-Text GLabel 15050 9600 0    50   Input ~ 0
+Text GLabel 15050 9600 0    50   Input ~ 6
 INHC2
-Text GLabel 15050 9700 0    50   Input ~ 0
+Text GLabel 15050 9700 0    50   Input ~ 6
 INLC2
-Text GLabel 15050 9800 0    50   Input ~ 0
+Text GLabel 15050 9800 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	16075 9800 16075 9900
@@ -3980,13 +3979,13 @@ F 4 "#" H 15175 10050 50  0001 C CNN "MPN"
 	1    15175 10050
 	1    0    0    -1  
 $EndComp
-Text Notes 19725 8925 1    50   ~ 0
+Text Notes 19725 8925 1    50   ~ 6
 3.3v @ 48V
-Text Notes 19725 4900 1    50   ~ 0
+Text Notes 19725 4900 1    50   ~ 6
 @48V: 3.3V
-Text Notes 15150 7325 0    118  ~ 0
+Text Notes 15150 7325 0    118  ~ 6
 Drive 2
-Text Notes 15175 3250 0    118  ~ 0
+Text Notes 15175 3250 0    118  ~ 6
 Drive 1
 Wire Notes Line
 	15075 7250 14400 7250
@@ -4216,7 +4215,7 @@ F 9 "Mouser" H -9175 17325 50  0001 C CNN "Vendor"
 	1    9325 19700
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8975 19800 0    50   Input ~ 0
+Text GLabel 8975 19800 0    50   Input ~ 6
 VMOT
 Wire Wire Line
 	8975 19800 9025 19800
@@ -4253,7 +4252,7 @@ $EndComp
 Connection ~ 9175 20425
 Wire Wire Line
 	9175 20425 9025 20425
-Text GLabel 8975 19700 0    50   Input ~ 0
+Text GLabel 8975 19700 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:GNDREF #PWR0151
@@ -4447,11 +4446,11 @@ Wire Wire Line
 Wire Wire Line
 	21600 6375 21550 6375
 Connection ~ 21600 6375
-Text GLabel 21550 6375 0    50   Input ~ 0
+Text GLabel 21550 6375 0    50   Input ~ 6
 HALL_A1
-Text GLabel 21550 6475 0    50   Input ~ 0
+Text GLabel 21550 6475 0    50   Input ~ 6
 HALL_B1
-Text GLabel 21550 6575 0    50   Input ~ 0
+Text GLabel 21550 6575 0    50   Input ~ 6
 HALL_C1
 $Comp
 L SwEmb:D_TPD3E001 D23
@@ -4470,9 +4469,9 @@ F 9 "0.428  EUR" H 21700 6025 50  0001 C CNN "Price"
 	1    21700 6025
 	1    0    0    -1  
 $EndComp
-Text GLabel 21400 6025 0    50   Input ~ 0
+Text GLabel 21400 6025 0    50   Input ~ 6
 VDD_3V3_MCU
-Text GLabel 22000 6025 2    50   Input ~ 0
+Text GLabel 22000 6025 2    50   Input ~ 6
 GND
 Wire Wire Line
 	21600 6225 21600 6375
@@ -4667,11 +4666,11 @@ Wire Wire Line
 	22225 10450 22300 10450
 Wire Wire Line
 	22225 10550 22300 10550
-Text GLabel 21550 10350 0    50   Input ~ 0
+Text GLabel 21550 10350 0    50   Input ~ 6
 HALL_A2
-Text GLabel 21550 10450 0    50   Input ~ 0
+Text GLabel 21550 10450 0    50   Input ~ 6
 HALL_B2
-Text GLabel 21550 10550 0    50   Input ~ 0
+Text GLabel 21550 10550 0    50   Input ~ 6
 HALL_C2
 $Comp
 L SwEmb:D_TPD3E001 D24
@@ -4690,9 +4689,9 @@ F 9 "0.428  EUR" H 21700 10000 50  0001 C CNN "Price"
 	1    21700 10000
 	1    0    0    -1  
 $EndComp
-Text GLabel 21400 10000 0    50   Input ~ 0
+Text GLabel 21400 10000 0    50   Input ~ 6
 VDD_3V3_MCU
-Text GLabel 22000 10000 2    50   Input ~ 0
+Text GLabel 22000 10000 2    50   Input ~ 6
 GND
 $Comp
 L SwEmb:IC_MAX14890 U23
@@ -4894,13 +4893,13 @@ Wire Wire Line
 	16925 12550 16925 12350
 Wire Wire Line
 	16725 12550 16925 12550
-Text GLabel 17300 12550 0    50   Input ~ 0
+Text GLabel 17300 12550 0    50   Input ~ 6
 GND
-Text GLabel 14950 11950 0    50   Input ~ 0
+Text GLabel 14950 11950 0    50   Input ~ 6
 ENCA1
-Text GLabel 14950 12250 0    50   Input ~ 0
+Text GLabel 14950 12250 0    50   Input ~ 6
 ENCB1
-Text GLabel 14950 12550 0    50   Input ~ 0
+Text GLabel 14950 12550 0    50   Input ~ 6
 ENCZ1
 Wire Wire Line
 	16175 11850 17300 11850
@@ -4914,11 +4913,11 @@ Wire Wire Line
 	16875 12250 17300 12250
 Wire Wire Line
 	16925 12350 17300 12350
-Text GLabel 14950 13550 0    50   Input ~ 0
+Text GLabel 14950 13550 0    50   Input ~ 6
 ENCSH1
-Text GLabel 14700 11800 0    50   Input ~ 0
+Text GLabel 14700 11800 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 16325 11775 2    50   Input ~ 0
+Text GLabel 16325 11775 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C73
@@ -5035,13 +5034,13 @@ Wire Wire Line
 	14825 11400 14625 11400
 Wire Wire Line
 	14625 11400 14625 11450
-Text GLabel 14950 13850 0    50   Input ~ 0
+Text GLabel 14950 13850 0    50   Input ~ 6
 ENCMISO1
-Text GLabel 14950 13950 0    50   Input ~ 0
+Text GLabel 14950 13950 0    50   Input ~ 6
 ENCCS1
-Text GLabel 14950 14050 0    50   Input ~ 0
+Text GLabel 14950 14050 0    50   Input ~ 6
 ENCSCK1
-Text GLabel 14950 14150 0    50   Input ~ 0
+Text GLabel 14950 14150 0    50   Input ~ 6
 ENCMOSI1
 Wire Wire Line
 	16050 14250 16125 14250
@@ -5264,13 +5263,13 @@ Wire Wire Line
 	22325 12525 22325 12325
 Wire Wire Line
 	22125 12525 22325 12525
-Text GLabel 22700 12525 0    50   Input ~ 0
+Text GLabel 22700 12525 0    50   Input ~ 6
 GND
-Text GLabel 20350 11925 0    50   Input ~ 0
+Text GLabel 20350 11925 0    50   Input ~ 6
 ENCA2
-Text GLabel 20350 12225 0    50   Input ~ 0
+Text GLabel 20350 12225 0    50   Input ~ 6
 ENCB2
-Text GLabel 20350 12525 0    50   Input ~ 0
+Text GLabel 20350 12525 0    50   Input ~ 6
 ENCZ2
 Wire Wire Line
 	21575 11825 22700 11825
@@ -5284,15 +5283,15 @@ Wire Wire Line
 	22275 12225 22700 12225
 Wire Wire Line
 	22325 12325 22700 12325
-Text GLabel 19825 14425 2    50   Input ~ 0
+Text GLabel 19825 14425 2    50   Input ~ 6
 MOTOR2_BRKIN
-Text GLabel 20350 13525 0    50   Input ~ 0
+Text GLabel 20350 13525 0    50   Input ~ 6
 ENCSH2
-Text GLabel 20100 11775 0    50   Input ~ 0
+Text GLabel 20100 11775 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 21725 11750 2    50   Input ~ 0
+Text GLabel 21725 11750 2    50   Input ~ 6
 VDD_5V
-Text GLabel 20350 14325 0    50   Input ~ 0
+Text GLabel 20350 14325 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C77
@@ -5409,13 +5408,13 @@ Wire Wire Line
 	20225 11375 20025 11375
 Wire Wire Line
 	20025 11375 20025 11425
-Text GLabel 20350 13825 0    50   Input ~ 0
+Text GLabel 20350 13825 0    50   Input ~ 6
 ENCMISO2
-Text GLabel 20350 13925 0    50   Input ~ 0
+Text GLabel 20350 13925 0    50   Input ~ 6
 ENCCS2
-Text GLabel 20350 14025 0    50   Input ~ 0
+Text GLabel 20350 14025 0    50   Input ~ 6
 ENCSCK2
-Text GLabel 20350 14125 0    50   Input ~ 0
+Text GLabel 20350 14125 0    50   Input ~ 6
 ENCMOSI2
 Wire Wire Line
 	21450 14225 21525 14225
@@ -5484,7 +5483,7 @@ F 4 "#" H 17625 13450 50  0001 C CNN "MPN"
 	1    17625 13450
 	1    0    0    -1  
 $EndComp
-Text GLabel 17300 13225 0    50   Input ~ 0
+Text GLabel 17300 13225 0    50   Input ~ 6
 GND
 Wire Wire Line
 	17300 13125 16675 13125
@@ -5538,7 +5537,7 @@ F 4 "#" H 17625 14100 50  0001 C CNN "MPN"
 	1    17625 14100
 	1    0    0    -1  
 $EndComp
-Text GLabel 17300 13875 0    50   Input ~ 0
+Text GLabel 17300 13875 0    50   Input ~ 6
 GND
 Wire Wire Line
 	17300 13775 16575 13775
@@ -5588,7 +5587,7 @@ F 4 "#" H 17625 14725 50  0001 C CNN "MPN"
 	1    17625 14725
 	1    0    0    -1  
 $EndComp
-Text GLabel 17300 14500 0    50   Input ~ 0
+Text GLabel 17300 14500 0    50   Input ~ 6
 GND
 Wire Wire Line
 	16575 13775 16575 13250
@@ -5646,7 +5645,7 @@ F 4 "#" H 23025 13400 50  0001 C CNN "MPN"
 	1    23025 13400
 	1    0    0    -1  
 $EndComp
-Text GLabel 22700 13175 0    50   Input ~ 0
+Text GLabel 22700 13175 0    50   Input ~ 6
 GND
 Wire Wire Line
 	22700 13075 22075 13075
@@ -5696,7 +5695,7 @@ F 4 "#" H 23025 14050 50  0001 C CNN "MPN"
 	1    23025 14050
 	1    0    0    -1  
 $EndComp
-Text GLabel 22700 13825 0    50   Input ~ 0
+Text GLabel 22700 13825 0    50   Input ~ 6
 GND
 Wire Wire Line
 	22700 13725 21975 13725
@@ -5746,7 +5745,7 @@ F 4 "#" H 23025 14675 50  0001 C CNN "MPN"
 	1    23025 14675
 	1    0    0    -1  
 $EndComp
-Text GLabel 22700 14450 0    50   Input ~ 0
+Text GLabel 22700 14450 0    50   Input ~ 6
 GND
 Wire Wire Line
 	21875 14350 22700 14350
@@ -5779,11 +5778,11 @@ F 9 "Mouser" H -4375 -825 50  0001 C CNN "Vendor"
 	1    20475 6450
 	1    0    0    -1  
 $EndComp
-Text GLabel 20225 6350 0    50   Input ~ 0
+Text GLabel 20225 6350 0    50   Input ~ 6
 SHA1
-Text GLabel 20225 6450 0    50   Input ~ 0
+Text GLabel 20225 6450 0    50   Input ~ 6
 SHB1
-Text GLabel 20225 6550 0    50   Input ~ 0
+Text GLabel 20225 6550 0    50   Input ~ 6
 SHC1
 $Comp
 L SwEmb:CONN_MOTOR P46
@@ -5802,13 +5801,13 @@ F 9 "Mouser" H -4375 -775 50  0001 C CNN "Vendor"
 	1    20500 10450
 	1    0    0    -1  
 $EndComp
-Text GLabel 20250 10350 0    50   Input ~ 0
+Text GLabel 20250 10350 0    50   Input ~ 6
 SHA2
-Text GLabel 20250 10450 0    50   Input ~ 0
+Text GLabel 20250 10450 0    50   Input ~ 6
 SHB2
-Text GLabel 20250 10550 0    50   Input ~ 0
+Text GLabel 20250 10550 0    50   Input ~ 6
 SHC2
-Text GLabel 15825 4575 0    50   Input ~ 0
+Text GLabel 15825 4575 0    50   Input ~ 6
 OC_ADJ1
 $Comp
 L SwEmb:Test_Point TP23
@@ -5936,7 +5935,7 @@ Wire Wire Line
 Connection ~ 15875 4575
 Wire Wire Line
 	15875 4575 16525 4575
-Text GLabel 15775 8600 0    50   Input ~ 0
+Text GLabel 15775 8600 0    50   Input ~ 6
 OC_ADJ2
 $Comp
 L SwEmb:Test_Point TP38
@@ -6146,53 +6145,53 @@ F 9 "Mouser" H -5400 15625 50  0001 C CNN "Vendor"
 	1    10875 18850
 	1    0    0    -1  
 $EndComp
-Text GLabel 10525 18700 0    50   Input ~ 0
+Text GLabel 10525 18700 0    50   Input ~ 6
 ENCPWEN1
-Text GLabel 10525 19000 0    50   Input ~ 0
+Text GLabel 10525 19000 0    50   Input ~ 6
 ENCPWEN2
-Text GLabel 10525 18800 0    50   Input ~ 0
+Text GLabel 10525 18800 0    50   Input ~ 6
 ENCOC1
-Text GLabel 10525 18900 0    50   Input ~ 0
+Text GLabel 10525 18900 0    50   Input ~ 6
 ENCOC2
-Text GLabel 11800 18775 1    50   Input ~ 0
+Text GLabel 11800 18775 1    50   Input ~ 6
 VDD_5V
-Text GLabel 11225 18900 2    50   Input ~ 0
+Text GLabel 11225 18900 2    50   Input ~ 6
 GND
-Text GLabel 11225 18700 2    50   Input ~ 0
+Text GLabel 11225 18700 2    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 11225 19000 2    50   Input ~ 0
+Text GLabel 11225 19000 2    50   Input ~ 6
 ENC2VDD5V
-Text GLabel 17300 12450 0    50   Input ~ 0
+Text GLabel 17300 12450 0    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 17425 12800 0    50   Input ~ 0
+Text GLabel 17425 12800 0    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 17300 13025 0    50   Input ~ 0
+Text GLabel 17300 13025 0    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 17425 13450 0    50   Input ~ 0
+Text GLabel 17425 13450 0    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 17300 13675 0    50   Input ~ 0
+Text GLabel 17300 13675 0    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 17425 14100 0    50   Input ~ 0
+Text GLabel 17425 14100 0    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 17425 14725 0    50   Input ~ 0
+Text GLabel 17425 14725 0    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 17300 14300 0    50   Input ~ 0
+Text GLabel 17300 14300 0    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 22700 12425 0    50   Input ~ 0
+Text GLabel 22700 12425 0    50   Input ~ 6
 ENC2VDD5V
-Text GLabel 22700 12975 0    50   Input ~ 0
+Text GLabel 22700 12975 0    50   Input ~ 6
 ENC2VDD5V
-Text GLabel 22825 12775 0    50   Input ~ 0
+Text GLabel 22825 12775 0    50   Input ~ 6
 ENC2VDD5V
-Text GLabel 22825 13400 0    50   Input ~ 0
+Text GLabel 22825 13400 0    50   Input ~ 6
 ENC2VDD5V
-Text GLabel 22700 13625 0    50   Input ~ 0
+Text GLabel 22700 13625 0    50   Input ~ 6
 ENC2VDD5V
-Text GLabel 22825 14050 0    50   Input ~ 0
+Text GLabel 22825 14050 0    50   Input ~ 6
 ENC2VDD5V
-Text GLabel 22700 14250 0    50   Input ~ 0
+Text GLabel 22700 14250 0    50   Input ~ 6
 ENC2VDD5V
-Text GLabel 22825 14675 0    50   Input ~ 0
+Text GLabel 22825 14675 0    50   Input ~ 6
 ENC2VDD5V
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C81
@@ -6269,7 +6268,7 @@ F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    1375 17525
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1625 17425 2    50   Input ~ 0
+Text GLabel 1625 17425 2    50   Input ~ 6
 AIN_VDD_5V
 Wire Wire Line
 	1625 17525 1825 17525
@@ -6293,7 +6292,7 @@ Wire Wire Line
 	2175 17525 2400 17525
 Wire Wire Line
 	3150 17200 3150 17625
-Text GLabel 2650 17300 2    50   Input ~ 0
+Text GLabel 2650 17300 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR0175
@@ -6336,15 +6335,15 @@ F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    2050 22075
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 21925 0    50   Input ~ 0
+Text GLabel 1700 21925 0    50   Input ~ 6
 AINPWEN
-Text GLabel 1700 22025 0    50   Input ~ 0
+Text GLabel 1700 22025 0    50   Input ~ 6
 AIN_OC
-Text GLabel 2975 22000 1    50   Input ~ 0
+Text GLabel 2975 22000 1    50   Input ~ 6
 VDD_5V
-Text GLabel 2400 22125 2    50   Input ~ 0
+Text GLabel 2400 22125 2    50   Input ~ 6
 GND
-Text GLabel 2400 21925 2    50   Input ~ 0
+Text GLabel 2400 21925 2    50   Input ~ 6
 AIN_VDD_5V
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C7
@@ -6439,9 +6438,9 @@ F 3 "" H 2050 21550 50  0001 C CNN
 	1    2050 21550
 	0    1    1    0   
 $EndComp
-Text GLabel 1950 21550 0    50   Input ~ 0
+Text GLabel 1950 21550 0    50   Input ~ 6
 VDD_5V
-Text GLabel 2150 21550 2    50   Input ~ 0
+Text GLabel 2150 21550 2    50   Input ~ 6
 AIN_VDD_5V
 Wire Wire Line
 	2600 17325 2600 17300
@@ -6480,7 +6479,7 @@ F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    1375 18525
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1625 18425 2    50   Input ~ 0
+Text GLabel 1625 18425 2    50   Input ~ 6
 AIN_VDD_5V
 Wire Wire Line
 	1625 18525 1825 18525
@@ -6504,7 +6503,7 @@ Wire Wire Line
 	2175 18525 2400 18525
 Wire Wire Line
 	3150 18200 3150 18625
-Text GLabel 2650 18300 2    50   Input ~ 0
+Text GLabel 2650 18300 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR0179
@@ -6613,7 +6612,7 @@ F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    1375 19525
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1625 19425 2    50   Input ~ 0
+Text GLabel 1625 19425 2    50   Input ~ 6
 AIN_VDD_5V
 Wire Wire Line
 	1625 19525 1825 19525
@@ -6637,7 +6636,7 @@ Wire Wire Line
 	2175 19525 2400 19525
 Wire Wire Line
 	3150 19200 3150 19625
-Text GLabel 2650 19300 2    50   Input ~ 0
+Text GLabel 2650 19300 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR0182
@@ -6746,7 +6745,7 @@ F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    1375 20525
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1625 20425 2    50   Input ~ 0
+Text GLabel 1625 20425 2    50   Input ~ 6
 AIN_VDD_5V
 Wire Wire Line
 	1625 20525 1825 20525
@@ -6770,7 +6769,7 @@ Wire Wire Line
 	2175 20525 2400 20525
 Wire Wire Line
 	3150 20200 3150 20625
-Text GLabel 2650 20300 2    50   Input ~ 0
+Text GLabel 2650 20300 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR0185
@@ -6865,7 +6864,7 @@ Wire Wire Line
 	3150 19625 3225 19625
 Wire Wire Line
 	3150 20625 3225 20625
-Text Notes 1250 21325 0    50   ~ 0
+Text Notes 1250 21325 0    50   ~ 6
 Voltage follower inputs\n- Allow connecting any impedance potentiometer without distortion\n- Allow connecting 5V actively driven signal
 $Comp
 L SwEmb:RES_10K_1%_0402 R6
@@ -6943,11 +6942,11 @@ F 9 "0.087  EUR" H 1925 20525 50  0001 C CNN "Price"
 $EndComp
 Wire Wire Line
 	2025 20525 2175 20525
-Text Notes 1850 17800 0    50   ~ 0
+Text Notes 1850 17800 0    50   ~ 6
 Input current\nlimit
-Text Notes 18900 6250 0    50   ~ 0
+Text Notes 18900 6250 0    50   ~ 6
 @20A: 0.06V\n@70A: 0.21V
-Text Notes 20275 6725 0    50   ~ 0
+Text Notes 20275 6725 0    50   ~ 6
 50A MAX
 Wire Wire Line
 	15825 10000 16525 10000
@@ -7047,7 +7046,7 @@ F 9 "Mouser" H -2775 -4050 50  0001 C CNN "Vendor"
 	1    1375 13475
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1625 13325 2    50   Input ~ 0
+Text GLabel 1625 13325 2    50   Input ~ 6
 AIN_VDD_5V
 Wire Wire Line
 	1625 13525 1825 13525
@@ -7071,7 +7070,7 @@ Wire Wire Line
 	2175 13525 2400 13525
 Wire Wire Line
 	3150 13200 3150 13625
-Text GLabel 2650 13300 2    50   Input ~ 0
+Text GLabel 2650 13300 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR0188
@@ -7171,7 +7170,7 @@ Wire Wire Line
 	2175 14525 2400 14525
 Wire Wire Line
 	3150 14200 3150 14625
-Text GLabel 2650 14300 2    50   Input ~ 0
+Text GLabel 2650 14300 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR0191
@@ -7267,7 +7266,7 @@ F 9 "Mouser" H -2775 -4050 50  0001 C CNN "Vendor"
 	1    1375 15475
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1625 15325 2    50   Input ~ 0
+Text GLabel 1625 15325 2    50   Input ~ 6
 AIN_VDD_5V
 Wire Wire Line
 	1625 15525 1825 15525
@@ -7291,7 +7290,7 @@ Wire Wire Line
 	2175 15525 2400 15525
 Wire Wire Line
 	3150 15200 3150 15625
-Text GLabel 2650 15300 2    50   Input ~ 0
+Text GLabel 2650 15300 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR0194
@@ -7391,7 +7390,7 @@ Wire Wire Line
 	2175 16525 2400 16525
 Wire Wire Line
 	3150 16200 3150 16625
-Text GLabel 2650 16300 2    50   Input ~ 0
+Text GLabel 2650 16300 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR0197
@@ -7618,13 +7617,13 @@ F 9 "Mouser" H -1500 -4125 50  0001 C CNN "Vendor"
 	1    6625 13975
 	1    0    0    -1  
 $EndComp
-Text GLabel 7075 14025 2    50   Input ~ 0
+Text GLabel 7075 14025 2    50   Input ~ 6
 AP_RESET1
-Text GLabel 6175 13925 0    50   Input ~ 0
+Text GLabel 6175 13925 0    50   Input ~ 6
 AP_SCL1
-Text GLabel 6175 14025 0    50   Input ~ 0
+Text GLabel 6175 14025 0    50   Input ~ 6
 AP_SDA1
-Text GLabel 6175 14125 0    50   Input ~ 0
+Text GLabel 6175 14125 0    50   Input ~ 6
 GND
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C17
@@ -7655,11 +7654,11 @@ F 4 "#" H 6825 14650 50  0001 C CNN "MPN"
 	1    6825 14650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6175 13825 0    50   Input ~ 0
+Text GLabel 6175 13825 0    50   Input ~ 6
 GND
-Text GLabel 7075 13925 2    50   Input ~ 0
+Text GLabel 7075 13925 2    50   Input ~ 6
 GND
-Text GLabel 4875 19275 0    50   Input ~ 0
+Text GLabel 4875 19275 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C11
@@ -7690,7 +7689,7 @@ F 4 "#" H 5075 19275 50  0001 C CNN "MPN"
 	1    5075 19275
 	1    0    0    -1  
 $EndComp
-Text GLabel 4875 19625 0    50   Input ~ 0
+Text GLabel 4875 19625 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C12
@@ -7721,7 +7720,7 @@ F 4 "#" H 5075 19625 50  0001 C CNN "MPN"
 	1    5075 19625
 	1    0    0    -1  
 $EndComp
-Text Notes 5775 12675 0    118  ~ 0
+Text Notes 5775 12675 0    118  ~ 6
 Analog OUT 5V
 $Comp
 L SwEmb:IC_TJA1044GT3 U8
@@ -7781,9 +7780,9 @@ F 4 "#" H 6075 17125 50  0001 C CNN "MPN"
 	1    6075 17125
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 15450 2    50   Input ~ 0
+Text GLabel 6700 15450 2    50   Input ~ 6
 VDD_5V
-Text GLabel 6450 15450 0    50   Input ~ 0
+Text GLabel 6450 15450 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	6450 15450 6475 15450
@@ -7793,9 +7792,9 @@ Wire Wire Line
 	6675 15475 6675 15450
 Wire Wire Line
 	6675 15450 6700 15450
-Text GLabel 6450 16500 0    50   Input ~ 0
+Text GLabel 6450 16500 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 6700 16500 2    50   Input ~ 0
+Text GLabel 6700 16500 2    50   Input ~ 6
 VDD_5V
 Wire Wire Line
 	6450 16500 6475 16500
@@ -7805,13 +7804,13 @@ Wire Wire Line
 	6675 16525 6675 16500
 Wire Wire Line
 	6675 16500 6700 16500
-Text GLabel 6075 16725 0    50   Input ~ 0
+Text GLabel 6075 16725 0    50   Input ~ 6
 CAN_TX2
-Text GLabel 6075 16825 0    50   Input ~ 0
+Text GLabel 6075 16825 0    50   Input ~ 6
 CAN_RX2
-Text GLabel 6075 15675 0    50   Input ~ 0
+Text GLabel 6075 15675 0    50   Input ~ 6
 CAN_TX1
-Text GLabel 6075 15775 0    50   Input ~ 0
+Text GLabel 6075 15775 0    50   Input ~ 6
 CAN_RX1
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C22
@@ -7842,7 +7841,7 @@ F 4 "#" H 7975 16325 50  0001 C CNN "MPN"
 	1    7975 16325
 	1    0    0    -1  
 $EndComp
-Text GLabel 7950 16125 0    50   Input ~ 0
+Text GLabel 7950 16125 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C25
@@ -7898,7 +7897,7 @@ F 4 "#" H 7975 16700 50  0001 C CNN "MPN"
 	1    7975 16700
 	1    0    0    -1  
 $EndComp
-Text GLabel 7950 16500 0    50   Input ~ 0
+Text GLabel 7950 16500 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C26
@@ -8069,7 +8068,7 @@ F 4 "#" H 7500 15975 50  0001 C CNN "MPN"
 	1    7500 15975
 	1    0    0    -1  
 $EndComp
-Text Notes 5750 15300 0    118  ~ 0
+Text Notes 5750 15300 0    118  ~ 6
 CAN 2.0B
 Wire Notes Line
 	5725 15225 5625 15225
@@ -8145,7 +8144,7 @@ F 4 "#" H 7375 18625 50  0001 C CNN "MPN"
 	1    7375 18625
 	1    0    0    -1  
 $EndComp
-Text GLabel 6725 17725 0    50   Input ~ 0
+Text GLabel 6725 17725 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	6725 17725 6775 17725
@@ -8223,9 +8222,9 @@ F 4 "#" H 8975 18275 50  0001 C CNN "MPN"
 	1    8975 18275
 	1    0    0    -1  
 $EndComp
-Text GLabel 7925 17725 0    50   Input ~ 0
+Text GLabel 7925 17725 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 8175 17725 2    50   Input ~ 0
+Text GLabel 8175 17725 2    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C27
@@ -8261,7 +8260,7 @@ F 9 "Mouser" H 8000 18725 50  0001 C CNN "Vendor"
 	1    8000 18725
 	-1   0    0    1   
 $EndComp
-Text GLabel 7925 18625 0    50   Input ~ 0
+Text GLabel 7925 18625 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	7925 18625 8000 18625
@@ -8309,7 +8308,7 @@ F 9 "Mouser" H 8850 18850 50  0001 C CNN "Vendor"
 	1    8850 18850
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8750 18850 0    50   Input ~ 0
+Text GLabel 8750 18850 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR0225
@@ -8323,17 +8322,17 @@ F 4 "#" H 8950 18850 50  0001 C CNN "MPN"
 	1    8950 18850
 	1    0    0    -1  
 $EndComp
-Text GLabel 6175 17975 0    50   Input ~ 0
+Text GLabel 6175 17975 0    50   Input ~ 6
 CANFD_MOSI
-Text GLabel 6175 18075 0    50   Input ~ 0
+Text GLabel 6175 18075 0    50   Input ~ 6
 CANFD_MISO
-Text GLabel 6175 18175 0    50   Input ~ 0
+Text GLabel 6175 18175 0    50   Input ~ 6
 CANFD_CS
-Text GLabel 6175 18275 0    50   Input ~ 0
+Text GLabel 6175 18275 0    50   Input ~ 6
 CANFD_SCK
-Text GLabel 6175 18425 0    50   Input ~ 0
+Text GLabel 6175 18425 0    50   Input ~ 6
 CANFD_SOF
-Text GLabel 6175 18525 0    50   Input ~ 0
+Text GLabel 6175 18525 0    50   Input ~ 6
 CANFD_INT
 $Comp
 L SwEmb:XTAL_20MHz_3225 Y2
@@ -8416,7 +8415,7 @@ F 9 "0.07  EUR" H 7225 18975 50  0001 C CNN "Price"
 	1    7225 18975
 	0    -1   -1   0   
 $EndComp
-Text Notes 5875 17625 0    118  ~ 0
+Text Notes 5875 17625 0    118  ~ 6
 CANFD/2.0B
 Wire Notes Line
 	5850 17550 5625 17550
@@ -8500,17 +8499,17 @@ F 9 "Mouser" H 11000 12800 50  0001 C CNN "Vendor"
 	1    11000 12800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 11325 12800 2    50   Input ~ 0
+Text GLabel 11325 12800 2    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	11325 12800 11300 12800
-Text GLabel 11700 13000 2    50   Input ~ 0
+Text GLabel 11700 13000 2    50   Input ~ 6
 EE_SDA
-Text GLabel 11700 13100 2    50   Input ~ 0
+Text GLabel 11700 13100 2    50   Input ~ 6
 EE_SCL
-Text GLabel 11700 13200 2    50   Input ~ 0
+Text GLabel 11700 13200 2    50   Input ~ 6
 EE_WEN
-Text Notes 10825 12700 0    118  ~ 0
+Text Notes 10825 12700 0    118  ~ 6
 EEPROM
 Wire Notes Line
 	10825 12625 10775 12625
@@ -8608,29 +8607,29 @@ F 4 "#" H 3300 10325 50  0001 C CNN "MPN"
 	1    3300 10325
 	1    0    0    -1  
 $EndComp
-Text GLabel 3025 10150 0    50   Input ~ 0
+Text GLabel 3025 10150 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 1425 10200 2    50   Input ~ 0
+Text GLabel 1425 10200 2    50   Input ~ 6
 LED_OUT1
-Text GLabel 3000 10525 2    50   Input ~ 0
+Text GLabel 3000 10525 2    50   Input ~ 6
 SW1
-Text GLabel 3000 10625 2    50   Input ~ 0
+Text GLabel 3000 10625 2    50   Input ~ 6
 SW2
-Text GLabel 3000 10725 2    50   Input ~ 0
+Text GLabel 3000 10725 2    50   Input ~ 6
 SW3
-Text GLabel 3000 10825 2    50   Input ~ 0
+Text GLabel 3000 10825 2    50   Input ~ 6
 SW4
-Text GLabel 3000 10925 2    50   Input ~ 0
+Text GLabel 3000 10925 2    50   Input ~ 6
 SW5
-Text GLabel 3000 11025 2    50   Input ~ 0
+Text GLabel 3000 11025 2    50   Input ~ 6
 SW6
-Text GLabel 3000 11125 2    50   Input ~ 0
+Text GLabel 3000 11125 2    50   Input ~ 6
 SW7
-Text GLabel 3000 11225 2    50   Input ~ 0
+Text GLabel 3000 11225 2    50   Input ~ 6
 SW8
-Text GLabel 3000 11325 2    50   Input ~ 0
+Text GLabel 3000 11325 2    50   Input ~ 6
 SWIRQ
-Text Notes 1050 10100 0    118  ~ 0
+Text Notes 1050 10100 0    118  ~ 6
 Switch/Button IN
 Wire Notes Line
 	1050 10025 925  10025
@@ -9549,7 +9548,7 @@ Wire Wire Line
 Connection ~ 17600 16025
 Wire Wire Line
 	17600 16025 17700 16025
-Text GLabel 16275 15825 0    50   Input ~ 0
+Text GLabel 16275 15825 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C114
@@ -9814,7 +9813,7 @@ F 4 "#" H 14450 16675 50  0001 C CNN "MPN"
 	1    14450 16675
 	1    0    0    -1  
 $EndComp
-Text GLabel 14450 16975 0    50   Input ~ 0
+Text GLabel 14450 16975 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:RES_12.1K_1%_0402 R77
@@ -9851,17 +9850,17 @@ F 4 "#" H 13900 16925 50  0001 C CNN "MPN"
 	1    13900 16925
 	1    0    0    -1  
 $EndComp
-Text GLabel 14450 17075 0    50   Input ~ 0
+Text GLabel 14450 17075 0    50   Input ~ 6
 ECAT_RESET
-Text GLabel 14450 17175 0    50   Input ~ 0
+Text GLabel 14450 17175 0    50   Input ~ 6
 ECAT_IRQ
-Text GLabel 14450 17275 0    50   Input ~ 0
+Text GLabel 14450 17275 0    50   Input ~ 6
 ECAT_MOSI
-Text GLabel 14450 17375 0    50   Input ~ 0
+Text GLabel 14450 17375 0    50   Input ~ 6
 ECAT_MISO
-Text GLabel 14450 17775 0    50   Input ~ 0
+Text GLabel 14450 17775 0    50   Input ~ 6
 ECAT_CS
-Text GLabel 14450 18175 0    50   Input ~ 0
+Text GLabel 14450 18175 0    50   Input ~ 6
 ECAT_SCK
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C119
@@ -9917,7 +9916,7 @@ F 9 "Mouser" H -6500 1700 50  0001 C CNN "Vendor"
 	-1   0    0    1   
 $EndComp
 Connection ~ 19525 16150
-Text GLabel 19525 15875 1    50   Input ~ 0
+Text GLabel 19525 15875 1    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	19525 16125 19525 16150
@@ -9940,7 +9939,7 @@ F 9 "Mouser" H -6500 1700 50  0001 C CNN "Vendor"
 	1    20450 18825
 	-1   0    0    1   
 $EndComp
-Text GLabel 20425 19000 0    50   Input ~ 0
+Text GLabel 20425 19000 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C117
@@ -10181,7 +10180,7 @@ $EndComp
 Connection ~ 21950 19825
 Wire Wire Line
 	21375 19225 21950 19225
-Text GLabel 21650 19075 0    50   Input ~ 0
+Text GLabel 21650 19075 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	22350 19625 22400 19625
@@ -10266,7 +10265,7 @@ Wire Wire Line
 	22725 19325 22825 19325
 Wire Wire Line
 	22825 19525 22725 19525
-Text GLabel 22825 19650 3    50   Input ~ 0
+Text GLabel 22825 19650 3    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	21550 19425 21500 19425
@@ -10899,7 +10898,7 @@ Wire Wire Line
 Wire Wire Line
 	6675 21400 6950 21400
 Connection ~ 6675 21400
-Text GLabel 6500 21125 2    50   Input ~ 0
+Text GLabel 6500 21125 2    50   Input ~ 6
 VMOT_IN
 Wire Wire Line
 	6500 21125 6350 21125
@@ -11214,7 +11213,7 @@ F 4 "#" H 11675 22150 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Connection ~ 12000 21400
-Text GLabel 12450 21125 0    50   Input ~ 0
+Text GLabel 12450 21125 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:IC_TLV75533 U22
@@ -11384,7 +11383,7 @@ F 4 "#" H 14300 22150 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	14300 21800 14300 22150
-Text GLabel 15000 21475 3    50   Input ~ 0
+Text GLabel 15000 21475 3    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	12725 21400 12850 21400
@@ -11467,9 +11466,9 @@ Wire Wire Line
 	7675 1650 7675 1750
 Wire Wire Line
 	7575 1650 7675 1650
-Text GLabel 17225 21400 2    50   Input ~ 0
+Text GLabel 17225 21400 2    50   Input ~ 6
 VDD_3V3_MCU
-Text GLabel 12450 20925 0    50   Input ~ 0
+Text GLabel 12450 20925 0    50   Input ~ 6
 VDD_5V_DBG_IN
 $Comp
 L SwEmb:D_SZ1SMB5913BT3G D16
@@ -11504,155 +11503,155 @@ F 4 "#" H 14625 22150 50  0001 C CNN "MPN"
 	1    14625 22150
 	1    0    0    -1  
 $EndComp
-Text Notes 5975 20875 0    118  ~ 0
+Text Notes 5975 20875 0    118  ~ 6
 Power
 Wire Notes Line
 	5625 22450 5625 20800
 Wire Notes Line
 	5625 20800 5925 20800
-Text GLabel 11575 4950 2    50   Input ~ 0
+Text GLabel 11575 4950 2    50   Input ~ 6
 ENCPWEN1
-Text GLabel 11575 5050 2    50   Input ~ 0
+Text GLabel 11575 5050 2    50   Input ~ 6
 ENCPWEN2
-Text GLabel 7425 10750 0    50   Input ~ 0
+Text GLabel 7425 10750 0    50   Input ~ 6
 ENCOC1
-Text GLabel 7425 10850 0    50   Input ~ 0
+Text GLabel 7425 10850 0    50   Input ~ 6
 ENCOC2
-Text GLabel 11575 3750 2    50   Input ~ 0
+Text GLabel 11575 3750 2    50   Input ~ 6
 ENCA1
-Text GLabel 11575 4250 2    50   Input ~ 0
+Text GLabel 11575 4250 2    50   Input ~ 6
 ENCB1
-Text GLabel 2375 3950 0    50   Input ~ 0
+Text GLabel 2375 3950 0    50   Input ~ 6
 ENCZ1
-Text GLabel 11575 7850 2    50   Input ~ 0
+Text GLabel 11575 7850 2    50   Input ~ 6
 ENCSH1
-Text GLabel 12450 6200 1    50   Input ~ 0
+Text GLabel 12450 6200 1    50   Input ~ 6
 ENCMISO1
-Text GLabel 11575 7750 2    50   Input ~ 0
+Text GLabel 11575 7750 2    50   Input ~ 6
 ENCCS1
-Text GLabel 12050 6200 1    50   Input ~ 0
+Text GLabel 12050 6200 1    50   Input ~ 6
 ENCSCK1
-Text GLabel 12850 6200 1    50   Input ~ 0
+Text GLabel 12850 6200 1    50   Input ~ 6
 ENCMOSI1
-Text GLabel 2375 6750 0    50   Input ~ 0
+Text GLabel 2375 6750 0    50   Input ~ 6
 EN_GATE1
-Text GLabel 2375 8150 0    50   Input ~ 0
+Text GLabel 2375 8150 0    50   Input ~ 6
 INLA1
-Text GLabel 2375 8450 0    50   Input ~ 0
+Text GLabel 2375 8450 0    50   Input ~ 6
 INHB1
-Text GLabel 2375 8350 0    50   Input ~ 0
+Text GLabel 2375 8350 0    50   Input ~ 6
 INLB1
-Text GLabel 2375 8650 0    50   Input ~ 0
+Text GLabel 2375 8650 0    50   Input ~ 6
 INHC1
-Text GLabel 2375 8550 0    50   Input ~ 0
+Text GLabel 2375 8550 0    50   Input ~ 6
 INLC1
-Text GLabel 11575 2650 2    50   Input ~ 0
+Text GLabel 11575 2650 2    50   Input ~ 6
 SOA1
-Text GLabel 11575 2550 2    50   Input ~ 0
+Text GLabel 11575 2550 2    50   Input ~ 6
 SOB1
-Text GLabel 11575 5650 2    50   Input ~ 0
+Text GLabel 11575 5650 2    50   Input ~ 6
 VSA1
-Text GLabel 11575 5750 2    50   Input ~ 0
+Text GLabel 11575 5750 2    50   Input ~ 6
 VSB1
-Text GLabel 11575 5850 2    50   Input ~ 0
+Text GLabel 11575 5850 2    50   Input ~ 6
 VSC1
-Text GLabel 11575 8550 2    50   Input ~ 0
+Text GLabel 11575 8550 2    50   Input ~ 6
 ENCA2
-Text GLabel 11575 8650 2    50   Input ~ 0
+Text GLabel 11575 8650 2    50   Input ~ 6
 ENCB2
-Text GLabel 11575 8750 2    50   Input ~ 0
+Text GLabel 11575 8750 2    50   Input ~ 6
 ENCZ2
-Text GLabel 11575 8450 2    50   Input ~ 0
+Text GLabel 11575 8450 2    50   Input ~ 6
 ENCSH2
-Text GLabel 12550 6200 1    50   Input ~ 0
+Text GLabel 12550 6200 1    50   Input ~ 6
 ENCMISO2
-Text GLabel 12150 6200 1    50   Input ~ 0
+Text GLabel 12150 6200 1    50   Input ~ 6
 ENCSCK2
-Text GLabel 12950 6200 1    50   Input ~ 0
+Text GLabel 12950 6200 1    50   Input ~ 6
 ENCMOSI2
-Text GLabel 11575 8250 2    50   Input ~ 0
+Text GLabel 11575 8250 2    50   Input ~ 6
 EN_GATE2
-Text GLabel 11575 6250 2    50   Input ~ 0
+Text GLabel 11575 6250 2    50   Input ~ 6
 INHA2
-Text GLabel 11575 2950 2    50   Input ~ 0
+Text GLabel 11575 2950 2    50   Input ~ 6
 INLA2
-Text GLabel 11575 6350 2    50   Input ~ 0
+Text GLabel 11575 6350 2    50   Input ~ 6
 INHB2
-Text GLabel 11575 5350 2    50   Input ~ 0
+Text GLabel 11575 5350 2    50   Input ~ 6
 INLB2
-Text GLabel 11575 6450 2    50   Input ~ 0
+Text GLabel 11575 6450 2    50   Input ~ 6
 INHC2
-Text GLabel 11575 5450 2    50   Input ~ 0
+Text GLabel 11575 5450 2    50   Input ~ 6
 INLC2
-Text GLabel 11575 6050 2    50   Input ~ 0
+Text GLabel 11575 6050 2    50   Input ~ 6
 SOA2
-Text GLabel 11575 2750 2    50   Input ~ 0
+Text GLabel 11575 2750 2    50   Input ~ 6
 SOB2
-Text GLabel 11575 5950 2    50   Input ~ 0
+Text GLabel 11575 5950 2    50   Input ~ 6
 VSA2
-Text GLabel 11575 6150 2    50   Input ~ 0
+Text GLabel 11575 6150 2    50   Input ~ 6
 VSB2
-Text GLabel 11575 4050 2    50   Input ~ 0
+Text GLabel 11575 4050 2    50   Input ~ 6
 VSC2
-Text GLabel 11575 2250 2    50   Input ~ 0
+Text GLabel 11575 2250 2    50   Input ~ 6
 HALL_A1
-Text GLabel 11575 2350 2    50   Input ~ 0
+Text GLabel 11575 2350 2    50   Input ~ 6
 HALL_B1
-Text GLabel 11575 4350 2    50   Input ~ 0
+Text GLabel 11575 4350 2    50   Input ~ 6
 HALL_A2
-Text GLabel 11575 4450 2    50   Input ~ 0
+Text GLabel 11575 4450 2    50   Input ~ 6
 HALL_B2
-Text GLabel 11575 3950 2    50   Input ~ 0
+Text GLabel 11575 3950 2    50   Input ~ 6
 HALL_C2
-Text GLabel 2375 5850 0    50   Input ~ 0
+Text GLabel 2375 5850 0    50   Input ~ 6
 AINPWEN
-Text GLabel 7425 10650 0    50   Input ~ 0
+Text GLabel 7425 10650 0    50   Input ~ 6
 AIN_OC
-Text GLabel 12625 4675 1    50   Input ~ 0
+Text GLabel 12625 4675 1    50   Input ~ 6
 AP_SCL1
-Text GLabel 12125 4625 1    50   Input ~ 0
+Text GLabel 12125 4625 1    50   Input ~ 6
 AP_SDA1
-Text GLabel 11575 4850 2    50   Input ~ 0
+Text GLabel 11575 4850 2    50   Input ~ 6
 AP_RESET1
-Text GLabel 11575 5250 2    50   Input ~ 0
+Text GLabel 11575 5250 2    50   Input ~ 6
 CAN_TX2
-Text GLabel 11575 5150 2    50   Input ~ 0
+Text GLabel 11575 5150 2    50   Input ~ 6
 CAN_RX2
-Text GLabel 11575 7450 2    50   Input ~ 0
+Text GLabel 11575 7450 2    50   Input ~ 6
 CAN_TX1
-Text GLabel 11575 7350 2    50   Input ~ 0
+Text GLabel 11575 7350 2    50   Input ~ 6
 CAN_RX1
-Text GLabel 1250 5250 1    50   Input ~ 0
+Text GLabel 1250 5250 1    50   Input ~ 6
 CANFD_MOSI
-Text GLabel 1750 4850 1    50   Input ~ 0
+Text GLabel 1750 4850 1    50   Input ~ 6
 CANFD_MISO
-Text GLabel 2375 4950 0    50   Input ~ 0
+Text GLabel 2375 4950 0    50   Input ~ 6
 CANFD_CS
-Text GLabel 1550 5150 1    50   Input ~ 0
+Text GLabel 1550 5150 1    50   Input ~ 6
 CANFD_SCK
-Text GLabel 2375 4750 0    50   Input ~ 0
+Text GLabel 2375 4750 0    50   Input ~ 6
 CANFD_SOF
-Text GLabel 2375 4850 0    50   Input ~ 0
+Text GLabel 2375 4850 0    50   Input ~ 6
 CANFD_INT
-Text GLabel 12325 4625 1    50   Input ~ 0
+Text GLabel 12325 4625 1    50   Input ~ 6
 EE_SDA
-Text GLabel 12825 4675 1    50   Input ~ 0
+Text GLabel 12825 4675 1    50   Input ~ 6
 EE_SCL
-Text GLabel 11575 4550 2    50   Input ~ 0
+Text GLabel 11575 4550 2    50   Input ~ 6
 ECAT_RESET
-Text GLabel 2375 4650 0    50   Input ~ 0
+Text GLabel 2375 4650 0    50   Input ~ 6
 ECAT_IRQ
-Text GLabel 1350 5250 1    50   Input ~ 0
+Text GLabel 1350 5250 1    50   Input ~ 6
 ECAT_MOSI
-Text GLabel 1650 4850 1    50   Input ~ 0
+Text GLabel 1650 4850 1    50   Input ~ 6
 ECAT_MISO
-Text GLabel 2375 5050 0    50   Input ~ 0
+Text GLabel 2375 5050 0    50   Input ~ 6
 ECAT_CS
-Text GLabel 1450 5150 1    50   Input ~ 0
+Text GLabel 1450 5150 1    50   Input ~ 6
 ECAT_SCK
-Text Notes 14450 11275 0    118  ~ 0
+Text Notes 14450 11275 0    118  ~ 6
 Motor Sensors 1
-Text Notes 19850 11275 0    118  ~ 0
+Text Notes 19850 11275 0    118  ~ 6
 Motor Sensors 2
 Wire Notes Line
 	17950 11200 17950 15075
@@ -11668,15 +11667,15 @@ Wire Notes Line
 	23350 11200 21375 11200
 Wire Notes Line
 	17950 11200 15925 11200
-Text GLabel 2375 8250 0    50   Input ~ 0
+Text GLabel 2375 8250 0    50   Input ~ 6
 INHA1
-Text GLabel 2375 5950 0    50   Input ~ 0
+Text GLabel 2375 5950 0    50   Input ~ 6
 VMOT_SENSE
-Text Notes 24150 5275 0    79   ~ 0
+Text Notes 24150 5275 0    79   ~ 6
 TIM1: motor 1\nTIM2: motor 1 enc\nTIM3: motor 1 hall\nTIM4: motor 2 enc\nTIM5: motor 2 hall\nTIM8: motor 2\nTIM10: pwm1\nTIM11: pwm2
-Text Notes 25825 6275 0    79   ~ 0
+Text Notes 25825 6275 0    79   ~ 6
 ADC1_CH0: x\nADC1_CH1: x\nADC1_CH2: x\nADC1_CH3: cura_mot1\nADC1_CH4: curb_mot1\nADC1_CH5: vsc_mot2\nADC1_CH6: x\nADC1_CH7: x\nADC1_CH8: x\nADC1_CH9: (curb_mot2)\nADC1_CH10: vsa_mot1\nADC1_CH11: vsb_mot1\nADC1_CH12: vsc_mot1\nADC1_CH13: vsa_mot2\nADC1_CH14: (cura_mot2)\nADC1_CH15: vsb_mot2
-Text Notes 27475 6275 0    79   ~ 0
+Text Notes 27475 6275 0    79   ~ 6
 ADC2_CH0: x\nADC2_CH1: x\nADC2_CH2: x\nADC2_CH3: (cura_mot1)\nADC2_CH4: (curb_mot1)\nADC2_CH5: (vsc_mot2)\nADC2_CH6: x\nADC2_CH7: x\nADC2_CH8: x\nADC2_CH9: curb_mot2\nADC2_CH10: (vsa_mot1)\nADC2_CH11: (vsb_mot1)\nADC2_CH12: (vsc_mot1)\nADC2_CH13: (vsa_mot2)\nADC2_CH14: cura_mot2\nADC2_CH15: (vsb_mot2)
 $Comp
 L SwEmb:IC_SN74LV4051 U6
@@ -11695,13 +11694,13 @@ F 9 "Mouser" H 0   0   50  0001 C CNN "Vendor"
 	1    4825 17725
 	1    0    0    -1  
 $EndComp
-Text Notes 1225 12675 0    118  ~ 0
+Text Notes 1225 12675 0    118  ~ 6
 Analog IN 5V
-Text GLabel 4425 18125 0    50   Input ~ 0
+Text GLabel 4425 18125 0    50   Input ~ 6
 POTADDRA
-Text GLabel 4425 18225 0    50   Input ~ 0
+Text GLabel 4425 18225 0    50   Input ~ 6
 POTADDRB
-Text GLabel 4425 18325 0    50   Input ~ 0
+Text GLabel 4425 18325 0    50   Input ~ 6
 POTADDRC
 Wire Wire Line
 	3950 20625 3950 17825
@@ -11771,11 +11770,11 @@ F 4 "#" H 4925 18525 50  0001 C CNN "MPN"
 	1    4925 18525
 	1    0    0    -1  
 $EndComp
-Text GLabel 5275 17000 1    50   Input ~ 0
+Text GLabel 5275 17000 1    50   Input ~ 6
 POT_MUX
-Text GLabel 2375 6050 0    50   Input ~ 0
+Text GLabel 2375 6050 0    50   Input ~ 6
 POT_MUX
-Text GLabel 4875 18925 0    50   Input ~ 0
+Text GLabel 4875 18925 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C10
@@ -12215,7 +12214,7 @@ F 9 "Mouser" H -16750 11625 50  0001 C CNN "Vendor"
 	1    1750 14000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1500 14000 0    50   Input ~ 0
+Text GLabel 1500 14000 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR02
@@ -12251,7 +12250,7 @@ F 9 "Mouser" H -16750 10625 50  0001 C CNN "Vendor"
 	1    1750 13000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1500 13000 0    50   Input ~ 0
+Text GLabel 1500 13000 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR01
@@ -12287,7 +12286,7 @@ F 9 "Mouser" H -16750 12625 50  0001 C CNN "Vendor"
 	1    1750 15000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1500 15000 0    50   Input ~ 0
+Text GLabel 1500 15000 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR03
@@ -12323,7 +12322,7 @@ F 9 "Mouser" H -16750 13625 50  0001 C CNN "Vendor"
 	1    1750 16000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1500 16000 0    50   Input ~ 0
+Text GLabel 1500 16000 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR04
@@ -12359,7 +12358,7 @@ F 9 "Mouser" H -16750 14625 50  0001 C CNN "Vendor"
 	1    1750 17000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1500 17000 0    50   Input ~ 0
+Text GLabel 1500 17000 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR05
@@ -12395,7 +12394,7 @@ F 9 "Mouser" H -16750 15625 50  0001 C CNN "Vendor"
 	1    1750 18000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1500 18000 0    50   Input ~ 0
+Text GLabel 1500 18000 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR06
@@ -12431,7 +12430,7 @@ F 9 "Mouser" H -16750 16625 50  0001 C CNN "Vendor"
 	1    1750 19000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1500 19000 0    50   Input ~ 0
+Text GLabel 1500 19000 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR07
@@ -12467,7 +12466,7 @@ F 9 "Mouser" H -16750 17625 50  0001 C CNN "Vendor"
 	1    1750 20000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1500 20000 0    50   Input ~ 0
+Text GLabel 1500 20000 0    50   Input ~ 6
 VDD_5V
 $Comp
 L SwEmb:GNDREF #PWR08
@@ -12486,7 +12485,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 20200 2175 20200
 Connection ~ 2175 20200
-Text GLabel 4825 16925 1    50   Input ~ 0
+Text GLabel 4825 16925 1    50   Input ~ 6
 VDD_3V3
 Wire Notes Line
 	950  22425 950  12600
@@ -12518,7 +12517,7 @@ NoConn ~ 14950 13650
 NoConn ~ 20350 13025
 NoConn ~ 20350 13325
 NoConn ~ 20350 13625
-Text GLabel 11575 2850 2    50   Input ~ 0
+Text GLabel 11575 2850 2    50   Input ~ 6
 MOTOR2_BRKIN
 NoConn ~ 14950 12050
 NoConn ~ 14950 12350
@@ -12528,7 +12527,7 @@ NoConn ~ 20350 12925
 NoConn ~ 20350 12625
 NoConn ~ 20350 12325
 NoConn ~ 20350 12025
-Text GLabel 2375 8850 0    50   Input ~ 0
+Text GLabel 2375 8850 0    50   Input ~ 6
 MOTOR1_BRKIN
 Wire Wire Line
 	1750 5150 1650 5150
@@ -12565,27 +12564,27 @@ F 9 "Mouser" H 7225 -16100 50  0001 C CNN "Vendor"
 	1    15350 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 15800 1850 2    50   Input ~ 0
+Text GLabel 15800 1850 2    50   Input ~ 6
 VDD_3V3
-Text GLabel 15800 2050 2    50   Input ~ 0
+Text GLabel 15800 2050 2    50   Input ~ 6
 MOCP_RESET
-Text GLabel 15800 2150 2    50   Input ~ 0
+Text GLabel 15800 2150 2    50   Input ~ 6
 MOCP_WP
-Text GLabel 14900 1950 0    50   Input ~ 0
+Text GLabel 14900 1950 0    50   Input ~ 6
 MOCP_SCL
-Text GLabel 14900 2050 0    50   Input ~ 0
+Text GLabel 14900 2050 0    50   Input ~ 6
 MOCP_SDA
-Text GLabel 14900 2150 0    50   Input ~ 0
+Text GLabel 14900 2150 0    50   Input ~ 6
 GND
-Text GLabel 15800 1950 2    50   Input ~ 0
+Text GLabel 15800 1950 2    50   Input ~ 6
 GND
-Text GLabel 2375 7050 0    50   Input ~ 0
+Text GLabel 2375 7050 0    50   Input ~ 6
 MOC1
-Text GLabel 2375 6950 0    50   Input ~ 0
+Text GLabel 2375 6950 0    50   Input ~ 6
 GAIN1
-Text GLabel 11575 8150 2    50   Input ~ 0
+Text GLabel 11575 8150 2    50   Input ~ 6
 MOC2
-Text GLabel 2375 7150 0    50   Input ~ 0
+Text GLabel 2375 7150 0    50   Input ~ 6
 GAIN2
 $Comp
 L SwEmb:RES_NOFIT_0402 R232
@@ -12598,9 +12597,9 @@ F 3 "" H 10175 18500 50  0001 C CNN
 	1    10175 18500
 	0    1    1    0   
 $EndComp
-Text GLabel 10075 18500 0    50   Input ~ 0
+Text GLabel 10075 18500 0    50   Input ~ 6
 VDD_5V
-Text GLabel 10275 18500 2    50   Input ~ 0
+Text GLabel 10275 18500 2    50   Input ~ 6
 ENC1VDD5V
 Wire Wire Line
 	1750 5150 2375 5150
@@ -12609,9 +12608,9 @@ Wire Wire Line
 	1550 5250 2375 5250
 Wire Wire Line
 	1350 5350 2375 5350
-Text Notes 17900 13650 1    39   ~ 0
+Text Notes 17900 13650 1    39   ~ 6
 Wide input range: -40V to +40V
-Text Notes 23300 13600 1    39   ~ 0
+Text Notes 23300 13600 1    39   ~ 6
 Wide input range: -40V to +40V
 $Comp
 L SwEmb:IC_TLV2474 U16
@@ -12630,21 +12629,21 @@ F 9 "Mouser" H 2625 -4525 50  0001 C CNN "Vendor"
 	1    8100 13100
 	1    0    0    -1  
 $EndComp
-Text GLabel 7075 13825 2    50   Input ~ 0
+Text GLabel 7075 13825 2    50   Input ~ 6
 VDD_3V3
-Text GLabel 6175 13525 0    50   Input ~ 0
+Text GLabel 6175 13525 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 7075 13525 2    50   Input ~ 0
+Text GLabel 7075 13525 2    50   Input ~ 6
 VDD_3V3
-Text GLabel 6175 13725 0    50   Input ~ 0
+Text GLabel 6175 13725 0    50   Input ~ 6
 GND
-Text GLabel 7075 13725 2    50   Input ~ 0
+Text GLabel 7075 13725 2    50   Input ~ 6
 GND
-Text GLabel 6175 14225 0    50   Input ~ 0
+Text GLabel 6175 14225 0    50   Input ~ 6
 GND
-Text GLabel 7075 14225 2    50   Input ~ 0
+Text GLabel 7075 14225 2    50   Input ~ 6
 GND
-Text GLabel 8050 12750 2    50   Input ~ 0
+Text GLabel 8050 12750 2    50   Input ~ 6
 VDD_5V
 Wire Wire Line
 	8050 12750 8000 12750
@@ -13131,11 +13130,11 @@ Connection ~ 10050 14525
 Wire Wire Line
 	10050 13550 10100 13550
 Connection ~ 10050 13550
-Text GLabel 6625 14650 0    50   Input ~ 0
+Text GLabel 6625 14650 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 6175 14425 0    50   Input ~ 0
+Text GLabel 6175 14425 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 7075 14425 2    50   Input ~ 0
+Text GLabel 7075 14425 2    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	7075 13625 7650 13625
@@ -13163,11 +13162,11 @@ Wire Wire Line
 	9175 14975 9175 13975
 Wire Wire Line
 	9175 13975 9350 13975
-Text GLabel 8050 13725 2    50   Input ~ 0
+Text GLabel 8050 13725 2    50   Input ~ 6
 VDD_5V
-Text GLabel 9600 13725 2    50   Input ~ 0
+Text GLabel 9600 13725 2    50   Input ~ 6
 VDD_5V
-Text GLabel 9600 12750 2    50   Input ~ 0
+Text GLabel 9600 12750 2    50   Input ~ 6
 VDD_5V
 Wire Notes Line
 	5750 12600 5625 12600
@@ -13333,27 +13332,27 @@ F 3 "" H 5475 17125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 5275 17125
-Text GLabel 14900 1850 0    50   Input ~ 0
+Text GLabel 14900 1850 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 14900 2250 0    50   Input ~ 0
+Text GLabel 14900 2250 0    50   Input ~ 6
 GND
-Text GLabel 15800 2250 2    50   Input ~ 0
+Text GLabel 15800 2250 2    50   Input ~ 6
 GND
-Text GLabel 15800 1750 2    50   Input ~ 0
+Text GLabel 15800 1750 2    50   Input ~ 6
 GND
-Text GLabel 14900 1750 0    50   Input ~ 0
+Text GLabel 14900 1750 0    50   Input ~ 6
 GND
-Text GLabel 15800 1650 2    50   Input ~ 0
+Text GLabel 15800 1650 2    50   Input ~ 6
 OC_ADJ1
-Text GLabel 15450 2725 2    50   Input ~ 0
+Text GLabel 15450 2725 2    50   Input ~ 6
 OC_ADJ1
-Text GLabel 15250 2725 0    50   Input ~ 0
+Text GLabel 15250 2725 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 15450 2925 2    50   Input ~ 0
+Text GLabel 15450 2925 2    50   Input ~ 6
 OC_ADJ2
-Text GLabel 15250 2925 0    50   Input ~ 0
+Text GLabel 15250 2925 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 14900 1650 0    50   Input ~ 0
+Text GLabel 14900 1650 0    50   Input ~ 6
 OC_ADJ2
 $Comp
 L SwEmb:RES_NOFIT_0402 R236
@@ -13379,13 +13378,13 @@ F 3 "" H 15380 2945 50  0001 C CNN
 $EndComp
 NoConn ~ 15800 2350
 NoConn ~ 15800 2450
-Text GLabel 7425 11150 0    50   Input ~ 0
+Text GLabel 7425 11150 0    50   Input ~ 6
 MOCP_RESET
-Text GLabel 7425 11250 0    50   Input ~ 0
+Text GLabel 7425 11250 0    50   Input ~ 6
 MOCP_WP
-Text GLabel 12725 4675 1    50   Input ~ 0
+Text GLabel 12725 4675 1    50   Input ~ 6
 MOCP_SCL
-Text GLabel 12225 4625 1    50   Input ~ 0
+Text GLabel 12225 4625 1    50   Input ~ 6
 MOCP_SDA
 Wire Wire Line
 	12225 4650 12225 4625
@@ -13426,7 +13425,7 @@ F 4 "#" H 10100 13650 50  0001 C CNN "MPN"
 	1    10100 13650
 	1    0    0    -1  
 $EndComp
-Text Notes 14500 1175 0    118  ~ 0
+Text Notes 14500 1175 0    118  ~ 6
 Overcurrent limit ADJ
 Wire Notes Line
 	14475 1100 14400 1100
@@ -13463,7 +13462,7 @@ F 4 "#" H 16400 2575 50  0001 C CNN "MPN"
 	1    16400 2575
 	1    0    0    -1  
 $EndComp
-Text GLabel 16200 2575 0    50   Input ~ 0
+Text GLabel 16200 2575 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C36
@@ -13494,9 +13493,9 @@ F 4 "#" H 8975 12900 50  0001 C CNN "MPN"
 	1    8975 12900
 	1    0    0    -1  
 $EndComp
-Text GLabel 8775 12900 0    50   Input ~ 0
+Text GLabel 8775 12900 0    50   Input ~ 6
 VDD_5V
-Text Notes 9825 18325 0    118  ~ 0
+Text Notes 9825 18325 0    118  ~ 6
 Encoder Interface Power SW
 Wire Notes Line
 	9800 18250 9700 18250
@@ -13568,21 +13567,21 @@ F 9 "2.39  EUR" H 17650 2525 50  0001 C CNN "Price"
 	1    17650 2525
 	1    0    0    -1  
 $EndComp
-Text GLabel 19725 4975 2    50   Input ~ 0
+Text GLabel 19725 4975 2    50   Input ~ 6
 VSA1_RAW
-Text GLabel 21225 4975 2    50   Input ~ 0
+Text GLabel 21225 4975 2    50   Input ~ 6
 VSB1_RAW
-Text GLabel 22775 4975 2    50   Input ~ 0
+Text GLabel 22775 4975 2    50   Input ~ 6
 VSC1_RAW
-Text GLabel 18500 1950 0    50   Input ~ 0
+Text GLabel 18500 1950 0    50   Input ~ 6
 VSA2_RAW
-Text GLabel 21950 1950 0    50   Input ~ 0
+Text GLabel 21950 1950 0    50   Input ~ 6
 VSC2_RAW
-Text GLabel 20225 1950 0    50   Input ~ 0
+Text GLabel 20225 1950 0    50   Input ~ 6
 VSB2_RAW
-Text GLabel 19000 2000 2    50   Input ~ 0
+Text GLabel 19000 2000 2    50   Input ~ 6
 VDD_3V3
-Text GLabel 22450 2000 2    50   Input ~ 0
+Text GLabel 22450 2000 2    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:GNDREF #PWR069
@@ -13679,9 +13678,9 @@ Wire Wire Line
 Wire Wire Line
 	21075 2350 21175 2350
 Connection ~ 21175 2350
-Text GLabel 20700 2000 2    50   Input ~ 0
+Text GLabel 20700 2000 2    50   Input ~ 6
 VDD_3V3
-Text GLabel 17600 2175 2    50   Input ~ 0
+Text GLabel 17600 2175 2    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:GNDREF #PWR077
@@ -14099,11 +14098,11 @@ Wire Wire Line
 	17475 2025 17550 2025
 Wire Wire Line
 	17550 2025 17550 2175
-Text GLabel 19600 1175 2    50   Input ~ 0
+Text GLabel 19600 1175 2    50   Input ~ 6
 VSA1
-Text GLabel 21325 1175 2    50   Input ~ 0
+Text GLabel 21325 1175 2    50   Input ~ 6
 VSB1
-Text GLabel 23000 1175 2    50   Input ~ 0
+Text GLabel 23000 1175 2    50   Input ~ 6
 VSC1
 $Comp
 L SwEmb:IC_TLV2474 U33
@@ -14173,15 +14172,15 @@ F 9 "2.39  EUR" H 17650 1350 50  0001 C CNN "Price"
 	1    17650 1350
 	1    0    0    -1  
 $EndComp
-Text GLabel 18500 775  0    50   Input ~ 0
+Text GLabel 18500 775  0    50   Input ~ 6
 VSA1_RAW
-Text GLabel 21950 775  0    50   Input ~ 0
+Text GLabel 21950 775  0    50   Input ~ 6
 VSC1_RAW
-Text GLabel 20225 775  0    50   Input ~ 0
+Text GLabel 20225 775  0    50   Input ~ 6
 VSB1_RAW
-Text GLabel 19000 825  2    50   Input ~ 0
+Text GLabel 19000 825  2    50   Input ~ 6
 VDD_3V3
-Text GLabel 22450 825  2    50   Input ~ 0
+Text GLabel 22450 825  2    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:GNDREF #PWR068
@@ -14278,9 +14277,9 @@ Wire Wire Line
 Wire Wire Line
 	21075 1175 21175 1175
 Connection ~ 21175 1175
-Text GLabel 20700 825  2    50   Input ~ 0
+Text GLabel 20700 825  2    50   Input ~ 6
 VDD_3V3
-Text GLabel 17600 1000 2    50   Input ~ 0
+Text GLabel 17600 1000 2    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:GNDREF #PWR076
@@ -14696,7 +14695,7 @@ Wire Wire Line
 	17475 850  17550 850 
 Wire Wire Line
 	17550 850  17550 1000
-Text Notes 17175 675  0    118  ~ 0
+Text Notes 17175 675  0    118  ~ 6
 Back-EMF ADC Pre-Amp w/ offset
 $Comp
 L SwEmb:CONN_UEXT P28
@@ -14763,51 +14762,51 @@ F 4 "#" H 11875 16425 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	11875 16375 11875 16425
-Text GLabel 10875 15975 0    50   Input ~ 0
+Text GLabel 10875 15975 0    50   Input ~ 6
 VDD_5V
-Text GLabel 10875 16125 0    50   Input ~ 0
+Text GLabel 10875 16125 0    50   Input ~ 6
 UEXT_PWEN
 Wire Wire Line
 	12425 16750 11425 16750
 Wire Wire Line
 	11425 16750 11425 16800
-Text GLabel 11325 16800 1    50   Input ~ 0
+Text GLabel 11325 16800 1    50   Input ~ 6
 GND
 Wire Wire Line
 	12425 15975 12425 16750
-Text GLabel 11225 16800 1    50   Input ~ 0
+Text GLabel 11225 16800 1    50   Input ~ 6
 UEXT_TX
-Text GLabel 11125 16800 1    50   Input ~ 0
+Text GLabel 11125 16800 1    50   Input ~ 6
 UEXT_RX
-Text GLabel 11025 16800 1    50   Input ~ 0
+Text GLabel 11025 16800 1    50   Input ~ 6
 UEXT_SCL
-Text GLabel 10925 16800 1    50   Input ~ 0
+Text GLabel 10925 16800 1    50   Input ~ 6
 UEXT_SDA
-Text GLabel 10825 16800 1    50   Input ~ 0
+Text GLabel 10825 16800 1    50   Input ~ 6
 UEXT_MISO
-Text GLabel 10725 16800 1    50   Input ~ 0
+Text GLabel 10725 16800 1    50   Input ~ 6
 UEXT_MOSI
-Text GLabel 10625 16800 1    50   Input ~ 0
+Text GLabel 10625 16800 1    50   Input ~ 6
 UEXT_SCK
-Text GLabel 10525 16800 1    50   Input ~ 0
+Text GLabel 10525 16800 1    50   Input ~ 6
 UEXT_CS
-Text GLabel 2375 7450 0    50   Input ~ 0
+Text GLabel 2375 7450 0    50   Input ~ 6
 UEXT_TX
-Text GLabel 2375 7350 0    50   Input ~ 0
+Text GLabel 2375 7350 0    50   Input ~ 6
 UEXT_RX
-Text GLabel 2375 5750 0    50   Input ~ 0
+Text GLabel 2375 5750 0    50   Input ~ 6
 UEXT_SCL
-Text GLabel 2375 5650 0    50   Input ~ 0
+Text GLabel 2375 5650 0    50   Input ~ 6
 UEXT_SDA
-Text GLabel 2375 7850 0    50   Input ~ 0
+Text GLabel 2375 7850 0    50   Input ~ 6
 UEXT_MISO
-Text GLabel 2375 7950 0    50   Input ~ 0
+Text GLabel 2375 7950 0    50   Input ~ 6
 UEXT_MOSI
-Text GLabel 2375 7550 0    50   Input ~ 0
+Text GLabel 2375 7550 0    50   Input ~ 6
 UEXT_SCK
-Text GLabel 2375 7750 0    50   Input ~ 0
+Text GLabel 2375 7750 0    50   Input ~ 6
 UEXT_CS
-Text GLabel 2375 7650 0    50   Input ~ 0
+Text GLabel 2375 7650 0    50   Input ~ 6
 UEXT_PWEN
 $Comp
 L SwEmb:USB_B_Micro J1
@@ -14851,9 +14850,9 @@ F 4 "#" H 11100 14900 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 11400 14700
-Text GLabel 11900 14075 2    50   Input ~ 0
+Text GLabel 11900 14075 2    50   Input ~ 6
 USB_5V
-Text GLabel 12450 21025 0    50   Input ~ 0
+Text GLabel 12450 21025 0    50   Input ~ 6
 USB_5V
 $Comp
 L SwEmb:IC_USBLC6-2 U18
@@ -14924,17 +14923,17 @@ Wire Wire Line
 	11800 14550 11675 14550
 Wire Wire Line
 	11675 14550 11675 14300
-Text GLabel 12700 14550 2    50   Input ~ 0
+Text GLabel 12700 14550 2    50   Input ~ 6
 GND
-Text GLabel 12700 14450 2    50   Input ~ 0
+Text GLabel 12700 14450 2    50   Input ~ 6
 USB_P
-Text GLabel 12700 14650 2    50   Input ~ 0
+Text GLabel 12700 14650 2    50   Input ~ 6
 USB_N
-Text GLabel 11575 3450 2    50   Input ~ 0
+Text GLabel 11575 3450 2    50   Input ~ 6
 USB_P
-Text GLabel 11575 3350 2    50   Input ~ 0
+Text GLabel 11575 3350 2    50   Input ~ 6
 USB_N
-Text GLabel 11575 8850 2    50   Input ~ 0
+Text GLabel 11575 8850 2    50   Input ~ 6
 ENCCS2
 $Comp
 L SwEmb:IC_MCP23S17 U5
@@ -14953,35 +14952,35 @@ F 9 "Mouser" H 3350 25  50  0001 C CNN "Vendor"
 	1    7975 11400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7425 11550 0    50   Input ~ 0
+Text GLabel 7425 11550 0    50   Input ~ 6
 GPIO_CS
-Text GLabel 7425 11650 0    50   Input ~ 0
+Text GLabel 7425 11650 0    50   Input ~ 6
 GPIO_SCK
-Text GLabel 7425 11750 0    50   Input ~ 0
+Text GLabel 7425 11750 0    50   Input ~ 6
 GPIO_MOSI
-Text GLabel 7425 11850 0    50   Input ~ 0
+Text GLabel 7425 11850 0    50   Input ~ 6
 GPIO_MISO
-Text GLabel 7425 11950 0    50   Input ~ 0
+Text GLabel 7425 11950 0    50   Input ~ 6
 GPIO_RESET
-Text GLabel 7425 12050 0    50   Input ~ 0
+Text GLabel 7425 12050 0    50   Input ~ 6
 GPIO_INTA
-Text GLabel 7425 12150 0    50   Input ~ 0
+Text GLabel 7425 12150 0    50   Input ~ 6
 GPIO_INTB
-Text GLabel 2375 4250 0    50   Input ~ 0
+Text GLabel 2375 4250 0    50   Input ~ 6
 GPIO_CS
-Text GLabel 13050 6200 1    50   Input ~ 0
+Text GLabel 13050 6200 1    50   Input ~ 6
 GPIO_MOSI
-Text GLabel 12650 6200 1    50   Input ~ 0
+Text GLabel 12650 6200 1    50   Input ~ 6
 GPIO_MISO
-Text GLabel 2375 4350 0    50   Input ~ 0
+Text GLabel 2375 4350 0    50   Input ~ 6
 GPIO_RESET
-Text GLabel 2375 4050 0    50   Input ~ 0
+Text GLabel 2375 4050 0    50   Input ~ 6
 GPIO_INTA
-Text GLabel 2375 4150 0    50   Input ~ 0
+Text GLabel 2375 4150 0    50   Input ~ 6
 GPIO_INTB
-Text GLabel 2375 4550 0    50   Input ~ 0
+Text GLabel 2375 4550 0    50   Input ~ 6
 SWIRQ
-Text GLabel 12250 6200 1    50   Input ~ 0
+Text GLabel 12250 6200 1    50   Input ~ 6
 GPIO_SCK
 Wire Wire Line
 	12250 6550 12250 6650
@@ -14991,7 +14990,7 @@ Connection ~ 12150 6650
 Wire Wire Line
 	12550 6750 12450 6750
 Connection ~ 12450 6750
-Text GLabel 7425 10950 0    50   Input ~ 0
+Text GLabel 7425 10950 0    50   Input ~ 6
 EE_WEN
 Wire Wire Line
 	12625 4750 12725 4750
@@ -15006,21 +15005,21 @@ Wire Wire Line
 Wire Wire Line
 	12325 4650 12225 4650
 Connection ~ 12225 4650
-Text GLabel 8525 10650 2    50   Input ~ 0
+Text GLabel 8525 10650 2    50   Input ~ 6
 SW1
-Text GLabel 8525 10750 2    50   Input ~ 0
+Text GLabel 8525 10750 2    50   Input ~ 6
 SW2
-Text GLabel 8525 10850 2    50   Input ~ 0
+Text GLabel 8525 10850 2    50   Input ~ 6
 SW3
-Text GLabel 8525 10950 2    50   Input ~ 0
+Text GLabel 8525 10950 2    50   Input ~ 6
 SW4
-Text GLabel 8525 11050 2    50   Input ~ 0
+Text GLabel 8525 11050 2    50   Input ~ 6
 SW5
-Text GLabel 8525 11150 2    50   Input ~ 0
+Text GLabel 8525 11150 2    50   Input ~ 6
 SW6
-Text GLabel 8525 11250 2    50   Input ~ 0
+Text GLabel 8525 11250 2    50   Input ~ 6
 SW7
-Text GLabel 8525 11350 2    50   Input ~ 0
+Text GLabel 8525 11350 2    50   Input ~ 6
 SW8
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C9
@@ -15067,7 +15066,7 @@ F 4 "#" H 8225 10400 50  0001 C CNN "MPN"
 	1    8225 10400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7925 10400 0    50   Input ~ 0
+Text GLabel 7925 10400 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	7925 10400 7975 10400
@@ -15089,19 +15088,19 @@ F 9 "Mouser" H 3350 25  50  0001 C CNN "Vendor"
 	1    10650 11400
 	1    0    0    -1  
 $EndComp
-Text GLabel 10100 11550 0    50   Input ~ 0
+Text GLabel 10100 11550 0    50   Input ~ 6
 GPEX_CS
-Text GLabel 10100 11650 0    50   Input ~ 0
+Text GLabel 10100 11650 0    50   Input ~ 6
 GPEX_SCK
-Text GLabel 10100 11750 0    50   Input ~ 0
+Text GLabel 10100 11750 0    50   Input ~ 6
 GPEX_MOSI
-Text GLabel 10100 11850 0    50   Input ~ 0
+Text GLabel 10100 11850 0    50   Input ~ 6
 GPEX_MISO
-Text GLabel 10100 11950 0    50   Input ~ 0
+Text GLabel 10100 11950 0    50   Input ~ 6
 GPEX_RESET
-Text GLabel 10100 12050 0    50   Input ~ 0
+Text GLabel 10100 12050 0    50   Input ~ 6
 GPEX_INTA
-Text GLabel 10100 12150 0    50   Input ~ 0
+Text GLabel 10100 12150 0    50   Input ~ 6
 GPEX_INTB
 $Comp
 L SwEmb:CAP_100nF_50V_0402 C21
@@ -15148,58 +15147,58 @@ F 4 "#" H 10900 10400 50  0001 C CNN "MPN"
 	1    10900 10400
 	1    0    0    -1  
 $EndComp
-Text GLabel 10600 10400 0    50   Input ~ 0
+Text GLabel 10600 10400 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	10600 10400 10650 10400
 Connection ~ 10650 10400
-Text GLabel 8725 15425 2    50   Input ~ 0
+Text GLabel 8725 15425 2    50   Input ~ 6
 VDD_3V3
-Text GLabel 9450 15425 0    50   Input ~ 0
+Text GLabel 9450 15425 0    50   Input ~ 6
 GND
-Text GLabel 14900 1550 0    50   Input ~ 0
+Text GLabel 14900 1550 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 15800 1550 2    50   Input ~ 0
+Text GLabel 15800 1550 2    50   Input ~ 6
 VDD_3V3
-Text GLabel 14900 2450 0    50   Input ~ 0
+Text GLabel 14900 2450 0    50   Input ~ 6
 VDD_3V3
-Text GLabel 14900 2350 0    50   Input ~ 0
+Text GLabel 14900 2350 0    50   Input ~ 6
 LCD_VO
-Text GLabel 9450 15625 0    50   Input ~ 0
+Text GLabel 9450 15625 0    50   Input ~ 6
 LCD_VO
-Text GLabel 9450 15725 0    50   Input ~ 0
+Text GLabel 9450 15725 0    50   Input ~ 6
 LCD_MDATA
-Text GLabel 9450 15825 0    50   Input ~ 0
+Text GLabel 9450 15825 0    50   Input ~ 6
 LCD_READ
-Text GLabel 9450 15925 0    50   Input ~ 0
+Text GLabel 9450 15925 0    50   Input ~ 6
 LCD_EN
-Text GLabel 9450 16425 0    50   Input ~ 0
+Text GLabel 9450 16425 0    50   Input ~ 6
 LCD_D4
-Text GLabel 9450 16525 0    50   Input ~ 0
+Text GLabel 9450 16525 0    50   Input ~ 6
 LCD_D5
-Text GLabel 9450 16625 0    50   Input ~ 0
+Text GLabel 9450 16625 0    50   Input ~ 6
 LCD_D6
-Text GLabel 9450 16725 0    50   Input ~ 0
+Text GLabel 9450 16725 0    50   Input ~ 6
 LCD_D7
-Text GLabel 10100 10850 0    50   Input ~ 0
+Text GLabel 10100 10850 0    50   Input ~ 6
 LCD_MDATA
-Text GLabel 10100 10750 0    50   Input ~ 0
+Text GLabel 10100 10750 0    50   Input ~ 6
 LCD_READ
-Text GLabel 10100 10650 0    50   Input ~ 0
+Text GLabel 10100 10650 0    50   Input ~ 6
 LCD_EN
-Text GLabel 11200 11050 2    50   Input ~ 0
+Text GLabel 11200 11050 2    50   Input ~ 6
 LCD_D4
-Text GLabel 11200 11150 2    50   Input ~ 0
+Text GLabel 11200 11150 2    50   Input ~ 6
 LCD_D5
-Text GLabel 11200 11250 2    50   Input ~ 0
+Text GLabel 11200 11250 2    50   Input ~ 6
 LCD_D6
-Text GLabel 11200 11350 2    50   Input ~ 0
+Text GLabel 11200 11350 2    50   Input ~ 6
 LCD_D7
-Text GLabel 2375 5450 0    50   Input ~ 0
+Text GLabel 2375 5450 0    50   Input ~ 6
 GPEX_CS
-Text GLabel 11575 7550 2    50   Input ~ 0
+Text GLabel 11575 7550 2    50   Input ~ 6
 GPEX_INTA
-Text GLabel 11575 7950 2    50   Input ~ 0
+Text GLabel 11575 7950 2    50   Input ~ 6
 GPEX_INTB
 $Comp
 L SwEmb:RES_470R_1%_0402 R50
@@ -15218,7 +15217,7 @@ F 9 "0.114  EUR" H 9025 16700 50  0001 C CNN "Price"
 	1    9025 16700
 	-1   0    0    1   
 $EndComp
-Text GLabel 9025 16550 1    50   Input ~ 0
+Text GLabel 9025 16550 1    50   Input ~ 6
 LCD_LED
 $Comp
 L SwEmb:GNDREF #PWR040
@@ -15232,7 +15231,7 @@ F 4 "#" H 9450 16925 50  0001 C CNN "MPN"
 	1    9450 16925
 	1    0    0    -1  
 $EndComp
-Text GLabel 10100 10950 0    50   Input ~ 0
+Text GLabel 10100 10950 0    50   Input ~ 6
 LCD_LED
 $Comp
 L SwEmb:IC_LP55231 U21
@@ -15275,7 +15274,7 @@ F 4 "#" H 4675 12350 50  0001 C CNN "MPN"
 	1    4675 12350
 	1    0    0    -1  
 $EndComp
-Text GLabel 4025 10325 2    50   Input ~ 0
+Text GLabel 4025 10325 2    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	4425 10425 4425 10450
@@ -15346,13 +15345,13 @@ Wire Wire Line
 	5325 11900 5350 11900
 Wire Wire Line
 	5350 11900 5350 11925
-Text GLabel 4075 11050 0    50   Input ~ 0
+Text GLabel 4075 11050 0    50   Input ~ 6
 BLED_EN
-Text GLabel 4075 11350 0    50   Input ~ 0
+Text GLabel 4075 11350 0    50   Input ~ 6
 BLED_SDA
-Text GLabel 4075 11450 0    50   Input ~ 0
+Text GLabel 4075 11450 0    50   Input ~ 6
 BLED_SCL
-Text GLabel 4075 11650 0    50   Input ~ 0
+Text GLabel 4075 11650 0    50   Input ~ 6
 BLED_INT
 Wire Wire Line
 	4075 11950 4025 11950
@@ -15391,7 +15390,7 @@ Wire Wire Line
 	4975 10125 4975 10150
 Wire Wire Line
 	4975 10350 4975 10450
-Text Notes 8775 15300 0    118  ~ 0
+Text Notes 8775 15300 0    118  ~ 6
 LCD
 Wire Wire Line
 	9025 16800 9025 16825
@@ -15480,7 +15479,7 @@ Wire Wire Line
 	8700 15425 8725 15425
 Wire Wire Line
 	4025 10325 3975 10325
-Text Notes 3725 10100 0    118  ~ 0
+Text Notes 3725 10100 0    118  ~ 6
 Button LEDs
 Wire Notes Line
 	3700 10025 3575 10025
@@ -15492,29 +15491,29 @@ Wire Notes Line
 	6675 12500 6675 10025
 Wire Notes Line
 	6675 10025 4825 10025
-Text Notes 10475 15300 0    118  ~ 0
+Text Notes 10475 15300 0    118  ~ 6
 UEXT
 Wire Notes Line
 	10250 15225 10450 15225
 Wire Notes Line
 	10950 15225 12575 15225
-Text GLabel 9450 16325 0    50   Input ~ 0
+Text GLabel 9450 16325 0    50   Input ~ 6
 LCD_D3
-Text GLabel 9450 16225 0    50   Input ~ 0
+Text GLabel 9450 16225 0    50   Input ~ 6
 LCD_D2
-Text GLabel 9450 16125 0    50   Input ~ 0
+Text GLabel 9450 16125 0    50   Input ~ 6
 LCD_D1
-Text GLabel 9450 16025 0    50   Input ~ 0
+Text GLabel 9450 16025 0    50   Input ~ 6
 LCD_D0
-Text GLabel 11200 10950 2    50   Input ~ 0
+Text GLabel 11200 10950 2    50   Input ~ 6
 LCD_D3
-Text GLabel 11200 10850 2    50   Input ~ 0
+Text GLabel 11200 10850 2    50   Input ~ 6
 LCD_D2
-Text GLabel 11200 10750 2    50   Input ~ 0
+Text GLabel 11200 10750 2    50   Input ~ 6
 LCD_D1
-Text GLabel 11200 10650 2    50   Input ~ 0
+Text GLabel 11200 10650 2    50   Input ~ 6
 LCD_D0
-Text Notes 7000 10125 0    118  ~ 0
+Text Notes 7000 10125 0    118  ~ 6
 GPIO
 Wire Notes Line
 	6925 10050 6850 10050
@@ -15566,7 +15565,7 @@ Wire Wire Line
 	11300 11650 11200 11650
 Wire Wire Line
 	11200 11550 11375 11550
-Text Notes 10900 14000 0    118  ~ 0
+Text Notes 10900 14000 0    118  ~ 6
 USB
 Wire Notes Line
 	10800 13925 10750 13925
@@ -15578,13 +15577,13 @@ Wire Notes Line
 	13075 15075 13075 13925
 Wire Notes Line
 	13075 13925 11300 13925
-Text GLabel 2375 8050 0    50   Input ~ 0
+Text GLabel 2375 8050 0    50   Input ~ 6
 BLED_EN
-Text GLabel 12425 4625 1    50   Input ~ 0
+Text GLabel 12425 4625 1    50   Input ~ 6
 BLED_SDA
-Text GLabel 12925 4675 1    50   Input ~ 0
+Text GLabel 12925 4675 1    50   Input ~ 6
 BLED_SCL
-Text GLabel 2375 8750 0    50   Input ~ 0
+Text GLabel 2375 8750 0    50   Input ~ 6
 BLED_INT
 Wire Wire Line
 	12925 4675 12925 4750
@@ -15705,9 +15704,9 @@ F 4 "#" H 10050 20500 50  0001 C CNN "MPN"
 	1    10050 20500
 	1    0    0    -1  
 $EndComp
-Text GLabel 10850 19950 0    50   Input ~ 0
+Text GLabel 10850 19950 0    50   Input ~ 6
 VMOT_SENSE
-Text GLabel 10100 19750 2    50   Input ~ 0
+Text GLabel 10100 19750 2    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	10050 19750 10100 19750
@@ -15723,11 +15722,11 @@ Wire Wire Line
 Wire Wire Line
 	9800 20300 9850 20300
 Connection ~ 10550 20200
-Text Notes 8625 19525 0    118  ~ 0
+Text Notes 8625 19525 0    118  ~ 6
 Supply Voltage Sense
 Wire Notes Line
 	8600 19450 8500 19450
-Text Notes 14075 15300 0    118  ~ 0
+Text Notes 14075 15300 0    118  ~ 6
 EtherCAT
 Wire Notes Line
 	14025 15225 13800 15225
@@ -15962,7 +15961,7 @@ Wire Wire Line
 Connection ~ 6175 20325
 Wire Wire Line
 	6175 20325 6175 20125
-Text GLabel 6125 20325 0    50   Input ~ 0
+Text GLabel 6125 20325 0    50   Input ~ 6
 VMOT_IN
 $Comp
 L SwEmb:RES_10K_1%_0402 R197
@@ -16033,7 +16032,7 @@ Wire Wire Line
 Wire Wire Line
 	7025 20625 7075 20625
 Connection ~ 7025 20525
-Text GLabel 7075 20625 2    50   Input ~ 0
+Text GLabel 7075 20625 2    50   Input ~ 6
 VMOT
 $Comp
 L SwEmb:CONN_BRKRES P49
@@ -16052,7 +16051,7 @@ F 9 "Mouser" H 8100 19550 50  0001 C CNN "Vendor"
 	1    8100 19600
 	1    0    0    -1  
 $EndComp
-Text GLabel 7725 19550 0    50   Input ~ 0
+Text GLabel 7725 19550 0    50   Input ~ 6
 VMOT
 Wire Wire Line
 	7775 19675 7775 19650
@@ -16060,7 +16059,7 @@ Wire Wire Line
 	7775 19650 7850 19650
 Wire Wire Line
 	7850 19550 7725 19550
-Text Notes 5800 19525 0    118  ~ 0
+Text Notes 5800 19525 0    118  ~ 6
 Brake Resistor
 Wire Notes Line
 	5800 19450 5625 19450
@@ -16083,9 +16082,9 @@ F 3 "" H 7675 19875 50  0001 C CNN
 	1    7475 19875
 	1    0    0    -1  
 $EndComp
-Text Notes 7475 19875 0    39   ~ 0
+Text Notes 7475 19875 0    39   ~ 6
 0-3V
-Text Notes 6700 20125 0    39   ~ 0
+Text Notes 6700 20125 0    39   ~ 6
 VMOT
 Wire Notes Line
 	8500 19450 8500 20700
@@ -16177,19 +16176,19 @@ Wire Notes Line
 	19475 11200 19475 15075
 Wire Notes Line
 	23350 11200 23350 15075
-Text Notes 25900 925  0    197  ~ 0
+Text Notes 25900 925  0    197  ~ 6
 Quick Design Summary
-Text Notes 24150 4150 0    118  ~ 0
+Text Notes 24150 4150 0    118  ~ 6
 Timers
-Text Notes 25825 4150 0    118  ~ 0
+Text Notes 25825 4150 0    118  ~ 6
 ADC1
-Text Notes 27475 4150 0    118  ~ 0
+Text Notes 27475 4150 0    118  ~ 6
 ADC2
 Wire Bus Line
 	25900 1000 29350 1000
-Text Notes 25225 3575 0    197  ~ 0
+Text Notes 25225 3575 0    197  ~ 6
 STM32 Peripheral Assignments
-Text Notes 24000 3200 0    79   ~ 0
+Text Notes 24000 3200 0    79   ~ 6
 - Capable of driving two PMSM or DC motors @ 48V, 20A\n- Automatic overcurrent protection with adjustable current limit\n- Break resistor support\n- Versatile encoder interface supporting SE, RS-422 and DHTL encoders\n- 3 extra +-40 inputs per motor for high voltage industrial sensors\n- Motor hall sensor support\n- Amplified back emf feedback for better sensorless control\n- 2x CAN2.0B\n- CANFD 5Mbit/s\n- EtherCAT slave controller\n- USB 2.0 device interface\n- LCD connector\n- UEXT connector for arbitrary expansion\n- 8 analog 5v capable inputs supporting inductive joystick and potentiometers\n- 4 analog 5v control outputs\n- 8 button inputs with hardware debouncing\n- 8 flexible LED outputs with programmable light patterns
 Wire Bus Line
 	25200 3650 29800 3650
@@ -16204,9 +16203,9 @@ F 3 "" H 10175 19200 50  0001 C CNN
 	1    10175 19200
 	0    1    1    0   
 $EndComp
-Text GLabel 10075 19200 0    50   Input ~ 0
+Text GLabel 10075 19200 0    50   Input ~ 6
 VDD_5V
-Text GLabel 10275 19200 2    50   Input ~ 0
+Text GLabel 10275 19200 2    50   Input ~ 6
 ENC2VDD5V
 Wire Wire Line
 	17825 6275 18125 6275
@@ -16214,7 +16213,7 @@ Connection ~ 17825 6275
 Wire Wire Line
 	17825 10300 18100 10300
 Connection ~ 17825 10300
-Text GLabel 16375 15375 0    50   Input ~ 0
+Text GLabel 16375 15375 0    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	16450 15375 16375 15375
@@ -16262,15 +16261,15 @@ F 4 "#" H 19000 15650 50  0001 C CNN "MPN"
 	1    19000 15650
 	1    0    0    -1  
 $EndComp
-Text GLabel 2375 6250 0    50   Input ~ 0
+Text GLabel 2375 6250 0    50   Input ~ 6
 PWM_IN1
-Text GLabel 2375 6350 0    50   Input ~ 0
+Text GLabel 2375 6350 0    50   Input ~ 6
 PWM_IN2
-Text GLabel 14950 13250 0    50   Input ~ 0
+Text GLabel 14950 13250 0    50   Input ~ 6
 PWM_IN1
-Text GLabel 20350 13225 0    50   Input ~ 0
+Text GLabel 20350 13225 0    50   Input ~ 6
 PWM_IN2
-Text GLabel 11575 7650 2    50   Input ~ 0
+Text GLabel 11575 7650 2    50   Input ~ 6
 GPEX_RESET
 $Comp
 L SwEmb:LED_RED_0603 D31
@@ -16322,9 +16321,9 @@ F 4 "#" H 12575 3050 50  0001 C CNN "MPN"
 	1    12575 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 2375 6150 0    50   Input ~ 0
+Text GLabel 2375 6150 0    50   Input ~ 6
 TEMP_MOT1
-Text GLabel 2375 6450 0    50   Input ~ 0
+Text GLabel 2375 6450 0    50   Input ~ 6
 TEMP_MOT2
 $Comp
 L SwEmb:RES_10K_1%_0402 R199
@@ -16420,7 +16419,7 @@ Wire Wire Line
 Wire Wire Line
 	19475 6625 19475 6675
 Connection ~ 19475 6625
-Text GLabel 18975 6325 0    50   Input ~ 0
+Text GLabel 18975 6325 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:GNDREF #PWR082
@@ -16437,7 +16436,7 @@ $EndComp
 Wire Wire Line
 	18975 6325 19000 6325
 Connection ~ 19000 6325
-Text GLabel 19475 6625 2    50   Input ~ 0
+Text GLabel 19475 6625 2    50   Input ~ 6
 TEMP_MOT1
 $Comp
 L SwEmb:RES_10K_1%_0402 R201
@@ -16533,7 +16532,7 @@ Wire Wire Line
 Wire Wire Line
 	19500 10575 19500 10625
 Connection ~ 19500 10575
-Text GLabel 19000 10275 0    50   Input ~ 0
+Text GLabel 19000 10275 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:GNDREF #PWR083
@@ -16550,7 +16549,7 @@ $EndComp
 Wire Wire Line
 	19000 10275 19025 10275
 Connection ~ 19025 10275
-Text GLabel 19500 10575 2    50   Input ~ 0
+Text GLabel 19500 10575 2    50   Input ~ 6
 TEMP_MOT2
 $Comp
 L SwEmb:GNDREF #PWR046
@@ -16989,7 +16988,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 19875 11150 19900
 Connection ~ 11150 19900
-Text Notes 11975 20600 0    39   ~ 0
+Text Notes 11975 20600 0    39   ~ 6
 Unused sections wiring
 Wire Wire Line
 	15825 8600 16525 8600
@@ -17074,7 +17073,7 @@ Wire Wire Line
 	11300 11650 11300 12025
 Wire Wire Line
 	11375 11550 11375 12025
-Text Notes 13275 4600 0    39   ~ 0
+Text Notes 13275 4600 0    39   ~ 6
 BLED: 32h\nAP: 58h\nMOCP: 55h\nEE: A0h
 Wire Wire Line
 	10900 13000 10850 13000
@@ -17106,7 +17105,7 @@ Wire Wire Line
 	5325 11700 5575 11700
 Wire Wire Line
 	5325 11800 5575 11800
-Text GLabel 14950 14350 0    50   Input ~ 0
+Text GLabel 14950 14350 0    50   Input ~ 6
 VDD_5V
 Wire Wire Line
 	10550 20200 10725 20200
@@ -17204,23 +17203,23 @@ F 3 "" H 3250 11550 50  0001 C CNN
 	1    3050 11550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3050 11550 2    50   Input ~ 0
+Text GLabel 3050 11550 2    50   Input ~ 6
 SW1
-Text GLabel 3050 11650 2    50   Input ~ 0
+Text GLabel 3050 11650 2    50   Input ~ 6
 SW2
-Text GLabel 3050 11750 2    50   Input ~ 0
+Text GLabel 3050 11750 2    50   Input ~ 6
 SW3
-Text GLabel 3050 11850 2    50   Input ~ 0
+Text GLabel 3050 11850 2    50   Input ~ 6
 SW4
-Text GLabel 3050 11950 2    50   Input ~ 0
+Text GLabel 3050 11950 2    50   Input ~ 6
 SW5
-Text GLabel 3050 12050 2    50   Input ~ 0
+Text GLabel 3050 12050 2    50   Input ~ 6
 SW6
-Text GLabel 3050 12150 2    50   Input ~ 0
+Text GLabel 3050 12150 2    50   Input ~ 6
 SW7
-Text GLabel 3050 12250 2    50   Input ~ 0
+Text GLabel 3050 12250 2    50   Input ~ 6
 SW8
-Text GLabel 3050 12350 2    50   Input ~ 0
+Text GLabel 3050 12350 2    50   Input ~ 6
 SWIRQ
 $Comp
 L SwEmb:Test_Point TP42
@@ -17310,9 +17309,9 @@ F 3 "" H 3250 12350 50  0001 C CNN
 	1    3050 12350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9225 12175 0    50   Input ~ 0
+Text GLabel 9225 12175 0    50   Input ~ 6
 GPIO_INTA
-Text GLabel 9225 12275 0    50   Input ~ 0
+Text GLabel 9225 12275 0    50   Input ~ 6
 GPIO_INTB
 $Comp
 L SwEmb:Test_Point TP52
@@ -17336,9 +17335,9 @@ F 3 "" H 9425 12275 50  0001 C CNN
 	1    9225 12275
 	0    1    1    0   
 $EndComp
-Text GLabel 9225 11975 0    50   Input ~ 0
+Text GLabel 9225 11975 0    50   Input ~ 6
 GPEX_INTA
-Text GLabel 9225 12075 0    50   Input ~ 0
+Text GLabel 9225 12075 0    50   Input ~ 6
 GPEX_INTB
 $Comp
 L SwEmb:Test_Point TP51
@@ -17522,9 +17521,9 @@ F 3 "" H 23100 1625 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 22900 1625
-Text GLabel 15000 4250 0    50   Input ~ 0
+Text GLabel 15000 4250 0    50   Input ~ 6
 GAIN1
-Text GLabel 15000 4350 0    50   Input ~ 0
+Text GLabel 15000 4350 0    50   Input ~ 6
 DC_CAL1
 $Comp
 L SwEmb:Test_Point TP73
@@ -17548,9 +17547,9 @@ F 3 "" H 15200 4350 50  0001 C CNN
 	1    15000 4350
 	0    1    1    0   
 $EndComp
-Text GLabel 15000 8375 0    50   Input ~ 0
+Text GLabel 15000 8375 0    50   Input ~ 6
 GAIN2
-Text GLabel 15000 8475 0    50   Input ~ 0
+Text GLabel 15000 8475 0    50   Input ~ 6
 DC_CAL2
 $Comp
 L SwEmb:Test_Point TP75
@@ -17598,17 +17597,17 @@ F 3 "" H 19500 6625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 19300 6625
-Text GLabel 14525 19950 0    50   Input ~ 0
+Text GLabel 14525 19950 0    50   Input ~ 6
 ECAT_RESET
-Text GLabel 14525 20050 0    50   Input ~ 0
+Text GLabel 14525 20050 0    50   Input ~ 6
 ECAT_IRQ
-Text GLabel 14525 20150 0    50   Input ~ 0
+Text GLabel 14525 20150 0    50   Input ~ 6
 ECAT_MOSI
-Text GLabel 14525 20250 0    50   Input ~ 0
+Text GLabel 14525 20250 0    50   Input ~ 6
 ECAT_MISO
-Text GLabel 14525 20350 0    50   Input ~ 0
+Text GLabel 14525 20350 0    50   Input ~ 6
 ECAT_CS
-Text GLabel 14525 20450 0    50   Input ~ 0
+Text GLabel 14525 20450 0    50   Input ~ 6
 ECAT_SCK
 $Comp
 L SwEmb:Test_Point TP67
@@ -17706,9 +17705,9 @@ Wire Wire Line
 Connection ~ 7450 18075
 Wire Wire Line
 	7450 18075 7550 18075
-Text GLabel 7900 19025 0    50   Input ~ 0
+Text GLabel 7900 19025 0    50   Input ~ 6
 CANFD_INT
-Text GLabel 7900 19125 0    50   Input ~ 0
+Text GLabel 7900 19125 0    50   Input ~ 6
 CANFD_CS
 $Comp
 L SwEmb:Test_Point TP59
@@ -17733,7 +17732,7 @@ F 3 "" H 8100 19125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 32450 4400
-Text GLabel 1550 21675 0    50   Input ~ 0
+Text GLabel 1550 21675 0    50   Input ~ 6
 VDD_3V3
 $Comp
 L SwEmb:RES_NOFIT_0402 R34
@@ -17746,7 +17745,7 @@ F 3 "" H 1650 21675 50  0001 C CNN
 	1    1650 21675
 	0    1    1    0   
 $EndComp
-Text GLabel 1550 21775 0    50   Input ~ 0
+Text GLabel 1550 21775 0    50   Input ~ 6
 AIN_OC
 Wire Wire Line
 	1750 21675 1800 21675
@@ -17856,7 +17855,7 @@ F 9 "0.271  EUR" H 4775 14900 50  0001 C CNN "Price"
 	1    4775 14900
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4625 13675 0    50   Input ~ 0
+Text GLabel 4625 13675 0    50   Input ~ 6
 AIN_VDD_5V
 Wire Wire Line
 	4675 13675 4675 13925
@@ -17914,7 +17913,7 @@ F 4 "#" H 5050 15025 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2400 22225
-Text GLabel 3050 21550 0    50   Input ~ 0
+Text GLabel 3050 21550 0    50   Input ~ 6
 AINPWEN
 $Comp
 L SwEmb:RES_NOFIT_0402 R224
@@ -17927,13 +17926,13 @@ F 3 "" H 3150 21550 50  0001 C CNN
 	1    3150 21550
 	0    1    1    0   
 $EndComp
-Text GLabel 3250 21550 2    50   Input ~ 0
+Text GLabel 3250 21550 2    50   Input ~ 6
 VDD_3V3
 NoConn ~ 1700 22125
 NoConn ~ 1700 22225
-Text GLabel 12500 18575 0    50   Input ~ 0
+Text GLabel 12500 18575 0    50   Input ~ 6
 ENCOC1
-Text GLabel 12500 18675 0    50   Input ~ 0
+Text GLabel 12500 18675 0    50   Input ~ 6
 ENCOC2
 $Comp
 L SwEmb:RES_10K_1%_0402 R43
@@ -17969,7 +17968,7 @@ F 9 "0.087  EUR" H 12600 18675 50  0001 C CNN "Price"
 	1    12600 18675
 	0    1    1    0   
 $EndComp
-Text GLabel 12950 18450 2    50   Input ~ 0
+Text GLabel 12950 18450 2    50   Input ~ 6
 VDD_3V3_MCU
 Wire Notes Line
 	13725 18250 13725 19275
@@ -17977,7 +17976,7 @@ Wire Notes Line
 	12375 18250 13725 18250
 Wire Notes Line
 	9675 19275 13725 19275
-Text GLabel 12600 18775 0    50   Input ~ 0
+Text GLabel 12600 18775 0    50   Input ~ 6
 ENCPWEN1
 $Comp
 L SwEmb:RES_NOFIT_0402 R234
@@ -18001,7 +18000,7 @@ F 3 "" H 12700 18875 50  0001 C CNN
 	1    12700 18875
 	0    1    1    0   
 $EndComp
-Text GLabel 12600 18875 0    50   Input ~ 0
+Text GLabel 12600 18875 0    50   Input ~ 6
 ENCPWEN2
 Wire Wire Line
 	12700 18575 12850 18575
@@ -18049,17 +18048,17 @@ $EndComp
 Connection ~ 7450 18175
 Wire Wire Line
 	7450 18175 7550 18175
-Text Notes 24125 7500 0    79   ~ 0
+Text Notes 24125 7500 0    79   ~ 6
 SPI1: -\nSPI2: -\nSPI3: GPIO/ENC\nSPI4: UEXT\nSPI5: -\nSPI6: CANFD/ECAT
-Text Notes 25825 7125 0    79   ~ 0
+Text Notes 25825 7125 0    79   ~ 6
 I2C1: POT/EE/LED\nI2C2: UEXT\nI2C3: -
-Text Notes 29175 6275 0    79   ~ 0
+Text Notes 29175 6275 0    79   ~ 6
 ADC3_CH0: x\nADC3_CH1: x\nADC3_CH2: x\nADC3_CH3: x\nADC3_CH4: -\nADC3_CH5: -\nADC3_CH6: temp_mot2\nADC3_CH7: -\nADC3_CH8: -\nADC3_CH9: vmot\nADC3_CH10: -\nADC3_CH11: -\nADC3_CH12: -\nADC3_CH13: -\nADC3_CH14: joysticks\nADC3_CH15: temp_mot1
-Text GLabel 11575 2450 2    50   Input ~ 0
+Text GLabel 11575 2450 2    50   Input ~ 6
 HALL_C1
-Text Notes 27475 7000 0    79   ~ 0
+Text Notes 27475 7000 0    79   ~ 6
 UART1: DEBUG\nUART8: UEXT
-Text Notes 29200 4150 0    118  ~ 0
+Text Notes 29200 4150 0    118  ~ 6
 ADC3
 Wire Notes Line
 	24025 6375 30750 6375
@@ -18067,7 +18066,7 @@ Wire Notes Line
 	24025 3900 30750 3900
 Wire Notes Line
 	24025 4200 30750 4200
-Text Notes 24125 6600 0    118  ~ 0
+Text Notes 24125 6600 0    118  ~ 6
 SPI
 Wire Notes Line
 	24025 6675 30750 6675
@@ -18083,9 +18082,9 @@ Wire Notes Line
 	27375 3900 27375 7750
 Wire Notes Line
 	25700 3900 25700 7750
-Text Notes 25800 6600 0    118  ~ 0
+Text Notes 25800 6600 0    118  ~ 6
 I2C
-Text Notes 27475 6600 0    118  ~ 0
+Text Notes 27475 6600 0    118  ~ 6
 UART
 NoConn ~ 7425 11350
 $Comp
@@ -18122,7 +18121,7 @@ F 9 "Mouser" H 13025 4475 50  0001 C CNN "Vendor"
 	1    13025 4475
 	-1   0    0    1   
 $EndComp
-Text GLabel 12600 4000 0    50   Input ~ 0
+Text GLabel 12600 4000 0    50   Input ~ 6
 VDD_3V3_MCU
 Wire Wire Line
 	12425 4650 12525 4650
@@ -18141,7 +18140,7 @@ Wire Wire Line
 Wire Wire Line
 	12675 4000 12600 4000
 Connection ~ 12675 4200
-Text Notes 9175 21725 0    39   ~ 0
+Text Notes 9175 21725 0    39   ~ 6
 11.76V
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C168
@@ -18534,7 +18533,7 @@ NoConn ~ 14450 19175
 NoConn ~ 14450 19275
 NoConn ~ 14450 19375
 NoConn ~ 14450 19475
-Text GLabel 2375 4450 0    50   Input ~ 0
+Text GLabel 2375 4450 0    50   Input ~ 6
 DC_CAL2
 Wire Wire Line
 	6075 15875 6075 16075
@@ -18542,7 +18541,7 @@ Connection ~ 6075 16075
 Wire Wire Line
 	6075 16925 6075 17125
 Connection ~ 6075 17125
-Text GLabel 2375 6850 0    50   Input ~ 0
+Text GLabel 2375 6850 0    50   Input ~ 6
 DC_CAL1
 $Comp
 L SwEmb:Test_Point TP101
@@ -18566,7 +18565,7 @@ F 3 "" H 19550 18975 50  0001 C CNN
 	1    19350 18975
 	0    1    1    0   
 $EndComp
-Text GLabel 14400 14450 2    50   Input ~ 0
+Text GLabel 14400 14450 2    50   Input ~ 6
 MOTOR1_BRKIN
 $Comp
 L SwEmb:D_BAT54 D33
@@ -18660,25 +18659,25 @@ Wire Wire Line
 Connection ~ 15225 5075
 Wire Wire Line
 	15225 5075 16525 5075
-Text GLabel 2375 6650 0    50   Input ~ 0
+Text GLabel 2375 6650 0    50   Input ~ 6
 FAULT1
-Text GLabel 11575 8050 2    50   Input ~ 0
+Text GLabel 11575 8050 2    50   Input ~ 6
 FAULT2
-Text GLabel 2375 6550 0    50   Input ~ 0
+Text GLabel 2375 6550 0    50   Input ~ 6
 OCW1
-Text GLabel 11575 8350 2    50   Input ~ 0
+Text GLabel 11575 8350 2    50   Input ~ 6
 OCW2
-Text GLabel 11575 6950 2    50   Input ~ 0
+Text GLabel 11575 6950 2    50   Input ~ 6
 POTADDRA
-Text GLabel 11575 7050 2    50   Input ~ 0
+Text GLabel 11575 7050 2    50   Input ~ 6
 POTADDRB
-Text GLabel 11575 7150 2    50   Input ~ 0
+Text GLabel 11575 7150 2    50   Input ~ 6
 POTADDRC
-Text GLabel 4425 20000 0    50   Input ~ 0
+Text GLabel 4425 20000 0    50   Input ~ 6
 POTADDRA
-Text GLabel 4425 20100 0    50   Input ~ 0
+Text GLabel 4425 20100 0    50   Input ~ 6
 POTADDRB
-Text GLabel 4425 20200 0    50   Input ~ 0
+Text GLabel 4425 20200 0    50   Input ~ 6
 POTADDRC
 $Comp
 L SwEmb:Test_Point TP63
@@ -18713,7 +18712,7 @@ F 3 "" H 4625 20200 50  0001 C CNN
 	1    4425 20200
 	0    1    1    0   
 $EndComp
-Text GLabel 11575 6550 2    50   Input ~ 0
+Text GLabel 11575 6550 2    50   Input ~ 6
 SWEN
 $Comp
 L SwEmb:RES_0R_0402 R65
@@ -18967,7 +18966,7 @@ F 3 "" H 17325 21400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 17125 21400
-Text GLabel 15750 21950 2    50   Input ~ 0
+Text GLabel 15750 21950 2    50   Input ~ 6
 VDD_3V3_MCU
 $Comp
 L SwEmb:RES_NOFIT_0402 R238
@@ -18980,7 +18979,7 @@ F 3 "" H 15650 21950 50  0001 C CNN
 	1    15650 21950
 	0    1    1    0   
 $EndComp
-Text GLabel 15550 21950 0    50   Input ~ 0
+Text GLabel 15550 21950 0    50   Input ~ 6
 VDD_3V3
 Wire Notes Line
 	17825 20800 17825 22450
@@ -18988,11 +18987,11 @@ Wire Notes Line
 	5625 22450 17825 22450
 Wire Notes Line
 	6550 20800 17825 20800
-Text GLabel 22250 6950 2    50   Input ~ 0
+Text GLabel 22250 6950 2    50   Input ~ 6
 ENC1VDD5V
-Text GLabel 22225 10925 2    50   Input ~ 0
+Text GLabel 22225 10925 2    50   Input ~ 6
 ENC2VDD5V
-Text GLabel 22900 10450 1    50   Input ~ 0
+Text GLabel 22900 10450 1    50   Input ~ 6
 ENC2VDD5V
 $Comp
 L SwEmb:GNDREF #PWR0241
@@ -19018,7 +19017,7 @@ F 4 "#" H 22900 6675 50  0001 C CNN "MPN"
 	1    22900 6675
 	1    0    0    -1  
 $EndComp
-Text GLabel 22900 6475 1    50   Input ~ 0
+Text GLabel 22900 6475 1    50   Input ~ 6
 ENC1VDD5V
 Wire Wire Line
 	22300 6675 22200 6675
@@ -19328,7 +19327,7 @@ $EndComp
 Connection ~ 7625 21400
 Wire Wire Line
 	7625 21400 7700 21400
-Text GLabel 12350 6200 1    50   Input ~ 0
+Text GLabel 12350 6200 1    50   Input ~ 6
 GPEX_SCK
 Wire Wire Line
 	11575 6750 12450 6750
@@ -19388,7 +19387,7 @@ F 9 "Mouser" H 12750 6450 50  0001 C CNN "Vendor"
 	1    12750 6450
 	1    0    0    -1  
 $EndComp
-Text GLabel 12750 6200 1    50   Input ~ 0
+Text GLabel 12750 6200 1    50   Input ~ 6
 GPEX_MISO
 Wire Wire Line
 	12750 6200 12750 6350
@@ -19397,7 +19396,7 @@ Wire Wire Line
 Wire Wire Line
 	12750 6750 12650 6750
 Connection ~ 12650 6750
-Text GLabel 13150 6200 1    50   Input ~ 0
+Text GLabel 13150 6200 1    50   Input ~ 6
 GPEX_MOSI
 $Comp
 L SwEmb:RES_270R_1%_0402 R213
@@ -19423,12 +19422,12 @@ Wire Wire Line
 Wire Wire Line
 	13150 6850 13050 6850
 Connection ~ 13050 6850
-Text GLabel 18175 6275 2    50   Input ~ 0
+Text GLabel 18175 6275 2    50   Input ~ 6
 VMOT
 Wire Wire Line
 	18125 6275 18175 6275
 Connection ~ 18125 6275
-Text GLabel 18150 10300 2    50   Input ~ 0
+Text GLabel 18150 10300 2    50   Input ~ 6
 VMOT
 Wire Wire Line
 	18100 10300 18150 10300
@@ -19470,7 +19469,7 @@ Wire Wire Line
 	15975 6525 16100 6525
 Wire Wire Line
 	16025 6300 16025 6725
-Text GLabel 1625 13425 2    50   Input ~ 0
+Text GLabel 1625 13425 2    50   Input ~ 6
 GND
 Wire Wire Line
 	1125 14525 1125 13775
@@ -19482,7 +19481,7 @@ Wire Wire Line
 	1650 13625 1625 13625
 Wire Wire Line
 	1125 14525 1825 14525
-Text GLabel 1625 15425 2    50   Input ~ 0
+Text GLabel 1625 15425 2    50   Input ~ 6
 GND
 Wire Wire Line
 	1125 16525 1125 15775
@@ -19514,11 +19513,11 @@ F 9 "Mouser" H 1175 10300 50  0001 C CNN "Vendor"
 	1    1175 10300
 	-1   0    0    1   
 $EndComp
-Text GLabel 1425 10300 2    50   Input ~ 0
+Text GLabel 1425 10300 2    50   Input ~ 6
 SW_IN1
-Text GLabel 1425 10400 2    50   Input ~ 0
+Text GLabel 1425 10400 2    50   Input ~ 6
 GND
-Text GLabel 1425 10525 2    50   Input ~ 0
+Text GLabel 1425 10525 2    50   Input ~ 6
 LED_OUT2
 $Comp
 L SwEmb:CONN_BUTTON P2
@@ -19537,11 +19536,11 @@ F 9 "Mouser" H 1175 10625 50  0001 C CNN "Vendor"
 	1    1175 10625
 	-1   0    0    1   
 $EndComp
-Text GLabel 1425 10625 2    50   Input ~ 0
+Text GLabel 1425 10625 2    50   Input ~ 6
 SW_IN2
-Text GLabel 1425 10725 2    50   Input ~ 0
+Text GLabel 1425 10725 2    50   Input ~ 6
 GND
-Text GLabel 1425 10850 2    50   Input ~ 0
+Text GLabel 1425 10850 2    50   Input ~ 6
 LED_OUT3
 $Comp
 L SwEmb:CONN_BUTTON P3
@@ -19560,11 +19559,11 @@ F 9 "Mouser" H 1175 10950 50  0001 C CNN "Vendor"
 	1    1175 10950
 	-1   0    0    1   
 $EndComp
-Text GLabel 1425 10950 2    50   Input ~ 0
+Text GLabel 1425 10950 2    50   Input ~ 6
 SW_IN3
-Text GLabel 1425 11050 2    50   Input ~ 0
+Text GLabel 1425 11050 2    50   Input ~ 6
 GND
-Text GLabel 1425 11175 2    50   Input ~ 0
+Text GLabel 1425 11175 2    50   Input ~ 6
 LED_OUT4
 $Comp
 L SwEmb:CONN_BUTTON P4
@@ -19583,11 +19582,11 @@ F 9 "Mouser" H 1175 11275 50  0001 C CNN "Vendor"
 	1    1175 11275
 	-1   0    0    1   
 $EndComp
-Text GLabel 1425 11275 2    50   Input ~ 0
+Text GLabel 1425 11275 2    50   Input ~ 6
 SW_IN4
-Text GLabel 1425 11375 2    50   Input ~ 0
+Text GLabel 1425 11375 2    50   Input ~ 6
 GND
-Text GLabel 1425 11500 2    50   Input ~ 0
+Text GLabel 1425 11500 2    50   Input ~ 6
 LED_OUT5
 $Comp
 L SwEmb:CONN_BUTTON P5
@@ -19606,11 +19605,11 @@ F 9 "Mouser" H 1175 11600 50  0001 C CNN "Vendor"
 	1    1175 11600
 	-1   0    0    1   
 $EndComp
-Text GLabel 1425 11600 2    50   Input ~ 0
+Text GLabel 1425 11600 2    50   Input ~ 6
 SW_IN5
-Text GLabel 1425 11700 2    50   Input ~ 0
+Text GLabel 1425 11700 2    50   Input ~ 6
 GND
-Text GLabel 1425 11825 2    50   Input ~ 0
+Text GLabel 1425 11825 2    50   Input ~ 6
 LED_OUT6
 $Comp
 L SwEmb:CONN_BUTTON P6
@@ -19629,11 +19628,11 @@ F 9 "Mouser" H 1175 11925 50  0001 C CNN "Vendor"
 	1    1175 11925
 	-1   0    0    1   
 $EndComp
-Text GLabel 1425 11925 2    50   Input ~ 0
+Text GLabel 1425 11925 2    50   Input ~ 6
 SW_IN6
-Text GLabel 1425 12025 2    50   Input ~ 0
+Text GLabel 1425 12025 2    50   Input ~ 6
 GND
-Text GLabel 1425 12150 2    50   Input ~ 0
+Text GLabel 1425 12150 2    50   Input ~ 6
 LED_OUT7
 $Comp
 L SwEmb:CONN_BUTTON P7
@@ -19652,11 +19651,11 @@ F 9 "Mouser" H 1175 12250 50  0001 C CNN "Vendor"
 	1    1175 12250
 	-1   0    0    1   
 $EndComp
-Text GLabel 1425 12250 2    50   Input ~ 0
+Text GLabel 1425 12250 2    50   Input ~ 6
 SW_IN7
-Text GLabel 1425 12350 2    50   Input ~ 0
+Text GLabel 1425 12350 2    50   Input ~ 6
 GND
-Text GLabel 2200 11650 2    50   Input ~ 0
+Text GLabel 2200 11650 2    50   Input ~ 6
 LED_OUT8
 $Comp
 L SwEmb:CONN_BUTTON P8
@@ -19675,43 +19674,43 @@ F 9 "Mouser" H 1950 11750 50  0001 C CNN "Vendor"
 	1    1950 11750
 	-1   0    0    1   
 $EndComp
-Text GLabel 2200 11750 2    50   Input ~ 0
+Text GLabel 2200 11750 2    50   Input ~ 6
 SW_IN8
-Text GLabel 2200 11850 2    50   Input ~ 0
+Text GLabel 2200 11850 2    50   Input ~ 6
 GND
-Text GLabel 2200 10525 0    50   Input ~ 0
+Text GLabel 2200 10525 0    50   Input ~ 6
 SW_IN1
-Text GLabel 2200 10425 0    50   Input ~ 0
+Text GLabel 2200 10425 0    50   Input ~ 6
 SWEN
-Text GLabel 2200 10625 0    50   Input ~ 0
+Text GLabel 2200 10625 0    50   Input ~ 6
 SW_IN2
-Text GLabel 2200 10725 0    50   Input ~ 0
+Text GLabel 2200 10725 0    50   Input ~ 6
 SW_IN3
-Text GLabel 2200 10825 0    50   Input ~ 0
+Text GLabel 2200 10825 0    50   Input ~ 6
 SW_IN4
-Text GLabel 2200 10925 0    50   Input ~ 0
+Text GLabel 2200 10925 0    50   Input ~ 6
 SW_IN5
-Text GLabel 2200 11025 0    50   Input ~ 0
+Text GLabel 2200 11025 0    50   Input ~ 6
 SW_IN6
-Text GLabel 2200 11125 0    50   Input ~ 0
+Text GLabel 2200 11125 0    50   Input ~ 6
 SW_IN7
-Text GLabel 2200 11225 0    50   Input ~ 0
+Text GLabel 2200 11225 0    50   Input ~ 6
 SW_IN8
-Text GLabel 5325 11500 2    50   Input ~ 0
+Text GLabel 5325 11500 2    50   Input ~ 6
 LED_OUT1
-Text GLabel 5325 11400 2    50   Input ~ 0
+Text GLabel 5325 11400 2    50   Input ~ 6
 LED_OUT2
-Text GLabel 5325 11300 2    50   Input ~ 0
+Text GLabel 5325 11300 2    50   Input ~ 6
 LED_OUT3
-Text GLabel 5325 11200 2    50   Input ~ 0
+Text GLabel 5325 11200 2    50   Input ~ 6
 LED_OUT4
-Text GLabel 5325 11100 2    50   Input ~ 0
+Text GLabel 5325 11100 2    50   Input ~ 6
 LED_OUT5
-Text GLabel 5325 11000 2    50   Input ~ 0
+Text GLabel 5325 11000 2    50   Input ~ 6
 LED_OUT6
-Text GLabel 5325 10900 2    50   Input ~ 0
+Text GLabel 5325 10900 2    50   Input ~ 6
 LED_OUT7
-Text GLabel 5325 10800 2    50   Input ~ 0
+Text GLabel 5325 10800 2    50   Input ~ 6
 LED_OUT8
 $Comp
 L SwEmb:CAP_2.2uF_16V_0402 C51
@@ -19916,36 +19915,36 @@ F 4 "#" H 11650 17900 50  0001 C CNN "MPN"
 	1    11650 17900
 	1    0    0    -1  
 $EndComp
-Text GLabel 19225 5500 0    50   Input ~ 0
+Text GLabel 19225 5500 0    50   Input ~ 6
 SLA1
 Wire Wire Line
 	19225 5500 19275 5500
 Connection ~ 19275 5500
 Wire Wire Line
 	19275 5500 19275 5600
-Text GLabel 18275 4575 2    50   Input ~ 0
+Text GLabel 18275 4575 2    50   Input ~ 6
 SHA1
 Wire Wire Line
 	18225 4575 18275 4575
 Connection ~ 18225 4575
-Text GLabel 18275 5075 2    50   Input ~ 0
+Text GLabel 18275 5075 2    50   Input ~ 6
 SHB1
 Wire Wire Line
 	18225 5075 18275 5075
 Connection ~ 18225 5075
-Text GLabel 18275 5575 2    50   Input ~ 0
+Text GLabel 18275 5575 2    50   Input ~ 6
 SHC1
 Wire Wire Line
 	18225 5575 18275 5575
 Connection ~ 18225 5575
-Text GLabel 20700 5500 0    50   Input ~ 0
+Text GLabel 20700 5500 0    50   Input ~ 6
 SLB1
 Wire Wire Line
 	20700 5500 20750 5500
 Connection ~ 20750 5500
 Wire Wire Line
 	20750 5500 20750 5425
-Text GLabel 22225 5500 0    50   Input ~ 0
+Text GLabel 22225 5500 0    50   Input ~ 6
 SLC1
 Wire Wire Line
 	22225 5500 22300 5500
@@ -19954,21 +19953,21 @@ Wire Wire Line
 Wire Wire Line
 	22300 5425 22300 5500
 Connection ~ 22300 5500
-Text GLabel 19225 9525 0    50   Input ~ 0
+Text GLabel 19225 9525 0    50   Input ~ 6
 SLA2
 Wire Wire Line
 	19225 9525 19275 9525
 Connection ~ 19275 9525
 Wire Wire Line
 	19275 9525 19275 9625
-Text GLabel 20700 9525 0    50   Input ~ 0
+Text GLabel 20700 9525 0    50   Input ~ 6
 SLB2
 Wire Wire Line
 	20700 9525 20750 9525
 Connection ~ 20750 9525
 Wire Wire Line
 	20750 9525 20750 9450
-Text GLabel 22250 9525 0    50   Input ~ 0
+Text GLabel 22250 9525 0    50   Input ~ 6
 SLC2
 Wire Wire Line
 	22250 9525 22300 9525
@@ -19977,14 +19976,14 @@ Wire Wire Line
 Wire Wire Line
 	22300 9525 22300 9575
 Connection ~ 22300 9525
-Text GLabel 18250 8600 2    50   Input ~ 0
+Text GLabel 18250 8600 2    50   Input ~ 6
 SHA2
 Wire Wire Line
 	18225 8600 18250 8600
 Connection ~ 18225 8600
-Text GLabel 18250 9100 2    50   Input ~ 0
+Text GLabel 18250 9100 2    50   Input ~ 6
 SHB2
-Text GLabel 18250 9600 2    50   Input ~ 0
+Text GLabel 18250 9600 2    50   Input ~ 6
 SHC2
 Wire Wire Line
 	18225 9600 18250 9600
@@ -20014,7 +20013,7 @@ F 3 "" H 15200 4450 50  0001 C CNN
 	1    15000 4450
 	0    1    1    0   
 $EndComp
-Text GLabel 15000 4450 0    50   Input ~ 0
+Text GLabel 15000 4450 0    50   Input ~ 6
 MOC1
 $Comp
 L SwEmb:Test_Point TP104
@@ -20027,11 +20026,11 @@ F 3 "" H 15200 8575 50  0001 C CNN
 	1    15000 8575
 	0    1    1    0   
 $EndComp
-Text GLabel 15000 8575 0    50   Input ~ 0
+Text GLabel 15000 8575 0    50   Input ~ 6
 MOC2
-Text GLabel 15000 8275 0    50   Input ~ 0
+Text GLabel 15000 8275 0    50   Input ~ 6
 FAULT2
-Text GLabel 15000 8175 0    50   Input ~ 0
+Text GLabel 15000 8175 0    50   Input ~ 6
 OCW2
 $Comp
 L SwEmb:Test_Point TP108
@@ -20055,9 +20054,9 @@ F 3 "" H 15200 8175 50  0001 C CNN
 	1    15000 8175
 	0    1    1    0   
 $EndComp
-Text GLabel 15000 4150 0    50   Input ~ 0
+Text GLabel 15000 4150 0    50   Input ~ 6
 FAULT1
-Text GLabel 15000 4050 0    50   Input ~ 0
+Text GLabel 15000 4050 0    50   Input ~ 6
 OCW1
 $Comp
 L SwEmb:Test_Point TP106
@@ -20081,25 +20080,25 @@ F 3 "" H 15200 4050 50  0001 C CNN
 	1    15000 4050
 	0    1    1    0   
 $EndComp
-Text Label 19000 16475 0    39   ~ 0
+Text Label 19000 16475 0    39   ~ 6
 TXB_P
-Text Label 19000 16575 0    39   ~ 0
+Text Label 19000 16575 0    39   ~ 6
 TXB_N
-Text Label 19000 16675 0    39   ~ 0
+Text Label 19000 16675 0    39   ~ 6
 RXB_P
-Text Label 19000 16775 0    39   ~ 0
+Text Label 19000 16775 0    39   ~ 6
 RXB_N
-Text Label 19000 17275 0    39   ~ 0
+Text Label 19000 17275 0    39   ~ 6
 TXA_P
-Text Label 19000 17375 0    39   ~ 0
+Text Label 19000 17375 0    39   ~ 6
 TXA_N
-Text Label 19000 17475 0    39   ~ 0
+Text Label 19000 17475 0    39   ~ 6
 RXA_P
-Text Label 19000 17575 0    39   ~ 0
+Text Label 19000 17575 0    39   ~ 6
 RXA_N
-Text Label 20000 16150 0    39   ~ 0
+Text Label 20000 16150 0    39   ~ 6
 VDD33TXRX2
-Text Label 19950 18675 0    39   ~ 0
+Text Label 19950 18675 0    39   ~ 6
 VDD33TXRX1
 NoConn ~ 23050 17475
 NoConn ~ 23050 18825
@@ -20185,7 +20184,7 @@ F 9 "Mouser" H 1750 4950 50  0001 C CNN "Vendor"
 $EndComp
 Wire Wire Line
 	1750 5050 1750 5150
-Text Label 11450 14300 0    39   ~ 0
+Text Label 11450 14300 0    39   ~ 6
 USB_PWR
 $Comp
 L SwEmb:SW_BTN_3.7x3.7 S1
@@ -20208,21 +20207,21 @@ Wire Wire Line
 	1000 2500 1000 2250
 Wire Wire Line
 	1000 2250 1100 2250
-Text Label 9400 21400 0    39   ~ 0
+Text Label 9400 21400 0    39   ~ 6
 12V_OUT
-Text Label 10300 21400 0    39   ~ 0
+Text Label 10300 21400 0    39   ~ 6
 VDD_5V_SUP
 Wire Wire Line
 	6700 1000 7300 1000
-Text GLabel 14350 11950 2    50   Input ~ 0
+Text GLabel 14350 11950 2    50   Input ~ 6
 ENCA1
-Text GLabel 14350 12250 2    50   Input ~ 0
+Text GLabel 14350 12250 2    50   Input ~ 6
 ENCB1
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP112
 U 1 1 5CE8A2AC
 P 14350 11950
-F 0 "TP?" V 14425 12050 50  0000 C CNN
+F 0 "TP112" V 14425 12050 50  0000 C CNN
 F 1 "Test_Point" H 14350 12150 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14550 11950 50  0001 C CNN
 F 3 "" H 14550 11950 50  0001 C CNN
@@ -20230,27 +20229,27 @@ F 3 "" H 14550 11950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP113
 U 1 1 5CE8AA39
 P 14350 12250
-F 0 "TP?" V 14425 12350 50  0000 C CNN
+F 0 "TP113" V 14425 12350 50  0000 C CNN
 F 1 "Test_Point" H 14350 12450 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14550 12250 50  0001 C CNN
 F 3 "" H 14550 12250 50  0001 C CNN
 	1    14350 12250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 14350 12550 2    50   Input ~ 0
+Text GLabel 14350 12550 2    50   Input ~ 6
 ENCZ1
-Text GLabel 14175 13250 2    50   Input ~ 0
+Text GLabel 14175 13250 2    50   Input ~ 6
 PWM_IN1
-Text GLabel 14250 13550 2    50   Input ~ 0
+Text GLabel 14250 13550 2    50   Input ~ 6
 ENCSH1
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP109
 U 1 1 5CE8AE0B
 P 14175 13250
-F 0 "TP?" V 14250 13350 50  0000 C CNN
+F 0 "TP109" V 14250 13350 50  0000 C CNN
 F 1 "Test_Point" H 14175 13450 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14375 13250 50  0001 C CNN
 F 3 "" H 14375 13250 50  0001 C CNN
@@ -20258,10 +20257,10 @@ F 3 "" H 14375 13250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP110
 U 1 1 5CE8B40F
 P 14250 13550
-F 0 "TP?" V 14325 13650 50  0000 C CNN
+F 0 "TP110" V 14325 13650 50  0000 C CNN
 F 1 "Test_Point" H 14250 13750 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14450 13550 50  0001 C CNN
 F 3 "" H 14450 13550 50  0001 C CNN
@@ -20269,10 +20268,10 @@ F 3 "" H 14450 13550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP111
 U 1 1 5CE8B78B
 P 14325 14250
-F 0 "TP?" V 14400 14350 50  0000 C CNN
+F 0 "TP111" V 14400 14350 50  0000 C CNN
 F 1 "Test_Point" H 14325 14450 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14525 14250 50  0001 C CNN
 F 3 "" H 14525 14250 50  0001 C CNN
@@ -20280,31 +20279,31 @@ F 3 "" H 14525 14250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP120
 U 1 1 5CE8BD26
 P 19750 14225
-F 0 "TP?" V 19825 14325 50  0000 C CNN
+F 0 "TP120" V 19825 14325 50  0000 C CNN
 F 1 "Test_Point" H 19750 14425 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19950 14225 50  0001 C CNN
 F 3 "" H 19950 14225 50  0001 C CNN
 	1    19750 14225
 	0    -1   -1   0   
 $EndComp
-Text GLabel 19750 11925 2    50   Input ~ 0
+Text GLabel 19750 11925 2    50   Input ~ 6
 ENCA2
-Text GLabel 19750 12225 2    50   Input ~ 0
+Text GLabel 19750 12225 2    50   Input ~ 6
 ENCB2
-Text GLabel 19750 12525 2    50   Input ~ 0
+Text GLabel 19750 12525 2    50   Input ~ 6
 ENCZ2
-Text GLabel 19575 13225 2    50   Input ~ 0
+Text GLabel 19575 13225 2    50   Input ~ 6
 PWM_IN2
-Text GLabel 19625 13525 2    50   Input ~ 0
+Text GLabel 19625 13525 2    50   Input ~ 6
 ENCSH2
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP116
 U 1 1 5CE8C80E
 P 19625 13525
-F 0 "TP?" V 19700 13625 50  0000 C CNN
+F 0 "TP116" V 19700 13625 50  0000 C CNN
 F 1 "Test_Point" H 19625 13725 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19825 13525 50  0001 C CNN
 F 3 "" H 19825 13525 50  0001 C CNN
@@ -20312,10 +20311,10 @@ F 3 "" H 19825 13525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP115
 U 1 1 5CE8CCB7
 P 19575 13225
-F 0 "TP?" V 19650 13325 50  0000 C CNN
+F 0 "TP115" V 19650 13325 50  0000 C CNN
 F 1 "Test_Point" H 19575 13425 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19775 13225 50  0001 C CNN
 F 3 "" H 19775 13225 50  0001 C CNN
@@ -20323,10 +20322,10 @@ F 3 "" H 19775 13225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP119
 U 1 1 5CE8CF41
 P 19750 12525
-F 0 "TP?" V 19825 12625 50  0000 C CNN
+F 0 "TP119" V 19825 12625 50  0000 C CNN
 F 1 "Test_Point" H 19750 12725 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19950 12525 50  0001 C CNN
 F 3 "" H 19950 12525 50  0001 C CNN
@@ -20334,10 +20333,10 @@ F 3 "" H 19950 12525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP118
 U 1 1 5CE8D3C3
 P 19750 12225
-F 0 "TP?" V 19825 12325 50  0000 C CNN
+F 0 "TP118" V 19825 12325 50  0000 C CNN
 F 1 "Test_Point" H 19750 12425 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19950 12225 50  0001 C CNN
 F 3 "" H 19950 12225 50  0001 C CNN
@@ -20345,10 +20344,10 @@ F 3 "" H 19950 12225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP117
 U 1 1 5CE8D956
 P 19750 11925
-F 0 "TP?" V 19825 12025 50  0000 C CNN
+F 0 "TP117" V 19825 12025 50  0000 C CNN
 F 1 "Test_Point" H 19750 12125 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 19950 11925 50  0001 C CNN
 F 3 "" H 19950 11925 50  0001 C CNN
@@ -20356,10 +20355,10 @@ F 3 "" H 19950 11925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:Test_Point TP?
+L SwEmb:Test_Point TP114
 U 1 1 5CEAB1B2
 P 14350 12550
-F 0 "TP?" V 14425 12650 50  0000 C CNN
+F 0 "TP114" V 14425 12650 50  0000 C CNN
 F 1 "Test_Point" H 14350 12750 50  0001 C CNN
 F 2 "SwedishEmbedded:TestPoint_Pad_0.5x0.5mm" H 14550 12550 50  0001 C CNN
 F 3 "" H 14550 12550 50  0001 C CNN
@@ -20367,10 +20366,10 @@ F 3 "" H 14550 12550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SwEmb:RES_1K5_1%_0402 R?
+L SwEmb:RES_1K5_1%_0402 R241
 U 1 1 5D05BB11
 P 11425 14100
-F 0 "R?" H 11484 14100 50  0000 L CNN
+F 0 "R241" H 11484 14100 50  0000 L CNN
 F 1 "RES_1K5_1%_0402" H 11455 14060 50  0001 L CNN
 F 2 "SwedishEmbedded:R_0402_1005Metric" H 11355 14020 50  0001 C CNN
 F 3 "" H 11455 14120 50  0001 C CNN
@@ -20383,7 +20382,7 @@ F 9 "Mouser" H 11425 14100 50  0001 C CNN "Vendor"
 	1    11425 14100
 	1    0    0    -1  
 $EndComp
-Text GLabel 11475 13975 2    50   Input ~ 0
+Text GLabel 11475 13975 2    50   Input ~ 6
 VDD_3V3
 Wire Wire Line
 	11475 13975 11425 13975
@@ -20403,6 +20402,6 @@ Wire Wire Line
 Wire Wire Line
 	11675 14075 11675 14300
 Connection ~ 11675 14300
-Text Notes 11875 14000 0    39   ~ 0
+Text Notes 11875 14000 0    39   ~ 6
 USB FS Device
 $EndSCHEMATC
