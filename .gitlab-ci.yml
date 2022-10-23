@@ -1,0 +1,23 @@
+image:
+    name: swedishembedded/build:v0.24.5
+    pull_policy: if-not-present
+
+default:
+  tags:
+    - docker
+
+stages:
+ - build
+ - deploy
+
+build:
+    stage: build
+    artifacts:
+        paths:
+        expire_in: 1 week
+        when: always
+    rules:
+        - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    script:
+        - echo "Pipeline is empty for now"
+
