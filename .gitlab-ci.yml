@@ -18,6 +18,8 @@ build:
         when: always
     rules:
         - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    before_script:
+        - pip3 install --no-compile kibot
     script:
-        - echo "Pipeline is empty for now"
+        - kibot
 
