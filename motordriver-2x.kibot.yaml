@@ -4,17 +4,30 @@ kibot:
 preflight:
   run_drc: true
 
+global:
+  dir: build
+
 outputs:
+  - name: 'bom-csv'
+    comment: "BoM List"
+    type: kibom
+    options:
+      format: 'CSV'
+      number: 1
+  - name: 'bom-xml'
+    comment: "BoM List"
+    type: kibom
+    options:
+      format: 'XML'
+      number: 1
   - name: 'drill'
     comment: "Drill files"
     type: excellon
-    dir: gerbers
     options:
       pth_and_npth_single_file: false
   - name: 'gerbers'
     comment: "Generating gerber files"
     type: gerber
-    dir: gerbers
     options:
       # generic layer options
       exclude_edge_layer: false
