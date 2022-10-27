@@ -22,5 +22,6 @@ build:
     before_script:
         - pip3 install --no-compile kibot
     script:
-        - kibot
+        - robot integrity
+        - kibot -v -e src/motordriver-2x.kicad_sch
 

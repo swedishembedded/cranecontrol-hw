@@ -8,18 +8,24 @@ global:
   dir: build
 
 outputs:
+  - name: 'drawing'
+    type: pcbdraw
+    comment: "PCB drawing"
   - name: 'bom-csv'
     comment: "BoM List"
-    type: kibom
+    type: bom
     options:
       format: 'CSV'
       number: 1
   - name: 'bom-xml'
     comment: "BoM List"
-    type: kibom
+    type: bom
     options:
       format: 'XML'
       number: 1
+  - name: 'pick-and-place'
+    type: position
+    comment: "Position file"
   - name: 'drill'
     comment: "Drill files"
     type: excellon

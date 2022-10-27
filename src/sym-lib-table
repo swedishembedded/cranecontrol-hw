@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SwEmb)(type KiCad)(uri ${KIPRJMOD}/SwedishEmbedded.kicad_sym)(options "")(descr ""))
+  (lib (name SwedishEmbedded)(type KiCad)(uri /data/hardware/kicad-swe-library/SwedishEmbedded.kicad_sym)(options "")(descr ""))
+)

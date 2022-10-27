@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name CUSTOM)(type KiCad)(uri ${KIPRJMOD}/CUSTOM.pretty)(options "")(descr ""))
-  (lib (name SwedishEmbedded)(type KiCad)(uri ${KIPRJMOD}/SwedishEmbedded.pretty)(options "")(descr ""))
-)
