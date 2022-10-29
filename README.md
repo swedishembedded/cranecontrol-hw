@@ -1,11 +1,18 @@
 # CraneControl Schematic and PCB
 
+![FlyingBergman](doc/header.jpg)
+
 **Electronic hardware for controlling a vehicle mounted movie production crane**
 
 	Copyright (c) 2019-2022 Martin Schröder, All rights reserved.
 
+- Connect with me on LinkedIn: https://www.linkedin.com/in/martinschroder/
+- Connect by email: martin.schroder@swedishembedded.com
+
 This repository contains electical schematic and pcb layouts for boards that
 can be used to control a movie production camera crane.
+
+![FlyingBergman](doc/Render-Top.jpg)
 
 What does such a crane look like in practice? Well here is CraneControl boards
 providing HMI and dual motor control function to FlyingBergman movie production
@@ -33,10 +40,6 @@ an email to info@swedishembedded.com and ask for more information. The complete
 FlyingBergman setup also includes the crane assembly, HMI control panel for
 mounting inside the vehicle and all necessary electronics.
 
-## PCB
-
-![FlyingBergman](doc/Render-Top.jpg)
-
 ## CraneControl platform
 
 FlyingBergman is only one specific application of crane control hardware
@@ -52,6 +55,10 @@ complex control tasks in an industrial environment.
 ## Block diagram
 
 ![FlyingBergman](doc/block_diagram.jpg)
+
+## Schematic PDF
+
+[![Schematic](doc/schematic-screenshot.jpg)](motordriver-2x.pdf)
 
 ## Who is this for
 
@@ -87,8 +94,4 @@ file in this repository.
 
 You can also edit this design in KiCad (version 6.0 or above).
 
-## Connect with me
-
-- Email: martin.schroder@swedishembedded.com
-- LinkedIn: https://www.linkedin.com/in/martinschroder/
 
